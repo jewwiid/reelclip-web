@@ -18,6 +18,9 @@ export function Nav() {
         <Link href="#modes" className="hover:text-text transition">Modes</Link>
         <Link href="#safety" className="hover:text-text transition">Why ReelClip</Link>
         <Link href="#for" className="hover:text-text transition">For creators</Link>
+        <Link href="/competitors" className="hover:text-text transition">Compare</Link>
+        <Link href="/pricing" className="hover:text-text transition">Pricing</Link>
+        <Link href="/account" className="hover:text-text transition">Account</Link>
         <Link
           href="#waitlist"
           className="px-4 py-2 rounded-full bg-accent text-bg font-semibold hover:bg-accent-deep transition"
