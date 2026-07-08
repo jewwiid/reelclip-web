@@ -6,7 +6,7 @@ import { Footer } from "@/components/footer";
 export const metadata: Metadata = {
   title: "ReelClip vs CapCut, InShot, VN, OpusClip, Quik — ReelClip",
   description:
-    "Honest side-by-side: how ReelClip's on-device privacy, four cut modes, and bring-your-own-AI stack up against CapCut, InShot, VN Editor, OpusClip, and Quik.",
+    "Honest side-by-side: how ReelClip's on-device privacy, four cut modes, and strictly on-device Apple Intelligence stack up against CapCut, InShot, VN Editor, OpusClip, and Quik.",
 };
 
 type Check = "yes" | "no" | "partial";
@@ -147,7 +147,7 @@ const COMPARISON: Row[] = [
     quik: "yes",
   },
   {
-    feature: "Multiple cut strategies (fixed / smart / highlight / AI)",
+    feature: "Multiple cut strategies (Cut / Silence / Splice / AI)",
     reelclip: "yes",
     capcut: "partial",
     inshot: "no",
@@ -156,7 +156,7 @@ const COMPARISON: Row[] = [
     quik: "no",
   },
   {
-    feature: "Bring-your-own AI key (OpenAI, Claude, Gemini, MiniMax, Ollama)",
+    feature: "On-device Apple Intelligence (Foundation Models) when iOS 26",
     reelclip: "yes",
     capcut: "no",
     inshot: "no",
@@ -165,7 +165,7 @@ const COMPARISON: Row[] = [
     quik: "no",
   },
   {
-    feature: "On-device Apple Intelligence (Foundation Models) when iOS 26",
+    feature: "Strictly on-device AI — no cloud LLM, no API key",
     reelclip: "yes",
     capcut: "no",
     inshot: "no",
@@ -308,8 +308,8 @@ export default function CompetitorsPage() {
                 body="ReelClip's analysis never uploads your source video. Speech, scene energy, and frame scoring all run locally."
               />
               <NicheCard
-                title="Bring your own AI"
-                body="6 providers (Apple Intelligence, Claude, OpenAI, Gemini, MiniMax, Ollama) with your own API key. We never see your video."
+                title="On-device Apple Intelligence"
+                body="The AI Assist cut planner runs on Apple Intelligence (Foundation Models). No API key, no cloud LLM, no third-party AI provider — your video never leaves your phone."
               />
               <NicheCard
                 title="Open .reelclip format"

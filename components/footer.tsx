@@ -21,7 +21,8 @@ export function Footer() {
 
           <p className="text-sm text-text-muted max-w-md leading-relaxed">
             Cut any video into share-ready clips. On-device by default.
-            Four cut modes. Bring-your-own AI. Built for Reels, TikTok, and Shorts.
+            Four cut modes. AI runs entirely on-device via Apple Intelligence.
+            Built for Reels, TikTok, and Shorts.
           </p>
         </div>
 

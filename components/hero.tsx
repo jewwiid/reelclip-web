@@ -40,7 +40,7 @@ export function Hero() {
         <div className="grid grid-cols-3 gap-4 sm:gap-12 max-w-2xl mx-auto pt-8 border-t border-hairline">
           <Stat label="On-device" detail="No upload to cloud" />
           <Stat label="30 min" detail="Max source length" />
-          <Stat label="4 modes" detail="Fixed / Smart / Highlight / AI" />
+          <Stat label="4 modes" detail="Cut / Silence / Splice / AI" />
         </div>
       </div>
     </section>

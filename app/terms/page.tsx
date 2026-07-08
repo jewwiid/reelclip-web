@@ -44,11 +44,15 @@ export default function TermsPage() {
 
           <Section title="2. The Service">
             <p className="text-text-muted">
-              ReelClip is a video clip preparation tool for iOS. It analyses videos
-              on your device, plans cut points using one of four modes (Fixed,
-              Smart Pause, Highlight, AI Assist), and exports the resulting clips
-              to your Photos library or to a <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs">.reelclip</code> project file.
-              Some features require a paid subscription.
+              ReelClip is a strictly iOS-Apple-native video clip preparation tool.
+              It analyses videos on your device, plans cut points using one of
+              four modes (Cut, Silence, Splice, AI Assist), and exports the
+              resulting clips to your Photos library or to a
+              <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">.reelclip</code>
+              project file. AI Assist runs entirely on-device via Apple
+              Intelligence; no third-party AI services, cloud LLMs, or
+              bring-your-own-API-key integrations are supported. Some features
+              require a paid subscription.
             </p>
           </Section>
 
@@ -162,25 +166,28 @@ export default function TermsPage() {
             <p className="text-text-muted">
               You retain ownership of every video, project, and clip you create in
               ReelClip. We claim no rights over your content. We do not access,
-              upload, or process your source video on our servers. When you use
-              a cloud AI provider in AI Assist mode, you are sending a feature
-              pack directly from your device to the provider you selected, under
-              that provider&apos;s own terms.
+              upload, or process your source video on our servers. AI Assist runs
+              entirely on-device via Apple Intelligence — no video, audio, or
+              feature pack leaves your device when you ask the AI for help.
             </p>
           </Section>
 
           <Section title="8. Third-party services">
             <p className="text-text-muted">
-              The Service integrates with third-party services that have their own
-              terms:
+              The Service integrates with the following Apple and infrastructure
+              services, each governed by their own terms:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted text-sm mt-3">
               <li>Apple App Store / StoreKit 2 — governed by the Apple Media Services Terms and Conditions.</li>
               <li>Apple iCloud (for project backup) — governed by the iCloud Terms and Conditions.</li>
+              <li>Apple Intelligence / Foundation Models (on-device AI runtime) — governed by the Apple Privacy Policy and the iOS end-user licence.</li>
               <li>Stripe (for web subscriptions) — governed by the Stripe Services Agreement.</li>
               <li>Convex (for the waitlist backend) — governed by the Convex terms of service.</li>
-              <li>Cloud AI providers (Claude, OpenAI, Gemini, MiniMax, Ollama) — governed by each provider&apos;s terms. See the in-app AI Provider settings for current links.</li>
             </ul>
+            <p className="text-text-muted mt-3 text-sm">
+              ReelClip does not integrate with any third-party AI provider,
+              bring-your-own-API-key service, or self-hosted LLM endpoint.
+            </p>
           </Section>
 
           <Section title="9. Beta disclaimer">

@@ -11,7 +11,7 @@ const USE_CASES = [
   },
   {
     title: "Creators",
-    description: "Turn long vlogs into story sequences. Fixed mode for predictable posting cadence across your content calendar.",
+    description: "Turn long vlogs into story sequences. Cut mode for predictable posting cadence across your content calendar.",
     icon: "camera",
   },
   {

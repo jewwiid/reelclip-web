@@ -9,7 +9,7 @@ type Mode = {
 
 const MODES: Mode[] = [
   {
-    name: "Fixed",
+    name: "Cut",
     symbol: "scissors",
     tagline: "Predictable equal-length clips.",
     description:
@@ -18,7 +18,7 @@ const MODES: Mode[] = [
     accent: "from-accent/30 to-accent/0",
   },
   {
-    name: "Smart Pause",
+    name: "Silence",
     symbol: "waveform",
     tagline: "Cuts that breathe with the speaker.",
     description:
@@ -27,7 +27,7 @@ const MODES: Mode[] = [
     accent: "from-accent/20 to-accent/0",
   },
   {
-    name: "Highlight",
+    name: "Splice",
     symbol: "sparkles",
     tagline: "Frame-scored moments that pop.",
     description:
@@ -40,8 +40,8 @@ const MODES: Mode[] = [
     symbol: "wand",
     tagline: "Describe the vibe. Get a plan.",
     description:
-      "Send a compact timeline feature pack to your model of choice using your API key. We never see your video — only the metadata needed to plan cuts.",
-    bullets: ["Bring your own API key", "Compact features only", "Plan validation before export"],
+      "Powered by Apple Intelligence on-device. ReelClip builds a compact timeline feature pack (audio energy, silence markers, segment durations, your prompt) and runs it through the on-device model. Your video never leaves your phone.",
+    bullets: ["Runs entirely on-device", "No API key, no cloud LLM", "Plan validation before export"],
     accent: "from-accent/35 to-accent/0",
   },
 ];

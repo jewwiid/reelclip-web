@@ -23,7 +23,8 @@ export default function PrivacyPage() {
             Your footage stays yours.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            ReelClip is on-device by default. This page lists what data we collect,
+            ReelClip is strictly an iOS-Apple-native app. Every AI run starts
+            and finishes on your device. This page lists what data we collect,
             when we collect it, what we do with it, and the rights you have. Last
             updated {UPDATED}.
           </p>
@@ -33,7 +34,7 @@ export default function PrivacyPage() {
           <Section title="1. The short version">
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
               <li>Your source video is analyzed on your device. It is not uploaded to ReelClip servers.</li>
-              <li>AI features that use cloud providers are explicit and opt-in. You bring your own API key.</li>
+              <li>AI runs entirely on-device via Apple Intelligence. No API keys, no cloud round-trips, no third-party AI providers.</li>
               <li>The only personal data ReelClip stores is your email address (for the waitlist) and your subscription receipt (for billing).</li>
               <li>We do not use third-party analytics, advertising SDKs, or cross-app tracking.</li>
             </ul>
@@ -73,13 +74,22 @@ export default function PrivacyPage() {
                 Audio is not sent to Apple servers.
               </li>
               <li>
+                <strong className="text-text">Apple Intelligence</strong> — to run the
+                AI Assist cut planner on-device via the
+                <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">FoundationModels</code>
+                framework. Requires iOS 26+ and Apple Intelligence enabled in iOS
+                Settings. The on-device AI runtime processes your feature pack
+                locally; no video, audio, or analysis data is transmitted.
+              </li>
+              <li>
                 <strong className="text-text">File access (Files / external drives)</strong> — to import a video you have chosen from the Files app or a connected drive, and to export your <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs">.reelclip</code> project files.
               </li>
             </ul>
 
             <h3 className="text-base font-bold text-text mb-2 mt-6">2.3 What we never collect</h3>
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
-              <li>Your source video or any rendered clip (unless you explicitly send it to a cloud AI provider yourself).</li>
+              <li>Your source video or any rendered clip.</li>
+              <li>Your audio, transcript, or any AI feature pack sent to the on-device model.</li>
               <li>Your contact list, photo library contents, location, or device identifiers.</li>
               <li>Crash reports, analytics, or behavioural telemetry.</li>
             </ul>
@@ -101,37 +111,37 @@ export default function PrivacyPage() {
             </p>
           </Section>
 
-          <Section title="4. Cloud AI providers (opt-in)">
+          <Section title="4. AI processing — fully on-device">
             <p className="text-text-muted">
-              ReelClip ships with an "AI Assist" mode that can plan cuts using a cloud
-              language model. This is <strong className="text-text">opt-in</strong> and
-              requires you to enter your own API key for the provider of your choice.
-              We currently support:
+              ReelClip ships with an "AI Assist" cut planner powered by
+              <strong className="text-text"> Apple Intelligence</strong>, the
+              on-device foundation-model framework that Apple introduced in iOS 26.
+              When you tap "Ask Apple Intelligence" in AI mode, ReelClip builds a
+              compact feature pack from your video — audio energy levels, silence
+              markers, planned segment durations, and your edit prompt — and
+              passes it to the on-device model. The model runs entirely on your
+              phone&apos;s Neural Engine:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
-              <li>Apple Intelligence (on-device, no API key, iOS 26+)</li>
-              <li>Anthropic Claude</li>
-              <li>OpenAI</li>
-              <li>Google Gemini</li>
-              <li>ZhipuAI / MiniMax</li>
-              <li>Ollama (self-hosted, local network)</li>
+              <li>No part of the feature pack leaves your device.</li>
+              <li>No video, audio, or transcript is uploaded to Apple, ReelClip, or any third party.</li>
+              <li>No API key is required and none is stored. Apple Intelligence is a system framework, not a service.</li>
+              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable — ReelClip does not silently fall back to a cloud provider. The other three cut modes (Cut, Silence, Splice) remain fully usable on any device.</li>
             </ul>
             <p className="text-text-muted mt-3">
-              When you use a cloud provider, ReelClip sends a compact "feature pack"
-              to that provider. The pack contains audio energy levels, silence
-              markers, planned segment durations, and (for vision-capable providers)
-              up to 8 sampled JPEG frames from your video. Your API key is stored
-              locally in the iOS Keychain on your device and is only sent to the
-              provider you selected. ReelClip does not log or proxy your requests.
+              Apple Intelligence is governed by{" "}
+              <a
+                href="https://www.apple.com/legal/privacy/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-accent hover:underline"
+              >
+                Apple&apos;s Privacy Policy
+              </a>
+              . Apple has stated that Foundation Models requests are processed
+              on-device; the on-device AI runtime does not send prompts to Apple
+              servers.
             </p>
-            <p className="text-text-muted mt-3">
-              Each cloud provider has its own privacy terms:
-            </p>
-            <ul className="list-disc pl-6 space-y-1.5 text-text-muted text-sm mt-3">
-              <li><a href="https://www.anthropic.com/privacy" target="_blank" rel="noreferrer" className="text-accent hover:underline">Anthropic Privacy Policy</a></li>
-              <li><a href="https://openai.com/policies/privacy-policy" target="_blank" rel="noreferrer" className="text-accent hover:underline">OpenAI Privacy Policy</a></li>
-              <li><a href="https://policies.google.com/privacy" target="_blank" rel="noreferrer" className="text-accent hover:underline">Google Privacy Policy</a></li>
-            </ul>
           </Section>
 
           <Section title="5. Project data on your device">
@@ -157,9 +167,8 @@ export default function PrivacyPage() {
             <p className="text-text-muted">
               The waitlist backend (Convex) is hosted in the European Union. Stripe
               and Apple may process payment data in the United States or other
-              regions under their own privacy frameworks. The cloud AI providers
-              listed in section 4 may also process the feature pack you send them in
-              their respective regions.
+              regions under their own privacy frameworks. The on-device AI runtime
+              does not introduce any cross-border data flow.
             </p>
             <p className="text-text-muted mt-3">
               If you are in the European Economic Area, United Kingdom, or
@@ -185,9 +194,9 @@ export default function PrivacyPage() {
           <Section title="9. Security">
             <p className="text-text-muted">
               We use industry-standard transport security (HTTPS / TLS) for all
-              network communication. API keys you store in ReelClip are held in the
-              iOS Keychain. We do not have a traditional account system, so there is
-              no password to leak.
+              network communication. Because ReelClip has no API-key storage and
+              no traditional account system, there is no credential material for
+              us to protect beyond your email address and subscription receipt.
             </p>
           </Section>
 
