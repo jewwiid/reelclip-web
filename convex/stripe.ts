@@ -23,18 +23,26 @@ export function getStripe(): Stripe {
 }
 
 export interface PriceIds {
+  creatorWeekly: string;
   creatorMonthly: string;
   creatorYearly: string;
+  creatorLifetime: string;
+  studioWeekly: string;
   studioMonthly: string;
   studioYearly: string;
+  studioLifetime: string;
 }
 
 export function getPriceIds(): PriceIds {
   return {
+    creatorWeekly: required("STRIPE_PRICE_CREATOR_WEEKLY"),
     creatorMonthly: required("STRIPE_PRICE_CREATOR_MONTHLY"),
     creatorYearly: required("STRIPE_PRICE_CREATOR_YEARLY"),
+    creatorLifetime: required("STRIPE_PRICE_CREATOR_LIFETIME"),
+    studioWeekly: required("STRIPE_PRICE_STUDIO_WEEKLY"),
     studioMonthly: required("STRIPE_PRICE_STUDIO_MONTHLY"),
     studioYearly: required("STRIPE_PRICE_STUDIO_YEARLY"),
+    studioLifetime: required("STRIPE_PRICE_STUDIO_LIFETIME"),
   };
 }
 
@@ -49,8 +57,22 @@ export type Tier = "creator" | "studio";
 /// Map a Stripe price id to a ReelClip tier.
 export function tierForPriceId(priceId: string): Tier | null {
   const ids = getPriceIds();
-  if (priceId === ids.creatorMonthly || priceId === ids.creatorYearly) return "creator";
-  if (priceId === ids.studioMonthly || priceId === ids.studioYearly) return "studio";
+  if (
+    priceId === ids.creatorWeekly ||
+    priceId === ids.creatorMonthly ||
+    priceId === ids.creatorYearly ||
+    priceId === ids.creatorLifetime
+  ) {
+    return "creator";
+  }
+  if (
+    priceId === ids.studioWeekly ||
+    priceId === ids.studioMonthly ||
+    priceId === ids.studioYearly ||
+    priceId === ids.studioLifetime
+  ) {
+    return "studio";
+  }
   return null;
 }
 
@@ -77,9 +99,11 @@ export function normalizeStripeStatus(
   }
 }
 
+export type BillingInterval = "week" | "month" | "year" | "lifetime";
+
 export interface CheckoutInput {
   tier: Tier;
-  interval: "month" | "year";
+  interval: BillingInterval;
   customerEmail?: string;
   appAccountToken?: string;
   successUrl: string;
@@ -91,34 +115,64 @@ export interface CheckoutResult {
   sessionId: string;
 }
 
+/// Map a (tier, interval) pair to the Stripe price id. Lifetime
+/// uses `mode: 'payment'` so the session charges once and never
+/// auto-renews — surfaced as a single line item in the checkout
+/// instead of a subscription. The other three are recurring
+/// subscriptions.
+function priceIdFor(tier: Tier, interval: BillingInterval): string {
+  const ids = getPriceIds();
+  switch (interval) {
+    case "week":     return tier === "creator" ? ids.creatorWeekly   : ids.studioWeekly;
+    case "month":    return tier === "creator" ? ids.creatorMonthly  : ids.studioMonthly;
+    case "year":     return tier === "creator" ? ids.creatorYearly   : ids.studioYearly;
+    case "lifetime": return tier === "creator" ? ids.creatorLifetime : ids.studioLifetime;
+  }
+}
+
 /// Create a Stripe Checkout session for the given tier + interval.
 export async function createCheckoutSession(
   input: CheckoutInput,
 ): Promise<CheckoutResult> {
   const stripe = getStripe();
-  const ids = getPriceIds();
-  const priceId =
-    input.interval === "year"
-      ? input.tier === "creator" ? ids.creatorYearly : ids.studioYearly
-      : input.tier === "creator" ? ids.creatorMonthly : ids.studioMonthly;
+  const priceId = priceIdFor(input.tier, input.interval);
+  const isLifetime = input.interval === "lifetime";
 
+  // Lifetime is a one-time payment — we set mode: 'payment' instead
+  // of 'subscription'. The webhook handler distinguishes by
+  // `mode === 'payment'` and writes a `lifetime_holder` row so the
+  // iOS app's `SubscriptionStore.tier` reflects the unlocked tier
+  // without a recurring subscription.
   const session = await stripe.checkout.sessions.create({
-    mode: "subscription",
+    mode: isLifetime ? "payment" : "subscription",
     line_items: [{ price: priceId, quantity: 1 }],
     customer_email: input.customerEmail,
     success_url: input.successUrl,
     cancel_url: input.cancelUrl,
+    payment_intent_data: isLifetime
+      ? {
+          metadata: {
+            tier: input.tier,
+            interval: "lifetime",
+            appAccountToken: input.appAccountToken ?? "",
+          },
+        }
+      : undefined,
     metadata: {
       tier: input.tier,
+      interval: input.interval,
       appAccountToken: input.appAccountToken ?? "",
     },
-    subscription_data: {
-      metadata: {
-        tier: input.tier,
-        appAccountToken: input.appAccountToken ?? "",
-      },
-    },
-    allow_promotion_codes: true,
+    subscription_data: isLifetime
+      ? undefined
+      : {
+          metadata: {
+            tier: input.tier,
+            interval: input.interval,
+            appAccountToken: input.appAccountToken ?? "",
+          },
+        },
+    allow_promotion_codes: !isLifetime,
   });
 
   if (!session.url) {

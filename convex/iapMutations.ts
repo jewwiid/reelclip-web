@@ -75,6 +75,14 @@ export const applyVerifiedTransaction = internalMutation({
         q.eq("source", "app_store").eq("externalRef", args.transaction.originalTransactionId),
       )
       .first();
+    // Non-renewing (lifetime) products have no expiresDate. Use
+    // year 9999 as the perpetual-end sentinel so the
+    // `currentPeriodEnd > now` filter in
+    // `resolveEntitlementsForLookup` keeps the entitlement active
+    // forever. Mirrors the Stripe lifetime-sentinel used in
+    /// `stripeMutations#onLifetimePaymentSucceeded`.
+    const isLifetime = args.transaction.productId.endsWith(".lifetime");
+    const perpetualEnd = 253402214399000;
     const entDoc = {
       userId: user._id,
       tier: args.tier,
@@ -85,7 +93,7 @@ export const applyVerifiedTransaction = internalMutation({
               args.transaction.status === "billing_retry" ? ("billing_retry" as const) :
               args.transaction.status === "revoked" ? ("cancelled" as const) :
               ("expired" as const),
-      currentPeriodEnd: args.transaction.expiresDate ?? Date.now(),
+      currentPeriodEnd: isLifetime ? perpetualEnd : (args.transaction.expiresDate ?? Date.now()),
       cancelAtPeriodEnd: false,
       updatedAt: Date.now(),
     };
@@ -95,7 +103,7 @@ export const applyVerifiedTransaction = internalMutation({
       await ctx.db.insert("entitlements", entDoc);
     }
 
-    return { userId: user._id, tier: args.tier };
+    return { userId: user._id, tier: args.tier, lifetime: isLifetime };
   },
 });
 

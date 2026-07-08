@@ -7,16 +7,29 @@ const SITE_URL =
 
 const tiers = [
   {
+    id: "creator-weekly" as const,
+    name: "Creator · Weekly",
+    tier: "creator" as const,
+    interval: "week" as const,
+    price: "$2.99 / wk",
+    blurb: "Try the full Creator toolkit with no commitment.",
+    perks: [
+      "AI Assist cuts powered by Apple Intelligence (on-device)",
+      "720p exports, no watermark",
+      "15-minute source videos",
+    ],
+  },
+  {
     id: "creator-monthly" as const,
-    name: "Creator",
+    name: "Creator · Monthly",
     tier: "creator" as const,
     interval: "month" as const,
     price: "$9.99 / mo",
     blurb: "For solo creators shipping a few cuts a week.",
     perks: [
       "AI Assist cuts powered by Apple Intelligence (on-device)",
-      "720p capped exports (no watermark)",
-      "Unlimited projects on-device",
+      "Native-resolution exports, no watermark",
+      "15-minute source videos",
     ],
   },
   {
@@ -25,15 +38,41 @@ const tiers = [
     tier: "creator" as const,
     interval: "year" as const,
     price: "$59.99 / yr",
-    blurb: "Same as monthly, two months free.",
+    blurb: "Best Creator value — save 50% vs paying monthly.",
     perks: [
       "Everything in Creator monthly",
       "Save 50% vs paying monthly",
     ],
   },
   {
+    id: "creator-lifetime" as const,
+    name: "Creator · Lifetime",
+    tier: "creator" as const,
+    interval: "lifetime" as const,
+    price: "$149.99 one-time",
+    blurb: "Pay once. Own Creator forever.",
+    perks: [
+      "Everything in Creator, no renewals",
+      "One-time payment, lifetime access",
+    ],
+  },
+  {
+    id: "studio-weekly" as const,
+    name: "Studio · Weekly",
+    tier: "studio" as const,
+    interval: "week" as const,
+    price: "$4.99 / wk",
+    blurb: "Studio features with a low-commitment trial.",
+    perks: [
+      "Everything in Creator",
+      "Up to 30-minute source videos",
+      "Native-resolution exports, no watermark",
+      "Priority renders + SRT/VTT transcripts",
+    ],
+  },
+  {
     id: "studio-monthly" as const,
-    name: "Studio",
+    name: "Studio · Monthly",
     tier: "studio" as const,
     interval: "month" as const,
     price: "$19.99 / mo",
@@ -51,13 +90,32 @@ const tiers = [
     tier: "studio" as const,
     interval: "year" as const,
     price: "$119.99 / yr",
-    blurb: "Same as monthly, two months free.",
+    blurb: "Best Studio value — save 50% vs paying monthly.",
     perks: [
       "Everything in Studio monthly",
       "Save 50% vs paying monthly",
     ],
   },
+  {
+    id: "studio-lifetime" as const,
+    name: "Studio · Lifetime",
+    tier: "studio" as const,
+    interval: "lifetime" as const,
+    price: "$249.99 one-time",
+    blurb: "Pay once. Own Studio forever.",
+    perks: [
+      "Everything in Studio, no renewals",
+      "One-time payment, lifetime access",
+    ],
+  },
 ];
+
+const cadenceLabel: Record<(typeof tiers)[number]["interval"], string> = {
+  week: "Weekly",
+  month: "Monthly",
+  year: "Annual",
+  lifetime: "Lifetime",
+};
 
 export function PricingClient() {
   const [email, setEmail] = useState("");
@@ -95,8 +153,12 @@ export function PricingClient() {
     }
   }
 
+  // Group tiers by tier (creator / studio) for the visual layout.
+  const creatorTiers = tiers.filter((t) => t.tier === "creator");
+  const studioTiers = tiers.filter((t) => t.tier === "studio");
+
   return (
-    <div className="space-y-10">
+    <div className="space-y-12">
       <div className="rounded-2xl border border-hairline bg-control-surface p-6 sm:p-8">
         <h2 className="text-lg font-bold tracking-tight">Your details</h2>
         <p className="text-sm text-text-muted mt-1">
@@ -133,51 +195,83 @@ export function PricingClient() {
         </div>
       </div>
 
-      <div className="grid md:grid-cols-2 gap-5">
-        {tiers.map((t) => {
-          const isStudio = t.tier === "studio";
-          return (
-            <div
-              key={t.id}
-              className={
-                "rounded-2xl border bg-control-surface p-6 sm:p-7 flex flex-col " +
-                (isStudio
-                  ? "border-accent/40 shadow-[0_0_0_1px_rgba(196,255,53,0.15)]"
-                  : "border-hairline")
-              }
-            >
-              <div className="flex items-center justify-between">
-                <h3 className="text-base font-bold tracking-tight">{t.name}</h3>
-                {isStudio ? (
-                  <span className="text-[10px] uppercase tracking-wider font-bold bg-accent text-bg px-2 py-0.5 rounded-full">
-                    Best for pros
-                  </span>
-                ) : null}
-              </div>
-              <p className="text-sm text-text-muted mt-1.5">{t.blurb}</p>
-              <div className="mt-5 flex items-baseline gap-2">
-                <span className="text-3xl font-extrabold tracking-tight">{t.price}</span>
-              </div>
-              <ul className="mt-5 space-y-2 text-sm text-text-muted flex-1">
-                {t.perks.map((p) => (
-                  <li key={p} className="flex gap-2">
-                    <span className="text-accent mt-0.5">•</span>
-                    <span>{p}</span>
-                  </li>
-                ))}
-              </ul>
-              <button
-                type="button"
-                onClick={() => startCheckout(t)}
-                disabled={!email || busyId !== null}
-                className="mt-6 w-full px-4 py-3 rounded-xl bg-accent text-bg font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-accent-deep transition"
-              >
-                {busyId === t.id ? "Opening Stripe…" : `Subscribe to ${t.name}`}
-              </button>
-            </div>
-          );
-        })}
-      </div>
+      {[
+        { label: "Creator", items: creatorTiers, isStudio: false },
+        { label: "Studio", items: studioTiers, isStudio: true },
+      ].map((group) => (
+        <section key={group.label} className="space-y-4">
+          <div className="flex items-baseline justify-between">
+            <h2 className="text-2xl font-black tracking-tight">
+              {group.label} plans
+            </h2>
+            {group.isStudio ? (
+              <span className="text-[10px] uppercase tracking-wider font-bold bg-accent text-bg px-2 py-0.5 rounded-full">
+                Best for pros
+              </span>
+            ) : null}
+          </div>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+            {group.items.map((t) => {
+              const isBestValue =
+                t.interval === "year" || t.interval === "lifetime";
+              return (
+                <div
+                  key={t.id}
+                  className={
+                    "rounded-2xl border bg-control-surface p-5 sm:p-6 flex flex-col " +
+                    (isBestValue && group.isStudio
+                      ? "border-accent/40 shadow-[0_0_0_1px_rgba(196,255,53,0.15)]"
+                      : "border-hairline")
+                  }
+                >
+                  <div className="flex items-center justify-between mb-2">
+                    <span className="text-[10px] uppercase tracking-wider font-bold text-text-muted">
+                      {cadenceLabel[t.interval]}
+                    </span>
+                    {t.interval === "year" ? (
+                      <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
+                        Save 50%
+                      </span>
+                    ) : t.interval === "lifetime" ? (
+                      <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
+                        Pay once
+                      </span>
+                    ) : null}
+                  </div>
+                  <p className="text-sm text-text-muted leading-snug min-h-[2.5em]">
+                    {t.blurb}
+                  </p>
+                  <div className="mt-4 flex items-baseline gap-1.5">
+                    <span className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                      {t.price}
+                    </span>
+                  </div>
+                  <ul className="mt-4 space-y-1.5 text-xs text-text-muted flex-1">
+                    {t.perks.map((p) => (
+                      <li key={p} className="flex gap-1.5">
+                        <span className="text-accent mt-0.5">•</span>
+                        <span>{p}</span>
+                      </li>
+                    ))}
+                  </ul>
+                  <button
+                    type="button"
+                    onClick={() => startCheckout(t)}
+                    disabled={!email || busyId !== null}
+                    className="mt-5 w-full px-3 py-2.5 rounded-xl bg-accent text-bg text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-accent-deep transition"
+                  >
+                    {busyId === t.id
+                      ? "Opening Stripe…"
+                      : t.interval === "lifetime"
+                        ? `Buy ${group.label} lifetime`
+                        : `Subscribe`}
+                  </button>
+                </div>
+              );
+            })}
+          </div>
+        </section>
+      ))}
 
       {error ? (
         <div className="rounded-xl border border-danger/40 bg-danger/10 p-4 text-sm text-danger">
@@ -187,8 +281,8 @@ export function PricingClient() {
 
       <p className="text-xs text-text-muted text-center max-w-md mx-auto">
         Payments are processed by Stripe. You can cancel or change plans anytime from your{" "}
-        <a href="/account" className="underline hover:text-text">account page</a>. Subscriptions
-        renew automatically until cancelled.
+        <a href="/account" className="underline hover:text-text">account page</a>. Recurring
+        subscriptions renew automatically until cancelled; lifetime plans are a one-time charge.
       </p>
     </div>
   );

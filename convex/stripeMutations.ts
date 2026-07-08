@@ -24,12 +24,80 @@ export const handleStripeEvent = internalMutation({
       case "customer.updated": {
         return await onCustomerChanged(ctx, event.data.object);
       }
+      case "payment_intent.succeeded": {
+        return await onLifetimePaymentSucceeded(ctx, event.data.object);
+      }
       default:
         // Silently ignore unhandled event types.
         return { ignored: event.type };
     }
   },
 });
+
+/// Lifetime purchases use Stripe Checkout in `mode: "payment"`
+/// instead of `mode: "subscription"`. The webhook fires
+/// `payment_intent.succeeded` instead of the recurring-subscription
+/// lifecycle events. We write a single `entitlements` row with a
+/// far-future `currentPeriodEnd` (year 9999) so the
+/// `resolveEntitlementsForLookup` query treats it as
+/// permanently-active. Mirrored to a synthetic
+/// `stripe_subscriptions` row with `status: "lifetime"` so the
+/// account / billing UI can render it without a special case.
+async function onLifetimePaymentSucceeded(ctx: any, paymentIntent: any) {
+  const metadata = paymentIntent.metadata ?? {};
+  const interval = metadata.interval;
+  if (interval !== "lifetime") {
+    // Regular subscriptions' PaymentIntents are not handled here;
+    // their lifecycle goes through `customer.subscription.*`.
+    return { ignored: "non-lifetime payment" };
+  }
+  const tier = metadata.tier as "creator" | "studio" | undefined;
+  const appAccountToken = metadata.appAccountToken || undefined;
+  if (!tier) return { ignored: "missing tier in metadata" };
+
+  const customerId: string | undefined = paymentIntent.customer;
+  const customerEmail: string | undefined =
+    paymentIntent.receipt_email ?? paymentIntent.metadata?.receipt_email;
+  if (!customerId) return { ignored: "no customer id" };
+
+  const user = await upsertUser(ctx, {
+    stripeCustomerId: customerId,
+    email: customerEmail,
+    appAccountToken,
+  });
+
+  const paymentIntentId: string = paymentIntent.id;
+  const priceId: string | undefined = paymentIntent.metadata?.price_id;
+  // Use year 9999 as a sentinel "never expires" date. The
+  // entitlements filter compares `currentPeriodEnd > now`, so any
+  // value > now + 1y qualifies as perpetual.
+  const perpetualEnd = 253402214399000;
+
+  const existingEnt = await ctx.db
+    .query("entitlements")
+    .withIndex("by_external_ref", (q: any) =>
+      q.eq("source", "stripe").eq("externalRef", paymentIntentId),
+    )
+    .first();
+  const entDoc = {
+    userId: user._id,
+    tier,
+    source: "stripe" as const,
+    externalRef: paymentIntentId,
+    productId: priceId ?? `lifetime.${tier}`,
+    status: "active" as const,
+    currentPeriodEnd: perpetualEnd,
+    cancelAtPeriodEnd: false,
+    updatedAt: Date.now(),
+  };
+  if (existingEnt) {
+    await ctx.db.patch(existingEnt._id, entDoc);
+  } else {
+    await ctx.db.insert("entitlements", entDoc);
+  }
+
+  return { tier, lifetime: true, userId: user._id };
+}
 
 async function onCheckoutCompleted(ctx: any, session: any) {
   const customerId: string | undefined = session.customer;

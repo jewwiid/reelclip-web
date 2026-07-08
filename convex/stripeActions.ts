@@ -16,7 +16,12 @@ import {
 export const createStripeCheckout = internalAction({
   args: {
     tier: v.union(v.literal("creator"), v.literal("studio")),
-    interval: v.union(v.literal("month"), v.literal("year")),
+    interval: v.union(
+      v.literal("week"),
+      v.literal("month"),
+      v.literal("year"),
+      v.literal("lifetime")
+    ),
     customerEmail: v.optional(v.string()),
     appAccountToken: v.optional(v.string()),
     successUrl: v.string(),
