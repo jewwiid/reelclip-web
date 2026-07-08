@@ -30,6 +30,7 @@ const tiers = [
       "AI Assist cuts powered by Apple Intelligence (on-device)",
       "Native-resolution exports, no watermark",
       "15-minute source videos",
+      "Multi-scene projects — add scenes, switch between them, batch-export",
     ],
   },
   {
@@ -64,10 +65,10 @@ const tiers = [
     price: "$4.99 / wk",
     blurb: "Studio features with a low-commitment trial.",
     perks: [
-      "Everything in Creator",
+      "Everything in Creator, plus:",
       "Up to 30-minute source videos",
-      "Native-resolution exports, no watermark",
-      "Priority renders + SRT/VTT transcripts",
+      "Priority renders (background queue)",
+      "SRT/VTT subtitle export",
     ],
   },
   {
@@ -78,10 +79,10 @@ const tiers = [
     price: "$19.99 / mo",
     blurb: "For agencies shipping many cuts a day.",
     perks: [
-      "Everything in Creator",
+      "Everything in Creator, plus:",
       "Up to 30-minute source videos",
-      "Native-resolution exports (no watermark)",
-      "Priority support",
+      "Priority renders (background queue)",
+      "SRT/VTT subtitle export",
     ],
   },
   {
