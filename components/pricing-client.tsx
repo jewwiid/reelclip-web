@@ -15,8 +15,9 @@ const tiers = [
     blurb: "Try the full Creator toolkit with no commitment.",
     perks: [
       "AI Assist cuts powered by Apple Intelligence (on-device)",
-      "720p exports, no watermark",
-      "15-minute source videos",
+      "Native-resolution exports, no watermark",
+      "30-minute source videos",
+      "SRT/VTT subtitle export",
     ],
   },
   {
@@ -29,7 +30,8 @@ const tiers = [
     perks: [
       "AI Assist cuts powered by Apple Intelligence (on-device)",
       "Native-resolution exports, no watermark",
-      "15-minute source videos",
+      "30-minute source videos",
+      "SRT/VTT subtitle export",
       "Multi-scene projects — add scenes, switch between them, batch-export",
     ],
   },
@@ -54,58 +56,6 @@ const tiers = [
     blurb: "Pay once. Own Creator forever.",
     perks: [
       "Everything in Creator, no renewals",
-      "One-time payment, lifetime access",
-    ],
-  },
-  {
-    id: "studio-weekly" as const,
-    name: "Studio · Weekly",
-    tier: "studio" as const,
-    interval: "week" as const,
-    price: "$4.99 / wk",
-    blurb: "Studio features with a low-commitment trial.",
-    perks: [
-      "Everything in Creator, plus:",
-      "Up to 30-minute source videos",
-      "Priority renders (background queue)",
-      "SRT/VTT subtitle export",
-    ],
-  },
-  {
-    id: "studio-monthly" as const,
-    name: "Studio · Monthly",
-    tier: "studio" as const,
-    interval: "month" as const,
-    price: "$19.99 / mo",
-    blurb: "For agencies shipping many cuts a day.",
-    perks: [
-      "Everything in Creator, plus:",
-      "Up to 30-minute source videos",
-      "Priority renders (background queue)",
-      "SRT/VTT subtitle export",
-    ],
-  },
-  {
-    id: "studio-yearly" as const,
-    name: "Studio · Annual",
-    tier: "studio" as const,
-    interval: "year" as const,
-    price: "$119.99 / yr",
-    blurb: "Best Studio value — save 50% vs paying monthly.",
-    perks: [
-      "Everything in Studio monthly",
-      "Save 50% vs paying monthly",
-    ],
-  },
-  {
-    id: "studio-lifetime" as const,
-    name: "Studio · Lifetime",
-    tier: "studio" as const,
-    interval: "lifetime" as const,
-    price: "$249.99 one-time",
-    blurb: "Pay once. Own Studio forever.",
-    perks: [
-      "Everything in Studio, no renewals",
       "One-time payment, lifetime access",
     ],
   },
@@ -154,9 +104,10 @@ export function PricingClient() {
     }
   }
 
-  // Group tiers by tier (creator / studio) for the visual layout.
-  const creatorTiers = tiers.filter((t) => t.tier === "creator");
-  const studioTiers = tiers.filter((t) => t.tier === "studio");
+  // Single tier now — Studio was merged into Creator in v2.0.
+  // All paid features (30-min sources, SRT/VTT, multi-scene, custom
+  // export quality) live on Creator.
+  const creatorTiers = tiers;
 
   return (
     <div className="space-y-12">
@@ -196,83 +147,76 @@ export function PricingClient() {
         </div>
       </div>
 
-      {[
-        { label: "Creator", items: creatorTiers, isStudio: false },
-        { label: "Studio", items: studioTiers, isStudio: true },
-      ].map((group) => (
-        <section key={group.label} className="space-y-4">
-          <div className="flex items-baseline justify-between">
-            <h2 className="text-2xl font-black tracking-tight">
-              {group.label} plans
-            </h2>
-            {group.isStudio ? (
-              <span className="text-[10px] uppercase tracking-wider font-bold bg-accent text-bg px-2 py-0.5 rounded-full">
-                Best for pros
-              </span>
-            ) : null}
-          </div>
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-            {group.items.map((t) => {
-              const isBestValue =
-                t.interval === "year" || t.interval === "lifetime";
-              return (
-                <div
-                  key={t.id}
-                  className={
-                    "rounded-2xl border bg-control-surface p-5 sm:p-6 flex flex-col " +
-                    (isBestValue && group.isStudio
-                      ? "border-accent/40 shadow-[0_0_0_1px_rgba(196,255,53,0.15)]"
-                      : "border-hairline")
-                  }
-                >
-                  <div className="flex items-center justify-between mb-2">
-                    <span className="text-[10px] uppercase tracking-wider font-bold text-text-muted">
-                      {cadenceLabel[t.interval]}
+      <section className="space-y-4">
+        <div className="flex items-baseline justify-between">
+          <h2 className="text-2xl font-black tracking-tight">
+            Creator plans
+          </h2>
+          <span className="text-[10px] uppercase tracking-wider font-bold bg-accent text-bg px-2 py-0.5 rounded-full">
+            Everything paid
+          </span>
+        </div>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          {creatorTiers.map((t) => {
+            const isBestValue =
+              t.interval === "year" || t.interval === "lifetime";
+            return (
+              <div
+                key={t.id}
+                className={
+                  "rounded-2xl border bg-control-surface p-5 sm:p-6 flex flex-col " +
+                  (isBestValue
+                    ? "border-accent/40 shadow-[0_0_0_1px_rgba(196,255,53,0.15)]"
+                    : "border-hairline")
+                }
+              >
+                <div className="flex items-center justify-between mb-2">
+                  <span className="text-[10px] uppercase tracking-wider font-bold text-text-muted">
+                    {cadenceLabel[t.interval]}
+                  </span>
+                  {t.interval === "year" ? (
+                    <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
+                      Save 50%
                     </span>
-                    {t.interval === "year" ? (
-                      <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
-                        Save 50%
-                      </span>
-                    ) : t.interval === "lifetime" ? (
-                      <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
-                        Pay once
-                      </span>
-                    ) : null}
-                  </div>
-                  <p className="text-sm text-text-muted leading-snug min-h-[2.5em]">
-                    {t.blurb}
-                  </p>
-                  <div className="mt-4 flex items-baseline gap-1.5">
-                    <span className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-                      {t.price}
+                  ) : t.interval === "lifetime" ? (
+                    <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
+                      Pay once
                     </span>
-                  </div>
-                  <ul className="mt-4 space-y-1.5 text-xs text-text-muted flex-1">
-                    {t.perks.map((p) => (
-                      <li key={p} className="flex gap-1.5">
-                        <span className="text-accent mt-0.5">•</span>
-                        <span>{p}</span>
-                      </li>
-                    ))}
-                  </ul>
-                  <button
-                    type="button"
-                    onClick={() => startCheckout(t)}
-                    disabled={!email || busyId !== null}
-                    className="mt-5 w-full px-3 py-2.5 rounded-xl bg-accent text-bg text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-accent-deep transition"
-                  >
-                    {busyId === t.id
-                      ? "Opening Stripe…"
-                      : t.interval === "lifetime"
-                        ? `Buy ${group.label} lifetime`
-                        : `Subscribe`}
-                  </button>
+                  ) : null}
                 </div>
-              );
-            })}
-          </div>
-        </section>
-      ))}
+                <p className="text-sm text-text-muted leading-snug min-h-[2.5em]">
+                  {t.blurb}
+                </p>
+                <div className="mt-4 flex items-baseline gap-1.5">
+                  <span className="text-2xl sm:text-3xl font-extrabold tracking-tight">
+                    {t.price}
+                  </span>
+                </div>
+                <ul className="mt-4 space-y-1.5 text-xs text-text-muted flex-1">
+                  {t.perks.map((p) => (
+                    <li key={p} className="flex gap-1.5">
+                      <span className="text-accent mt-0.5">•</span>
+                      <span>{p}</span>
+                    </li>
+                  ))}
+                </ul>
+                <button
+                  type="button"
+                  onClick={() => startCheckout(t)}
+                  disabled={!email || busyId !== null}
+                  className="mt-5 w-full px-3 py-2.5 rounded-xl bg-accent text-bg text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-accent-deep transition"
+                >
+                  {busyId === t.id
+                    ? "Opening Stripe…"
+                    : t.interval === "lifetime"
+                      ? `Buy Creator lifetime`
+                      : `Subscribe`}
+                </button>
+              </div>
+            );
+          })}
+        </div>
+      </section>
 
       {error ? (
         <div className="rounded-xl border border-danger/40 bg-danger/10 p-4 text-sm text-danger">

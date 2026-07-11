@@ -78,14 +78,17 @@ const stripeCheckout = httpAction(async (ctx, request) => {
   }
   const tier = body.tier;
   const interval = body.interval;
-  if (tier !== "creator" && tier !== "studio") return badRequest("tier must be creator|studio");
-  if (interval !== "month" && interval !== "year") return badRequest("interval must be month|year");
+  if (tier !== "creator" && tier !== "studio") return badRequest("tier must be creator");
+  // "studio" is still accepted (and coerced to "creator") for back-compat
+  // with any pre-v2.0 cached callers; the new tier model is Creator-only.
+  const normalizedTier = tier === "studio" ? "creator" : "creator";
+  if (interval !== "week" && interval !== "month" && interval !== "year" && interval !== "lifetime") return badRequest("interval must be week|month|year|lifetime");
 
   const baseUrl = process.env.PUBLIC_BASE_URL ?? new URL(request.url).origin;
 
   try {
     const result = await ctx.runAction(internal.stripeActions.createStripeCheckout, {
-      tier,
+      tier: normalizedTier,
       interval,
       customerEmail: typeof body.customerEmail === "string" ? body.customerEmail : undefined,
       appAccountToken: typeof body.appAccountToken === "string" ? body.appAccountToken : undefined,

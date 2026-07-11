@@ -109,9 +109,15 @@ function normalizeTransaction(data: any): AppleTransaction {
   };
 }
 
-/// Map a product id to a ReelClip tier. Mirrors the iOS SubscriptionStore.
+/// Map a product id to a ReelClip tier. Mirrors the iOS
+/// `SubscriptionStore.tierForProductID` (which also maps legacy
+/// Studio productIds to Creator for back-compat). Only Creator is
+/// surfaced in v2.0; the `"studio"` literal is kept in the return
+/// type so callers can still distinguish a Studio-origin IAP for
+/// audit / debugging, but the resolved value is always Creator
+/// post-v2.0.
 export function tierForProduct(productId: string): "creator" | "studio" | null {
   if (productId.startsWith("rc.creator.")) return "creator";
-  if (productId.startsWith("rc.studio.")) return "studio";
+  if (productId.startsWith("rc.studio.")) return "creator"; // Studio is a Creator-equivalent now
   return null;
 }

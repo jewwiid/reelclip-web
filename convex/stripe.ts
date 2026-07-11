@@ -27,10 +27,6 @@ export interface PriceIds {
   creatorMonthly: string;
   creatorYearly: string;
   creatorLifetime: string;
-  studioWeekly: string;
-  studioMonthly: string;
-  studioYearly: string;
-  studioLifetime: string;
 }
 
 export function getPriceIds(): PriceIds {
@@ -39,10 +35,6 @@ export function getPriceIds(): PriceIds {
     creatorMonthly: required("STRIPE_PRICE_CREATOR_MONTHLY"),
     creatorYearly: required("STRIPE_PRICE_CREATOR_YEARLY"),
     creatorLifetime: required("STRIPE_PRICE_CREATOR_LIFETIME"),
-    studioWeekly: required("STRIPE_PRICE_STUDIO_WEEKLY"),
-    studioMonthly: required("STRIPE_PRICE_STUDIO_MONTHLY"),
-    studioYearly: required("STRIPE_PRICE_STUDIO_YEARLY"),
-    studioLifetime: required("STRIPE_PRICE_STUDIO_LIFETIME"),
   };
 }
 
@@ -52,9 +44,14 @@ function required(name: string): string {
   return v;
 }
 
-export type Tier = "creator" | "studio";
+export type Tier = "creator";
 
-/// Map a Stripe price id to a ReelClip tier.
+/// Map a Stripe price id to a ReelClip tier. Returns `null` for
+/// unknown price ids (e.g. legacy Studio Stripe price ids from
+/// before the v2.0 tier consolidation — those should be ignored at
+/// checkout time but existing rows in the DB still resolve to
+/// "creator" via the `studio` → `creator` migration in
+/// `iapMutations.applyVerifiedTransaction`).
 export function tierForPriceId(priceId: string): Tier | null {
   const ids = getPriceIds();
   if (
@@ -64,14 +61,6 @@ export function tierForPriceId(priceId: string): Tier | null {
     priceId === ids.creatorLifetime
   ) {
     return "creator";
-  }
-  if (
-    priceId === ids.studioWeekly ||
-    priceId === ids.studioMonthly ||
-    priceId === ids.studioYearly ||
-    priceId === ids.studioLifetime
-  ) {
-    return "studio";
   }
   return null;
 }
@@ -119,14 +108,14 @@ export interface CheckoutResult {
 /// uses `mode: 'payment'` so the session charges once and never
 /// auto-renews — surfaced as a single line item in the checkout
 /// instead of a subscription. The other three are recurring
-/// subscriptions.
-function priceIdFor(tier: Tier, interval: BillingInterval): string {
+/// subscriptions. Only Creator prices exist post v2.0.
+function priceIdFor(_tier: Tier, interval: BillingInterval): string {
   const ids = getPriceIds();
   switch (interval) {
-    case "week":     return tier === "creator" ? ids.creatorWeekly   : ids.studioWeekly;
-    case "month":    return tier === "creator" ? ids.creatorMonthly  : ids.studioMonthly;
-    case "year":     return tier === "creator" ? ids.creatorYearly   : ids.studioYearly;
-    case "lifetime": return tier === "creator" ? ids.creatorLifetime : ids.studioLifetime;
+    case "week":     return ids.creatorWeekly;
+    case "month":    return ids.creatorMonthly;
+    case "year":     return ids.creatorYearly;
+    case "lifetime": return ids.creatorLifetime;
   }
 }
 

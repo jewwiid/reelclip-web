@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Hero() {
   return (
@@ -11,15 +12,29 @@ export function Hero() {
           <span className="text-xs font-medium text-text-muted">TestFlight beta · iOS 17+</span>
         </div>
 
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <Image
+          src="/wordmark.png"
+          alt="ReelClip"
+          width={300}
+          height={86}
+          priority
+          className="h-16 sm:h-20 w-auto mx-auto mb-8"
+        />
+
         <h1 className="text-5xl sm:text-7xl font-black tracking-tight leading-[0.95] mb-6">
           Cut any video
           <br />
           into <span className="gradient-text">share-ready clips.</span>
         </h1>
 
-        <p className="text-lg sm:text-xl text-text-muted max-w-2xl mx-auto mb-10 leading-relaxed">
+        <p className="text-lg sm:text-xl text-text-muted max-w-2xl mx-auto mb-3 leading-relaxed">
           Built for creators who publish to Reels, TikTok, and Shorts.
           Four cut modes. On-device analysis. Review before export.
+        </p>
+
+        <p className="text-sm sm:text-base font-bold uppercase tracking-[0.22em] text-accent mb-10">
+          Reelclip - make good clips, Really
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-16">

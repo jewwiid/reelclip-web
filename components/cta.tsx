@@ -1,6 +1,7 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useMutation } from "convex/react";
 import { api } from "@/convex/_generated/api";
 
@@ -37,6 +38,14 @@ export function CTA() {
       <div className="absolute inset-0 bg-radial-spotlight opacity-50" />
 
       <div className="relative max-w-3xl mx-auto text-center">
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <Image
+          src="/app-icon-button.png"
+          alt="ReelClip"
+          width={120}
+          height={120}
+          className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-8 rounded-[26%] shadow-2xl shadow-accent/10"
+        />
         <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-4">
           TestFlight beta
         </div>

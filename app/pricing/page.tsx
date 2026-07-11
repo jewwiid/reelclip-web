@@ -6,7 +6,7 @@ import { PricingClient } from "@/components/pricing-client";
 export const metadata: Metadata = {
   title: "Pricing — ReelClip",
   description:
-    "Pick a Creator or Studio plan and start shipping share-ready clips. Cancel anytime.",
+    "Pick a Creator plan and start shipping share-ready clips. Cancel anytime.",
 };
 
 export default async function PricingPage(props: {

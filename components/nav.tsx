@@ -1,17 +1,19 @@
 import Link from "next/link";
+import Image from "next/image";
 
 export function Nav() {
   return (
     <nav className="relative z-20 flex items-center justify-between px-6 sm:px-10 py-5 border-b border-hairline">
       <Link href="/" className="flex items-center gap-2.5 group">
-        <div className="w-8 h-8 rounded-lg bg-accent flex items-center justify-center accent-glow group-hover:scale-105 transition-transform">
-          <svg viewBox="0 0 24 24" className="w-5 h-5 text-bg" fill="currentColor">
-            <path d="M4 5h16v3H4zM4 9h10v3H4zM4 13h16v3H4zM4 17h10v3H4z" opacity="0.25" />
-            <circle cx="19" cy="11" r="2.2" />
-            <circle cx="19" cy="17" r="2.2" />
-          </svg>
-        </div>
-        <span className="text-lg font-bold tracking-tight">ReelClip</span>
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <Image
+          src="/wordmark.png"
+          alt="ReelClip"
+          width={140}
+          height={40}
+          priority
+          className="h-8 sm:h-9 w-auto group-hover:opacity-90 transition-opacity"
+        />
       </Link>
 
       <div className="hidden sm:flex items-center gap-8 text-sm text-text-muted">

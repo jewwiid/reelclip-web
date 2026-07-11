@@ -2,9 +2,13 @@ import { v } from "convex/values";
 import { mutation, query } from "./_generated/server";
 import { Doc } from "./_generated/dataModel";
 
-/// Tier resolution rules — Studio always beats Creator, both beat Free.
-/// Exposed as a helper so /get-entitlements and the iOS verify handler use
-/// the same logic.
+/// Tier resolution rules. Studio was merged into Creator in v2.0,
+/// so any pre-v2.0 row with `tier === "studio"` is treated as
+/// Creator. The return type keeps the `"studio"` literal so
+/// callers that read the field can still pattern-match (and to
+/// preserve back-compat with anything else that depends on the
+/// literal), but the value is always coerced to "creator" in the
+/// if-chain below.
 export function resolveTier(
   candidates: Array<Pick<Doc<"entitlements">, "tier" | "status" | "currentPeriodEnd">>,
   now: number,
@@ -14,8 +18,7 @@ export function resolveTier(
       (e.status === "active" || e.status === "billing_retry") &&
       e.currentPeriodEnd > now,
   );
-  if (active.some((e) => e.tier === "studio")) return "studio";
-  if (active.some((e) => e.tier === "creator")) return "creator";
+  if (active.some((e) => e.tier === "creator" || e.tier === "studio")) return "creator";
   return "free";
 }
 

@@ -66,10 +66,10 @@ export default function TermsPage() {
               The current in-app plans are:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted mt-3">
+              <li><strong className="text-text">Creator Weekly</strong> — $2.99 / week</li>
               <li><strong className="text-text">Creator Monthly</strong> — $9.99 / month (with a 3-day free trial on the first purchase)</li>
               <li><strong className="text-text">Creator Yearly</strong> — $59.99 / year (≈50% off vs monthly)</li>
-              <li><strong className="text-text">Studio Monthly</strong> — $19.99 / month</li>
-              <li><strong className="text-text">Studio Yearly</strong> — $119.99 / year (≈50% off vs monthly)</li>
+              <li><strong className="text-text">Creator Lifetime</strong> — $149.99 one-time, perpetual access</li>
             </ul>
             <p className="text-text-muted mt-4">
               <strong className="text-text">Auto-renewal.</strong> Your subscription

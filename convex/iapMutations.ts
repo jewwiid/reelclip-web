@@ -36,7 +36,7 @@ export const applyVerifiedTransaction = internalMutation({
       environment: v.union(v.literal("sandbox"), v.literal("production")),
       raw: v.any(),
     }),
-    tier: v.union(v.literal("creator"), v.literal("studio")),
+    tier: v.union(v.literal("creator"), v.literal("studio")), // "studio" kept for back-compat with pre-v2.0 IAP rows; coerced to "creator" below
   },
   handler: async (ctx, args) => {
     const user = await upsertUser(ctx, {
@@ -85,7 +85,11 @@ export const applyVerifiedTransaction = internalMutation({
     const perpetualEnd = 253402214399000;
     const entDoc = {
       userId: user._id,
-      tier: args.tier,
+      // Coerce legacy `studio` tier argument to `creator` so
+      // existing Studio lifetime buyers' entitlements land on
+      // Creator post-v2.0. New code paths always pass "creator"
+      // (the only paid tier that exists in the v2.0 model).
+      tier: args.tier === "studio" ? "creator" : args.tier,
       source: "app_store" as const,
       externalRef: args.transaction.originalTransactionId,
       productId: args.transaction.productId,
@@ -103,7 +107,7 @@ export const applyVerifiedTransaction = internalMutation({
       await ctx.db.insert("entitlements", entDoc);
     }
 
-    return { userId: user._id, tier: args.tier, lifetime: isLifetime };
+    return { userId: user._id, tier: entDoc.tier, lifetime: isLifetime };
   },
 });
 
@@ -142,9 +146,12 @@ export const resolveEntitlementsForLookup = internalQuery({
         (e.status === "active" || e.status === "billing_retry") &&
         e.currentPeriodEnd > now,
     );
+    // Studio was merged into Creator in v2.0 — any pre-v2.0 row
+    // still on "studio" is treated as Creator for entitlement
+    // purposes. The legacy "studio" literal in the schema is kept
+    // for back-compat only; no new row should be written with it.
     const tier = ((): "free" | "creator" | "studio" => {
-      if (active.some((e) => e.tier === "studio")) return "studio";
-      if (active.some((e) => e.tier === "creator")) return "creator";
+      if (active.some((e) => e.tier === "creator" || e.tier === "studio")) return "creator";
       return "free";
     })();
 

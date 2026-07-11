@@ -15,6 +15,10 @@ import {
 
 export const createStripeCheckout = internalAction({
   args: {
+    // "studio" is kept in the union for back-compat with any
+    // cached HTTP callers; the Stripe checkout action coerces it
+    // to "creator" since Studio is no longer a purchasable tier in
+    // v2.0.
     tier: v.union(v.literal("creator"), v.literal("studio")),
     interval: v.union(
       v.literal("week"),
@@ -28,8 +32,13 @@ export const createStripeCheckout = internalAction({
     cancelUrl: v.string(),
   },
   handler: async (_ctx, args) => {
+    // Coerce any legacy "studio" arg to "creator" — the v2.0
+    // Stripe checkout only knows about Creator. The union stays
+    // in the public arg type for back-compat with cached HTTP
+    // callers; this is the chokepoint that filters it out.
+    const tier = args.tier === "studio" ? "creator" : args.tier;
     const session = await createCheckoutSession({
-      tier: args.tier,
+      tier,
       interval: args.interval,
       customerEmail: args.customerEmail,
       appAccountToken: args.appAccountToken,

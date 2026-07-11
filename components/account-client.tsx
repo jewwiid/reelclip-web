@@ -81,15 +81,16 @@ export function AccountClient() {
     }
   }
 
+  // Studio was merged into Creator in v2.0 — any pre-v2.0 row
+  // still labelled "studio" surfaces as "Creator" everywhere in
+  // the account UI.
   const tierLabel = (t: string) =>
-    t === "studio" ? "Studio" : t === "creator" ? "Creator" : "Free";
+    t === "creator" || t === "studio" ? "Creator" : "Free";
 
   const tierColor = (t: string) =>
-    t === "studio"
-      ? "bg-accent text-bg"
-      : t === "creator"
-        ? "bg-accent/20 text-accent"
-        : "bg-hairline text-text-muted";
+    t === "creator" || t === "studio"
+      ? "bg-accent/20 text-accent"
+      : "bg-hairline text-text-muted";
 
   const formatDate = (ms: number) => {
     if (!ms || !Number.isFinite(ms)) return "—";

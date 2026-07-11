@@ -10,10 +10,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ReelClip — Cut any video into share-ready clips",
+  title: "Reelclip - make good clips, Really",
   description:
-    "Built for creators who publish to Reels, TikTok, Shorts, and beyond. Four cut modes, on-device analysis, review-before-export safety. Free to start.",
-  applicationName: "ReelClip",
+    "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts. Reelclip - make good clips, Really.",
+  applicationName: "Reelclip",
   keywords: [
     "video cutter",
     "video splitter",
@@ -23,24 +23,24 @@ export const metadata: Metadata = {
     "highlights",
     "creator tools",
   ],
-  authors: [{ name: "ReelClip" }],
+  authors: [{ name: "Reelclip" }],
   openGraph: {
-    title: "ReelClip — Cut any video into share-ready clips",
+    title: "Reelclip - make good clips, Really",
     description:
-      "Built for creators. Four cut modes. On-device analysis. Review-before-export safety.",
+      "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts.",
     url: "https://reelclip.app",
-    siteName: "ReelClip",
+    siteName: "Reelclip",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "ReelClip — Cut any video into share-ready clips",
+    title: "Reelclip - make good clips, Really",
     description:
-      "Built for creators. Four cut modes. On-device analysis. Review-before-export safety.",
+      "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts.",
   },
   icons: {
-    icon: "/icon.svg",
-    apple: "/icon.svg",
+    icon: "/logomark.png",
+    apple: "/logomark.png",
   },
 };
 

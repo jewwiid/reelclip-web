@@ -51,7 +51,12 @@ async function onLifetimePaymentSucceeded(ctx: any, paymentIntent: any) {
     // their lifecycle goes through `customer.subscription.*`.
     return { ignored: "non-lifetime payment" };
   }
-  const tier = metadata.tier as "creator" | "studio" | undefined;
+  // Coerce legacy "studio" tier argument to "creator" so any
+  // pre-v2.0 Stripe lifetime purchase metadata maps cleanly onto
+  // the v2.0 tier model. New code always passes "creator".
+  const rawTier = metadata.tier as "creator" | "studio" | undefined;
+  const tier: "creator" | undefined =
+    rawTier === "creator" || rawTier === "studio" ? "creator" : undefined;
   const appAccountToken = metadata.appAccountToken || undefined;
   if (!tier) return { ignored: "missing tier in metadata" };
 
