@@ -4,6 +4,6 @@
   "buildCommand": "next build",
   "installCommand": "npm install",
   "env": {
-    "NEXT_PUBLIC_CONVEX_URL": "https://brave-mongoose-440.eu-west-1.convex.cloud"
+    "NEXT_PUBLIC_CONVEX_URL": "https://wonderful-impala-496.eu-west-1.convex.cloud"
   }
 }
