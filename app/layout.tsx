@@ -10,10 +10,10 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Reelclip - make good clips, Really",
+  title: "ReelClips — make good clips, Really",
   description:
-    "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts. Reelclip - make good clips, Really.",
-  applicationName: "Reelclip",
+    "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts. ReelClips — make good clips, Really.",
+  applicationName: "ReelClips",
   keywords: [
     "video cutter",
     "video splitter",
@@ -23,18 +23,18 @@ export const metadata: Metadata = {
     "highlights",
     "creator tools",
   ],
-  authors: [{ name: "Reelclip" }],
+  authors: [{ name: "ReelClips" }],
   openGraph: {
-    title: "Reelclip - make good clips, Really",
+    title: "ReelClips — make good clips, Really",
     description:
       "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts.",
-    url: "https://reelclip.app",
-    siteName: "Reelclip",
+    url: "https://reelclips.app",
+    siteName: "ReelClips",
     type: "website",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Reelclip - make good clips, Really",
+    title: "ReelClips — make good clips, Really",
     description:
       "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts.",
   },

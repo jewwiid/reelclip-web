@@ -34,7 +34,7 @@ export function Hero() {
         </p>
 
         <p className="text-sm sm:text-base font-bold uppercase tracking-[0.22em] text-accent mb-10">
-          Reelclip - make good clips, Really
+          ReelClips — make good clips, Really
         </p>
 
         <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-16">
