@@ -3,9 +3,9 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ReelClip",
+  title: "Privacy Policy — ReelClips",
   description:
-    "What data ReelClip collects, how it is used, and the rights you have. On-device by default.",
+    "What data ReelClips collects, how it is used, and the rights you have. On-device by default.",
 };
 
 const UPDATED = "July 8, 2026";
@@ -23,7 +23,7 @@ export default function PrivacyPage() {
             Your footage stays yours.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            ReelClip is strictly an iOS-Apple-native app. Every AI run starts
+            ReelClips is strictly an iOS-Apple-native app. Every AI run starts
             and finishes on your device. This page lists what data we collect,
             when we collect it, what we do with it, and the rights you have. Last
             updated {UPDATED}.
@@ -33,9 +33,9 @@ export default function PrivacyPage() {
         <article className="prose-sm space-y-10 text-text leading-relaxed">
           <Section title="1. The short version">
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
-              <li>Your source video is analyzed on your device. It is not uploaded to ReelClip servers.</li>
+              <li>Your source video is analyzed on your device. It is not uploaded to ReelClips servers.</li>
               <li>AI runs entirely on-device via Apple Intelligence. No API keys, no cloud round-trips, no third-party AI providers.</li>
-              <li>The only personal data ReelClip stores is your email address (for the waitlist) and your subscription receipt (for billing).</li>
+              <li>The only personal data ReelClips stores is your email address (for the waitlist) and your subscription receipt (for billing).</li>
               <li>We do not use third-party analytics, advertising SDKs, or cross-app tracking.</li>
             </ul>
           </Section>
@@ -52,7 +52,7 @@ export default function PrivacyPage() {
 
             <h3 className="text-base font-bold text-text mb-2 mt-6">2.2 iOS permissions</h3>
             <p className="text-text-muted">
-              ReelClip requests the following iOS permissions. We only ask when the
+              ReelClips requests the following iOS permissions. We only ask when the
               feature is first used. You can revoke any of these in iOS Settings at any
               time.
             </p>
@@ -111,12 +111,12 @@ export default function PrivacyPage() {
             </p>
           </Section>
 
-          <Section title="4. AI processing — fully on-device">
+            <Section title="4. AI processing — fully on-device">
             <p className="text-text-muted">
-              ReelClip ships with an "AI Assist" cut planner powered by
+              ReelClips ships with an "AI Assist" cut planner powered by
               <strong className="text-text"> Apple Intelligence</strong>, the
               on-device foundation-model framework that Apple introduced in iOS 26.
-              When you tap "Ask Apple Intelligence" in AI mode, ReelClip builds a
+              When you tap "Ask Apple Intelligence" in AI mode, ReelClips builds a
               compact feature pack from your video — audio energy levels, silence
               markers, planned segment durations, and your edit prompt — and
               passes it to the on-device model. The model runs entirely on your
@@ -124,9 +124,9 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
               <li>No part of the feature pack leaves your device.</li>
-              <li>No video, audio, or transcript is uploaded to Apple, ReelClip, or any third party.</li>
+              <li>No video, audio, or transcript is uploaded to Apple, ReelClips, or any third party.</li>
               <li>No API key is required and none is stored. Apple Intelligence is a system framework, not a service.</li>
-              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable — ReelClip does not silently fall back to a cloud provider. The other three cut modes (Cut, Silence, Splice) remain fully usable on any device.</li>
+              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable — ReelClips does not silently fall back to a cloud provider. The other three cut modes (Cut, Silence, Splice) remain fully usable on any device.</li>
             </ul>
             <p className="text-text-muted mt-3">
               Apple Intelligence is governed by{" "}
@@ -146,7 +146,7 @@ export default function PrivacyPage() {
 
           <Section title="5. Project data on your device">
             <p className="text-text-muted">
-              ReelClip stores your projects, planned ranges, scene metadata, and
+              ReelClips stores your projects, planned ranges, scene metadata, and
               highlight drafts in a JSON file inside the app&apos;s sandbox
               (<code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs">Application Support / ReelClip /</code>).
               This directory is excluded from iCloud backup. The data never leaves
@@ -155,9 +155,9 @@ export default function PrivacyPage() {
             </p>
           </Section>
 
-          <Section title="6. Children">
+            <Section title="6. Children">
             <p className="text-text-muted">
-              ReelClip is not directed to children under 13. We do not knowingly
+              ReelClips is not directed to children under 13. We do not knowingly
               collect personal data from children. If you believe a child has
               submitted an email to our waitlist, contact us and we will delete it.
             </p>
@@ -175,8 +175,8 @@ export default function PrivacyPage() {
               California, you have the right to access, correct, port, or delete
               the personal data we hold about you. Email
               {" "}
-              <a href="mailto:privacy@reelclip.app" className="text-accent hover:underline">
-                privacy@reelclip.app
+              <a href="mailto:privacy@reelclips.app" className="text-accent hover:underline">
+                privacy@reelclips.app
               </a>{" "}
               to exercise these rights. We respond within 30 days.
             </p>
@@ -194,7 +194,7 @@ export default function PrivacyPage() {
           <Section title="9. Security">
             <p className="text-text-muted">
               We use industry-standard transport security (HTTPS / TLS) for all
-              network communication. Because ReelClip has no API-key storage and
+              network communication. Because ReelClips has no API-key storage and
               no traditional account system, there is no credential material for
               us to protect beyond your email address and subscription receipt.
             </p>
@@ -214,7 +214,7 @@ export default function PrivacyPage() {
               Questions, data requests, or complaints:
             </p>
             <ul className="list-none space-y-1.5 text-text-muted mt-3">
-              <li>Email: <a href="mailto:privacy@reelclip.app" className="text-accent hover:underline">privacy@reelclip.app</a></li>
+              <li>Email: <a href="mailto:privacy@reelclips.app" className="text-accent hover:underline">privacy@reelclips.app</a></li>
               <li>Post: see Terms page for the controlling entity and address.</li>
             </ul>
           </Section>
@@ -223,9 +223,9 @@ export default function PrivacyPage() {
             <p className="text-text-muted">
               You can review and manage your App Store subscription, including
               cancellation, at any time in iOS Settings → Apple ID → Subscriptions.
-              You can also manage your ReelClip account and request data deletion at
+              You can also manage your ReelClips account and request data deletion at
               {" "}
-              <a href="/account" className="text-accent hover:underline">reelclip.app / account</a>.
+              <a href="/account" className="text-accent hover:underline">reelclips.app / account</a>.
             </p>
           </Section>
         </article>

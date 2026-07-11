@@ -65,8 +65,8 @@ export default function SupportPage() {
               a="Yes. Refunds are handled by Apple — go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClips charge. We can't process refunds directly."
             />
             <QA
-              q="Why is the iOS app called 'ReelClip' but the website says 'ReelClips'?"
-              a="The App Store listing still uses the singular ReelClip because it was created before the rebrand. The website, wordmark, and marketing surface all use the plural ReelClips. They refer to the same product — the singular is the company name, the plural is the product brand surface."
+              q="Why do I sometimes see 'ReelClip' (singular) and sometimes 'ReelClips' (plural)?"
+              a="The marketing surface — website, wordmark, in-app text — uses the plural 'ReelClips' as the product brand. A few legacy code identifiers still use the singular 'ReelClip': the iOS bundle id (can't change without a new App Store listing), the .reelclip project file extension (so existing projects don't break), and the Photos album name (so we don't orphan saved clips in your library). They'll catch up on the next App Store submission."
             />
           </div>
         </section>

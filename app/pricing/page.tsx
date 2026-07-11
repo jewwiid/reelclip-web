@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer";
 import { PricingClient } from "@/components/pricing-client";
 
 export const metadata: Metadata = {
-  title: "Pricing — ReelClip",
+  title: "Pricing — ReelClips",
   description:
     "Pick a Creator plan and start shipping share-ready clips. Cancel anytime.",
 };
@@ -27,7 +27,7 @@ export default async function PricingPage(props: {
             Ship more, pay less.
           </h1>
           <p className="text-base text-text-muted mt-4">
-            ReelClip's free tier is generous enough for hobbyists. Upgrade when
+            The free tier is generous enough for hobbyists. Upgrade when
             you need AI Assist cuts powered by Apple Intelligence, or higher
             export quality. Cancel anytime.
           </p>

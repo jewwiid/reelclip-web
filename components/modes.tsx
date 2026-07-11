@@ -40,7 +40,7 @@ const MODES: Mode[] = [
     symbol: "wand",
     tagline: "Describe the vibe. Get a plan.",
     description:
-      "Powered by Apple Intelligence on-device. ReelClip builds a compact timeline feature pack (audio energy, silence markers, segment durations, your prompt) and runs it through the on-device model. Your video never leaves your phone.",
+      "Powered by Apple Intelligence on-device. ReelClips builds a compact timeline feature pack (audio energy, silence markers, segment durations, your prompt) and runs it through the on-device model. Your video never leaves your phone.",
     bullets: ["Runs entirely on-device", "No API key, no cloud LLM", "Plan validation before export"],
     accent: "from-accent/35 to-accent/0",
   },
@@ -90,7 +90,7 @@ export function Modes() {
           </div>
           <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
             Pick your style.<br />
-            <span className="text-text-muted">ReelClip handles the cuts.</span>
+            <span className="text-text-muted">ReelClips handles the cuts.</span>
           </h2>
         </div>
 

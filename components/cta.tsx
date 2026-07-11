@@ -41,7 +41,7 @@ export function CTA() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <Image
           src="/app-icon-button.png"
-          alt="ReelClip"
+          alt="ReelClips"
           width={120}
           height={120}
           className="w-24 h-24 sm:w-28 sm:h-28 mx-auto mb-8 rounded-[26%] shadow-2xl shadow-accent/10"
@@ -53,7 +53,7 @@ export function CTA() {
           Join the beta.
         </h2>
         <p className="text-lg text-text-muted max-w-xl mx-auto mb-10 leading-relaxed">
-          ReelClip is in active TestFlight. Drop your email and we'll send a TestFlight invite as soon as a build is ready for you.
+          ReelClips is in active TestFlight. Drop your email and we'll send a TestFlight invite as soon as a build is ready for you.
         </p>
 
         {status === "success" ? (

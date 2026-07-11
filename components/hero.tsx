@@ -15,7 +15,7 @@ export function Hero() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <Image
           src="/wordmark.png"
-          alt="ReelClip"
+          alt="ReelClips"
           width={300}
           height={86}
           priority

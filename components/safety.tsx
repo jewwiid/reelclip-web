@@ -12,7 +12,7 @@ export function Safety() {
               <span className="text-text-muted">before anything ships.</span>
             </h2>
             <p className="text-lg text-text-muted leading-relaxed mb-8">
-              ReelClip never writes generated clips to your Photos until you tap save.
+              ReelClips never writes generated clips to your Photos until you tap save.
               Every plan shows thumbnails, waveform, and frame-snapped trim handles so you can adjust before export.
             </p>
 

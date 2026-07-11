@@ -9,7 +9,7 @@ export function Footer() {
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <Image
             src="/wordmark.png"
-            alt="ReelClip"
+            alt="ReelClips"
             width={140}
             height={40}
             className="h-9 w-auto"
@@ -29,7 +29,7 @@ export function Footer() {
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-6 text-sm">
           <FooterCol title="Product">
             <Link href="/#modes" className="hover:text-text transition">Modes</Link>
-            <Link href="/#safety" className="hover:text-text transition">Why ReelClip</Link>
+            <Link href="/#safety" className="hover:text-text transition">Why ReelClips</Link>
             <Link href="/#for" className="hover:text-text transition">For creators</Link>
             <Link href="/competitors" className="hover:text-text transition">Compare</Link>
             <Link href="/pricing" className="hover:text-text transition">Pricing</Link>
@@ -51,14 +51,14 @@ export function Footer() {
           <FooterCol title="Legal">
             <Link href="/privacy" className="hover:text-text transition">Privacy</Link>
             <Link href="/terms" className="hover:text-text transition">Terms</Link>
-            <a href="mailto:support@reelclip.app" className="hover:text-text transition">Support</a>
-            <a href="mailto:legal@reelclip.app" className="hover:text-text transition">Legal</a>
+            <a href="mailto:support@reelclips.app" className="hover:text-text transition">Support</a>
+            <a href="mailto:legal@reelclips.app" className="hover:text-text transition">Legal</a>
           </FooterCol>
         </div>
       </div>
 
       <div className="max-w-6xl mx-auto mt-10 pt-6 border-t border-hairline flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-text-faint">
-        <div>© {new Date().getFullYear()} ReelClip. All rights reserved.</div>
+        <div>© {new Date().getFullYear()} ReelClips. All rights reserved.</div>
         <div>
           Made with care for creators who publish to Reels, TikTok, and Shorts.
         </div>

@@ -8,7 +8,7 @@ export function Nav() {
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <Image
           src="/wordmark.png"
-          alt="ReelClip"
+          alt="ReelClips"
           width={140}
           height={40}
           priority
@@ -18,7 +18,7 @@ export function Nav() {
 
       <div className="hidden sm:flex items-center gap-8 text-sm text-text-muted">
         <Link href="#modes" className="hover:text-text transition">Modes</Link>
-        <Link href="#safety" className="hover:text-text transition">Why ReelClip</Link>
+        <Link href="#safety" className="hover:text-text transition">Why ReelClips</Link>
         <Link href="#for" className="hover:text-text transition">For creators</Link>
         <Link href="/competitors" className="hover:text-text transition">Compare</Link>
         <Link href="/pricing" className="hover:text-text transition">Pricing</Link>

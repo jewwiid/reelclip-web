@@ -4,9 +4,9 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "ReelClip vs CapCut, InShot, VN, OpusClip, Quik — ReelClip",
+  title: "ReelClips vs CapCut, InShot, VN, OpusClip, Quik — ReelClips",
   description:
-    "Honest side-by-side: how ReelClip's on-device privacy, four cut modes, and strictly on-device Apple Intelligence stack up against CapCut, InShot, VN Editor, OpusClip, and Quik.",
+    "Honest side-by-side: how ReelClips's on-device privacy, four cut modes, and strictly on-device Apple Intelligence stack up against CapCut, InShot, VN Editor, OpusClip, and Quik.",
 };
 
 type Check = "yes" | "no" | "partial";
@@ -288,24 +288,24 @@ export default function CompetitorsPage() {
               <span className="text-xs font-medium text-text-muted">Honest comparison · Updated quarterly</span>
             </div>
             <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-[1.0] mb-6">
-              How ReelClip compares
+              How ReelClips compares
               <br />
               to <span className="gradient-text">the rest.</span>
             </h1>
             <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
-              A side-by-side look at where ReelClip fits in the clip-prep landscape. We list what we&apos;re good at,
+              A side-by-side look at where ReelClips fits in the clip-prep landscape. We list what we&apos;re good at,
               what we&apos;re not, and what the alternatives do better.
             </p>
           </div>
         </section>
 
-        {/* At-a-glance — ReelClip's defensible niche */}
+        {/* At-a-glance — ReelClips's defensible niche */}
         <section className="px-6 sm:px-10 py-16 sm:py-20 border-b border-hairline">
           <div className="max-w-5xl mx-auto">
             <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">
               <NicheCard
                 title="On-device by default"
-                body="ReelClip's analysis never uploads your source video. Speech, scene energy, and frame scoring all run locally."
+                body="The on-device analysis never uploads your source video. Speech, scene energy, and frame scoring all run locally."
               />
               <NicheCard
                 title="On-device Apple Intelligence"
@@ -415,7 +415,7 @@ export default function CompetitorsPage() {
                         Feature
                       </th>
                       {[
-                        { label: "ReelClip", accent: true },
+                        { label: "ReelClips", accent: true },
                         { label: "CapCut" },
                         { label: "InShot" },
                         { label: "VN" },
@@ -471,7 +471,7 @@ export default function CompetitorsPage() {
           </div>
         </section>
 
-        {/* When ReelClip is not the right tool */}
+        {/* When ReelClips is not the right tool */}
         <section className="px-6 sm:px-10 py-16 sm:py-20 border-b border-hairline">
           <div className="max-w-4xl mx-auto">
             <div className="mb-10">
@@ -479,7 +479,7 @@ export default function CompetitorsPage() {
                 When to use something else
               </div>
               <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
-                ReelClip is not the right tool if…
+                ReelClips is not the right tool if…
               </h2>
             </div>
             <div className="grid sm:grid-cols-2 gap-4">
@@ -489,15 +489,15 @@ export default function CompetitorsPage() {
               />
               <SkipCard
                 title="You want a desktop non-linear editor"
-                body="If you need Premiere / Final Cut / DaVinci, ReelClip is the wrong tool. We complement those, we don't replace them."
+                body="If you need Premiere / Final Cut / DaVinci, ReelClips is the wrong tool. We complement those, we don't replace them."
               />
               <SkipCard
                 title="You want a free clipper with zero watermark"
-                body="ReelClip's free tier caps at 720p with a Made with ReelClip pill. VN Editor and Quik are better fits."
+                body="The free tier caps at 720p with a Made with ReelClips pill. VN Editor and Quik are better fits."
               />
               <SkipCard
                 title="You record under 30 seconds per clip"
-                body="ReelClip is built for the long-form → short-form workflow. If your footage is already short, any editor will do."
+                body="ReelClips is built for the long-form → short-form workflow. If your footage is already short, any editor will do."
               />
             </div>
           </div>
@@ -510,7 +510,7 @@ export default function CompetitorsPage() {
               On the fence?
             </h2>
             <p className="text-base text-text-muted max-w-xl mx-auto mb-8 leading-relaxed">
-              ReelClip is in active TestFlight. Join the beta, ship a few clips, and decide for yourself.
+              ReelClips is in active TestFlight. Join the beta, ship a few clips, and decide for yourself.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
               <Link
