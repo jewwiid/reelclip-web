@@ -66,6 +66,23 @@ export function CompatibleWith() {
             </div>
           ))}
         </div>
+
+        {/* Single funnel CTA — every outbound click on the page should land
+            back on ReelClips. Until the public TestFlight / App Store link
+            is generated, this points at the in-page waitlist. Swap the
+            href when the public link is ready. */}
+        <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
+          <a
+            href="#waitlist"
+            data-appstore-cta="true"
+            className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-accent text-bg font-bold text-base hover:bg-accent-deep transition accent-glow text-center"
+          >
+            Get the beta
+          </a>
+          <span className="text-xs text-text-muted">
+            TestFlight · iPhone 15 Pro+ · iOS 17+
+          </span>
+        </div>
       </div>
     </section>
   );
