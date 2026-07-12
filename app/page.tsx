@@ -3,6 +3,7 @@ import { Hero } from "@/components/hero";
 import { Modes } from "@/components/modes";
 import { Safety } from "@/components/safety";
 import { ForCreators } from "@/components/for-creators";
+import { CompatibleWith } from "@/components/compatible-with";
 import { CTA } from "@/components/cta";
 import { Footer } from "@/components/footer";
 
@@ -16,6 +17,7 @@ export default function Home() {
       <Modes />
       <Safety />
       <ForCreators />
+      <CompatibleWith />
       <CTA />
       <Footer />
     </>
