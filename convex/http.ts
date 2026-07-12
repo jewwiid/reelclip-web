@@ -7,6 +7,7 @@
 //   GET  /get-entitlements    resolve current tier for an iOS appAccountToken
 //                             or a web email
 //   POST /stripe/portal       create a Stripe Billing Portal session
+//   POST /feedback/submit     iOS Settings → in-app feedback (anonymous)
 //
 // Pure-Convex HTTP routes delegate to internal actions (iapActions /
 // stripeActions) for the Node-runtime heavy lifting (JWT signing, Stripe
@@ -172,6 +173,78 @@ const stripePortal = httpAction(async (ctx, request) => {
   }
 });
 http.route({ path: "/stripe/portal", method: "POST", handler: stripePortal });
+
+// ─────────────────────────────────────────────────────────────────────────
+// /feedback/submit
+//
+// iOS ReelClip Settings → Send feedback → Convex route. See
+// docs/feedback-delivery.md for the contract and the threat model.
+// Validation here is intentionally tight: only the three app categories
+// are accepted, message is 4-4000 chars, optional replyEmail is checked
+// against a simple RFC-flavoured regex, and diagnostics is shaped so we
+// cannot accidentally accept wider fields the client may start sending.
+// Edge rate limiting (e.g. Cloudflare) sits in front of this route
+// before the production public endpoint is exposed.
+// ─────────────────────────────────────────────────────────────────────────
+
+const feedbackSubmit = httpAction(async (ctx, request) => {
+  if (request.method !== "POST") return methodNotAllowed();
+  let body: any;
+  try {
+    body = await request.json();
+  } catch {
+    return badRequest("Body must be JSON");
+  }
+
+  // category
+  const category = String(body.category ?? "");
+  if (category !== "bug" && category !== "featureRequest" && category !== "general") {
+    return badRequest("category must be bug|featureRequest|general");
+  }
+
+  // message
+  const message = String(body.message ?? "").trim();
+  if (message.length < 4 || message.length > 4000) {
+    return badRequest("message must be 4-4000 characters");
+  }
+
+  // replyEmail (optional, only set if non-empty and shaped like an email)
+  let replyEmail: string | undefined;
+  if (typeof body.replyEmail === "string" && body.replyEmail.trim() !== "") {
+    const candidate = body.replyEmail.trim();
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(candidate)) {
+      return badRequest("replyEmail must be a valid email address");
+    }
+    replyEmail = candidate;
+  }
+
+  // diagnostics (optional, only the four whitelisted fields are accepted)
+  let diagnostics:
+    | { appVersion: string; build: string; systemVersion: string; deviceModel: string }
+    | undefined;
+  if (body.diagnostics && typeof body.diagnostics === "object") {
+    const d = body.diagnostics;
+    const isString = (v: unknown) => typeof v === "string";
+    if (isString(d.appVersion) && isString(d.build) && isString(d.systemVersion) && isString(d.deviceModel)) {
+      diagnostics = {
+        appVersion: d.appVersion as string,
+        build: d.build as string,
+        systemVersion: d.systemVersion as string,
+        deviceModel: d.deviceModel as string,
+      };
+    }
+  }
+
+  const result = await ctx.runMutation(internal.feedback.recordFeedback, {
+    category: category as "bug" | "featureRequest" | "general",
+    message,
+    replyEmail,
+    diagnostics,
+  });
+
+  return jsonResponse({ ok: true, id: result.id }, 200);
+});
+http.route({ path: "/feedback/submit", method: "POST", handler: feedbackSubmit });
 
 // ─────────────────────────────────────────────────────────────────────────
 // helpers

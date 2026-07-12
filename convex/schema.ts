@@ -120,4 +120,31 @@ export default defineSchema({
     .index("by_user", ["userId"])
     .index("by_stripe_subscription", ["stripeSubscriptionId"])
     .index("by_stripe_customer", ["stripeCustomerId"]),
+
+  /// In-app feedback from the iOS ReelClip Settings sheet. No media, no
+  /// project, no transcript, no analytics, no persistent user identifier —
+  /// see docs/feedback-delivery.md. category is a triage tag, message is
+  /// 4-4000 chars, replyEmail is optional and self-supplied, diagnostics
+  /// (when included) is limited to app version + iOS version + device
+  /// model.
+  feedback: defineTable({
+    category: v.union(
+      v.literal("bug"),
+      v.literal("featureRequest"),
+      v.literal("general"),
+    ),
+    message: v.string(),
+    replyEmail: v.optional(v.string()),
+    diagnostics: v.optional(
+      v.object({
+        appVersion: v.string(),
+        build: v.string(),
+        systemVersion: v.string(),
+        deviceModel: v.string(),
+      }),
+    ),
+    createdAt: v.number(),
+  })
+    .index("by_category", ["category"])
+    .index("by_createdAt", ["createdAt"]),
 });
