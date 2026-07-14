@@ -89,12 +89,15 @@ export function Modes() {
         <div className="mb-12 grid items-center gap-8 lg:grid-cols-[1fr_0.42fr] lg:gap-16">
           <div className="text-center lg:text-left">
             <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-              Four cut modes
+              Bring every scene together
             </div>
             <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
-              Choose how to prep your footage.<br />
-              <span className="text-text-muted">ReelClip handles the cuts.</span>
+              Keep a whole shoot in one project.<br />
+              <span className="text-text-muted">Switch scenes, then choose the cut.</span>
             </h2>
+            <p className="max-w-2xl text-base leading-relaxed text-text-muted lg:max-w-xl">
+              Add separate videos as scenes, move between them without losing your place, and choose the cut mode that gets each part of the shoot ready fastest.
+            </p>
           </div>
           <div className="relative mx-auto w-40 sm:w-48 lg:w-full lg:max-w-[15rem]">
             <div className="absolute inset-[18%] rounded-full bg-accent/10 blur-2xl" />

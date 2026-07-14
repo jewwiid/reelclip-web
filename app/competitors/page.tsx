@@ -1,276 +1,146 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "ReelClip vs CapCut, InShot, VN, OpusClip, Quik — ReelClip",
+  title: "ReelClip vs CapCut, InShot, VN, OpusClip, and Quik",
   description:
-    "Honest side-by-side: how ReelClip's on-device privacy, four cut modes, and strictly on-device Apple Intelligence stack up against CapCut, InShot, VN Editor, OpusClip, and Quik.",
+    "A practical guide to where ReelClip fits alongside CapCut, InShot, VN, OpusClip, and GoPro Quik.",
 };
-
-type Check = "yes" | "no" | "partial";
 
 type Competitor = {
   name: string;
+  logo: string;
   oneLiner: string;
-  /** Background gradient classes for the logo tile (Tailwind utilities) */
-  tile: string;
-  /** Short letter or glyph for the logo tile */
-  glyph: string;
-  pricing: string;
+  availability: string;
   bestFor: string;
   strengths: string[];
-  weaknesses: string[];
+  tradeoffs: string[];
 };
 
 const COMPETITORS: Competitor[] = [
   {
     name: "CapCut",
-    oneLiner: "ByteDance's full social-video editor and template engine.",
-    tile: "from-cyan-500 to-blue-600",
-    glyph: "CC",
-    pricing: "Free + Pro tiers · 200M+ MAU",
-    bestFor: "Template-driven trend replication inside the TikTok ecosystem.",
+    logo: "/competitors/capcut.jpg",
+    oneLiner: "A full social-video editor built around editable templates.",
+    availability: "Free templates · paid tools available",
+    bestFor: "Turning clips into a finished, template-led post.",
     strengths: [
-      "Massive template library with one-tap trend formatting",
-      "Free 1080p export, no watermark on the free tier",
-      "Deep TikTok integration and creator monetization program",
+      "Large library of editable templates",
+      "Template support on mobile and web",
+      "Editing tools for a complete social video",
     ],
-    weaknesses: [
-      "Cloud-first: your footage hits ByteDance servers",
-      "Data-privacy concerns for unpublished work",
-      "Editor-first — not optimised for pre-template clip prep",
+    tradeoffs: [
+      "Best when you plan to finish inside CapCut",
+      "Template availability can vary by platform and region",
     ],
   },
   {
     name: "InShot",
-    oneLiner: "The casual mobile video editor with stickers and music.",
-    tile: "from-pink-500 to-rose-600",
-    glyph: "In",
-    pricing: "$3.99/mo · $17.99/yr",
-    bestFor: "Quick personal edits with text, stickers, and trending music.",
+    logo: "/competitors/inshot.jpg",
+    oneLiner: "A mobile editor for videos, photos, and collages.",
+    availability: "Free app · optional Pro",
+    bestFor: "Fast finishing edits with music, captions, and effects.",
     strengths: [
-      "Friendly UI, fast onboarding for non-pro creators",
-      "Strong mobile market presence on iOS and Android",
-      "Large template / effect library",
+      "Auto captions and AI effects",
+      "Keyframes, chroma key, and layered editing",
+      "Up to 4K/60fps export",
     ],
-    weaknesses: [
-      "Watermark on the free tier creates a hard conversion wall",
-      "Limited template handoff to other editors",
-      "No on-device AI for clip planning",
+    tradeoffs: [
+      "A complete editing workflow, rather than clip prep",
+      "Pro unlocks paid materials and removes ads and watermarks",
     ],
   },
   {
-    name: "VN Editor",
-    oneLiner: "Pro-grade mobile editor with a one-time-purchase model.",
-    tile: "from-emerald-500 to-teal-600",
-    glyph: "VN",
-    pricing: "One-time purchase · No watermark",
-    bestFor: "Prosumers who want full timeline control and own their tools.",
+    name: "VN",
+    logo: "/competitors/vn.jpg",
+    oneLiner: "A multi-track mobile editor with hands-on timeline control.",
+    availability: "Free app · in-app purchases",
+    bestFor: "Creators who want to shape a full edit on a mobile timeline.",
     strengths: [
-      "Professional features: keyframes, curves, multi-track",
-      "No watermark, no subscription, no recurring cost",
-      "Strong creator community of paid-up loyalists",
+      "Multi-track timeline, keyframes, and speed curves",
+      "Templates, captions, and text-to-speech",
+      "4K/60fps export and project transfer",
     ],
-    weaknesses: [
-      "Smaller AI / automation feature set than CapCut",
-      "No first-class template handoff workflow",
-      "Complex UI for users who just want fast clips",
+    tradeoffs: [
+      "More manual editing than automated clip prep",
+      "Its broad toolset takes longer to learn",
     ],
   },
   {
     name: "OpusClip",
-    oneLiner: "Cloud AI that repackages long-form video into short clips.",
-    tile: "from-amber-500 to-orange-600",
-    glyph: "Op",
-    pricing: "$19+/mo · $10–20M ARR · $215M valuation",
-    bestFor: "Repurposing podcasts and YouTube videos into TikTok-ready clips.",
+    logo: "/competitors/opusclip-webclip.png",
+    oneLiner: "A web app that turns long videos into social clips with AI.",
+    availability: "Free plan · paid plans",
+    bestFor: "Repurposing long-form video with AI clipping and captions.",
     strengths: [
-      "Best-in-class long-form → short-form AI",
-      "Viral-score prediction and auto-captioning",
-      "Reaches 9-figure valuation on workflow focus",
+      "AI clipping and virality scoring",
+      "Captions and social publishing tools",
+      "Paid plans add editing and NLE export options",
     ],
-    weaknesses: [
-      "Cloud-only — your video is uploaded to their servers",
-      "Subscription-only, no free tier, no lifetime option",
-      "Single use-case: long-form → short, not general editing",
+    tradeoffs: [
+      "A web workflow rather than an on-device one",
+      "Free exports are watermarked and time-limited",
     ],
   },
   {
-    name: "Quik (GoPro)",
-    oneLiner: "Free auto-editing app aimed at action-camera footage.",
-    tile: "from-blue-500 to-indigo-600",
-    glyph: "Qk",
-    pricing: "Free · Ad-supported",
-    bestFor: "Auto-edits of action-camera and travel footage.",
+    name: "Quik",
+    logo: "/competitors/quik.jpg",
+    oneLiner: "GoPro's editor for highlight videos and action footage.",
+    availability: "Free app · premium tools",
+    bestFor: "GoPro, action, and travel footage with quick highlight edits.",
     strengths: [
-      "Completely free with no watermark",
-      "Automatic highlight selection from action footage",
-      "Tight GoPro hardware integration",
+      "Automatic highlight videos",
+      "Import from a GoPro, phone, or another camera",
+      "Beat-synced edits, themes, and manual controls",
     ],
-    weaknesses: [
-      "Limited creative control — auto-edit only",
-      "No on-device AI for clip planning or beat sync",
-      "No template-editor hand-off",
+    tradeoffs: [
+      "Cloud features are part of the GoPro workflow",
+      "Best suited to GoPro and action-footage use cases",
     ],
   },
 ];
 
-type Row = {
-  feature: string;
-  reelclip: Check;
-  capcut: Check;
-  inshot: Check;
-  vn: Check;
-  opus: Check;
-  quik: Check;
-};
-
-const COMPARISON: Row[] = [
+const WORKFLOWS = [
   {
-    feature: "On-device analysis (your video never leaves the phone)",
-    reelclip: "yes",
-    capcut: "no",
-    inshot: "partial",
-    vn: "partial",
-    opus: "no",
-    quik: "no",
+    tool: "ReelClip",
+    title: "Prep clips before your final edit",
+    body: "Start with one longer recording, review the cuts, then save smaller source clips for the editor you already use.",
   },
   {
-    feature: "Free tier with no watermark on creator work",
-    reelclip: "partial",
-    capcut: "yes",
-    inshot: "no",
-    vn: "yes",
-    opus: "no",
-    quik: "yes",
+    tool: "CapCut",
+    title: "Build around a trend template",
+    body: "Choose a template and make the finished social post in the same editing workspace.",
   },
   {
-    feature: "Multiple cut strategies (Cut / Silence / Splice / AI)",
-    reelclip: "yes",
-    capcut: "partial",
-    inshot: "no",
-    vn: "no",
-    opus: "partial",
-    quik: "no",
+    tool: "InShot or VN",
+    title: "Make a full mobile edit",
+    body: "Use a timeline editor when you want to add music, effects, captions, or more hands-on control.",
   },
   {
-    feature: "On-device Apple Intelligence (Foundation Models) when iOS 26",
-    reelclip: "yes",
-    capcut: "no",
-    inshot: "no",
-    vn: "no",
-    opus: "no",
-    quik: "no",
+    tool: "OpusClip",
+    title: "Automate a web-first long-form workflow",
+    body: "Use AI clipping and social tools from a browser when your source footage already lives in a web workflow.",
   },
   {
-    feature: "Strictly on-device AI — no cloud LLM, no API key",
-    reelclip: "yes",
-    capcut: "no",
-    inshot: "no",
-    vn: "no",
-    opus: "no",
-    quik: "no",
-  },
-  {
-    feature: "Open project format you can AirDrop / save to Files",
-    reelclip: "yes",
-    capcut: "no",
-    inshot: "no",
-    vn: "no",
-    opus: "no",
-    quik: "no",
-  },
-  {
-    feature: "Multi-scene per project with per-scene source video",
-    reelclip: "yes",
-    capcut: "partial",
-    inshot: "no",
-    vn: "partial",
-    opus: "no",
-    quik: "no",
-  },
-  {
-    feature: "Subtitle / transcript export (SRT + VTT)",
-    reelclip: "yes",
-    capcut: "yes",
-    inshot: "no",
-    vn: "no",
-    opus: "yes",
-    quik: "no",
-  },
-  {
-    feature: "Review-before-export safety (nothing lands in Photos without save)",
-    reelclip: "yes",
-    capcut: "partial",
-    inshot: "no",
-    vn: "no",
-    opus: "no",
-    quik: "no",
-  },
-  {
-    feature: "Lifetime purchase option (one-time, no subscription)",
-    reelclip: "no",
-    capcut: "no",
-    inshot: "no",
-    vn: "yes",
-    opus: "no",
-    quik: "yes",
-  },
-  {
-    feature: "Built-in template marketplace / trend replication",
-    reelclip: "no",
-    capcut: "yes",
-    inshot: "partial",
-    vn: "no",
-    opus: "no",
-    quik: "no",
-  },
-  {
-    feature: "Optimised for creators on iPhone / iPad (iOS 17+)",
-    reelclip: "yes",
-    capcut: "partial",
-    inshot: "partial",
-    vn: "partial",
-    opus: "no",
-    quik: "partial",
+    tool: "Quik",
+    title: "Turn action footage into highlights",
+    body: "Use GoPro's tools for quick highlight videos from action, travel, or GoPro footage.",
   },
 ];
-
-function Cell({ state }: { state: Check }) {
-  if (state === "yes") {
-    return (
-      <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-accent/15 text-accent">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="3" className="w-3.5 h-3.5">
-          <path d="M5 13l4 4L19 7" strokeLinecap="round" strokeLinejoin="round" />
-        </svg>
-      </span>
-    );
-  }
-  if (state === "no") {
-    return (
-      <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-surface-2 text-text-faint">
-        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-3 h-3">
-          <path d="M6 6l12 12M18 6L6 18" strokeLinecap="round" />
-        </svg>
-      </span>
-    );
-  }
-  return (
-    <span className="inline-flex items-center justify-center w-6 h-6 rounded-full bg-amber-500/15 text-amber-300">
-      <span className="block w-2 h-0.5 rounded-full bg-current" />
-    </span>
-  );
-}
 
 function LogoTile({ competitor }: { competitor: Competitor }) {
   return (
-    <div
-      className={`w-12 h-12 rounded-xl bg-gradient-to-br ${competitor.tile} flex items-center justify-center text-white font-black text-base shrink-0 shadow-lg`}
-      aria-hidden
-    >
-      {competitor.glyph}
+    <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-surface-2 ring-1 ring-hairline">
+      <Image
+        src={competitor.logo}
+        alt={`${competitor.name} app icon`}
+        fill
+        sizes="48px"
+        className="object-cover"
+      />
     </div>
   );
 }
@@ -280,101 +150,87 @@ export default function CompetitorsPage() {
     <>
       <Nav />
       <main>
-        {/* Hero */}
-        <section className="relative pt-16 sm:pt-24 pb-12 sm:pb-16 px-6 sm:px-10 overflow-hidden border-b border-hairline">
-          <div className="absolute inset-0 bg-grid opacity-30 pointer-events-none" />
-          <div className="relative max-w-4xl mx-auto text-center">
-            <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-hairline bg-surface/60 backdrop-blur mb-8">
-              <span className="text-xs font-medium text-text-muted">Honest comparison · Updated quarterly</span>
+        <section className="relative overflow-hidden border-b border-hairline px-6 pb-12 pt-16 sm:px-10 sm:pb-16 sm:pt-24">
+          <div className="pointer-events-none absolute inset-0 bg-grid opacity-30" />
+          <div className="relative mx-auto max-w-4xl text-center">
+            <div className="mb-8 inline-flex items-center gap-2 rounded-full border border-hairline bg-surface/60 px-3 py-1.5 backdrop-blur">
+              <span className="text-xs font-medium text-text-muted">A practical workflow guide · Checked July 2026</span>
             </div>
-            <h1 className="text-4xl sm:text-6xl font-black tracking-tight leading-[1.0] mb-6">
-              How ReelClip compares
+            <h1 className="mb-6 text-4xl font-black leading-[1.0] tracking-tight sm:text-6xl">
+              How ReelClip fits
               <br />
-              to <span className="gradient-text">the rest.</span>
+              with <span className="gradient-text">the rest.</span>
             </h1>
-            <p className="text-lg text-text-muted max-w-2xl mx-auto leading-relaxed">
-              A side-by-side look at where ReelClip fits in the clip-prep landscape. We list what we&apos;re good at,
-              what we&apos;re not, and what the alternatives do better.
+            <p className="mx-auto max-w-2xl text-lg leading-relaxed text-text-muted">
+              ReelClip is for preparing smaller clips from a longer recording before you make the final post. Here&apos;s
+              where the editors and AI tools around it are a better fit.
             </p>
           </div>
         </section>
 
-        {/* At-a-glance — ReelClip's defensible niche */}
-        <section className="px-6 sm:px-10 py-16 sm:py-20 border-b border-hairline">
-          <div className="max-w-5xl mx-auto">
-            <div className="grid sm:grid-cols-3 gap-4 sm:gap-6">
-              <NicheCard
-                title="On-device by default"
-                body="The on-device analysis never uploads your source video. Speech, scene energy, and frame scoring all run locally."
-              />
-              <NicheCard
-                title="On-device Apple Intelligence"
-                body="The AI Assist cut planner runs on Apple Intelligence (Foundation Models). No API key, no cloud LLM, no third-party AI provider — your video never leaves your phone."
-              />
-              <NicheCard
-                title="Open .reelclip format"
-                body="Projects are tiny JSON files you can AirDrop, save to Files, or share in iCloud — and they survive reinstalls."
-              />
+        <section className="border-b border-hairline px-6 py-16 sm:px-10 sm:py-20">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-10 max-w-2xl">
+              <div className="mb-3 inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent">
+                What makes ReelClip different
+              </div>
+              <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Prep first. Create anywhere.</h2>
+            </div>
+            <div className="grid gap-4 sm:grid-cols-3 sm:gap-6">
+              <NicheCard title="Private by design" body="Your source video is analysed on your device." />
+              <NicheCard title="Review every cut" body="Adjust the clips before you save anything." />
+              <NicheCard title="Ready for your editor" body="Export smaller source clips to Photos, then create wherever you like." />
             </div>
           </div>
         </section>
 
-        {/* Competitor cards */}
-        <section className="px-6 sm:px-10 py-16 sm:py-20 border-b border-hairline">
-          <div className="max-w-5xl mx-auto">
+        <section className="border-b border-hairline px-6 py-16 sm:px-10 sm:py-20">
+          <div className="mx-auto max-w-5xl">
             <div className="mb-12">
-              <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-                Five apps, one niche
+              <div className="mb-3 inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent">
+                The tools around ReelClip
               </div>
-              <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
-                Who we share shelf space with.
-              </h2>
+              <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Different jobs, different tools.</h2>
+              <p className="mt-3 max-w-2xl text-sm leading-relaxed text-text-muted">
+                These are good tools. They simply solve different parts of the content workflow.
+              </p>
             </div>
 
-            <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">
-              {COMPETITORS.map((c) => (
-                <article
-                  key={c.name}
-                  className="p-6 sm:p-7 rounded-2xl bg-surface border border-hairline"
-                >
-                  <div className="flex items-start gap-4 mb-5">
-                    <LogoTile competitor={c} />
+            <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
+              {COMPETITORS.map((competitor) => (
+                <article key={competitor.name} className="rounded-2xl border border-hairline bg-surface p-6 sm:p-7">
+                  <div className="mb-5 flex items-start gap-4">
+                    <LogoTile competitor={competitor} />
                     <div className="min-w-0">
-                      <h3 className="text-xl font-bold leading-tight">{c.name}</h3>
-                      <p className="text-xs text-text-muted mt-1">{c.pricing}</p>
+                      <h3 className="text-xl font-bold leading-tight">{competitor.name}</h3>
+                      <p className="mt-1 text-xs text-text-muted">{competitor.availability}</p>
                     </div>
                   </div>
 
-                  <p className="text-sm text-text-muted leading-relaxed mb-4">{c.oneLiner}</p>
+                  <p className="mb-4 text-sm leading-relaxed text-text-muted">{competitor.oneLiner}</p>
 
-                  <div className="text-xs font-bold uppercase tracking-wider text-text-faint mb-1.5">
-                    Best for
-                  </div>
-                  <p className="text-sm text-text leading-snug mb-4">{c.bestFor}</p>
+                  <div className="mb-1.5 text-xs font-bold uppercase tracking-wider text-text-faint">Best for</div>
+                  <p className="mb-4 text-sm leading-snug text-text">{competitor.bestFor}</p>
 
-                  <div className="grid sm:grid-cols-2 gap-4 pt-5 border-t border-hairline">
+                  <div className="grid gap-4 border-t border-hairline pt-5 sm:grid-cols-2">
                     <div>
-                      <div className="text-xs font-bold uppercase tracking-wider text-accent mb-2">
-                        Strengths
-                      </div>
-                      <ul className="space-y-1.5 text-xs text-text-muted leading-relaxed">
-                        {c.strengths.map((s) => (
-                          <li key={s} className="flex gap-2">
-                            <span className="text-accent shrink-0">+</span>
-                            <span>{s}</span>
+                      <div className="mb-2 text-xs font-bold uppercase tracking-wider text-accent">What it does well</div>
+                      <ul className="space-y-1.5 text-xs leading-relaxed text-text-muted">
+                        {competitor.strengths.map((strength) => (
+                          <li key={strength} className="flex gap-2">
+                            <span className="shrink-0 text-accent">+</span>
+                            <span>{strength}</span>
                           </li>
                         ))}
                       </ul>
                     </div>
                     <div>
-                      <div className="text-xs font-bold uppercase tracking-wider text-text-faint mb-2">
-                        Trade-offs
-                      </div>
-                      <ul className="space-y-1.5 text-xs text-text-muted leading-relaxed">
-                        {c.weaknesses.map((w) => (
-                          <li key={w} className="flex gap-2">
-                            <span className="text-text-faint shrink-0">−</span>
-                            <span>{w}</span>
+                      <div className="mb-2 text-xs font-bold uppercase tracking-wider text-text-faint">Keep in mind</div>
+                      <ul className="space-y-1.5 text-xs leading-relaxed text-text-muted">
+                        {competitor.tradeoffs.map((tradeoff) => (
+                          <li key={tradeoff} className="flex gap-2">
+                            <span className="shrink-0 text-text-faint">−</span>
+                            <span>{tradeoff}</span>
                           </li>
                         ))}
                       </ul>
@@ -383,145 +239,78 @@ export default function CompetitorsPage() {
                 </article>
               ))}
             </div>
+            <p className="mt-6 text-xs leading-relaxed text-text-faint">
+              Product details and plans can change. This page was checked against each product&apos;s current official
+              site or App Store listing in July 2026.
+            </p>
           </div>
         </section>
 
-        {/* Comparison matrix */}
-        <section className="px-6 sm:px-10 py-16 sm:py-20 border-b border-hairline">
-          <div className="max-w-6xl mx-auto">
-            <div className="mb-10">
-              <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-                Feature matrix
+        <section className="border-b border-hairline px-6 py-16 sm:px-10 sm:py-20">
+          <div className="mx-auto max-w-5xl">
+            <div className="mb-10 max-w-2xl">
+              <div className="mb-3 inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent">
+                Choose the workflow
               </div>
-              <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
-                Twelve features, head-to-head.
-              </h2>
-              <p className="text-sm text-text-muted mt-3 max-w-2xl leading-relaxed">
-                <span className="inline-block w-2 h-2 rounded-full bg-accent mr-1.5 align-middle" />
-                Shipped
-                <span className="inline-block w-2 h-2 rounded-full bg-amber-500 ml-4 mr-1.5 align-middle" />
-                Partial
-                <span className="inline-block w-2 h-2 rounded-full bg-surface-2 ml-4 mr-1.5 align-middle" />
-                Not shipped
-              </p>
+              <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Pick the job, not a winner.</h2>
             </div>
-
-            <div className="rounded-2xl border border-hairline bg-surface overflow-hidden">
-              <div className="overflow-x-auto">
-                <table className="w-full text-sm">
-                  <thead>
-                    <tr className="border-b border-hairline bg-surface-2/50">
-                      <th className="text-left font-bold text-text-muted px-4 sm:px-5 py-4 min-w-[260px]">
-                        Feature
-                      </th>
-                      {[
-                        { label: "ReelClip", accent: true },
-                        { label: "CapCut" },
-                        { label: "InShot" },
-                        { label: "VN" },
-                        { label: "Opus" },
-                        { label: "Quik" },
-                      ].map((c) => (
-                        <th
-                          key={c.label}
-                          className={`text-center font-bold px-3 sm:px-4 py-4 whitespace-nowrap ${
-                            c.accent ? "text-accent" : "text-text-muted"
-                          }`}
-                        >
-                          {c.label}
-                        </th>
-                      ))}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    {COMPARISON.map((row, i) => (
-                      <tr
-                        key={row.feature}
-                        className={`border-b border-hairline last:border-b-0 ${
-                          i % 2 === 0 ? "" : "bg-surface-2/20"
-                        }`}
-                      >
-                        <td className="text-left text-text px-4 sm:px-5 py-3.5 leading-snug">
-                          {row.feature}
-                        </td>
-                        <td className="text-center px-2 sm:px-4 py-3.5 bg-accent/5">
-                          <Cell state={row.reelclip} />
-                        </td>
-                        <td className="text-center px-2 sm:px-4 py-3.5">
-                          <Cell state={row.capcut} />
-                        </td>
-                        <td className="text-center px-2 sm:px-4 py-3.5">
-                          <Cell state={row.inshot} />
-                        </td>
-                        <td className="text-center px-2 sm:px-4 py-3.5">
-                          <Cell state={row.vn} />
-                        </td>
-                        <td className="text-center px-2 sm:px-4 py-3.5">
-                          <Cell state={row.opus} />
-                        </td>
-                        <td className="text-center px-2 sm:px-4 py-3.5">
-                          <Cell state={row.quik} />
-                        </td>
-                      </tr>
-                    ))}
-                  </tbody>
-                </table>
-              </div>
+            <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
+              {WORKFLOWS.map((workflow) => (
+                <article key={workflow.tool} className="rounded-2xl border border-hairline bg-surface p-6">
+                  <div className="mb-2 text-xs font-bold uppercase tracking-[0.18em] text-accent">{workflow.tool}</div>
+                  <h3 className="mb-2 text-lg font-bold">{workflow.title}</h3>
+                  <p className="text-sm leading-relaxed text-text-muted">{workflow.body}</p>
+                </article>
+              ))}
             </div>
           </div>
         </section>
 
-        {/* When ReelClip is not the right tool */}
-        <section className="px-6 sm:px-10 py-16 sm:py-20 border-b border-hairline">
-          <div className="max-w-4xl mx-auto">
+        <section className="border-b border-hairline px-6 py-16 sm:px-10 sm:py-20">
+          <div className="mx-auto max-w-4xl">
             <div className="mb-10">
-              <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
+              <div className="mb-3 inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent">
                 When to use something else
               </div>
-              <h2 className="text-3xl sm:text-4xl font-black tracking-tight">
-                ReelClip is not the right tool if…
-              </h2>
+              <h2 className="text-3xl font-black tracking-tight sm:text-4xl">ReelClip is not the right tool if…</h2>
             </div>
-            <div className="grid sm:grid-cols-2 gap-4">
+            <div className="grid gap-4 sm:grid-cols-2">
               <SkipCard
-                title="You want one-tap trend replication"
-                body="If your workflow is 'pick today's trending CapCut template and ship', use CapCut — that is its entire purpose."
+                title="You want one-tap trend templates"
+                body="Choose CapCut when you want to start from a template and finish the whole post there."
               />
               <SkipCard
-                title="You want a desktop non-linear editor"
-                body="If you need Premiere / Final Cut / DaVinci, ReelClip is the wrong tool. We complement those, we don't replace them."
+                title="You want a desktop editor"
+                body="If you need Premiere Pro, Final Cut Pro, or DaVinci Resolve, use ReelClip only to prepare the clips first."
               />
               <SkipCard
-                title="You want a free clipper with zero watermark"
-                body="The free tier caps at 720p with a Made with ReelClip pill. VN Editor and Quik are better fits."
+                title="You want a free full-timeline editor"
+                body="VN is a better fit when you want to build your entire edit directly on a mobile timeline."
               />
               <SkipCard
-                title="You record under 30 seconds per clip"
-                body="ReelClip is built for the long-form → short-form workflow. If your footage is already short, any editor will do."
+                title="Your footage is already short"
+                body="ReelClip earns its place when you have a longer recording to split into usable moments."
               />
             </div>
           </div>
         </section>
 
-        {/* Closing CTA */}
-        <section className="px-6 sm:px-10 py-20 sm:py-28">
-          <div className="max-w-3xl mx-auto text-center">
-            <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
-              On the fence?
-            </h2>
-            <p className="text-base text-text-muted max-w-xl mx-auto mb-8 leading-relaxed">
-              ReelClip is in active TestFlight. Join the beta, ship a few clips, and decide for yourself.
+        <section className="px-6 py-20 sm:px-10 sm:py-28">
+          <div className="mx-auto max-w-3xl text-center">
+            <h2 className="mb-4 text-3xl font-black tracking-tight sm:text-4xl">See if it fits your workflow.</h2>
+            <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-text-muted">
+              Join the beta and turn one longer recording into smaller clips for the editor you already use.
             </p>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
+            <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
               <Link
                 href="/#waitlist"
-                className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-accent text-bg font-bold text-base hover:bg-accent-deep transition accent-glow"
+                className="accent-glow w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition hover:bg-accent-deep sm:w-auto"
               >
-                Join the TestFlight beta
+                Join beta
               </Link>
               <Link
                 href="/pricing"
-                className="w-full sm:w-auto px-7 py-3.5 rounded-full border border-hairline text-text font-semibold text-base hover:bg-surface transition"
+                className="w-full rounded-full border border-hairline px-7 py-3.5 text-base font-semibold text-text transition hover:bg-surface sm:w-auto"
               >
                 See pricing
               </Link>
@@ -536,18 +325,18 @@ export default function CompetitorsPage() {
 
 function NicheCard({ title, body }: { title: string; body: string }) {
   return (
-    <div className="p-6 rounded-2xl bg-surface border border-hairline">
-      <h3 className="text-lg font-bold mb-2">{title}</h3>
-      <p className="text-sm text-text-muted leading-relaxed">{body}</p>
+    <div className="rounded-2xl border border-hairline bg-surface p-6">
+      <h3 className="mb-2 text-lg font-bold">{title}</h3>
+      <p className="text-sm leading-relaxed text-text-muted">{body}</p>
     </div>
   );
 }
 
 function SkipCard({ title, body }: { title: string; body: string }) {
   return (
-    <div className="p-6 rounded-2xl bg-surface border border-hairline">
-      <h3 className="text-base font-bold mb-2 leading-snug">{title}</h3>
-      <p className="text-sm text-text-muted leading-relaxed">{body}</p>
+    <div className="rounded-2xl border border-hairline bg-surface p-6">
+      <h3 className="mb-2 text-base font-bold leading-snug">{title}</h3>
+      <p className="text-sm leading-relaxed text-text-muted">{body}</p>
     </div>
   );
 }
