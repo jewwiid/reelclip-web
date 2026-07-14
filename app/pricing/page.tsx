@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer";
 import { PricingClient } from "@/components/pricing-client";
 
 export const metadata: Metadata = {
-  title: "Pricing — ReelClips",
+  title: "Pricing — ReelClip",
   description:
     "Pick a Creator plan and start shipping share-ready clips. Cancel anytime.",
 };

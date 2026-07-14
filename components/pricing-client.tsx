@@ -115,7 +115,7 @@ export function PricingClient() {
         <h2 className="text-lg font-bold tracking-tight">Your details</h2>
         <p className="text-sm text-text-muted mt-1">
           We send your receipt here and use this email to identify your account on the web side.
-          If you've already bought a ReelClips sub on iOS, paste your app account token so we can
+          If you've already bought a ReelClip sub on iOS, paste your app account token so we can
           link both subscriptions to one account.
         </p>
         <div className="mt-5 grid sm:grid-cols-2 gap-4">

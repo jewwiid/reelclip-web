@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type Partner = {
   name: string;
   icon: string; // path under /partners
@@ -8,22 +10,17 @@ const PARTNERS: Partner[] = [
   {
     name: "CapCut",
     icon: "/partners/capcut.png",
-    description: "Drop the clips straight into CapCut to add trending templates, captions, and sound.",
+    description: "Bring prepared clips into CapCut and drop them into templates, captions, sound, and effects.",
   },
   {
     name: "IG Edits",
     icon: "/partners/ig-edits.png",
-    description: "Hand the clips to Instagram's editing app for filters, music, and Reel effects.",
-  },
-  {
-    name: "Opus Clips",
-    icon: "/partners/opus-clips.png",
-    description: "ReelClips handles the picker locally — Opus Clips is the cloud render pipeline if you want it.",
+    description: "Use smaller source clips in Edits to build Reels with filters, music, and finishing touches.",
   },
   {
     name: "YouTube Shorts",
     icon: "/partners/youtube-shorts.png",
-    description: "Open YouTube directly with the latest clip ready as a Short draft.",
+    description: "Use your exported clips as source footage when you create and publish YouTube Shorts.",
   },
 ];
 
@@ -31,30 +28,46 @@ export function CompatibleWith() {
   return (
     <section className="relative py-20 sm:py-28 px-6 sm:px-10 border-t border-hairline">
       <div className="max-w-5xl mx-auto">
-        <div className="text-center max-w-2xl mx-auto mb-12">
-          <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-            Plays nicely with
+        <div className="mb-12 grid items-center gap-8 lg:grid-cols-[0.7fr_1fr] lg:gap-16">
+          <div className="relative mx-auto w-48 sm:w-56">
+            <div className="absolute inset-[16%] rounded-full bg-accent/10 blur-3xl" />
+            <Image
+              src="/mockups/reelclip-export-clips.png"
+              alt="ReelClip showing a planned set of clips ready to save or export"
+              width={713}
+              height={1441}
+              sizes="(max-width: 1023px) 14rem, 18rem"
+              className="relative h-auto w-full drop-shadow-[0_24px_34px_rgba(0,0,0,0.32)]"
+            />
           </div>
-          <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
-            Compatible with the editors you already use.
-          </h2>
-          <p className="text-base text-text-muted leading-relaxed">
-            ReelClips picks the moments. These apps finish the job. Tap to send clips straight from the export sheet.
-          </p>
+          <div className="text-center lg:text-left">
+            <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
+              Your creation workflow
+            </div>
+            <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
+              Prep in ReelClip. Create anywhere.
+            </h2>
+            <p className="text-base text-text-muted leading-relaxed">
+              ReelClip handles the first cut. Export smaller clips to Photos,
+              then turn them into finished content with the templates and tools you already use.
+            </p>
+          </div>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-4 gap-6 sm:gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 sm:gap-8">
           {PARTNERS.map((partner) => (
             <div
               key={partner.name}
               className="group flex flex-col items-center text-center"
             >
-              <div className="relative w-20 h-20 sm:w-24 sm:h-24 rounded-2xl overflow-hidden ring-1 ring-hairline bg-surface transition-transform group-hover:scale-105 group-hover:ring-accent/40">
-                {/* eslint-disable-next-line @next/next/no-img-element */}
-                <img
+              <div className="relative flex h-20 w-20 items-center justify-center rounded-2xl bg-surface p-2 ring-1 ring-hairline transition-transform group-hover:scale-105 group-hover:ring-accent/40 sm:h-24 sm:w-24 sm:p-3">
+                <Image
                   src={partner.icon}
                   alt={`${partner.name} icon`}
-                  className="w-full h-full object-cover"
+                  width={512}
+                  height={512}
+                  sizes="(max-width: 640px) 4rem, 5rem"
+                  className="block h-full w-full object-contain"
                 />
               </div>
               <h3 className="mt-4 text-sm sm:text-base font-bold text-text">
@@ -68,7 +81,7 @@ export function CompatibleWith() {
         </div>
 
         {/* Single funnel CTA — every outbound click on the page should land
-            back on ReelClips. Until the public TestFlight / App Store link
+            back on ReelClip. Until the public TestFlight / App Store link
             is generated, this points at the in-page waitlist. Swap the
             href when the public link is ready. */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
@@ -79,9 +92,6 @@ export function CompatibleWith() {
           >
             Get the beta
           </a>
-          <span className="text-xs text-text-muted">
-            TestFlight · iPhone 15 Pro+ · iOS 17+
-          </span>
         </div>
       </div>
     </section>

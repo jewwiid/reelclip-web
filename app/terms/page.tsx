@@ -4,9 +4,9 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — ReelClips",
+  title: "Terms of Service — ReelClip",
   description:
-    "The terms that govern your use of ReelClips, including subscription terms, auto-renewal disclosure, and acceptable use.",
+    "The terms that govern your use of ReelClip, including subscription terms, auto-renewal disclosure, and acceptable use.",
 };
 
 const UPDATED = "July 8, 2026";
@@ -25,7 +25,7 @@ export default function TermsPage() {
             The rules of the road.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            These terms govern your use of ReelClips (the "Service"). By installing
+            These terms govern your use of ReelClip (the "Service"). By installing
             the app, joining the waitlist, or purchasing a subscription, you agree
             to them. Effective {EFFECTIVE}. Last updated {UPDATED}.
           </p>
@@ -34,7 +34,7 @@ export default function TermsPage() {
         <article className="prose-sm space-y-10 text-text leading-relaxed">
           <Section title="1. Who we are">
             <p className="text-text-muted">
-              ReelClips is operated by an individual developer ("we", "us"). Contact:
+              ReelClip is operated by an individual developer ("we", "us"). Contact:
               {" "}
               <a href="mailto:legal@reelclips.app" className="text-accent hover:underline">
                 legal@reelclips.app
@@ -44,7 +44,7 @@ export default function TermsPage() {
 
           <Section title="2. The Service">
             <p className="text-text-muted">
-              ReelClips is a strictly iOS-Apple-native video clip preparation tool.
+              ReelClip is a strictly iOS-Apple-native video clip preparation tool.
               It analyses videos on your device, plans cut points using one of
               four modes (Cut, Silence, Splice, AI Assist), and exports the
               resulting clips to your Photos library or to a
@@ -58,7 +58,7 @@ export default function TermsPage() {
 
           <Section title="3. Subscriptions, auto-renewal, and cancellation">
             <p className="text-text-muted">
-              ReelClips offers auto-renewable subscriptions through Apple&apos;s
+              ReelClip offers auto-renewable subscriptions through Apple&apos;s
               in-app purchase system (StoreKit 2) and, where available, through
               Stripe on the web at
               {" "}
@@ -104,7 +104,7 @@ export default function TermsPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
               <li>
-                On your iPhone: Settings → tap your name → Subscriptions → ReelClips.
+                On your iPhone: Settings → tap your name → Subscriptions → ReelClip.
               </li>
               <li>
                 On the web:{" "}
@@ -119,7 +119,7 @@ export default function TermsPage() {
                 .
               </li>
               <li>
-                Manage your ReelClips account, look up your tier, and request data
+                Manage your ReelClip account, look up your tier, and request data
                 deletion at{" "}
                 <Link href="/account" className="text-accent hover:underline">
                   reelclips.app / account
@@ -154,7 +154,7 @@ export default function TermsPage() {
           <Section title="6. Acceptable use">
             <p className="text-text-muted">You agree not to:</p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
-              <li>Use ReelClips to process content you do not own or have permission to use.</li>
+              <li>Use ReelClip to process content you do not own or have permission to use.</li>
               <li>Reverse engineer, decompile, or attempt to extract the source code of the Service.</li>
               <li>Resell, rent, or lease access to the Service.</li>
               <li>Use the Service to violate any applicable law or third-party right.</li>
@@ -165,7 +165,7 @@ export default function TermsPage() {
           <Section title="7. Your content">
             <p className="text-text-muted">
               You retain ownership of every video, project, and clip you create in
-              ReelClips. We claim no rights over your content. We do not access,
+              ReelClip. We claim no rights over your content. We do not access,
               upload, or process your source video on our servers. AI Assist runs
               entirely on-device via Apple Intelligence — no video, audio, or
               feature pack leaves your device when you ask the AI for help.
@@ -185,14 +185,14 @@ export default function TermsPage() {
               <li>Convex (for the waitlist backend) — governed by the Convex terms of service.</li>
             </ul>
             <p className="text-text-muted mt-3 text-sm">
-              ReelClips does not integrate with any third-party AI provider,
+              ReelClip does not integrate with any third-party AI provider,
               bring-your-own-API-key service, or self-hosted LLM endpoint.
             </p>
           </Section>
 
           <Section title="9. Beta disclaimer">
             <p className="text-text-muted">
-              ReelClips is currently distributed via Apple&apos;s TestFlight beta
+              ReelClip is currently distributed via Apple&apos;s TestFlight beta
               programme. TestFlight builds may be unstable, may be missing
               features described in our marketing materials, and may change
               before general release. We provide TestFlight builds "as is" and do
@@ -280,7 +280,7 @@ export default function TermsPage() {
               >
                 Apple Standard End User License Agreement
               </a>{" "}
-              apply as a baseline to your use of ReelClips obtained through the
+              apply as a baseline to your use of ReelClip obtained through the
               App Store. In the event of a conflict between these terms and the
               Apple EULA, the Apple EULA controls for App Store–distributed
               builds.

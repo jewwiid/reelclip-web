@@ -10,20 +10,21 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ReelClips — make good clips, Really",
+  title: "ReelClip — prep long footage for your next edit",
   description:
-    "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts. ReelClips — make good clips, Really.",
-  applicationName: "ReelClips",
+    "Cut long footage into smaller clips, export to Photos, then create with CapCut, YouTube Shorts, or any editor you like.",
+  applicationName: "ReelClip",
   keywords: [
     "video cutter",
     "video splitter",
+    "video clip preparation",
     "reels maker",
     "tiktok editor",
     "shorts",
     "highlights",
     "creator tools",
   ],
-  authors: [{ name: "ReelClips" }],
+  authors: [{ name: "ReelClip" }],
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "32x32" },
@@ -34,24 +35,24 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "ReelClips — make good clips, Really",
-    description: "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts.",
+    title: "ReelClip — prep long footage for your next edit",
+    description: "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
     url: "https://reelclips.app",
-    siteName: "ReelClips",
+    siteName: "ReelClip",
     type: "website",
     images: [
       {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "ReelClips — make good clips, Really",
+        alt: "ReelClip — make good clips, Really",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ReelClips — make good clips, Really",
-    description: "Cut any video into share-ready clips. On-device by default. Built for creators who publish to Reels, TikTok, and Shorts.",
+    title: "ReelClip — prep long footage for your next edit",
+    description: "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
     images: ["/opengraph-image.png"],
   },
   // Canonical URL — also referenced when setting the App Store Connect

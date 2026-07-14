@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type Mode = {
   name: string;
   symbol: string;
@@ -13,8 +15,8 @@ const MODES: Mode[] = [
     symbol: "scissors",
     tagline: "Predictable equal-length clips.",
     description:
-      "Split a video into N segments of M seconds. Perfect for episodic content, podcast quote clips, or scheduled posting.",
-    bullets: ["Set N clips", "Choose duration", "Export batch"],
+      "Choose how many clips you want and how long each should be. Ideal for recurring series, podcast excerpts, and scheduled posts.",
+    bullets: ["Choose the clip count", "Set the duration", "Export them together"],
     accent: "from-accent/30 to-accent/0",
   },
   {
@@ -22,26 +24,26 @@ const MODES: Mode[] = [
     symbol: "waveform",
     tagline: "Cuts that breathe with the speaker.",
     description:
-      "On-device audio energy analysis finds natural breath points and silence. Falls back to fixed intervals when no pauses are found.",
-    bullets: ["Audio energy scan", "Pause detection", "Smart trim handles"],
+      "Finds natural pauses in speech so cuts feel cleaner. If there are no clear pauses, ReelClip keeps the timing consistent.",
+    bullets: ["Find natural pauses", "Keep speech flowing", "Adjust every cut"],
     accent: "from-accent/20 to-accent/0",
   },
   {
     name: "Splice",
     symbol: "sparkles",
-    tagline: "Frame-scored moments that pop.",
+    tagline: "Find the moments that stand out.",
     description:
-      "AVFoundation frame sampling combined with Vision face detection, brightness, sharpness, and motion signals. Picks the most engaging moments automatically.",
-    bullets: ["Frame scoring", "Face detection", "Motion + sharpness signals"],
+      "ReelClip looks at movement, faces, sharpness, and audio to surface the strongest moments — all on your iPhone.",
+    bullets: ["Surface standout moments", "Use visual and audio cues", "Review before export"],
     accent: "from-accent/25 to-accent/0",
   },
   {
     name: "AI Assist",
     symbol: "wand",
-    tagline: "Describe the vibe. Get a plan.",
+    tagline: "Describe what you want. Get a clip plan.",
     description:
-      "Powered by Apple Intelligence on-device. ReelClips builds a compact timeline feature pack (audio energy, silence markers, segment durations, your prompt) and runs it through the on-device model. Your video never leaves your phone.",
-    bullets: ["Runs entirely on-device", "No API key, no cloud LLM", "Plan validation before export"],
+      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence creates suggestions on-device for you to review.",
+    bullets: ["Use everyday language", "No account or upload", "Review every suggestion"],
     accent: "from-accent/35 to-accent/0",
   },
 ];
@@ -84,14 +86,27 @@ export function Modes() {
   return (
     <section id="modes" className="relative py-20 sm:py-32 px-6 sm:px-10 border-t border-hairline">
       <div className="max-w-6xl mx-auto">
-        <div className="text-center mb-16">
-          <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-            Four cut modes
+        <div className="mb-12 grid items-center gap-8 lg:grid-cols-[1fr_0.42fr] lg:gap-16">
+          <div className="text-center lg:text-left">
+            <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
+              Four cut modes
+            </div>
+            <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
+              Choose how to prep your footage.<br />
+              <span className="text-text-muted">ReelClip handles the cuts.</span>
+            </h2>
           </div>
-          <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-4">
-            Pick your style.<br />
-            <span className="text-text-muted">ReelClips handles the cuts.</span>
-          </h2>
+          <div className="relative mx-auto w-40 sm:w-48 lg:w-full lg:max-w-[15rem]">
+            <div className="absolute inset-[18%] rounded-full bg-accent/10 blur-2xl" />
+            <Image
+              src="/mockups/reelclip-editor-timeline.png"
+              alt="ReelClip timeline with scene controls and a clip preview"
+              width={741}
+              height={1522}
+              sizes="(max-width: 1023px) 12rem, 15rem"
+              className="relative h-auto w-full drop-shadow-[0_22px_32px_rgba(0,0,0,0.3)]"
+            />
+          </div>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-4 sm:gap-6">

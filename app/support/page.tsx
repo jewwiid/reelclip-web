@@ -3,9 +3,9 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Support — ReelClips",
+  title: "Support — ReelClip",
   description:
-    "Get help with ReelClips. Bug reports, feature requests, and account questions. We respond within one business day.",
+    "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
 };
 
 const CONTACT_EMAIL = "support@reelclips.app";
@@ -23,7 +23,7 @@ export default function SupportPage() {
             We're here to help.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            ReelClips is currently in active TestFlight. The fastest way to reach
+            ReelClip is currently in active TestFlight. The fastest way to reach
             a human is email — we respond within one business day. If you're a
             beta tester, please include your build number (Settings → General →
             About) and the device + iOS version you're on.
@@ -50,23 +50,23 @@ export default function SupportPage() {
           <div className="space-y-6">
             <QA
               q="Is my video uploaded to a server?"
-              a="No. ReelClips runs every analysis (cuts, AI plans, transcripts) entirely on-device. Your source video is copied into the app's private sandbox, processed locally, and the original file in Photos is never touched. See the Privacy Policy for the full data flow."
+              a="No. ReelClip runs every analysis (cuts, AI plans, transcripts) entirely on-device. Your source video is copied into the app's private sandbox, processed locally, and the original file in Photos is never touched. See the Privacy Policy for the full data flow."
             />
             <QA
               q="My import says 'file doesn't exist' even though the video is there."
-              a="The file is likely in iCloud Drive and only a placeholder is on device. Open the file in the Files app once to trigger the iCloud download, then re-import. iOS 17+ sometimes needs the local copy before ReelClips can read the bytes."
+              a="The file is likely in iCloud Drive and only a placeholder is on device. Open the file in the Files app once to trigger the iCloud download, then re-import. iOS 17+ sometimes needs the local copy before ReelClip can read the bytes."
             />
             <QA
               q="How do I leave the TestFlight beta?"
-              a="Open TestFlight → tap ReelClips → scroll to the bottom → 'Stop Testing'. You'll stop getting builds and the next App Store release won't include your account."
+              a="Open TestFlight → tap ReelClip → scroll to the bottom → 'Stop Testing'. You'll stop getting builds and the next App Store release won't include your account."
             />
             <QA
               q="Can I get a refund on my subscription?"
-              a="Yes. Refunds are handled by Apple — go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClips charge. We can't process refunds directly."
+              a="Yes. Refunds are handled by Apple — go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClip charge. We can't process refunds directly."
             />
             <QA
-              q="Why do I sometimes see 'ReelClip' (singular) and sometimes 'ReelClips' (plural)?"
-              a="The marketing surface — website, wordmark, in-app text — uses the plural 'ReelClips' as the product brand. A few legacy code identifiers still use the singular 'ReelClip': the iOS bundle id (can't change without a new App Store listing), the .reelclip project file extension (so existing projects don't break), and the Photos album name (so we don't orphan saved clips in your library). They'll catch up on the next App Store submission."
+              q="Why does the website use reelclips.app?"
+              a="ReelClip is the product name. We keep the existing reelclips.app domain so existing links, emails, and TestFlight materials continue to work. The iOS bundle id and .reelclip project extension also remain unchanged for compatibility."
             />
           </div>
         </section>
@@ -76,7 +76,7 @@ export default function SupportPage() {
             Beta feedback is gold. If you find a rough edge, a confusing
             affordance, or a feature you'd pay for — let us know at{" "}
             <a
-              href={`mailto:${CONTACT_EMAIL}?subject=ReelClips%20feedback`}
+              href={`mailto:${CONTACT_EMAIL}?subject=ReelClip%20feedback`}
               className="text-accent hover:underline"
             >
               {CONTACT_EMAIL}
