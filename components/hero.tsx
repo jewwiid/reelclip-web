@@ -8,11 +8,6 @@ export function Hero() {
 
       <div className="relative mx-auto grid max-w-6xl items-center gap-10 lg:grid-cols-[1.05fr_0.95fr] lg:gap-4">
         <div className="text-center lg:text-left">
-          <div className="inline-flex items-center gap-2 rounded-full border border-hairline bg-surface/60 px-3 py-1.5 backdrop-blur mb-8">
-            <span className="h-1.5 w-1.5 rounded-full bg-accent animate-pulse" />
-            <span className="text-xs font-medium text-text-muted">TestFlight beta · iOS 17+</span>
-          </div>
-
           <Image
             src="/wordmark.png"
             alt="ReelClip"
@@ -53,9 +48,9 @@ export function Hero() {
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-3 gap-4 border-t border-hairline pt-8 lg:mx-0">
-            <Stat label="On-device" detail="Your video stays private" />
-            <Stat label="Review first" detail="Adjust every cut" />
-            <Stat label="Editor-ready" detail="Export smaller source clips" />
+            <Stat label="Private by default" detail="Stays on your phone" />
+            <Stat label="You’re in control" detail="Review every cut" />
+            <Stat label="Ready to create" detail="Export clips anywhere" />
           </div>
         </div>
 

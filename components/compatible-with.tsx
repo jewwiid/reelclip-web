@@ -92,9 +92,6 @@ export function CompatibleWith() {
           >
             Get the beta
           </a>
-          <span className="text-xs text-text-muted">
-            TestFlight · iOS 17+ · AI Assist requires iPhone 15 Pro or later
-          </span>
         </div>
       </div>
     </section>

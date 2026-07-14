@@ -20,15 +20,17 @@ export function CTA() {
   const [customCreatorType, setCustomCreatorType] = useState("");
   const [status, setStatus] = useState<"idle" | "loading" | "success" | "error">("idle");
   const [message, setMessage] = useState("");
+  const selectedRole = creatorType === "Other" ? customCreatorType.trim() : creatorType;
+  const hasValidEmail = /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email.trim());
+  const isFormComplete = hasValidEmail && Boolean(selectedRole);
 
   async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
-    if (!email.trim()) return;
+    if (!isFormComplete) return;
 
     setStatus("loading");
     try {
-      const role = creatorType === "Other" ? customCreatorType.trim() : creatorType;
-      const result = await joinWaitlist({ email: email.trim(), role: role || undefined });
+      const result = await joinWaitlist({ email: email.trim(), role: selectedRole });
       setStatus("success");
       setMessage(
         result.alreadyOnList
@@ -92,11 +94,12 @@ export function CTA() {
               </div>
               <div className="text-left">
                 <label htmlFor="waitlist-role" className="block text-xs font-semibold text-text-muted mb-2 ml-1">
-                  What do you create? <span className="font-normal text-text-faint">Optional</span>
+                  What do you create?
                 </label>
                 <div className="relative">
                   <select
                     id="waitlist-role"
+                    required
                     value={creatorType}
                     onChange={(e) => {
                       setCreatorType(e.target.value);
@@ -121,13 +124,15 @@ export function CTA() {
                   </svg>
                 </div>
               </div>
-              <button
-                type="submit"
-                disabled={status === "loading"}
-                className="w-full px-7 py-3.5 rounded-full bg-accent text-bg font-bold hover:bg-accent-deep transition accent-glow disabled:opacity-60 sm:w-auto"
-              >
-                {status === "loading" ? "Joining…" : "Join beta"}
-              </button>
+              {isFormComplete && (
+                <button
+                  type="submit"
+                  disabled={status === "loading"}
+                  className="w-full px-7 py-3.5 rounded-full bg-accent text-bg font-bold hover:bg-accent-deep transition accent-glow active:scale-[0.98] disabled:opacity-60 sm:w-auto"
+                >
+                  {status === "loading" ? "Joining…" : "Join beta"}
+                </button>
+              )}
             </div>
 
             {creatorType === "Other" && (
@@ -146,6 +151,12 @@ export function CTA() {
                   className="w-full px-5 py-3 rounded-full bg-surface border border-hairline text-text placeholder:text-text-faint focus:outline-none focus:border-accent transition text-sm"
                 />
               </div>
+            )}
+
+            {!isFormComplete && (
+              <p className="text-xs text-text-faint pt-1">
+                Complete the fields above to continue.
+              </p>
             )}
 
             {status === "error" && (

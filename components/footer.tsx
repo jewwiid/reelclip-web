@@ -6,13 +6,15 @@ export function Footer() {
     <footer className="border-t border-hairline px-6 sm:px-10 py-12">
       <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-[1fr_auto] sm:items-start">
         <div className="flex flex-col gap-6">
-          <Image
-            src="/wordmark.png"
-            alt="ReelClip"
-            width={140}
-            height={40}
-            className="h-9 w-auto"
-          />
+          <div className="relative h-9 w-32 shrink-0">
+            <Image
+              src="/wordmark.png"
+              alt="ReelClip"
+              fill
+              sizes="8rem"
+              className="object-contain object-left"
+            />
+          </div>
 
           <p className="text-sm text-text-muted max-w-md leading-relaxed">
             Turn long footage into smaller clips for your next edit. Review
