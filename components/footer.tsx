@@ -6,30 +6,29 @@ export function Footer() {
     <footer className="border-t border-hairline px-6 sm:px-10 py-12">
       <div className="max-w-6xl mx-auto grid gap-8 sm:grid-cols-[1fr_auto] sm:items-start">
         <div className="flex flex-col gap-6">
-          {/* eslint-disable-next-line @next/next/no-img-element */}
           <Image
             src="/wordmark.png"
-            alt="ReelClips"
+            alt="ReelClip"
             width={140}
             height={40}
             className="h-9 w-auto"
           />
 
           <p className="text-sm text-text-muted max-w-md leading-relaxed">
-            Cut any video into share-ready clips. On-device by default.
-            Four cut modes. AI runs entirely on-device via Apple Intelligence.
-            Built for Reels, TikTok, and Shorts.
+            Turn long footage into smaller clips for your next edit. Review
+            every cut, export to Photos, then create in CapCut, Shorts,
+            or any editor you like.
           </p>
 
           <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-accent">
-            ReelClips — make good clips, Really
+            ReelClip — make good clips, Really
           </p>
         </div>
 
         <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-6 text-sm">
           <FooterCol title="Product">
             <Link href="/#modes" className="hover:text-text transition">Modes</Link>
-            <Link href="/#safety" className="hover:text-text transition">Why ReelClips</Link>
+            <Link href="/#safety" className="hover:text-text transition">Why ReelClip</Link>
             <Link href="/#for" className="hover:text-text transition">For creators</Link>
             <Link href="/competitors" className="hover:text-text transition">Compare</Link>
             <Link href="/pricing" className="hover:text-text transition">Pricing</Link>
@@ -58,7 +57,7 @@ export function Footer() {
       </div>
 
       <div className="max-w-6xl mx-auto mt-10 pt-6 border-t border-hairline flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-text-faint">
-        <div>© {new Date().getFullYear()} ReelClips. All rights reserved.</div>
+        <div>© {new Date().getFullYear()} ReelClip. All rights reserved.</div>
         <div>
           Made with care for creators who publish to Reels, TikTok, and Shorts.
         </div>

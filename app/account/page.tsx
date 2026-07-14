@@ -4,8 +4,8 @@ import { Footer } from "@/components/footer";
 import { AccountClient } from "@/components/account-client";
 
 export const metadata: Metadata = {
-  title: "Account — ReelClips",
-  description: "Manage your ReelClips subscription.",
+  title: "Account — ReelClip",
+  description: "Manage your ReelClip subscription.",
 };
 
 export default async function AccountPage(props: {

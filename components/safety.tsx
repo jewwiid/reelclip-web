@@ -1,69 +1,39 @@
+import Image from "next/image";
+
 export function Safety() {
   return (
     <section id="safety" className="relative py-20 sm:py-32 px-6 sm:px-10 border-t border-hairline">
-      <div className="max-w-6xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
-          <div>
-            <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-              Built for safety
-            </div>
-            <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-6">
-              Review every cut<br />
-              <span className="text-text-muted">before anything ships.</span>
-            </h2>
-            <p className="text-lg text-text-muted leading-relaxed mb-8">
-              ReelClips never writes generated clips to your Photos until you tap save.
-              Every plan shows thumbnails, waveform, and frame-snapped trim handles so you can adjust before export.
-            </p>
+      <div className="max-w-3xl mx-auto">
+        <div>
+          <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
+            You&apos;re in control
+          </div>
+          <h2 className="text-4xl sm:text-5xl font-black tracking-tight mb-6">
+            You make the final cut.<br />
+            <span className="text-text-muted">Nothing saves until you say so.</span>
+          </h2>
+          <p className="text-lg text-text-muted leading-relaxed mb-8">
+            ReelClip shows every suggested clip before saving anything to Photos.
+            Review the moment, adjust the trim, and export only what you want.
+          </p>
 
-            <div className="space-y-4">
-              <Pill text="No clips land in Photos without explicit save" />
-              <Pill text="On-device analysis by default — your video stays on your phone" />
-              <Pill text="30-minute source / 180-clip plan caps protect your phone and your time" />
-              <Pill text="Bounded iOS background task — never an unsafe infinite render" />
-            </div>
+          <div className="space-y-4">
+            <Pill text="Nothing is saved until you approve it" />
+            <Pill text="Your original video stays untouched" />
+            <Pill text="Every clip can be reviewed and adjusted first" />
+            <Pill text="Analysis happens on-device — your video stays on your phone" />
           </div>
 
-          <div className="relative">
-            <div className="absolute -inset-4 bg-accent/5 blur-3xl rounded-full" />
-            <div className="relative aspect-[9/16] max-w-sm mx-auto rounded-[2.5rem] bg-surface border border-hairline p-3 shadow-2xl">
-              <div className="w-full h-full rounded-[1.75rem] bg-bg overflow-hidden relative">
-                <div className="absolute inset-x-0 top-0 h-7 bg-bg flex items-center justify-center">
-                  <div className="w-20 h-4 rounded-full bg-surface-2 mt-1" />
-                </div>
-
-                <div className="pt-10 px-5">
-                  <div className="text-[10px] font-bold uppercase tracking-wider text-accent mb-1.5">
-                    Creator workspace
-                  </div>
-                  <div className="text-2xl font-black mb-1">Projects</div>
-                  <div className="text-xs text-text-muted leading-tight mb-5">
-                    Continue a saved plan or start fresh.
-                  </div>
-
-                  <div className="flex gap-2 mb-4">
-                    <div className="flex-1 h-9 rounded-lg bg-surface border border-hairline flex items-center justify-center text-xs font-semibold">
-                      Files
-                    </div>
-                    <div className="flex-1 h-9 rounded-lg bg-accent text-bg flex items-center justify-center text-xs font-bold">
-                      Photos
-                    </div>
-                  </div>
-
-                  <div className="p-4 rounded-xl bg-surface border border-hairline">
-                    <div className="flex items-center justify-center w-10 h-10 mx-auto mb-2 rounded-full bg-accent/10 text-accent">
-                      <svg viewBox="0 0 24 24" fill="currentColor" className="w-5 h-5">
-                        <path d="M12 2l1.5 5.5L19 9l-5.5 1.5L12 16l-1.5-5.5L5 9l5.5-1.5L12 2z" />
-                      </svg>
-                    </div>
-                    <div className="text-center text-sm font-bold">No saved projects yet</div>
-                    <div className="text-center text-[10px] text-text-muted leading-tight mt-1">
-                      One project per source video.
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+          <div className="relative mt-10 mx-auto w-48 sm:w-56">
+            <div className="absolute inset-[16%] rounded-full bg-accent/10 blur-3xl" />
+            <Image
+              src="/mockups/reelclip-home-projects.png"
+              alt="ReelClip home screen showing a saved project and import options"
+              width={713}
+              height={1441}
+              sizes="(max-width: 640px) 12rem, 14rem"
+              className="relative h-auto w-full drop-shadow-[0_24px_34px_rgba(0,0,0,0.32)]"
+            />
           </div>
         </div>
       </div>

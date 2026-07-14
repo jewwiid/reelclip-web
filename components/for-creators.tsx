@@ -1,22 +1,22 @@
 const USE_CASES = [
   {
     title: "Podcasters",
-    description: "Split 60-min episodes into quote clips for Reels, Shorts, and TikTok. Smart Pause finds natural breath points.",
+    description: "Turn podcast recordings into shorter source clips ready for captions, templates, and social edits. Silence mode finds natural pauses between thoughts.",
     icon: "mic",
   },
   {
     title: "Coaches",
-    description: "Tag standout plays from long practice recordings. Highlight mode finds the most engaging frames automatically.",
+    description: "Pull standout plays from long practice recordings, then take the best clips into the tool you use to build the final post.",
     icon: "court",
   },
   {
     title: "Creators",
-    description: "Turn long vlogs into story sequences. Cut mode for predictable posting cadence across your content calendar.",
+    description: "Break long vlogs into useful building blocks for CapCut templates, Reels, TikTok, and Shorts.",
     icon: "camera",
   },
   {
     title: "Anyone who records more than they publish",
-    description: "Pick a source. Pick a mode. Ship the clip. Stop letting great footage die on your camera roll.",
+    description: "Pick a source. Pick a mode. Review the cuts. Export smaller clips to the tools you create with.",
     icon: "rocket",
   },
 ];
