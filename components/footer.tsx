@@ -23,11 +23,11 @@ export function Footer() {
           </p>
 
           <p className="text-[11px] font-bold uppercase tracking-[0.22em] text-accent">
-            ReelClip — make good clips, Really
+            Make good clips, really
           </p>
         </div>
 
-        <div className="grid grid-cols-2 sm:grid-cols-3 gap-x-10 gap-y-6 text-sm">
+        <div className="grid grid-cols-2 gap-x-10 gap-y-6 text-sm sm:grid-cols-4">
           <FooterCol title="Product">
             <Link href="/#modes" className="hover:text-text transition">Modes</Link>
             <Link href="/#safety" className="hover:text-text transition">Why ReelClip</Link>
@@ -54,6 +54,28 @@ export function Footer() {
             <Link href="/terms" className="hover:text-text transition">Terms</Link>
             <a href="mailto:support@reelclips.app" className="hover:text-text transition">Support</a>
             <a href="mailto:legal@reelclips.app" className="hover:text-text transition">Legal</a>
+          </FooterCol>
+
+          <FooterCol title="Follow">
+            <a
+              href="https://www.instagram.com/reelclipapp/"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex w-fit items-center gap-2 hover:text-text transition"
+            >
+              <InstagramIcon />
+              Instagram <span aria-hidden="true">↗</span>
+            </a>
+            <a
+              href="https://www.tiktok.com/@reelclipapp"
+              target="_blank"
+              rel="noreferrer"
+              className="inline-flex w-fit items-center gap-2 hover:text-text transition"
+            >
+              <TikTokIcon />
+              TikTok <span aria-hidden="true">↗</span>
+            </a>
+            <span className="text-text-faint">@reelclipapp</span>
           </FooterCol>
         </div>
       </div>
@@ -82,5 +104,23 @@ function FooterCol({
       </div>
       <div className="flex flex-col gap-2 text-text-muted">{children}</div>
     </div>
+  );
+}
+
+function InstagramIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" className="h-4 w-4 shrink-0">
+      <rect x="3" y="3" width="18" height="18" rx="5" />
+      <circle cx="12" cy="12" r="4" />
+      <circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none" />
+    </svg>
+  );
+}
+
+function TikTokIcon() {
+  return (
+    <svg aria-hidden="true" viewBox="0 0 24 24" fill="currentColor" className="h-4 w-4 shrink-0">
+      <path d="M14.2 3c.45 2.55 1.88 4.1 4.3 4.65v3.05a8.12 8.12 0 0 1-4.3-1.22v5.98a5.42 5.42 0 1 1-4.7-5.38v3.12a2.42 2.42 0 1 0 1.7 2.31V3h3Z" />
+    </svg>
   );
 }
