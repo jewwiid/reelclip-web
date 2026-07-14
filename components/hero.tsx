@@ -18,14 +18,15 @@ export function Hero() {
           />
 
           <h1 className="mb-6 text-5xl font-black leading-[0.95] tracking-tight sm:text-7xl">
-            Turn long footage
+            Get footage ready
             <br />
-            into <span className="gradient-text">clips for your next edit.</span>
+            for <span className="gradient-text">your next edit.</span>
           </h1>
 
           <p className="mx-auto mb-3 max-w-2xl text-lg leading-relaxed text-text-muted sm:text-xl lg:mx-0">
-            Import one long video. ReelClip cuts it into smaller clips you can
-            review, export to Photos, and use in CapCut, Shorts, or any editor.
+            Start with one longer recording — or add several scenes to one project.
+            ReelClip helps you choose the moments, then lines them up for export,
+            ready for CapCut, Shorts, or any editor.
           </p>
 
           <div className="mb-12 flex flex-col items-center gap-3 sm:flex-row lg:items-start">
@@ -44,9 +45,9 @@ export function Hero() {
           </div>
 
           <div className="mx-auto grid max-w-2xl grid-cols-3 gap-4 border-t border-hairline pt-8 lg:mx-0">
-            <Stat label="Private by default" detail="Stays on your phone" />
-            <Stat label="You’re in control" detail="Review every cut" />
-            <Stat label="Ready to create" detail="Export clips anywhere" />
+            <Stat label="Add scenes" detail="Keep every shoot in one project" />
+            <Stat label="Your clip plan" detail="Pick the moments worth keeping" />
+            <Stat label="Ready to export" detail="Send a tidy batch to Photos" />
           </div>
         </div>
 
@@ -70,7 +71,7 @@ export function Hero() {
 function Stat({ label, detail }: { label: string; detail: string }) {
   return (
     <div>
-      <div className="text-2xl sm:text-3xl font-black text-accent mb-1">{label}</div>
+      <div className="text-base sm:text-lg font-black text-accent mb-1">{label}</div>
       <div className="text-xs sm:text-sm text-text-muted leading-tight">{detail}</div>
     </div>
   );

@@ -42,14 +42,13 @@ export function CompatibleWith() {
           </div>
           <div className="text-center lg:text-left">
             <div className="inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent mb-3">
-              Your creation workflow
+              Your project export
             </div>
             <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
-              Prep in ReelClip. Create anywhere.
+              See every chosen clip before it leaves ReelClip.
             </h2>
             <p className="text-base text-text-muted leading-relaxed">
-              ReelClip handles the first cut. Export smaller clips to Photos,
-              then turn them into finished content with the templates and tools you already use.
+              The project export row keeps selected clips from every scene together in one clear plan. Check what you&apos;re keeping, then batch-export a tidy set to Photos and build the final post with the templates and tools you already use.
             </p>
           </div>
         </div>
