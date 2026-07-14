@@ -28,10 +28,6 @@ export function Hero() {
             review, export to Photos, and use in CapCut, Shorts, or any editor.
           </p>
 
-          <p className="mb-10 text-sm font-bold uppercase tracking-[0.22em] text-accent sm:text-base">
-            ReelClip — make good clips, Really
-          </p>
-
           <div className="mb-12 flex flex-col items-center gap-3 sm:flex-row lg:items-start">
             <Link
               href="#waitlist"
