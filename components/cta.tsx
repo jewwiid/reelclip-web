@@ -13,6 +13,8 @@ const CREATOR_OPTIONS = [
   "Business or product videos",
 ] as const;
 
+const TESTFLIGHT_JOIN_URL = "https://testflight.apple.com/join/KFA3haEA";
+
 export function CTA() {
   const joinWaitlist = useMutation(api.waitlist.join);
   const [email, setEmail] = useState("");
@@ -34,8 +36,8 @@ export function CTA() {
       setStatus("success");
       setMessage(
         result.alreadyOnList
-          ? "You're already on the list. We'll be in touch."
-          : "You're on the list. Watch your email for the TestFlight invite."
+          ? "Your details are already saved. Your beta link is ready below."
+          : "Your details are saved. Your beta link is ready below."
       );
       setEmail("");
       setCreatorType("");
@@ -65,14 +67,22 @@ export function CTA() {
           Join the beta.
         </h2>
         <p className="text-lg text-text-muted max-w-xl mx-auto mb-10 leading-relaxed">
-          ReelClip is in active TestFlight. Leave your email and we&apos;ll send you an invite.
+          ReelClip is in active TestFlight. Complete the form to get your beta link.
         </p>
 
         {status === "success" ? (
           <div className="p-6 rounded-2xl bg-accent/10 border border-accent/30">
             <div className="text-3xl mb-2">✓</div>
-            <div className="text-lg font-bold mb-1">You&apos;re on the list</div>
-            <div className="text-text-muted">{message}</div>
+            <div className="text-lg font-bold mb-1">Your beta link is ready</div>
+            <p className="text-text-muted">{message}</p>
+            <a
+              href={TESTFLIGHT_JOIN_URL}
+              target="_blank"
+              rel="noreferrer"
+              className="mt-5 inline-flex items-center justify-center rounded-full bg-accent px-7 py-3.5 font-bold text-bg transition hover:bg-accent-deep active:scale-[0.98]"
+            >
+              Open TestFlight
+            </a>
           </div>
         ) : (
           <form onSubmit={handleSubmit} className="max-w-3xl mx-auto space-y-3">
@@ -164,7 +174,7 @@ export function CTA() {
             )}
 
             <p className="text-xs text-text-faint pt-2">
-              We only email when your TestFlight invite is ready. No marketing or spam.
+              We only use your email for beta updates. No marketing or spam.
             </p>
           </form>
         )}

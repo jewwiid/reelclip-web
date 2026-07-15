@@ -175,8 +175,8 @@ export default function PrivacyPage() {
               California, you have the right to access, correct, port, or delete
               the personal data we hold about you. Email
               {" "}
-              <a href="mailto:privacy@reelclips.app" className="text-accent hover:underline">
-                privacy@reelclips.app
+              <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">
+                jude@reelclips.app
               </a>{" "}
               to exercise these rights. We respond within 30 days.
             </p>
@@ -214,7 +214,7 @@ export default function PrivacyPage() {
               Questions, data requests, or complaints:
             </p>
             <ul className="list-none space-y-1.5 text-text-muted mt-3">
-              <li>Email: <a href="mailto:privacy@reelclips.app" className="text-accent hover:underline">privacy@reelclips.app</a></li>
+              <li>Email: <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">jude@reelclips.app</a></li>
               <li>Post: see Terms page for the controlling entity and address.</li>
             </ul>
           </Section>

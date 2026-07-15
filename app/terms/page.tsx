@@ -36,8 +36,8 @@ export default function TermsPage() {
             <p className="text-text-muted">
               ReelClip is operated by an individual developer ("we", "us"). Contact:
               {" "}
-              <a href="mailto:legal@reelclips.app" className="text-accent hover:underline">
-                legal@reelclips.app
+              <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">
+                jude@reelclips.app
               </a>.
             </p>
           </Section>
@@ -144,8 +144,8 @@ export default function TermsPage() {
               </a>
               . Subscriptions purchased through Stripe on our website are governed
               by our refund policy — contact{" "}
-              <a href="mailto:support@reelclips.app" className="text-accent hover:underline">
-                support@reelclips.app
+              <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">
+                jude@reelclips.app
               </a>{" "}
               within 14 days of purchase.
             </p>
@@ -263,9 +263,9 @@ export default function TermsPage() {
               Questions about these terms:
             </p>
             <ul className="list-none space-y-1.5 text-text-muted mt-3">
-              <li>Email: <a href="mailto:legal@reelclips.app" className="text-accent hover:underline">legal@reelclips.app</a></li>
-              <li>Support: <a href="mailto:support@reelclips.app" className="text-accent hover:underline">support@reelclips.app</a></li>
-              <li>Privacy: <a href="mailto:privacy@reelclips.app" className="text-accent hover:underline">privacy@reelclips.app</a></li>
+              <li>Email: <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">jude@reelclips.app</a></li>
+              <li>Support: <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">jude@reelclips.app</a></li>
+              <li>Privacy: <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">jude@reelclips.app</a></li>
             </ul>
           </Section>
 
