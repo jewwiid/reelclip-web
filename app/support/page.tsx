@@ -8,7 +8,7 @@ export const metadata: Metadata = {
     "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
 };
 
-const CONTACT_EMAIL = "support@reelclips.app";
+const CONTACT_EMAIL = "jude@reelclips.app";
 
 export default function SupportPage() {
   return (
