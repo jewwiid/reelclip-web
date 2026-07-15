@@ -53,8 +53,7 @@ export function Footer() {
             <Link href="/brand" className="hover:text-text transition">Brand assets</Link>
             <Link href="/privacy" className="hover:text-text transition">Privacy</Link>
             <Link href="/terms" className="hover:text-text transition">Terms</Link>
-            <a href="mailto:support@reelclips.app" className="hover:text-text transition">Support</a>
-            <a href="mailto:legal@reelclips.app" className="hover:text-text transition">Legal</a>
+            <Link href="/support" className="hover:text-text transition">Support</Link>
           </FooterCol>
 
           <FooterCol title="Follow">
