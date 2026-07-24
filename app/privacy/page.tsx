@@ -67,7 +67,7 @@ export default function PrivacyPage() {
               </li>
               <li>
                 <strong className="text-text">Speech recognition</strong>: to generate
-                the local transcript used by the Smart Pause mode and the SRT / VTT
+                the local transcript used by the Transcript mode and the SRT / VTT
                 subtitle export. Recognition runs on-device via Apple&apos;s
                 <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">SFSpeechRecognizer</code>
                 with <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">requiresOnDeviceRecognition</code> enabled.
@@ -126,7 +126,7 @@ export default function PrivacyPage() {
               <li>No part of the feature pack leaves your device.</li>
               <li>No video, audio, or transcript is uploaded to Apple, ReelClip, or any third party.</li>
               <li>No API key is required and none is stored. Apple Intelligence is a system framework, not a service.</li>
-              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable. ReelClip does not silently fall back to a cloud provider. The other three cut modes (Cut, Silence, Splice) remain fully usable on any device.</li>
+              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable. ReelClip does not silently fall back to a cloud provider. The other three cut modes (Cut, Transcript, Splice) remain fully usable on any device.</li>
             </ul>
             <p className="text-text-muted mt-3">
               Apple Intelligence is governed by{" "}

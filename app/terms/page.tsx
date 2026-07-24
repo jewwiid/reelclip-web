@@ -46,7 +46,7 @@ export default function TermsPage() {
             <p className="text-text-muted">
               ReelClip is a strictly iOS-Apple-native video clip preparation tool.
               It analyses videos on your device, plans cut points using one of
-              four modes (Cut, Silence, Splice, AI Assist), and exports the
+              four modes (Cut, Transcript, Splice, AI Assist), and exports the
               resulting clips to your Photos library or to a
               <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">.reelclip</code>
               project file. AI Assist runs entirely on-device via Apple

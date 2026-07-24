@@ -20,7 +20,7 @@ const MODES: Mode[] = [
     accent: "from-accent/30 to-accent/0",
   },
   {
-    name: "Silence",
+    name: "Transcript",
     symbol: "waveform",
     tagline: "Cuts that breathe with the speaker.",
     description:
