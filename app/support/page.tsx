@@ -3,7 +3,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Support — ReelClip",
+  title: "Support · ReelClip",
   description:
     "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
 };
@@ -24,7 +24,7 @@ export default function SupportPage() {
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
             ReelClip is currently in active TestFlight. The fastest way to reach
-            a human is email — we respond within one business day. If you're a
+            a human is email. We respond within one business day. If you're a
             beta tester, please include your build number (Settings → General →
             About) and the device + iOS version you're on.
           </p>
@@ -62,7 +62,7 @@ export default function SupportPage() {
             />
             <QA
               q="Can I get a refund on my subscription?"
-              a="Yes. Refunds are handled by Apple — go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClip charge. We can't process refunds directly."
+              a="Yes. Refunds are handled by Apple. Go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClip charge. We can't process refunds directly."
             />
             <QA
               q="Why does the website use reelclips.app?"
@@ -73,8 +73,8 @@ export default function SupportPage() {
 
         <section className="text-sm text-text-muted">
           <p>
-            Beta feedback is gold. If you find a rough edge, a confusing
-            affordance, or a feature you'd pay for — let us know at{" "}
+            If you find a rough edge, a confusing
+            affordance, or a feature you'd pay for, let us know at{" "}
             <a
               href={`mailto:${CONTACT_EMAIL}?subject=ReelClip%20feedback`}
               className="text-accent hover:underline"

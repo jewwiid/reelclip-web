@@ -32,7 +32,7 @@ const tiers = [
       "Native-resolution exports, no watermark",
       "30-minute source videos",
       "SRT/VTT subtitle export",
-      "Multi-scene projects — add scenes, switch between them, batch-export",
+      "Multi-scene projects: add scenes, switch between them, batch-export",
     ],
   },
   {
@@ -41,7 +41,7 @@ const tiers = [
     tier: "creator" as const,
     interval: "year" as const,
     price: "$59.99 / yr",
-    blurb: "Best Creator value — save 50% vs paying monthly.",
+    blurb: "Best Creator value: save 50% vs paying monthly.",
     perks: [
       "Everything in Creator monthly",
       "Save 50% vs paying monthly",

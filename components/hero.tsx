@@ -24,7 +24,7 @@ export function Hero() {
           </h1>
 
           <p className="mx-auto mb-3 max-w-2xl text-lg leading-relaxed text-text-muted sm:text-xl lg:mx-0">
-            Start with one longer recording — or add several scenes to one project.
+            Start with one longer recording, or add several scenes to one project.
             ReelClip helps you choose the moments, then lines them up for export,
             ready for CapCut, Shorts, or any editor.
           </p>

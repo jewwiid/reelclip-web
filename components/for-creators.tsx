@@ -15,13 +15,13 @@ const USE_CASES = [
   },
   {
     title: "Everyday vloggers",
-    description: "Keep the moments that make the cut.",
+    description: "The moments worth keeping, lined up and ready.",
     image: "/audience/everyday-vloggers.webp",
     alt: "Woman casually filming a day-in-the-life video in her kitchen",
   },
   {
     title: "Travel vloggers",
-    description: "Turn days away into clips worth posting.",
+    description: "Turn travel days into clips ready for your feed.",
     image: "/audience/travel-vloggers.webp",
     alt: "Woman filming a travel video on a coastal street",
   },

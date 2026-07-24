@@ -162,8 +162,8 @@ export default function CompetitorsPage() {
               with <span className="gradient-text">the rest.</span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg leading-relaxed text-text-muted">
-              ReelClip is for preparing smaller clips from a longer recording before you make the final post. Here&apos;s
-              where the editors and AI tools around it are a better fit.
+              ReelClip is for preparing smaller clips from a longer recording before you make the final post. The editors and AI tools around it
+              fit different parts of the workflow.
             </p>
           </div>
         </section>
@@ -192,7 +192,7 @@ export default function CompetitorsPage() {
               </div>
               <h2 className="text-3xl font-black tracking-tight sm:text-4xl">Different jobs, different tools.</h2>
               <p className="mt-3 max-w-2xl text-sm leading-relaxed text-text-muted">
-                These are good tools. They simply solve different parts of the content workflow.
+                These are good tools. They solve different parts of the content workflow.
               </p>
             </div>
 

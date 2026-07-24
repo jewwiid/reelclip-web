@@ -22,7 +22,7 @@ export function Safety() {
               <Pill text="Nothing is saved until you approve it" />
               <Pill text="Your original video stays untouched" />
               <Pill text="Every clip can be reviewed and adjusted first" />
-              <Pill text="Analysis happens on-device — your video stays on your phone" />
+              <Pill text="Analysis happens on-device. Your video stays on your phone" />
             </div>
           </div>
 

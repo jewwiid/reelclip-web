@@ -10,7 +10,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "ReelClip — prep long footage for your next edit",
+  title: "ReelClip: prep long footage for your next edit",
   description:
     "Cut long footage into smaller clips, export to Photos, then create with CapCut, YouTube Shorts, or any editor you like.",
   applicationName: "ReelClip",
@@ -35,7 +35,7 @@ export const metadata: Metadata = {
     ],
   },
   openGraph: {
-    title: "ReelClip — prep long footage for your next edit",
+    title: "ReelClip: prep long footage for your next edit",
     description: "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
     url: "https://reelclips.app",
     siteName: "ReelClip",
@@ -45,13 +45,13 @@ export const metadata: Metadata = {
         url: "/opengraph-image.png",
         width: 1200,
         height: 630,
-        alt: "ReelClip — make good clips, Really",
+        alt: "ReelClip: make good clips, really",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "ReelClip — prep long footage for your next edit",
+    title: "ReelClip: prep long footage for your next edit",
     description: "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
     images: ["/opengraph-image.png"],
   },

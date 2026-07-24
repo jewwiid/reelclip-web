@@ -3,7 +3,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy — ReelClip",
+  title: "Privacy Policy · ReelClip",
   description:
     "What data ReelClip collects, how it is used, and the rights you have. On-device by default.",
 };
@@ -58,15 +58,15 @@ export default function PrivacyPage() {
             </p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
               <li>
-                <strong className="text-text">Photos library (read)</strong> — to load
+                <strong className="text-text">Photos library (read)</strong>: to load
                 a source video you have selected via the system Photos picker.
               </li>
               <li>
-                <strong className="text-text">Photos library (add)</strong> — to save
+                <strong className="text-text">Photos library (add)</strong>: to save
                 the final exported clips you confirm in the export preview.
               </li>
               <li>
-                <strong className="text-text">Speech recognition</strong> — to generate
+                <strong className="text-text">Speech recognition</strong>: to generate
                 the local transcript used by the Smart Pause mode and the SRT / VTT
                 subtitle export. Recognition runs on-device via Apple&apos;s
                 <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">SFSpeechRecognizer</code>
@@ -74,7 +74,7 @@ export default function PrivacyPage() {
                 Audio is not sent to Apple servers.
               </li>
               <li>
-                <strong className="text-text">Apple Intelligence</strong> — to run the
+                <strong className="text-text">Apple Intelligence</strong>: to run the
                 AI Assist cut planner on-device via the
                 <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">FoundationModels</code>
                 framework. Requires iOS 26+ and Apple Intelligence enabled in iOS
@@ -82,7 +82,7 @@ export default function PrivacyPage() {
                 locally; no video, audio, or analysis data is transmitted.
               </li>
               <li>
-                <strong className="text-text">File access (Files / external drives)</strong> — to import a video you have chosen from the Files app or a connected drive, and to export your <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs">.reelclip</code> project files.
+                <strong className="text-text">File access (Files / external drives)</strong>: to import a video you have chosen from the Files app or a connected drive, and to export your <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs">.reelclip</code> project files.
               </li>
             </ul>
 
@@ -111,14 +111,14 @@ export default function PrivacyPage() {
             </p>
           </Section>
 
-            <Section title="4. AI processing — fully on-device">
+            <Section title="4. AI processing (fully on-device)">
             <p className="text-text-muted">
               ReelClip ships with an "AI Assist" cut planner powered by
               <strong className="text-text"> Apple Intelligence</strong>, the
               on-device foundation-model framework that Apple introduced in iOS 26.
               When you tap "Ask Apple Intelligence" in AI mode, ReelClip builds a
-              compact feature pack from your video — audio energy levels, silence
-              markers, planned segment durations, and your edit prompt — and
+              compact feature pack from your video (audio energy levels, silence
+              markers, planned segment durations, and your edit prompt) and
               passes it to the on-device model. The model runs entirely on your
               phone&apos;s Neural Engine:
             </p>
@@ -126,7 +126,7 @@ export default function PrivacyPage() {
               <li>No part of the feature pack leaves your device.</li>
               <li>No video, audio, or transcript is uploaded to Apple, ReelClip, or any third party.</li>
               <li>No API key is required and none is stored. Apple Intelligence is a system framework, not a service.</li>
-              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable — ReelClip does not silently fall back to a cloud provider. The other three cut modes (Cut, Silence, Splice) remain fully usable on any device.</li>
+              <li>If your device is ineligible (pre-iOS 26, or Apple Intelligence disabled in iOS Settings), AI Assist is unavailable. ReelClip does not silently fall back to a cloud provider. The other three cut modes (Cut, Silence, Splice) remain fully usable on any device.</li>
             </ul>
             <p className="text-text-muted mt-3">
               Apple Intelligence is governed by{" "}

@@ -4,7 +4,7 @@ import { Footer } from "@/components/footer";
 import { AccountClient } from "@/components/account-client";
 
 export const metadata: Metadata = {
-  title: "Account — ReelClip",
+  title: "Account · ReelClip",
   description: "Manage your ReelClip subscription.",
 };
 
@@ -32,7 +32,7 @@ export default async function AccountPage(props: {
 
         {justCheckedOut ? (
           <div className="mb-8 rounded-xl border border-accent/40 bg-accent/10 p-4 text-sm text-text text-center">
-            🎉 Subscription active. Look up your account below to confirm.
+            Subscription active. Look up your account below to confirm.
           </div>
         ) : null}
 

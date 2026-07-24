@@ -7,11 +7,11 @@ export function AINotes() {
             How AI works in ReelClip
           </div>
           <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
-            On-device intelligence, not cloud magic.
+            On-device intelligence, running on your iPhone.
           </h2>
           <p className="text-lg text-text-muted leading-relaxed max-w-2xl mx-auto">
             ReelClip uses Apple Intelligence to help you find moments worth keeping.
-            It runs entirely on your iPhone — your video never leaves your device.
+            It runs entirely on your iPhone. Your video never leaves your device.
           </p>
         </div>
 
@@ -51,15 +51,15 @@ export function AINotes() {
             <ul className="space-y-2 text-sm text-text-muted leading-relaxed">
               <li className="flex gap-2.5">
                 <span className="text-text-faint shrink-0">•</span>
-                Watch a video the way a human editor would — it works from a text summary, not the full video
+                Watch a video the way a human editor would. It works from a text summary, not the full video
               </li>
               <li className="flex gap-2.5">
                 <span className="text-text-faint shrink-0">•</span>
-                Understand audio emotionally (tone, sarcasm, music) — it reads transcript text and audio levels
+                Understand audio emotionally (tone, sarcasm, music). It reads transcript text and audio levels
               </li>
               <li className="flex gap-2.5">
                 <span className="text-text-faint shrink-0">•</span>
-                Process arbitrarily long videos in a single pass — the on-device model has a fixed context budget
+                Process arbitrarily long videos in a single pass. The on-device model has a fixed context budget
               </li>
             </ul>
           </div>
@@ -70,9 +70,9 @@ export function AINotes() {
           <p className="text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
             Apple Intelligence is actively evolving. As Apple expands the on-device model&apos;s
             context window, video understanding, and multimodal capabilities, ReelClip will adopt them.
-            Today&apos;s limitations are not permanent — they are the current ceiling of what an
-            on-device, privacy-preserving model can do. The architecture is built to take advantage
-            of every improvement Apple ships.
+            Today&apos;s limitations are not permanent. They reflect the current ceiling of what an
+            on-device, privacy-preserving model can do. The architecture will adopt each
+            improvement as Apple ships it.
           </p>
         </div>
 

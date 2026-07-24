@@ -4,7 +4,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Terms of Service — ReelClip",
+  title: "Terms of Service · ReelClip",
   description:
     "The terms that govern your use of ReelClip, including subscription terms, auto-renewal disclosure, and acceptable use.",
 };
@@ -66,10 +66,10 @@ export default function TermsPage() {
               The current in-app plans are:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted mt-3">
-              <li><strong className="text-text">Creator Weekly</strong> — $2.99 / week</li>
-              <li><strong className="text-text">Creator Monthly</strong> — $9.99 / month (with a 3-day free trial on the first purchase)</li>
-              <li><strong className="text-text">Creator Yearly</strong> — $59.99 / year (≈50% off vs monthly)</li>
-              <li><strong className="text-text">Creator Lifetime</strong> — $149.99 one-time, perpetual access</li>
+              <li><strong className="text-text">Creator Weekly</strong>: $2.99 / week</li>
+              <li><strong className="text-text">Creator Monthly</strong>: $9.99 / month (with a 3-day free trial on the first purchase)</li>
+              <li><strong className="text-text">Creator Yearly</strong>: $59.99 / year (≈50% off vs monthly)</li>
+              <li><strong className="text-text">Creator Lifetime</strong>: $149.99 one-time, perpetual access</li>
             </ul>
             <p className="text-text-muted mt-4">
               <strong className="text-text">Auto-renewal.</strong> Your subscription
@@ -143,7 +143,7 @@ export default function TermsPage() {
                 reportaproblem.apple.com
               </a>
               . Subscriptions purchased through Stripe on our website are governed
-              by our refund policy — contact{" "}
+              by our refund policy. Contact{" "}
               <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">
                 jude@reelclips.app
               </a>{" "}
@@ -167,7 +167,7 @@ export default function TermsPage() {
               You retain ownership of every video, project, and clip you create in
               ReelClip. We claim no rights over your content. We do not access,
               upload, or process your source video on our servers. AI Assist runs
-              entirely on-device via Apple Intelligence — no video, audio, or
+              entirely on-device via Apple Intelligence. No video, audio, or
               feature pack leaves your device when you ask the AI for help.
             </p>
           </Section>
@@ -178,11 +178,11 @@ export default function TermsPage() {
               services, each governed by their own terms:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted text-sm mt-3">
-              <li>Apple App Store / StoreKit 2 — governed by the Apple Media Services Terms and Conditions.</li>
-              <li>Apple iCloud (for project backup) — governed by the iCloud Terms and Conditions.</li>
-              <li>Apple Intelligence / Foundation Models (on-device AI runtime) — governed by the Apple Privacy Policy and the iOS end-user licence.</li>
-              <li>Stripe (for web subscriptions) — governed by the Stripe Services Agreement.</li>
-              <li>Convex (for the waitlist backend) — governed by the Convex terms of service.</li>
+              <li>Apple App Store / StoreKit 2: governed by the Apple Media Services Terms and Conditions.</li>
+              <li>Apple iCloud (for project backup): governed by the iCloud Terms and Conditions.</li>
+              <li>Apple Intelligence / Foundation Models (on-device AI runtime): governed by the Apple Privacy Policy and the iOS end-user licence.</li>
+              <li>Stripe (for web subscriptions): governed by the Stripe Services Agreement.</li>
+              <li>Convex (for the waitlist backend): governed by the Convex terms of service.</li>
             </ul>
             <p className="text-text-muted mt-3 text-sm">
               ReelClip does not integrate with any third-party AI provider,

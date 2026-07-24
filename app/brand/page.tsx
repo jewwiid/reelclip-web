@@ -4,7 +4,7 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Brand assets — ReelClip",
+  title: "Brand assets · ReelClip",
   description: "Official ReelClip logos, app icon, and brand colours for press, partners, and collaborators.",
 };
 

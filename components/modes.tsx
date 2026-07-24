@@ -33,8 +33,8 @@ const MODES: Mode[] = [
     symbol: "sparkles",
     tagline: "Find the moments that stand out.",
     description:
-      "ReelClip looks at movement, faces, sharpness, and audio to surface the strongest moments — all on your iPhone.",
-    bullets: ["Surface standout moments", "Use visual and audio cues", "Review before export"],
+      "ReelClip looks at movement, faces, sharpness, and audio to surface the strongest moments. All on your iPhone.",
+    bullets: ["Surface highlight moments", "Use visual and audio cues", "Review before export"],
     accent: "from-accent/25 to-accent/0",
   },
   {
@@ -42,7 +42,7 @@ const MODES: Mode[] = [
     symbol: "wand",
     tagline: "Describe what you want. Get a clip plan.",
     description:
-      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads your on-device transcript to suggest clips — no upload, no account, everything stays private. Suggestions improve as the model evolves.",
+      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads your on-device transcript to suggest clips. No upload, no account, everything stays private. Suggestions improve as the model evolves.",
     bullets: ["Use everyday language", "No account or upload", "Review every suggestion"],
     accent: "from-accent/35 to-accent/0",
   },
