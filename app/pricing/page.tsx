@@ -28,8 +28,8 @@ export default async function PricingPage(props: {
           </h1>
           <p className="text-base text-text-muted mt-4">
             The free tier is generous enough for hobbyists. Upgrade when
-            you need AI Assist cuts powered by Apple Intelligence, or higher
-            export quality. Cancel anytime.
+            you need unlimited AI cuts, 1080p/60fps exports, voice
+            enhancement, or subtitle files. Cancel anytime.
           </p>
         </div>
 

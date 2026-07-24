@@ -14,10 +14,10 @@ const tiers = [
     price: "$2.99 / wk",
     blurb: "Try the full Creator toolkit with no commitment.",
     perks: [
-      "AI Assist cuts powered by Apple Intelligence (on-device)",
-      "Native-resolution exports, no watermark",
-      "30-minute source videos",
-      "SRT/VTT subtitle export",
+      "Unlimited AI cuts powered by Apple Intelligence (on-device)",
+      "Clean exports, no ReelClip end card",
+      "1080p and 60fps export quality",
+      "5-minute source videos",
     ],
   },
   {
@@ -28,8 +28,10 @@ const tiers = [
     price: "$9.99 / mo",
     blurb: "For solo creators shipping a few cuts a week.",
     perks: [
-      "AI Assist cuts powered by Apple Intelligence (on-device)",
-      "Native-resolution exports, no watermark",
+      "Unlimited AI cuts powered by Apple Intelligence (on-device)",
+      "Clean exports, no ReelClip end card",
+      "1080p and 60fps export quality",
+      "Voice enhancement to reduce noise and boost speech",
       "30-minute source videos",
       "SRT/VTT subtitle export",
       "Multi-scene projects: add scenes, switch between them, batch-export",
