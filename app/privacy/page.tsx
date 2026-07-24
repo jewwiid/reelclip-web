@@ -43,7 +43,7 @@ export default function PrivacyPage() {
           <Section title="2. Data we collect">
             <h3 className="text-base font-bold text-text mb-2">2.1 Account and subscription data</h3>
             <p className="text-text-muted">
-              If you join the TestFlight waitlist, we collect your email address and an
+              If you joined our early access list, we collected your email address and an
               optional role label (e.g. "podcaster"). If you purchase a subscription, Apple
               and / or Stripe send us a subscription receipt that confirms your tier. We
               do not see or store your credit card number, billing address, or Apple ID
@@ -100,7 +100,7 @@ export default function PrivacyPage() {
               We use the data we collect only to:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
-              <li>Send you the TestFlight invitation you signed up for.</li>
+              <li>Send you any product updates you signed up for.</li>
               <li>Verify your subscription tier and unlock the corresponding features.</li>
               <li>Respond to your support requests if you email us.</li>
               <li>Comply with legal obligations (e.g. tax records for paid subscriptions).</li>
@@ -204,7 +204,7 @@ export default function PrivacyPage() {
             <p className="text-text-muted">
               We may update this privacy policy as the product evolves. The "Last
               updated" date at the top will change. Material changes (e.g. adding a
-              new data category) will be announced via a TestFlight build release
+              new data category) will be announced via an app update release
               note or an email to active subscribers.
             </p>
           </Section>

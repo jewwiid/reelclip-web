@@ -23,20 +23,24 @@ export function Nav() {
         <Link href="/competitors" className="hover:text-text transition">Compare</Link>
         <Link href="/pricing" className="hover:text-text transition">Pricing</Link>
         <Link href="/account" className="hover:text-text transition">Account</Link>
-        <Link
-          href="#waitlist"
+        <a
+          href="https://apps.apple.com/app/reelclip/id6787742864"
+          target="_blank"
+          rel="noreferrer"
           className="px-4 py-2 rounded-full bg-accent text-bg font-semibold hover:bg-accent-deep transition"
         >
-          Join TestFlight
-        </Link>
+          Download
+        </a>
       </div>
 
-      <Link
-        href="#waitlist"
+      <a
+        href="https://apps.apple.com/app/reelclip/id6787742864"
+        target="_blank"
+        rel="noreferrer"
         className="sm:hidden px-3.5 py-1.5 rounded-full bg-accent text-bg text-sm font-semibold"
       >
-        Join
-      </Link>
+        Get
+      </a>
     </nav>
   );
 }

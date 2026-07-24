@@ -79,17 +79,15 @@ export function CompatibleWith() {
           ))}
         </div>
 
-        {/* Single funnel CTA — every outbound click on the page should land
-            back on ReelClip. Until the public TestFlight / App Store link
-            is generated, this points at the in-page waitlist. Swap the
-            href when the public link is ready. */}
         <div className="mt-10 flex flex-col sm:flex-row items-center justify-center gap-3">
           <a
-            href="#waitlist"
+            href="https://apps.apple.com/app/reelclip/id6787742864"
+            target="_blank"
+            rel="noreferrer"
             data-appstore-cta="true"
             className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-accent text-bg font-bold text-base hover:bg-accent-deep transition accent-glow text-center"
           >
-            Get the beta
+            Download on the App Store
           </a>
         </div>
       </div>

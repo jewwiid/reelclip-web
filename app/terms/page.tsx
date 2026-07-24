@@ -190,18 +190,7 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="9. Beta disclaimer">
-            <p className="text-text-muted">
-              ReelClip is currently distributed via Apple&apos;s TestFlight beta
-              programme. TestFlight builds may be unstable, may be missing
-              features described in our marketing materials, and may change
-              before general release. We provide TestFlight builds "as is" and do
-              not guarantee availability, data retention, or feature parity
-              between beta and release builds.
-            </p>
-          </Section>
-
-          <Section title="10. Disclaimers and limitation of liability">
+          <Section title="9. Disclaimers and limitation of liability">
             <p className="text-text-muted">
               The Service is provided "as is" and "as available" without
               warranties of any kind, either express or implied, including but not
@@ -219,7 +208,7 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="11. Indemnification">
+          <Section title="10. Indemnification">
             <p className="text-text-muted">
               You agree to indemnify and hold us harmless from any claim arising
               out of your use of the Service, your violation of these terms, or
@@ -227,7 +216,7 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="12. Termination">
+          <Section title="11. Termination">
             <p className="text-text-muted">
               We may suspend or terminate your access to the Service at any time
               if we reasonably believe you have violated these terms. You may
@@ -236,7 +225,7 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="13. Governing law and disputes">
+          <Section title="12. Governing law and disputes">
             <p className="text-text-muted">
               These terms are governed by the laws of the jurisdiction in which
               the controlling entity is established, without regard to its
@@ -247,7 +236,7 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="14. Changes to these terms">
+          <Section title="13. Changes to these terms">
             <p className="text-text-muted">
               We may update these terms. The "Last updated" date at the top will
               change. Material changes (e.g. pricing changes or new restrictions)
@@ -258,7 +247,7 @@ export default function TermsPage() {
             </p>
           </Section>
 
-          <Section title="15. Contact">
+          <Section title="14. Contact">
             <p className="text-text-muted">
               Questions about these terms:
             </p>
@@ -269,7 +258,7 @@ export default function TermsPage() {
             </ul>
           </Section>
 
-          <Section title="16. Apple EULA reference">
+          <Section title="15. Apple EULA reference">
             <p className="text-text-muted">
               For end users, the terms of the{" "}
               <a

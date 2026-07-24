@@ -30,12 +30,14 @@ export function Hero() {
           </p>
 
           <div className="mb-12 flex flex-col items-center gap-3 sm:flex-row lg:items-start">
-            <Link
-              href="#waitlist"
+            <a
+              href="https://apps.apple.com/app/reelclip/id6787742864"
+              target="_blank"
+              rel="noreferrer"
               className="w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition hover:bg-accent-deep active:scale-[0.98] sm:w-auto"
             >
-              Join the TestFlight beta
-            </Link>
+              Download on the App Store
+            </a>
             <Link
               href="#modes"
               className="w-full rounded-full border border-hairline px-7 py-3.5 text-base font-semibold text-text transition hover:bg-surface active:scale-[0.98] sm:w-auto"

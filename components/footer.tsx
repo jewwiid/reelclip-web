@@ -47,7 +47,14 @@ export function Footer() {
             >
               App Store subscription
             </a>
-            <Link href="/#waitlist" className="hover:text-text transition">Join beta</Link>
+            <a
+              href="https://apps.apple.com/app/reelclip/id6787742864"
+              target="_blank"
+              rel="noreferrer"
+              className="hover:text-text transition"
+            >
+              Download
+            </a>
           </FooterCol>
 
           <FooterCol title="Legal">

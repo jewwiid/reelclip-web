@@ -299,15 +299,17 @@ export default function CompetitorsPage() {
           <div className="mx-auto max-w-3xl text-center">
             <h2 className="mb-4 text-3xl font-black tracking-tight sm:text-4xl">See if it fits your workflow.</h2>
             <p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-text-muted">
-              Join the beta and turn one longer recording into smaller clips for the editor you already use.
+              Download ReelClip and turn one longer recording into smaller clips for the editor you already use.
             </p>
             <div className="flex flex-col items-center justify-center gap-3 sm:flex-row">
-              <Link
-                href="/#waitlist"
+              <a
+                href="https://apps.apple.com/app/reelclip/id6787742864"
+                target="_blank"
+                rel="noreferrer"
                 className="accent-glow w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition hover:bg-accent-deep sm:w-auto"
               >
-                Join beta
-              </Link>
+                Download on the App Store
+              </a>
               <Link
                 href="/pricing"
                 className="w-full rounded-full border border-hairline px-7 py-3.5 text-base font-semibold text-text transition hover:bg-surface sm:w-auto"

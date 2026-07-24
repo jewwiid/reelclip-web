@@ -23,10 +23,10 @@ export default function SupportPage() {
             We're here to help.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            ReelClip is currently in active TestFlight. The fastest way to reach
-            a human is email. We respond within one business day. If you're a
-            beta tester, please include your build number (Settings → General →
-            About) and the device + iOS version you're on.
+            ReelClip is available on the App Store. The fastest way to reach
+            a human is email. We respond within one business day. If you're
+            reporting a bug, please include your iOS version and the device
+            you're on.
           </p>
         </header>
 
@@ -57,8 +57,8 @@ export default function SupportPage() {
               a="The file is likely in iCloud Drive and only a placeholder is on device. Open the file in the Files app once to trigger the iCloud download, then re-import. iOS 17+ sometimes needs the local copy before ReelClip can read the bytes."
             />
             <QA
-              q="How do I leave the TestFlight beta?"
-              a="Open TestFlight → tap ReelClip → scroll to the bottom → 'Stop Testing'. You'll stop getting builds and the next App Store release won't include your account."
+              q="How do I get ReelClip?"
+              a="ReelClip is available on the App Store. Search for ReelClip or visit the App Store link on this page. It requires iPhone running iOS 26 or later."
             />
             <QA
               q="Can I get a refund on my subscription?"
@@ -66,7 +66,7 @@ export default function SupportPage() {
             />
             <QA
               q="Why does the website use reelclips.app?"
-              a="ReelClip is the product name. We keep the existing reelclips.app domain so existing links, emails, and TestFlight materials continue to work. The iOS bundle id and .reelclip project extension also remain unchanged for compatibility."
+              a="ReelClip is the product name. We keep the existing reelclips.app domain so existing links and emails continue to work. The iOS bundle id and .reelclip project extension also remain unchanged for compatibility."
             />
           </div>
         </section>
