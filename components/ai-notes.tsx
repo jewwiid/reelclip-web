@@ -31,11 +31,15 @@ export function AINotes() {
               </li>
               <li className="flex gap-2.5">
                 <span className="text-accent shrink-0">•</span>
-                Use audio levels and visual cues from sampled frames as supporting signals
+                Sample frames throughout your video to see labels, on-screen text, and faces at each timestamp, on both the clip-finding and one-video editing paths
               </li>
               <li className="flex gap-2.5">
                 <span className="text-accent shrink-0">•</span>
-                Suggest clip ranges you can review, adjust, and approve before anything is saved
+                Combine what it sees with what was said, so prompts like &quot;remove the product shots&quot; or &quot;keep the talking-to-camera parts&quot; work
+              </li>
+              <li className="flex gap-2.5">
+                <span className="text-accent shrink-0">•</span>
+                Suggest clip ranges or passage removals you can review, adjust, and approve before anything is saved
               </li>
             </ul>
           </div>
@@ -51,7 +55,7 @@ export function AINotes() {
             <ul className="space-y-2 text-sm text-text-muted leading-relaxed">
               <li className="flex gap-2.5">
                 <span className="text-text-faint shrink-0">•</span>
-                Watch a video the way a human editor would. It works from a text summary, not the full video
+                Watch full video in motion. It samples still frames at intervals and reads the transcript, but cannot follow action or pacing between frames
               </li>
               <li className="flex gap-2.5">
                 <span className="text-text-faint shrink-0">•</span>
