@@ -31,6 +31,7 @@ export function Footer() {
           <FooterCol title="Product">
             <Link href="/#modes" className="hover:text-text transition">Modes</Link>
             <Link href="/#safety" className="hover:text-text transition">Why ReelClip</Link>
+            <Link href="/#ai-notes" className="hover:text-text transition">How AI works</Link>
             <Link href="/#for" className="hover:text-text transition">For creators</Link>
             <Link href="/competitors" className="hover:text-text transition">Compare</Link>
             <Link href="/pricing" className="hover:text-text transition">Pricing</Link>

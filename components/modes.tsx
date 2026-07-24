@@ -42,7 +42,7 @@ const MODES: Mode[] = [
     symbol: "wand",
     tagline: "Describe what you want. Get a clip plan.",
     description:
-      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence creates suggestions on-device for you to review.",
+      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads your on-device transcript to suggest clips — no upload, no account, everything stays private. Suggestions improve as the model evolves.",
     bullets: ["Use everyday language", "No account or upload", "Review every suggestion"],
     accent: "from-accent/35 to-accent/0",
   },
