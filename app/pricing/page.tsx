@@ -28,7 +28,7 @@ export default async function PricingPage(props: {
           </h1>
           <p className="text-base text-text-muted mt-4">
             The free tier is generous enough for hobbyists. Upgrade when
-            you need unlimited AI cuts, 1080p/60fps exports, voice
+            you need unlimited AI cuts, up to 4K/60fps exports, voice
             enhancement, or subtitle files. Cancel anytime.
           </p>
         </div>

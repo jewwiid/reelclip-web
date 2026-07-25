@@ -16,7 +16,7 @@ const tiers = [
     perks: [
       "Unlimited AI cuts powered by Apple Intelligence (on-device)",
       "Clean exports, no ReelClip end card",
-      "1080p and 60fps export quality",
+      "Up to 4K and 60fps export quality",
       "5-minute source videos",
     ],
   },
@@ -30,7 +30,7 @@ const tiers = [
     perks: [
       "Unlimited AI cuts powered by Apple Intelligence (on-device)",
       "Clean exports, no ReelClip end card",
-      "1080p and 60fps export quality",
+      "Up to 4K and 60fps export quality",
       "Voice enhancement to reduce noise and boost speech",
       "30-minute source videos",
       "SRT/VTT subtitle export",
