@@ -6,7 +6,7 @@ import { PricingClient } from "@/components/pricing-client";
 export const metadata: Metadata = {
   title: "Pricing · ReelClip",
   description:
-    "Pick a Creator plan and start shipping share-ready clips. Cancel anytime.",
+    "Creator plans for unlimited AI cuts, original-quality exports, voice enhancement, and subtitle files. Cancel anytime.",
 };
 
 export default async function PricingPage(props: {
@@ -24,12 +24,12 @@ export default async function PricingPage(props: {
             Pricing
           </p>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            Ship more, pay less.
+            Start free. Upgrade when you need to.
           </h1>
           <p className="text-base text-text-muted mt-4">
-            The free tier is generous enough for hobbyists. Upgrade when
-            you need unlimited AI cuts, up to 4K/60fps exports, voice
-            enhancement, or subtitle files. Cancel anytime.
+            Free covers three AI cuts a month, 5-minute videos, and 720p exports.
+            Creator lifts those limits and adds voice enhancement and subtitle
+            files. Cancel anytime.
           </p>
         </div>
 

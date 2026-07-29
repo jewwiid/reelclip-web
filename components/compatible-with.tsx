@@ -48,7 +48,7 @@ export function CompatibleWith() {
               See every chosen clip before it leaves ReelClip.
             </h2>
             <p className="text-base text-text-muted leading-relaxed">
-              The project export row keeps selected clips from every scene together in one clear plan. Check what you&apos;re keeping, then batch-export a tidy set to Photos and build the final post with the templates and tools you already use.
+              Your chosen clips from every scene sit together in one list. Check what you&apos;re keeping, then send the whole set to Photos and build the final post with the tools you already use.
             </p>
           </div>
         </div>

@@ -20,13 +20,12 @@ export default function SupportPage() {
             Support
           </p>
           <h1 className="text-4xl sm:text-5xl font-black tracking-tight">
-            We're here to help.
+            Email us.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            ReelClip is available on the App Store. The fastest way to reach
-            a human is email. We respond within one business day. If you're
-            reporting a bug, please include your iOS version and the device
-            you're on.
+            Email is the fastest way to reach a person, and we answer within one
+            business day. If you're reporting a bug, include your iOS version and
+            which iPhone you're on.
           </p>
         </header>
 
@@ -54,7 +53,7 @@ export default function SupportPage() {
             />
             <QA
               q="My import says 'file doesn't exist' even though the video is there."
-              a="The file is likely in iCloud Drive and only a placeholder is on device. Open the file in the Files app once to trigger the iCloud download, then re-import. iOS 17+ sometimes needs the local copy before ReelClip can read the bytes."
+              a="The video is probably still in iCloud Drive, with only a placeholder on your iPhone. Open it once in the Files app to pull down the full copy, then import again. ReelClip needs the real file on the device before it can read it."
             />
             <QA
               q="How do I get ReelClip?"
@@ -73,8 +72,7 @@ export default function SupportPage() {
 
         <section className="text-sm text-text-muted">
           <p>
-            If you find a rough edge, a confusing
-            affordance, or a feature you'd pay for, let us know at{" "}
+            If you hit a rough edge, or there's a feature you'd pay for, tell us at{" "}
             <a
               href={`mailto:${CONTACT_EMAIL}?subject=ReelClip%20feedback`}
               className="text-accent hover:underline"

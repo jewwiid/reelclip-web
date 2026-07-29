@@ -7,7 +7,7 @@ export function AINotes() {
             How AI works in ReelClip
           </div>
           <h2 className="text-3xl sm:text-4xl font-black tracking-tight mb-4">
-            On-device intelligence, running on your iPhone.
+            The AI runs on your iPhone.
           </h2>
           <p className="text-lg text-text-muted leading-relaxed max-w-2xl mx-auto">
             ReelClip uses Apple Intelligence to help you find moments worth keeping.
@@ -31,7 +31,7 @@ export function AINotes() {
               </li>
               <li className="flex gap-2.5">
                 <span className="text-accent shrink-0">•</span>
-                Sample frames throughout your video to see labels, on-screen text, and faces at each timestamp, on both the clip-finding and one-video editing paths
+                Check still frames across your video for objects, on-screen text, and faces, and note when each appears
               </li>
               <li className="flex gap-2.5">
                 <span className="text-accent shrink-0">•</span>
@@ -63,20 +63,17 @@ export function AINotes() {
               </li>
               <li className="flex gap-2.5">
                 <span className="text-text-faint shrink-0">•</span>
-                Process arbitrarily long videos in a single pass. The on-device model has a fixed context budget
+                Take in a very long video all at once. Past a point it has to work in sections
               </li>
             </ul>
           </div>
         </div>
 
         <div className="rounded-2xl bg-accent/5 border border-accent/20 p-6 sm:p-7 text-center">
-          <h3 className="text-lg font-bold mb-2">ReelClip will grow with Apple Intelligence</h3>
+          <h3 className="text-lg font-bold mb-2">These limits come from the model, not the app</h3>
           <p className="text-sm text-text-muted leading-relaxed max-w-2xl mx-auto">
-            Apple Intelligence is actively evolving. As Apple expands the on-device model&apos;s
-            context window, video understanding, and multimodal capabilities, ReelClip will adopt them.
-            Today&apos;s limitations are not permanent. They reflect the current ceiling of what an
-            on-device, privacy-preserving model can do. The architecture will adopt each
-            improvement as Apple ships it.
+            The list above describes what Apple&apos;s on-device model can handle today. When Apple
+            improves it, ReelClip picks up the improvement.
           </p>
         </div>
 

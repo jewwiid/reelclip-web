@@ -12,12 +12,15 @@ const tiers = [
     tier: "creator" as const,
     interval: "week" as const,
     price: "$2.99 / wk",
-    blurb: "Try the full Creator toolkit with no commitment.",
+    blurb: "Try Creator without committing to a month.",
     perks: [
-      "Unlimited AI cuts powered by Apple Intelligence (on-device)",
-      "Clean exports, no ReelClip end card",
-      "Up to 4K and 60fps export quality",
-      "5-minute source videos",
+      "Unlimited AI cuts, run on your iPhone",
+      "Exports without the ReelClip end card",
+      "Original quality, up to 60fps",
+      "Voice enhancement to reduce noise and boost speech",
+      "30-minute source videos",
+      "SRT/VTT subtitle export",
+      "Multi-scene projects: add scenes, switch between them, batch-export",
     ],
   },
   {
@@ -26,11 +29,11 @@ const tiers = [
     tier: "creator" as const,
     interval: "month" as const,
     price: "$9.99 / mo",
-    blurb: "For solo creators shipping a few cuts a week.",
+    blurb: "For solo creators posting a few cuts a week.",
     perks: [
-      "Unlimited AI cuts powered by Apple Intelligence (on-device)",
-      "Clean exports, no ReelClip end card",
-      "Up to 4K and 60fps export quality",
+      "Unlimited AI cuts, run on your iPhone",
+      "Exports without the ReelClip end card",
+      "Original quality, up to 60fps",
       "Voice enhancement to reduce noise and boost speech",
       "30-minute source videos",
       "SRT/VTT subtitle export",
@@ -43,7 +46,7 @@ const tiers = [
     tier: "creator" as const,
     interval: "year" as const,
     price: "$59.99 / yr",
-    blurb: "Best Creator value: save 50% vs paying monthly.",
+    blurb: "The cheapest way to stay on Creator.",
     perks: [
       "Everything in Creator monthly",
       "Save 50% vs paying monthly",
@@ -116,9 +119,9 @@ export function PricingClient() {
       <div className="rounded-2xl border border-hairline bg-control-surface p-6 sm:p-8">
         <h2 className="text-lg font-bold tracking-tight">Your details</h2>
         <p className="text-sm text-text-muted mt-1">
-          We send your receipt here and use this email to identify your account on the web side.
-          If you've already bought a ReelClip sub on iOS, paste your app account token so we can
-          link both subscriptions to one account.
+          We send your receipt here, and use this email to find your account when you buy on the
+          web. If you already subscribed inside the iPhone app, paste your app account token so
+          both subscriptions land on one account.
         </p>
         <div className="mt-5 grid sm:grid-cols-2 gap-4">
           <label className="block">
@@ -155,7 +158,7 @@ export function PricingClient() {
             Creator plans
           </h2>
           <span className="text-[10px] uppercase tracking-wider font-bold bg-accent text-bg px-2 py-0.5 rounded-full">
-            Everything paid
+            Same features on every plan
           </span>
         </div>
         <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">

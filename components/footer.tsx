@@ -91,7 +91,7 @@ export function Footer() {
       <div className="max-w-6xl mx-auto mt-10 pt-6 border-t border-hairline flex flex-col sm:flex-row items-center justify-between gap-3 text-xs text-text-faint">
         <div>© {new Date().getFullYear()} ReelClip. All rights reserved.</div>
         <div>
-          Made with care for creators who publish to Reels, TikTok, and Shorts.
+          Built for iPhone. Your footage never leaves your device.
         </div>
       </div>
     </footer>

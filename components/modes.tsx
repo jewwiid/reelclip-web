@@ -22,7 +22,7 @@ const MODES: Mode[] = [
   {
     name: "Transcript",
     symbol: "waveform",
-    tagline: "Cuts that breathe with the speaker.",
+    tagline: "Cuts that land on natural pauses.",
     description:
       "Finds natural pauses in speech so cuts feel cleaner. If there are no clear pauses, ReelClip keeps the timing consistent.",
     bullets: ["Find natural pauses", "Keep speech flowing", "Adjust every cut"],
@@ -33,8 +33,8 @@ const MODES: Mode[] = [
     symbol: "sparkles",
     tagline: "Find the moments that stand out.",
     description:
-      "ReelClip looks at movement, faces, sharpness, and audio to surface the strongest moments. All on your iPhone.",
-    bullets: ["Surface highlight moments", "Use visual and audio cues", "Review before export"],
+      "ReelClip reads movement, faces, sharpness, and audio to find the strongest moments, all on your iPhone.",
+    bullets: ["Find the standout moments", "Use visual and audio cues", "Review before export"],
     accent: "from-accent/25 to-accent/0",
   },
   {
@@ -42,7 +42,7 @@ const MODES: Mode[] = [
     symbol: "wand",
     tagline: "Describe what you want. Get a clip plan.",
     description:
-      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads your on-device transcript to suggest clips. No upload, no account, everything stays private. Suggestions improve as the model evolves.",
+      "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads the transcript on your iPhone and suggests clips. Nothing is uploaded and you don't need an account.",
     bullets: ["Use everyday language", "No account or upload", "Review every suggestion"],
     accent: "from-accent/35 to-accent/0",
   },
