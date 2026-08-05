@@ -306,6 +306,7 @@ export default function CompetitorsPage() {
                 href="https://apps.apple.com/app/reelclip/id6787742864"
                 target="_blank"
                 rel="noreferrer"
+                data-event-name="download_click_compare"
                 className="accent-glow w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition hover:bg-accent-deep sm:w-auto"
               >
                 Download on the App Store

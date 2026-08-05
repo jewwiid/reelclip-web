@@ -84,6 +84,7 @@ export function CompatibleWith() {
             href="https://apps.apple.com/app/reelclip/id6787742864"
             target="_blank"
             rel="noreferrer"
+            data-event-name="download_click_compatible"
             data-appstore-cta="true"
             className="w-full sm:w-auto px-7 py-3.5 rounded-full bg-accent text-bg font-bold text-base hover:bg-accent-deep transition accent-glow text-center"
           >

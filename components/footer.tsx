@@ -51,6 +51,7 @@ export function Footer() {
               href="https://apps.apple.com/app/reelclip/id6787742864"
               target="_blank"
               rel="noreferrer"
+              data-event-name="download_click_footer"
               className="hover:text-text transition"
             >
               Download

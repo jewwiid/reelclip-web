@@ -30,6 +30,7 @@ export function CTA() {
             href={APP_STORE_URL}
             target="_blank"
             rel="noreferrer"
+            data-event-name="download_click_cta"
             className="inline-flex items-center justify-center rounded-full bg-accent px-7 py-3.5 font-bold text-bg transition hover:bg-accent-deep active:scale-[0.98]"
           >
             Download on the App Store

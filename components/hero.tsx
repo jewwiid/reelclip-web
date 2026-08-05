@@ -34,6 +34,7 @@ export function Hero() {
               href="https://apps.apple.com/app/reelclip/id6787742864"
               target="_blank"
               rel="noreferrer"
+              data-event-name="download_click_hero"
               className="w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition hover:bg-accent-deep active:scale-[0.98] sm:w-auto"
             >
               Download on the App Store
