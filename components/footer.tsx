@@ -35,6 +35,7 @@ export function Footer() {
             <Link href="/#for" className="hover:text-text transition">For creators</Link>
             <Link href="/competitors" className="hover:text-text transition">Compare</Link>
             <Link href="/pricing" className="hover:text-text transition">Pricing</Link>
+            <Link href="/blog" className="hover:text-text transition">Blog</Link>
           </FooterCol>
 
           <FooterCol title="Account">

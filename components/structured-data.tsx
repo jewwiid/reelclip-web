@@ -161,3 +161,51 @@ export function WebSiteJsonLd() {
   };
   return <JsonLdScript id="ld-website" data={data} />;
 }
+
+/**
+ * BlogPosting schema. Pass an ISO datePublished and ISO dateModified —
+ * Google uses these to determine freshness. author is the ReelClip org.
+ */
+export function BlogPostingJsonLd({
+  url,
+  headline,
+  description,
+  datePublished,
+  dateModified,
+  imageUrl,
+}: {
+  url: string;
+  headline: string;
+  description: string;
+  datePublished: string;
+  dateModified?: string;
+  imageUrl?: string;
+}) {
+  const data: JsonLd = {
+    "@context": "https://schema.org",
+    "@type": "BlogPosting",
+    "@id": `${url}#article`,
+    mainEntityOfPage: { "@type": "WebPage", "@id": url },
+    url,
+    headline,
+    description,
+    datePublished,
+    dateModified: dateModified ?? datePublished,
+    inLanguage: "en",
+    author: {
+      "@type": "Organization",
+      name: "ReelClip",
+      url: "https://reelclips.app",
+    },
+    publisher: {
+      "@type": "Organization",
+      name: "ReelClip",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://www.reelclips.app/icon.png",
+      },
+    },
+    image: imageUrl ?? "https://www.reelclips.app/opengraph-image.png",
+  };
+  return <JsonLdScript id="ld-blog-posting" data={data} />;
+}
