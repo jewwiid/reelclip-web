@@ -33,6 +33,49 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "dji-d-log-to-rec709-iphone",
+    title:
+      "How to convert DJI D-Log to Rec.709 on iPhone (Osmo Pocket, Air, Action)",
+    description:
+      "DJI cameras shoot flat D-Log footage that looks washed out until you convert it. Here is the on-device workflow to apply a D-Log to Rec.709 conversion on your iPhone, with no upload and no desktop.",
+    publishedAt: "2026-08-25",
+    category: "Tutorial",
+    primaryKeyword: "convert dji d-log to rec 709 on iphone",
+    readMinutes: 8,
+  },
+  {
+    slug: "dji-osmo-pocket-color-grading",
+    title:
+      "DJI Osmo Pocket color grading on iPhone — D-Log, D-Log M, D-Log 2",
+    description:
+      "A practical workflow for grading DJI Osmo Pocket footage on iPhone. Covers D-Log, D-Log M, and D-Log 2 — the three log profiles Osmo Pocket 1, 2, 3, and 4 shoot — and how to handle them with on-device LUTs.",
+    publishedAt: "2026-08-25",
+    category: "Use case",
+    primaryKeyword: "dji osmo pocket color grading",
+    readMinutes: 9,
+  },
+  {
+    slug: "edit-dji-osmo-footage-iphone",
+    title:
+      "How to edit DJI Osmo footage on iPhone (Pocket, Action, Air)",
+    description:
+      "From import to export: how to edit DJI Osmo Pocket, Action, and Air footage entirely on your iPhone. Covers log-to-Rec.709 conversion, clipping, captions, and export.",
+    publishedAt: "2026-08-25",
+    category: "How-to",
+    primaryKeyword: "edit dji osmo footage on iphone",
+    readMinutes: 7,
+  },
+  {
+    slug: "how-to-apply-lut-on-iphone",
+    title: "How to apply a .cube LUT on iPhone (free, on-device)",
+    description:
+      "A practical guide to importing and applying .cube LUTs on iPhone. Works with any camera log footage — DJI D-Log, Apple Log, HLG — and runs entirely on-device.",
+    publishedAt: "2026-08-25",
+    category: "How-to",
+    primaryKeyword: "how to apply a lut on iphone",
+    readMinutes: 6,
+  },
+  {
     slug: "capcut-alternative-no-watermark",
     title:
       "The best CapCut alternative without a watermark (2026, iPhone)",
