@@ -7,7 +7,26 @@ import { Footer } from "@/components/footer";
 export const metadata: Metadata = {
   title: "ReelClip vs CapCut, InShot, VN, OpusClip, and Quik",
   description:
-    "A practical guide to where ReelClip fits alongside CapCut, InShot, VN, OpusClip, and GoPro Quik.",
+    "A practical guide to where ReelClip fits alongside CapCut, InShot, VN, OpusClip, and GoPro Quik. On-device clip preparation before your final edit.",
+  keywords: [
+    "reelclip vs capcut",
+    "reelclip vs inshot",
+    "reelclip vs opus clip",
+    "on-device video editor",
+    "private video editor",
+    "video editor comparison",
+    "capcut alternative",
+    "inshot alternative",
+    "opus clip alternative",
+  ],
+  alternates: { canonical: "https://reelclips.app/competitors" },
+  openGraph: {
+    title: "ReelClip vs CapCut, InShot, VN, OpusClip, and Quik",
+    description:
+      "Where ReelClip fits alongside CapCut, InShot, VN, OpusClip, and Quik. On-device clip preparation before your final edit.",
+    url: "https://reelclips.app/competitors",
+    type: "article",
+  },
 };
 
 type Competitor = {

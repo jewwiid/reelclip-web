@@ -63,6 +63,7 @@ export function Footer() {
             <Link href="/privacy" className="hover:text-text transition">Privacy</Link>
             <Link href="/terms" className="hover:text-text transition">Terms</Link>
             <Link href="/support" className="hover:text-text transition">Support</Link>
+            <Link href="/about" className="hover:text-text transition">About</Link>
           </FooterCol>
 
           <FooterCol title="Follow">

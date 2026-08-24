@@ -3,9 +3,25 @@ import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 
 export const metadata: Metadata = {
-  title: "Privacy Policy · ReelClip",
+  title: "Privacy Policy · ReelClip — On-device by default",
   description:
-    "What data ReelClip collects, how it is used, and the rights you have. On-device by default.",
+    "What data ReelClip collects, how it is used, and the rights you have. Your footage never leaves your device — AI runs entirely on-device via Apple Intelligence.",
+  keywords: [
+    "reelclip privacy",
+    "on-device video editor",
+    "private video editor ios",
+    "apple intelligence privacy",
+    "video editor no upload",
+  ],
+  alternates: { canonical: "https://reelclips.app/privacy" },
+  openGraph: {
+    title: "Privacy Policy · ReelClip",
+    description:
+      "What data ReelClip collects, how it is used, and the rights you have. On-device by default.",
+    url: "https://reelclips.app/privacy",
+    type: "website",
+  },
+  robots: { index: true, follow: true },
 };
 
 const UPDATED = "July 8, 2026";

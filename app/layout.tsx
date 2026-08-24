@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import Script from "next/script";
 import { Providers } from "@/components/providers";
+import {
+  OrganizationJsonLd,
+  WebSiteJsonLd,
+} from "@/components/structured-data";
 import "./globals.css";
 
 const inter = Inter({
@@ -10,7 +14,10 @@ const inter = Inter({
   display: "swap",
 });
 
+const SITE_URL = "https://reelclips.app";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(SITE_URL),
   title: "ReelClip: prep long footage for your next edit",
   description:
     "Cut long footage into smaller clips, export to Photos, then create with CapCut, YouTube Shorts, or any editor you like.",
@@ -29,16 +36,15 @@ export const metadata: Metadata = {
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/icon.png", type: "image/png", sizes: "180x180" }
+      { url: "/icon.png", type: "image/png", sizes: "180x180" },
     ],
-    apple: [
-      { url: "/apple-icon.png", sizes: "180x180", type: "image/png" }
-    ],
+    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
   },
   openGraph: {
     title: "ReelClip: prep long footage for your next edit",
-    description: "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
-    url: "https://reelclips.app",
+    description:
+      "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
+    url: SITE_URL,
     siteName: "ReelClip",
     type: "website",
     images: [
@@ -53,14 +59,15 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "ReelClip: prep long footage for your next edit",
-    description: "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
+    description:
+      "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
     images: ["/opengraph-image.png"],
   },
   // Canonical URL — also referenced when setting the App Store Connect
   // privacy policy URL (App → App Information → Privacy Policy) to
   // https://reelclips.app/privacy.
   alternates: {
-    canonical: "https://reelclips.app",
+    canonical: "/",
   },
 };
 
@@ -78,6 +85,8 @@ export default function RootLayout({
           src="https://datafa.st/js/script.js"
           strategy="afterInteractive"
         />
+        <OrganizationJsonLd />
+        <WebSiteJsonLd />
       </head>
       <body className="min-h-full flex flex-col bg-bg text-text">
         <Providers>{children}</Providers>

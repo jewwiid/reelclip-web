@@ -1,18 +1,70 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import {
+  BreadcrumbJsonLd,
+  FaqPageJsonLd,
+  type FaqItem,
+} from "@/components/structured-data";
 
 export const metadata: Metadata = {
   title: "Support · ReelClip",
   description:
     "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
+  alternates: { canonical: "https://reelclips.app/support" },
+  openGraph: {
+    title: "Support · ReelClip",
+    description:
+      "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
+    url: "https://reelclips.app/support",
+    type: "website",
+  },
 };
 
 const CONTACT_EMAIL = "jude@reelclips.app";
 
+// Plain-text answers (no HTML, no internal links inside the answer body)
+// — Google indexes FAQPage text verbatim. Keep them self-contained.
+const FAQ_ITEMS: FaqItem[] = [
+  {
+    question: "Is my video uploaded to a server?",
+    answer:
+      "No. ReelClip runs every analysis (cuts, AI plans, transcripts) entirely on-device. Your source video is copied into the app's private sandbox, processed locally, and the original file in Photos is never touched. See the Privacy Policy for the full data flow.",
+  },
+  {
+    question:
+      "My import says 'file doesn't exist' even though the video is there.",
+    answer:
+      "The video is probably still in iCloud Drive, with only a placeholder on your iPhone. Open it once in the Files app to pull down the full copy, then import again. ReelClip needs the real file on the device before it can read it.",
+  },
+  {
+    question: "How do I get ReelClip?",
+    answer:
+      "ReelClip is available on the App Store. Search for ReelClip or visit the App Store link on this page. It requires iPhone running iOS 26 or later.",
+  },
+  {
+    question: "Can I get a refund on my subscription?",
+    answer:
+      "Yes. Refunds are handled by Apple. Go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClip charge. We can't process refunds directly.",
+  },
+  {
+    question: "Why does the website use reelclips.app?",
+    answer:
+      "ReelClip is the product name. We keep the existing reelclips.app domain so existing links and emails continue to work. The iOS bundle id and .reelclip project extension also remain unchanged for compatibility.",
+  },
+];
+
 export default function SupportPage() {
   return (
     <>
+      <BreadcrumbJsonLd
+        items={[
+          { name: "Home", url: "https://reelclips.app" },
+          { name: "Support", url: "https://reelclips.app/support" },
+        ]}
+      />
+      <FaqPageJsonLd items={FAQ_ITEMS} />
       <Nav />
       <main className="px-6 sm:px-10 py-12 sm:py-20 max-w-3xl mx-auto">
         <header className="mb-12">

@@ -18,9 +18,7 @@ export function Hero() {
           />
 
           <h1 className="mb-6 text-5xl font-black leading-[0.95] tracking-tight sm:text-7xl">
-            Get footage ready
-            <br />
-            for <span className="gradient-text">your next edit.</span>
+            Cut long videos into clips for Reels, TikTok, and Shorts.
           </h1>
 
           <p className="mx-auto mb-3 max-w-2xl text-lg leading-relaxed text-text-muted sm:text-xl lg:mx-0">

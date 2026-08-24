@@ -6,10 +6,25 @@ import { Footer } from "@/components/footer";
 export const metadata: Metadata = {
   title: "Terms of Service · ReelClip",
   description:
-    "The terms that govern your use of ReelClip, including subscription terms, auto-renewal disclosure, and acceptable use.",
+    "The terms that govern your use of ReelClip: subscription terms, auto-renewal disclosure, refund policy, and acceptable use.",
+  keywords: [
+    "reelclip terms",
+    "reelclip subscription terms",
+    "reelclip refund policy",
+    "video editor terms of service",
+  ],
+  alternates: { canonical: "https://reelclips.app/terms" },
+  openGraph: {
+    title: "Terms of Service · ReelClip",
+    description:
+      "The terms that govern your use of ReelClip: subscription terms, auto-renewal, refunds, and acceptable use.",
+    url: "https://reelclips.app/terms",
+    type: "website",
+  },
+  robots: { index: true, follow: true },
 };
 
-const UPDATED = "July 8, 2026";
+const UPDATED = "August 24, 2026";
 const EFFECTIVE = "July 8, 2026";
 
 export default function TermsPage() {
@@ -25,7 +40,7 @@ export default function TermsPage() {
             The rules of the road.
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            These terms govern your use of ReelClip (the "Service"). By installing
+            These terms govern your use of ReelClip (the &quot;Service&quot;). By installing
             the app, joining the waitlist, or purchasing a subscription, you agree
             to them. Effective {EFFECTIVE}. Last updated {UPDATED}.
           </p>
@@ -34,7 +49,7 @@ export default function TermsPage() {
         <article className="prose-sm space-y-10 text-text leading-relaxed">
           <Section title="1. Who we are">
             <p className="text-text-muted">
-              ReelClip is operated by an individual developer ("we", "us"). Contact:
+              ReelClip is operated by an individual developer (&quot;we&quot;, &quot;us&quot;). Contact:
               {" "}
               <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">
                 jude@reelclips.app
@@ -58,25 +73,31 @@ export default function TermsPage() {
 
           <Section title="3. Subscriptions, auto-renewal, and cancellation">
             <p className="text-text-muted">
-              ReelClip offers auto-renewable subscriptions through Apple&apos;s
-              in-app purchase system (StoreKit 2) and, where available, through
-              Stripe on the web at
-              {" "}
-              <Link href="/pricing" className="text-accent hover:underline">reelclips.app / pricing</Link>.
-              The current in-app plans are:
+              ReelClip offers new Creator purchases through Apple&apos;s in-app
+              purchase system (StoreKit 2). The current US App Store reference
+              prices are:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted mt-3">
-              <li><strong className="text-text">Creator Weekly</strong>: $2.99 / week</li>
-              <li><strong className="text-text">Creator Monthly</strong>: $9.99 / month (with a 3-day free trial on the first purchase)</li>
-              <li><strong className="text-text">Creator Yearly</strong>: $59.99 / year (≈50% off vs monthly)</li>
-              <li><strong className="text-text">Creator Lifetime</strong>: $149.99 one-time, perpetual access</li>
+              <li><strong className="text-text">Creator Monthly</strong>: $9.99 / month (with a 3-day free trial on an eligible first in-app purchase)</li>
+              <li><strong className="text-text">Creator Annual</strong>: $39.99 / year</li>
+              <li><strong className="text-text">Creator Lifetime</strong>: $79.99 launch price, one-time, perpetual access</li>
             </ul>
+            <p className="text-text-muted mt-4">
+              Creator Weekly is no longer available for new purchases or
+              renewals. Customers in an already-paid weekly period keep access
+              until that period ends.
+            </p>
+            <p className="text-text-muted mt-4">
+              Apple displays the localized price for your country or region
+              before purchase. That displayed App Store price controls if it
+              differs from the US reference prices above.
+            </p>
             <p className="text-text-muted mt-4">
               <strong className="text-text">Auto-renewal.</strong> Your subscription
               automatically renews at the end of each billing period unless you
               cancel at least 24 hours before the end of the current period. Your
-              Apple ID or Stripe account is charged the renewal amount within 24
-              hours before the end of the current period.
+              Apple ID is charged the renewal amount within 24 hours before the
+              end of the current period.
             </p>
             <p className="text-text-muted mt-3">
               <strong className="text-text">Cancellation.</strong> You can cancel
@@ -85,10 +106,11 @@ export default function TermsPage() {
               continue to have access to paid features until then.
             </p>
             <p className="text-text-muted mt-3">
-              <strong className="text-text">Free trial.</strong> The 3-day free
-              trial on Creator Monthly converts to a paid subscription unless you
-              cancel at least 24 hours before the trial ends. We will not charge
-              you during the trial period.
+              <strong className="text-text">Free trial.</strong> Where shown by
+              the App Store, the 3-day free trial on Creator Monthly converts to
+              a paid subscription unless you cancel at least 24 hours before the
+              trial ends. Apple determines eligibility and shows the offer before
+              purchase.
             </p>
             <p className="text-text-muted mt-3">
               <strong className="text-text">Pricing changes.</strong> If we change
@@ -142,8 +164,8 @@ export default function TermsPage() {
               >
                 reportaproblem.apple.com
               </a>
-              . Subscriptions purchased through Stripe on our website are governed
-              by our refund policy. Contact{" "}
+              . Legacy subscriptions purchased through Stripe on our website are
+              governed by our refund policy. Contact{" "}
               <a href="mailto:jude@reelclips.app" className="text-accent hover:underline">
                 jude@reelclips.app
               </a>{" "}
@@ -181,7 +203,7 @@ export default function TermsPage() {
               <li>Apple App Store / StoreKit 2: governed by the Apple Media Services Terms and Conditions.</li>
               <li>Apple iCloud (for project backup): governed by the iCloud Terms and Conditions.</li>
               <li>Apple Intelligence / Foundation Models (on-device AI runtime): governed by the Apple Privacy Policy and the iOS end-user licence.</li>
-              <li>Stripe (for web subscriptions): governed by the Stripe Services Agreement.</li>
+              <li>Stripe (for legacy web subscriptions): governed by the Stripe Services Agreement.</li>
               <li>Convex (for the waitlist backend): governed by the Convex terms of service.</li>
             </ul>
             <p className="text-text-muted mt-3 text-sm">
@@ -192,7 +214,7 @@ export default function TermsPage() {
 
           <Section title="9. Disclaimers and limitation of liability">
             <p className="text-text-muted">
-              The Service is provided "as is" and "as available" without
+              The Service is provided &quot;as is&quot; and &quot;as available&quot; without
               warranties of any kind, either express or implied, including but not
               limited to warranties of merchantability, fitness for a particular
               purpose, and non-infringement. We do not warrant that the Service
@@ -238,7 +260,7 @@ export default function TermsPage() {
 
           <Section title="13. Changes to these terms">
             <p className="text-text-muted">
-              We may update these terms. The "Last updated" date at the top will
+              We may update these terms. The &quot;Last updated&quot; date at the top will
               change. Material changes (e.g. pricing changes or new restrictions)
               will be announced via an in-app notice or an email to active
               subscribers at least 14 days before they take effect. Continued use
