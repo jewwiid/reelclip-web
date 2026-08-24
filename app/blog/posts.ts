@@ -33,6 +33,28 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "best-free-luts-2026",
+    title:
+      "The best free LUT packs in 2026 (for DJI, Sony, Blackmagic, and iPhone)",
+    description:
+      "A curated list of the best free LUT packs available in 2026 — covering film emulations, cinematic looks, and camera-specific conversion LUTs for DJI, Sony, Blackmagic, and on-device iPhone workflows.",
+    publishedAt: "2026-08-25",
+    category: "Roundup",
+    primaryKeyword: "best free luts 2026",
+    readMinutes: 9,
+  },
+  {
+    slug: "edit-vertical-video-on-iphone",
+    title:
+      "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
+    description:
+      "A practical guide to editing vertical 9:16 video on iPhone — from import to caption export — with the on-device workflows that work for Instagram Reels, TikTok, and YouTube Shorts.",
+    publishedAt: "2026-08-25",
+    category: "How-to",
+    primaryKeyword: "how to edit vertical video on iphone",
+    readMinutes: 7,
+  },
+  {
     slug: "dji-osmo-pocket-3-luts",
     title:
       "DJI Osmo Pocket 3 LUTs — the best free LUT packs (and how to apply them)",
