@@ -33,6 +33,28 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "dji-osmo-pocket-3-luts",
+    title:
+      "DJI Osmo Pocket 3 LUTs — the best free LUT packs (and how to apply them)",
+    description:
+      "A curated list of the best free DJI Osmo Pocket 3 LUT packs for D-Log M, plus the exact workflow to apply them on iPhone with no upload and no desktop.",
+    publishedAt: "2026-08-25",
+    category: "Roundup",
+    primaryKeyword: "dji osmo pocket 3 luts",
+    readMinutes: 8,
+  },
+  {
+    slug: "cube-lut-explained",
+    title:
+      "What is a .cube LUT file? Format, size limits, and how to use one",
+    description:
+      ".cube is the universal LUT format. This guide explains what a .cube file actually contains, the common size limits (17, 33, 65), and how to import one on iPhone.",
+    publishedAt: "2026-08-25",
+    category: "Tutorial",
+    primaryKeyword: "what is a .cube lut file",
+    readMinutes: 7,
+  },
+  {
     slug: "dji-d-log-to-rec709-iphone",
     title:
       "How to convert DJI D-Log to Rec.709 on iPhone (Osmo Pocket, Air, Action)",
