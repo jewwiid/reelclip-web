@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "ReelClip: 긴 영상을 다음 편집에 맞게 준비하세요",
+    "description": "긴 영상을 짧은 클립으로 자르고 Photos에 내보낸 후, CapCut, YouTube Shorts 또는 원하는 편집기로 창작하세요.",
+    "openGraphDescription": "긴 영상을 짧은 클립으로 자르고 Photos에 내보낸 후, 기존에 사용하던 편집기로 창작하세요."
+  },
+  "language": {
+    "label": "언어",
+    "select": "언어 선택"
+  },
+  "nav": {
+    "modes": "모드",
+    "why": "ReelClip을 선택하는 이유",
+    "creators": "크리에이터를 위해",
+    "compare": "비교",
+    "pricing": "가격",
+    "account": "계정",
+    "download": "다운로드",
+    "getApp": "앱 받기",
+    "downloadReelClip": "ReelClip 다운로드",
+    "openMenu": "내비게이션 메뉴 열기",
+    "closeMenu": "내비게이션 메뉴 닫기",
+    "menu": "메뉴"
+  },
+  "hero": {
+    "heading": "긴 영상을 Reels, TikTok, Shorts용 클립으로 자르세요.",
+    "body": "하나의 긴 녹화로 시작하거나, 여러 장면을 하나의 프로젝트에 추가하세요. ReelClip이 순간을 선택하고 내보내기용으로 정리해 CapCut, Shorts 또는 어떤 편집기에서든 바로 사용할 수 있게 해줍니다.",
+    "download": "App Store에서 다운로드",
+    "seeModes": "자르기 모드 보기",
+    "editorAlt": "장면 미리보기와 계획된 클립 타임라인을 보여주는 ReelClip 편집기",
+    "stats": [
+      {
+        "label": "장면 추가",
+        "detail": "모든 촬영을 하나의 프로젝트에 보관"
+      },
+      {
+        "label": "클립 계획",
+        "detail": "남길 가치가 있는 순간 선택"
+      },
+      {
+        "label": "내보내기 준비 완료",
+        "detail": "Photos에 정돈된 묶음으로 전송"
+      }
+    ]
+  },
+  "modes": {
+    "eyebrow": "모든 장면을 하나로 모으기",
+    "heading": "전체 촬영을 하나의 프로젝트에 보관하세요.",
+    "headingMuted": "장면을 전환한 후 자르기를 선택하세요.",
+    "body": "별도의 영상을 장면으로 추가하고, 위치를 잃지 않고 이동하며, 촬영의 각 부분을 가장 빠르게 준비할 수 있는 자르기 모드를 선택하세요.",
+    "timelineAlt": "장면 컨트롤과 클립 미리보기가 있는 ReelClip 타임라인",
+    "items": [
+      {
+        "name": "자르기",
+        "tagline": "일정한 길이의 예측 가능한 클립",
+        "description": "원하는 클립 개수와 각 클립의 길이를 선택하세요. 정기 시리즈, 팟캐스트 발췌, 예약 게시에 이상적입니다.",
+        "bullets": [
+          "클립 개수 선택",
+          "길이 설정",
+          "함께 내보내기"
+        ]
+      },
+      {
+        "name": "자막",
+        "tagline": "자연스러운 멈춤에 맞춰 자르기",
+        "description": "말의 자연스러운 멈춤을 찾아 깔끔하게 자릅니다. 명확한 멈춤이 없으면 ReelClip이 일정한 타이밍을 유지합니다.",
+        "bullets": [
+          "자연스러운 멈춤 찾기",
+          "말의 흐름 유지",
+          "모든 컷 조정"
+        ]
+      },
+      {
+        "name": "스플라이스",
+        "tagline": "눈에 띄는 순간 찾기",
+        "description": "ReelClip이 움직임, 얼굴, 선명도, 오디오를 읽어 가장 강렬한 순간을 iPhone에서 직접 찾아냅니다.",
+        "bullets": [
+          "돋보이는 순간 찾기",
+          "시각적·청각적 신호 활용",
+          "내보내기 전 검토"
+        ]
+      },
+      {
+        "name": "AI 도우미",
+        "tagline": "원하는 것을 설명하세요. 클립 계획을 받아보세요.",
+        "description": "가장 재미있는 순간, 제품 데모, 혹은 가장 강렬한 인용구를 요청해보세요. Apple Intelligence가 iPhone의 트랜스크립트를 읽고 클립을 제안합니다. 업로드는 없고 계정도 필요 없습니다.",
+        "bullets": [
+          "일상적인 언어 사용",
+          "계정이나 업로드 불필요",
+          "모든 제안 검토"
+        ]
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "모든 것을 직접 결정",
+    "heading": "최종 편집은 당신이 합니다.",
+    "headingMuted": "승인하기 전까지는 아무것도 저장되지 않습니다.",
+    "body": "ReelClip은 Photos에 저장하기 전 모든 제안 클립을 보여줍니다. 순간을 검토하고, 트림을 조정한 뒤, 원하는 것만 내보내세요.",
+    "imageAlt": "저장된 프로젝트와 가져오기 옵션을 보여주는 ReelClip 홈 화면",
+    "pills": [
+      "승인하기 전까지는 아무것도 저장되지 않습니다",
+      "원본 영상은 그대로 유지됩니다",
+      "모든 클립은 먼저 검토하고 조정할 수 있습니다",
+      "분석은 기기 내에서 이루어집니다. 영상은 휴대폰에 그대로 남습니다"
+    ]
+  },
+  "aiNotes": {
+    "eyebrow": "ReelClip의 AI 작동 방식",
+    "heading": "AI는 iPhone에서 실행됩니다.",
+    "body": "ReelClip은 Apple Intelligence를 활용해 간직할 가치 있는 순간을 찾아드립니다. 완전히 iPhone 내에서 실행됩니다. 영상은 기기를 벗어나지 않습니다.",
+    "canDo": "가능한 것",
+    "canDoItems": [
+      "트랜스크립트를 읽어 무엇이 말해졌는지 파악하고, 훅, 인용구, 핵심 주제 같은 순간을 찾습니다",
+      "영상 전체의 정지 화면을 확인하여 사물, 화면 텍스트, 얼굴을 파악하고 각각이 나타나는 시점을 기록합니다",
+      "보는 것과 말해진 것을 결합하여, '제품 샷 제거'나 '카메라 대화 부분만 유지' 같은 프롬프트가 작동하도록 합니다",
+      "클립 구간이나 구간 제거를 제안하여 저장 전 검토, 조정, 승인할 수 있게 합니다"
+    ],
+    "cantDo": "아직 불가능한 것",
+    "cantDoItems": [
+      "움직이는 영상 전체를 시청합니다. 일정 간격으로 정지 화면을 샘플링하고 트랜스크립트를 읽지만, 프레임 사이의 동작이나 리듬을 따라갈 수는 없습니다",
+      "오디오의 감정적 의미(어조, 풍자, 음악)를 이해합니다. 트랜스크립트 텍스트와 오디오 레벨만 읽습니다",
+      "매우 긴 영상을 한 번에 처리합니다. 일정 길이를 넘어서면 구간별로 작업해야 합니다"
+    ],
+    "limitsHeading": "이러한 한계는 앱이 아닌 모델에서 비롯됩니다",
+    "limitsBody": "위 목록은 현재 Apple의 기기 내 모델이 처리할 수 있는 범위를 설명합니다. Apple이 개선하면 ReelClip도 자동으로 개선됩니다.",
+    "footnote": "Apple Intelligence는 iOS 26과 지원 기기가 필요합니다. Settings에서 언제든지 끌 수 있습니다. 사용 불가 시 ReelClip은 AI 기능 없이 기기 내 오디오 및 시각 분석으로 대체합니다."
+  },
+  "creators": {
+    "eyebrow": "당신의 영상을 위해 제작됨",
+    "heading": "모든 녹화물에서 더 많은 것을 만들어보세요.",
+    "items": [
+      {
+        "title": "팟캐스터",
+        "description": "공유할 가치 있는 순간을 찾아보세요.",
+        "alt": "책상에서 녹음을 검토하는 팟캐스터"
+      },
+      {
+        "title": "코치",
+        "description": "다시 보여줄 가치 있는 플레이를 뽑아보세요.",
+        "alt": "농구 코트에서 연습 녹화를 검토하는 코치"
+      },
+      {
+        "title": "일상 브이로거",
+        "description": "간직할 가치 있는 순간들이 정렬되어 준비되었습니다.",
+        "alt": "부엌에서 일상 브이로그를 촬영하는 여성"
+      },
+      {
+        "title": "여행 브이로거",
+        "description": "여행 날들을 피드에 올릴 클립으로 만들어보세요.",
+        "alt": "해안가 거리에서 여행 영상을 촬영하는 여성"
+      }
+    ]
+  },
+  "compatible": {
+    "eyebrow": "프로젝트 내보내기",
+    "heading": "ReelClip을 떠나기 전 모든 선택한 클립을 확인하세요.",
+    "body": "모든 장면에서 선택한 클립들이 하나의 목록에 모여 있습니다. 무엇을 간직할지 확인한 뒤, 전체 세트를 Photos로 보내고 이미 사용하는 도구로 최종 게시물을 만들어보세요.",
+    "imageAlt": "저장 또는 내보내기 준비가 된 클립 세트를 보여주는 ReelClip",
+    "download": "App Store에서 다운로드",
+    "items": [
+      {
+        "description": "준비된 클립을 CapCut으로 가져와 템플릿, 자막, 사운드, 효과에 바로 넣으세요.",
+        "iconAlt": "CapCut 아이콘"
+      },
+      {
+        "description": "짧은 소스 클립을 Edits에서 활용해 필터, 음악, 마무리 효과로 Reels를 완성하세요.",
+        "iconAlt": "IG Edits 아이콘"
+      },
+      {
+        "description": "내보낸 클립을 소스 영상으로 활용해 YouTube Shorts를 제작하고 게시하세요.",
+        "iconAlt": "YouTube Shorts 아이콘"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "지금 App Store에서",
+    "heading": "ReelClip을 다운로드하세요.",
+    "body": "ReelClip은 iOS 26 이상을 실행하는 iPhone용 App Store에서 이용할 수 있습니다.",
+    "download": "App Store에서 다운로드"
+  },
+  "footer": {
+    "description": "긴 영상을 다음 편집을 위한 짧은 클립으로 만들어보세요. 모든 컷을 검토하고 Photos로 내보낸 뒤, CapCut, Shorts 또는 원하는 편집기로 창작하세요.",
+    "tagline": "좋은 클립, 정말로",
+    "product": "제품",
+    "account": "계정",
+    "legal": "법적 고지",
+    "follow": "팔로우",
+    "modes": "모드",
+    "why": "ReelClip을 선택하는 이유",
+    "howAI": "AI 작동 방식",
+    "creators": "크리에이터를 위해",
+    "compare": "비교",
+    "pricing": "가격",
+    "blog": "블로그",
+    "manage": "관리",
+    "appStoreSubscription": "App Store 구독",
+    "download": "다운로드",
+    "brandAssets": "브랜드 자산",
+    "privacy": "개인정보 처리방침",
+    "terms": "이용 약관",
+    "support": "지원",
+    "about": "소개",
+    "rights": "모든 권리 보유.",
+    "devicePromise": "iPhone 전용. 영상은 기기를 벗어나지 않습니다."
+  }
+}

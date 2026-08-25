@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "ReelClip: bereid lange beelden voor op je volgende edit",
+    "description": "Knip lange beelden in kleinere clips, exporteer naar Foto's, en creëer vervolgens met CapCut, YouTube Shorts, of welke editor je maar wilt.",
+    "openGraphDescription": "Knip lange beelden in kleinere clips, exporteer naar Foto's, en creëer vervolgens in de editor die je al gebruikt."
+  },
+  "language": {
+    "label": "Taal",
+    "select": "Kies taal"
+  },
+  "nav": {
+    "modes": "Modi",
+    "why": "Waarom ReelClip",
+    "creators": "Voor creators",
+    "compare": "Vergelijken",
+    "pricing": "Prijzen",
+    "account": "Account",
+    "download": "Downloaden",
+    "getApp": "App ophalen",
+    "downloadReelClip": "Download ReelClip",
+    "openMenu": "Navigatiemenu openen",
+    "closeMenu": "Navigatiemenu sluiten",
+    "menu": "Menu"
+  },
+  "hero": {
+    "heading": "Knip lange video's in clips voor Reels, TikTok en Shorts.",
+    "body": "Begin met één langere opname, of voeg meerdere scènes toe aan één project. ReelClip helpt je de momenten te kiezen, zet ze vervolgens klaar voor export, gereed voor CapCut, Shorts, of elke editor.",
+    "download": "Download in de App Store",
+    "seeModes": "Bekijk de knipmodi",
+    "editorAlt": "ReelClip-editor met een scènevoorvertoning en geplande clips-timeline",
+    "stats": [
+      {
+        "label": "Scènes toevoegen",
+        "detail": "Houd elke opname in één project"
+      },
+      {
+        "label": "Je clip-plan",
+        "detail": "Kies de momenten die het bewaren waard zijn"
+      },
+      {
+        "label": "Klaar voor export",
+        "detail": "Stuur een nette batch naar Foto's"
+      }
+    ]
+  },
+  "modes": {
+    "eyebrow": "Breng elke scène samen",
+    "heading": "Houd een hele opname in één project.",
+    "headingMuted": "Wissel van scène, kies vervolgens de knip.",
+    "body": "Voeg aparte video's toe als scènes, schakel ertussen zonder je plek te verliezen, en kies de knipmodus die elk deel van de opname het snelst klaarzet.",
+    "timelineAlt": "ReelClip-timeline met scènebesturing en een clip-voorvertoning",
+    "items": [
+      {
+        "name": "Knip",
+        "tagline": "Voorspelbare clips van gelijke lengte.",
+        "description": "Kies hoeveel clips je wilt en hoe lang elke clip moet zijn. Ideaal voor terugkerende series, podcastfragmenten en geplande posts.",
+        "bullets": [
+          "Kies het aantal clips",
+          "Stel de duur in",
+          "Exporteer ze samen"
+        ]
+      },
+      {
+        "name": "Transcriptie",
+        "tagline": "Knips die op natuurlijke pauzes vallen.",
+        "description": "Vindt natuurlijke pauzes in spraak zodat knips schoner aanvoelen. Als er geen duidelijke pauzes zijn, houdt ReelClip de timing consistent.",
+        "bullets": [
+          "Vind natuurlijke pauzes",
+          "Houd spraak vloeiend",
+          "Pas elke knip aan"
+        ]
+      },
+      {
+        "name": "Splice",
+        "tagline": "Vind de momenten die eruit springen.",
+        "description": "ReelClip leest beweging, gezichten, scherpte en audio om de sterkste momenten te vinden, allemaal op je iPhone.",
+        "bullets": [
+          "Vind de opvallende momenten",
+          "Gebruik visuele en audio-aanwijzingen",
+          "Controleer voor export"
+        ]
+      },
+      {
+        "name": "AI-hulp",
+        "tagline": "Beschrijf wat je wilt. Krijg een clipplan.",
+        "description": "Vraag om de grappigste momenten, de productdemo of de sterkste quotes. Apple Intelligence leest het transcript op je iPhone en stelt clips voor. Er wordt niets geüpload en je hebt geen account nodig.",
+        "bullets": [
+          "Gebruik gewone taal",
+          "Geen account of upload",
+          "Controleer elke suggestie"
+        ]
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Jij hebt de controle",
+    "heading": "Jij maakt de definitieve montage.",
+    "headingMuted": "Er wordt niets opgeslagen totdat jij het zegt.",
+    "body": "ReelClip toont elke voorgestelde clip voordat er iets wordt opgeslagen in Foto's. Bekijk het moment, pas de trim aan en exporteer alleen wat je wilt.",
+    "imageAlt": "ReelClip-homescreen met een opgeslagen project en importopties",
+    "pills": [
+      "Er wordt niets opgeslagen totdat jij het goedkeurt",
+      "Je originele video blijft onaangeroerd",
+      "Elke clip kan eerst worden bekeken en aangepast",
+      "Analyse gebeurt op het apparaat. Je video blijft op je telefoon"
+    ]
+  },
+  "aiNotes": {
+    "eyebrow": "Hoe AI werkt in ReelClip",
+    "heading": "De AI draait op je iPhone.",
+    "body": "ReelClip gebruikt Apple Intelligence om je te helpen momenten te vinden die de moeite waard zijn. Het draait volledig op je iPhone. Je video verlaat nooit je apparaat.",
+    "canDo": "Wat het kan doen",
+    "canDoItems": [
+      "Lees je transcript om te begrijpen wat er is gezegd en vind momenten zoals hooks, quotes of belangrijke onderwerpen",
+      "Controleer stilstaande frames in je video op objecten, tekst op scherm en gezichten, en noteer wanneer elk verschijnt",
+      "Combineer wat het ziet met wat er is gezegd, zodat prompts zoals 'verwijder de productshots' of 'houd de talking-to-camera-delers' werken",
+      "Stel clipbereiken of verwijderingen van passages voor die je kunt bekijken, aanpassen en goedkeuren voordat er iets wordt opgeslagen"
+    ],
+    "cantDo": "Wat het nog niet kan",
+    "cantDoItems": [
+      "Volg volledige video in beweging. Het neemt stilstaande frames op intervallen en leest het transcript, maar kan geen actie of tempo tussen frames volgen",
+      "Begrijp audio emotioneel (toon, sarcasme, muziek). Het leest transcripttekst en audioniveaus",
+      "Verwerk een zeer lange video in één keer. Na een bepaald punt moet het in secties werken"
+    ],
+    "limitsHeading": "Deze beperkingen komen van het model, niet van de app",
+    "limitsBody": "De lijst hierboven beschrijft wat Apple's on-device model vandaag de dag aankan. Wanneer Apple het verbetert, profiteert ReelClip daarvan.",
+    "footnote": "Apple Intelligence vereist iOS 26 en een ondersteund apparaat. Het kan op elk moment worden uitgeschakeld in Instellingen. Wanneer het niet beschikbaar is, valt ReelClip terug op on-device audio- en visuele analyse zonder AI-functies."
+  },
+  "creators": {
+    "eyebrow": "Gemaakt voor je beelden",
+    "heading": "Haal meer uit elke opname.",
+    "items": [
+      {
+        "title": "Podcasters",
+        "description": "Vind de momenten die de moeite waard zijn om te delen.",
+        "alt": "Podcaster die een opname bekijkt aan een bureau"
+      },
+      {
+        "title": "Coaches",
+        "description": "Haal de plays eruit die de moeite waard zijn om te herhalen.",
+        "alt": "Coach die een trainingopname bekijkt op een basketbalveld"
+      },
+      {
+        "title": "Dagelijkse vloggers",
+        "description": "De momenten die de moeite waard zijn om te bewaren, op een rij en klaar voor gebruik.",
+        "alt": "Vrouw die casual een dag-in-het-leven-video filmt in haar keuken"
+      },
+      {
+        "title": "Reisvloggers",
+        "description": "Maak van reisdagen clips die klaar zijn voor je feed.",
+        "alt": "Vrouw die een reisvideo filmt op een kuststraat"
+      }
+    ]
+  },
+  "compatible": {
+    "eyebrow": "Je projectexport",
+    "heading": "Bekijk elke gekozen clip voordat deze ReelClip verlaat.",
+    "body": "Je gekozen clips uit elke scene staan samen in één lijst. Controleer wat je bewaart, stuur dan de hele set naar Foto's en bouw de definitieve post met de tools die je al gebruikt.",
+    "imageAlt": "ReelClip toont een geplande set clips die klaar is om op te slaan of te exporteren",
+    "download": "Download in de App Store",
+    "items": [
+      {
+        "description": "Neem voorbereide clips mee naar CapCut en plaats ze in templates, ondertitels, geluid en effecten.",
+        "iconAlt": "CapCut-pictogram"
+      },
+      {
+        "description": "Gebruik kleinere bronclips in Edits om Reels te maken met filters, muziek en finishing touches.",
+        "iconAlt": "IG Edits-pictogram"
+      },
+      {
+        "description": "Gebruik je geëxporteerde clips als bronmateriaal wanneer je YouTube Shorts maakt en publiceert.",
+        "iconAlt": "YouTube Shorts-pictogram"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Nu op de App Store",
+    "heading": "Download ReelClip.",
+    "body": "ReelClip is beschikbaar op de App Store voor iPhone met iOS 26 of nieuwer.",
+    "download": "Download op de App Store"
+  },
+  "footer": {
+    "description": "Maak van lang materiaal kleinere clips voor je volgende edit. Bekijk elke cut, exporteer naar Foto's en creëer vervolgens in CapCut, Shorts of welke editor je maar wilt.",
+    "tagline": "Maak goede clips, echt waar",
+    "product": "Product",
+    "account": "Account",
+    "legal": "Juridisch",
+    "follow": "Volg",
+    "modes": "Modi",
+    "why": "Waarom ReelClip",
+    "howAI": "Hoe AI werkt",
+    "creators": "Voor makers",
+    "compare": "Vergelijk",
+    "pricing": "Prijzen",
+    "blog": "Blog",
+    "manage": "Beheer",
+    "appStoreSubscription": "App Store-abonnement",
+    "download": "Download",
+    "brandAssets": "Brand assets",
+    "privacy": "Privacy",
+    "terms": "Voorwaarden",
+    "support": "Support",
+    "about": "Over",
+    "rights": "Alle rechten voorbehouden.",
+    "devicePromise": "Gemaakt voor iPhone. Je beeldmateriaal verlaat nooit je apparaat."
+  }
+}

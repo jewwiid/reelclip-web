@@ -1,0 +1,173 @@
+{
+  "metadata": {
+    "title": "ReelClip: prep long footage for your next edit",
+    "description": "Cut long footage into smaller clips, export to Photos, then create with CapCut, YouTube Shorts, or any editor you like.",
+    "openGraphDescription": "Cut long footage into smaller clips, export to Photos, then create in the editor you already use."
+  },
+  "language": {
+    "label": "Language",
+    "select": "Choose language"
+  },
+  "nav": {
+    "modes": "Modes",
+    "why": "Why ReelClip",
+    "creators": "For creators",
+    "compare": "Compare",
+    "pricing": "Pricing",
+    "account": "Account",
+    "download": "Download",
+    "getApp": "Get app",
+    "downloadReelClip": "Download ReelClip",
+    "openMenu": "Open navigation menu",
+    "closeMenu": "Close navigation menu",
+    "menu": "Menu"
+  },
+  "hero": {
+    "heading": "Cut long videos into clips for Reels, TikTok, and Shorts.",
+    "body": "Start with one longer recording, or add several scenes to one project. ReelClip helps you choose the moments, then lines them up for export, ready for CapCut, Shorts, or any editor.",
+    "download": "Download on the App Store",
+    "seeModes": "See the cut modes",
+    "editorAlt": "ReelClip editor showing a scene preview and planned clips timeline",
+    "stats": [
+      { "label": "Add scenes", "detail": "Keep every shoot in one project" },
+      { "label": "Your clip plan", "detail": "Pick the moments worth keeping" },
+      { "label": "Ready to export", "detail": "Send a tidy batch to Photos" }
+    ]
+  },
+  "modes": {
+    "eyebrow": "Bring every scene together",
+    "heading": "Keep a whole shoot in one project.",
+    "headingMuted": "Switch scenes, then choose the cut.",
+    "body": "Add separate videos as scenes, move between them without losing your place, and choose the cut mode that gets each part of the shoot ready fastest.",
+    "timelineAlt": "ReelClip timeline with scene controls and a clip preview",
+    "items": [
+      {
+        "name": "Cut",
+        "tagline": "Predictable equal-length clips.",
+        "description": "Choose how many clips you want and how long each should be. Ideal for recurring series, podcast excerpts, and scheduled posts.",
+        "bullets": ["Choose the clip count", "Set the duration", "Export them together"]
+      },
+      {
+        "name": "Transcript",
+        "tagline": "Cuts that land on natural pauses.",
+        "description": "Finds natural pauses in speech so cuts feel cleaner. If there are no clear pauses, ReelClip keeps the timing consistent.",
+        "bullets": ["Find natural pauses", "Keep speech flowing", "Adjust every cut"]
+      },
+      {
+        "name": "Splice",
+        "tagline": "Find the moments that stand out.",
+        "description": "ReelClip reads movement, faces, sharpness, and audio to find the strongest moments, all on your iPhone.",
+        "bullets": ["Find the standout moments", "Use visual and audio cues", "Review before export"]
+      },
+      {
+        "name": "AI Assist",
+        "tagline": "Describe what you want. Get a clip plan.",
+        "description": "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads the transcript on your iPhone and suggests clips. Nothing is uploaded and you don't need an account.",
+        "bullets": ["Use everyday language", "No account or upload", "Review every suggestion"]
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "You're in control",
+    "heading": "You make the final cut.",
+    "headingMuted": "Nothing saves until you say so.",
+    "body": "ReelClip shows every suggested clip before saving anything to Photos. Review the moment, adjust the trim, and export only what you want.",
+    "imageAlt": "ReelClip home screen showing a saved project and import options",
+    "pills": [
+      "Nothing is saved until you approve it",
+      "Your original video stays untouched",
+      "Every clip can be reviewed and adjusted first",
+      "Analysis happens on-device. Your video stays on your phone"
+    ]
+  },
+  "aiNotes": {
+    "eyebrow": "How AI works in ReelClip",
+    "heading": "The AI runs on your iPhone.",
+    "body": "ReelClip uses Apple Intelligence to help you find moments worth keeping. It runs entirely on your iPhone. Your video never leaves your device.",
+    "canDo": "What it can do",
+    "canDoItems": [
+      "Read your transcript to understand what was said and find moments like hooks, quotes, or key topics",
+      "Check still frames across your video for objects, on-screen text, and faces, and note when each appears",
+      "Combine what it sees with what was said, so prompts like “remove the product shots” or “keep the talking-to-camera parts” work",
+      "Suggest clip ranges or passage removals you can review, adjust, and approve before anything is saved"
+    ],
+    "cantDo": "What it can't do yet",
+    "cantDoItems": [
+      "Watch full video in motion. It samples still frames at intervals and reads the transcript, but cannot follow action or pacing between frames",
+      "Understand audio emotionally (tone, sarcasm, music). It reads transcript text and audio levels",
+      "Take in a very long video all at once. Past a point it has to work in sections"
+    ],
+    "limitsHeading": "These limits come from the model, not the app",
+    "limitsBody": "The list above describes what Apple's on-device model can handle today. When Apple improves it, ReelClip picks up the improvement.",
+    "footnote": "Apple Intelligence requires iOS 26 and a supported device. It can be turned off at any time in Settings. When unavailable, ReelClip falls back to on-device audio and visual analysis without any AI features."
+  },
+  "creators": {
+    "eyebrow": "Made for your footage",
+    "heading": "Make more from every recording.",
+    "items": [
+      {
+        "title": "Podcasters",
+        "description": "Find the moments worth sharing.",
+        "alt": "Podcaster reviewing a recording at a desk"
+      },
+      {
+        "title": "Coaches",
+        "description": "Pull out the plays worth replaying.",
+        "alt": "Coach reviewing a practice recording on a basketball court"
+      },
+      {
+        "title": "Everyday vloggers",
+        "description": "The moments worth keeping, lined up and ready.",
+        "alt": "Woman casually filming a day-in-the-life video in her kitchen"
+      },
+      {
+        "title": "Travel vloggers",
+        "description": "Turn travel days into clips ready for your feed.",
+        "alt": "Woman filming a travel video on a coastal street"
+      }
+    ]
+  },
+  "compatible": {
+    "eyebrow": "Your project export",
+    "heading": "See every chosen clip before it leaves ReelClip.",
+    "body": "Your chosen clips from every scene sit together in one list. Check what you're keeping, then send the whole set to Photos and build the final post with the tools you already use.",
+    "imageAlt": "ReelClip showing a planned set of clips ready to save or export",
+    "download": "Download on the App Store",
+    "items": [
+      { "description": "Bring prepared clips into CapCut and drop them into templates, captions, sound, and effects.", "iconAlt": "CapCut icon" },
+      { "description": "Use smaller source clips in Edits to build Reels with filters, music, and finishing touches.", "iconAlt": "IG Edits icon" },
+      { "description": "Use your exported clips as source footage when you create and publish YouTube Shorts.", "iconAlt": "YouTube Shorts icon" }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Now on the App Store",
+    "heading": "Download ReelClip.",
+    "body": "ReelClip is available on the App Store for iPhone running iOS 26 or later.",
+    "download": "Download on the App Store"
+  },
+  "footer": {
+    "description": "Turn long footage into smaller clips for your next edit. Review every cut, export to Photos, then create in CapCut, Shorts, or any editor you like.",
+    "tagline": "Make good clips, really",
+    "product": "Product",
+    "account": "Account",
+    "legal": "Legal",
+    "follow": "Follow",
+    "modes": "Modes",
+    "why": "Why ReelClip",
+    "howAI": "How AI works",
+    "creators": "For creators",
+    "compare": "Compare",
+    "pricing": "Pricing",
+    "blog": "Blog",
+    "manage": "Manage",
+    "appStoreSubscription": "App Store subscription",
+    "download": "Download",
+    "brandAssets": "Brand assets",
+    "privacy": "Privacy",
+    "terms": "Terms",
+    "support": "Support",
+    "about": "About",
+    "rights": "All rights reserved.",
+    "devicePromise": "Built for iPhone. Your footage never leaves your device."
+  }
+}

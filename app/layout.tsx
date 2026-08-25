@@ -6,6 +6,9 @@ import {
   OrganizationJsonLd,
   WebSiteJsonLd,
 } from "@/components/structured-data";
+import { LOCALES, localeLanguageTag } from "@/i18n/config";
+import { localizedPath } from "@/i18n/routing";
+import { getDictionary, getRequestLocale } from "@/i18n/server";
 import "./globals.css";
 
 const inter = Inter({
@@ -16,68 +19,51 @@ const inter = Inter({
 
 const SITE_URL = "https://reelclips.app";
 
-export const metadata: Metadata = {
-  metadataBase: new URL(SITE_URL),
-  title: "ReelClip: prep long footage for your next edit",
-  description:
-    "Cut long footage into smaller clips, export to Photos, then create with CapCut, YouTube Shorts, or any editor you like.",
-  applicationName: "ReelClip",
-  keywords: [
-    "video cutter",
-    "video splitter",
-    "video clip preparation",
-    "reels maker",
-    "tiktok editor",
-    "shorts",
-    "highlights",
-    "creator tools",
-  ],
-  authors: [{ name: "ReelClip" }],
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32" },
-      { url: "/icon.png", type: "image/png", sizes: "180x180" },
-    ],
-    apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
-  },
-  openGraph: {
-    title: "ReelClip: prep long footage for your next edit",
-    description:
-      "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
-    url: SITE_URL,
-    siteName: "ReelClip",
-    type: "website",
-    images: [
-      {
-        url: "/opengraph-image.png",
-        width: 1200,
-        height: 630,
-        alt: "ReelClip: make good clips, really",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "ReelClip: prep long footage for your next edit",
-    description:
-      "Cut long footage into smaller clips, export to Photos, then create in the editor you already use.",
-    images: ["/opengraph-image.png"],
-  },
-  // Canonical URL — also referenced when setting the App Store Connect
-  // privacy policy URL (App → App Information → Privacy Policy) to
-  // https://reelclips.app/privacy.
-  alternates: {
-    canonical: "/",
-  },
-};
+export async function generateMetadata(): Promise<Metadata> {
+  const locale = await getRequestLocale();
+  const { metadata } = await getDictionary(locale);
+  const canonical = localizedPath(locale);
+  const languages = Object.fromEntries(
+    LOCALES.map(({ code }) => [localeLanguageTag(code), localizedPath(code)]),
+  );
 
-export default function RootLayout({
+  return {
+    metadataBase: new URL(SITE_URL),
+    title: metadata.title,
+    description: metadata.description,
+    applicationName: "ReelClip",
+    keywords: ["video cutter", "video splitter", "video clip preparation", "reels maker", "tiktok editor", "shorts", "highlights", "creator tools"],
+    authors: [{ name: "ReelClip" }],
+    icons: {
+      icon: [{ url: "/favicon.ico", sizes: "32x32" }, { url: "/icon.png", type: "image/png", sizes: "180x180" }],
+      apple: [{ url: "/apple-icon.png", sizes: "180x180", type: "image/png" }],
+    },
+    openGraph: {
+      title: metadata.title,
+      description: metadata.openGraphDescription,
+      url: canonical,
+      siteName: "ReelClip",
+      type: "website",
+      images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "ReelClip: make good clips, really" }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: metadata.title,
+      description: metadata.openGraphDescription,
+      images: ["/opengraph-image.png"],
+    },
+    alternates: { canonical, languages },
+  };
+}
+
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const locale = await getRequestLocale();
   return (
-    <html lang="en" className={`${inter.variable} h-full antialiased`}>
+    <html lang={localeLanguageTag(locale)} className={`${inter.variable} h-full antialiased`}>
       <head>
         <Script
           data-website-id="dfid_ftGSKdpvLUh6r1l4TP9qs"

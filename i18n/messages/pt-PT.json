@@ -1,0 +1,207 @@
+{
+  "metadata": {
+    "title": "ReelClip: prepara filmagens longas para o teu próximo vídeo",
+    "description": "Corta filmagens longas em clipes mais pequenos, exporta para Fotos e depois cria com CapCut, YouTube Shorts ou qualquer editor que preferires.",
+    "openGraphDescription": "Corta filmagens longas em clipes mais pequenos, exporta para Fotos e depois cria no editor que já usas."
+  },
+  "language": {
+    "label": "Idioma",
+    "select": "Escolher idioma"
+  },
+  "nav": {
+    "modes": "Modos",
+    "why": "Porquê o ReelClip",
+    "creators": "Para criadores",
+    "compare": "Comparar",
+    "pricing": "Preços",
+    "account": "Conta",
+    "download": "Transferir",
+    "getApp": "Obter app",
+    "downloadReelClip": "Transferir o ReelClip",
+    "openMenu": "Abrir menu de navegação",
+    "closeMenu": "Fechar menu de navegação",
+    "menu": "Menu"
+  },
+  "hero": {
+    "heading": "Corta vídeos longos em clipes para Reels, TikTok e Shorts.",
+    "body": "Começa com uma gravação mais longa ou adiciona várias cenas a um projeto. O ReelClip ajuda-te a escolher os momentos e depois organiza-os para exportação, prontos para CapCut, Shorts ou qualquer editor.",
+    "download": "Transferir na App Store",
+    "seeModes": "Ver os modos de corte",
+    "editorAlt": "Editor ReelClip a mostrar pré-visualização de cena e linha temporal de clipes planeados",
+    "stats": [
+      {
+        "label": "Adicionar cenas",
+        "detail": "Mantém cada gravação num projeto"
+      },
+      {
+        "label": "O teu plano de clipes",
+        "detail": "Escolhe os momentos que valem a pena"
+      },
+      {
+        "label": "Pronto a exportar",
+        "detail": "Envia um lote organizado para Fotos"
+      }
+    ]
+  },
+  "modes": {
+    "eyebrow": "Junta todas as cenas",
+    "heading": "Mantém uma gravação completa num projeto.",
+    "headingMuted": "Alterna entre cenas e depois escolhe o corte.",
+    "body": "Adiciona vídeos separados como cenas, move-te entre eles sem perderes o teu lugar e escolhe o modo de corte que prepara cada parte da gravação mais rapidamente.",
+    "timelineAlt": "Linha temporal do ReelClip com controlos de cena e pré-visualização de clipe",
+    "items": [
+      {
+        "name": "Corte",
+        "tagline": "Clipes de duração igual e previsível.",
+        "description": "Escolhe quantos clipes queres e a duração de cada um. Ideal para séries recorrentes, excertos de podcasts e publicações agendadas.",
+        "bullets": [
+          "Escolher o número de clipes",
+          "Definir a duração",
+          "Exportá-los em conjunto"
+        ]
+      },
+      {
+        "name": "Transcrição",
+        "tagline": "Cortes que coincidem com pausas naturais.",
+        "description": "Encontra pausas naturais na fala para que os cortes pareçam mais limpos. Se não houver pausas claras, o ReelClip mantém a consistência temporal.",
+        "bullets": [
+          "Encontrar pausas naturais",
+          "Manter a fluidez da fala",
+          "Ajustar cada corte"
+        ]
+      },
+      {
+        "name": "Montagem",
+        "tagline": "Encontra os momentos que se destacam.",
+        "description": "O ReelClip analisa movimento, rostos, nitidez e áudio para encontrar os momentos mais fortes, tudo no teu iPhone.",
+        "bullets": [
+          "Encontrar os momentos de destaque",
+          "Usar pistas visuais e de áudio",
+          "Rever antes de exportar"
+        ]
+      },
+      {
+        "name": "Assistente de IA",
+        "tagline": "Descreve o que queres. Recebe um plano de clipes.",
+        "description": "Pede os momentos mais divertidos, a demonstração do produto ou as melhores citações. A Apple Intelligence lê a transcrição no teu iPhone e sugere clipes. Nada é enviado e não precisas de conta.",
+        "bullets": [
+          "Usa linguagem do dia a dia",
+          "Sem conta ou envio",
+          "Rever cada sugestão"
+        ]
+      }
+    ]
+  },
+  "safety": {
+    "eyebrow": "Tu estás no controlo",
+    "heading": "Tu fazes o corte final.",
+    "headingMuted": "Nada é guardado até tu o decidires.",
+    "body": "O ReelClip mostra cada clipe sugerido antes de guardar algo em Fotos. Reve o momento, ajusta o corte e exporta apenas o que queres.",
+    "imageAlt": "Ecrã inicial do ReelClip a mostrar um projeto guardado e opções de importação",
+    "pills": [
+      "Nada é guardado até aprovares",
+      "O teu vídeo original fica intacto",
+      "Cada clipe pode ser revisto e ajustado primeiro",
+      "A análise acontece no dispositivo. O teu vídeo fica no teu telemóvel"
+    ]
+  },
+  "aiNotes": {
+    "eyebrow": "Como funciona a IA no ReelClip",
+    "heading": "A IA corre no teu iPhone.",
+    "body": "O ReelClip usa a Apple Intelligence para te ajudar a encontrar momentos que valem a pena guardar. Corre inteiramente no teu iPhone. O teu vídeo nunca sai do teu dispositivo.",
+    "canDo": "O que pode fazer",
+    "canDoItems": [
+      "Ler a tua transcrição para perceber o que foi dito e encontrar momentos como ganchos, citações ou tópicos-chave",
+      "Verificar fotogramas do teu vídeo para objetos, texto no ecrã e rostos, e registar quando cada um aparece",
+      "Combinar o que vê com o que foi dito, para que pedidos como \"remove as tomadas do produto\" ou \"mantém as partes a falar para a câmara\" funcionem",
+      "Sugerir intervalos de clipes ou remoções de passagens que podes rever, ajustar e aprovar antes de algo ser guardado"
+    ],
+    "cantDo": "O que ainda não pode fazer",
+    "cantDoItems": [
+      "Ver vídeo completo em movimento. Amostra fotogramas em intervalos e lê a transcrição, mas não pode seguir ação ou ritmo entre fotogramas",
+      "Perceber áudio emocionalmente (tom, sarcasmo, música). Lê texto da transcrição e níveis de áudio",
+      "Processar um vídeo muito longo de uma só vez. Passado um certo ponto, tem de trabalhar em secções"
+    ],
+    "limitsHeading": "Estas limitações vêm do modelo, não da app",
+    "limitsBody": "A lista acima descreve o que o modelo no dispositivo da Apple consegue fazer hoje. Quando a Apple o melhorar, o ReelClip beneficia dessa melhoria.",
+    "footnote": "A Apple Intelligence requer o iOS 26 e um dispositivo suportado. Pode ser desativada a qualquer momento em Ajustes. Quando indisponível, o ReelClip recorre a análise de áudio e visual no dispositivo sem funcionalidades de IA."
+  },
+  "creators": {
+    "eyebrow": "Feito para as tuas gravações",
+    "heading": "Tira mais partido de cada gravação.",
+    "items": [
+      {
+        "title": "Podcasters",
+        "description": "Encontra os momentos que valem a pena partilhar.",
+        "alt": "Podcaster a rever uma gravação numa secretária"
+      },
+      {
+        "title": "Treinadores",
+        "description": "Destaca as jogadas que valem a pena rever.",
+        "alt": "Treinador a rever uma gravação de treino num campo de basquetebol"
+      },
+      {
+        "title": "Vloggers do dia a dia",
+        "description": "Os momentos que valem a pena guardar, organizados e prontos.",
+        "alt": "Mulher a filmar casualmente um vídeo do dia-a-dia na sua cozinha"
+      },
+      {
+        "title": "Vloggers de viagem",
+        "description": "Transforma dias de viagem em clipes prontos para o teu feed.",
+        "alt": "Mulher a filmar um vídeo de viagem numa rua costeira"
+      }
+    ]
+  },
+  "compatible": {
+    "eyebrow": "Exportação do teu projeto",
+    "heading": "Vê cada clipe escolhido antes de sair do ReelClip.",
+    "body": "Os teus clipes escolhidos de cada cena ficam juntos numa lista. Verifica o que vais guardar, depois envia o conjunto todo para Fotos e monta a publicação final com as ferramentas que já usas.",
+    "imageAlt": "ReelClip a mostrar um conjunto planeado de clipes prontos para guardar ou exportar",
+    "download": "Descarregar na App Store",
+    "items": [
+      {
+        "description": "Leva os teus clipes preparados para o CapCut e insere-os em modelos, legendas, som e efeitos.",
+        "iconAlt": "Ícone do CapCut"
+      },
+      {
+        "description": "Usa clipes de origem mais pequenos no Edits para criar Reels com filtros, música e toques finais.",
+        "iconAlt": "Ícone do IG Edits"
+      },
+      {
+        "description": "Usa os teus clipes exportados como material de origem quando crias e publicas YouTube Shorts.",
+        "iconAlt": "Ícone do YouTube Shorts"
+      }
+    ]
+  },
+  "cta": {
+    "eyebrow": "Agora na App Store",
+    "heading": "Descarrega o ReelClip.",
+    "body": "O ReelClip está disponível na App Store para iPhone com iOS 26 ou posterior.",
+    "download": "Descarregar na App Store"
+  },
+  "footer": {
+    "description": "Transforma filmagens longas em clipes mais pequenos para a tua próxima edição. Revisa cada corte, exporta para Fotos e depois cria no CapCut, Shorts ou qualquer editor que preferires.",
+    "tagline": "Faz bons clipes, mesmo",
+    "product": "Produto",
+    "account": "Conta",
+    "legal": "Legal",
+    "follow": "Segue",
+    "modes": "Modos",
+    "why": "Porquê o ReelClip",
+    "howAI": "Como funciona a IA",
+    "creators": "Para criadores",
+    "compare": "Comparar",
+    "pricing": "Preços",
+    "blog": "Blogue",
+    "manage": "Gerir",
+    "appStoreSubscription": "Subscrição da App Store",
+    "download": "Descarregar",
+    "brandAssets": "Elementos de marca",
+    "privacy": "Privacidade",
+    "terms": "Termos",
+    "support": "Suporte",
+    "about": "Sobre",
+    "rights": "Todos os direitos reservados.",
+    "devicePromise": "Feito para iPhone. As tuas filmagens nunca saem do teu dispositivo."
+  }
+}
