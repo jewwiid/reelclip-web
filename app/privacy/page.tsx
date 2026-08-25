@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { LocalizedStaticPage } from "@/components/localized-static-page";
+import { getRequestLocale } from "@/i18n/server";
 
 export const metadata: Metadata = {
   title: "Privacy Policy · ReelClip — On-device by default",
@@ -26,7 +28,9 @@ export const metadata: Metadata = {
 
 const UPDATED = "July 8, 2026";
 
-export default function PrivacyPage() {
+export default async function PrivacyPage() {
+  const locale = await getRequestLocale();
+  if (locale !== "en") return <LocalizedStaticPage locale={locale} document="privacy" />;
   return (
     <>
       <Nav />

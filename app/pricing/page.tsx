@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { PricingPlans } from "@/components/pricing-client";
+import { getDictionary } from "@/i18n/server";
 
 export const metadata: Metadata = {
   title: "Pricing · ReelClip — Create free, export with Creator",
@@ -24,28 +25,26 @@ export const metadata: Metadata = {
   },
 };
 
-export default function PricingPage() {
+export default async function PricingPage() {
+  const { pricing } = await getDictionary();
   return (
     <>
       <Nav />
       <main className="px-6 sm:px-10 py-12 sm:py-16 max-w-5xl mx-auto">
         <div className="text-center max-w-2xl mx-auto mb-10">
           <p className="text-xs uppercase tracking-wider text-accent font-bold mb-3">
-            Pricing
+            {pricing.eyebrow}
           </p>
           <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight">
-            Create your clips free. Pay only when you&apos;re ready to export.
+            {pricing.heading}
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
-            Import your footage, let ReelClip find the strongest moments, and
-            preview every result for free. Choose Creator when you&apos;re ready to
-            save, share, or export your clips.
+            {pricing.intro}
           </p>
           <div className="mt-6 rounded-2xl border border-accent/25 bg-accent/8 px-5 py-4 text-left">
-            <p className="text-sm font-bold text-text">Try ReelClip free</p>
+            <p className="text-sm font-bold text-text">{pricing.tryFree}</p>
             <p className="mt-1 text-sm leading-relaxed text-text-muted">
-              Import a video, generate clips, and preview the results. A Creator
-              plan is required to export or save.
+              {pricing.tryFreeDescription}
             </p>
           </div>
         </div>

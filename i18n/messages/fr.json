@@ -203,5 +203,336 @@
     "about": "À propos",
     "rights": "Tous droits réservés.",
     "devicePromise": "Conçu pour iPhone. Vos séquences ne quittent jamais votre appareil."
+  },
+  "pricing": {
+    "eyebrow": "Tarifs",
+    "heading": "Créez vos clips gratuitement. Payez uniquement lorsque vous êtes prêt à exporter.",
+    "intro": "Importez vos rushs, laissez ReelClip détecter les meilleurs moments et prévisualisez chaque résultat gratuitement. Choisissez Creator quand vous êtes prêt à sauvegarder, partager ou exporter vos clips.",
+    "tryFree": "Essayez ReelClip gratuitement",
+    "tryFreeDescription": "Importez une vidéo, générez des clips et prévisualisez les résultats. Un plan Creator est nécessaire pour exporter ou sauvegarder.",
+    "creatorPlans": "Plans Creator",
+    "purchaseInApp": "Choisissez votre plan dans ReelClip. Apple gère l'achat.",
+    "usPrices": "Prix App Store US",
+    "monthly": "Mensuel",
+    "monthlySuffix": "/ mois",
+    "monthlyDescription": "Accès flexible sans engagement long terme.",
+    "annual": "Annuel",
+    "annualSuffix": "/ an",
+    "annualDescription": "{price} par mois, facturé annuellement. Économisez {savings}% par rapport au mensuel.",
+    "lifetime": "À vie",
+    "lifetimeSuffix": "paiement unique",
+    "lifetimeDescription": "Prix de lancement. Payez une fois et gardez Creator sans renouvellement.",
+    "recommended": "Recommandé",
+    "launchPrice": "Prix de lancement",
+    "allPlans": "Chaque plan débloque Creator",
+    "perks": [
+      "Sauvegardez, partagez et exportez chaque clip finalisé",
+      "Vidéo qualité originale, jusqu'à 60fps",
+      "Coupe IA illimitée, exécutée sur votre iPhone",
+      "Sous-titres, amélioration vocale et looks couleur personnalisés",
+      "Export de transcripts TXT, SRT et VTT",
+      "Projets multi-séquences et export par lots",
+      "Vidéos source jusqu'à 45 minutes"
+    ],
+    "chooseInApp": "Choisissez dans ReelClip",
+    "chooseInAppDescription": "L'app affiche votre prix App Store local et confirme le montant exact avant l'achat.",
+    "openAppStore": "Ouvrir ReelClip dans l'App Store",
+    "priceDisclosure": "Les prix indiqués sont des prix de référence App Store US. Apple affiche le prix localisé pour votre pays ou région avant l'achat. Les abonnements Mensuel et Annuel se renouvellent automatiquement jusqu'à annulation ; À vie est un achat unique."
+  },
+  "account": {
+    "eyebrow": "Compte",
+    "heading": "Votre abonnement",
+    "intro": "Consultez votre niveau, gérez la facturation ou annulez à tout moment.",
+    "checkoutSuccess": "Abonnement actif. Consultez votre compte ci-dessous pour confirmer.",
+    "lookupHeading": "Consulter mon compte",
+    "lookupDescription": "Utilisez le même email ou token de compte app que lors de l'abonnement.",
+    "email": "Email",
+    "token": "Token de compte app iOS",
+    "optional": "facultatif",
+    "lookup": "Consulter",
+    "lookingUp": "Recherche en cours…",
+    "viewPricing": "Voir les tarifs",
+    "missingLookup": "Fournissez un email ou un token de compte app.",
+    "lookupFailed": "Échec de la recherche (HTTP {status})",
+    "noStripe": "Aucun client Stripe lié. Abonnez-vous d'abord pour gérer via Stripe.",
+    "openingStripe": "Ouverture de Stripe…",
+    "manageSubscription": "Gérer l'abonnement",
+    "portalFailed": "Échec du portail (HTTP {status})",
+    "creator": "Creator",
+    "free": "Gratuit",
+    "currentTier": "Formule actuelle",
+    "activeEntitlements": "Droits actifs ({count})",
+    "noEntitlements": "Aucun droit actif.",
+    "upgradeSuffix": "pour passer à la formule supérieure.",
+    "status": "Statut :",
+    "cancelsAtEnd": "se termine à la fin de la période",
+    "renews": "Renouvellement",
+    "unknownDate": "—"
+  },
+  "support": {
+    "eyebrow": "Assistance",
+    "heading": "Envoyez-nous un e-mail.",
+    "intro": "L'e-mail est le moyen le plus rapide de joindre une personne, nous répondons dans un jour ouvré. Si vous signalez un bug, indiquez votre version iOS et votre modèle d'iPhone.",
+    "email": "E-mail",
+    "bestFor": "Idéal pour : signalements de bugs, suggestions de fonctionnalités, questions de compte / d'abonnement, problèmes de soumission sur l'App Store.",
+    "commonQuestions": "Questions fréquentes",
+    "feedbackPrefix": "Si vous rencontrez un problème ou si une fonctionnalité vous intéresserait, contactez-nous à",
+    "faqs": [
+      {
+        "question": "Ma vidéo est-elle téléchargée sur un serveur ?",
+        "answer": "Non. ReelClip effectue chaque analyse (coupes, plans IA, transcription) entièrement sur l'appareil. Votre vidéo source est copiée dans le bac à sable privé de l'app, traitée localement, et le fichier original dans Photos n'est jamais modifié. Consultez la Politique de confidentialité pour le flux de données complet."
+      },
+      {
+        "question": "Mon importation indique « le fichier n'existe pas » alors que la vidéo est bien là.",
+        "answer": "La vidéo est probablement encore sur iCloud Drive, avec seulement un placeholder sur votre iPhone. Ouvrez-la une fois dans l'app Fichiers pour télécharger la copie complète, puis importez à nouveau. ReelClip a besoin du fichier réel sur l'appareil pour pouvoir le lire."
+      },
+      {
+        "question": "Comment obtenir ReelClip ?",
+        "answer": "ReelClip est disponible sur l'App Store. Recherchez ReelClip ou visitez le lien App Store sur cette page. Nécessite un iPhone sous iOS 26 ou ultérieur."
+      },
+      {
+        "question": "Puis-je obtenir un remboursement de mon abonnement ?",
+        "answer": "Oui. Les remboursements sont gérés par Apple. Rendez-vous sur reportaproblem.apple.com, connectez-vous avec l'Apple ID utilisé pour l'abonnement, et demandez un remboursement pour la charge ReelClip. Nous ne pouvons pas traiter les remboursements directement."
+      },
+      {
+        "question": "Pourquoi le site utilise-t-il reelclips.app ?",
+        "answer": "ReelClip est le nom du produit. Nous conservons le domaine existant reelclips.app pour que les liens et e-mails existants continuent de fonctionner. L'identifiant de bundle iOS et l'extension de projet .reelclip restent également inchangés pour des raisons de compatibilité."
+      }
+    ]
+  },
+  "competitors": {
+    "heroBadge": "Guide pratique du workflow · Vérifié en juillet 2026",
+    "heroHeading": "Comment ReelClip s'intègre",
+    "heroWith": "avec",
+    "heroHeadingAccent": "au reste.",
+    "heroIntro": "ReelClip sert à préparer des extraits plus courts à partir d'un enregistrement plus long, avant de réaliser la publication finale. Les éditeurs et outils d'IA autour de lui couvrent différentes étapes du workflow.",
+    "differenceEyebrow": "Ce qui distingue ReelClip",
+    "differenceHeading": "Préparez d'abord. Créez n'importe où.",
+    "differences": [
+      {
+        "title": "Confidentialité intégrée",
+        "body": "Votre vidéo source est analysée sur votre appareil."
+      },
+      {
+        "title": "Révisez chaque coupe",
+        "body": "Ajustez les extraits avant d'enregistrer quoi que ce soit."
+      },
+      {
+        "title": "Prêt pour votre éditeur",
+        "body": "Exportez des extraits source plus courts vers Photos, puis créez où vous voulez."
+      }
+    ],
+    "toolsEyebrow": "Les outils autour de ReelClip",
+    "toolsHeading": "Des besoins différents, des outils différents.",
+    "toolsIntro": "Ce sont de bons outils. Ils résolvent différentes étapes du workflow de contenu.",
+    "bestFor": "Idéal pour",
+    "strengths": "Ce qu'il fait bien",
+    "tradeoffs": "À garder en tête",
+    "disclaimer": "Les détails et forfaits des produits peuvent changer. Cette page a été vérifiée contre le site officiel ou la fiche App Store de chaque produit en juillet 2026.",
+    "items": [
+      {
+        "oneLiner": "Un éditeur vidéo social complet construit autour de modèles modifiables.",
+        "availability": "Modèles gratuits · outils payants disponibles",
+        "bestFor": "Transformer des extraits en une publication finale basée sur des modèles.",
+        "strengths": [
+          "Grande bibliothèque de modèles modifiables",
+          "Prise en charge des modèles sur mobile et web",
+          "Outils d'édition pour une vidéo sociale complète"
+        ],
+        "tradeoffs": [
+          "Idéal quand vous prévoyez de finaliser dans CapCut",
+          "La disponibilité des modèles peut varier selon la plateforme et la région"
+        ]
+      },
+      {
+        "oneLiner": "Un éditeur mobile pour vidéos, photos et collages.",
+        "availability": "App gratuite · Pro en option",
+        "bestFor": "Montages de finition rapides avec musique, sous-titres et effets.",
+        "strengths": [
+          "Sous-titres automatiques et effets IA",
+          "Images clés, incrustation et édition en couches",
+          "Export jusqu'à 4K/60fps"
+        ],
+        "tradeoffs": [
+          "Un workflow d'édition complet, plutôt que de la préparation d'extraits",
+          "Pro débloque les contenus payants et supprime les publicités et filigranes"
+        ]
+      },
+      {
+        "oneLiner": "Un éditeur mobile multi-piste avec contrôle manuel de la timeline.",
+        "availability": "App gratuite · achats intégrés",
+        "bestFor": "Les créateurs qui veulent façonner un montage complet sur une timeline mobile.",
+        "strengths": [
+          "Timeline multi-piste, images clés et courbes de vitesse",
+          "Modèles, sous-titres et synthèse vocale",
+          "Export 4K/60fps et transfert de projets"
+        ],
+        "tradeoffs": [
+          "Plus d'édition manuelle que de préparation automatique d'extraits",
+          "Sa vaste palette d'outils demande plus de temps d'apprentissage"
+        ]
+      },
+      {
+        "oneLiner": "Une webapp qui transforme les longues vidéos en extraits sociaux avec l'IA.",
+        "availability": "Forfait gratuit · forfaits payants",
+        "bestFor": "Réutiliser des vidéos longues avec découpage IA et sous-titres.",
+        "strengths": [
+          "Découpage IA et score de viralité",
+          "Sous-titres et outils de publication sociale",
+          "Les forfaits payants ajoutent l'édition et les options d'export NLE"
+        ],
+        "tradeoffs": [
+          "Un workflow web plutôt qu'un workflow sur appareil",
+          "Les exports gratuits comportent un filigrane et une limite de temps"
+        ]
+      },
+      {
+        "oneLiner": "L'éditeur GoPro pour les vidéos de moments forts et les séquences d'action.",
+        "availability": "Application gratuite · outils premium",
+        "bestFor": "Séquences GoPro, action et voyage avec des montages rapides de moments forts.",
+        "strengths": [
+          "Vidéos de moments forts automatiques",
+          "Importez depuis une GoPro, un téléphone ou une autre caméra",
+          "Montages synchronisés sur le rythme, thèmes et contrôles manuels"
+        ],
+        "tradeoffs": [
+          "Les fonctionnalités cloud font partie du flux de travail GoPro",
+          "Idéal pour les cas d'usage GoPro et séquences d'action"
+        ]
+      }
+    ],
+    "workflowEyebrow": "Choisissez le flux de travail",
+    "workflowHeading": "Choisissez la tâche, pas le vainqueur.",
+    "workflows": [
+      {
+        "title": "Préparez les clips avant votre montage final",
+        "body": "Commencez par un enregistrement plus long, examinez les coupures, puis enregistrez des clips sources plus courts pour l'éditeur que vous utilisez déjà."
+      },
+      {
+        "title": "Construisez autour d'un modèle tendance",
+        "body": "Choisissez un modèle et créez la publication sociale finie dans le même espace de montage."
+      },
+      {
+        "title": "Faites un montage mobile complet",
+        "body": "Utilisez un éditeur chronologique lorsque vous souhaitez ajouter de la musique, des effets, des sous-titres ou plus de contrôle manuel."
+      },
+      {
+        "title": "Automatisez un flux de travail long format web-first",
+        "body": "Utilisez les outils de découpage IA et sociaux depuis un navigateur lorsque vos séquences sources sont déjà dans un flux de travail web."
+      },
+      {
+        "title": "Transformez les séquences d'action en moments forts",
+        "body": "Utilisez les outils GoPro pour des vidéos rapides de moments forts à partir de séquences d'action, de voyage ou GoPro."
+      }
+    ],
+    "otherEyebrow": "Quand utiliser autre chose",
+    "otherHeading": "ReelClip n'est pas l'outil adapté si…",
+    "alternatives": [
+      {
+        "title": "Vous voulez des modèles tendance en un tap",
+        "body": "Choisissez CapCut lorsque vous souhaitez partir d'un modèle et finir toute la publication là-bas."
+      },
+      {
+        "title": "Vous voulez un éditeur bureau",
+        "body": "Si vous avez besoin de Premiere Pro, Final Cut Pro ou DaVinci Resolve, utilisez ReelClip uniquement pour préparer les clips d'abord."
+      },
+      {
+        "title": "Vous voulez un éditeur chronologique gratuit complet",
+        "body": "VN est plus adapté lorsque vous souhaitez construire tout votre montage directement sur une chronologie mobile."
+      },
+      {
+        "title": "Vos séquences sont déjà courtes",
+        "body": "ReelClip gagne sa place lorsque vous avez un enregistrement plus long à diviser en moments utilisables."
+      }
+    ],
+    "ctaHeading": "Voyez s'il correspond à votre flux de travail.",
+    "ctaBody": "Téléchargez ReelClip et transformez un enregistrement plus long en clips plus courts pour l'éditeur que vous utilisez déjà.",
+    "download": "Télécharger sur l'App Store",
+    "seePricing": "Voir les tarifs"
+  },
+  "about": {
+    "eyebrow": "À propos",
+    "heading": "Conçu pour la vidéo qui ne quitte jamais votre téléphone.",
+    "intro": "ReelClip est une application iOS strictement sur appareil pour découper les longs enregistrements en clips prêts à partager. Chaque plan de coupe, transcription et passage IA s'exécute sur votre iPhone. Rien n'est téléchargé, rien n'est enregistré, rien n'est partagé avec quiconque.",
+    "whyTitle": "Pourquoi nous l'avons créé",
+    "whyParagraphs": [
+      "La plupart des éditeurs vidéo IA téléchargent vos séquences sur un serveur cloud, les font passer par un modèle tiers et renvoient un clip fini. C'est le mauvais choix par défaut. Les longs enregistrements — interviews, podcasts, vlogs, captures d'écran — contiennent souvent du matériel privé, sensible ou inédit. La bonne réponse est de faire le travail sur l'appareil qui a déjà la vidéo.",
+      "Apple Intelligence et le framework Foundation Models ont rendu cela possible sur iPhone en 2025. ReelClip est construit là-dessus."
+    ],
+    "doesTitle": "Ce que ReelClip fait",
+    "doesItems": [
+      "Quatre modes de coupe : Cut (diviser par durée), Transcript (couper les blancs), Slice (moments forts manuels), IA (décrivez ce que vous voulez, laissez Apple Intelligence sur appareil choisir les moments).",
+      "Traduisez les sous-titres dans d'autres langues et doublez l'audio avec une voix synthétisée traduite — tout sur appareil.",
+      "Exportez des sous-titres SRT, VTT et texte brut. Intégrez les sous-titres dans le clip final avec quatre styles de légendes.",
+      "Enregistrez les clips finis directement dans votre bibliothèque Photos."
+    ],
+    "doesNotTitle": "Ce que ReelClip ne fait pas",
+    "doesNotItems": [
+      "Nous ne téléchargeons pas vos vidéos, audios, transcriptions ou packs de fonctionnalités IA sur aucun serveur.",
+      "Nous n'utilisons pas de fournisseurs IA tiers, de LLM cloud ou d'intégrations apportez-votre-propre-clé-API.",
+      "Nous n'intégrons pas d'analyses tierces, de SDK publicitaires ou de traqueurs inter-applications.",
+      "Nous n'appliquons pas de filigrane sur les exports des forfaits payants."
+    ],
+    "whoTitle": "Qui l'a créé",
+    "whoBody": "ReelClip est développé et géré par un développeur iOS indépendant.",
+    "nextTitle": "Que faire ensuite",
+    "nextItems": [
+      "Consultez la Politique de confidentialité pour le flux de données complet.",
+      "Découvrez comment ReelClip se compare à CapCut, InShot, VN, OpusClip et Quik.",
+      "Consultez les forfaits Créateur si vous êtes prêt à exporter.",
+      "Téléchargez l'app sur l'App Store."
+    ]
+  },
+  "brand": {
+    "eyebrow": "Éléments de marque",
+    "heading": "Tout ce dont vous avez besoin pour représenter ReelClip.",
+    "intro": "Logos officiels, icône de l'app et couleurs principales pour la presse, les partenaires et tous ceux qui partagent ReelClip.",
+    "wordmarkAlt": "Logotype ReelClip",
+    "summary": "ReelClip aide les créateurs à transformer un enregistrement plus long en extraits plus courts, prêts pour l'éditeur qu'ils utilisent déjà.",
+    "logosEyebrow": "Logos",
+    "logosHeading": "Utilisez les fichiers originaux.",
+    "logosIntro": "PNGs transparents, prêts pour les arrière-plans sombres, les présentations et les publications sur les réseaux sociaux.",
+    "primaryWordmark": "Logotype principal",
+    "primaryWordmarkDetail": "Idéal pour les sites web, la couverture médiatique et les emplacements au format large.",
+    "primaryWordmarkAlt": "Logotype principal ReelClip",
+    "logoMark": "Symbole",
+    "logoMarkDetail": "À utiliser lorsque le logotype complet serait trop petit.",
+    "logoMarkAlt": "Symbole ReelClip",
+    "appIcon": "Icône de l'app",
+    "appIconDetail": "À utiliser pour les références à l'app, les maquettes d'appareils et les fiches produit.",
+    "appIconAlt": "Icône de l'app ReelClip",
+    "downloadPng": "Télécharger le PNG",
+    "shortDescription": "Description courte",
+    "shortDescriptionHeading": "ReelClip prépare une vidéo longue pour le contenu que vous créez ensuite.",
+    "shortDescriptionBody": "Importez des séquences, découpez-les en extraits plus courts, puis exportez vers Photos et finalisez dans CapCut, YouTube Shorts ou un autre éditeur.",
+    "colourEyebrow": "Couleur",
+    "colourHeading": "Une palette resserrée et à fort contraste.",
+    "colourBody": "Le vert lime dynamise l'action. Les neutres profonds maintiennent les séquences et l'interface au centre de l'attention.",
+    "colours": [
+      "Vert lime ReelClip",
+      "Noir profond",
+      "Blanc doux",
+      "Gris atténué"
+    ],
+    "rulesEyebrow": "Quelques règles",
+    "rulesHeading": "Gardez ReelClip reconnaissable.",
+    "rules": [
+      {
+        "term": "Nom",
+        "description": "Écrivez toujours ReelClip en un seul mot, avec un R et un C majuscules."
+      },
+      {
+        "term": "Espace de dégagement",
+        "description": "Laissez le logo respirer. Maintenez le texte environnant, les bords et les éléments graphiques à au moins une largeur de symbole de distance."
+      },
+      {
+        "term": "Arrière-plan",
+        "description": "Utilisez le logo lime sur fond noir profond ou sur des séquences sombres. Utilisez l'icône de l'app lorsque l'espace est limité."
+      },
+      {
+        "term": "Gardez-le intact",
+        "description": "Ne recolorez, ne détourez, n'étirez, ne recadrez et n'ajoutez pas d'effets aux logos."
+      }
+    ]
   }
 }

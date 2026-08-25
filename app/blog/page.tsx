@@ -2,8 +2,10 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { LocalizedStaticPage } from "@/components/localized-static-page";
 import { BreadcrumbJsonLd } from "@/components/structured-data";
 import { getPostsSorted } from "./posts";
+import { getRequestLocale } from "@/i18n/server";
 
 export const metadata: Metadata = {
   title: "Blog · ReelClip — On-device video editing guides",
@@ -27,7 +29,9 @@ export const metadata: Metadata = {
   },
 };
 
-export default function BlogIndexPage() {
+export default async function BlogIndexPage() {
+  const locale = await getRequestLocale();
+  if (locale !== "en") return <LocalizedStaticPage locale={locale} document="blog" />;
   const posts = getPostsSorted();
   return (
     <>

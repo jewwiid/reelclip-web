@@ -62,6 +62,7 @@ export default async function RootLayout({
   children: React.ReactNode;
 }>) {
   const locale = await getRequestLocale();
+  const dictionary = await getDictionary(locale);
   return (
     <html lang={localeLanguageTag(locale)} className={`${inter.variable} h-full antialiased`}>
       <head>
@@ -75,7 +76,7 @@ export default async function RootLayout({
         <WebSiteJsonLd />
       </head>
       <body className="min-h-full flex flex-col bg-bg text-text">
-        <Providers>{children}</Providers>
+        <Providers dictionary={dictionary} locale={locale}>{children}</Providers>
       </body>
     </html>
   );

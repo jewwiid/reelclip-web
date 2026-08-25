@@ -203,5 +203,336 @@
     "about": "हमारे बारे में",
     "rights": "सर्वाधिकार सुरक्षित।",
     "devicePromise": "iPhone के लिए बनाया गया। आपका फुटेज कभी आपके डिवाइस से बाहर नहीं जाता।"
+  },
+  "pricing": {
+    "eyebrow": "मूल्य निर्धारण",
+    "heading": "अपने क्लिप मुफ्त बनाएं। निर्यात करने के लिए तैयार होने पर ही भुगतान करें।",
+    "intro": "अपना फुटेज आयात करें, ReelClip को सबसे मजबूत क्षण खोजने दें, और हर परिणाम को मुफ्त में देखें। सेव, शेयर या निर्यात करने के लिए तैयार होने पर Creator चुनें।",
+    "tryFree": "ReelClip मुफ्त आजमाएं",
+    "tryFreeDescription": "एक वीडियो आयात करें, क्लिप जनरेट करें, और परिणाम देखें। निर्यात या सेव करने के लिए Creator प्लान की आवश्यकता होती है।",
+    "creatorPlans": "Creator प्लान",
+    "purchaseInApp": "ReelClip के अंदर अपना प्लान चुनें। Apple खरीदारी संभालता है।",
+    "usPrices": "US App Store मूल्य",
+    "monthly": "मासिक",
+    "monthlySuffix": "/ महीना",
+    "monthlyDescription": "कोई लंबी अवधि की प्रतिबद्धता के बिना लचीली पहुंच।",
+    "annual": "वार्षिक",
+    "annualSuffix": "/ वर्ष",
+    "annualDescription": "{price} प्रति महीना, वार्षिक रूप से बिल किया जाता है। मासिक की तुलना में {savings}% बचाएं।",
+    "lifetime": "लाइफटाइम",
+    "lifetimeSuffix": "एक बार",
+    "lifetimeDescription": "लॉन्च मूल्य। एक बार भुगतान करें और बिना नवीनीकरण के Creator रखें।",
+    "recommended": "अनुशंसित",
+    "launchPrice": "लॉन्च मूल्य",
+    "allPlans": "हर प्लान Creator अनलॉक करता है",
+    "perks": [
+      "हर तैयार क्लिप सेव, शेयर और निर्यात करें",
+      "मूल गुणवत्ता वीडियो, 60fps तक",
+      "iPhone पर चलने वाले असीमित AI-सहायित कट",
+      "कैप्शन, वॉइस एन्हांसमेंट और कस्टम कलर लुक्स",
+      "TXT, SRT और VTT ट्रांसक्रिप्ट निर्यात",
+      "मल्टी-सीन प्रोजेक्ट और बैच निर्यात",
+      "45 मिनट तक के सोर्स वीडियो"
+    ],
+    "chooseInApp": "ReelClip के अंदर चुनें",
+    "chooseInAppDescription": "ऐप आपका स्थानीय App Store मूल्य दिखाता है और खरीद से पहले सटीक शुल्क की पुष्टि करता है।",
+    "openAppStore": "App Store में ReelClip खोलें",
+    "priceDisclosure": "दिखाए गए मूल्य US App Store संदर्भ मूल्य हैं। Apple खरीद से पहले आपके देश या क्षेत्र के लिए स्थानीयकृत मूल्य प्रदर्शित करता है। मासिक और वार्षिक स्वचालित रूप से नवीनीकृत होते हैं जब तक रद्द न किया जाए; लाइफटाइम एक बार की खरीद है।"
+  },
+  "account": {
+    "eyebrow": "खाता",
+    "heading": "आपकी सदस्यता",
+    "intro": "अपनी टियर देखें, बिलिंग प्रबंधित करें, या कभी भी रद्द करें।",
+    "checkoutSuccess": "सदस्यता सक्रिय। पुष्टि के लिए नीचे अपना खाता देखें।",
+    "lookupHeading": "अपना खाता देखें",
+    "lookupDescription": "सदस्यता लेते समय उपयोग किया गया वही ईमेल या ऐप खाता टोकन उपयोग करें।",
+    "email": "ईमेल",
+    "token": "iOS ऐप खाता टोकन",
+    "optional": "वैकल्पिक",
+    "lookup": "देखें",
+    "lookingUp": "देख रहे हैं…",
+    "viewPricing": "मूल्य निर्धारण देखें",
+    "missingLookup": "ईमेल या ऐप खाता टोकन दें।",
+    "lookupFailed": "लुकअप विफल (HTTP {status})",
+    "noStripe": "कोई Stripe ग्राहक लिंक नहीं। Stripe के माध्यम से प्रबंधित करने के लिए पहले सदस्यता लें।",
+    "openingStripe": "Stripe खोल रहे हैं…",
+    "manageSubscription": "सदस्यता प्रबंधित करें",
+    "portalFailed": "पोर्टल विफल (HTTP {status})",
+    "creator": "Creator",
+    "free": "मुफ़्त",
+    "currentTier": "वर्तमान प्लान",
+    "activeEntitlements": "सक्रिय सुविधाएँ ({count})",
+    "noEntitlements": "कोई सक्रिय सुविधा नहीं।",
+    "upgradeSuffix": "अपग्रेड करने के लिए",
+    "status": "स्थिति:",
+    "cancelsAtEnd": "अवधि समाप्ति पर रद्द होगा",
+    "renews": "नवीनीकरण",
+    "unknownDate": "—"
+  },
+  "support": {
+    "eyebrow": "सहायता",
+    "heading": "हमें ईमेल करें।",
+    "intro": "ईमेल किसी व्यक्ति तक पहुँचने का सबसे तेज़ तरीका है, और हम एक कार्यदिवस के भीतर जवाब देते हैं। यदि आप किसी बग की रिपोर्ट कर रहे हैं, तो अपना iOS संस्करण और कौन सा iPhone आप उपयोग कर रहे हैं यह शामिल करें।",
+    "email": "ईमेल",
+    "bestFor": "सर्वोत्तम: बग रिपोर्ट, फ़ीचर अनुरोध, खाता / सदस्यता प्रश्न, App Store सबमिशन समस्याओं के लिए।",
+    "commonQuestions": "सामान्य प्रश्न",
+    "feedbackPrefix": "यदि आपको कोई समस्या आती है, या कोई ऐसा फ़ीचर है जिसके लिए आप भुगतान करेंगे, तो हमें बताएँ",
+    "faqs": [
+      {
+        "question": "क्या मेरा वीडियो किसी सर्वर पर अपलोड किया जाता है?",
+        "answer": "नहीं। ReelClip हर विश्लेषण (कट, AI प्लान, ट्रांसक्रिप्ट) पूरी तरह डिवाइस पर ही चलाता है। आपका स्रोत वीडियो ऐप के निजी सैंडबॉक्स में कॉपी किया जाता है, स्थानीय रूप से प्रोसेस किया जाता है, और Photos में मूल फ़ाइल को कभी नहीं छुआ जाता। पूर्ण डेटा फ़्लो के लिए प्राइवेसी पॉलिसी देखें।"
+      },
+      {
+        "question": "मेरे इम्पोर्ट में 'फ़ाइल मौजूद नहीं है' दिखता है भले ही वीडियो वहाँ हो।",
+        "answer": "वीडियो शायद अभी भी iCloud Drive में है, आपके iPhone पर केवल एक प्लेसहोल्डर है। इसे Files ऐप में एक बार खोलें ताकि पूर्ण कॉपी डाउनलोड हो जाए, फिर दोबारा इम्पोर्ट करें। ReelClip को इसे पढ़ने से पहले डिवाइस पर असली फ़ाइल चाहिए।"
+      },
+      {
+        "question": "मुझे ReelClip कैसे मिलेगा?",
+        "answer": "ReelClip App Store पर उपलब्ध है। ReelClip खोजें या इस पेज पर App Store लिंक पर जाएँ। इसके लिए iOS 26 या बाद का संस्करण चलाने वाला iPhone आवश्यक है।"
+      },
+      {
+        "question": "क्या मुझे अपनी सदस्यता का धनवापसी मिल सकती है?",
+        "answer": "हाँ। धनवापसी Apple द्वारा संभाली जाती है। reportaproblem.apple.com पर जाएँ, जिस Apple ID से आपने सदस्यता ली थी उससे साइन इन करें, और ReelClip शुल्क के लिए धनवापसी का अनुरोध करें। हम सीधे धनवापसी प्रोसेस नहीं कर सकते।"
+      },
+      {
+        "question": "वेबसाइट reelclips.app क्यों उपयोग करती है?",
+        "answer": "ReelClip उत्पाद नाम है। हम मौजूदा reelclips.app डोमेन रखते हैं ताकि मौजूदा लिंक और ईमेल काम करते रहें। iOS बंडल आईडी और .reelclip प्रोजेक्ट एक्सटेंशन भी संगतता के लिए अपरिवर्तित रहते हैं।"
+      }
+    ]
+  },
+  "competitors": {
+    "heroBadge": "एक व्यावहारिक वर्कफ़्लो गाइड · जाँची गई जुलाई 2026",
+    "heroHeading": "ReelClip कहाँ फिट होता है",
+    "heroWith": "के साथ",
+    "heroHeadingAccent": "बाकी सब।",
+    "heroIntro": "ReelClip लंबी रिकॉर्डिंग से छोटे क्लिप तैयार करने के लिए है, इससे पहले कि आप अंतिम पोस्ट बनाएँ। इसके आस-पास के एडिटर और AI टूल वर्कफ़्लो के अलग-अलग हिस्सों को पूरा करते हैं।",
+    "differenceEyebrow": "ReelClip को क्या अलग बनाता है",
+    "differenceHeading": "पहले तैयारी। कहीं भी बनाएँ।",
+    "differences": [
+      {
+        "title": "डिज़ाइन से ही निजी",
+        "body": "आपका सोर्स वीडियो आपके डिवाइस पर ही विश्लेषित होता है।"
+      },
+      {
+        "title": "हर कट की समीक्षा करें",
+        "body": "कुछ भी सेव करने से पहले क्लिप एडजस्ट करें।"
+      },
+      {
+        "title": "आपके एडिटर के लिए तैयार",
+        "body": "छोटे सोर्स क्लिप Photos में एक्सपोर्ट करें, फिर जहाँ चाहें बनाएँ।"
+      }
+    ],
+    "toolsEyebrow": "ReelClip के आस-पास के टूल",
+    "toolsHeading": "अलग काम, अलग टूल।",
+    "toolsIntro": "ये अच्छे टूल हैं। ये कंटेंट वर्कफ़्लो के अलग-अलग हिस्सों को हल करते हैं।",
+    "bestFor": "सबसे अच्छा किसके लिए",
+    "strengths": "यह क्या अच्छी तरह करता है",
+    "tradeoffs": "ध्यान रखें",
+    "disclaimer": "प्रोडक्ट विवरण और प्लान बदल सकते हैं। इस पेज की जाँच जुलाई 2026 में हर प्रोडक्ट की वर्तमान आधिकारिक साइट या App Store लिस्टिंग के विरुद्ध की गई।",
+    "items": [
+      {
+        "oneLiner": "एडिटेबल टेम्पलेट्स के इर्द-गिर्द बना एक पूरा सोशल-वीडियो एडिटर।",
+        "availability": "फ्री टेम्पलेट्स · पेड टूल उपलब्ध",
+        "bestFor": "क्लिप को तैयार, टेम्पलेट-आधारित पोस्ट में बदलना।",
+        "strengths": [
+          "एडिटेबल टेम्पलेट्स की बड़ी लाइब्रेरी",
+          "मोबाइल और वेब पर टेम्पलेट सपोर्ट",
+          "पूरे सोशल वीडियो के लिए एडिटिंग टूल"
+        ],
+        "tradeoffs": [
+          "सबसे अच्छा जब आप CapCut के अंदर ही फिनिश करना चाहते हैं",
+          "टेम्पलेट उपलब्धता प्लेटफ़ॉर्म और क्षेत्र के अनुसार बदल सकती है"
+        ]
+      },
+      {
+        "oneLiner": "वीडियो, फोटो और कोलाज के लिए एक मोबाइल एडिटर।",
+        "availability": "फ्री ऐप · वैकल्पिक Pro",
+        "bestFor": "म्यूज़िक, कैप्शन और इफ़ेक्ट्स के साथ तेज़ फिनिशिंग एडिट्स।",
+        "strengths": [
+          "ऑटो कैप्शन और AI इफ़ेक्ट्स",
+          "कीफ्रेम, क्रोमा की और लेयर्ड एडिटिंग",
+          "4K/60fps एक्सपोर्ट तक"
+        ],
+        "tradeoffs": [
+          "एक पूरी एडिटिंग वर्कफ़्लो, न कि क्लिप तैयारी",
+          "Pro पेड मटेरियल अनलॉक करता है और विज्ञापन और वॉटरमार्क हटाता है"
+        ]
+      },
+      {
+        "oneLiner": "हैंड्स-ऑन टाइमलाइन कंट्रोल वाला एक मल्टी-ट्रैक मोबाइल एडिटर।",
+        "availability": "फ्री ऐप · इन-ऐप खरीदारी",
+        "bestFor": "क्रिएटर्स जो मोबाइल टाइमलाइन पर पूरी एडिट शेप करना चाहते हैं।",
+        "strengths": [
+          "मल्टी-ट्रैक टाइमलाइन, कीफ्रेम और स्पीड कर्व्स",
+          "टेम्पलेट्स, कैप्शन और टेक्स्ट-टू-स्पीच",
+          "4K/60fps एक्सपोर्ट और प्रोजेक्ट ट्रांसफ़र"
+        ],
+        "tradeoffs": [
+          "ऑटोमेटेड क्लिप तैयारी से ज़्यादा मैनुअल एडिटिंग",
+          "इसका विस्तृत टूलसेट सीखने में ज़्यादा समय लेता है"
+        ]
+      },
+      {
+        "oneLiner": "लंबे वीडियो को AI से सोशल क्लिप में बदलने वाला एक वेब ऐप।",
+        "availability": "फ्री प्लान · पेड प्लान",
+        "bestFor": "AI क्लिपिंग और कैप्शन के साथ लॉन्ग-फॉर्म वीडियो का पुनर्प्रयोग।",
+        "strengths": [
+          "AI क्लिपिंग और वायरलिटी स्कोरिंग",
+          "कैप्शन और सोशल पब्लिशिंग टूल",
+          "पेड प्लान में एडिटिंग और NLE एक्सपोर्ट ऑप्शन जोड़ते हैं"
+        ],
+        "tradeoffs": [
+          "एक डिवाइस-ऑन वर्कफ़्लो के बजाय एक वेब वर्कफ़्लो",
+          "Free exports में watermark और time limit होता है"
+        ]
+      },
+      {
+        "oneLiner": "GoPro का editor highlight videos और action footage के लिए।",
+        "availability": "Free app · premium tools",
+        "bestFor": "GoPro, action, और travel footage के लिए quick highlight edits।",
+        "strengths": [
+          "Automatic highlight videos",
+          "GoPro, phone, या किसी दूसरे camera से import करें",
+          "Beat-synced edits, themes, और manual controls"
+        ],
+        "tradeoffs": [
+          "Cloud features GoPro workflow का हिस्सा हैं",
+          "GoPro और action-footage use cases के लिए best suited"
+        ]
+      }
+    ],
+    "workflowEyebrow": "Workflow चुनें",
+    "workflowHeading": "Winner नहीं, job चुनें।",
+    "workflows": [
+      {
+        "title": "Final edit से पहले clips तैयार करें",
+        "body": "एक longer recording से शुरू करें, cuts review करें, फिर छोटे source clips save करें जो editor आप पहले से use करते हैं।"
+      },
+      {
+        "title": "Trend template के around build करें",
+        "body": "Template चुनें और finished social post उसी editing workspace में बनाएं।"
+      },
+      {
+        "title": "Full mobile edit बनाएं",
+        "body": "Timeline editor का use करें जब आप music, effects, captions, या ज़्यादा hands-on control add करना चाहें।"
+      },
+      {
+        "title": "Web-first long-form workflow automate करें",
+        "body": "AI clipping और social tools browser से use करें जब आपका source footage पहले से web workflow में हो।"
+      },
+      {
+        "title": "Action footage को highlights में बदलें",
+        "body": "GoPro के tools का use करें action, travel, या GoPro footage से quick highlight videos के लिए।"
+      }
+    ],
+    "otherEyebrow": "कब कुछ और use करें",
+    "otherHeading": "ReelClip सही tool नहीं है अगर…",
+    "alternatives": [
+      {
+        "title": "One-tap trend templates चाहिए",
+        "body": "CapCut चुनें जब आप template से शुरू करना चाहें और पूरी post वहीं finish करना चाहें।"
+      },
+      {
+        "title": "Desktop editor चाहिए",
+        "body": "अगर आपको Premiere Pro, Final Cut Pro, या DaVinci Resolve चाहिए, तो ReelClip सिर्फ clips तैयार करने के लिए use करें।"
+      },
+      {
+        "title": "Free full-timeline editor चाहिए",
+        "body": "VN better fit है जब आप पूरी edit सीधे mobile timeline पर build करना चाहें।"
+      },
+      {
+        "title": "Footage पहले से ही short है",
+        "body": "ReelClip अपनी जगह बनाता है जब आपके पास longer recording हो जिसे usable moments में split करना हो।"
+      }
+    ],
+    "ctaHeading": "देखें कि यह आपके workflow में fit होता है या नहीं।",
+    "ctaBody": "ReelClip download करें और एक longer recording को छोटे clips में बदलें जो editor आप पहले से use करते हैं।",
+    "download": "App Store पर download करें",
+    "seePricing": "Pricing देखें"
+  },
+  "about": {
+    "eyebrow": "About",
+    "heading": "उस video के लिए बना जो phone से कभी बाहर नहीं जाती।",
+    "intro": "ReelClip एक strictly on-device iOS app है जो long recordings को share-ready clips में cut करता है। हर cut plan, transcript, और AI pass आपके iPhone पर run होता है। कुछ भी upload नहीं होता, कुछ भी log नहीं होता, किसी के साथ कुछ भी share नहीं होता।",
+    "whyTitle": "हमने इसे क्यों बनाया",
+    "whyParagraphs": [
+      "ज़्यादातर AI video editors आपके footage को cloud server पर upload करते हैं, third-party model से run करते हैं, और finished clip वापस भेजते हैं। यह गलत default है। Long recordings — interviews, podcasts, vlogs, screen captures — में अक्सर private, sensitive, या unreleased material होता है। सही जवाब यह है कि काम उसी device पर करें जिसके पास video पहले से है।",
+      "Apple Intelligence और Foundation Models framework ने 2025 में iPhone पर यह possible बनाया। ReelClip इसके ऊपर built है।"
+    ],
+    "doesTitle": "ReelClip क्या करता है",
+    "doesItems": [
+      "Four cut modes: Cut (duration से split), Transcript (dead air cut करें), Slice (manual highlights), AI (बताएं क्या चाहिए, on-device Apple Intelligence moments pick करे)।",
+      "Captions को दूसरी languages में translate करें और audio को synthesized translated speech से dub करें — सब on-device।",
+      "SRT, VTT, और plain-text subtitles export करें। Final clip में captions burn करें चार caption styles के साथ।",
+      "Finished clips सीधे अपनी Photos library में save करें।"
+    ],
+    "doesNotTitle": "ReelClip क्या नहीं करता",
+    "doesNotItems": [
+      "हम आपका video, audio, transcripts, या AI feature packs किसी भी server पर upload नहीं करते।",
+      "हम third-party AI providers, cloud LLMs, या bring-your-own-API-key integrations use नहीं करते।",
+      "हम third-party analytics, ad SDKs, या cross-app trackers embed नहीं करते।",
+      "हम पेड प्लान एक्सपोर्ट पर वॉटरमार्क नहीं लगाते।"
+    ],
+    "whoTitle": "इसे किसने बनाया",
+    "whoBody": "ReelClip एक स्वतंत्र iOS डेवलपर द्वारा बनाया और संचालित किया जाता है।",
+    "nextTitle": "आगे क्या",
+    "nextItems": [
+      "पूर्ण डेटा फ्लो के लिए प्राइवेसी पॉलिसी पढ़ें।",
+      "देखें कि ReelClip CapCut, InShot, VN, OpusClip और Quik से कैसे अलग है।",
+      "अगर आप एक्सपोर्ट करने के लिए तैयार हैं तो Creator प्लान देखें।",
+      "ऐप App Store से प्राप्त करें।"
+    ]
+  },
+  "brand": {
+    "eyebrow": "ब्रांड असेट्स",
+    "heading": "ReelClip का प्रतिनिधित्व करने के लिए आपको जो कुछ भी चाहिए।",
+    "intro": "ऑफिशियल लोगो, ऐप आइकन, और प्रेस, पार्टनर्स और ReelClip साझा करने वाले किसी के लिए मुख्य रंग।",
+    "wordmarkAlt": "ReelClip वर्डमार्क",
+    "summary": "ReelClip क्रिएटर्स की मदद करता है कि वे लंबी रिकॉर्डिंग को छोटे क्लिप में बदलें, जो उनके पहले से इस्तेमाल होने वाले एडिटर के लिए तैयार हों।",
+    "logosEyebrow": "लोगो",
+    "logosHeading": "मूल फाइलों का उपयोग करें।",
+    "logosIntro": "पारदर्शी PNG, गहरे बैकग्राउंड, प्रेजेंटेशन और सोशल पोस्ट के लिए तैयार।",
+    "primaryWordmark": "प्राइमरी वर्डमार्क",
+    "primaryWordmarkDetail": "वेबसाइट, प्रेस कवरेज और वाइड-फॉर्मेट प्लेसमेंट के लिए बेस्ट।",
+    "primaryWordmarkAlt": "ReelClip प्राइमरी वर्डमार्क",
+    "logoMark": "लोगो मार्क",
+    "logoMarkDetail": "जहां पूरा वर्डमार्क बहुत छोटा हो जाए वहां उपयोग करें।",
+    "logoMarkAlt": "ReelClip लोगो मार्क",
+    "appIcon": "ऐप आइकन",
+    "appIconDetail": "ऐप रेफरेंस, डिवाइस मॉक-अप और प्रोडक्ट लिस्टिंग के लिए उपयोग करें।",
+    "appIconAlt": "ReelClip ऐप आइकन",
+    "downloadPng": "PNG डाउनलोड करें",
+    "shortDescription": "संक्षिप्त विवरण",
+    "shortDescriptionHeading": "ReelClip लंबे वीडियो को आपके अगले कंटेंट के लिए तैयार करता है।",
+    "shortDescriptionBody": "फुटेज इम्पोर्ट करें, उसे छोटे क्लिप में काटें, फिर Photos में एक्सपोर्ट करें और CapCut, YouTube Shorts या किसी अन्य एडिटर में फिनिश करें।",
+    "colourEyebrow": "रंग",
+    "colourHeading": "एक कसा हुआ, हाई-कंट्रास्ट पैलेट।",
+    "colourBody": "Lime एक्शन को बढ़ाता है। गहरे न्यूट्रल फुटेज और इंटरफेस पर ध्यान बनाए रखते हैं।",
+    "colours": [
+      "ReelClip Lime",
+      "ऑफ-ब्लैक",
+      "सॉफ्ट व्हाइट",
+      "म्यूटेड ग्रे"
+    ],
+    "rulesEyebrow": "कुछ नियम",
+    "rulesHeading": "ReelClip को पहचानने योग्य रखें।",
+    "rules": [
+      {
+        "term": "नाम",
+        "description": "हमेशा ReelClip को एक शब्द में लिखें, बड़े R और C के साथ।"
+      },
+      {
+        "term": "क्लियर स्पेस",
+        "description": "लोगो को सांस लेने की जगह दें। पास की कॉपी, किनारों और ग्राफिक्स को कम से कम एक मार्क-चौड़ाई दूर रखें।"
+      },
+      {
+        "term": "बैकग्राउंड",
+        "description": "ऑफ-ब्लैक या गहरे फुटेज पर लाइम लोगो का उपयोग करें। जब जगह कम हो तो ऐप आइकन का उपयोग करें।"
+      },
+      {
+        "term": "इसे बरकरार रखें",
+        "description": "लोगो को रीकलर, आउटलाइन, स्ट्रेच, क्रॉप या इफेक्ट न जोड़ें।"
+      }
+    ]
   }
 }

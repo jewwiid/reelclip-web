@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { LocalizedStaticPage } from "@/components/localized-static-page";
+import { getRequestLocale } from "@/i18n/server";
 
 export const metadata: Metadata = {
   title: "Terms of Service · ReelClip",
@@ -27,7 +29,9 @@ export const metadata: Metadata = {
 const UPDATED = "August 24, 2026";
 const EFFECTIVE = "July 8, 2026";
 
-export default function TermsPage() {
+export default async function TermsPage() {
+  const locale = await getRequestLocale();
+  if (locale !== "en") return <LocalizedStaticPage locale={locale} document="terms" />;
   return (
     <>
       <Nav />

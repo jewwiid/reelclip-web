@@ -203,5 +203,336 @@
     "about": "Over",
     "rights": "Alle rechten voorbehouden.",
     "devicePromise": "Gemaakt voor iPhone. Je beeldmateriaal verlaat nooit je apparaat."
+  },
+  "pricing": {
+    "eyebrow": "Prijzen",
+    "heading": "Maak je clips gratis. Betaal pas wanneer je klaar bent om te exporteren.",
+    "intro": "Importeer je beeldmateriaal, laat ReelClip de sterkste momenten vinden en bekijk elk resultaat gratis. Kies Creator wanneer je klaar bent om je clips op te slaan, te delen of te exporteren.",
+    "tryFree": "Probeer ReelClip gratis",
+    "tryFreeDescription": "Importeer een video, genereer clips en bekijk de resultaten. Een Creator-abonnement is vereist om te exporteren of op te slaan.",
+    "creatorPlans": "Creator-abonnementen",
+    "purchaseInApp": "Kies je abonnement in ReelClip. Apple verwerkt de aankoop.",
+    "usPrices": "US App Store-prijzen",
+    "monthly": "Maandelijks",
+    "monthlySuffix": "/ maand",
+    "monthlyDescription": "Flexibele toegang zonder langdurige verplichting.",
+    "annual": "Jaarlijks",
+    "annualSuffix": "/ jaar",
+    "annualDescription": "{price} per maand, jaarlijks gefactureerd. Bespaar {savings}% ten opzichte van maandelijks.",
+    "lifetime": "Levenslang",
+    "lifetimeSuffix": "eenmalig",
+    "lifetimeDescription": "Introductieprijs. Betaal één keer en behoud Creator zonder verlenging.",
+    "recommended": "Aanbevolen",
+    "launchPrice": "Introductieprijs",
+    "allPlans": "Elk abonnement ontgrendelt Creator",
+    "perks": [
+      "Sla elke afgeronde clip op, deel of exporteer",
+      "Video van oorspronkelijke kwaliteit, tot 60fps",
+      "Onbeperkte AI-ondersteunde cuts, uitgevoerd op je iPhone",
+      "Ondertiteling, stemverbetering en aangepaste kleurlooks",
+      "TXT-, SRT- en VTT-transcriptexports",
+      "Projecten met meerdere scènes en batch-export",
+      "Bronvideo's tot 45 minuten"
+    ],
+    "chooseInApp": "Kies in ReelClip",
+    "chooseInAppDescription": "De app toont je lokale App Store-prijs en bevestigt het exacte bedrag vóór aankoop.",
+    "openAppStore": "Open ReelClip in de App Store",
+    "priceDisclosure": "Getoonde prijzen zijn US App Store-referentieprijzen. Apple toont de gelokaliseerde prijs voor je land of regio vóór aankoop. Maandelijks en Jaarlijks worden automatisch verlengd tot opzegging; Levenslang is een eenmalige aankoop."
+  },
+  "account": {
+    "eyebrow": "Account",
+    "heading": "Je abonnement",
+    "intro": "Bekijk je niveau, beheer je betalingen of zeg op elk moment op.",
+    "checkoutSuccess": "Abonnement actief. Bekijk je account hieronder om te bevestigen.",
+    "lookupHeading": "Zoek je account op",
+    "lookupDescription": "Gebruik hetzelfde e-mailadres of app-accounttoken dat je bij het abonneren hebt gebruikt.",
+    "email": "E-mail",
+    "token": "iOS-app-accounttoken",
+    "optional": "optioneel",
+    "lookup": "Zoek op",
+    "lookingUp": "Zoeken…",
+    "viewPricing": "Bekijk prijzen",
+    "missingLookup": "Voer een e-mailadres of app-accounttoken in.",
+    "lookupFailed": "Zoeken mislukt (HTTP {status})",
+    "noStripe": "Geen Stripe-klant gekoppeld. Abonneer je eerst om via Stripe te beheren.",
+    "openingStripe": "Stripe openen…",
+    "manageSubscription": "Beheer abonnement",
+    "portalFailed": "Portal mislukt (HTTP {status})",
+    "creator": "Creator",
+    "free": "Gratis",
+    "currentTier": "Huidig abonnement",
+    "activeEntitlements": "Actieve rechten ({count})",
+    "noEntitlements": "Geen actieve rechten.",
+    "upgradeSuffix": "om te upgraden.",
+    "status": "Status:",
+    "cancelsAtEnd": "wordt geannuleerd aan einde periode",
+    "renews": "Wordt verlengd",
+    "unknownDate": "—"
+  },
+  "support": {
+    "eyebrow": "Ondersteuning",
+    "heading": "Mail ons.",
+    "intro": "E-mail is de snelste manier om iemand te bereiken, en we reageren binnen één werkdag. Als je een bug rapporteert, vermeld dan je iOS-versie en welke iPhone je gebruikt.",
+    "email": "E-mail",
+    "bestFor": "Best voor: bugmeldingen, functieverzoeken, account-/abonnementsvragen, App Store-indieningsproblemen.",
+    "commonQuestions": "Veelgestelde vragen",
+    "feedbackPrefix": "Als je tegen een hobbel aanloopt, of een functie hebt waar je voor zou betalen, laat het ons weten via",
+    "faqs": [
+      {
+        "question": "Wordt mijn video naar een server geüpload?",
+        "answer": "Nee. ReelClip voert elke analyse (snijpunten, AI-plannen, transcripties) volledig op het apparaat uit. Je bronvideo wordt gekopieerd naar de privésandbox van de app, lokaal verwerkt, en het originele bestand in Foto's wordt nooit aangeraakt. Zie het Privacybeleid voor het volledige gegevensverloop."
+      },
+      {
+        "question": "Mijn import zegt 'bestand bestaat niet' terwijl de video er wel is.",
+        "answer": "De video zit waarschijnlijk nog in iCloud Drive, met alleen een placeholder op je iPhone. Open het een keer in de Bestanden-app om de volledige kopie binnen te halen, en importeer dan opnieuw. ReelClip heeft het echte bestand op het apparaat nodig voordat het het kan lezen."
+      },
+      {
+        "question": "Hoe krijg ik ReelClip?",
+        "answer": "ReelClip is beschikbaar in de App Store. Zoek naar ReelClip of bezoek de App Store-link op deze pagina. Het vereist een iPhone met iOS 26 of nieuwer."
+      },
+      {
+        "question": "Kan ik een terugbetaling krijgen voor mijn abonnement?",
+        "answer": "Ja. Terugbetalingen worden door Apple afgehandeld. Ga naar reportaproblem.apple.com, log in met de Apple ID waarmee je hebt geabonneerd, en vraag een terugbetaling aan voor de ReelClip-kosten. We kunnen geen terugbetalingen direct verwerken."
+      },
+      {
+        "question": "Waarom gebruikt de website reelclips.app?",
+        "answer": "ReelClip is de productnaam. We houden het bestaande domein reelclips.app zodat bestaande links en e-mails blijven werken. De iOS-bundle-id en de .reelclip projectextensie blijven ook ongewijzigd voor compatibiliteit."
+      }
+    ]
+  },
+  "competitors": {
+    "heroBadge": "Een praktische workflowgids · Gecontroleerd juli 2026",
+    "heroHeading": "Hoe ReelClip past",
+    "heroWith": "met",
+    "heroHeadingAccent": "de rest.",
+    "heroIntro": "ReelClip is voor het voorbereiden van kleinere clips uit een langere opname voordat je de definitieve post maakt. De editors en AI-tools eromheen passen bij verschillende delen van de workflow.",
+    "differenceEyebrow": "Wat ReelClip anders maakt",
+    "differenceHeading": "Eerst voorbereiden. Overal creëren.",
+    "differences": [
+      {
+        "title": "Privé door ontwerp",
+        "body": "Je bronvideo wordt op je apparaat geanalyseerd."
+      },
+      {
+        "title": "Controleer elke cut",
+        "body": "Pas de clips aan voordat je iets opslaat."
+      },
+      {
+        "title": "Klaar voor je editor",
+        "body": "Exporteer kleinere bronclips naar Photos, en creëer daarna waar je wilt."
+      }
+    ],
+    "toolsEyebrow": "De tools rond ReelClip",
+    "toolsHeading": "Verschillende taken, verschillende tools.",
+    "toolsIntro": "Dit zijn goede tools. Ze lossen verschillende delen van de contentworkflow op.",
+    "bestFor": "Best voor",
+    "strengths": "Wat het goed doet",
+    "tradeoffs": "Houd rekening mee",
+    "disclaimer": "Productdetails en plannen kunnen veranderen. Deze pagina is in juli 2026 gecontroleerd tegen de huidige officiële site of App Store-vermelding van elk product.",
+    "items": [
+      {
+        "oneLiner": "Een volledige social-video-editor gebouwd rond bewerkbare templates.",
+        "availability": "Gratis templates · betaalde tools beschikbaar",
+        "bestFor": "Clips omzetten in een afgeronde, template-gestuurde post.",
+        "strengths": [
+          "Grote bibliotheek met bewerkbare templates",
+          "Template-ondersteuning op mobiel en web",
+          "Bewerkingstools voor een complete social video"
+        ],
+        "tradeoffs": [
+          "Best wanneer je van plan bent om binnen CapCut af te ronden",
+          "Template-beschikbaarheid kan verschillen per platform en regio"
+        ]
+      },
+      {
+        "oneLiner": "Een mobiele editor voor video's, foto's en collages.",
+        "availability": "Gratis app · optioneel Pro",
+        "bestFor": "Snelle afwerkbewerkingen met muziek, ondertiteling en effecten.",
+        "strengths": [
+          "Auto-ondertiteling en AI-effecten",
+          "Keyframes, chroma key en gelaagde bewerking",
+          "Export tot 4K/60fps"
+        ],
+        "tradeoffs": [
+          "Een complete bewerkingsworkflow, in plaats van clip-voorbereiding",
+          "Pro ontgrendelt betaalde materialen en verwijdert advertenties en watermerken"
+        ]
+      },
+      {
+        "oneLiner": "Een multi-track mobiele editor met hands-on timeline-controle.",
+        "availability": "Gratis app · in-app aankopen",
+        "bestFor": "Creators die een volledige edit willen vormgeven op een mobiele timeline.",
+        "strengths": [
+          "Multi-track timeline, keyframes en snelheidscurves",
+          "Templates, ondertiteling en text-to-speech",
+          "4K/60fps-export en projectoverdracht"
+        ],
+        "tradeoffs": [
+          "Meer handmatige bewerking dan geautomatiseerde clip-voorbereiding",
+          "De brede toolset duurt langer om te leren"
+        ]
+      },
+      {
+        "oneLiner": "Een webapp die lange video's omzet in social clips met AI.",
+        "availability": "Gratis plan · betaalde plannen",
+        "bestFor": "Herbestemming van long-form video met AI-clipping en ondertiteling.",
+        "strengths": [
+          "AI-clipping en viraliteitsscore",
+          "Ondertiteling en social publishing-tools",
+          "Betaalde plannen voegen bewerking en NLE-exportopties toe"
+        ],
+        "tradeoffs": [
+          "Een webworkflow in plaats van een on-device workflow",
+          "Gratis exports hebben een watermerk en tijdslimiet"
+        ]
+      },
+      {
+        "oneLiner": "GoPro's editor voor highlightvideo's en actiebeelden.",
+        "availability": "Gratis app · premium tools",
+        "bestFor": "GoPro-, actie- en reisbeelden met snelle highlight-edits.",
+        "strengths": [
+          "Automatische highlightvideo's",
+          "Importeer van een GoPro, telefoon of andere camera",
+          "Op de beat gesynchroniseerde edits, thema's en handmatige bediening"
+        ],
+        "tradeoffs": [
+          "Cloudfuncties maken deel uit van de GoPro-workflow",
+          "Het beste geschikt voor GoPro- en actiebeelden"
+        ]
+      }
+    ],
+    "workflowEyebrow": "Kies de workflow",
+    "workflowHeading": "Kies de taak, geen winnaar.",
+    "workflows": [
+      {
+        "title": "Bereid clips voor voor je finale edit",
+        "body": "Begin met één langere opname, bekijk de cuts, en sla kleinere bronclips op voor de editor die je al gebruikt."
+      },
+      {
+        "title": "Bouw rond een trendtemplate",
+        "body": "Kies een template en maak de volledige social post in dezelfde edit-workspace."
+      },
+      {
+        "title": "Maak een volledige mobiele edit",
+        "body": "Gebruik een timeline-editor wanneer je muziek, effecten, captions of meer handmatige controle wilt toevoegen."
+      },
+      {
+        "title": "Automatiseer een web-first long-form workflow",
+        "body": "Gebruik AI-clipping en social tools vanuit een browser wanneer je bronbeelden al in een web-workflow staan."
+      },
+      {
+        "title": "Zet actiebeelden om in highlights",
+        "body": "Gebruik GoPro's tools voor snelle highlightvideo's van actie-, reis- of GoPro-beelden."
+      }
+    ],
+    "otherEyebrow": "Wanneer iets anders gebruiken",
+    "otherHeading": "ReelClip is niet het juiste tool als…",
+    "alternatives": [
+      {
+        "title": "Je één-tap trendtemplates wilt",
+        "body": "Kies CapCut wanneer je vanuit een template wilt beginnen en de hele post daar wilt afronden."
+      },
+      {
+        "title": "Je een desktop-editor wilt",
+        "body": "Als je Premiere Pro, Final Cut Pro of DaVinci Resolve nodig hebt, gebruik ReelClip alleen om de clips eerst voor te bereiden."
+      },
+      {
+        "title": "Je een gratis volledige timeline-editor wilt",
+        "body": "VN is een betere keuze wanneer je je hele edit direct op een mobiele timeline wilt bouwen."
+      },
+      {
+        "title": "Je beelden al kort zijn",
+        "body": "ReelClip verdient zijn plek wanneer je een langere opname hebt die je wilt splitsen in bruikbare momenten."
+      }
+    ],
+    "ctaHeading": "Kijk of het bij je workflow past.",
+    "ctaBody": "Download ReelClip en zet één langere opname om in kleinere clips voor de editor die je al gebruikt.",
+    "download": "Download in de App Store",
+    "seePricing": "Bekijk prijzen"
+  },
+  "about": {
+    "eyebrow": "Over",
+    "heading": "Gemaakt voor video die je telefoon nooit verlaat.",
+    "intro": "ReelClip is een strikt on-device iOS-app voor het knippen van lange opnames in share-klare clips. Elk cutplan, transcript en AI-pass draait op je iPhone. Er wordt niets geüpload, niets gelogd, niets met iemand gedeeld.",
+    "whyTitle": "Waarom we het bouwden",
+    "whyParagraphs": [
+      "De meeste AI-video-editors uploaden je beelden naar een cloudserver, draaien ze door een extern model, en sturen een afgewerkte clip terug. Dat is de verkeerde standaard. Lange opnames — interviews, podcasts, vlogs, schermopnames — bevatten vaak materiaal dat privé, gevoelig of onuitgegeven is. Het juiste antwoord is om het werk te doen op het apparaat dat de video al heeft.",
+      "Apple Intelligence en het Foundation Models-framework maakten dat in 2025 mogelijk op iPhone. ReelClip is daarop gebouwd."
+    ],
+    "doesTitle": "Wat ReelClip doet",
+    "doesItems": [
+      "Vier cutmodi: Cut (splits op duur), Transcript (knip de stiltes), Slice (handmatige highlights), AI (beschrijf wat je wilt, laat on-device Apple Intelligence de momenten kiezen).",
+      "Vertaal captions naar andere talen en dub de audio met gesynthetiseerde vertaalde spraak — allemaal on-device.",
+      "Exporteer SRT, VTT en platte-tekst ondertitels. Brand captions in de uiteindelijke clip met vier caption-stijlen.",
+      "Sla de afgewerkte clips direct op in je Photos-bibliotheek."
+    ],
+    "doesNotTitle": "Wat ReelClip niet doet",
+    "doesNotItems": [
+      "We uploaden je video, audio, transcripts of AI-featurepacks niet naar enige server.",
+      "We gebruiken geen externe AI-providers, cloud-LLM's of bring-your-own-API-key-integraties.",
+      "We embedden geen externe analytics, ad-SDK's of cross-app trackers.",
+      "We plaatsen geen watermerken op exports van betaalde abonnementen."
+    ],
+    "whoTitle": "Wie heeft het gemaakt",
+    "whoBody": "ReelClip is gebouwd en beheerd door een onafhankelijke iOS-ontwikkelaar.",
+    "nextTitle": "Waarheen nu",
+    "nextItems": [
+      "Lees het Privacybeleid voor het volledige dataverloop.",
+      "Zie hoe ReelClip zich verhoudt tot CapCut, InShot, VN, OpusClip en Quik.",
+      "Bekijk de Creator-abonnementen als je klaar bent om te exporteren.",
+      "Download de app in de App Store."
+    ]
+  },
+  "brand": {
+    "eyebrow": "Merkmiddelen",
+    "heading": "Alles wat je nodig hebt om ReelClip te vertegenwoordigen.",
+    "intro": "Officiële logo's, het app-icoon en de kernkleuren voor pers, partners en iedereen die ReelClip deelt.",
+    "wordmarkAlt": "ReelClip woordmerk",
+    "summary": "ReelClip helpt creators een langere opname om te zetten in kleinere clips, klaar voor de editor die ze al gebruiken.",
+    "logosEyebrow": "Logo's",
+    "logosHeading": "Gebruik de originele bestanden.",
+    "logosIntro": "Transparante PNG's, klaar voor donkere achtergronden, presentaties en social posts.",
+    "primaryWordmark": "Primair woordmerk",
+    "primaryWordmarkDetail": "Het beste voor websites, persberichten en breedformaatplaatsingen.",
+    "primaryWordmarkAlt": "ReelClip primair woordmerk",
+    "logoMark": "Logo-merk",
+    "logoMarkDetail": "Gebruik waar het volledige woordmerk te klein zou zijn.",
+    "logoMarkAlt": "ReelClip logo-merk",
+    "appIcon": "App-icoon",
+    "appIconDetail": "Gebruik voor app-verwijzingen, device-mockups en productvermeldingen.",
+    "appIconAlt": "ReelClip app-icoon",
+    "downloadPng": "PNG downloaden",
+    "shortDescription": "Korte beschrijving",
+    "shortDescriptionHeading": "ReelClip bereidt een lange video voor op de content die je daarna maakt.",
+    "shortDescriptionBody": "Importeer beeldmateriaal, knip het in kleinere clips, exporteer naar Foto's en maak het af in CapCut, YouTube Shorts of een andere editor.",
+    "colourEyebrow": "Kleur",
+    "colourHeading": "Een strak, hoogcontrastig palet.",
+    "colourBody": "Lime draagt de actie. Diepe neutrals houden beeldmateriaal en de interface in focus.",
+    "colours": [
+      "ReelClip Lime",
+      "Zwartgrijs",
+      "Zacht wit",
+      "Gedempt grijs"
+    ],
+    "rulesEyebrow": "Een paar regels",
+    "rulesHeading": "Houd ReelClip herkenbaar.",
+    "rules": [
+      {
+        "term": "Naam",
+        "description": "Schrijf ReelClip altijd als één woord, met een hoofdletter R en C."
+      },
+      {
+        "term": "Vrije ruimte",
+        "description": "Geef het logo ruimte om te ademen. Houd nabijgelegen tekst, randen en grafische elementen op minstens één merkbreedte afstand."
+      },
+      {
+        "term": "Achtergrond",
+        "description": "Gebruik het lime logo op zwartgrijs of donker beeldmateriaal. Gebruik het app-icoon als de ruimte beperkt is."
+      },
+      {
+        "term": "Houd het intact",
+        "description": "Kleur de logo's niet opnieuw, omlijn ze niet, rek ze niet uit, knip ze niet bij en voeg geen effecten toe."
+      }
+    ]
   }
 }

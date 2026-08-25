@@ -203,5 +203,336 @@
     "about": "소개",
     "rights": "모든 권리 보유.",
     "devicePromise": "iPhone 전용. 영상은 기기를 벗어나지 않습니다."
+  },
+  "pricing": {
+    "eyebrow": "가격",
+    "heading": "클립은 무료로 제작하세요. 내보낼 때만 결제하세요.",
+    "intro": "영상을 가져오면 ReelClip이 가장 강렬한 순간을 찾아주고, 모든 결과를 무료로 미리보기할 수 있어요. 저장, 공유, 내보내기가 필요할 때 Creator를 선택하세요.",
+    "tryFree": "ReelClip 무료 체험",
+    "tryFreeDescription": "영상을 가져와 클립을 생성하고 결과를 미리보세요. 내보내기나 저장에는 Creator 플랜이 필요합니다.",
+    "creatorPlans": "Creator 플랜",
+    "purchaseInApp": "ReelClip 내에서 플랜을 선택하세요. 결제는 Apple이 처리합니다.",
+    "usPrices": "미국 App Store 기준 가격",
+    "monthly": "월간",
+    "monthlySuffix": "/월",
+    "monthlyDescription": "장기 약정 없이 유연하게 이용하세요.",
+    "annual": "연간",
+    "annualSuffix": "/년",
+    "annualDescription": "월 {price}, 연간 결제. 월간 대비 {savings}% 절약하세요.",
+    "lifetime": "평생",
+    "lifetimeSuffix": "일회성",
+    "lifetimeDescription": "런칭 특가. 한 번 결제로 갱신 없이 Creator를 영구 보유하세요.",
+    "recommended": "추천",
+    "launchPrice": "런칭 특가",
+    "allPlans": "모든 플랜이 Creator를 해금합니다",
+    "perks": [
+      "완성된 모든 클립 저장, 공유, 내보내기",
+      "최대 60fps 원본 화질 영상",
+      "iPhone에서 실행되는 무제한 AI 자동 편집",
+      "자막, 음성 향상, 커스텀 컬러 룩",
+      "TXT, SRT, VTT 대본 내보내기",
+      "다중 씬 프로젝트 및 일괄 내보내기",
+      "최대 45분 소스 영상"
+    ],
+    "chooseInApp": "ReelClip 내에서 선택",
+    "chooseInAppDescription": "앱에서 현지 App Store 가격을 표시하고, 결제 전 정확한 금액을 확인합니다.",
+    "openAppStore": "App Store에서 ReelClip 열기",
+    "priceDisclosure": "표시된 가격은 미국 App Store 기준 참고 가격입니다. Apple은 구매 전 해당 국가 또는 지역의 현지화된 가격을 표시합니다. 월간 및 연간 구독은 해지 시까지 자동 갱신됩니다. 평생 구매는 일회성 결제입니다."
+  },
+  "account": {
+    "eyebrow": "계정",
+    "heading": "내 구독",
+    "intro": "등급 확인, 결제 관리, 언제든 해지가 가능합니다.",
+    "checkoutSuccess": "구독 활성 중. 아래에서 계정을 조회하여 확인하세요.",
+    "lookupHeading": "계정 조회",
+    "lookupDescription": "구독 시 사용한 이메일 또는 앱 계정 토큰을 입력하세요.",
+    "email": "이메일",
+    "token": "iOS 앱 계정 토큰",
+    "optional": "선택사항",
+    "lookup": "조회",
+    "lookingUp": "조회 중…",
+    "viewPricing": "가격 보기",
+    "missingLookup": "이메일 또는 앱 계정 토큰을 입력하세요.",
+    "lookupFailed": "조회 실패 (HTTP {status})",
+    "noStripe": "연결된 Stripe 고객 정보가 없습니다. Stripe로 관리하려면 먼저 구독하세요.",
+    "openingStripe": "Stripe 열기 중…",
+    "manageSubscription": "구독 관리",
+    "portalFailed": "포털 오류 (HTTP {status})",
+    "creator": "Creator",
+    "free": "무료",
+    "currentTier": "현재 요금제",
+    "activeEntitlements": "활성 혜택 ({count})",
+    "noEntitlements": "활성 혜택이 없습니다.",
+    "upgradeSuffix": "업그레이드하려면",
+    "status": "상태:",
+    "cancelsAtEnd": "기간 종료 시 해지",
+    "renews": "갱신",
+    "unknownDate": "—"
+  },
+  "support": {
+    "eyebrow": "지원",
+    "heading": "이메일로 문의하세요.",
+    "intro": "이메일이 가장 빠르게 담당자에게 연결되는 방법이며, 영업일 기준 1일 이내에 답변드립니다. 버그를 신고하실 경우 iOS 버전과 사용 중인 iPhone 기종을 함께 알려주세요.",
+    "email": "이메일",
+    "bestFor": "적합한 문의: 버그 신고, 기능 요청, 계정/구독 문의, App Store 제출 문제.",
+    "commonQuestions": "자주 묻는 질문",
+    "feedbackPrefix": "불편한 점이 있거나 유료로 사용하고 싶은 기능이 있다면 아래로 알려주세요.",
+    "faqs": [
+      {
+        "question": "내 영상이 서버에 업로드되나요?",
+        "answer": "아니요. ReelClip은 모든 분석(컷, AI 플랜, 트랜스크립트)을 기기 내에서 완전히 처리합니다. 소스 영상은 앱의 비공개 샌드박스에 복사된 후 로컬에서 처리되며, Photos의 원본 파일은 절대 건드리지 않습니다. 전체 데이터 흐름은 개인정보 처리방침을 참조하세요."
+      },
+      {
+        "question": "영상이 있는데 '파일이 존재하지 않음'이라고 뜹니다.",
+        "answer": "영상이 아직 iCloud Drive에 있고 iPhone에는 플레이스홀더만 있는 경우입니다. 파일 앱에서 한 번 열어 전체 파일을 다운로드한 후 다시 가져오세요. ReelClip은 기기에 실제 파일이 있어야 읽을 수 있습니다."
+      },
+      {
+        "question": "ReelClip을 어떻게 받을 수 있나요?",
+        "answer": "ReelClip은 App Store에서 다운로드할 수 있습니다. App Store에서 ReelClip을 검색하거나 이 페이지의 App Store 링크를 방문하세요. iOS 26 이상이 설치된 iPhone이 필요합니다."
+      },
+      {
+        "question": "구독 환불이 가능한가요?",
+        "answer": "네. 환불은 Apple에서 처리합니다. reportaproblem.apple.com에 접속하여 구독에 사용한 Apple ID로 로그인한 후 ReelClip 결제에 대한 환불을 요청하세요. 저희가 직접 환불을 처리할 수는 없습니다."
+      },
+      {
+        "question": "웹사이트 주소가 reelclips.app인 이유는 무엇인가요?",
+        "answer": "ReelClip은 제품명입니다. 기존 링크와 이메일이 계속 작동하도록 기존 reelclips.app 도메인을 유지하고 있습니다. iOS 번들 ID와 .reelclip 프로젝트 확장자도 호환성을 위해 변경하지 않았습니다."
+      }
+    ]
+  },
+  "competitors": {
+    "heroBadge": "실용적인 워크플로우 가이드 · 2026년 7월 확인",
+    "heroHeading": "ReelClip의 위치",
+    "heroWith": "함께",
+    "heroHeadingAccent": "나머지 부분.",
+    "heroIntro": "ReelClip은 최종 게시 전 긴 녹화본에서 짧은 클립을 준비하는 데 사용됩니다. 주변의 편집기와 AI 도구는 워크플로우의 다른 부분을 담당합니다.",
+    "differenceEyebrow": "ReelClip의 차별점",
+    "differenceHeading": "먼저 준비하세요. 어디서든 제작하세요.",
+    "differences": [
+      {
+        "title": "설계상 프라이버시",
+        "body": "원본 영상은 기기에서 분석됩니다."
+      },
+      {
+        "title": "모든 컷 검토",
+        "body": "저장 전 클립을 조정하세요."
+      },
+      {
+        "title": "편집기 준비 완료",
+        "body": "작은 원본 클립을 Photos로 내보낸 후 원하는 곳에서 제작하세요."
+      }
+    ],
+    "toolsEyebrow": "ReelClip 주변 도구",
+    "toolsHeading": "다른 작업, 다른 도구.",
+    "toolsIntro": "이들은 좋은 도구입니다. 콘텐츠 워크플로우의 다른 부분을 해결합니다.",
+    "bestFor": "가장 적합한 용도",
+    "strengths": "잘하는 것",
+    "tradeoffs": "참고 사항",
+    "disclaimer": "제품 상세와 요금제는 변경될 수 있습니다. 이 페이지는 2026년 7월 각 제품의 현재 공식 사이트 또는 App Store 정보를 기준으로 확인되었습니다.",
+    "items": [
+      {
+        "oneLiner": "편집 가능한 템플릿 중심의 완전한 소셜 영상 편집기.",
+        "availability": "무료 템플릿 · 유료 도구 이용 가능",
+        "bestFor": "클립을 템플릿 기반 완성 포스트로 만드는 것.",
+        "strengths": [
+          "대규모 편집 가능 템플릿 라이브러리",
+          "모바일 및 웹에서 템플릿 지원",
+          "완전한 소셜 영상을 위한 편집 도구"
+        ],
+        "tradeoffs": [
+          "CapCut 안에서 마무리할 계획일 때 가장 적합",
+          "템플릿 가용성은 플랫폼과 지역에 따라 다를 수 있음"
+        ]
+      },
+      {
+        "oneLiner": "영상, 사진, 콜라주를 위한 모바일 편집기.",
+        "availability": "무료 앱 · 선택적 Pro",
+        "bestFor": "음악, 자막, 효과로 빠르게 마무리하는 편집.",
+        "strengths": [
+          "자동 자막 및 AI 효과",
+          "키프레임, 크로마 키, 레이어 편집",
+          "최대 4K/60fps 내보내기"
+        ],
+        "tradeoffs": [
+          "클립 준비보다 완전한 편집 워크플로우",
+          "Pro는 유료 자료를 해금하고 광고 및 워터마크를 제거"
+        ]
+      },
+      {
+        "oneLiner": "핸즈온 타임라인 제어가 가능한 멀티트랙 모바일 편집기.",
+        "availability": "무료 앱 · 인앱 구매",
+        "bestFor": "모바일 타임라인에서 완전한 편집을 구성하려는 크리에이터용.",
+        "strengths": [
+          "멀티트랙 타임라인, 키프레임, 속도 커브",
+          "템플릿, 자막, 텍스트 투 스피치",
+          "4K/60fps 내보내기 및 프로젝트 전송"
+        ],
+        "tradeoffs": [
+          "자동화된 클립 준비보다 수동 편집 중심",
+          "광범위한 도구 세트로 학습에 시간이 더 소요"
+        ]
+      },
+      {
+        "oneLiner": "AI로 긴 영상을 소셜 클립으로 만드는 웹 앱.",
+        "availability": "무료 요금제 · 유료 요금제",
+        "bestFor": "AI 클리핑과 자막으로 장편 영상을 재활용하는 것.",
+        "strengths": [
+          "AI 클리핑 및 바이럴리티 점수",
+          "자막 및 소셜 게시 도구",
+          "유료 요금제에 편집 및 NLE 내보내기 옵션 추가"
+        ],
+        "tradeoffs": [
+          "기기 내 워크플로우가 아닌 웹 워크플로우",
+          "무료 내보내기에는 워터마크가 있고 시간이 제한됩니다"
+        ]
+      },
+      {
+        "oneLiner": "GoPro 하이라이트 영상과 액션 영상용 편집기입니다.",
+        "availability": "무료 앱 · 프리미엄 도구",
+        "bestFor": "GoPro, 액션, 여행 영상을 빠르게 하이라이트 편집합니다.",
+        "strengths": [
+          "자동 하이라이트 영상",
+          "GoPro, 휴대폰, 또는 다른 카메라에서 가져오기",
+          "비트 싱크 편집, 테마, 수동 컨트롤"
+        ],
+        "tradeoffs": [
+          "클라우드 기능은 GoPro 워크플로의 일부입니다",
+          "GoPro 및 액션 영상 사용 사례에 가장 적합"
+        ]
+      }
+    ],
+    "workflowEyebrow": "워크플로 선택하기",
+    "workflowHeading": "우승자가 아닌 작업을 고르세요.",
+    "workflows": [
+      {
+        "title": "최종 편집 전에 클립 준비하기",
+        "body": "하나의 긴 녹화본으로 시작해서 컷을 검토한 다음, 이미 사용하는 편집기용으로 더 작은 소스 클립을 저장하세요."
+      },
+      {
+        "title": "트렌드 템플릿 중심으로 제작하기",
+        "body": "템플릿을 선택하고 동일한 편집 작업 공간에서 완성된 소셜 포스트를 만드세요."
+      },
+      {
+        "title": "완전한 모바일 편집하기",
+        "body": "음악, 효과, 자막, 또는 더 세밀한 컨트롤을 추가하고 싶을 때 타임라인 편집기를 사용하세요."
+      },
+      {
+        "title": "웹 중심 장편 워크플로 자동화하기",
+        "body": "소스 영상이 이미 웹 워크플로에 있을 때 브라우저에서 AI 클리핑과 소셜 도구를 사용하세요."
+      },
+      {
+        "title": "액션 영상을 하이라이트로 변환하기",
+        "body": "액션, 여행, 또는 GoPro 영상에서 빠른 하이라이트 영상을 위해 GoPro 도구를 사용하세요."
+      }
+    ],
+    "otherEyebrow": "다른 도구를 사용해야 할 때",
+    "otherHeading": "ReelClip이 적합하지 않은 경우…",
+    "alternatives": [
+      {
+        "title": "원터치 트렌드 템플릿을 원할 때",
+        "body": "템플릿으로 시작해서 전체 포스트를 거기서 완성하고 싶을 때 CapCut을 선택하세요."
+      },
+      {
+        "title": "데스크톱 편집기를 원할 때",
+        "body": "Premiere Pro, Final Cut Pro, 또는 DaVinci Resolve가 필요한 경우, ReelClip은 클립 준비용으로만 사용하세요."
+      },
+      {
+        "title": "무료 전체 타임라인 편집기를 원할 때",
+        "body": "모바일 타임라인에서 전체 편집을 직접 구축하고 싶을 때 VN이 더 적합합니다."
+      },
+      {
+        "title": "영상이 이미 짧을 때",
+        "body": "긴 녹화본을 사용 가능한 순간들로 나눌 때 ReelClip이 가치를 발휘합니다."
+      }
+    ],
+    "ctaHeading": "내 워크플로에 맞는지 확인해 보세요.",
+    "ctaBody": "App Store에서 ReelClip을 다운로드하고 하나의 긴 녹화본을 이미 사용하는 편집기용으로 더 작은 클립으로 만들어 보세요.",
+    "download": "App Store에서 다운로드",
+    "seePricing": "가격 보기"
+  },
+  "about": {
+    "eyebrow": "소개",
+    "heading": "휴대폰을 떠나지 않는 영상용으로 제작되었습니다.",
+    "intro": "ReelClip은 긴 녹화본을 공유 준비 완료 클립으로 자르는 엄격한 온디바이스 iOS 앱입니다. 모든 컷 계획, 대본, AI 처리가 iPhone에서 실행됩니다. 업로드되지 않고, 기록되지 않으며, 누구와도 공유되지 않습니다.",
+    "whyTitle": "제작 이유",
+    "whyParagraphs": [
+      "대부분의 AI 영상 편집기는 영상을 클라우드 서버에 업로드하고, 서드파티 모델을 거쳐 실행한 다음 완성된 클립을 다시 보냅니다. 이는 잘못된 기본 설정입니다. 인터뷰, 팟캐스트, 브이로그, 화면 녹화와 같은 긴 녹화본에는 종종 비공개, 민감하거나 미공개인 자료가 포함되어 있습니다. 올바른 해답은 이미 영상을 가진 기기에서 작업을 수행하는 것입니다.",
+      "Apple Intelligence와 Foundation Models 프레임워크가 2025년 iPhone에서 이를 가능하게 했습니다. ReelClip은 이를 기반으로 구축되었습니다."
+    ],
+    "doesTitle": "ReelClip의 기능",
+    "doesItems": [
+      "네 가지 컷 모드: Cut(지속 시간으로 분할), Transcript(무음 구간 제거), Slice(수동 하이라이트), AI(원하는 내용을 설명하면 온디바이스 Apple Intelligence가 순간을 선택합니다).",
+      "자막을 다른 언어로 번역하고 합성 번역 음성으로 오디오를 더빙하세요 — 모두 온디바이스에서.",
+      "SRT, VTT, 일반 텍스트 자막을 내보내세요. 네 가지 자막 스타일로 최종 클립에 자막을 입히세요.",
+      "완성된 클립을 Photos 라이브러리에 바로 저장하세요."
+    ],
+    "doesNotTitle": "ReelClip이 하지 않는 것",
+    "doesNotItems": [
+      "영상, 오디오, 대본, 또는 AI 기능 팩을 어떤 서버에도 업로드하지 않습니다.",
+      "서드파티 AI 제공업체, 클라우드 LLM, 또는 자체 API 키 연동을 사용하지 않습니다.",
+      "서드파티 분석, 광고 SDK, 또는 앱 간 추적기를 포함하지 않습니다.",
+      "유료 플랜으로 내보낸 영상에는 워터마크를 넣지 않습니다."
+    ],
+    "whoTitle": "만든 사람",
+    "whoBody": "ReelClip은 독립 iOS 개발자가 직접 개발하고 운영합니다.",
+    "nextTitle": "다음은 어디로",
+    "nextItems": [
+      "전체 데이터 흐름은 개인정보 처리방침에서 확인하세요.",
+      "ReelClip이 CapCut, InShot, VN, OpusClip, Quik과 어떻게 다른지 비교해 보세요.",
+      "내보내기를 준비하셨다면 Creator 플랜을 확인해 보세요.",
+      "App Store에서 앱을 다운로드하세요."
+    ]
+  },
+  "brand": {
+    "eyebrow": "브랜드 자산",
+    "heading": "ReelClip을 대표하는 데 필요한 모든 것.",
+    "intro": "언론, 파트너, 그리고 ReelClip을 공유하는 모든 분을 위한 공식 로고, 앱 아이콘, 핵심 컬러입니다.",
+    "wordmarkAlt": "ReelClip 워드마크",
+    "summary": "ReelClip은 크리에이터가 긴 녹화 영상을 짧은 클립으로 만들어, 이미 사용 중인 편집기에서 바로 작업할 수 있도록 돕습니다.",
+    "logosEyebrow": "로고",
+    "logosHeading": "원본 파일을 사용하세요.",
+    "logosIntro": "어두운 배경, 프레젠테이션, 소셜 포스트에 적합한 투명 PNG입니다.",
+    "primaryWordmark": "기본 워드마크",
+    "primaryWordmarkDetail": "웹사이트, 언론 보도, 와이드 포맷 배치에 가장 적합합니다.",
+    "primaryWordmarkAlt": "ReelClip 기본 워드마크",
+    "logoMark": "로고 마크",
+    "logoMarkDetail": "전체 워드마크가 너무 작은 공간에 사용하세요.",
+    "logoMarkAlt": "ReelClip 로고 마크",
+    "appIcon": "앱 아이콘",
+    "appIconDetail": "앱 참조, 디바이스 목업, 제품 목록에 사용하세요.",
+    "appIconAlt": "ReelClip 앱 아이콘",
+    "downloadPng": "PNG 다운로드",
+    "shortDescription": "짧은 설명",
+    "shortDescriptionHeading": "ReelClip은 긴 영상을 다음에 만들 콘텐츠에 맞게 준비합니다.",
+    "shortDescriptionBody": "영상을 가져와 짧은 클립으로 자른 후 Photos로 내보내고, CapCut, YouTube Shorts, 또는 다른 편집기에서 마무리하세요.",
+    "colourEyebrow": "컬러",
+    "colourHeading": "간결하고 대비가 강한 팔레트입니다.",
+    "colourBody": "라임이 액션을 담당하고, 깊은 무채색이 영상과 인터페이스에 집중할 수 있게 합니다.",
+    "colours": [
+      "ReelClip 라임",
+      "오프 블랙",
+      "소프트 화이트",
+      "뮤티드 그레이"
+    ],
+    "rulesEyebrow": "몇 가지 규칙",
+    "rulesHeading": "ReelClip을 알아볼 수 있게 유지하세요.",
+    "rules": [
+      {
+        "term": "이름",
+        "description": "ReelClip은 항상 한 단어로, R과 C를 대문자로 작성하세요."
+      },
+      {
+        "term": "여백",
+        "description": "로고에 숨 쉴 공간을 주세요. 주변 텍스트, 가장자리, 그래픽은 로고 너비 이상 떨어뜨리세요."
+      },
+      {
+        "term": "배경",
+        "description": "라임 로고는 오프 블랙이나 어두운 영상 위에 사용하세요. 공간이 좁을 때는 앱 아이콘을 사용하세요."
+      },
+      {
+        "term": "손상 금지",
+        "description": "로고의 색상을 변경하거나, 외곽선을 추가하거나, 늘이거나, 자르거나, 효과를 넣지 마세요."
+      }
+    ]
   }
 }

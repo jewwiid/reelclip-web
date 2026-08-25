@@ -2,11 +2,13 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
+import { LocalizedStaticPage } from "@/components/localized-static-page";
 import {
   BlogPostingJsonLd,
   BreadcrumbJsonLd,
 } from "@/components/structured-data";
 import { BLOG_POSTS, getPostBySlug } from "../posts";
+import { getRequestLocale } from "@/i18n/server";
 
 /**
  * Dynamic route for blog posts. Each post is a standalone React component
@@ -59,6 +61,8 @@ export default async function PostPage({
   const { slug } = await params;
   const post = getPostBySlug(slug);
   if (!post) notFound();
+  const locale = await getRequestLocale();
+  if (locale !== "en") return <LocalizedStaticPage locale={locale} document={`blog/${slug}`} />;
 
   // Lazy-import the matching content component.
   // The blog registry is the source of truth for slugs.

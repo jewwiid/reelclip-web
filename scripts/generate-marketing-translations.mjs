@@ -111,13 +111,28 @@ await mkdir(messagesDirectory, { recursive: true });
 
 for (const [locale, language] of targets) {
   const translated = structuredClone(source);
-  const translatedValues = [];
-  for (const group of chunks(leaves)) {
-    translatedValues.push(...await translate(group.map(({ value }) => value), language));
-    console.log(`[${locale}] ${translatedValues.length}/${leaves.length} strings translated`);
+  let previous = {};
+  try {
+    previous = JSON.parse(await readFile(join(messagesDirectory, `${locale}.json`), "utf8"));
+  } catch {
+    // No prior draft: translate every source string.
+  }
+  const previousValues = new Map(
+    stringLeaves(previous).map(({ path, value }) => [path.join("."), value]),
+  );
+  const missing = leaves.filter(({ path }) => !previousValues.has(path.join(".")));
+  const newValues = [];
+  for (const group of chunks(missing)) {
+    newValues.push(...await translate(group.map(({ value }) => value), language));
+    console.log(`[${locale}] ${newValues.length}/${missing.length} new strings translated`);
   }
 
-  leaves.forEach(({ path }, index) => setAtPath(translated, path, translatedValues[index]));
+  let newValueIndex = 0;
+  leaves.forEach(({ path }) => {
+    const previousValue = previousValues.get(path.join("."));
+    setAtPath(translated, path, previousValue ?? newValues[newValueIndex++]);
+  });
+
   Object.entries(editorialOverrides[locale] ?? {}).forEach(([path, value]) => {
     setAtPath(translated, path.split("."), value);
   });
