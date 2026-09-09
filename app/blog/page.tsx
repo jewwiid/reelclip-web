@@ -70,7 +70,7 @@ export default async function BlogIndexPage() {
             return (
               <li
                 key={post.slug}
-                className="rounded-2xl border border-hairline p-6 sm:p-7 bg-surface transition hover:border-accent/40"
+                className="rounded-2xl border border-hairline p-6 sm:p-7 bg-surface transition-colors hover:border-accent/40"
               >
                 <Link
                   href={`/blog/${post.slug}`}
@@ -85,7 +85,7 @@ export default async function BlogIndexPage() {
                     <span aria-hidden="true">·</span>
                     <span>{post.readMinutes} min read</span>
                   </div>
-                  <h2 className="text-2xl font-black tracking-tight mb-2 group-hover:text-accent transition">
+                  <h2 className="text-2xl font-black tracking-tight mb-2 group-hover:text-accent transition-colors">
                     {post.title}
                   </h2>
                   <p className="text-sm text-text-muted leading-relaxed">

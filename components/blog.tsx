@@ -135,13 +135,13 @@ export function PostCta() {
           href="https://apps.apple.com/app/reelclip/id6787742864"
           target="_blank"
           rel="noreferrer"
-          className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-bg transition hover:bg-accent-deep"
+          className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
         >
           Download on the App Store
         </a>
         <Link
           href="/pricing"
-          className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold text-text transition hover:bg-surface"
+          className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold text-text transition-[background-color,transform] hover:bg-surface active:scale-[0.98] ease-out"
         >
           See Creator pricing
         </Link>

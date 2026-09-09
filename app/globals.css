@@ -14,6 +14,14 @@
   --accent-glow: rgba(196, 239, 51, 0.18);
 }
 
+/* Tailwind's stock easings are too weak to read as deliberate. These must
+   live in a plain @theme block: with `inline` the variable is not emitted,
+   so the ease-out utility would keep resolving Tailwind's own value. */
+@theme {
+  --ease-out: cubic-bezier(0.23, 1, 0.32, 1);
+  --ease-in-out: cubic-bezier(0.77, 0, 0.175, 1);
+}
+
 @theme inline {
   --color-bg: var(--bg);
   --color-surface: var(--surface);
@@ -25,6 +33,7 @@
   --color-accent: var(--accent);
   --color-accent-deep: var(--accent-deep);
   --font-sans: var(--font-inter);
+
 }
 
 html, body {
@@ -38,16 +47,6 @@ html, body {
 ::selection {
   background: var(--accent);
   color: var(--bg);
-}
-
-@keyframes glow-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 var(--accent-glow); }
-  50% { box-shadow: 0 0 0 12px transparent; }
-}
-
-@keyframes float-slow {
-  0%, 100% { transform: translateY(0); }
-  50% { transform: translateY(-8px); }
 }
 
 @keyframes shimmer {
@@ -79,4 +78,13 @@ html, body {
 
 .bg-radial-spotlight {
   background: radial-gradient(ellipse 80% 50% at 50% -10%, var(--accent-glow), transparent);
+}
+
+/* Reduced motion means fewer and gentler animations, not none: colour and
+   opacity still aid comprehension, so only the looping motion goes. */
+@media (prefers-reduced-motion: reduce) {
+  .gradient-text {
+    animation: none;
+    background-position: 0% 50%;
+  }
 }

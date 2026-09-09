@@ -130,7 +130,7 @@ export function AccountClient() {
                 localStorage.setItem("reelclip.email", e.target.value);
               }}
               placeholder="you@example.com"
-              className="w-full px-3.5 py-2.5 rounded-lg bg-bg border border-hairline text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition"
+              className="w-full px-3.5 py-2.5 rounded-lg bg-bg border border-hairline text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition-colors"
             />
           </label>
           <label className="block">
@@ -145,7 +145,7 @@ export function AccountClient() {
                 localStorage.setItem("reelclip.appAccountToken", e.target.value);
               }}
               placeholder="00000000-0000-0000-0000-000000000000"
-              className="w-full px-3.5 py-2.5 rounded-lg bg-bg border border-hairline text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition font-mono text-xs"
+              className="w-full px-3.5 py-2.5 rounded-lg bg-bg border border-hairline text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition-colors font-mono text-xs"
             />
           </label>
         </div>
@@ -154,13 +154,13 @@ export function AccountClient() {
             type="button"
             onClick={lookup}
             disabled={loading}
-            className="px-4 py-2.5 rounded-lg bg-accent text-bg font-bold disabled:opacity-40 hover:bg-accent-deep transition"
+            className="px-4 py-2.5 rounded-lg bg-accent text-bg font-bold disabled:opacity-40 hover:bg-accent-deep transition-[background-color,transform,opacity] active:scale-[0.98] ease-out"
           >
             {loading ? copy.lookingUp : copy.lookup}
           </button>
           <a
             href={localizedPath(locale, "/pricing")}
-            className="px-4 py-2.5 rounded-lg border border-hairline text-text font-semibold hover:border-accent transition"
+            className="px-4 py-2.5 rounded-lg border border-hairline text-text font-semibold hover:border-accent transition-colors"
           >
             {copy.viewPricing}
           </a>
@@ -194,7 +194,7 @@ export function AccountClient() {
                 type="button"
                 onClick={openPortal}
                 disabled={portalBusy}
-                className="px-4 py-2.5 rounded-lg border border-hairline text-text font-semibold hover:border-accent transition disabled:opacity-40"
+                className="px-4 py-2.5 rounded-lg border border-hairline text-text font-semibold hover:border-accent transition-[border-color,opacity] disabled:opacity-40"
               >
                 {portalBusy ? copy.openingStripe : copy.manageSubscription}
               </button>

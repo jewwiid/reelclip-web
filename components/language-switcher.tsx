@@ -30,7 +30,7 @@ export function LanguageSwitcher({
         value={locale}
         disabled={isChanging}
         onChange={(event) => changeLanguage(event.target.value as Locale)}
-        className="h-9 max-w-36 cursor-pointer appearance-none rounded-full border border-hairline bg-surface py-1 pl-3 pr-8 text-xs font-semibold text-text transition hover:border-accent/50 focus:border-accent focus:outline-none disabled:cursor-wait disabled:opacity-70"
+        className="h-9 max-w-36 cursor-pointer appearance-none rounded-full border border-hairline bg-surface py-1 pl-3 pr-8 text-xs font-semibold text-text transition-[border-color,opacity] hover:border-accent/50 focus:border-accent focus:outline-none disabled:cursor-wait disabled:opacity-70"
       >
         {LOCALES.map((option) => (
           <option key={option.code} value={option.code}>

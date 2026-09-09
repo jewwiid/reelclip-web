@@ -47,7 +47,7 @@ export function NavClient({
 
         <div className="hidden items-center gap-4 text-[13px] text-text-muted lg:flex xl:gap-6 xl:text-sm">
           {links.map((link) => (
-            <Link key={link.href} href={link.href} className="whitespace-nowrap transition hover:text-text">
+            <Link key={link.href} href={link.href} className="whitespace-nowrap transition-colors hover:text-text">
               {link.label}
             </Link>
           ))}
@@ -57,7 +57,7 @@ export function NavClient({
             target="_blank"
             rel="noreferrer"
             data-event-name="download_click_nav"
-            className="whitespace-nowrap rounded-full bg-accent px-4 py-2 font-semibold text-bg transition hover:bg-accent-deep"
+            className="whitespace-nowrap rounded-full bg-accent px-4 py-2 font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.download}
           </a>
@@ -70,7 +70,7 @@ export function NavClient({
             target="_blank"
             rel="noreferrer"
             data-event-name="download_click_nav_mobile"
-            className="rounded-full bg-accent px-3.5 py-2 text-sm font-semibold text-bg transition hover:bg-accent-deep"
+            className="rounded-full bg-accent px-3.5 py-2 text-sm font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.getApp}
           </a>
@@ -80,7 +80,7 @@ export function NavClient({
             aria-expanded={isMenuOpen}
             aria-controls="mobile-navigation"
             aria-label={isMenuOpen ? labels.closeMenu : labels.openMenu}
-            className="relative flex h-10 w-10 items-center justify-center rounded-full border border-hairline text-text transition hover:border-accent/50 hover:text-accent"
+            className="relative flex h-10 w-10 items-center justify-center rounded-full border border-hairline text-text transition-colors hover:border-accent/50 hover:text-accent"
           >
             <span className="sr-only">{labels.menu}</span>
             <span aria-hidden="true" className={`absolute h-0.5 w-4 rounded-full bg-current transition-transform ${isMenuOpen ? "rotate-45" : "-translate-y-1.5"}`} />
@@ -98,7 +98,7 @@ export function NavClient({
                 key={link.href}
                 href={link.href}
                 onClick={closeMenu}
-                className="rounded-xl border border-hairline bg-surface px-4 py-3 text-sm font-semibold text-text transition hover:border-accent/50 hover:text-accent"
+                className="rounded-xl border border-hairline bg-surface px-4 py-3 text-sm font-semibold text-text transition-colors hover:border-accent/50 hover:text-accent"
               >
                 {link.label}
               </Link>
@@ -110,7 +110,7 @@ export function NavClient({
             rel="noreferrer"
             onClick={closeMenu}
             data-event-name="download_click_nav_menu"
-            className="mx-auto mt-4 flex max-w-lg items-center justify-center rounded-xl bg-accent px-4 py-3 font-semibold text-bg transition hover:bg-accent-deep"
+            className="mx-auto mt-4 flex max-w-lg items-center justify-center rounded-xl bg-accent px-4 py-3 font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.downloadReelClip}
           </a>
