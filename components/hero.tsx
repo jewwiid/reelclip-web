@@ -25,7 +25,7 @@ export async function Hero() {
         </div>
         <div className="relative mx-auto w-full max-w-[29rem] lg:max-w-none">
           <div className="absolute inset-[12%] rounded-full bg-accent/10 blur-3xl" />
-          <Image src="/mockups/reelclip-editor-angled.png" alt={hero.editorAlt} width={1166} height={1444} preload sizes="(max-width: 1023px) 82vw, 45vw" className="relative h-auto w-full drop-shadow-[0_28px_40px_rgba(0,0,0,0.38)]" />
+          <Image src="/mockups/reelclip-editor-angled.png" alt={hero.editorAlt} width={1166} height={1444} preload sizes="(max-width: 1023px) 82vw, 45vw" className="parallax-slow relative h-auto w-full drop-shadow-[0_28px_40px_rgba(0,0,0,0.38)]" />
         </div>
       </div>
     </section>

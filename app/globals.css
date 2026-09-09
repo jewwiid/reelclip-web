@@ -88,3 +88,55 @@ html, body {
     background-position: 0% 50%;
   }
 }
+
+/* --- Scroll-driven motion (marketing surfaces only) ----------------------
+   CSS scroll-driven animations rather than IntersectionObserver: they run
+   off the main thread, need no JS, and keep these sections server-rendered.
+
+   Everything below is double-gated. @supports because without scroll-driven
+   animation support the initial opacity:0 would never be undone and the page
+   would render blank; prefers-reduced-motion because this is movement, which
+   is exactly what reduced motion asks us to drop. In both cases the elements
+   simply render in their settled state, which is the correct fallback. */
+@keyframes reveal-in {
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes parallax-drift {
+  from { transform: translateY(-14px); }
+  to { transform: translateY(14px); }
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .reveal,
+    .reveal-group > * {
+      opacity: 0;
+      transform: translateY(12px);
+      animation: reveal-in both;
+      animation-timing-function: var(--ease-out, cubic-bezier(0.23, 1, 0.32, 1));
+      animation-timeline: view();
+      animation-range: entry 10% cover 28%;
+    }
+
+    /* Stagger by shifting each child's range further down the scroll rather
+       than by animation-delay, which has no meaning on a scroll timeline. */
+    .reveal-group > *:nth-child(2) { animation-range: entry 14% cover 32%; }
+    .reveal-group > *:nth-child(3) { animation-range: entry 18% cover 36%; }
+    .reveal-group > *:nth-child(4) { animation-range: entry 22% cover 40%; }
+    .reveal-group > *:nth-child(5) { animation-range: entry 26% cover 44%; }
+
+    /* Hero mockup drifts against the scroll. Decorative, and deliberately
+       small: 28px of total travel reads as depth, more reads as a gimmick.
+
+       scroll(root block), not view(): the hero section is overflow-hidden,
+       which makes it a scroll container, and a view() timeline would resolve
+       against that section instead of the page. The section never scrolls, so
+       the timeline froze at a fixed progress and the image never moved. */
+    .parallax-slow {
+      animation: parallax-drift linear both;
+      animation-timeline: scroll(root block);
+      animation-range: 0 100vh;
+    }
+  }
+}

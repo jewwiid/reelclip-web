@@ -6,7 +6,7 @@ export async function AINotes() {
     <section id="ai-notes" className="relative border-t border-hairline px-6 py-20 sm:px-10 sm:py-28">
       <div className="mx-auto max-w-4xl">
         <div className="mb-10 text-center"><div className="mb-3 inline-block text-xs font-bold uppercase tracking-[0.18em] text-accent">{aiNotes.eyebrow}</div><h2 className="mb-4 text-3xl font-black tracking-tight sm:text-4xl">{aiNotes.heading}</h2><p className="mx-auto max-w-2xl text-lg leading-relaxed text-text-muted">{aiNotes.body}</p></div>
-        <div className="mb-8 grid gap-4 sm:grid-cols-2 sm:gap-6">
+        <div className="reveal-group mb-8 grid gap-4 sm:grid-cols-2 sm:gap-6">
           <FeatureCard title={aiNotes.canDo} tone="positive" items={aiNotes.canDoItems} />
           <FeatureCard title={aiNotes.cantDo} tone="neutral" items={aiNotes.cantDoItems} />
         </div>
