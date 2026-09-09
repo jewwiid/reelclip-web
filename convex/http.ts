@@ -1,8 +1,8 @@
-// HTTP routes for the v0 web-payments + iOS-verification flow.
+// HTTP routes for iOS verification and legacy web-payment support.
 //
 // Routes registered:
 //   POST /iap/verify          iOS app posts signed transaction JWS
-//   POST /stripe/checkout     web frontend requests a Checkout session URL
+//   POST /stripe/checkout     retired endpoint; directs callers to the iOS app
 //   POST /stripe/webhook      Stripe → Convex entitlement updates
 //   GET  /get-entitlements    resolve current tier for an iOS appAccountToken
 //                             or a web email
@@ -10,8 +10,8 @@
 //   POST /feedback/submit     iOS Settings → in-app feedback (anonymous)
 //
 // Pure-Convex HTTP routes delegate to internal actions (iapActions /
-// stripeActions) for the Node-runtime heavy lifting (JWT signing, Stripe
-// SDK, webhook signature verification).
+// stripeActions) for the Node-runtime heavy lifting (JWT signing and legacy
+// Stripe webhook/portal support).
 
 import { httpRouter } from "convex/server";
 import { httpAction } from "./_generated/server";
@@ -71,38 +71,14 @@ http.route({ path: "/iap/verify", method: "POST", handler: iapVerify });
 
 const stripeCheckout = httpAction(async (ctx, request) => {
   if (request.method !== "POST") return methodNotAllowed();
-  let body: any;
-  try {
-    body = await request.json();
-  } catch {
-    return badRequest("Body must be JSON");
-  }
-  const tier = body.tier;
-  const interval = body.interval;
-  if (tier !== "creator" && tier !== "studio") return badRequest("tier must be creator");
-  // "studio" is still accepted (and coerced to "creator") for back-compat
-  // with any pre-v2.0 cached callers; the new tier model is Creator-only.
-  const normalizedTier = tier === "studio" ? "creator" : "creator";
-  if (interval !== "week" && interval !== "month" && interval !== "year" && interval !== "lifetime") return badRequest("interval must be week|month|year|lifetime");
-
-  const baseUrl = process.env.PUBLIC_BASE_URL ?? new URL(request.url).origin;
-
-  try {
-    const result = await ctx.runAction(internal.stripeActions.createStripeCheckout, {
-      tier: normalizedTier,
-      interval,
-      customerEmail: typeof body.customerEmail === "string" ? body.customerEmail : undefined,
-      appAccountToken: typeof body.appAccountToken === "string" ? body.appAccountToken : undefined,
-      successUrl: `${baseUrl}/account?checkout=success`,
-      cancelUrl: `${baseUrl}/pricing?checkout=cancelled`,
-    });
-    return jsonResponse({ ok: true, url: result.url, sessionId: result.sessionId }, 200);
-  } catch (err: any) {
-    return jsonResponse(
-      { ok: false, error: `Stripe Checkout failed: ${err.message ?? err}` },
-      502,
-    );
-  }
+  void ctx;
+  return jsonResponse(
+    {
+      ok: false,
+      error: "Web checkout is no longer available. Purchase Creator inside the ReelClip iOS app.",
+    },
+    410,
+  );
 });
 http.route({ path: "/stripe/checkout", method: "POST", handler: stripeCheckout });
 

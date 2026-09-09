@@ -1,239 +1,55 @@
 "use client";
 
-import { useState } from "react";
+import { useI18n } from "@/i18n/client";
 
-const SITE_URL =
-  typeof window !== "undefined" ? window.location.origin : "";
+const APP_STORE_URL = "https://apps.apple.com/app/reelclip/id6787742864";
+const MONTHLY_PRICE = 9.99;
+const ANNUAL_PRICE = 39.99;
+const LIFETIME_PRICE = 79.99;
+const ANNUAL_MONTHLY_EQUIVALENT = ANNUAL_PRICE / 12;
+const ANNUAL_SAVINGS_PERCENT = Math.round(
+  (1 - ANNUAL_PRICE / (MONTHLY_PRICE * 12)) * 100,
+);
 
-const tiers = [
-  {
-    id: "creator-weekly" as const,
-    name: "Creator · Weekly",
-    tier: "creator" as const,
-    interval: "week" as const,
-    price: "$2.99 / wk",
-    blurb: "Try Creator without committing to a month.",
-    perks: [
-      "Unlimited AI cuts, run on your iPhone",
-      "Exports without the ReelClip end card",
-      "Original quality, up to 60fps",
-      "Voice enhancement to reduce noise and boost speech",
-      "30-minute source videos",
-      "SRT/VTT subtitle export",
-      "Multi-scene projects: add scenes, switch between them, batch-export",
-    ],
-  },
-  {
-    id: "creator-monthly" as const,
-    name: "Creator · Monthly",
-    tier: "creator" as const,
-    interval: "month" as const,
-    price: "$9.99 / mo",
-    blurb: "For solo creators posting a few cuts a week.",
-    perks: [
-      "Unlimited AI cuts, run on your iPhone",
-      "Exports without the ReelClip end card",
-      "Original quality, up to 60fps",
-      "Voice enhancement to reduce noise and boost speech",
-      "30-minute source videos",
-      "SRT/VTT subtitle export",
-      "Multi-scene projects: add scenes, switch between them, batch-export",
-    ],
-  },
-  {
-    id: "creator-yearly" as const,
-    name: "Creator · Annual",
-    tier: "creator" as const,
-    interval: "year" as const,
-    price: "$59.99 / yr",
-    blurb: "The cheapest way to stay on Creator.",
-    perks: [
-      "Everything in Creator monthly",
-      "Save 50% vs paying monthly",
-    ],
-  },
-  {
-    id: "creator-lifetime" as const,
-    name: "Creator · Lifetime",
-    tier: "creator" as const,
-    interval: "lifetime" as const,
-    price: "$149.99 one-time",
-    blurb: "Pay once. Own Creator forever.",
-    perks: [
-      "Everything in Creator, no renewals",
-      "One-time payment, lifetime access",
-    ],
-  },
-];
+function interpolate(template: string, values: Record<string, string | number>) {
+  return template.replace(/\{(\w+)\}/g, (_, key: string) => String(values[key] ?? `{${key}}`));
+}
 
-const cadenceLabel: Record<(typeof tiers)[number]["interval"], string> = {
-  week: "Weekly",
-  month: "Monthly",
-  year: "Annual",
-  lifetime: "Lifetime",
-};
-
-export function PricingClient() {
-  const [email, setEmail] = useState("");
-  const [appAccountToken, setAppAccountToken] = useState("");
-  const [busyId, setBusyId] = useState<string | null>(null);
-  const [error, setError] = useState<string | null>(null);
-
-  async function startCheckout(tier: (typeof tiers)[number]) {
-    setBusyId(tier.id);
-    setError(null);
-    try {
-      // Persist email in localStorage so /account can read it after the
-      // Stripe redirect lands.
-      if (email) localStorage.setItem("reelclip.email", email);
-      if (appAccountToken) localStorage.setItem("reelclip.appAccountToken", appAccountToken);
-
-      const res = await fetch(`${process.env.NEXT_PUBLIC_CONVEX_SITE_URL}/stripe/checkout`, {
-        method: "POST",
-        headers: { "Content-Type": "application/json" },
-        body: JSON.stringify({
-          tier: tier.tier,
-          interval: tier.interval,
-          customerEmail: email || undefined,
-          appAccountToken: appAccountToken || undefined,
-        }),
-      });
-      const data = await res.json();
-      if (!res.ok || !data.ok) {
-        throw new Error(data.error ?? `Checkout failed (HTTP ${res.status})`);
-      }
-      window.location.href = data.url;
-    } catch (err: any) {
-      setError(err.message ?? String(err));
-      setBusyId(null);
-    }
-  }
-
-  // Single tier now — Studio was merged into Creator in v2.0.
-  // All paid features (30-min sources, SRT/VTT, multi-scene, custom
-  // export quality) live on Creator.
-  const creatorTiers = tiers;
+export function PricingPlans() {
+  const { dictionary } = useI18n();
+  const copy = dictionary.pricing;
+  const tiers = [
+    { name: copy.monthly, price: `$${MONTHLY_PRICE.toFixed(2)}`, priceSuffix: copy.monthlySuffix, blurb: copy.monthlyDescription, badge: null, recommended: false },
+    { name: copy.annual, price: `$${ANNUAL_PRICE.toFixed(2)}`, priceSuffix: copy.annualSuffix, blurb: interpolate(copy.annualDescription, { price: `$${ANNUAL_MONTHLY_EQUIVALENT.toFixed(2)}`, savings: ANNUAL_SAVINGS_PERCENT }), badge: copy.recommended, recommended: true },
+    { name: copy.lifetime, price: `$${LIFETIME_PRICE.toFixed(2)}`, priceSuffix: copy.lifetimeSuffix, blurb: copy.lifetimeDescription, badge: copy.launchPrice, recommended: false },
+  ];
 
   return (
-    <div className="space-y-12">
-      <div className="rounded-2xl border border-hairline bg-control-surface p-6 sm:p-8">
-        <h2 className="text-lg font-bold tracking-tight">Your details</h2>
-        <p className="text-sm text-text-muted mt-1">
-          We send your receipt here, and use this email to find your account when you buy on the
-          web. If you already subscribed inside the iPhone app, paste your app account token so
-          both subscriptions land on one account.
-        </p>
-        <div className="mt-5 grid sm:grid-cols-2 gap-4">
-          <label className="block">
-            <span className="block text-xs uppercase tracking-wide text-text-muted mb-1.5">
-              Email
-            </span>
-            <input
-              type="email"
-              autoComplete="email"
-              value={email}
-              onChange={(e) => setEmail(e.target.value)}
-              placeholder="you@example.com"
-              className="w-full px-3.5 py-2.5 rounded-lg bg-bg border border-hairline text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition"
-            />
-          </label>
-          <label className="block">
-            <span className="block text-xs uppercase tracking-wide text-text-muted mb-1.5">
-              iOS app account token <span className="text-text-muted/60">(optional)</span>
-            </span>
-            <input
-              type="text"
-              value={appAccountToken}
-              onChange={(e) => setAppAccountToken(e.target.value)}
-              placeholder="00000000-0000-0000-0000-000000000000"
-              className="w-full px-3.5 py-2.5 rounded-lg bg-bg border border-hairline text-text placeholder:text-text-muted focus:outline-none focus:border-accent transition font-mono text-xs"
-            />
-          </label>
+    <div className="space-y-6">
+      <section aria-labelledby="creator-plans" className="space-y-4">
+        <div className="flex flex-col gap-2 sm:flex-row sm:items-end sm:justify-between">
+          <div>
+            <h2 id="creator-plans" className="text-2xl font-black tracking-tight">{copy.creatorPlans}</h2>
+            <p className="mt-1 text-sm text-text-muted">{copy.purchaseInApp}</p>
+          </div>
+          <span className="w-fit rounded-md bg-accent px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-bg">{copy.usPrices}</span>
         </div>
-      </div>
-
-      <section className="space-y-4">
-        <div className="flex items-baseline justify-between">
-          <h2 className="text-2xl font-black tracking-tight">
-            Creator plans
-          </h2>
-          <span className="text-[10px] uppercase tracking-wider font-bold bg-accent text-bg px-2 py-0.5 rounded-full">
-            Same features on every plan
-          </span>
-        </div>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-          {creatorTiers.map((t) => {
-            const isBestValue =
-              t.interval === "year" || t.interval === "lifetime";
-            return (
-              <div
-                key={t.id}
-                className={
-                  "rounded-2xl border bg-control-surface p-5 sm:p-6 flex flex-col " +
-                  (isBestValue
-                    ? "border-accent/40 shadow-[0_0_0_1px_rgba(196,255,53,0.15)]"
-                    : "border-hairline")
-                }
-              >
-                <div className="flex items-center justify-between mb-2">
-                  <span className="text-[10px] uppercase tracking-wider font-bold text-text-muted">
-                    {cadenceLabel[t.interval]}
-                  </span>
-                  {t.interval === "year" ? (
-                    <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
-                      Save 50%
-                    </span>
-                  ) : t.interval === "lifetime" ? (
-                    <span className="text-[10px] uppercase tracking-wider font-bold bg-accent/20 text-accent px-1.5 py-0.5 rounded-full">
-                      Pay once
-                    </span>
-                  ) : null}
-                </div>
-                <p className="text-sm text-text-muted leading-snug min-h-[2.5em]">
-                  {t.blurb}
-                </p>
-                <div className="mt-4 flex items-baseline gap-1.5">
-                  <span className="text-2xl sm:text-3xl font-extrabold tracking-tight">
-                    {t.price}
-                  </span>
-                </div>
-                <ul className="mt-4 space-y-1.5 text-xs text-text-muted flex-1">
-                  {t.perks.map((p) => (
-                    <li key={p} className="flex gap-1.5">
-                      <span className="text-accent mt-0.5">•</span>
-                      <span>{p}</span>
-                    </li>
-                  ))}
-                </ul>
-                <button
-                  type="button"
-                  onClick={() => startCheckout(t)}
-                  disabled={!email || busyId !== null}
-                  className="mt-5 w-full px-3 py-2.5 rounded-xl bg-accent text-bg text-sm font-bold disabled:opacity-40 disabled:cursor-not-allowed hover:bg-accent-deep transition"
-                >
-                  {busyId === t.id
-                    ? "Opening Stripe…"
-                    : t.interval === "lifetime"
-                      ? `Buy Creator lifetime`
-                      : `Subscribe`}
-                </button>
-              </div>
-            );
-          })}
+        <div className="grid items-stretch gap-4 md:grid-cols-3">
+          {tiers.map((tier) => (
+            <article key={tier.name} className={`relative flex flex-col rounded-2xl border bg-control-surface p-5 sm:p-6 ${tier.recommended ? "border-accent shadow-[0_0_0_1px_rgba(196,239,51,0.2),0_18px_50px_rgba(0,0,0,0.24)]" : "border-hairline"}`}>
+              <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-wider text-text-muted">{tier.name}</span>{tier.badge ? <span className="rounded-md bg-accent/20 px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-accent">{tier.badge}</span> : null}</div>
+              <p className="min-h-[3.5em] text-pretty text-sm leading-snug text-text-muted">{tier.blurb}</p>
+              <div className="mt-6 flex items-baseline gap-1.5 [font-variant-numeric:tabular-nums]"><span className="text-3xl font-extrabold tracking-tight">{tier.price}</span><span className="text-xs font-semibold text-text-muted">{tier.priceSuffix}</span></div>
+            </article>
+          ))}
         </div>
       </section>
 
-      {error ? (
-        <div className="rounded-xl border border-danger/40 bg-danger/10 p-4 text-sm text-danger">
-          {error}
-        </div>
-      ) : null}
-
-      <p className="text-xs text-text-muted text-center max-w-md mx-auto">
-        Payments are processed by Stripe. You can cancel or change plans anytime from your{" "}
-        <a href="/account" className="underline hover:text-text">account page</a>. Recurring
-        subscriptions renew automatically until cancelled; lifetime plans are a one-time charge.
-      </p>
+      <section className="grid gap-6 rounded-2xl bg-control-surface p-6 sm:p-8 lg:grid-cols-[1.35fr_0.65fr] lg:items-center">
+        <div><h3 className="text-lg font-black tracking-tight">{copy.allPlans}</h3><ul className="mt-4 grid gap-x-6 gap-y-2 text-sm text-text-muted sm:grid-cols-2">{copy.perks.map((perk) => <li key={perk} className="flex gap-2"><span aria-hidden="true" className="text-accent">✓</span><span>{perk}</span></li>)}</ul></div>
+        <div className="rounded-xl bg-bg p-5 ring-1 ring-hairline"><p className="text-sm font-bold">{copy.chooseInApp}</p><p className="mt-1 text-xs leading-relaxed text-text-muted">{copy.chooseInAppDescription}</p><a href={APP_STORE_URL} target="_blank" rel="noreferrer" className="mt-4 flex min-h-11 items-center justify-center rounded-xl bg-accent px-4 py-2.5 text-sm font-black text-bg transition-[background-color,transform] duration-200 hover:bg-accent-deep active:scale-[0.98] focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent ease-out">{copy.openAppStore} <span aria-hidden="true" className="ml-1">↗</span></a></div>
+      </section>
+      <p className="mx-auto max-w-md text-center text-xs text-text-muted">{copy.priceDisclosure}</p>
     </div>
   );
 }
