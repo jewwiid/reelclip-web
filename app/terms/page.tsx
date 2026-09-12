@@ -45,7 +45,7 @@ export default async function TermsPage() {
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed">
             These terms govern your use of ReelClip (the &quot;Service&quot;). By installing
-            the app, joining the waitlist, or purchasing a subscription, you agree
+            the app or purchasing a subscription, you agree
             to them. Effective {EFFECTIVE}. Last updated {UPDATED}.
           </p>
         </header>
@@ -208,7 +208,7 @@ export default async function TermsPage() {
               <li>Apple iCloud (for project backup): governed by the iCloud Terms and Conditions.</li>
               <li>Apple Intelligence / Foundation Models (on-device AI runtime): governed by the Apple Privacy Policy and the iOS end-user licence.</li>
               <li>Stripe (for legacy web subscriptions): governed by the Stripe Services Agreement.</li>
-              <li>Convex (for the waitlist backend): governed by the Convex terms of service.</li>
+              <li>Convex (for account and entitlement data): governed by the Convex terms of service.</li>
             </ul>
             <p className="text-text-muted mt-3 text-sm">
               ReelClip does not integrate with any third-party AI provider,

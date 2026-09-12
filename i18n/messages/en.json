@@ -208,7 +208,7 @@
   "account": {
     "eyebrow": "Account",
     "heading": "Your subscription",
-    "intro": "Look up your tier, manage billing, or cancel anytime.",
+    "intro": "Check your subscription status, look up your tier, manage billing, or cancel anytime.",
     "checkoutSuccess": "Subscription active. Look up your account below to confirm.",
     "lookupHeading": "Look up your account",
     "lookupDescription": "Use the same email or app account token you used when subscribing.",

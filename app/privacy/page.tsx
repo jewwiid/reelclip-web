@@ -26,7 +26,7 @@ export const metadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-const UPDATED = "July 8, 2026";
+const UPDATED = "September 9, 2026";
 
 export default async function PrivacyPage() {
   const locale = await getRequestLocale();
@@ -55,19 +55,19 @@ export default async function PrivacyPage() {
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
               <li>Your source video is analyzed on your device. It is not uploaded to ReelClip servers.</li>
               <li>AI runs entirely on-device via Apple Intelligence. No API keys, no cloud round-trips, no third-party AI providers.</li>
-              <li>The only personal data ReelClip stores is your email address (for the waitlist) and your subscription receipt (for billing).</li>
-              <li>We do not use third-party analytics, advertising SDKs, or cross-app tracking.</li>
+              <li>The personal data ReelClip stores directly relates to account and subscription status, such as an email address or app account token used to look up your tier and subscription entitlement records.</li>
+              <li>We use TelemetryDeck for privacy-focused product analytics. It receives an anonymized per-installation identifier, aggregate product actions, timestamps rounded to the nearest hour, and app/device metadata. We do not use advertising SDKs or cross-app tracking.</li>
             </ul>
           </Section>
 
           <Section title="2. Data we collect">
             <h3 className="text-base font-bold text-text mb-2">2.1 Account and subscription data</h3>
             <p className="text-text-muted">
-              If you joined our early access list, we collected your email address and an
-              optional role label (e.g. "podcaster"). If you purchase a subscription, Apple
-              and / or Stripe send us a subscription receipt that confirms your tier. We
-              do not see or store your credit card number, billing address, or Apple ID
-              password.
+              If you use the account page to check your subscription status, we process the
+              email address or app account token you provide to find your tier and active
+              entitlements. If you purchase a subscription, Apple and / or Stripe send us
+              entitlement information that confirms your tier. We do not see or store your
+              credit card number, billing address, or Apple ID password.
             </p>
 
             <h3 className="text-base font-bold text-text mb-2 mt-6">2.2 iOS permissions</h3>
@@ -106,12 +106,51 @@ export default async function PrivacyPage() {
               </li>
             </ul>
 
-            <h3 className="text-base font-bold text-text mb-2 mt-6">2.3 What we never collect</h3>
+            <h3 className="text-base font-bold text-text mb-2 mt-6">2.3 Product analytics (TelemetryDeck)</h3>
+            <p className="text-text-muted">
+              We use TelemetryDeck GmbH&apos;s privacy-focused analytics service to understand
+              how people use ReelClip, where they stop in product flows, and which features
+              help users reach export and subscription outcomes. TelemetryDeck receives only
+              the following analytics data:
+            </p>
+            <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
+              <li>An anonymized, non-reversible identifier for the app installation. The iOS device identifier used for this purpose is hashed before transmission.</li>
+              <li>Event names for app launches and aggregate product actions such as onboarding steps, media processing outcomes, paywall actions, and export outcomes.</li>
+              <li>Timestamps rounded to the nearest hour, plus app and device metadata such as app version, build, operating system, device model, and platform.</li>
+              <li>Limited non-content parameters such as plan or mode categories, clip counts, entitlement state, and success or failure outcomes.</li>
+            </ul>
+            <p className="text-text-muted mt-3">
+              We do not send source video, audio, transcripts, prompts, filenames, rendered
+              clips, email addresses, or subscription receipts to TelemetryDeck. TelemetryDeck
+              states that it does not store IP addresses and does not use analytics data for
+              advertising or cross-app tracking. See its
+              {" "}
+              <a
+                href="https://telemetrydeck.com/docs/guides/privacy-faq/"
+                target="_blank"
+                rel="noreferrer"
+                className="text-accent hover:underline"
+              >
+                Privacy FAQ
+              </a>
+              {" "}and{ " "}
+              <a
+                href="https://telemetrydeck.com/privacy"
+                target="_blank"
+                rel="noreferrer"
+                className="text-accent hover:underline"
+              >
+                Privacy Policy
+              </a>
+              .
+            </p>
+
+            <h3 className="text-base font-bold text-text mb-2 mt-6">2.4 What we never collect</h3>
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
               <li>Your source video or any rendered clip.</li>
               <li>Your audio, transcript, or any AI feature pack sent to the on-device model.</li>
-              <li>Your contact list, photo library contents, location, or device identifiers.</li>
-              <li>Crash reports, analytics, or behavioural telemetry.</li>
+              <li>Your contact list, photo library contents, location, or un-anonymized personal identifiers.</li>
+              <li>Crash reports or diagnostic data unrelated to the aggregate product analytics described above.</li>
             </ul>
           </Section>
 
@@ -120,9 +159,10 @@ export default async function PrivacyPage() {
               We use the data we collect only to:
             </p>
             <ul className="list-disc pl-6 space-y-2 text-text-muted mt-3">
-              <li>Send you any product updates you signed up for.</li>
+              <li>Show your current tier and subscription status when you request an account lookup.</li>
               <li>Verify your subscription tier and unlock the corresponding features.</li>
               <li>Respond to your support requests if you email us.</li>
+              <li>Measure aggregate feature usage, identify drop-off in product flows, improve reliability, and evaluate subscription conversion.</li>
               <li>Comply with legal obligations (e.g. tax records for paid subscriptions).</li>
             </ul>
             <p className="text-text-muted mt-3">
@@ -178,17 +218,17 @@ export default async function PrivacyPage() {
             <Section title="6. Children">
             <p className="text-text-muted">
               ReelClip is not directed to children under 13. We do not knowingly
-              collect personal data from children. If you believe a child has
-              submitted an email to our waitlist, contact us and we will delete it.
+              collect personal data from children. If you believe a child has submitted
+              personal information to us, contact us and we will delete it where required.
             </p>
           </Section>
 
           <Section title="7. International data transfers">
             <p className="text-text-muted">
-              The waitlist backend (Convex) is hosted in the European Union. Stripe
-              and Apple may process payment data in the United States or other
-              regions under their own privacy frameworks. The on-device AI runtime
-              does not introduce any cross-border data flow.
+              Our account and entitlement backend (Convex) is hosted in the European Union.
+              Stripe and Apple may process payment data in the United States or other
+              regions under their own privacy frameworks. The on-device AI runtime does
+              not introduce any cross-border data flow.
             </p>
             <p className="text-text-muted mt-3">
               If you are in the European Economic Area, United Kingdom, or
@@ -204,7 +244,7 @@ export default async function PrivacyPage() {
 
           <Section title="8. Data retention">
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
-              <li>Waitlist email: until you ask us to delete it, or until you unsubscribe.</li>
+              <li>Account and entitlement records: while needed to provide subscription status, support, and legal records.</li>
               <li>Subscription receipts: 7 years (tax / accounting obligations).</li>
               <li>Support emails: 2 years.</li>
               <li>On-device project data: until you delete the app or the project.</li>
@@ -215,8 +255,8 @@ export default async function PrivacyPage() {
             <p className="text-text-muted">
               We use industry-standard transport security (HTTPS / TLS) for all
               network communication. Because ReelClip has no API-key storage and
-              no traditional account system, there is no credential material for
-              us to protect beyond your email address and subscription receipt.
+              no password-based account system, there is no credential material for us to
+              protect beyond the lookup information and subscription records described above.
             </p>
           </Section>
 
