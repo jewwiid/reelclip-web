@@ -7,3 +7,4 @@ __pycache__
 .organic-runs
 marketing/organic
 scripts/organic-marketing.py
+scripts/app-store-analytics.mjs

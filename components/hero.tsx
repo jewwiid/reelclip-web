@@ -1,3 +1,4 @@
+import { AppStoreLink } from "@/components/app-store-link";
 import Link from "next/link";
 import Image from "next/image";
 import { localizedPath } from "@/i18n/routing";
@@ -16,7 +17,7 @@ export async function Hero() {
           <h1 className="mb-6 text-5xl font-black leading-[0.95] tracking-tight sm:text-7xl">{hero.heading}</h1>
           <p className="mx-auto mb-3 max-w-2xl text-lg leading-relaxed text-text-muted sm:text-xl lg:mx-0">{hero.body}</p>
           <div className="mb-12 flex flex-col items-center gap-3 sm:flex-row lg:items-start">
-            <a href="https://apps.apple.com/app/reelclip/id6787742864" target="_blank" rel="noreferrer" data-fast-goal="download_click_hero" className="w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] sm:w-auto ease-out">{hero.download}</a>
+            <AppStoreLink target="_blank" rel="noreferrer" data-fast-goal="download_click_hero" className="w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] sm:w-auto ease-out">{hero.download}</AppStoreLink>
             <Link href={localizedPath(locale, "/#modes")} className="w-full rounded-full border border-hairline px-7 py-3.5 text-base font-semibold text-text transition-[background-color,transform] hover:bg-surface active:scale-[0.98] sm:w-auto ease-out">{hero.seeModes}</Link>
           </div>
           <div className="mx-auto grid max-w-2xl grid-cols-3 gap-4 border-t border-hairline pt-8 lg:mx-0">

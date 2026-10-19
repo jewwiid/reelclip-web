@@ -1,5 +1,7 @@
 "use client";
 
+import { AppStoreLink } from "@/components/app-store-link";
+
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
@@ -7,7 +9,6 @@ import { LanguageSwitcher } from "@/components/language-switcher";
 import type { Locale } from "@/i18n/config";
 import type { Dictionary } from "@/i18n/server";
 
-const APP_STORE_URL = "https://apps.apple.com/app/reelclip/id6787742864";
 
 type NavLink = {
   href: string;
@@ -52,28 +53,26 @@ export function NavClient({
             </Link>
           ))}
           <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} />
-          <a
-            href={APP_STORE_URL}
+          <AppStoreLink
             target="_blank"
             rel="noreferrer"
             data-fast-goal="download_click_nav"
             className="whitespace-nowrap rounded-full bg-accent px-4 py-2 font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.download}
-          </a>
+          </AppStoreLink>
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
           <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} />
-          <a
-            href={APP_STORE_URL}
+          <AppStoreLink
             target="_blank"
             rel="noreferrer"
             data-fast-goal="download_click_nav_mobile"
             className="rounded-full bg-accent px-3.5 py-2 text-sm font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.getApp}
-          </a>
+          </AppStoreLink>
           <button
             type="button"
             onClick={() => setIsMenuOpen((open) => !open)}
@@ -104,8 +103,7 @@ export function NavClient({
               </Link>
             ))}
           </div>
-          <a
-            href={APP_STORE_URL}
+          <AppStoreLink
             target="_blank"
             rel="noreferrer"
             onClick={closeMenu}
@@ -113,7 +111,7 @@ export function NavClient({
             className="mx-auto mt-4 flex max-w-lg items-center justify-center rounded-xl bg-accent px-4 py-3 font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.downloadReelClip}
-          </a>
+          </AppStoreLink>
         </div>
       )}
     </nav>

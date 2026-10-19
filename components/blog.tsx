@@ -1,3 +1,4 @@
+import { AppStoreLink } from "@/components/app-store-link";
 /**
  * Reusable prose component for blog posts.
  * Keeps post files declarative (just call <PostTitle>, <PostH2>, etc).
@@ -131,8 +132,7 @@ export function PostCta() {
         ReelClip servers.
       </p>
       <div className="flex flex-col sm:flex-row gap-3">
-        <a
-          href="https://apps.apple.com/app/reelclip/id6787742864"
+        <AppStoreLink
           target="_blank"
           rel="noreferrer"
           data-fast-goal="download_click_blog"
@@ -140,7 +140,7 @@ export function PostCta() {
           className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
         >
           Download on the App Store
-        </a>
+        </AppStoreLink>
         <Link
           href="/pricing"
           className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold text-text transition-[background-color,transform] hover:bg-surface active:scale-[0.98] ease-out"

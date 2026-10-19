@@ -6,6 +6,7 @@
   "window_days": 28,
   "data_lag_days": 3,
   "max_content_changes_per_run": 1,
+  "app_store_analytics_enabled": true,
   "keyword_planner_enabled": false,
   "keyword_planner_note": "Search Console supplies observed demand. Keyword Planner requires a separately authorized Google Ads account and developer token.",
   "vercel_project": "prj_S0OgtG4dkhgod6fVtkpaBFEKSw2Q",
