@@ -27,7 +27,7 @@ const pageMetadata: Metadata = {
   robots: { index: true, follow: true },
 };
 
-const UPDATED = "September 9, 2026";
+const UPDATED = "October 19, 2026";
 
 export async function generateMetadata(): Promise<Metadata> {
   return localizedMetadata(await getRequestLocale(), "/privacy", pageMetadata);
@@ -150,6 +150,17 @@ export default async function PrivacyPage() {
               .
             </p>
 
+            <h3 className="text-base font-bold text-text mb-2 mt-6">Website analytics</h3>
+            <p className="text-text-muted">
+              This website also uses TelemetryDeck to count page visits, App Store
+              link clicks and tutorial playback. Website events include the page
+              path, referring page, language, limited campaign tags and browser
+              metadata. We remove other query parameters and URL fragments before
+              sending events. Website analytics uses no cookies; TelemetryDeck
+              creates a visitor identifier that changes daily. We do not connect
+              website visitors to iOS app installations or send account-form
+              values to TelemetryDeck.
+            </p>
             <h3 className="text-base font-bold text-text mb-2 mt-6">2.4 What we never collect</h3>
             <ul className="list-disc pl-6 space-y-2 text-text-muted">
               <li>Your source video or any rendered clip.</li>
@@ -178,10 +189,10 @@ export default async function PrivacyPage() {
 
             <Section title="4. AI processing (fully on-device)">
             <p className="text-text-muted">
-              ReelClip ships with an "AI Assist" cut planner powered by
+              ReelClip ships with an “AI Assist” cut planner powered by
               <strong className="text-text"> Apple Intelligence</strong>, the
               on-device foundation-model framework that Apple introduced in iOS 26.
-              When you tap "Ask Apple Intelligence" in AI mode, ReelClip builds a
+              When you tap “Ask Apple Intelligence” in AI mode, ReelClip builds a
               compact feature pack from your video (audio energy levels, silence
               markers, planned segment durations, and your edit prompt) and
               passes it to the on-device model. The model runs entirely on your
@@ -267,8 +278,8 @@ export default async function PrivacyPage() {
 
           <Section title="10. Changes to this policy">
             <p className="text-text-muted">
-              We may update this privacy policy as the product evolves. The "Last
-              updated" date at the top will change. Material changes (e.g. adding a
+              We may update this privacy policy as the product evolves. The “Last
+              updated” date at the top will change. Material changes (e.g. adding a
               new data category) will be announced via an app update release
               note or an email to active subscribers.
             </p>

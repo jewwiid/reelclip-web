@@ -45,14 +45,13 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "edit-vertical-video-on-iphone",
-    title:
-      "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
-    description:
-      "A practical guide to editing vertical 9:16 video on iPhone — from import to caption export — with the on-device workflows that work for Instagram Reels, TikTok, and YouTube Shorts.",
+    title: "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
+    description: "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
     publishedAt: "2026-08-25",
+    updatedAt: "2026-10-19",
     category: "How-to",
     primaryKeyword: "how to edit vertical video on iphone",
-    readMinutes: 7,
+    readMinutes: 4,
   },
   {
     slug: "dji-osmo-pocket-3-luts",
@@ -111,13 +110,13 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "how-to-apply-lut-on-iphone",
-    title: "How to apply a .cube LUT on iPhone (free, on-device)",
-    description:
-      "A practical guide to importing and applying .cube LUTs on iPhone. Works with any camera log footage — DJI D-Log, Apple Log, HLG — and runs entirely on-device.",
+    title: "How to apply a .cube LUT on iPhone",
+    description: "Import a .cube LUT from Files, adjust its strength and compare the preview in ReelClip. Includes a short recording of the actual controls.",
     publishedAt: "2026-08-25",
+    updatedAt: "2026-10-19",
     category: "How-to",
     primaryKeyword: "how to apply a lut on iphone",
-    readMinutes: 6,
+    readMinutes: 4,
   },
   {
     slug: "capcut-alternative-no-watermark",
@@ -144,25 +143,23 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "extract-clip-from-podcast",
-    title:
-      "How to extract highlights from a podcast on iPhone",
-    description:
-      "Podcasters: how to turn a one-hour recording into five short highlight clips for Reels, TikTok, and Shorts — using on-device transcription so the audio never leaves your phone.",
+    title: "How to extract highlights from a podcast on iPhone",
+    description: "Use the transcript to find and review spoken moments from a podcast video, check captions, and prepare clips for export on iPhone.",
     publishedAt: "2026-08-24",
+    updatedAt: "2026-10-19",
     category: "Use case",
     primaryKeyword: "how to clip podcast highlights",
-    readMinutes: 8,
+    readMinutes: 4,
   },
   {
     slug: "remove-silence-from-video-free",
-    title:
-      "How to remove silence from a video on iPhone (free, on-device)",
-    description:
-      "Pause detection and dead-air removal in a free iPhone app — no upload, no signup, and your audio stays on your device. Includes the exact settings to use.",
+    title: "How to remove silence from a video on iPhone",
+    description: "Use ReelClip’s Transcript pause controls, review the timing and check the edited video. Preview before export; saving requires Creator.",
     publishedAt: "2026-08-24",
+    updatedAt: "2026-10-19",
     category: "How-to",
     primaryKeyword: "remove silence from video iphone",
-    readMinutes: 5,
+    readMinutes: 4,
   },
 ];
 

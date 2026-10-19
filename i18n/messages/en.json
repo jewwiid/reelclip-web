@@ -54,13 +54,13 @@
         "bullets": ["Find natural pauses", "Keep speech flowing", "Adjust every cut"]
       },
       {
-        "name": "Splice",
-        "tagline": "Find the moments that stand out.",
-        "description": "ReelClip reads movement, faces, sharpness, and audio to find the strongest moments, all on your iPhone.",
-        "bullets": ["Find the standout moments", "Use visual and audio cues", "Review before export"]
+        "name": "Slice",
+        "tagline": "Choose the moments you want.",
+        "description": "Move the selection to a moment, adjust its start and end, and add it to your planned clips.",
+        "bullets": ["Choose a moment", "Refine the edges", "Review before export"]
       },
       {
-        "name": "AI Assist",
+        "name": "AI",
         "tagline": "Describe what you want. Get a clip plan.",
         "description": "Ask for the funniest moments, the product demo, or the strongest quotes. Apple Intelligence reads the transcript on your iPhone and suggests clips. Nothing is uploaded and you don't need an account.",
         "bullets": ["Use everyday language", "No account or upload", "Review every suggestion"]

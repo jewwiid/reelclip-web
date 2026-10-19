@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
-import Script from "next/script";
+import { SiteAnalytics } from "@/components/site-analytics";
 import { Providers } from "@/components/providers";
 import {
   OrganizationJsonLd,
@@ -59,16 +59,11 @@ export default async function RootLayout({
   return (
     <html lang={localeLanguageTag(locale)} className={`${inter.variable} h-full antialiased`}>
       <head>
-        <Script
-          data-website-id="dfid_ftGSKdpvLUh6r1l4TP9qs"
-          data-domain="www.reelclips.app"
-          src="https://datafa.st/js/script.js"
-          strategy="afterInteractive"
-        />
         <OrganizationJsonLd />
         <WebSiteJsonLd />
       </head>
       <body className="min-h-full flex flex-col bg-bg text-text">
+        <SiteAnalytics />
         <Providers dictionary={dictionary} locale={locale}>{children}</Providers>
       </body>
     </html>

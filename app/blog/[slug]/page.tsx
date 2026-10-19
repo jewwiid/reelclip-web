@@ -45,7 +45,7 @@ export async function generateMetadata({
       url,
       type: "article",
       publishedTime: post.publishedAt,
-      modifiedTime: post.updatedAt ?? post.publishedAt,
+      modifiedTime: locale === "en" ? (post.updatedAt ?? post.publishedAt) : post.publishedAt,
     },
     twitter: {
       card: "summary_large_image",

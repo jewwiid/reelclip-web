@@ -1,3 +1,4 @@
+import { GuideVideo } from "@/components/guide-video";
 import {
   PostBody,
   PostCta,
@@ -5,7 +6,6 @@ import {
   PostH3,
   PostHeader,
   PostLink,
-  PostOl,
   PostP,
   PostUl,
 } from "@/components/blog";
@@ -50,11 +50,20 @@ export default function Post() {
         </PostUl>
 
         <PostH2>The 7-step workflow</PostH2>
+        <GuideVideo
+          id="cut-clips"
+          title="Watch: plan and preview a batch of clips"
+          description="26-second demo from our existing feature library. It shows the Cut controls and clip playback on a short gym recording. Saving to Photos is covered in the steps below. Silent video with English step captions."
+          steps={[
+            "In Clip, choose Cut and set Clip amount and Clip duration.",
+            "Use Space to choose the interval between clip starts.",
+            "Play the planned clips and check that each one contains the moment you want.",
+          ]}
+        />
 
         <PostH3>1. Import the recording into ReelClip</PostH3>
         <PostP>
-          Open ReelClip and tap <strong className="text-text">Import</strong>.
-          Pick the long video from the Photos picker. ReelClip copies it into
+          Import your recording from Photos or Files. ReelClip copies it into
           its private sandbox — the original file in Photos stays untouched,
           and nothing is uploaded.
         </PostP>
@@ -76,14 +85,13 @@ export default function Post() {
             the dead air. Good for talking-head content and podcasts.
           </li>
           <li>
-            <strong className="text-text">Splice</strong> — uses on-device
-            visual and audio analysis to suggest standout moments. Review
-            the suggestions and adjust the ranges before exporting.
+            <strong className="text-text">Slice</strong> — choose a moment
+            yourself, move the selection and refine its start and end.
           </li>
           <li>
-            <strong className="text-text">AI Assist</strong> — describe what you
-            want ("the funniest moment", "the part where I explain the
-            pricing", "the most quotable line") and on-device Apple
+            <strong className="text-text">AI</strong> — describe what you
+            want (“the funniest moment”, “the part where I explain the
+            pricing”, “the most quotable line”) and on-device Apple
             Intelligence picks the moments. Good when you do not want to
             scrub yourself.
           </li>
@@ -103,24 +111,24 @@ export default function Post() {
         <PostP>
           Give each clip one complete idea. Tighten the start, remove any
           unnecessary lead-in, and keep enough context for someone who
-          has never seen the full recording. Check TikTok's current upload
+          has never seen the full recording. Check TikTok’s current upload
           limits before posting; there is no universal ideal clip length.
         </PostP>
 
         <PostH3>5. Pick a vertical export</PostH3>
         <PostP>
           If your source video is landscape, you have two choices: export as
-          is (TikTok accepts landscape and will letterbox), or change the
-          framing in your finishing editor. ReelClip exports the trimmed
-          range at the original aspect ratio — it does not crop or zoom.
+          is, or crop it for a vertical post in your finishing editor.
+          Choosing a time range and choosing the picture framing are separate
+          decisions; inspect both before posting.
         </PostP>
 
         <PostH3>6. Save the batch to Photos</PostH3>
         <PostP>
-          When you are happy with the review screen, tap{" "}
-          <strong className="text-text">Save clips</strong>. ReelClip exports
-          each approved clip to your Photos library with a confirmation
-          notification. The originals are not modified.
+          Tap <strong className="text-text">Review</strong> and wait for the
+          clips to finish preparing. Play the outputs, then choose the save
+          action for Photos. Wait for the completion confirmation before
+          leaving the app. Export requires Creator; the originals stay intact.
         </PostP>
 
         <PostH3>7. Upload to TikTok from Photos</PostH3>
@@ -129,7 +137,7 @@ export default function Post() {
           <strong className="text-text">Upload</strong>. Pick the first clip
           from your library. TikTok will pull it from your device — ReelClip
           never had access to your TikTok account and never uploaded
-          anything to TikTok's servers.
+          anything to TikTok’s servers.
         </PostP>
 
         <PostH2>Common pitfalls</PostH2>

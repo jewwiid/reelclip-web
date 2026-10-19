@@ -8,5 +8,5 @@ import { appStoreCampaign, appStoreUrl } from "@/lib/app-store";
 export function AppStoreLink(props: Omit<ComponentProps<"a">, "href">) {
   const pathname = usePathname();
   const campaign = appStoreCampaign(pathname);
-  return <a {...props} href={appStoreUrl(campaign)} data-fast-goal-campaign={campaign} />;
+  return <a {...props} href={appStoreUrl(campaign)} data-analytics-campaign={campaign} />;
 }

@@ -56,7 +56,7 @@ export function NavClient({
           <AppStoreLink
             target="_blank"
             rel="noreferrer"
-            data-fast-goal="download_click_nav"
+            data-analytics-event="download_click_nav"
             className="whitespace-nowrap rounded-full bg-accent px-4 py-2 font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.download}
@@ -68,7 +68,7 @@ export function NavClient({
           <AppStoreLink
             target="_blank"
             rel="noreferrer"
-            data-fast-goal="download_click_nav_mobile"
+            data-analytics-event="download_click_nav_mobile"
             className="rounded-full bg-accent px-3.5 py-2 text-sm font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.getApp}
@@ -107,7 +107,7 @@ export function NavClient({
             target="_blank"
             rel="noreferrer"
             onClick={closeMenu}
-            data-fast-goal="download_click_nav_menu"
+            data-analytics-event="download_click_nav_menu"
             className="mx-auto mt-4 flex max-w-lg items-center justify-center rounded-xl bg-accent px-4 py-3 font-semibold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
           >
             {labels.downloadReelClip}
