@@ -137,6 +137,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "A 7-step workflow that takes one long recording and turns it into 3–5 TikTok-ready vertical clips — all on your iPhone, with no cloud upload.",
     publishedAt: "2026-08-24",
+    updatedAt: "2026-10-19",
     category: "Tutorial",
     primaryKeyword: "how to cut a long video for tiktok",
     readMinutes: 6,

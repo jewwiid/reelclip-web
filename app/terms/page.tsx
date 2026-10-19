@@ -1,3 +1,4 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
@@ -5,7 +6,7 @@ import { Footer } from "@/components/footer";
 import { LocalizedStaticPage } from "@/components/localized-static-page";
 import { getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "Terms of Service · ReelClip",
   description:
     "The terms that govern your use of ReelClip: subscription terms, auto-renewal disclosure, refund policy, and acceptable use.",
@@ -15,12 +16,12 @@ export const metadata: Metadata = {
     "reelclip refund policy",
     "video editor terms of service",
   ],
-  alternates: { canonical: "https://reelclips.app/terms" },
+  alternates: { canonical: "https://www.reelclips.app/terms" },
   openGraph: {
     title: "Terms of Service · ReelClip",
     description:
       "The terms that govern your use of ReelClip: subscription terms, auto-renewal, refunds, and acceptable use.",
-    url: "https://reelclips.app/terms",
+    url: "https://www.reelclips.app/terms",
     type: "website",
   },
   robots: { index: true, follow: true },
@@ -28,6 +29,10 @@ export const metadata: Metadata = {
 
 const UPDATED = "August 24, 2026";
 const EFFECTIVE = "July 8, 2026";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/terms", pageMetadata);
+}
 
 export default async function TermsPage() {
   const locale = await getRequestLocale();

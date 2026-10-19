@@ -1,10 +1,11 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { PricingPlans } from "@/components/pricing-client";
-import { getDictionary } from "@/i18n/server";
+import { getDictionary, getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "Pricing · ReelClip — Create free, export with Creator",
   description:
     "ReelClip is free to create and preview clips. Choose a Creator plan ($9.99/month, $39.99/year, or $79.99 lifetime) to save, share, and export. On-device, no watermarks.",
@@ -15,15 +16,19 @@ export const metadata: Metadata = {
     "video editor subscription",
     "reelclip creator",
   ],
-  alternates: { canonical: "https://reelclips.app/pricing" },
+  alternates: { canonical: "https://www.reelclips.app/pricing" },
   openGraph: {
     title: "Pricing · ReelClip — Create free, export with Creator",
     description:
       "ReelClip is free to create and preview clips. Choose a Creator plan to save, share, and export. On-device, no watermarks.",
-    url: "https://reelclips.app/pricing",
+    url: "https://www.reelclips.app/pricing",
     type: "website",
   },
 };
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/pricing", pageMetadata);
+}
 
 export default async function PricingPage() {
   const { pricing } = await getDictionary();

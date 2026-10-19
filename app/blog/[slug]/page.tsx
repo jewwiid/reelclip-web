@@ -9,6 +9,7 @@ import {
 } from "@/components/structured-data";
 import { BLOG_POSTS, getPostBySlug } from "../posts";
 import { getRequestLocale } from "@/i18n/server";
+import { localizedMetadata, localesForPage, pageUrl } from "@/i18n/seo";
 
 /**
  * Dynamic route for blog posts. Each post is a standalone React component
@@ -30,12 +31,13 @@ export async function generateMetadata({
   const post = getPostBySlug(slug);
   if (!post) return {};
 
-  const url = `https://reelclips.app/blog/${post.slug}`;
-  return {
+  const locale = await getRequestLocale();
+  const path = `/blog/${post.slug}`;
+  const url = pageUrl(locale, path);
+  return localizedMetadata(locale, path, {
     title: `${post.title} · ReelClip Blog`,
     description: post.description,
     keywords: [post.primaryKeyword, post.category, "video editing iphone"],
-    alternates: { canonical: url },
     authors: [{ name: "ReelClip" }],
     openGraph: {
       title: post.title,
@@ -50,7 +52,7 @@ export async function generateMetadata({
       title: post.title,
       description: post.description,
     },
-  };
+  });
 }
 
 export default async function PostPage({
@@ -62,6 +64,7 @@ export default async function PostPage({
   const post = getPostBySlug(slug);
   if (!post) notFound();
   const locale = await getRequestLocale();
+  if (!localesForPage(`/blog/${slug}`).includes(locale)) notFound();
   if (locale !== "en") return <LocalizedStaticPage locale={locale} document={`blog/${slug}`} />;
 
   // Lazy-import the matching content component.
@@ -74,14 +77,14 @@ export default async function PostPage({
     notFound();
   }
 
-  const url = `https://reelclips.app/blog/${slug}`;
+  const url = `https://www.reelclips.app/blog/${slug}`;
 
   return (
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: "https://reelclips.app" },
-          { name: "Blog", url: "https://reelclips.app/blog" },
+          { name: "Home", url: "https://www.reelclips.app" },
+          { name: "Blog", url: "https://www.reelclips.app/blog" },
           { name: post.title, url },
         ]}
       />

@@ -6,8 +6,8 @@ import {
   OrganizationJsonLd,
   WebSiteJsonLd,
 } from "@/components/structured-data";
-import { LOCALES, localeLanguageTag } from "@/i18n/config";
-import { localizedPath } from "@/i18n/routing";
+import { localeLanguageTag } from "@/i18n/config";
+import { localizedMetadata, SITE_URL } from "@/i18n/seo";
 import { getDictionary, getRequestLocale } from "@/i18n/server";
 import "./globals.css";
 
@@ -17,17 +17,11 @@ const inter = Inter({
   display: "swap",
 });
 
-const SITE_URL = "https://reelclips.app";
-
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getRequestLocale();
   const { metadata } = await getDictionary(locale);
-  const canonical = localizedPath(locale);
-  const languages = Object.fromEntries(
-    LOCALES.map(({ code }) => [localeLanguageTag(code), localizedPath(code)]),
-  );
 
-  return {
+  return localizedMetadata(locale, "/", {
     metadataBase: new URL(SITE_URL),
     title: metadata.title,
     description: metadata.description,
@@ -41,7 +35,7 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: metadata.title,
       description: metadata.openGraphDescription,
-      url: canonical,
+      url: "/",
       siteName: "ReelClip",
       type: "website",
       images: [{ url: "/opengraph-image.png", width: 1200, height: 630, alt: "ReelClip: make good clips, really" }],
@@ -52,8 +46,7 @@ export async function generateMetadata(): Promise<Metadata> {
       description: metadata.openGraphDescription,
       images: ["/opengraph-image.png"],
     },
-    alternates: { canonical, languages },
-  };
+  });
 }
 
 export default async function RootLayout({

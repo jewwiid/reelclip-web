@@ -126,7 +126,7 @@ export function PostCta() {
       </h3>
       <p className="text-sm text-text-muted leading-relaxed mb-5">
         ReelClip is free to import and preview. A Creator plan unlocks export
-        and the four cut modes (Cut, Transcript, Slice, AI). All video and
+        and the four cut modes (Cut, Transcript, Splice, AI Assist). All video and
         audio processing stays on your iPhone — nothing is uploaded to
         ReelClip servers.
       </p>
@@ -135,6 +135,8 @@ export function PostCta() {
           href="https://apps.apple.com/app/reelclip/id6787742864"
           target="_blank"
           rel="noreferrer"
+          data-fast-goal="download_click_blog"
+          data-fast-goal-placement="article_cta"
           className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
         >
           Download on the App Store

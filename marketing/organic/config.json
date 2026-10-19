@@ -1,0 +1,21 @@
+{
+  "site_origin": "https://www.reelclips.app",
+  "search_console_property": "sc-domain:reelclips.app",
+  "gum_profile": "reelclip-organic",
+  "timezone": "Europe/Dublin",
+  "window_days": 28,
+  "data_lag_days": 3,
+  "max_content_changes_per_run": 1,
+  "keyword_planner_enabled": false,
+  "keyword_planner_note": "Search Console supplies observed demand. Keyword Planner requires a separately authorized Google Ads account and developer token.",
+  "vercel_project": "prj_S0OgtG4dkhgod6fVtkpaBFEKSw2Q",
+  "vercel_team": "team_XR6KHK9Fv8M8LXgCJv69hNl5",
+  "seed_topics": [
+    {"slug": "how-to-cut-long-video-for-tiktok", "terms": ["split video", "cut video", "long video", "tiktok", "video splitter"], "business_fit": 5},
+    {"slug": "extract-clip-from-podcast", "terms": ["podcast", "highlights", "clip podcast"], "business_fit": 5},
+    {"slug": "remove-silence-from-video-free", "terms": ["silence", "dead air", "pause"], "business_fit": 5},
+    {"slug": "edit-vertical-video-on-iphone", "terms": ["iphone", "vertical video", "reel schneiden", "reels schneiden"], "business_fit": 4},
+    {"slug": "how-to-apply-lut-on-iphone", "terms": ["lut", "color grade", "colour grade", "blackmagic"], "business_fit": 3},
+    {"slug": "dji-osmo-pocket-3-luts", "terms": ["osmo", "pocket 3", "dji"], "business_fit": 3}
+  ]
+}

@@ -1,3 +1,4 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
@@ -7,7 +8,7 @@ import { BreadcrumbJsonLd } from "@/components/structured-data";
 import { getPostsSorted } from "./posts";
 import { getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "Blog · ReelClip — On-device video editing guides",
   description:
     "Practical guides for cutting long videos, clipping podcasts, and making short-form clips — all on iPhone, on-device. Written by the ReelClip team.",
@@ -19,15 +20,19 @@ export const metadata: Metadata = {
     "capcut alternative",
     "on-device video editor",
   ],
-  alternates: { canonical: "https://reelclips.app/blog" },
+  alternates: { canonical: "https://www.reelclips.app/blog" },
   openGraph: {
     title: "Blog · ReelClip — On-device video editing guides",
     description:
       "Practical guides for cutting long videos, clipping podcasts, and making short-form clips — all on iPhone, on-device.",
-    url: "https://reelclips.app/blog",
+    url: "https://www.reelclips.app/blog",
     type: "website",
   },
 };
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/blog", pageMetadata);
+}
 
 export default async function BlogIndexPage() {
   const locale = await getRequestLocale();
@@ -37,8 +42,8 @@ export default async function BlogIndexPage() {
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: "https://reelclips.app" },
-          { name: "Blog", url: "https://reelclips.app/blog" },
+          { name: "Home", url: "https://www.reelclips.app" },
+          { name: "Blog", url: "https://www.reelclips.app/blog" },
         ]}
       />
       <Nav />

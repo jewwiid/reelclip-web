@@ -16,6 +16,7 @@ export const POST_META = {
   description:
     "A 7-step workflow that takes one long recording and turns it into 3–5 TikTok-ready vertical clips — all on your iPhone, with no cloud upload.",
   publishedAt: "2026-08-24",
+  updatedAt: "2026-10-19",
   category: "Tutorial" as const,
   primaryKeyword: "how to cut a long video for tiktok",
   readMinutes: 6,
@@ -29,9 +30,9 @@ export default function Post() {
         <PostP>
           You have a 12-minute talking-head video, a stream recording, or a
           long vlog — and you want three or four TikTok-ready clips out of it.
-          Uploading the whole thing to a desktop editor, scrubbing a timeline,
-          and rendering each clip is the slow way. On iPhone, with on-device
-          AI, it is now a 5-minute job. Here is the workflow.
+          You can prepare those clips directly on your iPhone, review each
+          moment, and save the ones you want to post. How long it takes
+          depends on the recording, your device, and how much you edit.
         </PostP>
 
         <PostH2>What you need</PostH2>
@@ -75,18 +76,20 @@ export default function Post() {
             the dead air. Good for talking-head content and podcasts.
           </li>
           <li>
-            <strong className="text-text">Slice</strong> — manual highlight
-            mode. Drag start and end points on the timeline. Good when you
-            already know which moments you want.
+            <strong className="text-text">Splice</strong> — uses on-device
+            visual and audio analysis to suggest standout moments. Review
+            the suggestions and adjust the ranges before exporting.
           </li>
           <li>
-            <strong className="text-text">AI</strong> — describe what you
+            <strong className="text-text">AI Assist</strong> — describe what you
             want ("the funniest moment", "the part where I explain the
             pricing", "the most quotable line") and on-device Apple
             Intelligence picks the moments. Good when you do not want to
             scrub yourself.
           </li>
         </PostUl>
+
+        <PostCta />
 
         <PostH3>3. Review every planned clip</PostH3>
         <PostP>
@@ -98,10 +101,10 @@ export default function Post() {
 
         <PostH3>4. Trim each clip to TikTok length</PostH3>
         <PostP>
-          TikTok supports videos up to 10 minutes, but the algorithm
-          consistently rewards clips under 90 seconds. While you are
-          reviewing, tighten the start and end of each clip — the first
-          second is the one viewers decide on.
+          Give each clip one complete idea. Tighten the start, remove any
+          unnecessary lead-in, and keep enough context for someone who
+          has never seen the full recording. Check TikTok's current upload
+          limits before posting; there is no universal ideal clip length.
         </PostP>
 
         <PostH3>5. Pick a vertical export</PostH3>
@@ -142,10 +145,9 @@ export default function Post() {
             Smaller, tighter clips get watched further.
           </li>
           <li>
-            <strong className="text-text">No captions.</strong> 80% of
-            TikTok is watched on mute. Add burned-in captions in your
-            finishing editor — or use ReelClip's caption export if you want
-            an SRT/VTT file to drop into CapCut.
+            <strong className="text-text">No captions.</strong> Captions
+            help people follow speech when they cannot listen. Check their
+            spelling and timing in your finishing editor before posting.
           </li>
         </PostUl>
 

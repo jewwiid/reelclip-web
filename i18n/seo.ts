@@ -1,0 +1,42 @@
+import type { Metadata } from "next";
+import { existsSync } from "node:fs";
+import { join } from "node:path";
+import { LOCALES, localeLanguageTag, type Locale } from "./config";
+import { localizedPath } from "./routing";
+
+/** Production redirects the apex to www. Publish the final URL everywhere. */
+export const SITE_URL = "https://www.reelclips.app";
+
+export function localesForPage(path: string): Locale[] {
+  const document = path === "/blog" || path.startsWith("/blog/") || path === "/privacy" || path === "/terms"
+    ? path.slice(1)
+    : null;
+
+  return LOCALES.filter(({ code }) => code === "en" || !document || existsSync(
+    join(process.cwd(), "i18n", "static-pages", code, `${document}.html`),
+  )).map(({ code }) => code);
+}
+
+export function pageUrl(locale: Locale, path = "/") {
+  return new URL(localizedPath(locale, path), SITE_URL).href;
+}
+
+export function languageAlternates(path = "/") {
+  return {
+    ...Object.fromEntries(localesForPage(path).map((locale) => [localeLanguageTag(locale), pageUrl(locale, path)])),
+    "x-default": pageUrl("en", path),
+  };
+}
+
+export function localizedMetadata(locale: Locale, path: string, metadata: Metadata): Metadata {
+  const url = pageUrl(locale, path);
+  return {
+    ...metadata,
+    alternates: {
+      ...metadata.alternates,
+      canonical: url,
+      languages: languageAlternates(path),
+    },
+    openGraph: { ...metadata.openGraph, url },
+  };
+}

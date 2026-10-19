@@ -1,5 +1,5 @@
 import { NextResponse, type NextRequest } from "next/server";
-import { DEFAULT_LOCALE } from "@/i18n/config";
+import { DEFAULT_LOCALE, isLocale } from "@/i18n/config";
 import { localeFromPathname } from "@/i18n/routing";
 
 function withLocaleHeader(request: NextRequest, locale: string) {
@@ -13,8 +13,11 @@ export function proxy(request: NextRequest) {
   const locale = localeFromPathname(pathname);
 
   if (!locale) {
+    // Node Proxy runs again for the rewritten path. Preserve its validated locale.
+    const forwardedLocale = request.headers.get("x-reelclip-locale");
+    const resolvedLocale = forwardedLocale && isLocale(forwardedLocale) ? forwardedLocale : DEFAULT_LOCALE;
     return NextResponse.next({
-      request: { headers: withLocaleHeader(request, DEFAULT_LOCALE) }
+      request: { headers: withLocaleHeader(request, resolvedLocale) }
     });
   }
 

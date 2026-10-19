@@ -1,10 +1,11 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
 import { LocalizedStaticPage } from "@/components/localized-static-page";
 import { getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "Privacy Policy · ReelClip — On-device by default",
   description:
     "What data ReelClip collects, how it is used, and the rights you have. Your footage never leaves your device — AI runs entirely on-device via Apple Intelligence.",
@@ -15,18 +16,22 @@ export const metadata: Metadata = {
     "apple intelligence privacy",
     "video editor no upload",
   ],
-  alternates: { canonical: "https://reelclips.app/privacy" },
+  alternates: { canonical: "https://www.reelclips.app/privacy" },
   openGraph: {
     title: "Privacy Policy · ReelClip",
     description:
       "What data ReelClip collects, how it is used, and the rights you have. On-device by default.",
-    url: "https://reelclips.app/privacy",
+    url: "https://www.reelclips.app/privacy",
     type: "website",
   },
   robots: { index: true, follow: true },
 };
 
 const UPDATED = "September 9, 2026";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/privacy", pageMetadata);
+}
 
 export default async function PrivacyPage() {
   const locale = await getRequestLocale();
