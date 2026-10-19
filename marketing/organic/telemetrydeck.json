@@ -16,5 +16,5 @@
   "identity_limit": "Web visitor identifiers reset daily and cannot link website visits to native app installations.",
   "read_status": "Dashboard verified via existing signed-in account. No new query API credentials were created. Daily numeric website reporting requires an actual dashboard read/export or a separately authorized API connection; missing metrics are unknown.",
   "apple": "Keep the verified website_main / website_guides Apple campaign links and existing App Store analytics collector.",
-  "verification": "Local production-build browser pageview and real download click appeared in the website Test Mode explorer, with path, placement, campaign and web.v3 ingest parameters."
+  "verification": "Browser pageview and App Store click appeared in Test Mode with correct path, campaign and placement. tutorialPlayed and tutorialReachedEnd arrived for actual Cut/LUT playback. Public deployment and live Cut playback verified; test data excluded from production analysis."
 }
