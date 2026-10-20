@@ -33,6 +33,16 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "edit-any-log-footage-iphone",
+    title: "How to edit log footage on iPhone: camera conversion and creative LUTs",
+    description: "Choose the correct camera profile, import a matching conversion LUT, and add a creative look in ReelClip. Learn what to check before exporting log footage.",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    category: "Use case",
+    primaryKeyword: "edit log footage on iphone",
+    readMinutes: 5,
+  },
+  {
     slug: "video-length-social-media-reach",
     title: "Does video length hurt social media reach?",
     description:

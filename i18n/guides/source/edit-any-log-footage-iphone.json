@@ -1,0 +1,196 @@
+{
+  "slug": "edit-any-log-footage-iphone",
+  "title": "How to edit log footage on iPhone: camera conversion and creative LUTs",
+  "description": "Choose the correct camera profile, import a matching conversion LUT, and add a creative look in ReelClip. Learn what to check before exporting log footage.",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "category": "Use case",
+  "primaryKeyword": "edit log footage on iphone",
+  "readMinutes": 5,
+  "sourceFingerprint": "06c1c09f49209cd1d56211dced514a5598730100a21e51d77319301ec75bf9f6",
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Log footage can look washed out before color conversion. To grade it, first match the camera's recording profile with the right technical transform, then choose a creative look. ReelClip keeps those two steps separate so you can adjust the style without replacing the camera conversion."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Selecting a log profile does not install a conversion LUT. You need a compatible video file and a matching camera-conversion .cube file for the log workflow described below."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Which camera profiles can you select?"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>DJI:</strong> D-Log, D-Log M and D-Log 2.</li><li><strong>Apple:</strong> Apple Log and Apple Log 2.</li><li><strong>HDR:</strong> HLG and PQ, handled separately from imported log-conversion LUTs.</li><li><strong>Standard:</strong> footage that is already display-ready.</li><li><strong>Other log:</strong> another log source with a matching imported camera transform.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Automatic detection can use supported metadata and filename hints. Check the selection against your camera settings: a filename is a suggestion, and transfers or earlier edits can change the information available to the app."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sony, Canon, Panasonic and Blackmagic are not named profile presets in ReelClip. For footage from these cameras, use Other log with the correct conversion LUT, provided the iPhone can decode the video file. A camera brand alone does not establish compatibility with every codec or RAW format."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Convert log footage before adding a creative look"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Import your clip.</strong> Use the original recording where possible and confirm its recording profile and gamut.</li><li><strong>Choose the source profile.</strong> In the color controls, check the detected profile or select the matching log option.</li><li><strong>Import the camera transform.</strong> Choose a .cube conversion that matches the camera, recording curve and gamut. Check its documentation for the expected output color space. A log profile marked “LUT needed” still needs this file.</li><li><strong>Add a creative LUT.</strong> Select a look intended for the converted image. The universal creative packs expect normalized sRGB/Rec.709 input. Use the strength control to adjust the creative effect.</li><li><strong>Review, then export.</strong> Check skin tones, bright skies and shadow detail. Editing and preview are available free; saving the finished video requires Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apply the technical conversion once. If another editor has already converted the file to standard SDR, select Standard rather than applying the original log conversion again. A double conversion can produce excessive contrast and clipped detail."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "For more on creative LUT selection and import, see<!-- --> <a class=\"text-accent hover:underline\" href=\"/blog/how-to-apply-lut-on-iphone\">how to apply a LUT on iPhone</a>. You can also browse<!-- --> <a class=\"text-accent hover:underline\" href=\"/blog/best-free-luts-2026\">camera-conversion resources and starter looks</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Compare real footage before and after"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Drag the slider to compare real stock-footage frames with illustrative grades. The ungraded frame is on the left, labelled Flat source (or Original for the display-ready city example), and the graded result is on the right. Stock uploads do not confirm a camera's exact log curve, so treat these as creative examples, not conversion references. Each scene includes its footage source and license link."
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "These examples use the same real footage and starter looks as our free LUT guide. The illustrative balance is not a calibrated manufacturer conversion. Evaluate a look on your own footage before deciding whether it suits your project."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Camera conversion and creative LUTs do different jobs"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A <strong>camera conversion</strong> maps a specific recording encoding into the intended working or display space. Match both the log curve and color gamut: two files described as “log” can need different transforms."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A <strong>creative LUT</strong> styles the converted image. It can warm highlights, cool shadows or reduce saturation. It cannot correct a wrong source transform, and a LUT alone does not add film grain or halation."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip applies the supplied camera transform before the creative look. Keep the technical conversion in the camera-transform control and the style in the creative-look control. Check each LUT's input requirements rather than assuming every .cube file serves the same purpose."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "If the result looks wrong"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Still washed out?</strong> Confirm that a camera transform is loaded, not just a log profile selected.</li><li><strong>Too contrasty?</strong> Check for a conversion applied twice and confirm that the creative LUT expects your converted color space.</li><li><strong>Unnatural colors?</strong> Recheck the recording gamut, white balance and conversion file before increasing the look strength.</li><li><strong>A file will not import?</strong> Check the video container and codec. Selecting Other log does not add support for an otherwise unsupported video format.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Try the workflow on your own footage"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Start with a short clip containing a face, neutral objects and some bright detail. Review the camera conversion with the creative look disabled, then add the look at a moderate strength. Clips from different cameras may still need individual exposure and white-balance adjustments."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Color preview and rendering run on-device. You can import, edit and preview before upgrading. Video export requires Creator, available as a one-time purchase or a monthly plan."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

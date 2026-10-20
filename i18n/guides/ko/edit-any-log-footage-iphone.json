@@ -1,0 +1,197 @@
+{
+  "slug": "edit-any-log-footage-iphone",
+  "title": "iPhone에서 로그 영상 편집하기: 카메라 변환과 크리에이티브 LUT",
+  "description": "올바른 카메라 프로필을 선택하고, 일치하는 변환 LUT를 가져온 다음, ReelClip에서 크리에이티브 룩을 추가하세요. 로그 영상을 내보내기 전에 확인해야 할 사항을 알아보세요.",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "category": "사용 사례",
+  "primaryKeyword": "iphone에서 로그 영상 편집",
+  "readMinutes": 5,
+  "sourceFingerprint": "06c1c09f49209cd1d56211dced514a5598730100a21e51d77319301ec75bf9f6",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "로그 영상은 색상 변환 전에 흐릿해 보일 수 있습니다. 그레이딩을 위해서는 먼저 카메라의 녹화 프로필을 올바른 기술적 변환과 일치시킨 다음, 크리에이티브 룩을 선택하세요. ReelClip은 이 두 단계를 분리하여 카메라 변환을 교체하지 않고도 스타일을 조정할 수 있게 합니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "로그 프로필을 선택한다고 변환 LUT가 설치되지는 않습니다. 아래에 설명된 로그 워크플로우를 위해서는 호환되는 비디오 파일과 일치하는 카메라 변환 .cube 파일이 필요합니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "어떤 카메라 프로필을 선택할 수 있나요?"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>DJI:</strong> D-Log, D-Log M 및 D-Log 2.</li><li><strong>Apple:</strong> Apple Log 및 Apple Log 2.</li><li><strong>HDR:</strong> HLG 및 PQ, 가져온 로그 변환 LUT와 별도로 처리됩니다.</li><li><strong>Standard:</strong> 이미 디스플레이 준비가 완료된 영상.</li><li><strong>Other log:</strong> 일치하는 가져온 카메라 변환과 함께 사용하는 다른 로그 소스.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "자동 감지는 지원되는 메타데이터와 파일명 힌트를 활용할 수 있습니다. 카메라 설정과 선택 항목을 대조해 확인하세요: 파일명은 제안일 뿐이며, 전송이나 이전 편집으로 인해 앱에서 사용 가능한 정보가 변경될 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sony, Canon, Panasonic 및 Blackmagic은 ReelClip의 명명된 프로필 프리셋이 아닙니다. 이러한 카메라의 영상은 Other log와 올바른 변환 LUT를 함께 사용하되, iPhone이 해당 비디오 파일을 디코딩할 수 있어야 합니다. 카메라 브랜드만으로 모든 코덱이나 RAW 형식과의 호환성이 보장되지는 않습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "크리에이티브 룩을 추가하기 전에 로그 영상을 변환하세요"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>클립을 가져오세요.</strong> 가능한 원본 녹화본을 사용하고 녹화 프로필과 색역을 확인하세요.</li><li><strong>소스 프로필을 선택하세요.</strong> 색상 컨트롤에서 감지된 프로필을 확인하거나 일치하는 로그 옵션을 선택하세요.</li><li><strong>카메라 변환을 가져오세요.</strong> 카메라, 녹화 곡선, 색역과 일치하는 .cube 변환을 선택하세요. 예상 출력 색 공간은 해당 문서를 확인하세요. \"LUT 필요\"로 표시된 로그 프로필은 여전히 이 파일이 필요합니다.</li><li><strong>크리에이티브 LUT를 추가하세요.</strong> 변환된 이미지용으로 제작된 룩을 선택하세요. 범용 크리에이티브 팩은 정규화된 sRGB/Rec.709 입력을 기대합니다. 강도 컨트롤로 크리에이티브 효과를 조정하세요.</li><li><strong>검토한 후 내보내세요.</strong> 피부톤, 밝은 하늘, 그림자 디테일을 확인하세요. 편집과 미리보기는 무료로 제공되며, 완성된 비디오 저장에는 Creator가 필요합니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "기술적 변환은 한 번만 적용하세요. 다른 편집자가 이미 파일을 표준 SDR로 변환했다면, 원본 로그 변환을 다시 적용하는 대신 표준을 선택하세요. 이중 변환은 과도한 대비와 클리핑된 디테일을 초래할 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "크리에이티브 LUT 선택 및 가져오기에 대한 자세한 내용은<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-apply-lut-on-iphone\">iPhone에 LUT 적용하는 방법</a>을 참조하세요. <!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/best-free-luts-2026\">카메라 변환 리소스 및 스타터 룩</a>도 둘러볼 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "실제 영상의 전후 비교"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "슬라이더를 드래그하여 실제 스톡 영상 프레임과 예시적인 그레이딩을 비교하세요. 그레이딩되지 않은 프레임은 왼쪽에 있으며, Flat source(또는 디스플레이 준비가 된 도시 예시의 경우 Original)로 표시되고, 그레이딩된 결과는 오른쪽에 있습니다. 스톡 업로드는 카메라의 정확한 로그 곡선을 보증하지 않으므로, 이를 변환 참고 자료가 아닌 크리에이티브 예시로 간주하세요. 각 장면에는 영상 출처와 라이선스 링크가 포함되어 있습니다."
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "이 예시들은 무료 LUT 가이드와 동일한 실제 영상 및 스타터 룩을 사용합니다. 예시적인 밸런스는 보정된 제조사 변환이 아닙니다. 프로젝트에 적합한지 결정하기 전에 자신의 영상으로 룩을 평가하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "카메라 변환과 크리에이티브 LUT는 각각 다른 역할을 합니다"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong>카메라 변환</strong>은 특정 녹화 인코딩을 의도된 작업 또는 디스플레이 공간으로 매핑합니다. 로그 곡선과 색역 모두를 일치시키세요: \"log\"로 설명된 두 파일도 서로 다른 변환이 필요할 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong>크리에이티브 LUT</strong>는 변환된 이미지에 스타일을 입힙니다. 하이라이트를 따뜻하게 하거나, 섀도우를 차갑게 하거나, 채도를 낮출 수 있습니다. 잘못된 소스 변환을 교정할 수는 없으며, LUT만으로 필름 그레인이나 할레이션을 추가하지는 않습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip은 크리에이티브 룩 전에 제공된 카메라 변환을 적용합니다. 기술적 변환은 카메라 변환 컨트롤에, 스타일은 크리에이티브 룩 컨트롤에 유지하세요. 모든 .cube 파일이 동일한 목적을 수행한다고 가정하지 말고 각 LUT의 입력 요구사항을 확인하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "결과가 잘못 보인다면"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>여전히 흐릿한가요?</strong> 로그 프로필만 선택된 것이 아니라 카메라 변환이 로드되었는지 확인하세요.</li><li><strong>너무 대비가 강한가요?</strong> 변환이 두 번 적용되었는지 확인하고, 크리에이티브 LUT가 변환된 색 공간을 기대하는지 확인하세요.</li><li><strong>부자연스러운 색상인가요?</strong> 룩 강도를 높이기 전에 녹화 색역, 화이트 밸런스, 변환 파일을 다시 확인하세요.</li><li><strong>파일이 가져와지지 않나요?</strong> 비디오 컨테이너와 코덱을 확인하세요. Other log를 선택해도 그 외 지원되지 않는 비디오 형식에 대한 지원이 추가되지는 않습니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "자신의 영상으로 워크플로우를 시도해 보세요"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "얼굴과 중립적인 물체, 그리고 밝은 디테일이 포함된 짧은 클립으로 시작하세요. 크리에이티브 룩을 비활성화한 상태에서 카메라 컨버전을 검토한 다음, 중간 강도로 룩을 추가하세요. 다른 카메라의 클립은 여전히 개별적인 노출과 화이트 밸런스 조정이 필요할 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "컬러 프리뷰와 렌더링은 기기 내에서 실행됩니다. 업그레이드 전에 가져오기, 편집 및 프리뷰가 가능합니다. 비디오 내보내기에는 Creator가 필요하며, 일회성 구매 또는 월간 플랜으로 이용할 수 있습니다."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

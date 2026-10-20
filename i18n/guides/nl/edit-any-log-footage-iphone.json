@@ -1,0 +1,197 @@
+{
+  "slug": "edit-any-log-footage-iphone",
+  "title": "Hoe bewerk je log-beelden op iPhone: cameraconversie en creatieve LUTs",
+  "description": "Kies het juiste cameraprofiel, importeer een bijpassende conversie-LUT en voeg een creatieve look toe in ReelClip. Lees wat je moet controleren voordat je log-beelden exporteert.",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "category": "Toepassing",
+  "primaryKeyword": "bewerk log-beelden op iphone",
+  "readMinutes": 5,
+  "sourceFingerprint": "06c1c09f49209cd1d56211dced514a5598730100a21e51d77319301ec75bf9f6",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Log-beelden kunnen er wassen uit zien vóór kleurconversie. Om ze te graden, moet je eerst het opnameprofiel van de camera laten overeenkomen met de juiste technische transformatie, en vervolgens een creatieve look kiezen. ReelClip houdt deze twee stappen gescheiden, zodat je de stijl kunt aanpassen zonder de cameraconversie te vervangen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Het selecteren van een log-profiel installeert geen conversie-LUT. Je hebt een compatibel videobestand en een bijpassende camera-conversie-.cube-bestand nodig voor de hieronder beschreven log-werkstroom."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Welke cameraprofielen kun je selecteren?"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>DJI:</strong> D-Log, D-Log M en D-Log 2.</li><li><strong>Apple:</strong> Apple Log en Apple Log 2.</li><li><strong>HDR:</strong> HLG en PQ, afzonderlijk behandeld van geïmporteerde log-conversie-LUTs.</li><li><strong>Standaard:</strong> beelden die al geschikt zijn voor weergave.</li><li><strong>Overig log:</strong> een andere log-bron met een bijpassende geïmporteerde camera-transformatie.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Automatische detectie kan ondersteunde metadata en bestandsnaamhints gebruiken. Controleer de selectie tegen je camerainstellingen: een bestandsnaam is een suggestie, en overdrachten of eerdere bewerkingen kunnen de informatie die beschikbaar is voor de app wijzigen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sony, Canon, Panasonic en Blackmagic zijn geen benoemde profielvoorinstellingen in ReelClip. Voor beelden van deze camera's gebruik je Overig log met de juiste conversie-LUT, op voorwaarde dat de iPhone het videobestand kan decoderen. Een cameramerk alleen garandeert geen compatibiliteit met elke codec of RAW-indeling."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Converteer log-beelden voordat je een creatieve look toevoegt"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Importeer je clip.</strong> Gebruik waar mogelijk de originele opname en bevestig het opnameprofiel en de gamut.</li><li><strong>Kies het bronprofiel.</strong> Controleer in de kleurinstellingen het gedetecteerde profiel of selecteer de bijpassende log-optie.</li><li><strong>Importeer de camera-transformatie.</strong> Kies een .cube-conversie die overeenkomt met de camera, opnamecurve en gamut. Controleer de documentatie voor de verwachte uitvoerkleurruimte. Een log-profiel gemarkeerd met 'LUT needed' heeft dit bestand nog steeds nodig.</li><li><strong>Voeg een creatieve LUT toe.</strong> Selecteer een look bedoeld voor het geconverteerde beeld. De universele creatieve packs verwachten genormaliseerde sRGB/Rec.709-input. Gebruik de sterkteregelaar om het creatieve effect aan te passen.</li><li><strong>Controleer en exporteer.</strong> Controleer huidtinten, heldere luchten en schaduwdetails. Bewerken en voorvertonen zijn gratis beschikbaar; het opslaan van de voltooide video vereist Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pas de technische conversie één keer toe. Als een andere editor het bestand al naar standaard SDR heeft geconverteerd, selecteer je Standard in plaats van de oorspronkelijke log-conversie opnieuw toe te passen. Een dubbele conversie kan leiden tot excessief contrast en afgesneden details."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Meer over creatieve LUT-selectie en -import vind je in<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">hoe je een LUT toepast op iPhone</a>. Je kunt ook<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/best-free-luts-2026\">camera-conversiebronnen en starter looks</a> bekijken."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Vergelijk echte footage voor en na"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sleep de schuifregelaar om echte stock-footage-frames met illustratieve grades te vergelijken. Het ongegradeerde frame staat links, gelabeld Flat source (of Original voor het display-klare stadsvoorbeeld), en het gegradeerde resultaat staat rechts. Stock-uploads bevestigen niet de exacte log-curve van een camera, dus beschouw deze als creatieve voorbeelden, geen conversierefenties. Elke scène bevat de footage-bron en licentielink."
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Deze voorbeelden gebruiken dezelfde echte footage en starter looks als onze gratis LUT-gids. De illustratieve balans is geen gekalibreerde fabrikantconversie. Evalueer een look op je eigen footage voordat je besluit of deze bij je project past."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Camera-conversie en creatieve LUTs hebben verschillende functies"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Een <strong>camera-conversie</strong> zet een specifieke opnamecodering om naar de beoogde werk- of display-ruimte. Match zowel de log-curve als de kleurgamut: twee bestanden die als \"log\" worden beschreven, kunnen verschillende transformaties nodig hebben."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Een <strong>creatieve LUT</strong> geeft stijl aan het geconverteerde beeld. Deze kan highlights warmer maken, shadows koeler of de verzadiging verminderen. Deze kan een verkeerde brontransformatie niet corrigeren, en een LUT alleen voegt geen filmgrain of halation toe."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip past de meegeleverde camera-transformatie toe vóór de creatieve look. Houd de technische conversie in de camera-transform-control en de stijl in de creative-look-control. Controleer de invoervereisten van elke LUT in plaats van aan te nemen dat elk .cube-bestand hetzelfde doel dient."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Als het resultaat er verkeerd uitziet"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Nog steeds washed out?</strong> Bevestig dat een camera-transformatie is geladen, niet alleen een log-profiel is geselecteerd.</li><li><strong>Te contrastrijk?</strong> Controleer op een twee keer toegepaste conversie en bevestig dat de creatieve LUT je geconverteerde kleurruimte verwacht.</li><li><strong>Onnatuurlijke kleuren?</strong> Controleer de opname-gamut, witbalans en conversiebestand opnieuw voordat je de look-sterkte verhoogt.</li><li><strong>Importeert een bestand niet?</strong> Controleer de video-container en -codec. Other log selecteren voegt geen ondersteuning toe voor een anderszins niet-ondersteund videoformaat.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Probeer de workflow op je eigen footage"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Begin met een korte clip met een gezicht, neutrale objecten en enkele heldere details. Bekijk de camera-conversie met de creatieve look uitgeschakeld, en voeg daarna de look toe met een matige sterkte. Clips van verschillende camera's hebben mogelijk nog steeds individuele aanpassingen van belichting en witbalans nodig."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Kleurvoorbeeld en rendering draaien op het apparaat zelf. Je kunt importeren, bewerken en een voorbeeld bekijken voordat je upgradet. Video-export vereist Creator, beschikbaar als eenmalige aankoop of als maandelijks abonnement."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}
