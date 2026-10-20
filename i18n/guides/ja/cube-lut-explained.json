@@ -1,0 +1,146 @@
+{
+  "slug": "cube-lut-explained",
+  "title": ".cube LUTファイルとは？ フォーマット、テーブルサイズ、iPhoneへの読み込み方法",
+  "description": "1Dおよび3Dルックアップテーブル、17・33・65の意味、そしてReelClipで.cubeファイルをテストする方法を理解しよう。クリエイティブなルックとカメラ変換を混同しないことが重要だ。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "チュートリアル",
+  "primaryKeyword": "what is a .cube lut file",
+  "readMinutes": 4,
+  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": ".cubeファイルはルックアップテーブルを保存したものだ。色を変更するための数値マッピングの集合である。技術的なカメラ変換やクリエイティブなルックを記述できる。ファイル名だけでは、どちらであるか、あるいはどの録画プロファイルを想定しているかはわからない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "1Dテーブルと3Dテーブル"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "1D LUTは各色チャンネルを独立してマッピングする。3D LUTは赤・緑・青の組み合わせをマッピングするため、1つの出力チャンネルが複数の入力チャンネルに依存しうる。どちらもピントのずれを修正したり、ノイズを除去したり、録画時にクリップしたディテールを復元したりはしない。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": ".cubeフォーマットはプレーンテキストだ。ヘッダーでテーブルと入力範囲を記述し、その後にカラー値の行が続く。ファイル拡張子が互換性を保証するわけではない：エディターがサポートするテーブルサイズ、ヘッダー変種、テーブルの組み合わせは異なる場合がある。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "サイズ数値の意味"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "3Dテーブルでは、LUT_3D_SIZEは1辺の長さを示す。17点のキューブは17 × 17 × 17 = 4,913エントリを含む。33点のキューブは35,937、65点のキューブは274,625エントリを含む。これらの数値はサンプリンググリッドを表し、動画の解像度ではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "大きなテーブルはより多くのエントリを必要とするが、自動的に優れたルックになるわけではない。ファイルサイズはテキストの精度とフォーマットにも依存する。自分のエディターがサポートし、ソースプロファイルに適したファイルを選ぶ。数値が最大のものだけを選ぶべきではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "想定される入力を確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple Log、D-Log M、S-Log3用に作られたLUTは、その特定のソース解釈を前提としています。すでに正規化された映像用のクリエイティブLUTは、別の前提を持っています。エディタですでにカメラ変換が適用されている場合、さらに別の変換を重ねると、コントラストや色のずれが極端に生じることがあります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">AppleのLUTドキュメント</a>では、カメラLUTとカスタムクリエイティブエフェクトの違いが説明されています。Final Cut Proのコントロールは、ReelClipのインターフェースとは別のものです。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iPhoneでインポートしてテスト"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>ZIPファイルの場合は展開し、.cubeファイルをFilesからアクセスできる場所に保存します。</li><li>ReelClipで映像をインポートします。Adjust &amp; Styleを開き、LUTsを選択してからImport LUTを使います。</li><li>ルックを選択し、プレビューを元の映像と比較します。技術的な変換についてはファイル提供元の指示に従い、クリエイティブルックは自分の映像に合わせて調整します。</li><li>プロジェクト全体に適用する前に、短いレンダリングサンプルをReviewします。映像の保存にはCreatorが必要です。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">LUTインポートの解説記事</a>では、実際のクリエイティブルックのインポートと強度調整を紹介しています。すべてのカメラ変換やすべての.cubeバリアントを検証しているわけではありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ファイルがインポートできない場合"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "展開した.cubeファイルを選択しているか、ダウンロードが完了しているか、提供元がお使いのエディタをサポートしているかを確認してください。結合されたシェイパー/3Dテーブルや非対応のサイズの場合、別の互換性のある書き出しが必要になることがあります。数値の行を編集して無理やり読み込ませるのではなく、元のダウンロードファイルを保持してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "探索するソースについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/best-free-luts-2026\">無料LUTリソース</a>をご覧ください。自分の撮影素材に適した少数のファイルから始め、実際にテストしてみてください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

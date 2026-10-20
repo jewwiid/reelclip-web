@@ -8,7 +8,12 @@ import { localizedPath } from "./routing";
 export const SITE_URL = "https://www.reelclips.app";
 
 export function localesForPage(path: string): Locale[] {
-  const document = path === "/blog" || path.startsWith("/blog/") || path === "/privacy" || path === "/terms"
+  if (path.startsWith("/blog/")) {
+    const slug = path.slice("/blog/".length);
+    if (!/^[a-z0-9-]+$/.test(slug)) return [];
+    return LOCALES.filter(({ code }) => code === "en" || existsSync(join(process.cwd(), "i18n", "guides", code, `${slug}.json`))).map(({ code }) => code);
+  }
+  const document = path === "/privacy" || path === "/terms"
     ? path.slice(1)
     : null;
 

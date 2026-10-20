@@ -1,0 +1,130 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "iPhoneでDJI映像を編集する方法：読み込み、瞬間を選び、結果を確認する",
+  "description": "DJI映像をReelClipに読み込み、タスクに応じてSlice、Cut、Transcriptのいずれかを選び、色と字幕を確認してから保存前にレビューする。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "使い方",
+  "primaryKeyword": "iphoneでdji osmo映像を編集",
+  "readMinutes": 4,
+  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iPhoneでDJI映像を編集するには、元の録画をアクセスできる場所に転送し、ReelClipで読み込んで、瞬間を選ぶ方法を選ぶ。保存する前に色、構図、字幕を確認してから、公開ワークフロー用のクリップとして保存する。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "転送時は元ファイルを保持する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラとiPhoneでサポートされている転送方法を使う。元のカメラファイルとその録画モードのメモを保持し、すでに処理済みの共有コピーに頼らないようにする。ファイルがクラウドストレージにある場合は、編集を始める前に利用可能であることを確認する。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラ固有の転送手順については、お使いの機種の<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJIダウンロードおよびマニュアルリソース</a>を参照する。転送のサポートはカメラ、ストレージ、接続環境によって異なり、Osmo、Action、ドローンのすべてで同じ方法が保証されるわけではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "タスクに応じた編集モードを選ぶ"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Sliceでは時間枠を選び、欲しい瞬間に移動して端を微調整できる。</li><li>Cutではクリップ数、長さ、間隔のコントロールでクリップを計画する。保存前に選んだ瞬間をレビューする。</li><li>Transcriptは音声録画に便利：認識された言葉を読み、誤りを確認して文脈の中で区間を選ぶ。</li><li>AIは必要なデバイス機能が利用可能な場合、プロンプトから瞬間を計画するのに役立つ。提案されたカットは自分でレビューする。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ja/blog/edit-vertical-video-on-iphone\">Sliceの使い方ガイド</a>と<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cutの使い方ガイド</a>で実際の選択コントロールを紹介している。アプリはクリップを準備するもので、ソーシャルプラットフォームに直接投稿するものではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "カラープロファイルを確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJIの記録モードは機種によって異なります。すべてのファイルに同じLUTを適用するのではなく、ソースに合わせて変換してください。Normal、D-Cinelike、D-Log M、HLGを同じフォーマットとして扱うべきではありません。プロファイルの識別については<a class=\"text-accent hover:underline\" href=\"/ja/blog/dji-osmo-pocket-color-grading\">Pocketカラーガイド</a>、操作方法については<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">LUTインポートデモ</a>をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "キャプション、フレーミング、音声を確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "キャプションを実際の音声と照らし合わせて、認識エラーを修正してください。編集箇所を再生して、言葉やジェスチャーが不自然に切れていないか確認してください。時間範囲を短く選んだだけでは、ワイドショットが縦型投稿用にリフレームされるわけではないため、映像は別途確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "記録時間、コーデック、デバイスの状態によって処理時間が変わります。書き出し時間や文字起こし時間について固定の約束に頼るのではなく、代表的な部分をプレビューしてください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "確認したバージョンを保存する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Reviewを開き、レンダリング結果を確認して、必要なクリップを保存してください。動画の保存にはCreatorが必要です。カラーやキャプション設定を変更した場合は特に、実際のファイルをPhotosで確認してから共有してください。あとで別のバージョンを作れるよう、ソースは残しておいてください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to apply a .cube LUT on iPhone",
   description: "Import a .cube LUT from Files, adjust its strength and compare the preview in ReelClip. Includes a short recording of the actual controls.",
   publishedAt: "2026-08-25",
-  updatedAt: "2026-10-19",
+  updatedAt: "2026-10-20",
   category: "How-to" as const,
   primaryKeyword: "how to apply a lut on iphone",
   readMinutes: 4,
@@ -22,14 +22,17 @@ export default function Post() {
           footage and colour setup; a creative look and a camera conversion
           serve different purposes.
         </PostP>
-        <GuideVideo id="apply-lut" title="Watch: import a saved LUT and adjust its strength"
-          description="11-second demo from our existing feature library. It shows a saved ReelClip look in Files, then the LUT controls and preview. This is a creative-look example, not a camera-specific log conversion or a completed export. Silent video with English step captions."
-          steps={[
-            "Save your .cube file somewhere available in the Files picker.",
-            "In Adjust & Style, choose LUTs and use Import LUT.",
-            "Select the look, adjust its strength and compare the preview.",
-          ]}
-        />
+        <GuideVideo id="apply-lut" />
+        <PostH2>Choose the correct input before a creative look</PostH2>
+        <PostP>
+          Normalize Log or HDR footage before applying a display-ready creative
+          LUT. ReelClip’s own exported creative LUTs use encoded sRGB; Rec.709
+          shares its primaries but has different transfer behavior. Match the
+          LUT’s documented input, and avoid applying camera normalization twice.
+          Our original starter collection is currently being tested. See the
+          {" "}<PostLink href="/blog/best-free-luts-2026">free LUT resource guide</PostLink>
+          {" "}for its development status and official camera resources.
+        </PostP>
         <PostH2>Bring the file into ReelClip</PostH2>
         <PostOl>
           <li>Import the video you want to edit.</li>

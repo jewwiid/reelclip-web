@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "iPhone에서 팟캐스트 하이라이트 추출하는 방법",
+  "description": "트랜스크립트를 사용해 팟캐스트 영상의 발언 순간을 찾고 검토하며, 자막을 확인하고 iPhone에서 내보낼 클립을 준비하세요.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "사용 사례",
+  "primaryKeyword": "팟캐스트 하이라이트 클리핑 방법",
+  "readMinutes": 4,
+  "sourceFingerprint": "d11358c74169a1ab6dd7eabadd2937aac4809eb4ffe4881a0bda71c63293c6c1",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "트랜스크립트는 전체 녹음을 반복해서 스크러빙하지 않고도 발언 순간을 찾는 데 도움이 됩니다. 팟캐스트나 인터뷰 영상으로 시작한 다음, 트랜스크립트를 읽고 주변 구간을 재생한 후 클립을 선택하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "에피소드를 듣지 않은 사람을 위해 충분한 맥락을 유지하세요. 인용할 만한 문장도 앞에 나온 질문이나 설명이 여전히 필요할 수 있습니다."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "구간 찾기 및 선택"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Photos 또는 Files에서 영상을 가져와 Transcript를 선택하세요.</li><li>전사가 완료될 때까지 기다린 후, 이름과 잘못 인식된 단어를 확인하세요.</li><li>텍스트를 읽고 후보 구간을 맥락과 함께 재생하세요.</li><li>원하는 구간에 대해 Add as clip을 사용하거나, 이미 시간 범위를 알고 있다면 Slice를 사용하세요.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "녹화된 인터페이스에는 트랜스크립트 구간 옆에 Add as clip이 표시됩니다. 데모에서는 편집에서 단어가 제거된 것도 보여줍니다. 단어를 제거하면 영상 편집이 변경되므로, 단순한 철자 교정이 아니라 해당 컷에서 직접 들어보세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "자막 및 소리 검토"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "내보내기 전에 각 후보 클립을 미리 보세요. 시작, 끝, 제거된 발언을 확인하세요. 자막을 사용하는 경우, 화면 위의 단어와 배치를 검토하세요. 편집기 미리 보기뿐 아니라 최종 저장 파일에서도 자막을 확인하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "영상 저장과 별도로 텍스트 및 자막 옵션을 위해 트랜스크립트의 Export 메뉴를 확인할 수 있습니다. 긴 조용한 공백에 대해서는<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/remove-silence-from-video-free\">무음 구간 정리</a>을 참조하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "게시할 클립을 저장하세요"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "검토를 선택하여 준비된 결과물을 확인한 다음 사진에 저장하세요. 내보내기에는 Creator가 필요합니다. 선택한 플랫폼에 업로드하기 전에 저장된 파일과 프레이밍을 확인하세요. 녹음과 기기에 따라 전사 및 렌더링 시간이 달라지며, 고정된 처리 시간이나 보장된 유용한 하이라이트 수는 없습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "일정한 간격의 클립이 전사 선택보다 녹음에 더 적합할 때 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->을 사용하세요."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

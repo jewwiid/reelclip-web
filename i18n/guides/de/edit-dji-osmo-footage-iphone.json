@@ -1,0 +1,130 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "So bearbeitest du DJI-Material auf dem iPhone: importieren, Momente auswählen und Ergebnis überprüfen",
+  "description": "Bringe DJI-Material in ReelClip, wähle für die Aufgabe Slice, Cut oder Transcript, prüfe Farbe und Untertitel, dann überprüfe vor dem Speichern.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Anleitung",
+  "primaryKeyword": "dji osmo material auf iphone bearbeiten",
+  "readMinutes": 4,
+  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "schemaVersion": 1,
+  "locale": "de",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Um DJI-Material auf dem iPhone zu bearbeiten, übertrage die Originalaufnahme an einen Ort, auf den du zugreifen kannst, importiere sie in ReelClip und wähle, wie du Momente auswählen möchtest. Prüfe Farbe, Bildschnitt und Untertitel, bevor du die Clips für deinen Veröffentlichungs-Workflow speicherst."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Behalte das Original bei der Übertragung"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verwende eine Übertragungsmethode, die deine Kamera und dein iPhone unterstützen. Behalte die Originalkameradatei und eine Notiz zum Aufnahmemodus bei, statt dich auf eine bereits verarbeitete Freigabekopie zu verlassen. Wenn sich die Datei im Cloud-Speicher befindet, stelle sicher, dass sie verfügbar ist, bevor du mit dem Schnitt beginnst."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Für kameraspezifische Übertragungsschritte nutze die <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI-Download- und Handbuchressourcen</a> für dein Modell. Die Übertragungsunterstützung hängt von Kamera, Speicher und Verbindung ab; eine Methode ist nicht für jedes Osmo, Action oder jede Drohne garantiert."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wähle den Schnittmodus für die Aufgabe"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Slice lässt dich ein Zeitfenster wählen, es zum gewünschten Moment verschieben und die Ränder verfeinern.</li><li>Cut plant Clips mit den Steuerungen für Anzahl, Dauer und Abstand. Überprüfe die ausgewählten Momente vor dem Speichern.</li><li>Transcript ist für gesprochene Aufnahmen nützlich: lies die erkannten Wörter, prüfe Fehler und wähle die Passage im Kontext.</li><li>AI kann bei verfügbaren erforderlichen Gerätefunktionen Momente aus einer Eingabeaufforderung planen. Überprüfe die vorgeschlagenen Schnitte selbst.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Die <a class=\"text-accent hover:underline\" href=\"/de/blog/edit-vertical-video-on-iphone\">Slice-Anleitung</a> und <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">Cut-Anleitung</a> zeigen die tatsächlichen Auswahlsteuerungen. Die App bereitet Clips vor; sie veröffentlicht sie nicht direkt auf sozialen Plattformen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Prüfe das Farbprofil"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI-Aufnahmemodi unterscheiden sich je nach Modell. Passe die Konvertierung an die Quelle an, statt dieselbe LUT auf jede Datei anzuwenden. Normal, D-Cinelike, D-Log M und HLG sollten nicht als ein Format behandelt werden. Sieh dir den <a class=\"text-accent hover:underline\" href=\"/de/blog/dji-osmo-pocket-color-grading\">Pocket-Farb-Guide</a> zur Profilidentifikation und die <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-apply-lut-on-iphone\">LUT-Import-Demo</a> für die Steuerung an."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Untertitel, Bildaufbau und Ton prüfen"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Lies die Untertitel anhand der gesprochenen Aufnahme durch und korrigiere Erkennungsfehler. Spiele die Schnitte ab, um zu prüfen, dass Wörter und Gesten nicht abrupt abgeschnitten werden. Die Wahl eines kürzeren Zeitbereichs rahmt an sich kein Weitwinkelbild für einen vertikalen Beitrag neu, also prüfe das Bild separat."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Unterschiedliche Aufnahmelängen, Codecs und Gerätebedingungen beeinflussen die Verarbeitung. Sieh dir einen repräsentativen Abschnitt in der Vorschau an, statt dich auf eine feste Zusage bezüglich Transkriptions- oder Exportzeit zu verlassen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Die geprüfte Version speichern"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Öffne Review, schau dir das gerenderte Ergebnis an und speichere die Clips, die du möchtest. Das Speichern von Video erfordert Creator. Prüfe die tatsächliche Datei in Fotos, bevor du teilst, besonders wenn du Farb- oder Untertiteleinstellungen geändert hast. Bewahre die Quelle auf, damit du später eine andere Version erstellen kannst."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

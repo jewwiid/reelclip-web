@@ -1,0 +1,118 @@
+{
+  "slug": "how-to-apply-lut-on-iphone",
+  "title": "iPhone पर .cube LUT कैसे लागू करें",
+  "description": "Files से .cube LUT आयात करें, ReelClip में इसकी तीव्रता समायोजित करें और पूर्वावलोकन की तुलना करें। वास्तविक नियंत्रणों की एक छोटी रिकॉर्डिंग शामिल है।",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "कैसे करें",
+  "primaryKeyword": "iphone पर lut कैसे लागू करें",
+  "readMinutes": 4,
+  "sourceFingerprint": "fedab8fcd0019d84b55c753bbdb6002b2165d01a734f05ec0c27b70bb473da71",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "यदि आपके पास पहले से .cube LUT है, तो आप इसे Files से आयात कर सकते हैं और ReelClip में इसकी तीव्रता समायोजित कर सकते हैं। अपने फुटेज और कलर सेटअप के लिए बनाए गए LUT से शुरुआत करें; एक क्रिएटिव लुक और कैमरा कनवर्जन अलग-अलग उद्देश्यों की पूर्ति करते हैं।"
+    },
+    {
+      "kind": "tutorial",
+      "id": "apply-lut"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "क्रिएटिव लुक से पहले सही इनपुट चुनें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "डिस्प्ले-रेडी क्रिएटिव LUT लागू करने से पहले Log या HDR फुटेज को नॉर्मलाइज़ करें। ReelClip के अपने निर्यात किए गए क्रिएटिव LUTs एन्कोडेड sRGB का उपयोग करते हैं; Rec.709 उसी प्राइमरीज़ साझा करता है लेकिन अलग ट्रांसफर व्यवहार होता है। LUT के दस्तावेज़ीकृत इनपुट से मिलान करें, और कैमरा नॉर्मलाइज़ेशन दो बार लागू करने से बचें। हमारा मूल स्टार्टर कलेक्शन वर्तमान में परीक्षणाधीन है। इसके विकास स्थिति और आधिकारिक कैमरा संसाधनों के लिए<!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/best-free-luts-2026\">मुफ्त LUT संसाधनों की गाइड</a> <!-- -->देखें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "फ़ाइल को ReelClip में लाएं"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>वह वीडियो आयात करें जिसे आप संपादित करना चाहते हैं।</li><li>Adjust &amp; Style खोलें और LUTs चुनें।</li><li>Import LUT टैप करें और Files से .cube फ़ाइल चुनें।</li><li>LUT लाइब्रेरी में आयात किए गए लुक का चयन करें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "डेमो Creative टैब और पहले से सहेजे गए ReelClip लुक का उपयोग करता है। एक बार LUT आपकी लाइब्रेरी में दिखाई देने के बाद, इसे चुनें और अपने अपने फुटेज पर इसके प्रभाव की जाँच करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "अपने फुटेज के विरुद्ध तीव्रता की जाँच करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "तीव्रता स्लाइडर को हिलाएं और परिणाम की मूल के साथ तुलना करें। फुटेज चलते समय त्वचा, चमकदार क्षेत्र और गहरे विवरण की जाँच करें। उदाहरण 68% तक पहुँचता है; यह मान इस नमूने से संबंधित है न कि हर क्लिप के लिए एक अनुशंसित सेटिंग।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "कैमरा कन्वर्जन के लिए, LUT के साथ दिए गए निर्देशों का पालन करें और सोर्स रिकॉर्डिंग प्रोफाइल से मिलान करें। यह मान लेना गलत है कि एक लॉग प्रोफाइल के लिए बना LUT दूसरे के लिए उपयुक्त होगा। यहाँ दिया गया नमूना आयात और एडजस्टमेंट कंट्रोल्स स्थापित करता है, हर कैमरा या LUT फाइल के लिए सपोर्ट नहीं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "फिनिश्ड वीडियो की समीक्षा करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एडजस्टमेंट पूरा करें, Review खोलें और रेंडर किए गए आउटपुट की जाँच करें। वीडियो सेव करने के लिए Creator की आवश्यकता होती है। शेयर करने से पहले वास्तविक सेव की गई फाइल की जाँच करें, खासकर अगर एडिट के दौरान कलर या HDR सेटिंग्स बदली हों।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "फाइल के बारे में अधिक जानकारी के लिए, पढ़ें<!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/cube-lut-explained\">.cube LUT में क्या होता है</a>।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

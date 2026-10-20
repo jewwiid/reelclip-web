@@ -1,0 +1,126 @@
+{
+  "slug": "remove-silence-from-video-free",
+  "title": "iPhoneで動画の無音部分を削除する方法",
+  "description": "ReelClipのTranscript一時停止コントロールを使い、タイミングを確認して編集後の動画をチェックしてください。エクスポート前にプレビューします。保存にはCreatorが必要です。",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "使い方",
+  "primaryKeyword": "remove silence from video iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "9a701754e964c936bcb9d96dd8481ed604129f29630a9effc2777b88f8eb6f1e",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "長い間隔があると、話している動画が遅く感じられます。ReelClipのTranscriptモードを使えば、iPhoneで一時停止を削除し、結果の動画を確認できます。エクスポートを決定する前に編集をプレビューしてください。出力の保存にはCreatorが必要です。"
+    },
+    {
+      "kind": "tutorial",
+      "id": "pause-cleanup"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "一時停止コントロールを見つける"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>動画をインポートしてTranscriptを選択してください。文字起こしが完了するまでお待ちください。</li><li>Audioを開き、Cleanupを見つけてRemove pausesをオンにしてください。</li><li>Cut timingを展開して、一時停止のしきい値と音声の周囲に残すSpaceを確認してください。</li><li>Audioをもう一度タップしてパネルを閉じ、文字起こしの一時停止を確認してください。</li><li>Review videoを選択して、編集結果を準備して再生してください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "録画された例では、0.35秒を超えるポーズがカットされています。これはあくまで例であり、すべての録音に必要な設定ではありません。しきい値を低くすると、より短い間隔も削除されます。自然な話し方や意味を持つポーズに十分な余裕を残すようにしてください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "どの一時停止が削除されるか確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "緑のAuto keepは編集に一時停止を残します。赤のAuto removeまたはRemoveは削除対象としてマークします。出力を確認する前に、長い一時停止自体のラベルを確認してください。再生ボタンはその間隔を聴くためだけです。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "自分で1つの間隔を削除するには、そのPauseアクションメニューを開いてRemove pauseを選択してください。Review videoを選ぶ前に、削除マーカーを再度確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "カット位置で聴く"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ヘッドフォンやスピーカーを使って、各フレーズの冒頭と末尾を確認してください。息継ぎや単語の終わりが切れているように感じたら、タイミングを調整して再度確認してください。文字起こしも確認してください。認識エラーにより、編集が予想と異なる動作をすることがあります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "無音削除とフィラー語削除は別々のコントロールです。まず必要な変更から始めて、結果を聞いてからさらにクリーンアップを追加してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "確認したバージョンを保持する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "出力を確認したら、「写真に保存」を使用して完了を待ってください。元の録画はそのまま残ります。字幕ファイルが必要な場合は、動画保存でSRTやVTTファイルも作成されると想定せず、別途文字起こしのエクスポートオプションを確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "特定の発話の瞬間を選択するには、<!-- --><a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">ポッドキャストクリッピングガイド</a>を参照してください。定期的な間隔のクリップには、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cut</a>を使用してください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

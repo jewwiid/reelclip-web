@@ -2,7 +2,8 @@ import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
-import { LocalizedStaticPage } from "@/components/localized-static-page";
+import { LocalizedGuide } from "@/components/localized-guide";
+import { getTranslatedGuide } from "@/i18n/guide-content";
 import {
   BlogPostingJsonLd,
   BreadcrumbJsonLd,
@@ -11,6 +12,8 @@ import { BLOG_POSTS, getPostBySlug } from "../posts";
 import { getRequestLocale } from "@/i18n/server";
 import { localizedMetadata, localesForPage, pageUrl } from "@/i18n/seo";
 import { getLocalizedBlogMetadata } from "@/i18n/blog-metadata";
+import { getGuideVideoForPost } from "@/lib/guide-videos";
+import sourceVersions from "@/i18n/guides/source-versions.json";
 
 /**
  * Dynamic route for blog posts. Each post is a standalone React component
@@ -34,14 +37,15 @@ export async function generateMetadata({
 
   const locale = await getRequestLocale();
   const translated = getLocalizedBlogMetadata(locale, slug);
+  if (locale !== "en" && !translated) return {};
   const title = translated?.title ?? post.title;
   const description = translated?.description ?? post.description;
   const path = `/blog/${post.slug}`;
   const url = pageUrl(locale, path);
   return localizedMetadata(locale, path, {
-    title: `${title} · ReelClip Blog`,
+    title: `${title} · ReelClip`,
     description,
-    keywords: [translated?.primaryKeyword ?? post.primaryKeyword, post.category, "video editing iphone"],
+    keywords: [translated?.primaryKeyword ?? post.primaryKeyword],
     authors: [{ name: "ReelClip" }],
     openGraph: {
       title,
@@ -69,7 +73,11 @@ export default async function PostPage({
   if (!post) notFound();
   const locale = await getRequestLocale();
   if (!localesForPage(`/blog/${slug}`).includes(locale)) notFound();
-  if (locale !== "en") return <LocalizedStaticPage locale={locale} document={`blog/${slug}`} />;
+  if (locale !== "en") {
+    const guide = await getTranslatedGuide(locale, slug);
+    if (!guide) notFound();
+    return <LocalizedGuide guide={guide} />;
+  }
 
   // Lazy-import the matching content component.
   // The blog registry is the source of truth for slugs.
@@ -99,8 +107,8 @@ export default async function PostPage({
         datePublished={post.publishedAt}
         dateModified={post.updatedAt}
       />
-      <Nav />
-      <main className="px-6 sm:px-10 py-12 sm:py-16 max-w-3xl mx-auto">
+      <Nav availableLocales={localesForPage(`/blog/${slug}`)} />
+      <main data-guide-locale="en" data-source-version={(sourceVersions as Record<string, string>)[slug]} className={`mx-auto px-5 py-10 sm:px-10 sm:py-14 ${getGuideVideoForPost(slug) ? "max-w-6xl" : "max-w-3xl"}`}>
         <PostComponent />
       </main>
       <Footer />

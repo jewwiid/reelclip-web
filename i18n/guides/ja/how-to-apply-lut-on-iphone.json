@@ -1,0 +1,118 @@
+{
+  "slug": "how-to-apply-lut-on-iphone",
+  "title": "iPhoneで.cube LUTを適用する方法",
+  "description": "Filesから.cube LUTを読み込み、強度を調整してReelClipでプレビューを比較します。実際のコントロールの短い録画付き。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "使い方",
+  "primaryKeyword": "iphoneでlutを適用する方法",
+  "readMinutes": 4,
+  "sourceFingerprint": "fedab8fcd0019d84b55c753bbdb6002b2165d01a734f05ec0c27b70bb473da71",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "すでに.cube LUTをお持ちの場合、Filesから読み込んでReelClipで強度を調整できます。映像とカラーセットアップ用のLUTから始めてください。クリエイティブルックとカメラ変換は異なる目的を持っています。"
+    },
+    {
+      "kind": "tutorial",
+      "id": "apply-lut"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "クリエイティブルックの前に正しい入力を選択"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "LogやHDR映像を、表示用のクリエイティブLUTを適用する前に正規化してください。ReelClipのエクスポート済みクリエイティブLUTはエンコードされたsRGBを使用します。Rec.709は原色を共有しますが、異なるトランスファー特性を持ちます。LUTのドキュメントに記載された入力に合わせ、カメラ正規化を2回適用しないでください。オリジナルのスターターコレクションは現在テスト中です。開発状況と公式カメラリソースについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/best-free-luts-2026\">無料LUTリソースガイド</a> <!-- -->をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ファイルをReelClipに読み込む"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>編集したい映像を読み込みます。</li><li>Adjust &amp; Styleを開き、LUTsを選択します。</li><li>Import LUTをタップし、Filesから.cubeファイルを選択します。</li><li>LUTライブラリで読み込んだルックを選択します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "デモではCreativeタブと、あらかじめ保存したReelClipのルックを使用しています。LUTがライブラリに表示されたら、それを選択して自分の映像での効果を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "強度を映像で確認"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "強度スライダーを動かし、結果を元と比較します。映像が再生される中で、肌色、明るい部分、暗い部分のディテールを確認してください。サンプルでは68%になっていますが、この値はこのサンプル専用であり、すべてのクリップに推奨される設定ではありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラ変換の場合は、LUTに付属の説明に従い、ソースの録画プロファイルと一致させてください。あるログプロファイル用に作成されたLUTが別のプロファイルに適していると仮定しないでください。こちらのサンプルは、すべてのカメラやLUTファイルをサポートするものではなく、インポートと調整コントロールの確立を目的としています。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "完成した動画を確認"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "調整を完了したら、Reviewを開いてレンダリングされた出力を確認してください。動画の保存にはCreatorが必要です。編集中にカラーやHDRの設定を変更した場合は、特に共有する前に実際に保存されたファイルを確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ファイル自体の背景情報については、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/cube-lut-explained\">.cube LUTに含まれるもの</a>をお読みください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

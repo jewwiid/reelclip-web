@@ -20,19 +20,7 @@ const locales = [
 const documents = [
   ["privacy", "/privacy"],
   ["terms", "/terms"],
-  ["blog", "/blog"],
-  ["blog/best-free-luts-2026", "/blog/best-free-luts-2026"],
-  ["blog/edit-vertical-video-on-iphone", "/blog/edit-vertical-video-on-iphone"],
-  ["blog/dji-osmo-pocket-3-luts", "/blog/dji-osmo-pocket-3-luts"],
-  ["blog/cube-lut-explained", "/blog/cube-lut-explained"],
-  ["blog/dji-d-log-to-rec709-iphone", "/blog/dji-d-log-to-rec709-iphone"],
-  ["blog/dji-osmo-pocket-color-grading", "/blog/dji-osmo-pocket-color-grading"],
-  ["blog/edit-dji-osmo-footage-iphone", "/blog/edit-dji-osmo-footage-iphone"],
-  ["blog/how-to-apply-lut-on-iphone", "/blog/how-to-apply-lut-on-iphone"],
-  ["blog/capcut-alternative-no-watermark", "/blog/capcut-alternative-no-watermark"],
-  ["blog/how-to-cut-long-video-for-tiktok", "/blog/how-to-cut-long-video-for-tiktok"],
-  ["blog/extract-clip-from-podcast", "/blog/extract-clip-from-podcast"],
-  ["blog/remove-silence-from-video-free", "/blog/remove-silence-from-video-free"],
+
 ];
 
 const requestedLocales = process.argv.filter((argument) => !argument.startsWith("--")).slice(2);
@@ -44,7 +32,7 @@ const targets = requestedLocales.length === 0 ? locales : requestedLocales.map((
 });
 const selectedDocuments = requestedDocuments.length === 0 ? documents : requestedDocuments.map((name) => {
   const document = documents.find(([documentName]) => documentName === name);
-  if (!document) throw new Error(`Unknown document '${name}'.`);
+  if (!document) throw new Error(`Unknown static document '${name}'. Blog guides use scripts/localize-guides.py and the source-version checks; do not recreate frozen blog HTML.`);
   return document;
 });
 

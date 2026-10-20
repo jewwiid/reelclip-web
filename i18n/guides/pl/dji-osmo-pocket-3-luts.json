@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-3-luts",
+  "title": "DJI Osmo Pocket 3 LUT-y: oficjalne pobieranie i workflow na iPhone'a",
+  "description": "Znajdź oficjalny LUT DJI Pocket 3 D-Log M do Rec.709, zidentyfikuj swój tryb nagrywania i przetestuj pasujący plik .cube na iPhonie.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Podsumowanie",
+  "primaryKeyword": "dji osmo pocket 3 luty",
+  "readMinutes": 4,
+  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Jeśli nagrałeś wideo Osmo Pocket 3 w trybie D-Log M, zacznij od konwersji DJI dla tego aparatu i profilu. Jeśli nagrywałeś w trybie Normal lub HLG, wybierz workflow dla tego trybu. Samo płaskie wyglądające ujęcie nie wystarczy, aby zidentyfikować format nagrania."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Pobierz oficjalny LUT Pocket 3"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI publikuje <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M do Rec.709</a>. Pobierz plik z DJI i postępuj zgodnie z instrukcjami. <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">Oficjalny katalog LUT</a> również dzieli zasoby według modelu aparatu."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "D-Log i D-Log M to osobne profile. Nie zastępuj pliku przeznaczonego dla innej krzywej nagrywania tylko dlatego, że oba aparaty są produkcji DJI. Oryginalny Osmo Pocket i Pocket 2 używają D-Cinelike, a nie workflow D-Log M z Pocket 3."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Konwersja i looki kreatywne służą różnym celom"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Konwersja z aparatu przygotowuje źródło do docelowego formatu, takiego jak Rec.709. Look kreatywny zmienia wygląd zgodnie ze zadeklarowanym wejściem. Przeczytaj instrukcje dostawcy: niektóre looki oczekują Log bezpośrednio, podczas gdy inne wymagają już znormalizowanego obrazu."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Jeśli edytor już poprawnie interpretuje lub konwertuje źródło, unikaj dodawania tej samej konwersji dwa razy. Nie istnieje uniwersalna zasada, że każdy kreatywny LUT powinien być nakładany po każdym innym LUT z ustaloną siłą."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przetestuj swój plik na iPhonie"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Zachowaj oryginalny plik z kamery i zanotuj tryb nagrywania. Przenieś go w miejsce dostępne dla iPhone'a.</li><li>Jeśli to konieczne, wypakuj pobrany plik .cube i udostępnij go w aplikacji Pliki.</li><li>W ReelClip otwórz klip i użyj opcji Adjust & Style → LUTs → Import LUT. Wybierz zaimportowany plik i sprawdź podgląd.</li><li>W przypadku konwersji technicznej postępuj zgodnie z wymaganiami dotyczącymi wejścia określonymi przez dostawcę. Sprawdź skórę, światła i nasycone kolory w kilku fragmentach nagrania.</li><li>Przed kolorowaniem całego projektu przejrzyj krótki zapisany fragment. Zapisywanie wideo wymaga subskrypcji Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Nasz <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">przewodnik po imporcie</a> pokazuje obsługę kontrolek z użyciem stylu kreatywnego. Nie gwarantuje on skalibrowanej konwersji dla każdego pliku DJI ani nie obiecuje, że wyeksportowany materiał będzie identyczny z wynikiem z innego edytora."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wybieraj dodatkowe style z rozwagą"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zachowaj instrukcje autora i licencję przy każdym pobraniu. Darmowa kolekcja kreatywna nie musi być dedykowana Pocket 3. <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">Przewodnik po darmowych LUT-ach</a> zawiera linki do oficjalnych źródeł i wyjaśnia, jak wybierać według oczekiwanego wejścia."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W przypadku materiału z innego modelu Pocket zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/dji-osmo-pocket-color-grading\">dopasowanie profilu nagrywania Pocket</a>. Aby przycinać i dodawać napisy po pracy z kolorem, użyj <a class=\"text-accent hover:underline\" href=\"/pl/blog/edit-dji-osmo-footage-iphone\">workflow edycji DJI</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

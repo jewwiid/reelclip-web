@@ -19,12 +19,14 @@ export function NavClient({
   locale,
   links,
   labels,
-  language
+  language,
+  availableLocales,
 }: {
   locale: Locale;
   links: NavLink[];
   labels: Dictionary["nav"];
   language: Dictionary["language"];
+  availableLocales?: Locale[];
 }) {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -52,7 +54,7 @@ export function NavClient({
               {link.label}
             </Link>
           ))}
-          <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} />
+          <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} availableLocales={availableLocales} />
           <AppStoreLink
             target="_blank"
             rel="noreferrer"
@@ -64,7 +66,9 @@ export function NavClient({
         </div>
 
         <div className="flex items-center gap-2 lg:hidden">
-          <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} />
+          <div className="hidden sm:block">
+            <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} availableLocales={availableLocales} />
+          </div>
           <AppStoreLink
             target="_blank"
             rel="noreferrer"
@@ -91,6 +95,9 @@ export function NavClient({
 
       {isMenuOpen && (
         <div id="mobile-navigation" className="absolute inset-x-0 top-full border-b border-hairline bg-bg/98 px-5 py-5 shadow-2xl backdrop-blur-md lg:hidden">
+          <div className="mx-auto mb-4 max-w-lg sm:hidden">
+            <LanguageSwitcher locale={locale} label={language.label} selectLabel={language.select} availableLocales={availableLocales} />
+          </div>
           <div className="mx-auto grid max-w-lg grid-cols-2 gap-2">
             {links.map((link) => (
               <Link

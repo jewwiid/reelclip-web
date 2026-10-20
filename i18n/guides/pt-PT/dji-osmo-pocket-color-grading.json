@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-color-grading",
+  "title": "Gradação de cor no DJI Osmo Pocket com iPhone: escolher o perfil de gravação correto",
+  "description": "Distinguir D-Cinelike, D-Log M e outros perfis do Pocket, escolher uma conversão adequada e rever alterações de cor criativas no seu iPhone.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Caso de utilização",
+  "primaryKeyword": "color grading dji osmo pocket",
+  "readMinutes": 4,
+  "sourceFingerprint": "40842a7435a08ec30100ef78d30833c2c6094e1483b8bb9358150e8bf9a58666",
+  "schemaVersion": 1,
+  "locale": "pt-PT",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O gradação de cor de filmagens do Pocket começa com o modo de gravação, não apenas com o número da geração. Estabeleça como a fonte deve ser interpretada antes de adicionar um aspeto criativo. Uma gravação que já tem um aspeto Normal acabado não precisa de uma conversão Log apenas porque veio de uma câmara DJI."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Verifique o seu modelo e modo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">referência de perfis e LUTs da DJI</a> lista o Osmo Pocket original e o Pocket 2 com D-Cinelike, o Pocket 3 com D-Log M e o Pocket 4 com D-Log. Trate as variantes separadamente e verifique a entrada atual para a sua câmara; essas designações não são intercambiáveis."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utilize em conjunto as definições da gravação original, os metadados suportados e a documentação da câmara. Uma imagem com aspeto flat não é prova da sua curva ou gamut. Uma cópia guardada através de outra aplicação de edição pode já ter sido transformada."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Prepare a imagem antes de lhe aplicar estilo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para material Log, escolha uma conversão destinada à câmara e ao perfil. Consulte os <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">recursos oficiais da DJI</a> e as instruções do ficheiro selecionado. Se o seu editor já converte a fonte corretamente, não adicione a conversão uma segunda vez."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para material D-Cinelike, Normal ou HDR, siga um fluxo de trabalho que suporte explicitamente esse modo. Não escolha um ficheiro D-Log M apenas porque torna a imagem mais contrastada. A correção técnica e o aspeto criativo preferido são decisões separadas."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Experimente um aspeto criativo no ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Guarde a gravação original e importe o clipe que pretende editar.</li><li>Guarde o seu ficheiro .cube compatível em Ficheiros. No ReelClip, abra Adjust & Style → LUTs → Import LUT.</li><li>Selecione o look e compare a pré-visualização com o original. Siga os requisitos de entrada esperada do mesmo.</li><li>Ajuste a intensidade criativa para adequar à cena. Verifique rostos, áreas claras e detalhes escuros enquanto o clipe reproduz.</li><li>Reveja o resultado renderizado e uma amostra guardada antes de aplicar as definições em todo o projeto. Guardar vídeo requer Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-apply-lut-on-iphone\">guia passo a passo de LUTs</a> mostra uma importação real de um look criativo. Demonstra os controlos em vez de certificar cada conversão de câmara, saída HDR ou ficheiro LUT técnico."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Combine planos pelo que consegue ver"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Comece pela exposição e balanço de brancos, depois compare a pele, objetos neutros e áreas saturadas entre planos. O mesmo LUT pode parecer diferente em gravações feitas sob luz diferente. Não existe uma percentagem de intensidade que funcione para todos os clipes."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para a transferência específica do modelo, consulte <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/dji-osmo-pocket-3-luts\">LUTs para o Pocket 3</a>. Para preparar os seus momentos acabados para uma publicação, continue com <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/edit-dji-osmo-footage-iphone\">editar filmagens DJI no iPhone</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

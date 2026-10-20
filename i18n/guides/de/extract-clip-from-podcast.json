@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "So extrahierst du Highlights aus einem Podcast auf dem iPhone",
+  "description": "Verwende das Transkript, um gesprochene Momente aus einem Podcast-Video zu finden und zu überprüfen, Untertitel zu kontrollieren und Clips für den Export auf dem iPhone vorzubereiten.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "Anwendungsfall",
+  "primaryKeyword": "wie man Podcast-Highlights clippt",
+  "readMinutes": 4,
+  "sourceFingerprint": "d11358c74169a1ab6dd7eabadd2937aac4809eb4ffe4881a0bda71c63293c6c1",
+  "schemaVersion": 1,
+  "locale": "de",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Ein Transkript hilft dir, einen gesprochenen Moment zu finden, ohne die gesamte Aufnahme wiederholt durchzuscrubben. Beginne mit einem Video deines Podcasts oder Interviews, lies dann das Transkript und spiele die Umgebung der Passage ab, bevor du einen Clip auswählst."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Behalte genug Kontext für jemanden bei, der die Folge nicht gehört hat. Ein zitierfähiger Satz kann trotzdem die Frage oder Erklärung brauchen, die ihm vorausging."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Passage finden und auswählen"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importiere das Video aus Fotos oder Dateien und wähle Transcript.</li><li>Warte auf die Transkription, überprüfe dann Namen und eventuell falsch verstandene Wörter.</li><li>Lies den Text durch und spiele eine mögliche Passage im Kontext ab.</li><li>Verwende Add as clip für die gewünschte Passage, oder nutze Slice, wenn du den Zeitbereich bereits kennst.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Die aufgezeichnete Oberfläche zeigt Add as clip neben einer Transkript-Passage. Die Demo zeigt auch ein entferntes Wort aus dem Schnitt. Das Entfernen eines Wortes ändert den Videoschnitt, also höre an dieser Schnittstelle nach, anstatt es als einfache Rechtschreibkorrektur zu behandeln."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Untertitel und Ton überprüfen"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sieh dir jeden möglichen Clip vor dem Export an. Überprüfe seinen Anfang, sein Ende und entfernte Sprachpassagen. Wenn du Untertitel verwendest, kontrolliere die Wörter und ihre Platzierung über dem Bild. Überprüfe die Untertitel sowohl in der endgültigen gespeicherten Datei als auch in der Editor-Vorschau."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Du kannst das Export-Menü des Transkripts für Text- und Untertiteloptionen separat vom Speichern des Videos einsehen. Für lange stille Pausen sieh dir<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/remove-silence-from-video-free\">Pausenbereinigung</a> an."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Speichere den Clip, den du veröffentlichen möchtest"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wähle Review und prüfe das vorbereitete Ergebnis, dann speichere es in Photos. Export erfordert Creator. Überprüfe die gespeicherte Datei und ihre Bildkomposition, bevor du sie auf deine gewählte Plattform hochlädst. Transkriptions- und Renderzeit hängen von der Aufnahme und dem Gerät ab; es gibt keine feste Verarbeitungszeit und keine garantierte Anzahl nützlicher Highlights."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verwende <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->, wenn regelmäßig verteilte Clips besser zur Aufnahme passen als die Auswahl per Transkript."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

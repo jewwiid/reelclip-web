@@ -1,0 +1,125 @@
+{
+  "slug": "remove-silence-from-video-free",
+  "title": "How to remove silence from a video on iPhone",
+  "description": "Use ReelClip’s Transcript pause controls, review the timing and check the edited video. Preview before export; saving requires Creator.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "How-to",
+  "primaryKeyword": "remove silence from video iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "9a701754e964c936bcb9d96dd8481ed604129f29630a9effc2777b88f8eb6f1e",
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Long gaps can make a spoken video feel slow. ReelClip’s Transcript mode lets you remove pauses and review the resulting video on your iPhone. Preview the edit before deciding to export; saving the output requires Creator."
+    },
+    {
+      "kind": "tutorial",
+      "id": "pause-cleanup"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Find the pause controls"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Import your video and choose Transcript. Wait for the transcript to finish.</li><li>Open Audio, then find Cleanup and turn on Remove pauses.</li><li>Expand Cut timing to inspect the pause threshold and the space left around speech.</li><li>Tap Audio again to close its panel and check the pauses in the transcript.</li><li>Choose Review video to prepare and play the edited result.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "In the recorded example, Cut pauses longer than is set to 0.35s. That is an example, not a setting every recording needs. A lower threshold removes shorter gaps; leave enough room for natural speech and any pauses that carry meaning."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Check which pauses will be removed"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Green Auto keep leaves a pause in the edit. Red Auto remove or Remove marks it for removal. Check the label on the long pause itself before reviewing the output; the play button is only for listening to that gap."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "To remove one gap yourself, open its Pause action menu and choose Remove pause. Check the removal marker again before choosing Review video."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Listen at the cuts"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use headphones or your speaker to check the beginning and end of each phrase. If a breath or the end of a word feels clipped, adjust the timing and review again. Check the transcript too; recognition errors can make an edit behave differently from what you expect."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pause removal and filler-word removal are separate controls. Start with the change you need, then listen to the result before adding more cleanup."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Keep the version you reviewed"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "After reviewing the output, use Save to Photos and wait for completion. Your original recording stays intact. If you need caption files, inspect the transcript export options separately instead of assuming a video save also creates an SRT or VTT file."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "For selecting a particular spoken moment, see<!-- --> <a class=\"text-accent hover:underline\" href=\"/blog/extract-clip-from-podcast\">the podcast clipping guide</a>. For regularly spaced clips, use <a class=\"text-accent hover:underline\" href=\"/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

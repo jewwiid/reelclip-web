@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to extract highlights from a podcast on iPhone",
   description: "Use the transcript to find and review spoken moments from a podcast video, check captions, and prepare clips for export on iPhone.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-19",
+  updatedAt: "2026-10-20",
   category: "Use case" as const,
   primaryKeyword: "how to clip podcast highlights",
   readMinutes: 4,
@@ -27,14 +27,7 @@ export default function Post() {
           A quotable sentence can still need the question or explanation that
           came before it.
         </PostP>
-        <GuideVideo id="edit-transcript" title="Watch: edit through the transcript"
-          description="19-second demo from our existing feature library. It shows a removed word, edited playback, caption preview and the transcript export menu. It demonstrates speech editing, not automatic discovery of the best podcast highlights. Silent video with English step captions."
-          steps={[
-            "In Transcript, inspect the words and the passage you want to use.",
-            "Review an unwanted word or passage and play the edited result.",
-            "Check captions and use the separate transcript export options if needed.",
-          ]}
-        />
+        <GuideVideo id="edit-transcript" />
         <PostH2>Find and select the passage</PostH2>
         <PostOl>
           <li>Import the video from Photos or Files and choose Transcript.</li>

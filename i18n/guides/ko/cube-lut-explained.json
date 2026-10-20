@@ -1,0 +1,146 @@
+{
+  "slug": "cube-lut-explained",
+  "title": ".cube LUT 파일이란? 형식, 테이블 크기 및 iPhone 가져오기",
+  "description": "1D 및 3D 룩업 테이블, 17, 33, 65의 의미, 그리고 ReelClip에서 .cube 파일을 테스트하는 방법을 알아보세요. 크리에이티브 룩과 카메라 변환을 혼동하지 마세요.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "튜토리얼",
+  "primaryKeyword": ".cube lut 파일이란",
+  "readMinutes": 4,
+  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": ".cube 파일은 룩업 테이블을 저장합니다: 색상을 변경하는 데 사용되는 일련의 수치 매핑입니다. 기술적 카메라 변환 또는 크리에이티브 룩을 설명할 수 있습니다. 파일명만으로는 어떤 종류인지, 또는 어떤 녹화 프로파일을 기대하는지 알 수 없습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "1D 및 3D 테이블"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "1D LUT는 각 색상 채널을 독립적으로 매핑합니다. 3D LUT는 빨강, 초록, 파랑의 조합을 매핑하므로 하나의 출력 채널이 둘 이상의 입력 채널에 의존할 수 있습니다. 어느 종류도 초점 실패를 복구하거나 노이즈를 제거하거나 녹화 중 클리핑된 디테일을 복원하지는 못합니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": ".cube 형식은 일반 텍스트입니다. 헤더는 테이블과 입력 범위를 설명한 뒤, 색상 값의 행이 이어집니다. 파일 확장자가 호환성을 보장하지는 않습니다: 편집기마다 지원하는 테이블 크기, 헤더 변형 및 테이블 조합이 다를 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "크기 숫자의 의미"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "3D 테이블의 경우 LUT_3D_SIZE는 한 모서리의 길이를 나타냅니다. 17포인트 큐브는 17 × 17 × 17 = 4,913개 항목을 포함하고, 33포인트 큐브는 35,937개, 65포인트 큐브는 274,625개를 포함합니다. 이 숫자들은 샘플링 그리드를 설명하며, 비디오 해상도가 아닙니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "더 큰 테이블에는 더 많은 항목이 필요하지만, 자동으로 더 나은 룩은 아닙니다. 파일 크기는 텍스트의 정밀도와 형식에도 의존합니다. 편집기에서 지원하고 소스 프로파일에 적합한 파일을 선택하세요; 숫자가 가장 큰 것만으로 선택하지 마세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "의도된 입력 확인"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple Log, D-Log M 또는 S-Log3용으로 제작된 LUT는 해당 특정 소스 해석을 전제로 합니다. 이미 정규화된 이미지를 대상으로 한 크리에이티브 LUT는 다른 것을 전제로 합니다. 편집기에서 이미 카메라 변환을 적용하고 있다면, 또 다른 변환을 적용하면 과도한 대비나 색상 변이가 발생할 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Apple의 LUT 문서</a>에서 카메라 LUT와 사용자 정의 크리에이티브 효과의 차이점을 설명합니다. 해당 Final Cut Pro 컨트롤은 ReelClip의 인터페이스와 별개입니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iPhone에서 가져오기 및 테스트"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>ZIP 파일인 경우 다운로드를 압축 해제하고 .cube 파일을 Files에서 접근 가능한 위치에 저장하세요.</li><li>ReelClip에서 영상을 가져오세요. Adjust &amp; Style을 열고 LUTs를 선택한 다음 Import LUT를 사용하세요.</li><li>룩을 선택하고 미리보기를 원본과 비교하세요. 기술적 변환은 파일 제공자의 지침을 따르세요; 크리에이티브 룩은 자신의 영상에 맞게 조정하세요.</li><li>프로젝트 전체에 룩을 적용하기 전에 짧은 렌더링 샘플을 Review하세요. 영상 저장에는 Creator가 필요합니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-apply-lut-on-iphone\">LUT 가져오기 가이드</a>에서 실제 크리에이티브 룩 가져오기 및 강도 조정 과정을 보여줍니다. 모든 카메라 변환이나 모든 .cube 변형을 검증하지는 않습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "파일이 가져와지지 않는 경우"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "압축 해제된 .cube 파일을 선택했는지, 다운로드가 완료되었는지, 제공자가 사용 중인 편집기를 지원하는지 확인하세요. 결합된 shaper/3D 테이블이나 지원되지 않는 크기는 별도의 호환 가능한 내보내기가 필요할 수 있습니다. 파일을 강제로 불러오기 위해 숫자 행을 편집하지 말고 원본 다운로드를 보관하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "탐색할 소스는 <a class=\"text-accent hover:underline\" href=\"/ko/blog/best-free-luts-2026\">무료 LUT 리소스</a>를 참조하세요. 적합한 파일을 소수로 시작하여 자신의 녹화 영상에서 테스트하세요."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

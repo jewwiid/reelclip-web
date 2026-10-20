@@ -173,6 +173,7 @@ export function BlogPostingJsonLd({
   datePublished,
   dateModified,
   imageUrl,
+  language = "en",
 }: {
   url: string;
   headline: string;
@@ -180,6 +181,7 @@ export function BlogPostingJsonLd({
   datePublished: string;
   dateModified?: string;
   imageUrl?: string;
+  language?: string;
 }) {
   const data: JsonLd = {
     "@context": "https://schema.org",
@@ -191,7 +193,7 @@ export function BlogPostingJsonLd({
     description,
     datePublished,
     dateModified: dateModified ?? datePublished,
-    inLanguage: "en",
+    inLanguage: language,
     author: {
       "@type": "Organization",
       name: "ReelClip",

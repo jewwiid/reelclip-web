@@ -12,14 +12,14 @@ import {
 
 export const POST_META = {
   slug: "how-to-cut-long-video-for-tiktok",
-  title: "How to cut a long video for TikTok on iPhone (without re-uploading)",
+  title: "How to cut a long video for TikTok on iPhone",
   description:
-    "A 7-step workflow that takes one long recording and turns it into 3–5 TikTok-ready vertical clips — all on your iPhone, with no cloud upload.",
+    "Prepare clips from a long recording with ReelClip’s Cut controls, review the framing and captions, then save the videos you want to upload to TikTok.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-19",
+  updatedAt: "2026-10-20",
   category: "Tutorial" as const,
   primaryKeyword: "how to cut a long video for tiktok",
-  readMinutes: 6,
+  readMinutes: 5,
 };
 
 export default function Post() {
@@ -35,31 +35,24 @@ export default function Post() {
           depends on the recording, your device, and how much you edit.
         </PostP>
 
+        <GuideVideo id="cut-clips" />
+
         <PostH2>What you need</PostH2>
         <PostUl>
           <li>
             The long recording already in your Photos library, or in the Files
             app.
           </li>
-          <li>An iPhone running iOS 26 or later.</li>
+          <li>An iPhone running iOS 17 or later, as listed for the current app release.</li>
           <li>
             <PostLink href="/">ReelClip</PostLink> (free to import and
-            preview, Creator plan to export). For iOS 26+ devices with Apple
-            Intelligence enabled, the AI mode is available too.
+            preview, Creator plan to export). AI features have additional
+            hardware and software requirements, including compatible, enabled
+            Apple Intelligence. Check availability on your device.
           </li>
         </PostUl>
 
         <PostH2>The 7-step workflow</PostH2>
-        <GuideVideo
-          id="cut-clips"
-          title="Watch: plan and preview a batch of clips"
-          description="26-second demo from our existing feature library. It shows the Cut controls and clip playback on a short gym recording. Saving to Photos is covered in the steps below. Silent video with English step captions."
-          steps={[
-            "In Clip, choose Cut and set Clip amount and Clip duration.",
-            "Use Space to choose the interval between clip starts.",
-            "Play the planned clips and check that each one contains the moment you want.",
-          ]}
-        />
 
         <PostH3>1. Import the recording into ReelClip</PostH3>
         <PostP>
@@ -92,12 +85,10 @@ export default function Post() {
             <strong className="text-text">AI</strong> — describe what you
             want (“the funniest moment”, “the part where I explain the
             pricing”, “the most quotable line”) and on-device Apple
-            Intelligence picks the moments. Good when you do not want to
-            scrub yourself.
+            Intelligence can propose moments for you to review when the
+            feature is available on your device.
           </li>
         </PostUl>
-
-        <PostCta />
 
         <PostH3>3. Review every planned clip</PostH3>
         <PostP>
@@ -115,7 +106,7 @@ export default function Post() {
           limits before posting; there is no universal ideal clip length.
         </PostP>
 
-        <PostH3>5. Pick a vertical export</PostH3>
+        <PostH3>5. Check the framing for a vertical post</PostH3>
         <PostP>
           If your source video is landscape, you have two choices: export as
           is, or crop it for a vertical post in your finishing editor.
@@ -149,8 +140,8 @@ export default function Post() {
           </li>
           <li>
             <strong className="text-text">Uploading the original 12-minute
-            file.</strong> That is the workflow ReelClip exists to avoid.
-            Smaller, tighter clips get watched further.
+            file.</strong> Keep the source, then choose a version that fits the story
+            and destination. A shorter clip does not guarantee more views.
           </li>
           <li>
             <strong className="text-text">No captions.</strong> Captions
@@ -161,10 +152,11 @@ export default function Post() {
 
         <PostH2>What to do after TikTok</PostH2>
         <PostP>
-          Once you have a TikTok workflow, the same clips usually work on
-          YouTube Shorts and Instagram Reels. Cross-posting is the cheapest
-          growth move in short-form video — one batch of clips, three
-          platforms, three audiences. See{" "}
+          Before cross-posting to YouTube Shorts or Instagram Reels, check
+          each platform’s current format and length requirements. The same
+          moment may need different framing or duration for each destination.
+          Read our <PostLink href="/blog/video-length-social-media-reach">guide to video length and reach</PostLink>
+          {" "}for the platform distinctions, or see{" "}
           <PostLink href="/blog/extract-clip-from-podcast">
             how to extract podcast highlights
           </PostLink>{" "}

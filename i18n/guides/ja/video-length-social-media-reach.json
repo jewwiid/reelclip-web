@@ -1,0 +1,189 @@
+{
+  "slug": "video-length-social-media-reach",
+  "title": "動画の長さはSNSのリーチを損なうのか？",
+  "description": "Instagram、YouTube Shorts、TikTokにおける長さの制限と視聴者シグナルに関する明確なガイド。長いソース動画を均等なクリップに分割する実用的な方法も紹介します。",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "category": "チュートリアル",
+  "primaryKeyword": "動画の長さとSNSのリーチ",
+  "readMinutes": 6,
+  "sourceFingerprint": "e661169ccb7b5767822a8b9fc0694021ec9c055edb0abb3e669a950ebc5a11cc",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "長いインタビュー、授業、ライブ配信には、複数の強力なソーシャル動画が含まれていることがあります。しかし、動画の長さはSNSのリーチを損なうのか？正直な答えはプラットフォームによる。Instagramは3分を超えるReelsは新しいオーディエンスに推薦されないと述べている。一方TikTokは推薦の説明に同等の上限を記載しておらず、大規模な第三者調査では長いTikTokの方が多くの人にリーチしていた。実用的な対応は、元の録画を保持した上で、各プラットフォームに合ったバージョンを作成し、視聴者に素早く完全なアイデアを伝えることだ。この区別は1つのソースを複数のアプリで共有する際に重要だ：ランタイムは推薦対象性に影響するが、適切なクリップの長さは主題、ペース、視聴者の興味に依存する。プラットフォームのガイダンスとデータが示すこと、そして物語を途中で切らずにバッチを分割する再現性のある方法を紹介する。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "3分を超える動画は自動的にリーチが減るのか？"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "いいえ。3分は一部のフォーマットにとって有用な配布制限であり、「短い方が必ず良い」という普遍的なルールではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Instagram Reels：</strong>Instagramのヘルプセンターによると、3分を超えるReelsは新しいオーディエンスに推薦されない。3分以内のReelsは引き続き推薦対象になるが、長さだけで発見が保証されるわけではない。長いReelsも既存のオーディエンスには表示される可能性がある。Instagramの<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Reelの録画と推薦に関するガイダンス</a>を参照。</li><li><strong class=\"text-text\">YouTube Shorts：</strong>正方形または縦長の動画で3分以内がShortsとして認定される。それを超える長さの動画はShortsフォーマットには該当しなくなるが、通常のYouTube動画としてアップロードは可能。YouTubeの<!-- --> <a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">3分Shortsに関するアップデート</a>を参照。</li><li><strong class=\"text-text\">TikTok：</strong>TikTokは推薦をパーソナライズされたものとして説明しており、視聴者のインタラクション（視聴時間など）がシグナルの一つとなっている。InstagramのReelsに関する具体的な記述とは異なり、TikTokの説明には3分のリーチカットオフは公表されていない。その<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">推薦の説明</a> <!-- -->は、「短い方が常に良い」という一律のルールよりも優れた指針となる。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "長さは投稿が対象となる発見サーフェスの種類に影響する。その後、物語は依然として視聴者の注意を維持する必要がある。InstagramやShortsで新しい視聴者を獲得したい場合、3分以内に収めることでそれらのフォーマットの規定された制限内に収まる。しかし、それがビューを保証するわけではなく、アイデアの途中で物語を切る理由にもならない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "TikTokの長さに関するパフォーマンス調査"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "短いクリップが自動的に勝者というわけではない。2025年に110万本のTikTokを分析したBufferの調査では、1分を超える動画は、30〜60秒のグループに比べ、中央値のリーチが43.2%多く、中央値の視聴時間が63.8%多かった。長いグループは1分から10分までの動画を含むため、この分析は3分を超える動画を分離しているわけではなく、長さが差を生んだことを証明しているわけでもない。Bufferはまた、強力なフックとコンテンツの質が、目標のランタイムを追い求めることよりも重要だと指摘している。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">TikTok動画長さ分析</a>の全文を確認。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "この証拠は考え方を変える：短い方がどこでも好まれるというだけで、すべての長い動画を分割する必要はない。短いバージョンが要点をより明確に伝える、配信先のフォーマットに合う、1つの録画に複数の有用な入り口を与える場合に分割する。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "1本の長い録画を、テーマに絞った複数のクリップに変換する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "長い録画をソース素材と考えてください。12分のインタビュー1本に、5つの異なるアイデアが含まれているかもしれません。5等分すれば、各クリップは2分24秒になり、3分の閾値を下回りながらソース素材を保持できます。11分の動画を4等分すれば、4本のクリップがそれぞれ2分45秒になります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "等分は一括での準備を迅速にしますが、フル録画を見ていない人にとっても編集内容が意味をなす必要があります。各クリップについて、1つの明確なポイント、それを理解するのに十分な文脈、そして満足のいく結末を探してください。均等なカットで文章やアイデアが途切れる場合は、そのクリップを調整するか、より自然なハイライトを選んでください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClipで3分未満の等分クリップを作成する方法"
+    },
+    {
+      "kind": "cut-demo"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>フル録画をPhotosまたはFilesからインポートします。ReelClipはソースをアプリ内に保持し、元のファイルは変更しません。</li><li><strong class=\"text-text\">Cut</strong>を選択し、レシピの<strong class=\"text-text\">Space</strong>を<!-- --><strong class=\"text-text\">No gap</strong>に設定してから、<!-- --><strong class=\"text-text\">Clip amount</strong>を設定します。ギャップなしでFrom–To選択がない場合、カウントでソース全体を等分したセクションに分割します。セクションを選択した場合は、そのセクションを分割します。レシピに表示される時間が3:00未満になるよう、十分に高いカウントを設定してください。12分のソースでは、5クリップで1クリップあたり2分24秒になります。</li><li>すべてのセクションをプレビューします。きれいに始まり、完全なポイントを示す部分を保持します。思考の途中に着地するカットは、精緻化するかスキップしてください。ReelClipでは、エクスポート前に計画したクリップを確認できます。</li><li>必要なクリップを保存し、キャプション、フレーミング、プラットフォームの詳細は公開ワークフローで仕上げます。各投稿に独自の冒頭行と、単独で成立するのに十分な文脈を与えてください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "同じCutワークフローの詳細な解説については、<!-- --><a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">iPhoneで長い動画をカットする方法</a>をご覧ください。ReelClipは投稿用のクリップを準備します。Instagram、TikTok、YouTubeへの直接公開は行いません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "自分の視聴者に合うカットを試す"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "いくつかの類似した投稿を使って、視聴者を引きつけるものを学びます。テーマと約束事は似たものにして、両方が完全なストーリーを語る場合は、よりタイトな編集と長いバージョンを試してください。プラットフォームが提供する非フォロワーリーチ、平均視聴時間、完走率、シェア、保存を比較してください。1回のアップロードで結果を判断するのではなく、複数の投稿を通じたパターンで判断してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "InstagramのTrial Reelsは、新しいフォーマットをまず非フォロワーに見せて、初期パフォーマンスを確認する方法の1つです。Instagramの使用方法については、<!-- --><a class=\"text-accent hover:underline\" href=\"https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/\" rel=\"noreferrer\" target=\"_blank\">Trial Reelsの発表記事</a>で説明されています。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "まとめ"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "3分のカットは、InstagramのディスカバリーとYouTube Shortsにとって実用的な目標であり、より多くのビューを得るための普遍的な公式ではありません。TikTokのデータでは、長い動画も視聴者を見つけることができます。InstagramのディスカバリーとShortsでは、ReelClipのCutレシピを使って制限を下回る等分クリップを準備し、それぞれを確認してください。TikTokでは、強いアイデアを任意の時間制限に合わせて切り詰めるのではなく、自分のアカウントの結果と異なる長さを比較テストしてください。長いバージョンを望む視聴者のために、フル録画を保持してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "情報源と参考文献"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Instagram ヘルプセンター: リールを録画する</a></li><li><a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">YouTube ブログ: Shorts に縦長アップデートが登場</a></li><li><a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">TikTok ヘルプセンター: TikTok のコンテンツ推薦の仕組み</a></li><li><a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">Buffer: 長い TikTok の方がより多くの視聴回数を獲得</a></li>"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

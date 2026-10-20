@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "Hoe je hoogtepunten uit een podcast extraheert op iPhone",
+  "description": "Gebruik het transcript om gesproken momenten uit een podcastvideo te vinden en te beoordelen, ondertitels te controleren en clips voor te bereiden voor export op iPhone.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "Toepassing",
+  "primaryKeyword": "hoe je podcasthoogtepunten clipt",
+  "readMinutes": 4,
+  "sourceFingerprint": "d11358c74169a1ab6dd7eabadd2937aac4809eb4ffe4881a0bda71c63293c6c1",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Een transcript kan je helpen een gesproken moment te vinden zonder de hele opname steeds te scrubben. Begin met een video van je podcast of interview, lees dan het transcript en speel het omringende fragment af voordat je een clip kiest."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Behoud genoeg context voor iemand die de aflevering niet heeft gehoord. Een citeerbare zin kan nog steeds de vraag of uitleg nodig hebben die eraan voorafging."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Vind en selecteer het fragment"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importeer de video vanuit Foto's of Bestanden en kies Transcript.</li><li>Wacht op de transcriptie, controleer dan namen en eventuele verkeerd begrepen woorden.</li><li>Lees de tekst door en speel een kandidaat-fragment in context af.</li><li>Gebruik Add as clip voor het fragment dat je wilt, of gebruik Slice wanneer je het tijdsbereik al kent.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De opgenomen interface toont Add as clip naast een transcriptpassage. De demo toont ook een woord dat uit de bewerking is verwijderd. Het verwijderen van een woord verandert de videobewerking, dus luister op dat knijppunt in plaats van het als een simpele spellingscorrectie te behandelen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Beoordeel ondertitels en geluid"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Bekijk elke kandidaat-clip vooraf voordat je exporteert. Controleer het begin, het einde en eventuele verwijderde spraak. Als je ondertitels gebruikt, controleer dan de woorden en hun plaatsing over het beeld. Controleer de ondertitels in het uiteindelijk opgeslagen bestand, evenals in de voorvertoning van de editor."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Je kunt het Export-menu van het transcript inspecteren voor tekst- en ondertitelopties, los van het opslaan van de video. Voor lange stiltes, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/remove-silence-from-video-free\">pauze-cleanup</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sla de clip op die je wilt posten"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Kies Review en controleer de voorbereide uitvoer, sla daarna op in Foto's. Exporteren vereist Creator. Controleer het opgeslagen bestand en de framing voordat je het uploadt naar je gekozen platform. Transcriptie- en rendertijd zijn afhankelijk van de opname en het apparaat; er is geen vaste verwerkingstijd of gegarandeerd aantal bruikbare highlights."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gebruik <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->wanneer regelmatig verdeelde clips beter bij de opname passen dan transcriptselectie."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

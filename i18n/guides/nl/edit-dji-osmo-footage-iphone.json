@@ -1,0 +1,130 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "Hoe je DJI-beelden bewerkt op iPhone: importeren, momenten kiezen en het resultaat bekijken",
+  "description": "Breng DJI-beelden in ReelClip, kies Slice, Cut of Transcript voor de taak, controleer kleur en ondertiteling, en bekijk alles door voordat je opslaat.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Hoe het werkt",
+  "primaryKeyword": "dji osmo beelden bewerken op iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Om DJI-beelden te bewerken op iPhone, zet je de originele opname over naar een locatie die je kunt benaderen, importeer je het in ReelClip, en kies je hoe je momenten wilt selecteren. Controleer kleur, framing en ondertiteling voordat je de clips opslaat voor je publicatieworkflow."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Bewaar het origineel bij overzetten"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gebruik een overzetmethode die wordt ondersteund door je camera en iPhone. Bewaar het originele camerabestand en een aantekening van de opnamemodus, in plaats van te vertrouwen op een al verwerkte deelkopie. Als het bestand in cloudopslag staat, zorg dan dat het beschikbaar is voordat je begint met bewerken."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor cameraspecifieke overzetstappen, gebruik de <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI-download- en handleidingbronnen</a> voor je model. Ondersteuning voor overzetten hangt af van de camera, opslag en verbinding; één methode is niet gegarandeerd voor elke Osmo, Action of drone."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies de bewerkingsmodus voor de taak"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Slice laat je een tijdvenster kiezen, het naar een gewenst moment verplaatsen en de randen verfijnen.</li><li>Cut plant clips met de besturingselementen voor aantal, duur en spatiëring. Bekijk de geselecteerde momenten door voordat je opslaat.</li><li>Transcript is handig voor gesproken opnames: lees de herkende woorden, controleer fouten en kies de passage in context.</li><li>AI kan helpen met het plannen van momenten op basis van een prompt wanneer de vereiste apparaatfuncties beschikbaar zijn. Bekijk de voorgestelde cuts zelf door.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">Slice-walkthrough</a> en <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut-walkthrough</a> tonen de daadwerkelijke selectiebesturingselementen. De app bereidt clips voor; het plaatst ze niet rechtstreeks op sociale platforms."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer het kleurprofiel"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI-opnamemodi verschillen per model. Pas de conversie aan op de bron in plaats van dezelfde LUT op elk bestand toe te passen. Normal, D-Cinelike, D-Log M en HLG mogen niet als één formaat worden behandeld. Zie de <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-color-grading\">Pocket-kleurgids</a> voor profielidentificatie en de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">LUT-importdemo</a> voor de bediening."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer ondertitels, kadrering en geluid"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Lees ondertitels af tegen de gesproken opname en corrigeer herkenningsfouten. Speel bewerkingen af om te controleren dat woorden en gebaren niet abrupt worden afgekapt. Een korter tijdsbereik kiezen kadrert op zichzelf geen wijde opname voor een verticale post, dus controleer het beeld apart."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verschillende opnamelengtes, codecs en apparaatomstandigheden beïnvloeden de verwerking. Bekijk een representatief gedeelte in plaats van te vertrouwen op een vaste belofte over transcriptie- of exporttijd."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sla de versie op die je hebt gecontroleerd"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Open Review, bekijk het gerenderde resultaat en sla de clips op die je wilt. Video opslaan vereist Creator. Controleer het daadwerkelijke bestand in Photos voordat je deelt, vooral als je kleur- of ondertitelinstellingen hebt gewijzigd. Bewaar de bron zodat je later een andere versie kunt maken."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

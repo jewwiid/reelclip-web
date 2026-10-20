@@ -1,0 +1,122 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "DJI D-Log을 iPhone에서 Rec.709로 변환하기: 카메라와 녹화 프로필을 일치시키세요",
+  "description": "기기별 DJI 변환을 선택하고, 두 번 적용하지 말며, 전체 녹화물을 편집하기 전에 iPhone에서 결과를 테스트하세요.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "튜토리얼",
+  "primaryKeyword": "아이폰에서 dji d-log를 rec 709로 변환",
+  "readMinutes": 4,
+  "sourceFingerprint": "f85a30966388796732d5fea02dea8f017c6e15d28584f59fa63ebef114f8e141",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI 녹화물을 Rec.709로 변환하려면 사용한 카메라와 실제 모드를 확인한 후 일치하는 변환을 선택하세요. D-Log, D-Log M, D-Log 2, D-Cinelike, HLG는 같은 이미지의 다른 이름이 아닙니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "먼저 소스를 확인하세요"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "카메라 설정, 원본 파일 메타데이터, 카메라 문서를 확인하세요. 영상을 전송할 때 원본 파일을 보관하세요; 다른 앱에서 처리한 복사본에는 이미 룩이나 변환이 적용되어 있을 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI 기기 및 LUT 표</a>에 녹화 프로필과 사용 가능한 리소스가 나열되어 있습니다. 예를 들어 Pocket 3는 D-Log M 변환이 있고, 오리지널 Osmo Pocket과 Pocket 2는 D-Cinelike로 표시되어 있습니다. Pocket이라는 단어로만 프로필을 추론하지 마세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "일치하는 변환을 선택하세요"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI 공식 다운로드 디렉토리</a>와 정확한 기기에 맞는 안내를 사용하세요. 예상 입력과 출력을 모두 확인하세요. 파일명에 Rec.709가 포함된 LUT라도 녹화한 소스 곡선과 다른 것을 기대할 수 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "편집기가 이미 소스 변환을 처리하는지 확인하세요. 기존 변환 위에 다른 카메라 변환을 적용하면 대비와 색상이 잘못 나올 수 있습니다. HLG나 다른 HDR 워크플로우의 경우, Log LUT가 HDR 톤 매핑도 수행한다고 가정하지 말고 해당 소스를 명시적으로 지원하는 편집기와 출력 설정을 사용하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip에서 짧은 구간을 테스트하세요"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>원본 녹화본을 가져오고 일치하는 .cube 파일을 파일 앱에서 사용할 수 있도록 준비하세요.</li><li>조정 및 스타일 → LUT → LUT 가져오기를 열고 파일을 선택하세요.</li><li>소스 해석에 대한 제공업체의 지침을 따르세요. 미리보기를 조정되지 않은 이미지와 비교하고 여러 프레임을 확인하세요.</li><li>렌더링된 결과를 검토한 다음 저장된 짧은 샘플을 확인하세요. 동영상 저장에는 Creator가 필요합니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "녹화된 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-apply-lut-on-iphone\">ReelClip LUT 데모</a>는 크리에이티브 룩으로 가져오기 및 강도 조절을 보여줍니다. 이는 교정된 DJI 변환, 모든 입력 인코딩 또는 모든 LUT 변형을 검증하지는 않습니다. 기술 파일이 의도한 대로 작동하지 않으면 편집을 계속하기 전에 검증된 카메라별 색상 워크플로를 사용하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "색상 확인 후 계속"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "샘플이 의도한 출력 설정에서 올바르게 보이면 검토된 동일한 설정을 필요한 클립에 적용하세요. 샷 간 노출과 화이트밸런스 차이를 염두에 두세요. LUT만으로는 서로 다른 조명 아래에서 촬영한 샷을 일치시킬 수 없습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">Cut</a>을 사용하여 계획된 일괄 작업을 하거나 <a class=\"text-accent hover:underline\" href=\"/ko/blog/extract-clip-from-podcast\">Transcript 워크플로</a>를 사용하여 말하는 구간을 처리하세요. 나중에 색상 선택을 다시 검토할 수 있도록 원본 녹화본의 사본을 보관하세요."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

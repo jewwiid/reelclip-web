@@ -1,0 +1,126 @@
+{
+  "slug": "remove-silence-from-video-free",
+  "title": "Comment supprimer le silence d'une vidéo sur iPhone",
+  "description": "Utilisez les contrôles de pauses de la transcription de ReelClip, vérifiez le timing et examinez la vidéo modifiée. Prévisualisez avant l'exportation ; l'enregistrement nécessite Creator.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "Mode d'emploi",
+  "primaryKeyword": "supprimer silence vidéo iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "9a701754e964c936bcb9d96dd8481ed604129f29630a9effc2777b88f8eb6f1e",
+  "schemaVersion": 1,
+  "locale": "fr",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Les longs blancs peuvent ralentir une vidéo parlée. Le mode Transcript de ReelClip vous permet de supprimer les pauses et d'examiner la vidéo résultante sur votre iPhone. Prévisualisez le montage avant de décider d'exporter ; l'enregistrement du résultat nécessite Creator."
+    },
+    {
+      "kind": "tutorial",
+      "id": "pause-cleanup"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Trouver les contrôles de pauses"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importez votre vidéo et choisissez Transcript. Attendez que la transcription se termine.</li><li>Ouvrez Audio, puis trouvez Cleanup et activez Remove pauses.</li><li>Développez Cut timing pour inspecter le seuil de pause et l'espace laissé autour de la parole.</li><li>Appuyez à nouveau sur Audio pour fermer son panneau et vérifier les pauses dans la transcription.</li><li>Choisissez Review video pour préparer et lire le résultat modifié.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dans l'exemple enregistré, Cut pauses longer than est réglé sur 0,35 s. C'est un exemple, pas un réglage nécessaire pour chaque enregistrement. Un seuil plus bas supprime des blancs plus courts ; laissez suffisamment d'espace pour la parole naturelle et les pauses qui portent du sens."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Vérifier quelles pauses seront supprimées"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Le vert Auto keep conserve une pause dans le montage. Le rouge Auto remove ou Remove la marque pour suppression. Vérifiez l'étiquette sur la longue pause elle-même avant d'examiner le résultat ; le bouton de lecture sert uniquement à écouter ce blanc."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pour supprimer vous-même un blanc, ouvrez son menu d'action Pause et choisissez Remove pause. Vérifiez à nouveau le marqueur de suppression avant de choisir Review video."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Écouter aux coupures"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utilisez un casque ou votre haut-parleur pour vérifier le début et la fin de chaque phrase. Si une respiration ou la fin d'un mot semble coupée, ajustez le timing et revérifiez. Vérifiez également la transcription ; les erreurs de reconnaissance peuvent faire qu'un montage se comporte différemment de ce à quoi vous vous attendiez."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La suppression des pauses et la suppression des mots de remplissage sont des contrôles distincts. Commencez par le changement dont vous avez besoin, puis écoutez le résultat avant d'ajouter d'autres nettoyages."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Gardez la version que vous avez revue"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Après avoir revu le résultat, utilisez Save to Photos et attendez la fin du traitement. Votre enregistrement original reste intact. Si vous avez besoin de fichiers de sous-titres, examinez les options d'exportation de la transcription séparément au lieu de supposer qu'une sauvegarde vidéo crée également un fichier SRT ou VTT."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pour sélectionner un moment de parole particulier, consultez<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/extract-clip-from-podcast\">le guide de découpe de podcast</a>. Pour des clips régulièrement espacés, utilisez <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

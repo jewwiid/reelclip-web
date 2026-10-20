@@ -1,0 +1,118 @@
+{
+  "slug": "how-to-apply-lut-on-iphone",
+  "title": "iPhone에서 .cube LUT를 적용하는 방법",
+  "description": "Files에서 .cube LUT를 가져와 ReelClip에서 강도를 조절하고 미리보기를 비교하세요. 실제 컨트롤의 짧은 녹화 화면도 포함되어 있습니다.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "사용 방법",
+  "primaryKeyword": "iphone에서 lut 적용하는 방법",
+  "readMinutes": 4,
+  "sourceFingerprint": "fedab8fcd0019d84b55c753bbdb6002b2165d01a734f05ec0c27b70bb473da71",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "이미 .cube LUT가 있다면 Files에서 가져와 ReelClip에서 강도를 조절할 수 있습니다. 촬영 영상과 색상 설정에 맞는 LUT로 시작하세요; 크리에이티브 룩과 카메라 변환은 서로 다른 목적을 가집니다."
+    },
+    {
+      "kind": "tutorial",
+      "id": "apply-lut"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "크리에이티브 룩 적용 전 올바른 입력을 선택하세요"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "디스플레이용 크리에이티브 LUT를 적용하기 전에 Log 또는 HDR 영상을 정규화하세요. ReelClip 자체 내보내기 크리에이티브 LUT는 인코딩된 sRGB를 사용합니다; Rec.709는 원색이 같지만 전달 특성이 다릅니다. LUT 문서에 명시된 입력과 일치시키고, 카메라 정규화를 두 번 적용하지 마세요. 저희의 오리지널 스타터 컬렉션은 현재 테스트 중입니다. 개발 현황과 공식 카메라 리소스는<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/best-free-luts-2026\">무료 LUT 리소스 가이드</a> <!-- -->를 참조하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "파일을 ReelClip으로 가져오기"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>편집할 영상을 가져옵니다.</li><li>Adjust &amp; Style을 열고 LUTs를 선택합니다.</li><li>Import LUT를 탭하고 Files에서 .cube 파일을 선택합니다.</li><li>LUT 라이브러리에서 가져온 룩을 선택합니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "데모는 Creative 탭과 이전에 저장한 ReelClip 룩을 사용합니다. LUT가 라이브러리에 나타나면 선택하고 자신의 영상에 어떤 효과가 있는지 확인하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "영상에 맞춰 강도 확인하기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "강도 슬라이더를 움직여 결과를 원본과 비교하세요. 영상이 재생될 때 피부, 밝은 영역, 어두운 디테일을 확인하세요. 예시는 68%에 도달합니다; 이 값은 이 샘플에 해당하며 모든 클립에 권장하는 설정은 아닙니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "카메라 변환의 경우 LUT와 함께 제공된 지침을 따르고 소스 녹화 프로파일과 일치시키세요. 한 로그 프로파일용으로 제작된 LUT가 다른 프로파일에도 적합하다고 가정하지 마세요. 여기의 예시는 모든 카메라나 LUT 파일에 대한 지원이 아닌 가져오기 및 조정 컨트롤을 설명합니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "완성된 비디오 검토"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "조정을 마친 후 Review를 열어 렌더링된 출력을 확인하세요. 비디오를 저장하려면 Creator가 필요합니다. 편집 중 색상이나 HDR 설정이 변경된 경우 특히 공유하기 전에 실제 저장된 파일을 확인하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "파일 자체에 대한 배경 정보는 <!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/cube-lut-explained\">.cube LUT에 포함된 내용</a>을 읽어보세요."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

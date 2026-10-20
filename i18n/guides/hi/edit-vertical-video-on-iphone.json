@@ -1,0 +1,102 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "iPhone पर वर्टिकल वीडियो कैसे एडिट करें (Reels, TikTok, Shorts)",
+  "description": "ReelClip में पोर्ट्रेट फुटेज से पल चुनें और उन्हें परिष्कृत करें, कैप्शन और फ्रेमिंग की समीक्षा करें, और जिन क्लिप्स को पोस्ट करना चाहते हैं उन्हें सेव करें।",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "कैसे करें",
+  "primaryKeyword": "iphone पर vertical video कैसे edit करें",
+  "readMinutes": 4,
+  "sourceFingerprint": "2dbb0fbbd27b244900843ff0f66235ad26c71ec35abc3c1b1c1b9356a457b0d5",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एक पोर्ट्रेट रिकॉर्डिंग से शुरू करें और जिन पलों को रखना चाहते हैं उन्हें चुनें। ReelClip में, Slice एक समय सीमा चुनता है; यह तय नहीं करता कि चित्र का कौन सा हिस्सा किसी अलग आस्पेक्ट रेशियो में फिट होना चाहिए। पोस्ट करने से पहले फ्रेमिंग को अलग से जांच लें।"
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Slice के साथ एक पल चुनें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>रिकॉर्डिंग को Photos या Files से इम्पोर्ट करें, फिर Clip खोलें।</li><li>Slice चुनें। चयन को उस हिस्से पर ले जाएँ जिसे रखना चाहते हैं।</li><li>शुरुआत और अंत को इस तरह एडजस्ट करें कि एक्शन या वाक्य के लिए पर्याप्त संदर्भ हो।</li><li>Add टैप करें, फिर किसी अन्य पल के लिए दोहराएँ जिसे चाहते हैं।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "डेमो में एक छोटा सैंपल और तीन चयन हैं। आपकी रिकॉर्डिंग के लिए अलग संख्या या लंबाई के क्लिप्स की ज़रूरत हो सकती है। प्रत्येक चयन देखें; एक कट जो दृश्य रूप से ठीक लगे, फिर भी बोले गए वाक्य को बीच में रोक सकता है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "चित्र और शब्दों की समीक्षा करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "योजना बनाए गए क्लिप्स चलाएँ और उनके पहले और आखिरी फ्रेम जांचें। एक पोर्ट्रेट सोर्स में पहले से ही एक वर्टिकल चित्र होता है; एक लैंडस्केप सोर्स के लिए अलग फ्रेमिंग निर्णय की ज़रूरत होती है। चुनी गई समय सीमा बदलने से Reel या Short के लिए छवि अपने आप क्रॉप नहीं होती।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "बोले गए फुटेज के लिए, ट्रांसक्रिप्ट और कैप्शन की भी समीक्षा करें। नाम और विशेषज्ञ शब्दों को सही करें, फिर जांचें कि चित्र के ऊपर टेक्स्ट पढ़ने योग्य रहता है। भाषण का उपयोग करने वाले उदाहरण के लिए <a class=\"text-accent hover:underline\" href=\"/hi/blog/extract-clip-from-podcast\">ट्रांसक्रिप्ट वर्कफ़्लो</a> <!-- -->देखें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "सेव करें, फिर अपलोड करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Review चुनें और Photos में सेव करने से पहले तैयार आउटपुट की जाँच करें। एक्सपोर्ट के लिए Creator की आवश्यकता होती है। सेव कन्फर्मेशन का इंतज़ार करें, फिर डेस्टिनेशन ऐप खोलें और सेव की गई फ़ाइल को खुद अपलोड करें। अगर आप आउटपुट फॉर्मेट बदलते हैं, तो उसके वर्तमान अपलोड आवश्यकताओं की जाँच करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "अगर आप हाथ से चुने गए पलों के बजाय नियमित अंतराल वाले क्लिप्स चाहते हैं, तो <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">Cut वर्कफ़्लो</a> का उपयोग करें।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

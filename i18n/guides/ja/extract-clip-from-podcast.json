@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "iPhoneでポッドキャストのハイライトを抽出する方法",
+  "description": "トランスクリプトを使ってポッドキャスト動画の発言部分を見つけ、確認し、キャプションをチェックして、iPhoneでエクスポート用のクリップを準備します。",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "ユースケース",
+  "primaryKeyword": "ポッドキャストのハイライトをクリップする方法",
+  "readMinutes": 4,
+  "sourceFingerprint": "d11358c74169a1ab6dd7eabadd2937aac4809eb4ffe4881a0bda71c63293c6c1",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "トランスクリプトは、録音全体を何度もスクラブしなくても発言の瞬間を見つけるのに役立ちます。ポッドキャストやインタビューの動画から始めて、トランスクリプトを読み、周囲の部分を再生してからクリップを選びます。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "エピソードを聞いていない人にも十分な文脈を残してください。引用できる一文でも、その前にあった質問や説明が必要なことがあります。"
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "部分を見つけて選択する"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>動画を「写真」または「ファイル」から読み込み、「トランスクリプト」を選択します。</li><li>文字起こしが完了するのを待ち、名前や誤認識された単語を確認します。</li><li>テキストを読み、候補となる部分を文脈とともに再生します。</li><li>必要な部分には「クリップとして追加」を使用するか、時間範囲が既にわかっている場合は「スライス」を使用します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "記録されたインターフェースでは、トランスクリプトの部分の横に「クリップとして追加」が表示されます。デモでは編集から単語が削除される様子も示されています。単語を削除すると動画の編集が変わるため、単なるスペル修正としてではなく、そのカット位置で音声を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "キャプションと音声を確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "エクスポート前に各候補クリップをプレビューします。冒頭、終わり、削除された発言を確認します。キャプションを使用する場合、文字とその画面上の配置を確認します。エディタのプレビューだけでなく、最終的に保存されたファイルのキャプションも確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "トランスクリプトの「エクスポート」メニューで、動画の保存とは別にテキストと字幕のオプションを確認できます。長い無音の間については、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/remove-silence-from-video-free\">ポーズのクリーンアップ</a>を参照してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "投稿するクリップを保存する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "「Review」を選択して準備された出力を確認し、Photosに保存する。書き出しにはCreatorが必要。保存されたファイルとフレーミングを確認してから、選択したプラットフォームにアップロードする。文字起こしとレンダリング時間は録音内容とデバイスによって異なり、固定の処理時間や有用なハイライトの保証された数は存在しない。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "録音内容に対して文字起こしによる選択よりも一定間隔のクリップが適している場合は、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->を使用する。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

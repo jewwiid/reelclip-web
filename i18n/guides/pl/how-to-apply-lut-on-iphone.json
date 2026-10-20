@@ -1,0 +1,118 @@
+{
+  "slug": "how-to-apply-lut-on-iphone",
+  "title": "Jak zastosować plik .cube LUT na iPhonie",
+  "description": "Zaimportuj plik .cube LUT z aplikacji Pliki, dostosuj jego siłę i porównaj podgląd w ReelClip. Zawiera krótki zapis rzeczywistych elementów sterujących.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Instrukcja",
+  "primaryKeyword": "jak zastosować lut na iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "fedab8fcd0019d84b55c753bbdb6002b2165d01a734f05ec0c27b70bb473da71",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Jeśli masz już plik .cube LUT, możesz zaimportować go z aplikacji Pliki i dostosować jego siłę w ReelClip. Zacznij od LUT przeznaczonego dla Twojego materiału i konfiguracji kolorów; look kreatywny i konwersja kamery służą różnym celom."
+    },
+    {
+      "kind": "tutorial",
+      "id": "apply-lut"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wybierz odpowiednie wejście przed lookiem kreatywnym"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Znormalizuj materiał Log lub HDR przed zastosowaniem gotowego do wyświetlenia LUT kreatywnego. Własne wyeksportowane LUT-y kreatywne ReelClip używają zakodowanego sRGB; Rec.709 dzieli z nim pierwotne kolory, ale ma inne zachowanie transferowe. Dopasuj do udokumentowanego wejścia LUT-a i unikaj dwukrotnego stosowania normalizacji kamery. Nasza oryginalna kolekcja startowa jest obecnie testowana. Zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">przewodnik po darmowych zasobach LUT</a> <!-- -->dla statusu jej rozwoju i oficjalnych zasobów kamer."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wprowadź plik do ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Zaimportuj wideo, które chcesz edytować.</li><li>Otwórz Adjust & Style i wybierz LUTs.</li><li>Dotknij Import LUT i wybierz plik .cube z aplikacji Pliki.</li><li>Wybierz zaimportowany look w bibliotece LUT.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Demonstracja używa zakładki Creative i wcześniej zapisanego looku ReelClip. Gdy LUT pojawi się w Twojej bibliotece, wybierz go i sprawdź jego efekt na własnym materiale."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sprawdź siłę na swoim materiale"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Przesuń suwak siły i porównaj wynik z oryginałem. Sprawdź skórę, jasne obszary i ciemne detale podczas odtwarzania materiału. Przykład osiąga 68%; ta wartość należy do tej próbki, a nie jest zalecanym ustawieniem dla każdego klipu."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W przypadku konwersji kamery postępuj zgodnie z instrukcjami dołączonymi do LUT i dopasuj profil źródłowego nagrania. Nie zakładaj, że LUT stworzony dla jednego profilu log jest odpowiedni dla innego. Przykład ten przedstawia kontrolki importu i korekty, a nie obsługę każdej kamery lub pliku LUT."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przejrzyj gotowe wideo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zakończ korektę, otwórz Review i sprawdź wyrenderowane wyjście. Zapisanie wideo wymaga Creator. Sprawdź faktycznie zapisany plik przed udostępnieniem, szczególnie jeśli ustawienia koloru lub HDR uległy zmianie podczas edycji."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Aby dowiedzieć się więcej o samym pliku, przeczytaj<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/cube-lut-explained\">co zawiera plik .cube LUT</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

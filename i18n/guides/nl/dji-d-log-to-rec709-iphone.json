@@ -1,0 +1,122 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "DJI D-Log naar Rec.709 op iPhone: match de camera en het opnameprofiel",
+  "description": "Kies een model-specifieke DJI-conversie, pas deze niet twee keer toe en test het resultaat op iPhone voordat je de volledige opname bewerkt.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Handleiding",
+  "primaryKeyword": "convert dji d-log naar rec 709 op iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "f85a30966388796732d5fea02dea8f017c6e15d28584f59fa63ebef114f8e141",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Om een DJI-opname naar Rec.709 te converteren, identificeer je de camera en de daadwerkelijk gebruikte modus, en kies je vervolgens een bijpassende conversie. D-Log, D-Log M, D-Log 2, D-Cinelike en HLG zijn niet uitwisselbare namen voor dezelfde beeldstijl."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Identificeer eerst de bron"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Controleer de camera-instellingen, de originele bestandsmetadata en de documentatie van de camera. Bewaar het originele bestand bij het overzetten van footage; een verwerkte kopie uit een andere app kan al een look of conversie bevatten."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI's model- en LUT-tabel</a> bevat de opnameprofielen en beschikbare bronnen. De Pocket 3 heeft bijvoorbeeld een D-Log M-conversie, terwijl de originele Osmo Pocket en Pocket 2 zijn vermeld met D-Cinelike. Leid het profiel niet af uit het woord Pocket alleen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies de bijpassende conversie"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gebruik <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI's officiële downloadmap</a> en de instructies voor jouw exacte model. Controleer zowel de verwachte invoer als uitvoer. Een LUT met Rec.709 in de bestandsnaam kan nog steeds een andere broncurve verwachten dan degene die je hebt opgenomen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Controleer of jouw editor de bronconversie al beheert. Het toepassen van een extra camera-conversie bovenop een bestaande kan leiden tot incorrect contrast en incorrecte kleuren. Voor HLG of een andere HDR-workflow gebruik je een editor en uitvoeropstelling die die bron expliciet ondersteunen, in plaats van aan te nemen dat een Log LUT ook HDR tone mapping uitvoert."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Test een kort gedeelte in ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importeer de originele opname en zorg dat het bijbehorende .cube-bestand beschikbaar is in Bestanden.</li><li>Open Adjust & Style → LUTs → Import LUT en selecteer het bestand.</li><li>Volg de instructies van de leverancier voor de broninterpretatie. Vergelijk de voorvertoning met het onaangepaste beeld en controleer meerdere frames.</li><li>Bekijk het gerenderde resultaat, controleer daarna een kort opgeslagen voorbeeld. Video opslaan vereist Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De opgenomen <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">ReelClip LUT-demo</a> toont import- en sterktebediening met een creative look. Deze verifieert geen gekalibreerde DJI-conversie, elke invoercodering of elke LUT-variant. Als een technisch bestand niet werkt zoals bedoeld, gebruik dan een geverifieerde cameraspecifieke kleurworkflow voordat je verder gaat met je edit."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Ga verder na controle van kleur"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zodra je voorbeeld er goed uitziet in de beoogde uitvoeropstelling, pas je dezelfde gecontroleerde instellingen toe op de vereiste clips. Houd rekening met verschillen in belichting en witbalans tussen shots. Een LUT alleen zorgt er niet voor dat verschillend belichte shots overeenkomen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gebruik <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut</a> voor een geplande batch of de <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">Transcript-workflow</a> voor gesproken passages. Bewaar een kopie van de originele opname, zodat je later de kleurkeuzes opnieuw kunt bekijken."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

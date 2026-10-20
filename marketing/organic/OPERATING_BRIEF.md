@@ -4,7 +4,7 @@ Objective: turn relevant searches into useful website visits, App Store visits, 
 
 Audience: iPhone creators preparing long recordings, podcast excerpts, and batches of shorter source clips. Match each guide to a real task supported by the released app.
 
-Active working copy: `/Users/judeokun/Documents/GitHub/reelclip/output/organic-marketing/site`, branch `codex/organic-marketing`, in the existing `jewwiid/reelclip-web` repository. Work here so unrelated changes in the primary checkout are preserved. Before future publication, fetch and incorporate current `origin/main` so a deployment cannot roll back someone else's site changes. Reconcile conflicts before deployment and report any conflict that cannot be safely resolved.
+Active working copy after the guide localization repair: `/Users/judeokun/Documents/GitHub/reelclip/output/organic-marketing/localization-fixes`, local branch `codex/guide-localization-fixes`, continuing the existing remote `codex/organic-marketing` branch and draft PR #5 in `jewwiid/reelclip-web`. The older `site` checkout contains other ongoing drafts; preserve it. Use the current repair checkout so a future run starts from the published guide renderer and translations. Before future publication, fetch and incorporate current `origin/main` and newer changes to the publishing branch so a deployment cannot roll back someone else's site changes. Reconcile conflicts before deployment and report any conflict that cannot be safely resolved.
 
 ## Daily run
 
@@ -39,7 +39,23 @@ The reviewed feature recordings show Slice, Cut, Transcript and AI mode labels. 
 
 Reference the source and published product rather than extrapolating from an unshipped feature branch. Marketing source belongs to `/Users/judeokun/Documents/GitHub/reelclip-web`. The original iOS repository has its own testing/creator-continuity rules: load its housekeeping skill before any iOS tests or app capture, and follow its shared continuity gate for any creator-matched media.
 
-The Spanish free-LUT guide was reviewed on 2026-10-20 against official DJI, Sony, Blackmagic and Apple resources. Other language versions and related camera guides still need their own factual review. Existing prose is not proof that a product, LUT pack, or camera profile exists. The Spanish guide's title, description and update date are registered in `i18n/blog-metadata.ts`, which feeds both article metadata and the sitemap. Add entries only for translated articles actually reviewed; other translations retain their existing dates. Some other article titles still inherit English metadata.
+The guide localization repair reviews the English sources against released app behavior and official camera/platform documentation. Existing prose is not proof that a product, LUT pack or camera profile exists. Original starter-LUT examples are explicitly development previews, not a claim that those packs are released. Real-stock footage comparisons illustrate creative changes; uploader descriptions do not establish a camera curve/gamut or validate a technical conversion.
+
+## Guide translations
+
+English guide components and `app/blog/posts.ts` are the reviewed source. Each translated article is a versioned document in `i18n/guides/<locale>/<slug>.json`. Its title/description also feed search metadata and blog cards; do not create a separate metadata override. The document records its English source fingerprint and preserves the original publication date. Translated publication/update dates use the selected locale. The picker, canonical/hreflang and sitemap advertise only guide translations that exist.
+
+When an English guide changes, refresh its 11 translations as part of the same guide improvement. Do not publish a new English revision with stale translated copies. `npm run check:guides` checks the registry, every locale, source revisions, interface strings, links and caption timing; the production build runs this guard automatically. It also rejects a missing language version or untranslated English search metadata. Structural validation alone does not establish good translation quality: read the generated copy, review language/numeric flags, and retain honest evidence of what was checked.
+
+Use the existing Ollama connection for public copy only. The local generator requires Python 3 and BeautifulSoup 4; builds and deployment do not require Python or model access. Model responses and review logs go to ignored `.organic-runs/guide-localization/` unless an explicit local work directory is set. No Google, Apple or TelemetryDeck credentials belong in translation input.
+
+1. Run `npm run guide:source` in an owned local session. It exposes the current English components on loopback port 3093 with their build source versions. Preserve other tasks' servers; use an alternate port/source URL if this port is occupied.
+2. Run `python3 scripts/localize-guides.py --guide <slug> --source-url http://127.0.0.1:3093`. Languages of that one guide run independently; guide families remain sequential. An existing translation is skipped only when its source fingerprint matches. A stale source server is rejected.
+3. If shared guide/video/interface text changes, run `node scripts/export-guide-ui.mjs` and `python3 scripts/localize-guides.py --ui`. New visible text must use the shared translation helper. Keep recorded app-control names exact; explain them in the selected language.
+4. If English tutorial captions change, run `python3 scripts/localize-guides.py --captions`. Per-locale caption source hashes prevent a single refreshed language from marking other languages current. The five existing recordings remain in English; localized page instructions and default step captions explain them accurately. Do not claim localized app pixels or a demonstrated save that the source does not show.
+5. Review the generated guide, metadata/cards, relevant internal links and interactive media. Run `npm run check:guides` and the production build. Check actual localized pages and sitemap before publishing. Keep source/review dates honest and journal the publication. Stop only the owned source server when finished.
+
+The legacy `generate-static-page-translations.mjs` handles only privacy/terms. Frozen blog HTML is obsolete and must not be regenerated.
 
 ## Authorization and credentials
 

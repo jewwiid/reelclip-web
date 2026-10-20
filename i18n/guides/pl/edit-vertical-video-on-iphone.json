@@ -1,0 +1,102 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "Jak edytować wideo pionowe na iPhonie (Reels, TikTok, Shorts)",
+  "description": "Wybieraj i doprecyzuj momenty z ujęć portretowych w ReelClip, sprawdzaj napisy i kadrowanie, a następnie zapisz klipy, które chcesz opublikować.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Instrukcja",
+  "primaryKeyword": "jak edytować wideo pionowe na iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "2dbb0fbbd27b244900843ff0f66235ad26c71ec35abc3c1b1c1b9356a457b0d5",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zacznij od nagrania portretowego i wybierz momenty, które chcesz zachować. W ReelClip funkcja Slice wybiera zakres czasowy; nie decyduje ona, która część obrazu powinna pasować do innego proporcji. Sprawdź kadrowanie osobno przed opublikowaniem."
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wybierz moment za pomocą Slice"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importuj nagranie z Photos lub Files, a następnie otwórz Clip.</li><li>Wybierz Slice. Przesuń zaznaczenie na fragment, który chcesz zachować.</li><li>Dostosuj początek i koniec, aby akcja lub zdanie miały wystarczający kontekst.</li><li>Dotknij Add, a następnie powtórz dla innych momentów, które chcesz.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W demonstracji użyto krótkiego przykładu i trzech zaznaczeń. Twoje nagranie może wymagać innej liczby lub długości klipów. Obejrzyj każde zaznaczenie; cięcie, które działa wizualnie, może nadal przerywać wypowiedziane zdanie."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sprawdź obraz i słowa"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Odtwórz zaplanowane klipy i sprawdź ich pierwszą i ostatnią klatkę. Źródło portretowe ma już pionowy obraz; źródło poziome wymaga osobnej decyzji dotyczącej kadrowania. Zmiana zaznaczonego zakresu czasowego nie automatycznie kadruje obrazu dla Reels lub Shorts."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dla nagrań z mową sprawdź również transkrypcję i napisy. Popraw imiona i terminy specjalistyczne, a następnie upewnij się, że tekst pozostaje czytelny na obrazie. Zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/extract-clip-from-podcast\">przepływ pracy z transkrypcją</a> <!-- -->dla przykładu z wykorzystaniem mowy."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zapisz, a następnie prześlij"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wybierz Review i sprawdź przygotowane wyjście przed zapisaniem do Photos. Eksport wymaga Creator. Poczekaj na potwierdzenie zapisu, a następnie otwórz docelową aplikację i samodzielnie prześlij zapisany plik. Sprawdź jej aktualne wymagania dotyczące przesyłania, jeśli zmienisz format wyjściowy."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Jeśli chcesz regularnie rozmieszczone klipy zamiast ręcznie wybranych momentów, użyj <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">przepływu pracy Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.600
+Aktiviere Remove pauses unter Audio → Cleanup.
+
+00:00:02.600 --> 00:00:04.600
+Überprüfe den Schwellenwert von 0,35 Sekunden. Dieser native Frame ist zur besseren Lesbarkeit pausiert.
+
+00:00:04.600 --> 00:00:09.600
+Überprüfe den roten Auto remove-Marker und die Anzahl von 9 unter Transcript. Dieser native Frame ist zur besseren Lesbarkeit pausiert.
+
+00:00:09.600 --> 00:00:18.600
+Spiele das tatsächliche bearbeitete Ergebnis von 31,9 Sekunden ab.

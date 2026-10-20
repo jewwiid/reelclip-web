@@ -1,0 +1,129 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "How to edit DJI footage on iPhone: import, choose moments and review the result",
+  "description": "Bring DJI footage into ReelClip, choose Slice, Cut or Transcript for the task, check color and captions, then review before saving.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "How-to",
+  "primaryKeyword": "edit dji osmo footage on iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "To edit DJI footage on iPhone, transfer the original recording to a location you can access, import it in ReelClip, and choose how you want to select moments. Check color, framing and captions before saving the clips for your publishing workflow."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Keep the original when transferring"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use a transfer method supported by your camera and iPhone. Keep the original camera file and a note of its recording mode rather than relying on an already processed sharing copy. If the file is in cloud storage, make sure it is available before starting the edit."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "For camera-specific transfer steps, use the <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI download and manual resources</a> for your model. Transfer support depends on the camera, storage and connection; one method is not guaranteed for every Osmo, Action or drone."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Choose the editing mode for the task"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Slice lets you choose a time window, move it to a moment you want and refine the edges.</li><li>Cut plans clips using the amount, duration and spacing controls. Review the selected moments before saving.</li><li>Transcript is useful for spoken recordings: read the recognized words, check errors and choose the passage in context.</li><li>AI can help plan moments from a prompt when its required device features are available. Review the proposed cuts yourself.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "The <a class=\"text-accent hover:underline\" href=\"/blog/edit-vertical-video-on-iphone\">Slice walkthrough</a> and <a class=\"text-accent hover:underline\" href=\"/blog/how-to-cut-long-video-for-tiktok\">Cut walkthrough</a> show the actual selection controls. The app prepares clips; it does not post them directly to social platforms."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Check the color profile"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI recording modes differ by model. Match the conversion to the source rather than applying the same LUT to every file. Normal, D-Cinelike, D-Log M and HLG should not be treated as one format. See the <a class=\"text-accent hover:underline\" href=\"/blog/dji-osmo-pocket-color-grading\">Pocket color guide</a> for profile identification and the <a class=\"text-accent hover:underline\" href=\"/blog/how-to-apply-lut-on-iphone\">LUT import demo</a> for the controls."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Review captions, framing and sound"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Read captions against the spoken recording and correct recognition errors. Play through edits to check that words and gestures are not cut abruptly. Choosing a shorter time range does not by itself reframe a wide shot for a vertical post, so inspect the picture separately."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Different recording lengths, codecs and device conditions affect processing. Preview a representative section instead of relying on a fixed promise about transcription or export time."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Save the version you checked"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Open Review, watch the rendered result and save the clips you want. Saving video requires Creator. Check the actual file in Photos before sharing, particularly if you changed color or caption settings. Keep the source so you can make another version later."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

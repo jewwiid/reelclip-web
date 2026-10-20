@@ -1,0 +1,206 @@
+{
+  "slug": "how-to-cut-long-video-for-tiktok",
+  "title": "iPhone에서 긴 동영상을 TikTok용으로 자르는 방법",
+  "description": "ReelClip의 Cut 컨트롤로 긴 녹화본에서 클립을 준비하고, 프레이밍과 자막을 검토한 다음, TikTok에 업로드하고 싶은 동영상을 저장하세요.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "튜토리얼",
+  "primaryKeyword": "how to cut a long video for tiktok",
+  "readMinutes": 5,
+  "sourceFingerprint": "5f8e14def2840203c455006428eb0a59607beed65f84fc1d5d58e60f24765b23",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "12분간의 토킹헤드 동영상, 스트리밍 녹화본, 또는 긴 브이로그가 있고 — 그중에서 3~4개의 TikTok용 클립을 만들고 싶습니다. iPhone에서 직접 클립을 준비하고, 각 순간을 검토한 뒤, 게시하고 싶은 것만 저장할 수 있습니다. 소요 시간은 녹화본, 기기, 편집량에 따라 달라집니다."
+    },
+    {
+      "kind": "tutorial",
+      "id": "cut-clips"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "필요한 것"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Photos 라이브러리나 Files 앱에 이미 있는 긴 녹화본.</li><li>현재 앱 출시 버전에 명시된 대로 iOS 17 이상이 설치된 iPhone.</li><li><a class=\"text-accent hover:underline\" href=\"/ko/\">ReelClip</a>(가져오기 및 미리보기는 무료, 내보내기는 Creator 플랜 필요). AI 기능에는 호환 가능하고 활성화된 Apple Intelligence를 비롯한 추가 하드웨어 및 소프트웨어 요구사항이 있습니다. 기기에서 사용 가능 여부를 확인하세요.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "7단계 워크플로우"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "1. 녹화본을 ReelClip으로 가져오기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Photos 또는 Files에서 녹화본을 가져오세요. ReelClip은 개인 샌드박스에 복사합니다 — Photos의 원본 파일은 그대로 유지되며, 어떤 것도 업로드되지 않습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "2. 적절한 자르기 모드 선택"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "네 가지 자르기 모드가 있습니다. 소스 재료에 맞는 것을 선택하세요:"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Cut</strong> — 영상을 동일한 길이의 조각으로 나눕니다. 녹화에 명확한 구간(인터뷰 섹션, 목록 항목, 챕터)이 있을 때 적합합니다.</li><li><strong class=\"text-text\">Transcript</strong> — 기기 내 음성 인식을 실행하여 휴지 구간을 찾아내고, 불필요한 공백을 자를 수 있게 해줍니다. 토킹헤드 콘텐츠와 팟캐스트에 적합합니다.</li><li><strong class=\"text-text\">Slice</strong> — 직접 원하는 순간을 선택하고, 선택 영역을 이동하며 시작과 끝을 세밀하게 조정합니다.</li><li><strong class=\"text-text\">AI</strong> — 원하는 내용을 설명하면(“가장 재미있는 순간”, “가격 설명하는 부분”, “가장 인용하기 좋은 대사”) 기기 내 Apple Intelligence가 순간을 제안해 검토할 수 있습니다. 해당 기능이 기기에서 사용 가능할 때 이용할 수 있습니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "3. 계획한 모든 클립 검토하기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "이 단계는 사람들이 건너뛰는 단계이지만, 가장 중요한 단계입니다. 각 계획된 클립을 탭하여 처음부터 끝까지 시청하고, 유지하거나, 자르거나, 거부하세요. ReelClip은 자동으로 내보내지 않습니다. 내보낼 것은 여러분이 결정합니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "4. 각 클립을 TikTok 길이에 맞게 자르기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "각 클립에 하나의 완전한 아이디어를 담으세요. 시작 부분을 타이트하게 하고, 불필요한 도입부를 제거하며, 전체 녹화를 본 적 없는 사람을 위한 충분한 맥락을 유지하세요. 게시 전 TikTok의 현재 업로드 제한을 확인하세요; 보편적인 이상적인 클립 길이는 없습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "5. 세로 포스팅을 위한 프레이밍 확인"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "원본 영상이 가로라면 두 가지 선택지가 있습니다: 그대로 내보내거나, 마무리 편집기에서 세로 게시용으로 자르는 것입니다. 시간 범위 선택과 화면 구도 선택은 별개의 결정입니다; 게시 전 둘 다 확인하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "6. 일괄 저장하여 Photos에 저장하기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong class=\"text-text\">Review</strong>를 탭하고 클립 준비가 완료될 때까지 기다리세요. 출력물을 재생한 후 Photos 저장 작업을 선택하세요. 앱을 나가기 전 완료 확인을 기다리세요. 내보내기에는 Creator가 필요합니다; 원본은 그대로 유지됩니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "7. Photos에서 TikTok에 업로드하기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "TikTok을 열고 플러스 버튼을 탭한 다음<!-- --> <strong class=\"text-text\">Upload</strong>를 탭하세요. 라이브러리에서 첫 번째 클립을 선택하세요. TikTok이 기기에서 직접 가져옵니다 — ReelClip은 여러분의 TikTok 계정에 접근한 적도, TikTok 서버에 무엇인가 업로드한 적도 없습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "일반적인 함정"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">검토를 건너뛰는 것.</strong> AI 모드는 좋지만 완벽하지는 않습니다. 내보내기 전에 각 클립을 처음부터 끝까지 항상 시청하세요.</li><li><strong class=\"text-text\">원본 12분짜리 파일을 그대로 업로드하는 것.</strong> 소스는 보관하고, 스토리와 게시 플랫폼에 맞는 버전을 선택하세요. 더 짧은 클립이 반드시 더 많은 조회수를 보장하는 것은 아닙니다.</li><li><strong class=\"text-text\">자막이 없는 것.</strong> 자막은 소리를 들을 수 없을 때 사람들이 대화를 따라가는 데 도움이 됩니다. 게시 전 마무리 편집기에서 철자와 타이밍을 확인하세요.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "TikTok 이후 할 일"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "YouTube Shorts나 Instagram Reels에 교차 게시하기 전에 각 플랫폼의 현재 형식과 길이 요구사항을 확인하세요. 같은 순간이라도 게시 플랫폼에 따라 다른 프레이밍이나 길이가 필요할 수 있습니다. 플랫폼별 차이점은 <a class=\"text-accent hover:underline\" href=\"/ko/blog/video-length-social-media-reach\">동영상 길이와 도달 가이드</a> <!-- -->에서 확인하거나, 관련 워크플로우는 <a class=\"text-accent hover:underline\" href=\"/ko/blog/extract-clip-from-podcast\">팟캐스트 하이라이트 추출 방법</a> <!-- -->을 참조하세요."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

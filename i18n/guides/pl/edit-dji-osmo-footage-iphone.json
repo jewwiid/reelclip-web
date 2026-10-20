@@ -1,0 +1,130 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "Jak edytować materiały DJI na iPhonie: importuj, wybierz momenty i sprawdź wynik",
+  "description": "Przenieś materiały DJI do ReelClip, wybierz Slice, Cut lub Transcript do zadania, sprawdź kolor i napisy, a następnie przejrzyj przed zapisaniem.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Instrukcja",
+  "primaryKeyword": "edytuj materiały dji osmo na iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Aby edytować materiały DJI na iPhonie, przenieś oryginalne nagranie do lokalizacji, do której masz dostęp, zaimportuj je w ReelClip i wybierz, w jaki sposób chcesz wybrać momenty. Sprawdź kolor, kadrowanie i napisy przed zapisaniem klipów do swojego workflow publikacyjnego."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zachowaj oryginał podczas przenoszenia"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Użyj metody transferu obsługiwanej przez twoją kamerę i iPhone'a. Zachowaj oryginalny plik z kamery i zanotuj jego tryb nagrywania, zamiast polegać na już przetworzonej kopii do udostępniania. Jeśli plik jest w chmurze, upewnij się, że jest dostępny przed rozpoczęciem edycji."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Aby uzyskać instrukcje transferu dla konkretnego modelu kamery, skorzystaj z <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">materiałów do pobrania i instrukcji DJI</a> dla swojego modelu. Obsługa transferu zależy od kamery, pamięci i połączenia; jedna metoda nie jest gwarantowana dla każdego modelu Osmo, Action czy drona."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wybierz tryb edycji do zadania"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Slice pozwala wybrać okno czasowe, przesunąć je do pożądanego momentu i dopracować krawędzie.</li><li>Cut planuje klipy za pomocą kontrolek ilości, czasu trwania i odstępów. Przejrzyj wybrane momenty przed zapisaniem.</li><li>Transcript jest przydatny dla nagrań z mową: przeczytaj rozpoznane słowa, sprawdź błędy i wybierz fragment w kontekście.</li><li>AI może pomóc zaplanować momenty na podstawie promptu, gdy wymagane funkcje urządzenia są dostępne. Samodzielnie przejrzyj proponowane cięcia.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/pl/blog/edit-vertical-video-on-iphone\">Poradnik Slice</a> i <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">Poradnik Cut</a> pokazują rzeczywiste kontrolki wyboru. Aplikacja przygotowuje klipy; nie publikuje ich bezpośrednio na platformach społecznościowych."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sprawdź profil koloru"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Tryby nagrywania DJI różnią się w zależności od modelu. Dopasuj konwersję do źródła, zamiast stosować ten sam LUT do każdego pliku. Normal, D-Cinelike, D-Log M i HLG nie powinny być traktowane jako jeden format. Zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/dji-osmo-pocket-color-grading\">przewodnik po kolorach Pocket</a> dotyczący identyfikacji profili oraz <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">demo importu LUT</a> omawiające sterowanie."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przejrzyj napisy, kadrowanie i dźwięk"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sprawdź napisy względem nagrania mówionego i popraw błędy rozpoznawania. Odtwórz edycje, aby sprawdzić, czy słowa i gesty nie są ucinane nagle. Wybór krótszego zakresu czasowego sam w sobie nie przekadruje szerokiego ujęcia na post w pionie, więc osobno sprawdź obraz."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Różne długości nagrań, kodeki i warunki urządzenia wpływają na przetwarzanie. Podglądaj reprezentatywny fragment zamiast polegać na stałej obietnicy dotyczącej czasu transkrypcji lub eksportu."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zapisz sprawdzoną wersję"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Otwórz Review, obejrzyj wyrenderowany wynik i zapisz klipy, które chcesz. Zapisywanie wideo wymaga Creator. Sprawdź faktyczny plik w Zdjęciach przed udostępnieniem, szczególnie jeśli zmieniłeś ustawienia koloru lub napisów. Zachowaj źródło, aby móc później stworzyć inną wersję."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

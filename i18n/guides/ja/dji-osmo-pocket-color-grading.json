@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-color-grading",
+  "title": "DJI Osmo PocketのiPhoneカラーグレーディング：適切な撮影プロファイルを選ぶ",
+  "description": "D-Cinelike、D-Log M、その他のPocketプロファイルの違いを理解し、適合する変換を選んで、iPhoneでクリエイティブな色調変化を確認しよう。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "ユースケース",
+  "primaryKeyword": "dji osmo pocket color grading",
+  "readMinutes": 4,
+  "sourceFingerprint": "40842a7435a08ec30100ef78d30833c2c6094e1483b8bb9358150e8bf9a58666",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pocket映像のカラーグレーディングは、世代番号だけでなく撮影モードから始まる。ソースの解釈方法を確立してから、クリエイティブなルックを追加しよう。すでに完成されたNormalの外観になっている撮影は、DJIカメラから来たからといってLog変換が必要なわけではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "モデルとモードを確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJIのプロファイルとLUTリファレンス</a>には、初代Osmo PocketとPocket 2がD-Cinelike、Pocket 3がD-Log M、Pocket 4がD-Logと記載されている。バリエーションは個別に扱い、カメラの現在のエントリーを確認すること。これらのラベルは互換性がない。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "元の撮影時の設定、サポートされているメタデータ、カメラのドキュメントを併用すること。映像がフラットに見えるからといって、それがカーブやガムットの証明にはならない。別の編集アプリを通して保存されたコピーは、すでに変換されている可能性がある。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "スタイリングの前に映像を準備する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Log素材の場合、カメラとプロファイルに対応した変換を選ぶ。<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJIの公式リソース</a>と選択したファイルの説明書を確認する。エディタがすでにソースを正しく変換している場合は、変換を2重に追加しないこと。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "D-Cinelike、Normal、HDR素材の場合、そのモードを明示的にサポートするワークフローに従う。映像をよりコントラストのある見た目にするからといってD-Log Mファイルを選ばないこと。技術的な正確性と好みのクリエイティブな外観は、別々の判断である。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClipでクリエイティブなルックを試す"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>元の録画を保持し、編集したいクリップを読み込んでください。</li><li>対応する.cubeファイルをFilesに保存してください。ReelClipで、Adjust &amp; Style → LUTs → Import LUTを開きます。</li><li>ルックを選択し、プレビューを元の映像と比較してください。想定される入力要件に従ってください。</li><li>クリエイティブの強度をショットに合わせて調整してください。クリップが再生される間、顔、明るい部分、暗部のディテールを確認してください。</li><li>レンダリング結果と保存したサンプルを確認してから、プロジェクト全体に設定を適用してください。動画の保存にはCreatorが必要です。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">LUTウォークスルー</a>では、実際のクリエイティブルックの読み込みを紹介しています。これは各カメラ変換、HDR出力、技術的なLUTファイルを保証するものではなく、コントロールの操作方法を示したものです。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "目で見えるものでショットをマッチングさせる"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "まず露出とホワイトバランスから始め、次に肌色、ニュートラルな被写体、彩度の高い部分をショット間で比較してください。同じLUTでも、異なる光の下で録画された映像では見え方が異なることがあります。すべてのクリップに通用する強度のパーセンテージは存在しません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "機種別のダウンロードについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/dji-osmo-pocket-3-luts\">Pocket 3用LUT</a>をご覧ください。完成した映像を投稿用に準備するには、<a class=\"text-accent hover:underline\" href=\"/ja/blog/edit-dji-osmo-footage-iphone\">iPhoneでDJI映像を編集する</a>を続けてください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-3-luts",
+  "title": "DJI Osmo Pocket 3 LUT：公式ダウンロードとiPhoneワークフロー完全ガイド",
+  "description": "DJI公式のPocket 3 D-Log M to Rec.709 LUTを入手し、自分の撮影モードを確認して、iPhoneで対応する.cubeファイルをテストする方法。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "まとめ",
+  "primaryKeyword": "dji osmo pocket 3 luts",
+  "readMinutes": 4,
+  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Osmo Pocket 3でD-Log Mで撮影した場合は、そのカメラとプロファイル用のDJI変換LUTから始めましょう。NormalまたはHLGで撮影した場合は、それぞれのモード用のワークフローを選択してください。映像がフラットに見えるだけでは、撮影フォーマットを特定することはできません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "公式Pocket 3 LUTを入手"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJIは<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M to Rec.709</a>を公開しています。DJIからファイルをダウンロードし、付属の説明に従ってください。<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">公式LUTディレクトリ</a>では、カメラモデル別にリソースが分類されています。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "D-LogとD-Log Mは別々のプロファイルです。両方がDJI製カメラだからという理由で、別の記録カーブ用のファイルを代用しないでください。初代Osmo PocketおよびPocket 2は、Pocket 3のD-Log MワークフローではなくD-Cinelikeを使用します。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "変換用とクリエイティブルックは目的が異なる"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラ変換は、ソースをRec.709などの出力先向けに準備するものです。クリエイティブルックは、宣言された入力に応じて外観を変更するものです。提供元の説明を確認しましょう：一部のルックはLogを直接想定している一方、別のルックはすでに正規化された映像を想定しています。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "エディタがすでにソースを正しく解釈または変換している場合、同じ変換を2重に適用しないでください。すべてのクリエイティブLUTを固定の強度で他のLUTの後に重ねるべきという普遍的なルールは存在しません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iPhoneでファイルをテスト"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>元のカメラファイルと記録モードのメモを保管してください。iPhoneがアクセスできる場所に転送してください。</li><li>必要に応じてダウンロードした.cubeファイルを展開し、ファイルアプリで利用できるようにしてください。</li><li>ReelClipでクリップを開き、Adjust & Style → LUTs → Import LUTを使用してください。インポートしたファイルを選択し、プレビューを確認してください。</li><li>技術的な変換の場合、プロバイダーの入力要件に従ってください。記録の複数の部分で肌色、ハイライト、飽和色を確認してください。</li><li>プロジェクト全体をグレーディングする前に、短い保存済みサンプルをReviewしてください。動画の保存にはCreatorが必要です。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "当社の<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">インポートの手順解説</a>では、クリエイティブなルックを使って各コントロールを実演しています。これはすべてのDJIファイルに対する校正済み変換サポートを保証するものではなく、完成した書き出しが他のエディターと一致することを約束するものでもありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "追加のルックは慎重に選んでください"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "各ダウンロードに作者の指示とライセンスを同梱してください。無料のクリエイティブコレクションが必ずしもPocket 3専用とは限りません。<a class=\"text-accent hover:underline\" href=\"/ja/blog/best-free-luts-2026\">無料LUTガイド</a>では、公式リソースへのリンクと、想定される入力に基づいて選ぶ方法を解説しています。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "別のPocketモデルの映像については、<a class=\"text-accent hover:underline\" href=\"/ja/blog/dji-osmo-pocket-color-grading\">Pocketの記録プロファイルとのマッチング</a>をご覧ください。カラーワーク後のクリッピングやキャプションについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/edit-dji-osmo-footage-iphone\">DJI編集ワークフロー</a>をご利用ください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

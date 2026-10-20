@@ -1,0 +1,109 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "How to extract highlights from a podcast on iPhone",
+  "description": "Use the transcript to find and review spoken moments from a podcast video, check captions, and prepare clips for export on iPhone.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "Use case",
+  "primaryKeyword": "how to clip podcast highlights",
+  "readMinutes": 4,
+  "sourceFingerprint": "d11358c74169a1ab6dd7eabadd2937aac4809eb4ffe4881a0bda71c63293c6c1",
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A transcript can help you find a spoken moment without repeatedly scrubbing the whole recording. Start with a video of your podcast or interview, then read the transcript and play the surrounding passage before choosing a clip."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Keep enough context for someone who has not heard the episode. A quotable sentence can still need the question or explanation that came before it."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Find and select the passage"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Import the video from Photos or Files and choose Transcript.</li><li>Wait for transcription, then check names and any words it misunderstood.</li><li>Read through the text and play a candidate passage in context.</li><li>Use Add as clip for the passage you want, or use Slice when you already know its time range.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "The recorded interface shows Add as clip beside a transcript passage. The demo also shows a word removed from the edit. Removing a word changes the video edit, so listen at that cut rather than treating it as a simple spelling correction."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Review captions and sound"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Preview each candidate clip before exporting. Check its opening, ending and any removed speech. If you use captions, review the words and their placement over the picture. Check the captions in the final saved file as well as the editor preview."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "You can inspect the transcript’s Export menu for text and subtitle options separately from saving the video. For long quiet gaps, see<!-- --> <a class=\"text-accent hover:underline\" href=\"/blog/remove-silence-from-video-free\">pause cleanup</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Save the clip you intend to post"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Choose Review and inspect the prepared output, then save to Photos. Export requires Creator. Check the saved file and its framing before uploading it to your chosen platform. Transcription and rendering time depend on the recording and device; there is no fixed processing time or guaranteed number of useful highlights."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use <a class=\"text-accent hover:underline\" href=\"/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->when regularly spaced clips suit the recording better than transcript selection."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

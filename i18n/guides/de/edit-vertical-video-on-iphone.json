@@ -1,0 +1,102 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "So bearbeitest du vertikale Videos auf dem iPhone (Reels, TikTok, Shorts)",
+  "description": "Wähle und verfeinere Momente aus Hochformat-Aufnahmen in ReelClip, überprüfe Untertitel und Bildschnitt, und speichere die Clips, die du posten möchtest.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Anleitung",
+  "primaryKeyword": "how to edit vertical video on iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "2dbb0fbbd27b244900843ff0f66235ad26c71ec35abc3c1b1c1b9356a457b0d5",
+  "schemaVersion": 1,
+  "locale": "de",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Beginne mit einer Hochformat-Aufnahme und wähle die Momente, die du behalten möchtest. In ReelClip wählt Slice einen Zeitbereich aus; es entscheidet nicht, welcher Teil des Bildes in ein anderes Seitenverhältnis passen sollte. Überprüfe den Bildschnitt separat, bevor du postest."
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wähle einen Moment mit Slice"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importiere die Aufnahme aus Fotos oder Dateien, und öffne dann Clip.</li><li>Wähle Slice. Verschiebe die Auswahl zu dem Teil, den du behalten möchtest.</li><li>Passe Start und Ende so an, dass die Handlung oder der Satz genug Kontext hat.</li><li>Tippe auf Add, und wiederhole das für alle weiteren Momente, die du möchtest.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Die Demo verwendet eine kurze Beispielaufnahme und drei Auswahlen. Deine Aufnahme kann eine andere Anzahl oder Länge von Clips erfordern. Sieh dir jede Auswahl an; ein Schnitt, der visuell funktioniert, kann trotzdem einen gesprochenen Satz unterbrechen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Überprüfe Bild und Worte"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Spiele die geplanten Clips ab und prüfe deren erstes und letztes Bild. Eine Hochformat-Quelle hat bereits ein vertikales Bild; eine Querformat-Quelle erfordert eine separate Entscheidung zum Bildschnitt. Die Änderung des gewählten Zeitbereichs beschneidet das Bild nicht automatisch für einen Reel oder Short."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Bei gesprochenen Aufnahmen überprüfe auch das Transkript und die Untertitel. Korrigiere Namen und Fachbegriffe, und prüfe dann, ob der Text über dem Bild lesbar bleibt. Sieh dir den <a class=\"text-accent hover:underline\" href=\"/de/blog/extract-clip-from-podcast\">Transkript-Workflow</a> <!-- -->für ein Beispiel mit Sprache an."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Speichern, dann hochladen"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wähle Review und prüfe das vorbereitete Ergebnis, bevor du es in Fotos speicherst. Export erfordert Creator. Warte auf die Speicherbestätigung, öffne dann die Ziel-App und lade die gespeicherte Datei selbst hoch. Prüfe die aktuellen Upload-Anforderungen, wenn du das Ausgabeformat änderst."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wenn du regelmäßig beabstandete Clips statt handverlesener Momente möchtest, verwende <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">den Cut-Workflow</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

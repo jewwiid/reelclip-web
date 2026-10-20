@@ -1,0 +1,189 @@
+{
+  "slug": "video-length-social-media-reach",
+  "title": "영상 길이가 소셜 미디어 도달에 해가 되나요?",
+  "description": "인스타그램, 유튜브 쇼츠, 틱톡의 길이 제한과 시청자 신호에 대한 명확한 가이드, 그리고 긴 원본 영상을 동일한 길이의 클립으로 분할하는 실용적인 방법.",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-20",
+  "category": "튜토리얼",
+  "primaryKeyword": "영상 길이와 소셜 미디어 도달",
+  "readMinutes": 6,
+  "sourceFingerprint": "e661169ccb7b5767822a8b9fc0694021ec9c055edb0abb3e669a950ebc5a11cc",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "긴 인터뷰, 수업, 또는 라이브 스트리밍에는 여러 개의 강력한 소셜 영상이 담겨 있을 수 있습니다. 하지만 영상 길이가 소셜 미디어 도달에 해가 되나요? 정직한 답은 플랫폼에 따라 다릅니다. 인스타그램은 3분이 넘는 릴스는 새로운 사용자에게 추천되지 않는다고 밝혔습니다. 한편 틱톡은 추천 설명서에 이에 상응하는 상한선을 명시하지 않았고, 대규모 제3자 연구에서는 더 긴 틱톡 영상이 더 많은 사람에게 도달하는 경우가 많다고 나타났습니다. 실용적인 방법은 원본 녹화를 유지한 채, 각 플랫폼에 맞는 버전을 만들고 시청자에게 빠르게 완전한 아이디어를 전달하는 것입니다. 이 구분은 하나의 원본을 여러 앱에 공유할 때 중요합니다: 재생 시간은 추천 자격에 영향을 줄 수 있지만, 적절한 클립 길이는 여전히 주제, 페이싱, 시청자 관심에 달려 있습니다. 플랫폼 가이드와 데이터가 말하는 바, 그리고 이야기를 반으로 자르지 않고 일괄 분할하는 반복 가능한 방법을 소개합니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "3분이 넘는 영상이 자동으로 도달이 줄어드나요?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "아닙니다. 3분은 일부 형식에 유용한 배포 한계일 뿐, 짧을수록 항상 더 잘 된다는 보편적 규칙은 아닙니다."
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">인스타그램 릴스:</strong> 인스타그램 고객센터에 따르면 3분이 넘는 릴스는 새로운 사용자에게 추천되지 않습니다. 이 한도 미만의 릴스는 여전히 추천될 수 있지만, 길이만으로 발견이 보장되는 것은 아닙니다. 더 긴 릴스도 기존 팔로워에게는 여전히 표시될 수 있습니다. 인스타그램의<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">릴스 녹화 및 추천 가이드</a>를 참고하세요.</li><li><strong class=\"text-text\">유튜브 쇼츠:</strong> 정사각형 또는 세로 영상은 최대 3분까지 쇼츠가 될 수 있습니다. 이 길이를 초과한 영상은 더 이상 쇼츠 형식에 맞지 않지만, 일반 유튜브 영상으로 업로드할 수는 있습니다. 유튜브의<!-- --> <a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">3분 쇼츠 관련 업데이트</a>를 확인하세요.</li><li><strong class=\"text-text\">틱톡:</strong> 틱톡은 추천을 개인화된 것으로 설명하며, 시청 시간 등의 시청자 상호작용을 신호로 언급합니다. 인스타그램의 구체적인 릴스 안내와 달리, 틱톡 설명서에는 3분 도달 차단선을 공개하지 않았습니다. 틱톡의<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">추천 설명서</a> <!-- -->가 \"짧을수록 항상 더 좋다\"는 일률적 규칙보다 더 나은 가이드입니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "길이는 게시물이 적격인 발견 표면에 영향을 줄 수 있습니다. 그 이후에는 이야기가 여전히 주의를 끌어야 합니다. 인스타그램이나 쇼츠에서 새로운 시청자를 목표로 한다면, 3분 미만으로 유지하면 해당 형식의 명시된 한도 내에 남을 수 있습니다. 이것이 조회수를 보장하지는 않으며, 이야기의 아이디어 중간을 자를 이유도 아닙니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "틱톡 길이에 대한 성과 연구 결과"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "짧은 클립이 자동으로 승자는 아닙니다. 2025년 110만 개의 틱톡을 분석한 Buffer 연구에서, 1분이 넘는 영상은 30~60초 그룹보다 중간 도달이 43.2% 더 높고 중간 시청 시간이 63.8% 더 높았습니다. 더 긴 그룹은 1분에서 10분까지의 영상을 포함했으므로, 이 분석은 3분이 넘는 영상을 분리하거나 길이가 차이를 초래했다는 것을 증명하지는 않습니다. Buffer는 또한 강력한 후크와 콘텐츠 품질이 목표 재생 시간을 쫓는 것보다 더 중요하다고 언급합니다. 전체<!-- --> <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">틱톡 영상 길이 분석</a>을 살펴보세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "이 증거는 관점을 바꿉니다: 짧은 것이 어디서나 유리하다는 이유만으로 모든 긴 영상을 분할하지 마세요. 더 짧은 버전이 요점을 더 명확히 전달하거나, 대상 형식에 맞거나, 하나의 녹화에 여러 개의 유용한 진입점을 제공할 때 분할하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "하나의 긴 녹화본을 집중된 클립 세트로 만들기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "긴 녹화본을 원본 소스로 생각하세요. 12분짜리 인터뷰 하나에 다섯 가지의 서로 다른 아이디어가 담겨 있을 수 있습니다. 다섯 개의 동일한 클립은 각각 2분 24초로 구성되며, 이는 3분 기준을 충족하면서도 원본을 그대로 유지합니다. 또 다른 11분짜리 영상을 네 개의 동일한 클립으로 나누면 각각 2분 45초짜리 클립 네 개를 얻게 됩니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "동일 분할은 일괄 준비를 빠르게 만들지만, 편집은 전체 녹화본을 보지 않은 사람에게도 이해가 되어야 합니다. 각 클립마다 하나의 명확한 포인트, 이해에 충분한 맥락, 그리고 만족스러운 마무리를 찾으세요. 균등한 컷이 문장이나 아이디어를 중간에 끊는다면 해당 클립을 조정하거나 더 자연스러운 하이라이트를 선택하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip에서 3분 미만의 동일 클립 만드는 방법"
+    },
+    {
+      "kind": "cut-demo"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Photos 또는 Files에서 전체 녹화본을 가져오세요. ReelClip은 원본을 앱에 보관하며 원본 파일은 그대로 둡니다.</li><li><strong class=\"text-text\">Cut</strong>을 선택하고 레시피의 <strong class=\"text-text\">Space</strong>를<!-- --> <strong class=\"text-text\">No gap</strong>으로 설정한 다음 <strong class=\"text-text\">Clip amount</strong>를 설정하세요. 간격이 없고 From–To 선택이 없으면, 개수가 전체 원본을 동일한 길이의 구간으로 나눕니다. 구간을 선택했다면 해당 구간을 나눕니다. 레시피에 표시되는 길이가 3:00 미만이 되도록 개수를 충분히 높게 설정하세요. 12분짜리 원본의 경우 다섯 개의 클립이 각 클립당 2:24를 제공합니다.</li><li>모든 구간을 미리보기하세요. 깔끔하게 시작하여 완전한 포인트를 만드는 부분은 유지하고, 생각의 중간에 걸리는 컷은 다듬거나 건너뛰세요. ReelClip은 내보내기 전에 계획된 클립을 검토할 수 있게 해줍니다.</li><li>원하는 클립을 저장한 다음, 자막, 프레이밍, 플랫폼 세부 정보는 게시 워크플로우에서 마무리하세요. 각 게시물에 고유한 오프닝 라인과 단독으로 서 있을 수 있을 만큼의 맥락을 제공하세요.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "동일한 Cut 워크플로우에 대한 더 자세한 안내는<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">iPhone에서 긴 영상 자르는 방법</a>을 참조하세요. ReelClip은 게시를 위한 클립을 준비합니다. Instagram, TikTok 또는 YouTube에 직접 게시하지는 않습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "자신의 시청자에게 맞는 컷 테스트하기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "몇 개의 유사한 게시물을 사용하여 시청자를 붙잡는 요소를 파악하세요. 주제와 약속은 비슷하게 유지한 다음, 완전한 이야기를 전하는 경우에는 더 타이트한 편집과 더 긴 버전을 모두 시도해 보세요. 플랫폼에서 제공하는 비팔로워 도달, 평균 시청 시간, 완료율, 공유, 저장을 비교하세요. 한 번의 업로드 결과로 판단하기보다 여러 게시물의 패턴을 판단하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Instagram의 Trial Reels는 새로운 형식을 먼저 비팔로워에게 보여주고 초기 성과를 검토하는 방법 중 하나입니다. Instagram은<!-- --> <a class=\"text-accent hover:underline\" href=\"https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/\" rel=\"noreferrer\" target=\"_blank\">Trial Reels 공식 발표</a>에서 사용 방법을 설명하고 있습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "핵심 요약"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "3분 컷은 Instagram 디스커버리와 YouTube Shorts를 위한 실용적인 목표지, 더 많은 조회수를 위한 보편적인 공식은 아닙니다. TikTok 데이터에 따르면 더 긴 영상도 시청자를 찾을 수 있습니다. Instagram 디스커버리와 Shorts의 경우 ReelClip의 Cut 레시피를 사용하여 기준 이하의 동일 클립을 준비한 다음 각각을 검토하세요. TikTok에서는 임의의 시간 제한에 맞춰 강력한 아이디어를 자르기보다 자신의 계정 결과와 다양한 길이를 비교 테스트하세요. 더 긴 버전을 원하는 시청자를 위해 전체 녹화본을 보관하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "출처 및 추가 자료"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Instagram 고객센터: 릴 녹화하기</a></li><li><a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">YouTube 블로그: Shorts에 새로운 세로 영상 업데이트</a></li><li><a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">TikTok 고객센터: TikTok 콘텐츠 추천 방식</a></li><li><a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">Buffer: 더 긴 TikTok 영상이 더 많은 조회수를 얻는다</a></li>"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

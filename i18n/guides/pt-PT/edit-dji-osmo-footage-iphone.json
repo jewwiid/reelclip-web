@@ -1,0 +1,130 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "Como editar filmagens DJI no iPhone: importar, escolher momentos e rever o resultado",
+  "description": "Traga as filmagens DJI para o ReelClip, escolha Slice, Cut ou Transcript para a tarefa, verifique a cor e as legendas, e depois reveja antes de guardar.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Tutorial",
+  "primaryKeyword": "editar filmagens dji osmo no iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "schemaVersion": 1,
+  "locale": "pt-PT",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para editar filmagens DJI no iPhone, transfere a gravação original para um local acessível, importa-a no ReelClip e escolhe como queres selecionar os momentos. Verifica a cor, o enquadramento e as legendas antes de guardar os clipes para o teu fluxo de publicação."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Mantém o original ao transferir"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utiliza um método de transferência suportado pela tua câmara e iPhone. Mantém o ficheiro original da câmara e uma nota do seu modo de gravação, em vez de dependeres de uma cópia de partilha já processada. Se o ficheiro estiver no armazenamento em nuvem, certifica-te de que está disponível antes de começar a edição."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para passos de transferência específicos da câmara, utiliza os <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">recursos de downloads e manuais DJI</a> para o teu modelo. O suporte de transferência depende da câmara, do armazenamento e da ligação; um método não é garantido para todos os Osmo, Action ou drones."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Escolhe o modo de edição para a tarefa"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Slice permite-te escolher uma janela de tempo, movê-la para o momento que queres e refinar as extremidades.</li><li>Cut planifica clipes utilizando os controlos de quantidade, duração e espaçamento. Reveja os momentos selecionados antes de guardar.</li><li>Transcript é útil para gravações faladas: lê as palavras reconhecidas, verifica erros e escolhe a passagem no contexto.</li><li>AI pode ajudar a planificar momentos a partir de uma indicação quando as funcionalidades de dispositivo necessárias estiverem disponíveis. Reveja tu mesmo os cortes propostos.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/edit-vertical-video-on-iphone\">guia de Slice</a> e o <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-cut-long-video-for-tiktok\">guia de Cut</a> mostram os controlos reais de seleção. A aplicação prepara os clipes; não os publica diretamente nas plataformas sociais."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Verifica o perfil de cor"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Os modos de gravação da DJI variam consoante o modelo. Faça corresponder a conversão à fonte em vez de aplicar o mesmo LUT a todos os ficheiros. Normal, D-Cinelike, D-Log M e HLG não devem ser tratados como um único formato. Consulte o <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/dji-osmo-pocket-color-grading\">guia de cor do Pocket</a> para identificação de perfis e a <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-apply-lut-on-iphone\">demonstração de importação de LUT</a> para os controlos."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Rever legendas, enquadramento e som"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Leia as legendas comparando com a gravação falada e corrija erros de reconhecimento. Reproduza as edições para verificar que palavras e gestos não são cortados abruptamente. Escolher um intervalo de tempo mais curto não reenquadra por si só um plano amplo para uma publicação vertical, por isso inspecione a imagem separadamente."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Diferentes durações de gravação, codecs e condições do dispositivo afetam o processamento. Pré-visualize uma secção representativa em vez de confiar numa promessa fixa sobre o tempo de transcrição ou exportação."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Guarde a versão que verificou"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Abra Review, veja o resultado renderizado e guarde os clipes que pretende. Guardar vídeo requer Creator. Verifique o ficheiro real em Fotos antes de partilhar, particularmente se alterou as definições de cor ou legendas. Mantenha a fonte para poder fazer outra versão mais tarde."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

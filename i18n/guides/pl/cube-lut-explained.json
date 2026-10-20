@@ -1,0 +1,146 @@
+{
+  "slug": "cube-lut-explained",
+  "title": "Co to jest plik .cube LUT? Format, rozmiary tabel i import na iPhone'a",
+  "description": "Zrozum jednowymiarowe i trójwymiarowe tablice odnośników, co oznaczają liczby 17, 33 i 65, oraz jak przetestować plik .cube w ReelClip, nie myląc stylu kreatywnego z konwersją kamery.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Poradnik",
+  "primaryKeyword": "co to jest plik .cube lut",
+  "readMinutes": 4,
+  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Plik .cube przechowuje tablicę odnośników: zestaw mapowań numerycznych służących do zmiany koloru. Może opisywać techniczną konwersję kamery lub styl kreatywny. Sama nazwa pliku nie mówi, który to rodzaj, ani jaki profil nagrywania jest wymagany."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Tablice 1D i 3D"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Tablica 1D LUT mapuje każdy kanał koloru niezależnie. Tablica 3D LUT mapuje kombinacje czerwieni, zieleni i niebieskiego, więc jeden kanał wyjściowy może zależeć od więcej niż jednego kanału wejściowego. Żaden z tych rodzajów nie naprawia nieostrości, nie usuwa szumu ani nie przywraca szczegółów utraconych podczas nagrywania."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Format .cube to zwykły tekst. Nagłówki opisują tabelę i jej zakres wejściowy, po których następują wiersze wartości kolorów. Rozszerzenie pliku nie jest gwarancją kompatybilności: edytory mogą obsługiwać różne rozmiary tabel, warianty nagłówków i kombinacje tabel."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Co oznacza liczba rozmiaru"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dla tabeli 3D parametr LUT_3D_SIZE podaje długość jednej krawędzi. Sześcian 17-punktowy zawiera 17 × 17 × 17 = 4 913 wpisów; sześcian 33-punktowy zawiera 35 937; sześcian 65-punktowy zawiera 274 625. Te liczby opisują siatkę próbkowania, a nie rozdzielczość wideo."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Większa tabela wymaga więcej wpisów, ale nie jest automatycznie lepszym stylem. Rozmiar pliku zależy również od precyzji i formatowania tekstu. Wybierz plik obsługiwany przez Twój edytor i odpowiedni dla profilu źródłowego; nie wybieraj wyłącznie według największej liczby."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sprawdź zamierzone wejście"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "LUT stworzony dla Apple Log, D-Log M lub S-Log3 zakłada konkretną interpretację źródła. Kreatywny LUT przeznaczony dla już znormalizowanego obrazu zakłada coś innego. Jeśli Twój edytor już stosuje konwersję z kamery, zastosowanie kolejnej może spowodować nadmierny kontrast lub przesunięcia kolorów."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Dokumentacja Apple dotycząca LUT</a> wyjaśnia różnicę między LUTami kamerowymi a niestandardowymi efektami kreatywnymi. Kontrolki Final Cut Pro są oddzielone od interfejsu ReelClip."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Importuj i testuj na iPhonie"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Wypakuj pobrany plik, jeśli to ZIP, i zapisz plik .cube w miejscu dostępnym z aplikacji Pliki.</li><li>Zaimportuj wideo w ReelClip. Otwórz Adjust &amp; Style, wybierz LUTs, a następnie użyj Import LUT.</li><li>Wybierz look i porównaj jego podgląd z oryginałem. Postępuj zgodnie z instrukcjami dostawcy pliku w przypadku konwersji technicznej; dostosuj look kreatywny do swojego materiału.</li><li>Przejrzyj krótki wyrenderowany fragment przed zastosowaniem looku w całym projekcie. Zapisywanie wideo wymaga Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">Przewodnik po imporcie LUT</a> pokazuje rzeczywisty import looku kreatywnego i dostosowanie jego siły. Nie weryfikuje on każdej konwersji kamerowej ani każdej wariantu .cube."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Jeśli plik nie chce się zaimportować"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sprawdź, czy wybrałeś wypakowany plik .cube, czy pobieranie się zakończyło oraz czy dostawca obsługuje Twój edytor. Połączona tabela shaper/3D lub nieobsługiwany rozmiar mogą wymagać oddzielnego kompatybilnego eksportu. Zachowaj oryginalne pobranie zamiast edytować wiersze numeryczne, aby wymusić załadowanie pliku."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Aby poznać źródła do odkrycia, zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">darmowe zasoby LUT</a>. Zacznij od małego zestawu odpowiednich plików i przetestuj je na własnych nagraniach."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

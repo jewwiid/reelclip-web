@@ -1,24 +1,15 @@
+import "server-only";
+import { existsSync, readFileSync } from "node:fs";
+import { join } from "node:path";
 import type { Locale } from "./config";
 
-type LocalizedBlogMetadata = {
-  title: string;
-  description: string;
-  primaryKeyword: string;
-  updatedAt?: string;
-};
-
-// Add an entry only when the corresponding translated article is reviewed.
-const metadata: Partial<Record<Locale, Record<string, LocalizedBlogMetadata>>> = {
-  es: {
-    "best-free-luts-2026": {
-      title: "LUTs gratis para DJI, Sony, Blackmagic e iPhone (2026)",
-      description: "Descargas oficiales de LUTs gratuitos y cómo elegir el perfil correcto para DJI, Sony y Blackmagic Camera en iPhone. Incluye pasos para importar un .cube en ReelClip.",
-      primaryKeyword: "luts gratis para iPhone",
-      updatedAt: "2026-10-20",
-    },
-  },
-};
-
-export function getLocalizedBlogMetadata(locale: Locale, slug: string) {
-  return metadata[locale]?.[slug];
+/** Article metadata and index cards read the same versioned translation. */
+export function getLocalizedBlogMetadata(locale: Locale, slug: string): {
+  title: string; description: string; primaryKeyword: string; category: string; updatedAt: string;
+} | null {
+  if (locale === "en" || !/^[a-z0-9-]+$/.test(slug)) return null;
+  const path = join(process.cwd(), "i18n", "guides", locale, `${slug}.json`);
+  if (!existsSync(path)) return null;
+  const { title, description, primaryKeyword, category, updatedAt } = JSON.parse(readFileSync(path, "utf8"));
+  return { title, description, primaryKeyword, category, updatedAt };
 }

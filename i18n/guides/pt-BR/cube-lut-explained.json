@@ -1,0 +1,146 @@
+{
+  "slug": "cube-lut-explained",
+  "title": "O que é um arquivo .cube LUT? Formato, tamanhos de tabela e importação no iPhone",
+  "description": "Entenda tabelas de consulta 1D e 3D, o que significam 17, 33 e 65, e como testar um arquivo .cube no ReelClip sem confundir um look criativo com uma conversão de câmera.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Tutorial",
+  "primaryKeyword": "o que é um arquivo .cube lut",
+  "readMinutes": 4,
+  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "schemaVersion": 1,
+  "locale": "pt-BR",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Um arquivo .cube armazena uma tabela de consulta: um conjunto de mapeamentos numéricos usados para alterar cores. Pode descrever uma conversão técnica de câmera ou um look criativo. O nome do arquivo por si só não diz qual deles é, nem qual perfil de gravação ele espera."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Tabelas 1D e 3D"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Uma LUT 1D mapeia cada canal de cor independentemente. Uma LUT 3D mapeia combinações de vermelho, verde e azul, então um canal de saída pode depender de mais de um canal de entrada. Nenhum dos dois tipos corrige foco perdido, remove ruído ou restaura detalhes cortados durante a gravação."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O formato .cube é texto simples. Os cabeçalhos descrevem a tabela e sua faixa de entrada, seguidos por linhas de valores de cor. A extensão do arquivo não é uma garantia de compatibilidade: editores podem suportar diferentes tamanhos de tabela, variantes de cabeçalho e combinações de tabelas."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "O que o número do tamanho significa"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para uma tabela 3D, LUT_3D_SIZE indica o comprimento de uma aresta. Um cubo de 17 pontos contém 17 × 17 × 17 = 4.913 entradas; um cubo de 33 pontos contém 35.937; um cubo de 65 pontos contém 274.625. Esses números descrevem a grade de amostragem, não a resolução do vídeo."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Uma tabela maior precisa de mais entradas, mas não é automaticamente um look melhor. O tamanho do arquivo também depende da precisão e da formatação de seu texto. Escolha um arquivo suportado pelo seu editor e apropriado para o perfil de origem; não escolha apenas pelo maior número."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Verifique a entrada pretendida"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Um LUT feito para Apple Log, D-Log M ou S-Log3 espera aquela interpretação de fonte específica. Um LUT criativo destinado a uma imagem já normalizada espera algo diferente. Se seu editor já aplica uma conversão de câmera, aplicar outra pode produzir contraste excessivo ou desvios de cor."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Documentação de LUT da Apple</a> explica a distinção entre LUTs de câmera e efeitos criativos personalizados. Os controles do Final Cut Pro são separados da interface do ReelClip."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Importe e teste no iPhone"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Extraia o download se for um ZIP e salve o arquivo .cube em algum lugar acessível pelo Arquivos.</li><li>Importe seu vídeo no ReelClip. Abra Adjust &amp; Style, escolha LUTs e use Import LUT.</li><li>Selecione o visual e compare a visualização com o original. Siga as instruções do fornecedor do arquivo para uma conversão técnica; ajuste um visual criativo para adequar às suas imagens.</li><li>Revise uma amostra renderizada curta antes de aplicar o visual em todo o projeto. Salvar vídeo requer Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-apply-lut-on-iphone\">guia passo a passo de importação de LUT</a> mostra uma importação real de visual criativo e ajuste de intensidade. Ele não verifica todas as conversões de câmera ou todas as variantes .cube."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Se o arquivo não importar"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verifique se você selecionou o arquivo .cube extraído, se o download foi concluído e se o fornecedor suporta seu editor. Uma tabela combinada de shaper/3D ou um tamanho não suportado pode precisar de uma exportação compatível separada. Mantenha o download original em vez de editar linhas numéricas para forçar o carregamento de um arquivo."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para fontes para explorar, veja <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/best-free-luts-2026\">recursos de LUT gratuitos</a>. Comece com um pequeno conjunto de arquivos adequados e teste-os em suas próprias gravações."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
   description: "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
   publishedAt: "2026-08-25",
-  updatedAt: "2026-10-19",
+  updatedAt: "2026-10-20",
   category: "How-to" as const,
   primaryKeyword: "how to edit vertical video on iphone",
   readMinutes: 4,
@@ -22,14 +22,7 @@ export default function Post() {
           which part of the picture should fit a different aspect ratio.
           Check the framing separately before you post.
         </PostP>
-        <GuideVideo id="choose-moment" title="Watch: choose and refine a moment"
-          description="25-second Slice demo from our existing feature library. The recording shows a makeup clip, selection adjustments and playback of the chosen moments. Silent video with English step captions."
-          steps={[
-            "In Clip, choose Slice and set a length for the selection.",
-            "Move the green window to the moment you want, then tap Add.",
-            "Refine the edges and play the selected clips before reviewing them.",
-          ]}
-        />
+        <GuideVideo id="choose-moment" />
         <PostH2>Choose a moment with Slice</PostH2>
         <PostOl>
           <li>Import the recording from Photos or Files, then open Clip.</li>

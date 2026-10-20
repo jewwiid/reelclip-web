@@ -1,0 +1,122 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "iPhone पर DJI D-Log से Rec.709: कैमरा और रिकॉर्डिंग प्रोफाइल मिलाएं",
+  "description": "मॉडल-विशिष्ट DJI कनवर्जन चुनें, इसे दो बार लागू न करें और पूरी रिकॉर्डिंग एडिट करने से पहले iPhone पर परिणाम जांचें।",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "ट्यूटोरियल",
+  "primaryKeyword": "iphone पर dji d-log को rec 709 में बदलें",
+  "readMinutes": 4,
+  "sourceFingerprint": "f85a30966388796732d5fea02dea8f017c6e15d28584f59fa63ebef114f8e141",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI रिकॉर्डिंग को Rec.709 में बदलने के लिए, कैमरा और वास्तव में इस्तेमाल किया गया मोड पहचानें, फिर मिलान वाला कनवर्जन चुनें। D-Log, D-Log M, D-Log 2, D-Cinelike और HLG एक ही इमेज के बदले इस्तेमाल किए जाने वाले नाम नहीं हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "पहले स्रोत पहचानें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "कैमरा सेटिंग्स, मूल फाइल मेटाडेटा और कैमरे के दस्तावेज़ जांचें। फुटेज ट्रांसफर करते समय मूल फाइल रखें; किसी दूसरे ऐप से प्रोसेस की गई कॉपी में पहले से ही कोई लुक या कनवर्जन लगा हो सकता है।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI का मॉडल और LUT तालिका</a> रिकॉर्डिंग प्रोफाइल और उपलब्ध संसाधनों की सूची बनाती है। उदाहरण के लिए, Pocket 3 में D-Log M कनवर्जन है, जबकि मूल Osmo Pocket और Pocket 2 D-Cinelike के साथ सूचीबद्ध हैं। केवल Pocket शब्द से प्रोफाइल का अनुमान न लगाएं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "मिलान वाला कनवर्जन चुनें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI की आधिकारिक डाउनलोड निर्देशिका</a> और अपने सटीक मॉडल के निर्देशों का उपयोग करें। अपेक्षित इनपुट और आउटपुट दोनों जांचें। फाइलनाम में Rec.709 वाला LUT भी आपके रिकॉर्ड किए गए स्रोत कर्व से अलग इनपुट की अपेक्षा कर सकता है।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "जांचें कि क्या आपका एडिटर पहले से स्रोत कनवर्जन संभालता है। मौजूदा कनवर्जन के ऊपर दूसरा कैमरा कनवर्जन लागू करने से गलत कंट्रास्ट और रंग हो सकते हैं। HLG या किसी अन्य HDR वर्कफ्लो के लिए, Log LUT HDR टोन मैपिंग भी करता है यह मानने के बजाय, उस स्रोत का स्पष्ट रूप से समर्थन करने वाला एडिटर और आउटपुट सेटअप का उपयोग करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip में एक छोटा हिस्सा जांचें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>मूल रिकॉर्डिंग आयात करें और मिलान करने वाली .cube फ़ाइल को Files में उपलब्ध कराएँ।</li><li>Adjust & Style → LUTs → Import LUT खोलें और फ़ाइल चुनें।</li><li>स्रोत व्याख्या के लिए इसके प्रदाता के निर्देशों का पालन करें। पूर्वावलोकन को बिना समायोजित छवि के साथ तुलना करें और कई फ्रेम जाँचें।</li><li>रेंडर किए गए परिणाम की समीक्षा करें, फिर एक छोटे सहेजे गए नमूने की जाँच करें। वीडियो सहेजने के लिए Creator की आवश्यकता होती है।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "रिकॉर्ड किया गया <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-apply-lut-on-iphone\">ReelClip LUT डेमो</a> एक रचनात्मक लुक के साथ आयात और स्ट्रेंथ नियंत्रण दिखाता है। यह कैलिब्रेटेड DJI रूपांतरण, हर इनपुट एन्कोडिंग या हर LUT वेरिएंट की पुष्टि नहीं करता है। यदि कोई तकनीकी फ़ाइल इरादे के अनुसार व्यवहार नहीं करती है, तो अपनी एडिट जारी रखने से पहले सत्यापित कैमरा-विशिष्ट रंग वर्कफ़्लो का उपयोग करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "रंग जाँचने के बाद जारी रखें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "जब आपका नमूना इच्छित आउटपुट सेटअप में सही दिखे, तो समीक्षा किए गए समान सेटिंग्स को आवश्यक क्लिप्स पर लागू करें। शॉट्स के बीच एक्सपोज़र और व्हाइट-बैलेंस के अंतरों को ध्यान में रखें। केवल LUT अलग-अलग रोशनी वाले शॉट्स को मिलान नहीं कर सकता।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">Cut</a> का उपयोग योजनाबद्ध बैच के लिए या <a class=\"text-accent hover:underline\" href=\"/hi/blog/extract-clip-from-podcast\">Transcript इस्तेमाल करने के चरण</a> का उपयोग बोले गए अंशों के लिए करें। मूल रिकॉर्डिंग की एक प्रति रखें ताकि बाद में आप रंग विकल्पों पर फिर से विचार कर सकें।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

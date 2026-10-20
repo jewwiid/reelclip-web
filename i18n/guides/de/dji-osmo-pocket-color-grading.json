@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-color-grading",
+  "title": "DJI Osmo Pocket Color Grading auf dem iPhone: das richtige Aufnahmeprofil wählen",
+  "description": "D-Cinelike, D-Log M und andere Pocket-Profile unterscheiden, passende Konvertierung wählen und kreative Farbänderungen auf dem iPhone überprüfen.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Anwendungsfall",
+  "primaryKeyword": "dji osmo pocket color grading",
+  "readMinutes": 4,
+  "sourceFingerprint": "40842a7435a08ec30100ef78d30833c2c6094e1483b8bb9358150e8bf9a58666",
+  "schemaVersion": 1,
+  "locale": "de",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Color Grading von Pocket-Material beginnt mit dem Aufnahmemodus, nicht allein mit der Generationsnummer. Legen Sie fest, wie die Quelle interpretiert werden soll, bevor Sie einen kreativen Look hinzufügen. Eine Aufnahme, die bereits ein fertiges Normal-Erscheinungsbild hat, benötigt keine Log-Konvertierung nur deshalb, weil sie von einer DJI-Kamera stammt."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Modell und Modus überprüfen"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJIs Profil- und LUT-Referenz</a> listet das Original Osmo Pocket und Pocket 2 mit D-Cinelike, Pocket 3 mit D-Log M und Pocket 4 mit D-Log. Behandeln Sie Varianten getrennt und überprüfen Sie den aktuellen Eintrag für Ihre Kamera; diese Bezeichnungen sind nicht austauschbar."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verwenden Sie die Einstellungen der Originalaufnahme, unterstützte Metadaten und die Kameradokumentation zusammen. Ein flaches Bild ist kein Beweis für seine Kurve oder seinen Farbraum. Eine Kopie, die über eine andere Bearbeitungs-App gespeichert wurde, kann bereits transformiert worden sein."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Das Bild vor dem Stylen vorbereiten"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Für Log-Material wählen Sie eine Konvertierung, die für Kamera und Profil vorgesehen ist. Prüfen Sie <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJIs offizielle Ressourcen</a> und die Anweisungen der ausgewählten Datei. Wenn Ihr Editor die Quelle bereits korrekt konvertiert, fügen Sie die Konvertierung nicht ein zweites Mal hinzu."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Für D-Cinelike-, Normal- oder HDR-Material folgen Sie einem Workflow, der diesen Modus explizit unterstützt. Wählen Sie keine D-Log M-Datei nur deshalb, weil das Bild kontrastreicher aussieht. Technische Korrektheit und gewünschtes kreatives Erscheinungsbild sind getrennte Entscheidungen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Einen kreativen Look in ReelClip ausprobieren"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Bewahre die Originalaufnahme auf und importiere den Clip, den du bearbeiten möchtest.</li><li>Speichere deine kompatible .cube-Datei in Dateien. Öffne in ReelClip Anpassen & Gestalten → LUTs → LUT importieren.</li><li>Wähle den Look und vergleiche die Vorschau mit dem Original. Beachte die Anforderungen für die erwartete Eingabe.</li><li>Passe die Kreativstärke an die Aufnahme an. Überprüfe Gesichter, helle Bereiche und dunkle Details während des Abspielens des Clips.</li><li>Überprüfe das gerenderte Ergebnis und ein gespeichertes Beispiel, bevor du die Einstellungen auf ein Projekt anwendest. Das Speichern von Video erfordert Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Der <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-apply-lut-on-iphone\">LUT-Leitfaden</a> zeigt einen tatsächlichen Creative-Look-Import. Er demonstriert die Steuerungen, ohne jede Kamerakonvertierung, HDR-Ausgabe oder technische LUT-Datei zu bescheinigen."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Passe Aufnahmen nach dem an, was du sehen kannst"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Beginne mit Belichtung und Weißabgleich, vergleiche dann Hauttöne, neutrale Objekte und gesättigte Bereiche zwischen den Aufnahmen. Derselbe LUT kann bei Aufnahmen unter unterschiedlichem Licht anders aussehen. Es gibt keine Stärke-Prozentangabe, die für jeden Clip funktioniert."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Für den modellspezifischen Download siehe <a class=\"text-accent hover:underline\" href=\"/de/blog/dji-osmo-pocket-3-luts\">LUTs für die Pocket 3</a>. Um deine fertigen Momente für einen Beitrag vorzubereiten, fahre fort mit <a class=\"text-accent hover:underline\" href=\"/de/blog/edit-dji-osmo-footage-iphone\">DJI-Footage auf dem iPhone bearbeiten</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

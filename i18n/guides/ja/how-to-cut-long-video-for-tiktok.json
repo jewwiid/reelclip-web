@@ -1,0 +1,206 @@
+{
+  "slug": "how-to-cut-long-video-for-tiktok",
+  "title": "iPhoneで長い動画をTikTok用にカットする方法",
+  "description": "ReelClipのCutコントロールで長い録画からクリップを準備し、フレーミングとキャプションを確認してから、TikTokにアップロードしたい動画を保存します。",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-20",
+  "category": "チュートリアル",
+  "primaryKeyword": "how to cut a long video for tiktok",
+  "readMinutes": 5,
+  "sourceFingerprint": "5f8e14def2840203c455006428eb0a59607beed65f84fc1d5d58e60f24765b23",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "12分間のトーキングヘッド動画、ストリーム録画、または長いブログ動画があり、そこから3〜4本のTikTok対応クリップを作りたいとします。iPhone上で直接これらのクリップを準備し、各瞬間を確認して、投稿したいものを保存できます。所要時間は録画内容、お使いのデバイス、編集量によって異なります。"
+    },
+    {
+      "kind": "tutorial",
+      "id": "cut-clips"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "必要なもの"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>すでに写真ライブラリにある長い録画、またはファイルアプリ内の録画。</li><li>現在のアプリリリースで記載されているiOS 17以降を搭載したiPhone。</li><li><a class=\"text-accent hover:underline\" href=\"/ja/\">ReelClip</a>（インポートとプレビューは無料、エクスポートはCreatorプラン）。AI機能には、対応して有効化されたApple Intelligenceを含む、追加のハードウェアとソフトウェアの要件があります。お使いのデバイスでの利用可能性をご確認ください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "7ステップのワークフロー"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "1. 録画をReelClipにインポートする"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "録画をPhotosまたはFilesからインポートします。ReelClipは録画をプライベートサンドボックスにコピーします — Photos内の元ファイルはそのまま残り、アップロードは一切行われません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "2. 適切なカットモードを選択する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "4つのカットモードがあります。ソース素材に合ったものを選択してください："
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Cut</strong> — 動画を同じ長さの区間に分割します。録画に明確なセグメントがある場合（インタビューのセクション、リスト項目、章など）に適しています。</li><li><strong class=\"text-text\">Transcript</strong> — デバイス上で音声認識を実行し、間を見つけて無音部分をトリミングできます。トーキングヘッドのコンテンツやポッドキャストに適しています。</li><li><strong class=\"text-text\">Slice</strong> — 自分で瞬間を選び、選択範囲を移動して開始点と終了点を調整します。</li><li><strong class=\"text-text\">AI</strong> — 欲しいものを説明すると（「一番面白い瞬間」「料金説明の部分」「一番引用したいセリフ」など）、デバイス上のApple Intelligenceが候補を提案します。お使いのデバイスで機能が利用可能になれば確認できます。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "3. 計画したすべてのクリップを確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "これは人々が飛ばしがちなステップですが、最も重要なステップです。各計画クリップをタップして、最初から最後まで視聴し、保持、トリミング、または拒否を決定してください。ReelClipは自動エクスポートを行いません。出力するものはあなたが決めます。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "4. 各クリップをTikTokの長さにトリミングする"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "各クリップに1つの完全なアイデアを与えてください。開始を引き締め、不要な導入部分を削除し、フル録画を見たことがない人にも十分な文脈を残してください。投稿前にTikTokの現在のアップロード制限を確認してください。普遍的な理想的なクリップ長は存在しません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "5. 縦向き投稿のフレーミングを確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ソース動画が横長の場合、2つの選択肢があります。そのままエクスポートするか、仕上げエディターで縦長投稿用にクロップするかです。時間範囲の選択と画面構成の選択は別の判断です。投稿前に両方を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "6. バッチをPhotosに保存する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong class=\"text-text\">Review</strong>をタップして、クリップの準備が完了するのを待ちます。出力を再生してから、Photos用の保存アクションを選択してください。アプリを離れる前に完了確認を待ってください。エクスポートにはCreatorが必要です。元のファイルはそのまま残ります。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "7. PhotosからTikTokにアップロードする"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "TikTokを開き、プラスボタンをタップしてから<!-- --> <strong class=\"text-text\">Upload</strong>を選択してください。ライブラリから最初のクリップを選んでください。TikTokがデバイスから取得します。ReelClipはあなたのTikTokアカウントにアクセスしたことも、TikTokのサーバーに何かをアップロードしたこともありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "よくある落とし穴"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">レビューをスキップすること。</strong> AIモードは優秀ですが完璧ではありません。書き出す前に、必ず各クリップを最初から最後まで視聴してください。</li><li><strong class=\"text-text\">元の12分ファイルをそのままアップロードすること。</strong> ソースは保持した上で、ストーリーと投稿先に合ったバージョンを選択してください。短いクリップが必ずしも再生回数を増やすわけではありません。</li><li><strong class=\"text-text\">キャプションがないこと。</strong> キャプションは、音声を聞けない状況で人々が発言内容を追えるように助けになります。投稿前に、最終編集ソフトでスペルとタイミングを確認してください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "TikTok後にすべきこと"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "YouTube ShortsやInstagram Reelsにクロス投稿する前に、各プラットフォームの最新のフォーマットと長さの要件を確認してください。同じ場面でも、投稿先ごとに異なるフレーミングや長さが必要になる場合があります。プラットフォームごとの違いについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/video-length-social-media-reach\">動画の長さとリーチに関するガイド</a> <!-- -->をご覧ください。または、関連するワークフローとして<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">ポッドキャストのハイライト抽出方法</a> <!-- -->も参照してください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

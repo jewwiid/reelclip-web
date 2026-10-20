@@ -1,0 +1,102 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "iPhoneで縦型動画を編集する方法（Reels、TikTok、Shorts）",
+  "description": "ReelClipで縦型映像から瞬間を選び、絞り込み、キャプションとフレーミングを確認して、投稿したいクリップを保存しましょう。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "使い方",
+  "primaryKeyword": "iphoneで縦型動画を編集する方法",
+  "readMinutes": 4,
+  "sourceFingerprint": "2dbb0fbbd27b244900843ff0f66235ad26c71ec35abc3c1b1c1b9356a457b0d5",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "縦型の録画から始めて、残したい瞬間を選びます。ReelClipでは、Sliceで時間範囲を選択しますが、異なるアスペクト比に合わせて画像のどの部分を使うかは自動で決まりません。投稿前にフレーミングは別途確認してください。"
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Sliceで瞬間を選ぶ"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>写真またはファイルから録画を読み込み、Clipを開きます。</li><li>Sliceを選びます。選択範囲を残したい部分に移動させます。</li><li>開始点と終了点を調整し、動作や文章に十分な文脈があるようにします。</li><li>追加をタップし、他に残したい瞬間があれば繰り返します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "デモでは短いサンプルと3つの選択を使用しています。あなたの録画では、クリップの数や長さが異なる場合があります。各選択を再生してください。視覚的に良く見えるカットでも、話している文章を中断する可能性があります。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "映像と言葉を確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "計画したクリップを再生し、最初と最後のフレームを確認します。縦型のソースはすでに縦向きの映像ですが、横型のソースではフレーミングを別途決める必要があります。選択した時間範囲を変更しても、ReelやShort用に画像が自動でクロップされるわけではありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "音声付きの映像では、トランスクリプトとキャプションも確認してください。固有名詞や専門用語を修正し、テキストが映像の上で読みやすいことを確認します。音声を使った例については、<a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">トランスクリプトワークフロー</a> <!-- -->をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "保存してアップロード"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "「Review」を選択し、Photosに保存する前に準備された出力を確認してください。書き出しにはCreatorが必要です。保存の確認を待ってから、宛先アプリを開き、保存したファイルを自分でアップロードしてください。出力形式を変更する場合は、そのアプリの現在のアップロード要件を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "手動で選んだ瞬間ではなく、一定間隔のクリップが必要な場合は、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cutワークフロー</a>を使用してください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

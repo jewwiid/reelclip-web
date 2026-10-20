@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-3-luts",
+  "title": "DJI Osmo Pocket 3 LUT: il download ufficiale e il flusso di lavoro su iPhone",
+  "description": "Trova il LUT ufficiale DJI per la conversione da D-Log M a Rec.709 per Pocket 3, identifica la tua modalità di registrazione e testa un file .cube corrispondente su iPhone.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Riepilogo",
+  "primaryKeyword": "dji osmo pocket 3 luts",
+  "readMinutes": 4,
+  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "schemaVersion": 1,
+  "locale": "it",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Se hai registrato il tuo video con Osmo Pocket 3 in D-Log M, inizia con la conversione DJI per quella fotocamera e quel profilo. Se hai registrato in Normal o HLG, scegli invece un flusso di lavoro per quella modalità. Il fatto che il footage appaia piatto da solo non è sufficiente per identificare il formato di registrazione."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Ottieni il LUT ufficiale per Pocket 3"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI pubblica <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M to Rec.709</a>. Scarica il file da DJI e segui le istruzioni incluse. La <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">directory ufficiale dei LUT</a> separa anche le risorse per modello di fotocamera."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "D-Log e D-Log M sono profili separati. Non sostituire un file destinato a un'altra curva di registrazione semplicemente perché entrambe le fotocamere sono prodotte da DJI. L'Osmo Pocket originale e il Pocket 2 utilizzano D-Cinelike anziché il flusso di lavoro D-Log M del Pocket 3."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Le conversioni e i look creativi hanno scopi diversi"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Una conversione fotocamera prepara la sorgente per una destinazione come Rec.709. Un look creativo modifica l'aspetto in base al suo input dichiarato. Leggi le istruzioni del fornitore: alcuni look si aspettano il Log direttamente, mentre altri si aspettano un'immagine già normalizzata."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Se l'editor interpreta o converte già correttamente la sorgente, evita di aggiungere la stessa conversione due volte. Non esiste una regola universale che ogni LUT creativo debba essere sovrapposto dopo qualsiasi altro LUT a una forza fissa."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Testa il tuo file su iPhone"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Conserva il file originale della camera e un appunto della modalità di registrazione. Trasferiscilo in una posizione accessibile dal tuo iPhone.</li><li>Estrai il file .cube scaricato se necessario e rendilo disponibile in File.</li><li>In ReelClip, apri la tua clip e usa Adjust & Style → LUTs → Import LUT. Seleziona il file importato e ispeziona l'anteprima.</li><li>Per una conversione tecnica, segui i requisiti di input del fornitore. Controlla pelle, luci alte e colori saturi in diverse parti della registrazione.</li><li>Rivedi un breve campione salvato prima di gradare l'intero progetto. Il salvataggio del video richiede Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La nostra <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-apply-lut-on-iphone\">guida all'importazione</a> mostra i controlli con un look creativo. Non stabilisce supporto per conversione calibrata per ogni file DJI né promette che un'esportazione finita corrisponderà a un altro editor."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Scegli look aggiuntivi con attenzione"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Conserva le istruzioni dell'autore e la licenza con ogni download. Una collezione creativa gratuita non è necessariamente specifica per Pocket 3. La <a class=\"text-accent hover:underline\" href=\"/it/blog/best-free-luts-2026\">guida ai LUT gratuiti</a> collega risorse ufficiali e spiega come scegliere in base all'input previsto."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Per footage da un modello Pocket diverso, consulta <a class=\"text-accent hover:underline\" href=\"/it/blog/dji-osmo-pocket-color-grading\">corrispondenza con il profilo di registrazione Pocket</a>. Per clipping e sottotitoli dopo il lavoro di colore, usa il <a class=\"text-accent hover:underline\" href=\"/it/blog/edit-dji-osmo-footage-iphone\">workflow di editing DJI</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

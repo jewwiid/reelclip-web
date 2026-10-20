@@ -1,0 +1,118 @@
+{
+  "slug": "how-to-apply-lut-on-iphone",
+  "title": "Cómo aplicar un LUT .cube en iPhone",
+  "description": "Importa un LUT .cube desde Archivos, ajusta su intensidad y compara la vista previa en ReelClip. Incluye una breve grabación de los controles reales.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Cómo hacerlo",
+  "primaryKeyword": "cómo aplicar un lut en iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "fedab8fcd0019d84b55c753bbdb6002b2165d01a734f05ec0c27b70bb473da71",
+  "schemaVersion": 1,
+  "locale": "es",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Si ya tienes un LUT .cube, puedes importarlo desde Archivos y ajustar su intensidad en ReelClip. Comienza con un LUT diseñado para tu material y configuración de color; un look creativo y una conversión de cámara tienen propósitos diferentes."
+    },
+    {
+      "kind": "tutorial",
+      "id": "apply-lut"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Elige la entrada correcta antes de un look creativo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Normaliza el material Log o HDR antes de aplicar un LUT creativo listo para visualización. Los LUTs creativos exportados por ReelClip utilizan sRGB codificado; Rec.709 comparte sus primarios pero tiene un comportamiento de transferencia diferente. Coincide con la entrada documentada del LUT, y evita aplicar la normalización de cámara dos veces. Nuestra colección original de inicio está actualmente en pruebas. Consulta la<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/best-free-luts-2026\">guía de recursos de LUT gratuitos</a> <!-- -->para conocer su estado de desarrollo y recursos oficiales de cámara."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Trae el archivo a ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importa el video que quieres editar.</li><li>Abre Adjust & Style y elige LUTs.</li><li>Toca Import LUT y selecciona el archivo .cube desde Archivos.</li><li>Selecciona el look importado en la biblioteca de LUTs.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La demostración utiliza la pestaña Creative y un look de ReelClip guardado previamente. Una vez que el LUT aparezca en tu biblioteca, selecciónalo y verifica su efecto en tu propio material."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Comprueba la intensidad con tu material"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Mueve el control deslizante de intensidad y compara el resultado con el original. Verifica la piel, las áreas brillantes y el detalle en las sombras mientras se reproduce el material. El ejemplo alcanza el 68%; ese valor corresponde a esta muestra y no es un ajuste recomendado para todos los clips."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para una conversión de cámara, sigue las instrucciones incluidas con el LUT y haz coincidir el perfil de grabación de origen. No asumas que un LUT creado para un perfil log es adecuado para otro. El ejemplo aquí establece los controles de importación y ajuste, no el soporte para cada cámara o archivo LUT."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Revisa el video terminado"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Termina el ajuste, abre Review e inspecciona el resultado renderizado. Guardar el video requiere Creator. Verifica el archivo guardado real antes de compartirlo, especialmente si los ajustes de color o HDR cambiaron durante la edición."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para información de fondo sobre el archivo en sí, lee<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/cube-lut-explained\">qué contiene un LUT .cube</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

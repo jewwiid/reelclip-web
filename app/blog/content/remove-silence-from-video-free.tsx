@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to remove silence from a video on iPhone",
   description: "Use ReelClip’s Transcript pause controls, review the timing and check the edited video. Preview before export; saving requires Creator.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-19",
+  updatedAt: "2026-10-20",
   category: "How-to" as const,
   primaryKeyword: "remove silence from video iphone",
   readMinutes: 4,
@@ -22,19 +22,13 @@ export default function Post() {
           iPhone. Preview the edit before deciding to export; saving the output
           requires Creator.
         </PostP>
-        <GuideVideo id="pause-cleanup" title="Watch: remove pauses and review the result"
-          description="15-second demo from our existing feature library. It shows Remove pauses enabled, the timing controls and playback of the shorter video. The example uses a 0.35-second threshold; choose a setting that suits your recording. Silent video with English step captions."
-          steps={[
-            "In Transcript, open Audio and find Cleanup.",
-            "Turn on Remove pauses and inspect Cut timing.",
-            "Choose Review video and check the cuts before saving.",
-          ]}
-        />
+        <GuideVideo id="pause-cleanup" />
         <PostH2>Find the pause controls</PostH2>
         <PostOl>
           <li>Import your video and choose Transcript. Wait for the transcript to finish.</li>
           <li>Open Audio, then find Cleanup and turn on Remove pauses.</li>
           <li>Expand Cut timing to inspect the pause threshold and the space left around speech.</li>
+          <li>Tap Audio again to close its panel and check the pauses in the transcript.</li>
           <li>Choose Review video to prepare and play the edited result.</li>
         </PostOl>
         <PostP>
@@ -42,6 +36,16 @@ export default function Post() {
           That is an example, not a setting every recording needs. A lower
           threshold removes shorter gaps; leave enough room for natural speech
           and any pauses that carry meaning.
+        </PostP>
+        <PostH2>Check which pauses will be removed</PostH2>
+        <PostP>
+          Green Auto keep leaves a pause in the edit. Red Auto remove or Remove
+          marks it for removal. Check the label on the long pause itself before
+          reviewing the output; the play button is only for listening to that gap.
+        </PostP>
+        <PostP>
+          To remove one gap yourself, open its Pause action menu and choose
+          Remove pause. Check the removal marker again before choosing Review video.
         </PostP>
         <PostH2>Listen at the cuts</PostH2>
         <PostP>
