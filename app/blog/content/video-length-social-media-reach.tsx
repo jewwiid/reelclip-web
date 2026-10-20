@@ -1,3 +1,4 @@
+import { GuideVideo } from "@/components/guide-video";
 import {
   PostBody,
   PostCta,
@@ -144,6 +145,17 @@ export default function Post() {
         </PostP>
 
         <PostH2>How to make equal clips under three minutes in ReelClip</PostH2>
+        <GuideVideo
+          id="cut-clips"
+          title="Watch: ReelClip’s Cut controls"
+          description="This 26-second screen recording shows ReelClip’s Cut controls on a short gym recording. Watch the clip count, duration and spacing controls, then preview the planned clips; the steps below show how No gap divides a longer source into equal parts."
+          steps={[
+            "Open Cut and set the Clip amount.",
+            "Choose Space → No gap for consecutive sections.",
+            "Check the displayed Clip duration is below 3:00.",
+            "Play each preview; move a cut if it lands in the middle of an idea.",
+          ]}
+        />
         <PostOl>
           <li>
             Import the full recording from Photos or Files. ReelClip keeps the
