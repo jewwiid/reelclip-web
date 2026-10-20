@@ -119,13 +119,6 @@ export default async function TermsPage() {
               continue to have access to paid features until then.
             </p>
             <p className="text-text-muted mt-3">
-              <strong className="text-text">Free trial.</strong> Where shown by
-              the App Store, the 3-day free trial on Creator Monthly converts to
-              a paid subscription unless you cancel at least 24 hours before the
-              trial ends. Apple determines eligibility and shows the offer before
-              purchase.
-            </p>
-            <p className="text-text-muted mt-3">
               <strong className="text-text">Pricing changes.</strong> If we change
               subscription pricing, we will notify you in advance via email and
               an in-app notice. Price changes take effect at the start of your
