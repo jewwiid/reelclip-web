@@ -1,14 +1,21 @@
 "use client";
 
 import { useRef, useState } from "react";
-import { GUIDE_VIDEOS, videoTimestamp, type GuideVideoId } from "@/lib/guide-videos";
+import { videoTimestamp, type GuideVideoId } from "@/lib/guide-videos";
+import { getGuideVideoPlayback } from "@/lib/guide-video-variants";
 import { trackWebsiteEvent } from "@/lib/site-analytics";
 import { translateGuide, type GuideTranslation } from "@/lib/guide-translation";
 
-export function GuideVideo({ id, translations, captionLocale = "en" }: { id: GuideVideoId; translations?: GuideTranslation; captionLocale?: string }) {
+type GuideVideoProps = { id: GuideVideoId; translations?: GuideTranslation; captionLocale?: string };
+
+export function GuideVideo(props: GuideVideoProps) {
+  return <GuideVideoPlayer key={`${props.id}:${props.captionLocale ?? "en"}`} {...props} />;
+}
+
+function GuideVideoPlayer({ id, translations, captionLocale = "en" }: GuideVideoProps) {
   const t = (text: string, values?: Record<string, string | number>) => translateGuide(translations, text, values);
-  const details = GUIDE_VIDEOS[id];
-  const asset = details.asset;
+  const playback = getGuideVideoPlayback(id, captionLocale);
+  const details = playback.details;
   const videoRef = useRef<HTMLVideoElement>(null);
   const pendingSeek = useRef<number | null>(null);
   const played = useRef(false);
@@ -45,6 +52,7 @@ export function GuideVideo({ id, translations, captionLocale = "en" }: { id: Gui
     <figure
       data-guide-component="tutorial"
       data-guide-video={id}
+      data-app-language={playback.appLanguage}
       id="walkthrough"
       aria-labelledby={`${videoId}-title`}
       className="guide-walkthrough grid scroll-mt-8 grid-cols-1 overflow-hidden rounded-3xl border border-hairline bg-surface md:grid-cols-[0.9fr_1.1fr] md:grid-rows-[auto_1fr]"
@@ -62,7 +70,7 @@ export function GuideVideo({ id, translations, captionLocale = "en" }: { id: Gui
               preload="none"
               width="720"
               height="1280"
-              poster={`/tutorials/${asset}.jpg`}
+              poster={playback.poster}
               className="aspect-[9/16] h-auto w-full focus-visible:outline-2 focus-visible:outline-offset-[-2px] focus-visible:outline-accent"
               onLoadedMetadata={() => {
                 if (pendingSeek.current === null || !videoRef.current) return;
@@ -94,9 +102,9 @@ export function GuideVideo({ id, translations, captionLocale = "en" }: { id: Gui
                 trackWebsiteEvent("ReelClip.Web.tutorialReachedEnd", { tutorial: id });
               }}
             >
-              <source src={`/tutorials/${asset}.mp4`} type="video/mp4" />
-              <track default={captionLocale !== "en"} kind="captions" src={captionLocale === "en" ? `/tutorials/${asset}.vtt` : `/tutorials/locales/${captionLocale}/${asset}.vtt`} srcLang={captionLocale} label={t("Step captions")} />
-              <a href={`/tutorials/${asset}.mp4`}>{t("Open the screen recording")}</a>.
+              <source src={playback.video} type="video/mp4" />
+              <track default={captionLocale !== "en"} kind="captions" src={playback.captions} srcLang={captionLocale} label={t("Step captions")} />
+              <a href={playback.video}>{t("Open the screen recording")}</a>.
             </video>
             {!hasStarted && !hasError && (
               <button
@@ -171,10 +179,10 @@ export function GuideVideo({ id, translations, captionLocale = "en" }: { id: Gui
             })}
           </ol>
           <p className="mt-6 border-t border-hairline pt-4 text-xs leading-relaxed text-text-muted">{t(details.note)}</p>
-          {captionLocale !== "en" && <p className="mt-3 text-xs leading-relaxed text-text-muted">{t("The recording uses English app controls. Step captions are translated.")}</p>}
+          {captionLocale !== playback.appLanguage && <p className="mt-3 text-xs leading-relaxed text-text-muted">{t("The recording uses English app controls. Step captions are translated.")}</p>}
           {hasError && (
             <p role="alert" className="mt-4 text-sm leading-relaxed text-text-muted">
-              {t("Video couldn’t play. Try the player controls or open the recording below.")}{" "}<a href={`/tutorials/${asset}.mp4`} className="text-accent underline underline-offset-4">{t("Open the screen recording")}</a>.
+              {t("Video couldn’t play. Try the player controls or open the recording below.")}{" "}<a href={playback.video} className="text-accent underline underline-offset-4">{t("Open the screen recording")}</a>.
             </p>
           )}
           </div>
