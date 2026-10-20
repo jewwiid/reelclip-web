@@ -1,13 +1,13 @@
 {
   "slug": "video-length-social-media-reach",
   "title": "Heeft videolengte invloed op het bereik op social media?",
-  "description": "Een duidelijke gids over lengtelimieten en kijkerssignalen op Instagram, YouTube Shorts en TikTok, plus een praktische manier om lange bronvideo's op te splitsen in gelijke clips.",
+  "description": "Een heldere gids over lengtelimieten en kijkerssignalen op Instagram, YouTube Shorts en TikTok, plus een praktische manier om lange bronvideo's op te splitsen in gelijke clips.",
   "publishedAt": "2026-10-20",
   "updatedAt": "2026-10-20",
   "category": "Handleiding",
-  "primaryKeyword": "videolengte en bereik op social media",
+  "primaryKeyword": "videolengte en social media bereik",
   "readMinutes": 6,
-  "sourceFingerprint": "ac63ac3dfd7a33fc06389b68b4b799fb44e758ff61506caad2c3aec75fef4456",
+  "sourceFingerprint": "cdeeb25c4ac27c88fc90124577f669e3580c7543bebfbe754866a46559c17542",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Een lang interview, les of livestream kan meerdere sterke social videos bevatten. Maar heeft videolengte invloed op het bereik op social media? Het eerlijke antwoord hangt af van het platform. Instagram zegt dat Reels langer dan drie minuten niet worden aanbevolen aan nieuwe doelgroepen. TikTok noemt daarentegen geen vergelijkbare limiet in de uitleg over aanbevelingen, en een groot extern onderzoek vond dat langere TikToks vaker meer mensen bereikten. De praktische zet is om de originele opname te bewaren, en vervolgens versies te maken die passen bij elk platform en kijkers snel een compleet beeld geven. Dat onderscheid is belangrijk wanneer je één bron deelt over meerdere apps: looptijd kan de aanbevelingsgerechtigheid beïnvloeden, maar de juiste cliplengte hangt nog steeds af van onderwerp, tempo en kijkersinteresse. Dit zeggen de platformrichtlijnen en data, plus een herhaalbare manier om een batch op te splitsen zonder een verhaal doormidden te hakken."
+      "html": "Een lang interview, les of livestream kan meerdere sterke social videos bevatten. Maar heeft videolengte invloed op het bereik op social media? Het eerlijke antwoord hangt af van het platform. Instagram zegt dat Reels langer dan drie minuten niet worden aanbevolen aan nieuwe doelgroepen. TikTok noemt daarentegen geen vergelijkbare limiet in de uitleg over aanbevelingen, en een groot extern onderzoek vond dat langere TikToks vaak meer mensen bereikten. De praktische zet is om de originele opname te bewaren, en vervolgens versies te maken die bij elk platform passen en kijkers snel een compleet beeld geven. Dat onderscheid is belangrijk wanneer je één bron deelt over meerdere apps: de looptijd kan de aanbevelingsgeschiktheid beïnvloeden, maar de juiste cliplengte hangt nog steeds af van onderwerp, tempo en kijkersinteresse. Dit is wat de platformrichtlijnen en data zeggen, plus een herhaalbare manier om een batch op te splitsen zonder een verhaal doormidden te hakken."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Instagram Reels:</strong> Het Helpcentrum van Instagram zegt dat Reels langer dan drie minuten niet worden aanbevolen aan nieuwe doelgroepen. Een Reel onder die limiet kan nog steeds worden aanbevolen, maar de lengte alleen garandeert geen ontdekking. Een langere Reel kan nog steeds zichtbaar zijn voor je bestaande doelgroep. Lees Instagrams<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">richtlijnen voor Reel-opname en -aanbevelingen</a>.</li><li><strong class=\"text-text\">YouTube Shorts:</strong> Vierkante of verticale video's tot drie minuten kunnen Shorts zijn. Video's die die lengte overschrijden passen niet meer in het Shorts-formaat, hoewel ze nog steeds als reguliere YouTube-video's kunnen worden geüpload. Zie YouTubes update over<!-- --> <a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">drie-minuten Shorts</a>.</li><li><strong class=\"text-text\">TikTok:</strong> TikTok beschrijft aanbevelingen als gepersonaliseerd, met kijkersinteracties zoals kijktijd als signalen. In tegenstelling tot Instagrams specifieke Reels-mededeling publiceert de uitleg van TikTok geen drie-minuten bereikafsnijding. De<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">uitleg over aanbevelingen</a> <!-- -->is een betere gids dan een algemene regel dat \"korter altijd beter is\".</li>"
+      "html": "<li><strong class=\"text-text\">Instagram Reels:</strong> Het Helpcentrum van Instagram zegt dat Reels langer dan drie minuten niet worden aanbevolen aan nieuwe doelgroepen. Een Reel onder die limiet kan nog steeds worden aanbevolen, maar de lengte alleen garandeert geen ontdekking. Een langere Reel kan nog steeds zichtbaar zijn voor je bestaande doelgroep. Lees de<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Reel-opname- en aanbevelingsrichtlijnen</a> van Instagram.</li><li><strong class=\"text-text\">YouTube Shorts:</strong> Vierkante of verticale video's tot drie minuten kunnen Shorts zijn. Video's die die lengte overschrijden passen niet meer in het Shorts-formaat, hoewel ze nog steeds als reguliere YouTube-video's kunnen worden geüpload. Zie de update van YouTube over<!-- --> <a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">drie-minuten Shorts</a>.</li><li><strong class=\"text-text\">TikTok:</strong> TikTok beschrijft aanbevelingen als gepersonaliseerd, met kijkersinteracties zoals kijktijd als signalen. In tegenstelling tot de specifieke Reels-mededeling van Instagram publiceert de uitleg geen drie-minuten bereikafsnijding. De<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">aanbevelingsuitleg</a> <!-- -->is een betere gids dan een algemene regel dat 'korter altijd beter is'.</li>"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Lengte kan beïnvloeden voor welke ontdekkingsoppervlakken een post in aanmerking komt. Daarna moet het verhaal nog steeds de aandacht vasthouden. Als je doel nieuwe kijkers op Instagram of Shorts is, houd je onder de drie minuten om binnen de genoemde limieten van die formaten te blijven. Het garandeert geen views, en het is geen reden om een verhaal midden in een idee af te breken."
+      "html": "Lengte kan beïnvloeden voor welke ontdekkingsoppervlakken een post in aanmerking komt. Daarna moet het verhaal nog steeds de aandacht vasthouden. Als je doel nieuwe kijkers op Instagram of Shorts is, dan houdt onder de drie minuten de video binnen de vermelde limieten van die formaten. Het garandeert geen views, en het is geen reden om een verhaal midden in een idee af te breken."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Korte clips zijn niet automatisch de winnaars. In een analyse uit 2025 van 1,1 miljoen TikToks vond Buffer dat video's langer dan één minuut 43,2% meer mediaan bereik en 63,8% meer mediaan kijktijd hadden dan video's in de 30-tot-60-seconden groep. De langere groep omvatte video's van één tot tien minuten, dus de analyse isoleert geen video's over drie minuten en bewijst niet dat lengte het verschil veroorzaakte. Buffer merkt ook op dat sterke hooks en contentkwaliteit belangrijker zijn dan het najagen van een doellooptijd. Verken de volledige<!-- --> <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">TikTok videolengte-analyse</a>."
+      "html": "Korte clips zijn niet automatisch de winnaars. In een analyse uit 2025 van 1,1 miljoen TikToks vond Buffer dat video's langer dan één minuut 43,2% meer mediaan bereik en 63,8% meer mediaan kijktijd hadden dan video's in de 30-tot-60-seconden groep. De langere groep omvatte video's van één tot tien minuten, dus de analyse isoleert geen video's langer dan drie minuten en bewijst niet dat lengte het verschil veroorzaakte. Buffer merkt ook op dat sterke hooks en contentkwaliteit belangrijker zijn dan het najagen van een doellooptijd. Bekijk de volledige<!-- --> <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">TikTok videolengte-analyse</a>."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Beschouw de lange opname als bronmateriaal. Een enkel interview van 12 minuten kan vijf verschillende ideeën bevatten. Vijf gelijke clips zouden elk 2 minuten en 24 seconden duren, wat onder de drempel van drie minuten valt terwijl de bron intact blijft. Een andere video van 11 minuten die in vier gelijke clips wordt gesplitst, geeft je vier clips van 2 minuten en 45 seconden."
+      "html": "Zie de lange opname als bronmateriaal. Een enkel interview van 12 minuten kan vijf verschillende ideeën bevatten. Vijf gelijke clips zouden elk 2 minuten en 24 seconden duren, wat onder de drempel van drie minuten blijft terwijl de bron intact blijft. Een andere video van 11 minuten verdeeld in vier gelijke clips geeft je vier clips van 2 minuten en 45 seconden."
     },
     {
       "kind": "html",
@@ -97,7 +97,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Gelijke splitsingen maken batchvoorbereiding snel, maar de bewerking moet nog steeds zinvol zijn voor iemand die de volledige opname niet heeft gezien. Zoek voor elke clip naar één duidelijk punt, genoeg context om het te begrijpen, en een bevredigende afsluiting. Als een gelijke snede een zin of idee doorbreekt, pas die clip dan aan of kies in plaats daarvan een natuurlijker hoogtepunt."
+      "html": "Gelijke splitsingen maken batchvoorbereiding snel, maar de bewerking moet nog steeds logisch zijn voor iemand die de volledige opname niet heeft gezien. Zoek voor elke clip naar één duidelijk punt, genoeg context om het te begrijpen, en een bevredigende afsluiting. Als een gelijke snede een zin of idee doorbreekt, pas die clip dan aan of kies in plaats daarvan voor een natuurlijker hoogtepunt."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importeer de volledige opname vanuit Foto's of Bestanden. ReelClip bewaart de bron in de app en laat het originele bestand onaangeroerd.</li><li>Kies <strong class=\"text-text\">Cut</strong> en stel het <strong class=\"text-text\">Space</strong>-recept in op<!-- --> <strong class=\"text-text\">No gap</strong>, stel vervolgens de<!-- --> <strong class=\"text-text\">Clip amount</strong> in. Zonder gap en zonder From–To-selectie verdeelt het aantal de hele bron in gelijke secties. Als je een sectie hebt geselecteerd, verdeelt het die sectie. Stel het aantal hoog genoeg in zodat de duur die in het recept wordt getoond onder 3:00 ligt. Voor een bron van 12 minuten geeft vijf clips je 2:24 per clip.</li><li>Bekijk elke sectie in preview. Houd de delen die schoon beginnen en een compleet punt maken; verfijn of sla elke snede over die midden in een gedachte valt. ReelClip laat je de geplande clips reviewen voor export.</li><li>Sla de clips op die je wilt, en rond vervolgens ondertitels, framing en platformdetails af in je publicatieworkflow. Geef elke post zijn eigen openingszin en genoeg context om op zichzelf te staan.</li>"
+      "html": "<li>Importeer de volledige opname vanuit Foto's of Files. ReelClip bewaart de bron in de app en laat het originele bestand onaangeroerd.</li><li>Kies <strong class=\"text-text\">Cut</strong> en stel het recept <strong class=\"text-text\">Space</strong> in op<!-- --> <strong class=\"text-text\">No gap</strong> door de shuffle-knop ingedrukt te houden, stel vervolgens de<!-- --> <strong class=\"text-text\">Clip amount</strong> in. Zonder gap en zonder From–To-selectie verdeelt het aantal de hele bron in gelijke secties. Als je een sectie hebt geselecteerd, verdeelt het die sectie. Stel het aantal hoog genoeg in zodat de duur die in het recept wordt weergegeven onder 3:00 ligt. Voor een bron van 12 minuten geeft vijf clips je 2:24 per clip. Tik op <strong class=\"text-text\">Add</strong> om het recept in Planned Clips te plaatsen.</li><li>Bekijk elke sectie. Behoud de delen die schoon beginnen en een compleet punt maken; verfijn of sla elke snede over die midden in een gedachte valt. ReelClip laat je de geplande clips bekijken voor export.</li><li>Sla de clips op die je wilt, en rond vervolgens ondertitels, framing en platformdetails af in je publicatieworkflow. Geef elke post zijn eigen openingszin en genoeg context om op zichzelf te staan.</li>"
     },
     {
       "kind": "html",
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor een uitgebreidere walkthrough van dezelfde Cut-workflow, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">hoe je een lange video op iPhone knipt</a>. ReelClip bereidt clips voor om te posten; het publiceert ze niet naar Instagram, TikTok of YouTube."
+      "html": "Voor een uitgebreidere walkthrough van dezelfde Cut-workflow, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">hoe je een lange video knipt op iPhone</a>. ReelClip bereidt clips voor om te posten; het publiceert ze niet naar Instagram, TikTok of YouTube."
     },
     {
       "kind": "html",
@@ -133,7 +133,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Test de snede die werkt voor je publiek"
+      "html": "Test de snede die voor jouw publiek werkt"
     },
     {
       "kind": "html",
@@ -141,7 +141,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Gebruik een paar vergelijkbare posts om te leren wat je kijkers vasthoudt. Houd het onderwerp en de belofte vergelijkbaar, probeer dan een strakkere bewerking en een langere versie wanneer beide een compleet verhaal vertellen. Vergelijk bereik onder niet-volgers, gemiddelde kijktijd, voltooiing, shares en saves waar het platform deze biedt. Beoordeel een patroon over meerdere posts in plaats van het resultaat van één upload af te roepen."
+      "html": "Gebruik een paar vergelijkbare posts om te leren wat jouw kijkers vasthoudt. Houd het onderwerp en de belofte gelijk, en probeer dan een strakkere bewerking en een langere versie wanneer beide een compleet verhaal vertellen. Vergelijk het bereik bij niet-volgers, gemiddelde kijktijd, voltooiing, shares en saves waar het platform deze biedt. Beoordeel een patroon over meerdere posts in plaats van het resultaat van één upload af te roepen."
     },
     {
       "kind": "html",
@@ -149,7 +149,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Instagram's Trial Reels zijn één manier om een nieuw formaat eerst aan niet-volgers te tonen en de vroege prestaties te reviewen. Instagram legt uit hoe je ze gebruikt in zijn<!-- --> <a class=\"text-accent hover:underline\" href=\"https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/\" rel=\"noreferrer\" target=\"_blank\">Trial Reels-aankondiging</a>."
+      "html": "Instagram's Trial Reels zijn één manier om een nieuw formaat eerst aan niet-volgers te tonen en de vroege prestaties te bekijken. Instagram legt uit hoe je ze gebruikt in zijn<!-- --> <a class=\"text-accent hover:underline\" href=\"https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/\" rel=\"noreferrer\" target=\"_blank\">Trial Reels-aankondiging</a>."
     },
     {
       "kind": "html",
@@ -165,7 +165,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Een snede van drie minuten is een praktisch doel voor Instagram discovery en YouTube Shorts, geen universeel recept voor meer views. TikTok-data toont dat langere video's ook een publiek kunnen vinden. Voor Instagram discovery en Shorts: gebruik ReelClip's Cut-recept om gelijke clips onder de limiet voor te bereiden, en review elke clip. Op TikTok: test verschillende lengtes tegen je eigen accountresultaten in plaats van een sterk idee te trimmen om een willekeurige timer te halen. Bewaar de volledige opname voor kijkers die de langere versie willen."
+      "html": "Een snede van drie minuten is een praktisch doel voor Instagram-discovery en YouTube Shorts, geen universeel recept voor meer views. TikTok-data laat zien dat langere video's ook een publiek kunnen vinden. Voor Instagram-discovery en Shorts gebruik je ReelClip's Cut-recept om gelijke clips onder de limiet voor te bereiden, en bekijk je elke clip daarna. Op TikTok test je verschillende lengtes tegen de resultaten van je eigen account in plaats van een sterk idee te knippen om een willekeurige timer te halen. Bewaar de volledige opname voor kijkers die de langere versie willen."
     },
     {
       "kind": "html",
@@ -173,7 +173,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Bronnen en aanvullende lectuur"
+      "html": "Bronnen en aanbevolen lectuur"
     },
     {
       "kind": "html",
@@ -181,7 +181,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Instagram Helpcentrum: Een reel opnemen</a></li><li><a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">YouTube Blog: Grote updates voor Shorts</a></li><li><a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">TikTok Helpcentrum: Hoe TikTok content aanbeveelt</a></li><li><a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">Buffer: Langere TikToks krijgen meer views</a></li>"
+      "html": "<li><a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Instagram Helpcentrum: Een reel opnemen</a></li><li><a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">YouTube Blog: Verticale updates voor Shorts</a></li><li><a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">TikTok Helpcentrum: Hoe TikTok content aanbeveelt</a></li><li><a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">Buffer: Langere TikToks krijgen meer views</a></li>"
     },
     {
       "kind": "cta"

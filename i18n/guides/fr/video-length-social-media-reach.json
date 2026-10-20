@@ -5,9 +5,9 @@
   "publishedAt": "2026-10-20",
   "updatedAt": "2026-10-20",
   "category": "Tutoriel",
-  "primaryKeyword": "durée vidéo et portée réseaux sociaux",
+  "primaryKeyword": "durée de la vidéo et portée sur les réseaux sociaux",
   "readMinutes": 6,
-  "sourceFingerprint": "ac63ac3dfd7a33fc06389b68b4b799fb44e758ff61506caad2c3aec75fef4456",
+  "sourceFingerprint": "cdeeb25c4ac27c88fc90124577f669e3580c7543bebfbe754866a46559c17542",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Un long entretien, cours ou livestream peut contenir plusieurs vidéos sociales de qualité. Mais la durée d'une vidéo nuit-elle à sa portée sur les réseaux sociaux ? La réponse honnête dépend de la plateforme. Instagram indique que les Reels de plus de trois minutes ne seront pas recommandés à de nouveaux publics. TikTok, quant à lui, ne mentionne pas de limite équivalente dans son explicateur de recommandations, et une grande étude tierce a révélé que les TikToks plus longs atteignaient souvent plus de monde. La démarche pratique consiste à conserver l'enregistrement original, puis créer des versions adaptées à chaque plateforme qui donnent rapidement une idée complète aux spectateurs. Cette distinction compte lorsque vous partagez une même source sur plusieurs applications : la durée peut affecter l'éligibilité aux recommandations, mais la bonne longueur de clip dépend toujours du sujet, du rythme et de l'intérêt du spectateur. Voici ce que disent les directives des plateformes et les données, plus une méthode reproductible pour diviser un lot sans couper une histoire en deux."
+      "html": "Un long entretien, un cours ou un livestream peut contenir plusieurs vidéos sociales fortes. Mais la durée d'une vidéo nuit-elle à sa portée sur les réseaux sociaux ? La réponse honnête dépend de la plateforme. Instagram indique que les Reels de plus de trois minutes ne seront pas recommandés à de nouveaux publics. TikTok, quant à lui, ne mentionne pas de limite équivalente dans son explicateur de recommandations, et une grande étude tierce a révélé que les TikToks plus longs atteignaient souvent plus de monde. La démarche pratique consiste à conserver l'enregistrement original, puis à créer des versions adaptées à chaque plateforme et qui donnent rapidement une idée complète aux spectateurs. Cette distinction compte lorsque vous partagez une même source sur plusieurs applications : la durée peut affecter l'éligibilité aux recommandations, mais la bonne longueur de clip dépend toujours du sujet, du rythme et de l'intérêt du spectateur. Voici ce que disent les directives des plateformes et les données, plus une méthode reproductible pour diviser un lot sans couper une histoire en deux."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "La durée peut affecter les surfaces de découverte pour lesquelles une publication est éligible. Après cela, l'histoire doit toujours retenir l'attention. Si votre objectif est d'atteindre de nouveaux spectateurs sur Instagram ou Shorts, rester sous trois minutes maintient la vidéo dans les limites déclarées de ces formats. Cela ne garantit pas des vues, et ce n'est pas une raison pour couper une histoire au milieu d'une idée."
+      "html": "La durée peut affecter les surfaces de découverte pour lesquelles une publication est éligible. Après cela, l'histoire doit toujours retenir l'attention. Si votre objectif est d'atteindre de nouveaux spectateurs sur Instagram ou Shorts, rester sous trois minutes maintient la vidéo dans les limites déclarées de ces formats. Cela ne garantit pas les vues, et ce n'est pas une raison pour couper une histoire au milieu d'une idée."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Les clips courts ne sont pas automatiquement les vainqueurs. Dans une analyse 2025 de 1,1 million de TikToks, Buffer a constaté que les vidéos de plus d'une minute avaient 43,2 % de portée médiane en plus et 63,8 % de temps de visionnage médian en plus que les vidéos du groupe 30 à 60 secondes. Le groupe plus long couvrait des vidéos d'une à dix minutes, donc l'analyse n'isole pas les vidéos de plus de trois minutes ni ne prouve que la durée a causé la différence. Buffer note également que les accroches fortes et la qualité du contenu comptent plus que de viser une durée cible. Explorez l'analyse complète sur la <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">durée des vidéos TikTok</a>."
+      "html": "Les clips courts ne sont pas automatiquement les gagnants. Dans une analyse 2025 de 1,1 million de TikToks, Buffer a constaté que les vidéos de plus d'une minute avaient 43,2 % de portée médiane en plus et 63,8 % de temps de visionnage médian en plus que les vidéos du groupe 30 à 60 secondes. Le groupe plus long couvrait des vidéos d'une à dix minutes, donc l'analyse n'isole pas les vidéos de plus de trois minutes ni ne prouve que la durée a causé la différence. Buffer note également que les accroches fortes et la qualité du contenu comptent plus que de viser une durée cible. Explorez l'<a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">analyse complète de la durée des vidéos TikTok</a>."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Cette évidence change la donne : ne divisez pas chaque longue vidéo simplement parce que le court serait supposément favorisé partout. Divisez quand une version plus courte rend le point plus clair, correspond au format de destination, ou donne à un enregistrement plusieurs points d'entrée utiles."
+      "html": "Cette évidence change la donne : ne divisez pas chaque longue vidéo simplement parce que le court serait supposément favorisé partout. Divisez lorsqu'une version plus courte rend le point plus clair, correspond au format de destination, ou donne à un enregistrement plusieurs points d'entrée utiles."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Transformez un long enregistrement en un ensemble de clips ciblés"
+      "html": "Transformez un long enregistrement en une série de clips ciblés"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Considérez le long enregistrement comme du matériel source. Une seule interview de 12 minutes peut contenir cinq idées distinctes. Cinq clips égaux dureront 2 minutes 24 secondes chacun, ce qui respecte le seuil des trois minutes tout en conservant la source intacte. Une autre vidéo de 11 minutes divisée en quatre clips égaux vous donne quatre clips de 2 minutes 45 secondes."
+      "html": "Considérez le long enregistrement comme du matériel source. Un seul entretien de 12 minutes peut contenir cinq idées distinctes. Cinq clips égaux dureront 2 minutes 24 secondes chacun, ce qui respecte le seuil des trois minutes tout en préservant la source intacte. Une autre vidéo de 11 minutes divisée en quatre clips égaux vous donne quatre clips de 2 minutes 45 secondes."
     },
     {
       "kind": "html",
@@ -97,7 +97,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Les divisions égales rendent la préparation par lots rapide, mais le montage doit toujours avoir du sens pour quelqu'un qui n'a pas regardé l'enregistrement complet. Pour chaque clip, cherchez un point clair, suffisamment de contexte pour le comprendre, et une conclusion satisfaisante. Si une coupe égale coupe une phrase ou une idée en deux, ajustez ce clip ou choisissez un extrait plus naturel à la place."
+      "html": "Les divisions égales accélèrent la préparation en série, mais le montage doit tout de même avoir du sens pour quelqu'un qui n'a pas vu l'enregistrement complet. Pour chaque clip, cherchez un point clair, suffisamment de contexte pour le comprendre, et une conclusion satisfaisante. Si une coupe égale coupe une phrase ou une idée en deux, ajustez ce clip ou choisissez un extrait plus naturel à la place."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importez l'enregistrement complet depuis Photos ou Fichiers. ReelClip conserve la source dans l'application et laisse le fichier original intact.</li><li>Choisissez <strong class=\"text-text\">Cut</strong> et réglez <strong class=\"text-text\">Space</strong> de la recette sur<!-- --> <strong class=\"text-text\">No gap</strong>, puis réglez le<!-- --> <strong class=\"text-text\">Clip amount</strong>. Sans gap et sans sélection From–To, le nombre divise la source entière en sections de durée égale. Si vous avez sélectionné une section, il divise cette section. Réglez le nombre suffisamment haut pour que la durée affichée dans la recette soit inférieure à 3:00. Pour une source de 12 minutes, cinq clips vous donnent 2:24 par clip.</li><li>Prévisualisez chaque section. Gardez les parties qui commencent proprement et expriment un point complet ; affinez ou ignorez toute coupe qui tombe au milieu d'une pensée. ReelClip vous permet de revoir les clips planifiés avant l'export.</li><li>Sauvegardez les clips souhaités, puis finalisez les légendes, le cadrage et les détails de plateforme dans votre flux de publication. Donnez à chaque post sa propre accroche et suffisamment de contexte pour tenir seul.</li>"
+      "html": "<li>Importez l'enregistrement complet depuis Photos ou Files. ReelClip conserve la source dans l'application et laisse le fichier original intact.</li><li>Choisissez <strong class=\"text-text\">Cut</strong> et réglez la recette <strong class=\"text-text\">Space</strong> sur<!-- --> <strong class=\"text-text\">No gap</strong> en maintenant son bouton de mélange, puis réglez le<!-- --> <strong class=\"text-text\">Clip amount</strong>. Sans espace et sans sélection De–À, le nombre divise la source entière en sections de durée égale. Si vous avez sélectionné une section, il divise cette section. Réglez le nombre suffisamment haut pour que la durée affichée dans la recette soit inférieure à 3:00. Pour une source de 12 minutes, cinq clips vous donnent 2:24 par clip. Appuyez sur <strong class=\"text-text\">Add</strong> pour mettre la recette dans Planned Clips.</li><li>Prévisualisez chaque section. Gardez les parties qui commencent proprement et font un point complet ; affinez ou sautez toute coupe qui tombe au milieu d'une pensée. ReelClip vous permet de réviser les clips planifiés avant l'exportation.</li><li>Sauvegardez les clips souhaités, puis finalisez les sous-titres, le cadrage et les détails de plateforme dans votre flux de publication. Donnez à chaque post sa propre phrase d'ouverture et suffisamment de contexte pour tenir seul.</li>"
     },
     {
       "kind": "html",
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Pour un tutoriel plus détaillé du même workflow Cut, consultez<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">découper une longue vidéo sur iPhone</a>. ReelClip prépare les clips pour la publication ; il ne les publie pas sur Instagram, TikTok ou YouTube."
+      "html": "Pour un tutoriel plus détaillé du même flux de travail Cut, consultez<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">comment couper une longue vidéo sur iPhone</a>. ReelClip prépare les clips pour la publication ; il ne les publie pas sur Instagram, TikTok ou YouTube."
     },
     {
       "kind": "html",
@@ -133,7 +133,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Testez le montage qui fonctionne pour votre audience"
+      "html": "Testez la coupe qui fonctionne pour votre audience"
     },
     {
       "kind": "html",
@@ -149,7 +149,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Les Trial Reels d'Instagram sont un moyen de montrer un nouveau format aux non-abonnés en premier et d'examiner ses performances initiales. Instagram explique comment les utiliser dans son<!-- --> <a class=\"text-accent hover:underline\" href=\"https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/\" rel=\"noreferrer\" target=\"_blank\">annonce des Reels d’essai</a>."
+      "html": "Les Trial Reels d'Instagram sont un moyen de montrer un nouveau format aux non-abonnés d'abord et d'examiner ses premières performances. Instagram explique comment les utiliser dans son<!-- --> <a class=\"text-accent hover:underline\" href=\"https://about.fb.com/news/2024/12/trial-reels-try-content-non-followers-first-see-what-perfoms-best/\" rel=\"noreferrer\" target=\"_blank\">annonce Trial Reels</a>."
     },
     {
       "kind": "html",
@@ -165,7 +165,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Une coupe à trois minutes est une cible pratique pour la découverte sur Instagram et YouTube Shorts, pas une formule universelle pour plus de vues. Les données de TikTok montrent que des vidéos plus longues peuvent aussi trouver un public. Pour la découverte sur Instagram et les Shorts, utilisez la recette Cut de ReelClip pour préparer des clips égaux sous la limite, puis revoyez chacun d'eux. Sur TikTok, testez différentes longueurs par rapport aux résultats de votre propre compte au lieu de rogner une idée forte pour respecter un chronomètre arbitraire. Conservez l'enregistrement complet pour les spectateurs qui souhaitent la version longue."
+      "html": "Une coupe de trois minutes est une cible pratique pour la découverte sur Instagram et YouTube Shorts, pas une formule universelle pour obtenir plus de vues. Les données de TikTok montrent que des vidéos plus longues peuvent aussi trouver leur public. Pour la découverte sur Instagram et les Shorts, utilisez la recette Cut de ReelClip pour préparer des clips égaux sous la limite, puis révisez chacun d'eux. Sur TikTok, testez différentes longueurs par rapport aux résultats de votre propre compte au lieu de rogner une bonne idée pour respecter un chronomètre arbitraire. Conservez l'enregistrement complet pour les spectateurs qui veulent la version longue."
     },
     {
       "kind": "html",

@@ -1,13 +1,13 @@
 {
   "slug": "video-length-social-media-reach",
-  "title": "O tamanho do vídeo prejudica o alcance nas redes sociais?",
+  "title": "O comprimento do vídeo prejudica o alcance nas redes sociais?",
   "description": "Um guia claro sobre limites de duração e sinais do espectador no Instagram, YouTube Shorts e TikTok, além de uma forma prática de dividir vídeos longos em clipes iguais.",
   "publishedAt": "2026-10-20",
   "updatedAt": "2026-10-20",
   "category": "Tutorial",
-  "primaryKeyword": "tamanho do vídeo e alcance nas redes sociais",
+  "primaryKeyword": "comprimento do vídeo e alcance nas redes sociais",
   "readMinutes": 6,
-  "sourceFingerprint": "ac63ac3dfd7a33fc06389b68b4b799fb44e758ff61506caad2c3aec75fef4456",
+  "sourceFingerprint": "cdeeb25c4ac27c88fc90124577f669e3580c7543bebfbe754866a46559c17542",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Uma longa entrevista, aula ou transmissão ao vivo pode conter vários vídeos sociais fortes. Mas o tamanho do vídeo prejudica o alcance nas redes sociais? A resposta honesta depende da plataforma. O Instagram diz que Reels com mais de três minutos não serão recomendados para novos públicos. O TikTok, por sua vez, não lista um limite equivalente em sua explicação de recomendação, e um grande estudo de terceiros descobriu que TikToks mais longos frequentemente alcançavam mais pessoas. A medida prática é manter a gravação original e depois fazer versões que se encaixem em cada plataforma e transmitam uma ideia completa rapidamente. Essa distinção importa quando você compartilha uma mesma fonte entre aplicativos: a duração pode afetar a elegibilidade para recomendação, mas o tamanho ideal do clipe ainda depende do assunto, do ritmo e do interesse do espectador. Veja o que as orientações das plataformas e os dados dizem, além de uma forma repetível de dividir um lote sem cortar uma história pela metade."
+      "html": "Uma longa entrevista, aula ou transmissão ao vivo pode conter vários vídeos sociais fortes. Mas o comprimento do vídeo prejudica o alcance nas redes sociais? A resposta honesta depende da plataforma. O Instagram diz que Reels com mais de três minutos não serão recomendados para novos públicos. O TikTok, por sua vez, não lista um limite equivalente em sua explicação de recomendação, e um grande estudo de terceiros descobriu que TikToks mais longos frequentemente alcançavam mais pessoas. A atitude prática é manter a gravação original e depois fazer versões que se encaixem em cada plataforma e transmitam rapidamente uma ideia completa ao espectador. Essa distinção importa quando você compartilha uma mesma fonte entre aplicativos: a duração pode afetar a elegibilidade para recomendação, mas o comprimento ideal do clipe ainda depende do assunto, ritmo e interesse do espectador. Veja o que as orientações e dados das plataformas dizem, além de um método repetível para dividir um lote sem cortar uma história pela metade."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Instagram Reels:</strong> O Centro de Ajuda do Instagram diz que Reels com mais de três minutos não serão recomendados para novos públicos. Um Reel abaixo desse limite ainda pode ser recomendado, mas sua duração sozinha não garante descoberta. Um Reel mais longo ainda pode ser visível para seu público existente. Leia as <a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">orientações de gravação e recomendação de Reels</a> do Instagram.</li><li><strong class=\"text-text\">YouTube Shorts:</strong> vídeos quadrados ou verticais de até três minutos podem ser Shorts. Vídeos além dessa duração não se enquadram mais no formato Shorts, embora ainda possam ser enviados como vídeos regulares do YouTube. Veja a atualização do YouTube sobre <a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">Shorts de três minutos</a>.</li><li><strong class=\"text-text\">TikTok:</strong> O TikTok descreve as recomendações como personalizadas, com interações do espectador como tempo de visualização entre os sinais. Diferentemente da nota específica do Instagram sobre Reels, sua explicação não publica um corte de alcance de três minutos. Sua <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">explicação de recomendação</a> é um guia melhor do que uma regra genérica de \"mais curto é sempre melhor\".</li>"
+      "html": "<li><strong class=\"text-text\">Instagram Reels:</strong> O Centro de Ajuda do Instagram diz que Reels com mais de três minutos não serão recomendados para novos públicos. Um Reel abaixo desse limite ainda pode ser recomendado, mas sua duração sozinha não garante descoberta. Um Reel mais longo ainda pode ser visível para seu público existente. Leia as <a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">orientações de gravação e recomendação de Reels</a> do Instagram.</li><li><strong class=\"text-text\">YouTube Shorts:</strong> vídeos quadrados ou verticais de até três minutos podem ser Shorts. Vídeos além dessa duração não se enquadram mais no formato Shorts, embora ainda possam ser enviados como vídeos regulares do YouTube. Veja a atualização do YouTube sobre <a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">Shorts de três minutos</a>.</li><li><strong class=\"text-text\">TikTok:</strong> O TikTok descreve as recomendações como personalizadas, com interações do espectador como tempo de visualização entre os sinais. Diferentemente da nota específica do Instagram sobre Reels, sua explicação não publica um corte de alcance de três minutos. Sua <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">explicação de recomendação</a> é um guia melhor do que uma regra generalizada de \"mais curto é sempre melhor\".</li>"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A duração pode afetar para quais superfícies de descoberta uma publicação é elegível. Depois disso, a história ainda precisa prender a atenção. Se seu objetivo são novos espectadores no Instagram ou Shorts, ficar abaixo de três minutos mantém o vídeo dentro dos limites declarados desses formatos. Isso não garante visualizações e não é motivo para cortar uma história no meio de uma ideia."
+      "html": "O comprimento pode afetar para quais superfícies de descoberta uma publicação é elegível. Depois disso, a história ainda precisa manter a atenção. Se seu objetivo são novos espectadores no Instagram ou Shorts, ficar abaixo de três minutos mantém o vídeo dentro dos limites declarados desses formatos. Isso não garante visualizações e não é motivo para cortar uma história no meio de uma ideia."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Clipes curtos não são automaticamente os vencedores. Em uma análise de 2025 de 1,1 milhão de TikToks, a Buffer descobriu que vídeos com mais de um minuto tiveram 43,2% mais alcance mediano e 63,8% mais tempo de visualização mediano do que vídeos no grupo de 30 a 60 segundos. O grupo mais longo abrangeu vídeos de um a dez minutos, então a análise não isola vídeos acima de três minutos nem prova que a duração causou a diferença. A Buffer também observa que ganchos fortes e qualidade de conteúdo importam mais do que perseguir uma duração-alvo. Explore a <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">análise completa de duração de vídeos no TikTok</a>."
+      "html": "Clipes curtos não são automaticamente os vencedores. Em uma análise de 2025 de 1,1 milhão de TikToks, a Buffer descobriu que vídeos com mais de um minuto tiveram 43,2% a mais de alcance mediano e 63,8% a mais de tempo de visualização mediano do que vídeos no grupo de 30 a 60 segundos. O grupo mais longo abrangia vídeos de um a dez minutos, então a análise não isola vídeos acima de três minutos nem prova que a duração causou a diferença. A Buffer também observa que ganchos fortes e qualidade de conteúdo importam mais do que perseguir uma duração-alvo. Explore a <a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">análise completa de duração de vídeos no TikTok</a>."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Essa evidência muda o foco: não divida todo vídeo longo só porque o curto supostamente é favorecido em todo lugar. Divida quando uma versão mais curta torna o ponto mais claro, corresponde ao formato de destino ou dá a uma gravação vários pontos de entrada úteis."
+      "html": "Essa evidência muda o discurso: não divida todo vídeo longo só porque supostamente o curto é favorecido em toda parte. Divida quando uma versão mais curta torna o ponto mais claro, corresponde ao formato de destino ou dá a uma gravação vários pontos de entrada úteis."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importe a gravação completa de Fotos ou Arquivos. O ReelClip mantém a fonte no app e deixa o arquivo original intacto.</li><li>Escolha <strong class=\"text-text\">Cut</strong> e defina <strong class=\"text-text\">Space</strong> da receita como<!-- --> <strong class=\"text-text\">No gap</strong>, depois defina a<!-- --> <strong class=\"text-text\">Clip amount</strong>. Sem gap e sem seleção De–Para, a contagem divide toda a fonte em seções de duração igual. Se você selecionou uma seção, ela divide aquela seção. Defina a contagem alta o suficiente para que a duração mostrada na receita fique abaixo de 3:00. Para uma fonte de 12 minutos, cinco clipes dão 2:24 por clipe.</li><li>Pré-visualize cada seção. Mantenha as partes que começam de forma limpa e fazem um ponto completo; refine ou pule qualquer corte que caia no meio de um pensamento. O ReelClip permite revisar os clipes planejados antes da exportação.</li><li>Salve os clipes desejados, depois finalize legendas, enquadramento e detalhes da plataforma em seu fluxo de publicação. Dê a cada post sua própria linha de abertura e contexto suficiente para se sustentar sozinho.</li>"
+      "html": "<li>Importe a gravação completa de Fotos ou Files. O ReelClip mantém a fonte no app e deixa o arquivo original intacto.</li><li>Escolha <strong class=\"text-text\">Cut</strong> e defina o <strong class=\"text-text\">Space</strong> da receita para<!-- --> <strong class=\"text-text\">No gap</strong> segurando o botão de embaralhar, depois defina o<!-- --> <strong class=\"text-text\">Clip amount</strong>. Sem intervalo e sem seleção De–Até, a contagem divide toda a fonte em seções de duração igual. Se você selecionou uma seção, ela divide aquela seção. Defina a contagem alta o suficiente para que a duração mostrada na receita fique abaixo de 3:00. Para uma fonte de 12 minutos, cinco clipes dão 2:24 por clipe. Toque em <strong class=\"text-text\">Add</strong> para colocar a receita em Clipes Planejados.</li><li>Pré-visualize cada seção. Mantenha as partes que começam de forma limpa e fazem um ponto completo; refine ou pule qualquer corte que caia no meio de um pensamento. O ReelClip permite revisar os clipes planejados antes da exportação.</li><li>Salve os clipes que desejar, depois finalize legendas, enquadramento e detalhes da plataforma em seu fluxo de publicação. Dê a cada post sua própria linha de abertura e contexto suficiente para se sustentar sozinho.</li>"
     },
     {
       "kind": "html",
@@ -141,7 +141,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Use alguns posts comparáveis para descobrir o que retém seus espectadores. Mantenha o assunto e a promessa similares, depois experimente uma edição mais enxuta e uma versão mais longa quando ambas contam uma história completa. Compare o alcance de não-seguidores, tempo médio de visualização, conclusão, compartilhamentos e salvamentos onde a plataforma os fornece. Julgue um padrão em vários posts em vez de tirar a conclusão de um único upload."
+      "html": "Use alguns posts comparáveis para descobrir o que prende seus espectadores. Mantenha o assunto e a promessa similares, depois experimente uma edição mais enxuta e uma versão mais longa quando ambas contam uma história completa. Compare o alcance de não-seguidores, tempo médio de visualização, conclusão, compartilhamentos e salvamentos onde a plataforma os fornece. Avalie um padrão ao longo de vários posts em vez de tirar a conclusão de um único upload."
     },
     {
       "kind": "html",
@@ -173,7 +173,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Fontes e leitura adicional"
+      "html": "Fontes e leituras adicionais"
     },
     {
       "kind": "html",
@@ -181,7 +181,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Central de Ajuda do Instagram: Gravar um reel</a></li><li><a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">Blog do YouTube: Novidades em formato vertical chegando aos Shorts</a></li><li><a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">Central de Ajuda do TikTok: Como o TikTok recomenda conteúdo</a></li><li><a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">Buffer: TikToks mais longos ganham mais visualizações</a></li>"
+      "html": "<li><a class=\"text-accent hover:underline\" href=\"https://help.instagram.com/2720958398006062\" rel=\"noreferrer\" target=\"_blank\">Central de Ajuda do Instagram: Gravar um reel</a></li><li><a class=\"text-accent hover:underline\" href=\"https://blog.youtube/news-and-events/tall-updates-coming-to-shorts/\" rel=\"noreferrer\" target=\"_blank\">Blog do YouTube: Novidades em formato vertical chegando aos Shorts</a></li><li><a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/using-tiktok/exploring-videos/how-tiktok-recommends-content\" rel=\"noreferrer\" target=\"_blank\">Central de Ajuda do TikTok: Como o TikTok recomenda conteúdo</a></li><li><a class=\"text-accent hover:underline\" href=\"https://buffer.com/resources/longer-tiktoks-get-more-views-data/\" rel=\"noreferrer\" target=\"_blank\">Buffer: TikToks mais longos recebem mais visualizações</a></li>"
     },
     {
       "kind": "cta"

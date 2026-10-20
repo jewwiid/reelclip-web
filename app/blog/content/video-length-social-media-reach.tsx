@@ -154,13 +154,15 @@ export default function Post() {
           <li>
             Choose <strong className="text-text">Cut</strong> and set the
             recipe’s <strong className="text-text">Space</strong> to{" "}
-            <strong className="text-text">No gap</strong>, then set the{" "}
+            <strong className="text-text">No gap</strong> by holding its shuffle
+            button, then set the{" "}
             <strong className="text-text">Clip amount</strong>. With no gap
             and no From–To selection, the count divides the whole source into
             equal-duration sections. If you selected a section, it divides
             that section. Set the count high enough that the duration shown in
             the recipe is under 3:00. For a 12-minute source, five clips gives
-            you 2:24 per clip.
+            you 2:24 per clip. Tap <strong className="text-text">Add</strong> to
+            put the recipe into Planned Clips.
           </li>
           <li>
             Preview every section. Keep the parts that start cleanly and make a
