@@ -1,41 +1,146 @@
 {
-  "collected": "2026-10-20",
-  "source": "DataForSEO Google Ads search volume via treg (call 64615f6f63d643c4971817125b327497), location United States (2840), language en. Average monthly searches over the trailing 12 months; Google buckets low values (10 = roughly 0-20). null = no data returned, not zero.",
-  "note": "Advertising competition is not organic difficulty. Volumes are demand evidence for choosing pages, never a traffic forecast. Re-check volumes before relying on them after 2027-04.",
-  "planned_pages": [
-    {"status": "planned", "format": "how-to", "proposed_slug": "how-to-split-a-video-on-iphone", "fit": 5,
-     "keywords": {"how to split a video on iphone": 480, "split video into parts": 480, "video splitter app": 210, "split video iphone": 30},
-     "angle": "Core ReelClip job. Answer with Photos/iMovie first for one cut, then ReelClip Slice/Cut for many equal or chosen parts."},
-    {"status": "planned", "format": "how-to", "proposed_slug": "how-to-cut-a-video-on-iphone", "fit": 4,
-     "keywords": {"how to cut a video on iphone": 9900, "trim video iphone": 1000},
-     "angle": "Huge, low-competition query dominated by Apple Support. Honest answer is the Photos trim; ReelClip earns its place when cutting one recording into several clips."},
-    {"status": "planned", "format": "free-tool", "proposed_slug": "tools/safe-zone-checker", "fit": 4,
-     "keywords": {"instagram reels safe zone": 1600, "tiktok safe zone": 1300},
-     "angle": "Browser tool: drop a frame or video, overlay Reels/TikTok/Shorts UI safe zones. Margins must come from primary platform guidance and be dated."},
-    {"status": "planned", "format": "alternatives", "proposed_slug": "capcut-alternatives", "fit": 4,
-     "keywords": {"capcut alternative": 1900, "capcut alternatives": 1900, "apps like capcut": 1000, "capcut alternative no watermark": 10},
-     "angle": "Either broaden the existing capcut-alternative-no-watermark guide (preferred by the brief) or redirect it to a fuller roundup. Do not create two pages for one intent."},
-    {"status": "planned", "format": "listicle", "proposed_slug": "best-video-editing-apps-iphone", "fit": 3,
-     "keywords": {"best video editing app for iphone": 1900, "best video editor for iphone": 1000, "best free video editing app for iphone": 590, "video editor without watermark": 720},
-     "angle": "Honest roundup by job (full timeline, quick social edit, clipping long recordings). ReelClip listed for its real niche, not ranked #1 everywhere."},
-    {"status": "planned", "format": "alternatives", "proposed_slug": "opus-clip-alternatives", "fit": 3,
-     "keywords": {"opus clip alternative": 390, "opus clip alternatives": 390, "opusclip alternative": 70, "ai video clipper": 480},
-     "angle": "On-device, review-before-save clipping on iPhone versus cloud auto-clippers. Accurate about what AI mode needs (Apple Intelligence hardware)."},
-    {"status": "planned", "format": "alternatives", "proposed_slug": "descript-alternatives-iphone", "fit": 2,
-     "keywords": {"descript alternative": 210, "remove pauses from video": 20},
-     "angle": "Transcript-based editing on iPhone; only if Transcript mode behaviour supports the comparison."},
-    {"status": "planned", "format": "alternatives", "proposed_slug": "splice-alternatives", "fit": 2,
-     "keywords": {"splice alternative": 170}},
-    {"status": "planned", "format": "alternatives", "proposed_slug": "imovie-alternatives-iphone", "fit": 2,
-     "keywords": {"imovie alternative": 140, "imovie alternative iphone": 20}}
-  ],
-  "rejected_low_volume": {
-    "inshot alternative": 20, "vn editor alternative": 10, "gopro quik alternative": 10, "lumafusion alternative": 10,
-    "videoleap alternative": 10, "captions app alternative": 10, "dji mimo alternative": 10, "best ai clipping app": 10,
-    "podcast clip app": 10, "best caption app for reels": 10, "best video editing app for youtube shorts": 10,
-    "video length for instagram reels": 10, "9:16 video editor": 10, "lut app iphone": 10,
-    "best app to edit reels": 70, "best app for tiktok editing": 90, "best app to cut videos": 70, "submagic alternative": 70,
-    "best auto caption app": 30, "jump cut app": 20
+ "collected": "2026-10-20",
+ "source": "DataForSEO Google Ads search volume via treg (call 64615f6f63d643c4971817125b327497), location United States (2840), language en. Average monthly searches over the trailing 12 months; Google buckets low values (10 = roughly 0-20). null = no data returned, not zero.",
+ "note": "Advertising competition is not organic difficulty. Volumes are demand evidence for choosing pages, never a traffic forecast. Re-check volumes before relying on them after 2027-04.",
+ "planned_pages": [
+  {
+   "status": "planned",
+   "format": "how-to",
+   "proposed_slug": "how-to-split-a-video-on-iphone",
+   "fit": 5,
+   "keywords": {
+    "how to split a video on iphone": 480,
+    "split video into parts": 480,
+    "video splitter app": 210,
+    "split video iphone": 30
+   },
+   "angle": "Core ReelClip job. Answer with Photos/iMovie first for one cut, then ReelClip Slice/Cut for many equal or chosen parts."
   },
-  "no_data": ["splice video editor alternative", "cut long video into short clips", "best app to clip podcasts", "auto caption app iphone", "best lut app iphone", "apply lut to video iphone", "best app for dji osmo pocket 3", "offline video editor iphone", "remove silence from video app"]
+  {
+   "status": "planned",
+   "format": "how-to",
+   "proposed_slug": "how-to-cut-a-video-on-iphone",
+   "fit": 4,
+   "keywords": {
+    "how to cut a video on iphone": 9900,
+    "trim video iphone": 1000
+   },
+   "angle": "Huge, low-competition query dominated by Apple Support. Honest answer is the Photos trim; ReelClip earns its place when cutting one recording into several clips."
+  },
+  {
+   "status": "published",
+   "format": "free-tool",
+   "proposed_slug": "tools/safe-zone-checker",
+   "fit": 4,
+   "keywords": {
+    "instagram reels safe zone": 1600,
+    "tiktok safe zone": 1300
+   },
+   "angle": "Browser tool: drop a frame or video, overlay Reels/TikTok/Shorts UI safe zones. Margins must come from primary platform guidance and be dated.",
+   "url": "https://www.reelclips.app/tools/safe-zone-checker",
+   "published": "2026-10-20"
+  },
+  {
+   "status": "planned",
+   "format": "alternatives",
+   "proposed_slug": "capcut-alternatives",
+   "fit": 4,
+   "keywords": {
+    "capcut alternative": 1900,
+    "capcut alternatives": 1900,
+    "apps like capcut": 1000,
+    "capcut alternative no watermark": 10
+   },
+   "angle": "Either broaden the existing capcut-alternative-no-watermark guide (preferred by the brief) or redirect it to a fuller roundup. Do not create two pages for one intent."
+  },
+  {
+   "status": "planned",
+   "format": "listicle",
+   "proposed_slug": "best-video-editing-apps-iphone",
+   "fit": 3,
+   "keywords": {
+    "best video editing app for iphone": 1900,
+    "best video editor for iphone": 1000,
+    "best free video editing app for iphone": 590,
+    "video editor without watermark": 720
+   },
+   "angle": "Honest roundup by job (full timeline, quick social edit, clipping long recordings). ReelClip listed for its real niche, not ranked #1 everywhere."
+  },
+  {
+   "status": "planned",
+   "format": "alternatives",
+   "proposed_slug": "opus-clip-alternatives",
+   "fit": 3,
+   "keywords": {
+    "opus clip alternative": 390,
+    "opus clip alternatives": 390,
+    "opusclip alternative": 70,
+    "ai video clipper": 480
+   },
+   "angle": "On-device, review-before-save clipping on iPhone versus cloud auto-clippers. Accurate about what AI mode needs (Apple Intelligence hardware)."
+  },
+  {
+   "status": "planned",
+   "format": "alternatives",
+   "proposed_slug": "descript-alternatives-iphone",
+   "fit": 2,
+   "keywords": {
+    "descript alternative": 210,
+    "remove pauses from video": 20
+   },
+   "angle": "Transcript-based editing on iPhone; only if Transcript mode behaviour supports the comparison."
+  },
+  {
+   "status": "planned",
+   "format": "alternatives",
+   "proposed_slug": "splice-alternatives",
+   "fit": 2,
+   "keywords": {
+    "splice alternative": 170
+   }
+  },
+  {
+   "status": "planned",
+   "format": "alternatives",
+   "proposed_slug": "imovie-alternatives-iphone",
+   "fit": 2,
+   "keywords": {
+    "imovie alternative": 140,
+    "imovie alternative iphone": 20
+   }
+  }
+ ],
+ "rejected_low_volume": {
+  "inshot alternative": 20,
+  "vn editor alternative": 10,
+  "gopro quik alternative": 10,
+  "lumafusion alternative": 10,
+  "videoleap alternative": 10,
+  "captions app alternative": 10,
+  "dji mimo alternative": 10,
+  "best ai clipping app": 10,
+  "podcast clip app": 10,
+  "best caption app for reels": 10,
+  "best video editing app for youtube shorts": 10,
+  "video length for instagram reels": 10,
+  "9:16 video editor": 10,
+  "lut app iphone": 10,
+  "best app to edit reels": 70,
+  "best app for tiktok editing": 90,
+  "best app to cut videos": 70,
+  "submagic alternative": 70,
+  "best auto caption app": 30,
+  "jump cut app": 20
+ },
+ "no_data": [
+  "splice video editor alternative",
+  "cut long video into short clips",
+  "best app to clip podcasts",
+  "auto caption app iphone",
+  "best lut app iphone",
+  "apply lut to video iphone",
+  "best app for dji osmo pocket 3",
+  "offline video editor iphone",
+  "remove silence from video app"
+ ]
 }

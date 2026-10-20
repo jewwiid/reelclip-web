@@ -42,6 +42,10 @@ Requirements: iPhone with iOS 17.0 or later. Feature-specific requirements (Appl
 - [Support](${SITE_URL}/support)
 - [Privacy policy](${SITE_URL}/privacy)
 
+## Free tools
+
+- [Reels, TikTok and Shorts safe zone checker](${SITE_URL}/tools/safe-zone-checker): drop a 9:16 video or frame and see which areas platform buttons and captions cover. Runs in the browser; nothing is uploaded.
+
 ## Guides
 
 ${guides}

@@ -6,7 +6,8 @@ export type AppStoreCampaign = "website_main" | "website_guides";
 
 export function appStoreCampaign(pathname: string): AppStoreCampaign {
   // Locale rewrites preserve the /blog route family on server and client.
-  return /\/blog(?:\/|$)/.test(pathname) ? "website_guides" : "website_main";
+  // Free tools are content pages, so they share the guides campaign.
+  return /\/(?:blog|tools)(?:\/|$)/.test(pathname) ? "website_guides" : "website_main";
 }
 
 export function appStoreUrl(campaign: AppStoreCampaign) {
