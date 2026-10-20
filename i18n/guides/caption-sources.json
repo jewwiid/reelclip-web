@@ -6,77 +6,88 @@
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "es": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "fr": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "hi": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "it": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "ja": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "ko": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "nl": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "pl": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "pt-BR": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     },
     "pt-PT": {
       "cut-clips": "08acb7e88acbeec4a96ca3c95c1a15b14273c07ec9c164172f7c8c01796e9d12",
       "choose-moment": "4baaef90e31cb0153412836b012a880f884a0906d41262a5640bb8a089b5e0cb",
       "pause-cleanup-transcript-v5": "07f677ddfa0026cdb1ca810bf26e900cc6630f8d5d8a9ad86fe2c926e69d830c",
       "apply-lut": "acfad4a78e2af64a0a130807dc78686da7b9e178f250c409bc49e1b000153ac3",
-      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d"
+      "edit-transcript": "3af993d3e4b4b295234c527ae1ebdeffc65c88397617e82c972497875468a90d",
+      "cut-equal-sections-v1": "12057bbac83686be64baff0ad4103082d59985ca5a540fd58a7de7d36e5136f2"
     }
   }
 }

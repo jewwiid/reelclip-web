@@ -62,7 +62,7 @@ def request(values,locale,context,repair=False):
  language=LANGUAGES[locale]
  # Protect the exact names visible in the reused English recordings. Placeholder
  # restoration is deterministic; only the surrounding explanation is translated.
- controls=['Adjust & Style','Remove pauses','Clip duration','Clip amount','Auto remove','Auto keep','Cut timing','Add as clip','Import LUT','Save to Photos','Review video','No gap','Audio','Cleanup','Files','Creative']
+ controls=['Adjust & Style','Remove pauses','Clip duration','Clip amount','Auto remove','Auto keep','Cut timing','Add as clip','Import LUT','Save to Photos','Review video','No gap','Space','Audio','Cleanup','Files','Creative']
  replacements={};protected=[]
  for index,value in enumerate(values):
   def mask(match):
@@ -208,9 +208,10 @@ def guide_for(source,locale):
  write_json(target,output)
  print(f'{slug} {locale}: {len(values)} translated blocks validated',flush=True)
 
-ASSETS=['cut-clips','choose-moment','pause-cleanup-transcript-v5','apply-lut','edit-transcript']
-def captions_for(locale):
- for asset in ASSETS:
+ASSETS=['cut-clips','cut-equal-sections-v1','choose-moment','pause-cleanup-transcript-v5','apply-lut','edit-transcript']
+def captions_for(locale,assets=None):
+ assets=assets or ASSETS
+ for asset in assets:
   source=ROOT/f'public/tutorials/{asset}.vtt';target=ROOT/f'public/tutorials/locales/{locale}/{asset}.vtt'
   parts=source.read_text().strip().split('\n\n');indexes=[];values=[]
   for index,part in enumerate(parts):
@@ -220,10 +221,10 @@ def captions_for(locale):
   translated=translate(values,locale,f'Accurate short captions for the existing {asset} app walkthrough; preserve numbers and recorded English control names.')
   for (index,timing),value in zip(indexes,translated):parts[index]='\n'.join(parts[index].splitlines()[:timing+1]+[value])
   write_text(target,'\n\n'.join(parts)+'\n')
- print(f'Captions {locale}: {len(ASSETS)} VTT files validated',flush=True)
+ print(f'Captions {locale}: {len(assets)} VTT files validated',flush=True)
 
 def main():
- parser=argparse.ArgumentParser();parser.add_argument('--ui',action='store_true');parser.add_argument('--captions',action='store_true');parser.add_argument('--guide');parser.add_argument('--locale',choices=LANGUAGES);parser.add_argument('--source-url',default='http://127.0.0.1:3093');args=parser.parse_args()
+ parser=argparse.ArgumentParser();parser.add_argument('--ui',action='store_true');parser.add_argument('--captions',action='store_true');parser.add_argument('--asset',choices=ASSETS);parser.add_argument('--guide');parser.add_argument('--locale',choices=LANGUAGES);parser.add_argument('--source-url',default='http://127.0.0.1:3093');args=parser.parse_args()
  locales=[args.locale] if args.locale else list(LANGUAGES)
  if args.ui:
   # Only independent languages of the same shared copy run concurrently.
@@ -235,10 +236,11 @@ def main():
    with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(lambda locale:guide_for(source,locale),locales))
    with (EVIDENCE/'progress.jsonl').open('a') as file:file.write(json.dumps({'at':time.strftime('%Y-%m-%dT%H:%M:%SZ',time.gmtime()),'slug':slug,'locales':locales,'sourceFingerprint':source['sourceFingerprint'],'state':'generated; structural checks passed; editorial review pending'})+'\n')
  elif args.captions:
-  with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(captions_for,locales))
+  assets=[args.asset] if args.asset else ASSETS
+  with ThreadPoolExecutor(max_workers=2) as pool:list(pool.map(lambda locale:captions_for(locale,assets),locales))
   path=ROOT/'i18n/guides/caption-sources.json'
   manifest=json.loads(path.read_text()) if path.exists() else {'schemaVersion':1,'locales':{}}
-  for locale in locales:manifest['locales'][locale]={asset:hashlib.sha256((ROOT/f'public/tutorials/{asset}.vtt').read_bytes()).hexdigest() for asset in ASSETS}
+  for locale in locales:manifest['locales'].setdefault(locale,{}).update({asset:hashlib.sha256((ROOT/f'public/tutorials/{asset}.vtt').read_bytes()).hexdigest() for asset in assets})
   write_json(path,manifest)
  else:parser.error('Choose --ui, --captions or --guide.')
 if __name__=='__main__':main()

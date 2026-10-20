@@ -121,6 +121,24 @@
       "originalsUnchanged": true,
       "mode": "Web encoding of existing generic feature demo; no UGC opener, generated media, invented identity match or new app capture.",
       "reviewEvidence": "output/organic-marketing/guide-video-reuse-20261019/review/reuse-review.md"
+    },
+    {
+      "id": "equal-sections",
+      "libraryFeature": "equal-cut",
+      "source": "output/feature-demo-review-20261020/article-video-length-review/equal-sections-v1/render/cut-equal-sections-v1.mp4",
+      "sourceManifest": "output/feature-demo-review-20261020/article-video-length-review/equal-sections-v1/render/manifest.json",
+      "sourceSHA256": "5ae0ddf4cd82c355c992fc5b284e04f3fb01a04386be607abfb9b93f8b992161",
+      "output": "output/organic-marketing/site/public/tutorials/cut-equal-sections-v1.mp4",
+      "outputSHA256": "5ae0ddf4cd82c355c992fc5b284e04f3fb01a04386be607abfb9b93f8b992161",
+      "duration": 26.533333,
+      "bytes": 804922,
+      "width": 720,
+      "height": 1280,
+      "processing": "Fresh native capture: original 4:14 source, real No gap and count actions, derived equal duration, three contiguous planned ranges and actual playback of all three. Native holds explicitly disclosed. Crop keeps the editor and Review button; OS status and tab bars omitted. Generic multi-scene source; isolated Creator entitlement only. No completed save or improved-reach claim.",
+      "originalsUnchanged": true,
+      "mode": "New article-specific generic feature demonstration; source footage and earlier masters preserved.",
+      "reviewEvidence": "output/feature-demo-review-20261020/article-video-length-review/equal-sections-v1/review/output-review.json",
+      "article": "video-length-social-media-reach"
     }
   ],
   "format": "Reuse existing generic feature-demo masters; no new UGC production or creator identity claim.",

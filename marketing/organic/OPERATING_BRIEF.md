@@ -17,6 +17,8 @@ Active working copy after the guide localization repair: `/Users/judeokun/Docume
 7. Verify the existing Vercel target: team `jewwiids-projects`, project `reelclip-web` (`prj_S0OgtG4dkhgod6fVtkpaBFEKSw2Q`). Keep the current account/backend setup and deployment protections. Publish only this workflow's reviewed changes.
 8. Record the actual URL, change, hypothesis, evidence, commit, deployment, and follow-up date in `journal.jsonl`. Read previous entries before selecting work; avoid revising the same article every day based on noisy data. Review meaningful search changes after 14–28 days and purchases over longer cohorts.
 
+At the start of publication work, record the deployment currently assigned to `www.reelclips.app` using `vercel inspect www.reelclips.app --scope jewwiids-projects`. Recheck its actual deployment ID immediately before promotion. If it changed, reconcile the intervening published release first, even if Git has no new commits: another checkout can publish uncommitted source. Keep preview verification and promotion separate so a failed or mismatched preflight cannot fall through to a deployment command.
+
 ## Measurement
 
 - Search Console: property totals, non-brand queries, landing pages, CTR and position, with the exact date window.
@@ -52,7 +54,7 @@ Use the existing Ollama connection for public copy only. The local generator req
 1. Run `npm run guide:source` in an owned local session. It exposes the current English components on loopback port 3093 with their build source versions. Preserve other tasks' servers; use an alternate port/source URL if this port is occupied.
 2. Run `python3 scripts/localize-guides.py --guide <slug> --source-url http://127.0.0.1:3093`. Languages of that one guide run independently; guide families remain sequential. An existing translation is skipped only when its source fingerprint matches. A stale source server is rejected.
 3. If shared guide/video/interface text changes, run `node scripts/export-guide-ui.mjs` and `python3 scripts/localize-guides.py --ui`. New visible text must use the shared translation helper. Keep recorded app-control names exact; explain them in the selected language.
-4. If English tutorial captions change, run `python3 scripts/localize-guides.py --captions`. Per-locale caption source hashes prevent a single refreshed language from marking other languages current. The five existing recordings remain in English; localized page instructions and default step captions explain them accurately. Do not claim localized app pixels or a demonstrated save that the source does not show.
+4. If English tutorial captions change, run `python3 scripts/localize-guides.py --captions`. Per-locale caption source hashes prevent a single refreshed language from marking other languages current. The six reviewed recordings remain in English; localized page instructions and default step captions explain them accurately. Do not claim localized app pixels or a demonstrated save that the source does not show.
 5. Review the generated guide, metadata/cards, relevant internal links and interactive media. Run `npm run check:guides` and the production build. Check actual localized pages and sitemap before publishing. Keep source/review dates honest and journal the publication. Stop only the owned source server when finished.
 
 The legacy `generate-static-page-translations.mjs` handles only privacy/terms. Frozen blog HTML is obsolete and must not be regenerated.

@@ -7,7 +7,7 @@ import type { GuideTranslation } from "@/lib/guide-translation";
 
 export type GuideBlock =
   | { kind: "html"; tag: string; attributes: Record<string, string>; html: string }
-  | { kind: "tutorial"; id: "cut-clips" | "choose-moment" | "pause-cleanup" | "apply-lut" | "edit-transcript" }
+  | { kind: "tutorial"; id: "cut-clips" | "equal-sections" | "choose-moment" | "pause-cleanup" | "apply-lut" | "edit-transcript" }
   | { kind: "cut-demo" }
   | { kind: "comparison" }
   | { kind: "cta" };

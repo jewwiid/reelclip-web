@@ -91,7 +91,7 @@ for (const locale of ["en", ...locales]) {
   }
 }
 
-const assets = ["cut-clips", "choose-moment", "pause-cleanup-transcript-v5", "apply-lut", "edit-transcript"];
+const assets = ["cut-clips", "cut-equal-sections-v1", "choose-moment", "pause-cleanup-transcript-v5", "apply-lut", "edit-transcript"];
 const manifestPath = "i18n/guides/caption-sources.json";
 const manifest = existsSync(manifestPath) ? read(manifestPath) : {};
 for (const asset of assets) {

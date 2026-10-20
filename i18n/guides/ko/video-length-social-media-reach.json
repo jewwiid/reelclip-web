@@ -7,7 +7,7 @@
   "category": "튜토리얼",
   "primaryKeyword": "영상 길이와 소셜 미디어 도달",
   "readMinutes": 6,
-  "sourceFingerprint": "e661169ccb7b5767822a8b9fc0694021ec9c055edb0abb3e669a950ebc5a11cc",
+  "sourceFingerprint": "ac63ac3dfd7a33fc06389b68b4b799fb44e758ff61506caad2c3aec75fef4456",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -108,7 +108,8 @@
       "html": "ReelClip에서 3분 미만의 동일 클립 만드는 방법"
     },
     {
-      "kind": "cut-demo"
+      "kind": "tutorial",
+      "id": "equal-sections"
     },
     {
       "kind": "html",

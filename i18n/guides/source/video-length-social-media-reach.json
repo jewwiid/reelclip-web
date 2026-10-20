@@ -7,7 +7,7 @@
   "category": "Tutorial",
   "primaryKeyword": "video length and social media reach",
   "readMinutes": 6,
-  "sourceFingerprint": "e661169ccb7b5767822a8b9fc0694021ec9c055edb0abb3e669a950ebc5a11cc",
+  "sourceFingerprint": "ac63ac3dfd7a33fc06389b68b4b799fb44e758ff61506caad2c3aec75fef4456",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -107,7 +107,8 @@
       "html": "How to make equal clips under three minutes in ReelClip"
     },
     {
-      "kind": "cut-demo"
+      "kind": "tutorial",
+      "id": "equal-sections"
     },
     {
       "kind": "html",

@@ -30,6 +30,20 @@ export const GUIDE_VIDEOS = {
       { start: 11.2, title: "Play the selected moments", description: "Check what each clip keeps before you save." },
     ],
   },
+  "equal-sections": {
+    asset: "cut-equal-sections-v1",
+    slug: "video-length-social-media-reach",
+    duration: 26.533333,
+    title: "Split the whole recording into equal clips",
+    description: "Choose No gap, set the clip count and review three consecutive sections of the same recording.",
+    note: "This 4:14 multi-scene sample makes three clips of about 1:25. A few native frames pause for readability. Check each clip’s story and framing before posting.",
+    chapters: [
+      { start: 0, title: "Choose No gap", description: "Start with the full source, then hold the Space shuffle button to choose No gap." },
+      { start: 4.533333, title: "Set the clip count", description: "Choose three clips and check the calculated 1m24.7s duration." },
+      { start: 12.033332999999999, title: "Check the equal ranges", description: "Tap Add and check all three consecutive sections cover 0:00–4:14.2." },
+      { start: 17.533333, title: "Play each planned clip", description: "Watch all three sections in the actual project preview." },
+    ],
+  },
   "choose-moment": {
     asset: "choose-moment",
     slug: "edit-vertical-video-on-iphone",
