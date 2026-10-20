@@ -33,6 +33,17 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "video-length-social-media-reach",
+    title: "Does video length hurt social media reach?",
+    description:
+      "A clear guide to length limits and viewer signals on Instagram, YouTube Shorts, and TikTok, plus a practical way to split long source videos into equal clips.",
+    publishedAt: "2026-10-20",
+    updatedAt: "2026-10-20",
+    category: "Tutorial",
+    primaryKeyword: "video length and social media reach",
+    readMinutes: 6,
+  },
+  {
     slug: "best-free-luts-2026",
     title:
       "The best free LUT packs in 2026 (for DJI, Sony, Blackmagic, and iPhone)",
