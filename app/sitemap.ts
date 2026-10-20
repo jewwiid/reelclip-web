@@ -1,9 +1,10 @@
 import type { MetadataRoute } from "next";
 import { getPostsSorted } from "./blog/posts";
 import { languageAlternates, localesForPage, pageUrl } from "@/i18n/seo";
+import { getLocalizedBlogMetadata } from "@/i18n/blog-metadata";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages: { path: string; priority: number; publishedAt?: string; updatedAt?: string }[] = [
+  const pages: { path: string; priority: number; slug?: string; publishedAt?: string; updatedAt?: string }[] = [
     { path: "/", priority: 1 },
     { path: "/pricing", priority: 0.8 },
     { path: "/competitors", priority: 0.8 },
@@ -15,6 +16,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/terms", priority: 0.3 },
     ...getPostsSorted().map((post) => ({
       path: `/blog/${post.slug}`,
+      slug: post.slug,
       priority: 0.7,
       publishedAt: post.publishedAt,
       updatedAt: post.updatedAt,
@@ -23,7 +25,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   return pages.flatMap((page) => localesForPage(page.path).map((locale) => ({
     url: pageUrl(locale, page.path),
-    ...(page.publishedAt ? { lastModified: locale === "en" ? page.updatedAt ?? page.publishedAt : page.publishedAt } : {}),
+    ...(page.publishedAt ? {
+      lastModified: (page.slug ? getLocalizedBlogMetadata(locale, page.slug)?.updatedAt : undefined)
+        ?? (locale === "en" ? page.updatedAt : undefined)
+        ?? page.publishedAt,
+    } : {}),
     priority: page.priority,
     alternates: { languages: languageAlternates(page.path) },
   })));

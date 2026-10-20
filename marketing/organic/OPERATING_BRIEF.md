@@ -35,11 +35,11 @@ Video additions must use a real reviewed app recording with working playback, a 
 
 ## Product evidence and limits
 
-The reviewed feature recordings show Slice, Cut, Transcript and AI mode labels. Use the actual UI labels when teaching the controls. The app runs on iPhone with iOS 26; Apple Intelligence additionally requires a supported device and enabled features. Users review proposed clips before saving them. Import/preview and paid export are distinct. Verify the current pricing and release before describing exact entitlements.
+The reviewed feature recordings show Slice, Cut, Transcript and AI mode labels. Use the actual UI labels when teaching the controls. The US App Store lookup on 2026-10-20 lists released version 1.4.3 with minimum iOS 17.0; feature-specific OS and device requirements are separate. Apple Intelligence requires compatible hardware, software and enabled features. Verify the current listing rather than treating the demo device's OS as the app minimum. Users review proposed clips before saving them. Import/preview and paid export are distinct. Verify the current pricing and release before describing exact entitlements.
 
 Reference the source and published product rather than extrapolating from an unshipped feature branch. Marketing source belongs to `/Users/judeokun/Documents/GitHub/reelclip-web`. The original iOS repository has its own testing/creator-continuity rules: load its housekeeping skill before any iOS tests or app capture, and follow its shared continuity gate for any creator-matched media.
 
-Early review priority: the existing free-LUT guides receive relevant search traffic, especially in Spanish. Check their manufacturer links and factual claims against current primary sources before extending them. Existing prose is not proof that a product, LUT pack, or camera profile exists. Localized article metadata also needs titles/descriptions in the article's language; current body language, canonicals and hreflang are corrected, but some article titles still inherit English metadata.
+The Spanish free-LUT guide was reviewed on 2026-10-20 against official DJI, Sony, Blackmagic and Apple resources. Other language versions and related camera guides still need their own factual review. Existing prose is not proof that a product, LUT pack, or camera profile exists. The Spanish guide's title, description and update date are registered in `i18n/blog-metadata.ts`, which feeds both article metadata and the sitemap. Add entries only for translated articles actually reviewed; other translations retain their existing dates. Some other article titles still inherit English metadata.
 
 ## Authorization and credentials
 

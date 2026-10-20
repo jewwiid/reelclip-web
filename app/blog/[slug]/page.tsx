@@ -10,6 +10,7 @@ import {
 import { BLOG_POSTS, getPostBySlug } from "../posts";
 import { getRequestLocale } from "@/i18n/server";
 import { localizedMetadata, localesForPage, pageUrl } from "@/i18n/seo";
+import { getLocalizedBlogMetadata } from "@/i18n/blog-metadata";
 
 /**
  * Dynamic route for blog posts. Each post is a standalone React component
@@ -32,25 +33,28 @@ export async function generateMetadata({
   if (!post) return {};
 
   const locale = await getRequestLocale();
+  const translated = getLocalizedBlogMetadata(locale, slug);
+  const title = translated?.title ?? post.title;
+  const description = translated?.description ?? post.description;
   const path = `/blog/${post.slug}`;
   const url = pageUrl(locale, path);
   return localizedMetadata(locale, path, {
-    title: `${post.title} · ReelClip Blog`,
-    description: post.description,
-    keywords: [post.primaryKeyword, post.category, "video editing iphone"],
+    title: `${title} · ReelClip Blog`,
+    description,
+    keywords: [translated?.primaryKeyword ?? post.primaryKeyword, post.category, "video editing iphone"],
     authors: [{ name: "ReelClip" }],
     openGraph: {
-      title: post.title,
-      description: post.description,
+      title,
+      description,
       url,
       type: "article",
       publishedTime: post.publishedAt,
-      modifiedTime: locale === "en" ? (post.updatedAt ?? post.publishedAt) : post.publishedAt,
+      modifiedTime: translated?.updatedAt ?? (locale === "en" ? post.updatedAt : undefined) ?? post.publishedAt,
     },
     twitter: {
       card: "summary_large_image",
-      title: post.title,
-      description: post.description,
+      title,
+      description,
     },
   });
 }
