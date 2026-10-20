@@ -221,7 +221,7 @@
     "annualDescription": "{price} per maand, jaarlijks gefactureerd. Bespaar {savings}% ten opzichte van maandelijks.",
     "lifetime": "Levenslang",
     "lifetimeSuffix": "eenmalig",
-    "lifetimeDescription": "Introductieprijs. Betaal één keer en behoud Creator zonder verlenging.",
+    "lifetimeDescription": "Betaal één keer en behoud Creator zonder verlenging.",
     "recommended": "Aanbevolen",
     "launchPrice": "Introductieprijs",
     "allPlans": "Elk abonnement ontgrendelt Creator",
@@ -237,7 +237,7 @@
     "chooseInApp": "Kies in ReelClip",
     "chooseInAppDescription": "De app toont je lokale App Store-prijs en bevestigt het exacte bedrag vóór aankoop.",
     "openAppStore": "Open ReelClip in de App Store",
-    "priceDisclosure": "Getoonde prijzen zijn US App Store-referentieprijzen. Apple toont de gelokaliseerde prijs voor je land of regio vóór aankoop. Maandelijks en Jaarlijks worden automatisch verlengd tot opzegging; Levenslang is een eenmalige aankoop."
+    "priceDisclosure": "Getoonde prijzen zijn US App Store-referentieprijzen. Apple toont de gelokaliseerde prijs voor je land of regio vóór aankoop. Maandelijks wordt automatisch verlengd tot opzegging; Levenslang is een eenmalige aankoop."
   },
   "account": {
     "eyebrow": "Account",

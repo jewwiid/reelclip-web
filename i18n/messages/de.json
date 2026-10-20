@@ -221,7 +221,7 @@
     "annualDescription": "{price} pro Monat, jährlich abgerechnet. Spare {savings}% gegenüber dem Monatstarif.",
     "lifetime": "Lebenslang",
     "lifetimeSuffix": "Einmalzahlung",
-    "lifetimeDescription": "Einführungspreis. Einmal zahlen und Creator ohne Verlängerung behalten.",
+    "lifetimeDescription": "Einmal zahlen und Creator ohne Verlängerung behalten.",
     "recommended": "Empfohlen",
     "launchPrice": "Einführungspreis",
     "allPlans": "Jeder Plan schaltet Creator frei",
@@ -237,7 +237,7 @@
     "chooseInApp": "In ReelClip auswählen",
     "chooseInAppDescription": "Die App zeigt deinen lokalen App-Store-Preis und bestätigt den genauen Betrag vor dem Kauf.",
     "openAppStore": "ReelClip im App Store öffnen",
-    "priceDisclosure": "Die angezeigten Preise sind US-App-Store-Referenzpreise. Apple zeigt den lokalisierten Preis für dein Land oder deine Region vor dem Kauf an. Monatliche und jährliche Abonnements verlängern sich automatisch, bis sie gekündigt werden; Lebenslang ist ein einmaliger Kauf."
+    "priceDisclosure": "Die angezeigten Preise sind US-App-Store-Referenzpreise. Apple zeigt den lokalisierten Preis für dein Land oder deine Region vor dem Kauf an. Das Monatsabo verlängert sich automatisch, bis es gekündigt wird; Lebenslang ist ein einmaliger Kauf."
   },
   "account": {
     "eyebrow": "Konto",

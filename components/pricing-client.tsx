@@ -4,25 +4,17 @@ import { AppStoreLink } from "@/components/app-store-link";
 
 import { useI18n } from "@/i18n/client";
 
-const MONTHLY_PRICE = 9.99;
-const ANNUAL_PRICE = 39.99;
-const LIFETIME_PRICE = 79.99;
-const ANNUAL_MONTHLY_EQUIVALENT = ANNUAL_PRICE / 12;
-const ANNUAL_SAVINGS_PERCENT = Math.round(
-  (1 - ANNUAL_PRICE / (MONTHLY_PRICE * 12)) * 100,
-);
-
-function interpolate(template: string, values: Record<string, string | number>) {
-  return template.replace(/\{(\w+)\}/g, (_, key: string) => String(values[key] ?? `{${key}}`));
-}
+const LIFETIME_PRICE = 14.99;
+const MONTHLY_PRICE = 4.99;
 
 export function PricingPlans() {
   const { dictionary } = useI18n();
   const copy = dictionary.pricing;
+  // Mirrors the in-app paywall: Lifetime is the pre-selected main offer.
+  // Annual is hidden from the paywall, so it is not advertised here.
   const tiers = [
+    { name: copy.lifetime, price: `$${LIFETIME_PRICE.toFixed(2)}`, priceSuffix: copy.lifetimeSuffix, blurb: copy.lifetimeDescription, badge: copy.recommended, recommended: true },
     { name: copy.monthly, price: `$${MONTHLY_PRICE.toFixed(2)}`, priceSuffix: copy.monthlySuffix, blurb: copy.monthlyDescription, badge: null, recommended: false },
-    { name: copy.annual, price: `$${ANNUAL_PRICE.toFixed(2)}`, priceSuffix: copy.annualSuffix, blurb: interpolate(copy.annualDescription, { price: `$${ANNUAL_MONTHLY_EQUIVALENT.toFixed(2)}`, savings: ANNUAL_SAVINGS_PERCENT }), badge: copy.recommended, recommended: true },
-    { name: copy.lifetime, price: `$${LIFETIME_PRICE.toFixed(2)}`, priceSuffix: copy.lifetimeSuffix, blurb: copy.lifetimeDescription, badge: copy.launchPrice, recommended: false },
   ];
 
   return (
@@ -35,7 +27,7 @@ export function PricingPlans() {
           </div>
           <span className="w-fit rounded-md bg-accent px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-bg">{copy.usPrices}</span>
         </div>
-        <div className="grid items-stretch gap-4 md:grid-cols-3">
+        <div className="grid items-stretch gap-4 md:grid-cols-2">
           {tiers.map((tier) => (
             <article key={tier.name} className={`relative flex flex-col rounded-2xl border bg-control-surface p-5 sm:p-6 ${tier.recommended ? "border-accent shadow-[0_0_0_1px_rgba(196,239,51,0.2),0_18px_50px_rgba(0,0,0,0.24)]" : "border-hairline"}`}>
               <div className="mb-2 flex items-center justify-between"><span className="text-[10px] font-bold uppercase tracking-wider text-text-muted">{tier.name}</span>{tier.badge ? <span className="rounded-md bg-accent/20 px-2 py-1 text-[10px] font-bold uppercase tracking-wider text-accent">{tier.badge}</span> : null}</div>

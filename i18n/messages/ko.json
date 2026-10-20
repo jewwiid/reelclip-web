@@ -221,7 +221,7 @@
     "annualDescription": "월 {price}, 연간 결제. 월간 대비 {savings}% 절약하세요.",
     "lifetime": "평생",
     "lifetimeSuffix": "일회성",
-    "lifetimeDescription": "런칭 특가. 한 번 결제로 갱신 없이 Creator를 영구 보유하세요.",
+    "lifetimeDescription": "한 번 결제로 갱신 없이 Creator를 영구 보유하세요.",
     "recommended": "추천",
     "launchPrice": "런칭 특가",
     "allPlans": "모든 플랜이 Creator를 해금합니다",
@@ -237,7 +237,7 @@
     "chooseInApp": "ReelClip 내에서 선택",
     "chooseInAppDescription": "앱에서 현지 App Store 가격을 표시하고, 결제 전 정확한 금액을 확인합니다.",
     "openAppStore": "App Store에서 ReelClip 열기",
-    "priceDisclosure": "표시된 가격은 미국 App Store 기준 참고 가격입니다. Apple은 구매 전 해당 국가 또는 지역의 현지화된 가격을 표시합니다. 월간 및 연간 구독은 해지 시까지 자동 갱신됩니다. 평생 구매는 일회성 결제입니다."
+    "priceDisclosure": "표시된 가격은 미국 App Store 기준 참고 가격입니다. Apple은 구매 전 해당 국가 또는 지역의 현지화된 가격을 표시합니다. 월간 구독은 해지 시까지 자동 갱신됩니다. 평생 구매는 일회성 결제입니다."
   },
   "account": {
     "eyebrow": "계정",

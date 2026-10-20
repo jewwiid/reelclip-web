@@ -8,7 +8,7 @@ import { getDictionary, getRequestLocale } from "@/i18n/server";
 const pageMetadata: Metadata = {
   title: "Pricing · ReelClip — Create free, export with Creator",
   description:
-    "ReelClip is free to create and preview clips. Choose a Creator plan ($9.99/month, $39.99/year, or $79.99 lifetime) to save, share, and export. On-device, no watermarks.",
+    "ReelClip is free to create and preview clips. Unlock Creator once for $14.99, or monthly for $4.99, to save, share, and export. On-device, no watermarks.",
   keywords: [
     "reelclip pricing",
     "video clip app pricing",

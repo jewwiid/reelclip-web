@@ -221,7 +221,7 @@
     "annualDescription": "{price} miesięcznie, płatne rocznie. Oszczędzaj {savings}% w porównaniu z miesięcznym.",
     "lifetime": "Dożywotni",
     "lifetimeSuffix": "jednorazowo",
-    "lifetimeDescription": "Cena premierowa. Zapłać raz i zachowaj Creator bez odnawiania.",
+    "lifetimeDescription": "Zapłać raz i zachowaj Creator bez odnawiania.",
     "recommended": "Polecany",
     "launchPrice": "Cena premierowa",
     "allPlans": "Każdy plan odblokowuje Creator",
@@ -237,7 +237,7 @@
     "chooseInApp": "Wybierz w ReelClip",
     "chooseInAppDescription": "Aplikacja wyświetla Twoją lokalną cenę App Store i potwierdza dokładną kwotę przed zakupem.",
     "openAppStore": "Otwórz ReelClip w App Store",
-    "priceDisclosure": "Podane ceny są referencyjnymi cenami US App Store. Apple wyświetla zlokalizowaną cenę dla Twojego kraju lub regionu przed zakupem. Miesięczny i Roczny odnawiają się automatycznie do momentu anulowania; Dożywotni to zakup jednorazowy."
+    "priceDisclosure": "Podane ceny są referencyjnymi cenami US App Store. Apple wyświetla zlokalizowaną cenę dla Twojego kraju lub regionu przed zakupem. Plan miesięczny odnawia się automatycznie do momentu anulowania; Dożywotni to zakup jednorazowy."
   },
   "account": {
     "eyebrow": "Konto",

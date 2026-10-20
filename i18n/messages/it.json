@@ -221,7 +221,7 @@
     "annualDescription": "{price} al mese, fatturato annualmente. Risparmia il {savings}% rispetto al mensile.",
     "lifetime": "A vita",
     "lifetimeSuffix": "una tantum",
-    "lifetimeDescription": "Prezzo di lancio. Paga una volta e mantieni Creator senza rinnovi.",
+    "lifetimeDescription": "Paga una volta e mantieni Creator senza rinnovi.",
     "recommended": "Consigliato",
     "launchPrice": "Prezzo di lancio",
     "allPlans": "Ogni piano sblocca Creator",
@@ -237,7 +237,7 @@
     "chooseInApp": "Scegli all'interno di ReelClip",
     "chooseInAppDescription": "L'app mostra il prezzo del tuo App Store locale e conferma l'addebito esatto prima dell'acquisto.",
     "openAppStore": "Apri ReelClip nell'App Store",
-    "priceDisclosure": "I prezzi mostrati sono prezzi di riferimento dell'App Store USA. Apple visualizza il prezzo localizzato per il tuo paese o regione prima dell'acquisto. Mensile e Annuale si rinnovano automaticamente fino alla cancellazione; A vita è un acquisto una tantum."
+    "priceDisclosure": "I prezzi mostrati sono prezzi di riferimento dell'App Store USA. Apple visualizza il prezzo localizzato per il tuo paese o regione prima dell'acquisto. Il piano Mensile si rinnova automaticamente fino alla cancellazione; A vita è un acquisto una tantum."
   },
   "account": {
     "eyebrow": "Account",

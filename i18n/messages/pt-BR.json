@@ -221,7 +221,7 @@
     "annualDescription": "{price} por mês, cobrado anualmente. Economize {savings}% em relação ao mensal.",
     "lifetime": "Vitalício",
     "lifetimeSuffix": "pagamento único",
-    "lifetimeDescription": "Preço de lançamento. Pague uma vez e mantenha o Creator sem renovação.",
+    "lifetimeDescription": "Pague uma vez e mantenha o Creator sem renovação.",
     "recommended": "Recomendado",
     "launchPrice": "Preço de lançamento",
     "allPlans": "Todo plano libera o Creator",
@@ -237,7 +237,7 @@
     "chooseInApp": "Escolha dentro do ReelClip",
     "chooseInAppDescription": "O app mostra o preço local da App Store e confirma o valor exato antes da compra.",
     "openAppStore": "Abrir o ReelClip na App Store",
-    "priceDisclosure": "Os preços exibidos são referência da App Store dos EUA. A Apple mostra o preço localizado para seu país ou região antes da compra. Mensal e Anual renovam automaticamente até serem cancelados; Vitalício é uma compra única."
+    "priceDisclosure": "Os preços exibidos são referência da App Store dos EUA. A Apple mostra o preço localizado para seu país ou região antes da compra. O plano Mensal renova automaticamente até ser cancelado; Vitalício é uma compra única."
   },
   "account": {
     "eyebrow": "Conta",

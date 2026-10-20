@@ -221,7 +221,7 @@
     "annualDescription": "月額{price}、年額一括請求。月額と比較して{savings}%お得。",
     "lifetime": "ライフタイム",
     "lifetimeSuffix": "ワンタイム",
-    "lifetimeDescription": "発売記念価格。一度お支払いで、更新不要でCreatorを永久にご利用いただけます。",
+    "lifetimeDescription": "一度お支払いで、更新不要でCreatorを永久にご利用いただけます。",
     "recommended": "おすすめ",
     "launchPrice": "発売記念価格",
     "allPlans": "すべてのプランでCreatorを解除",
@@ -237,7 +237,7 @@
     "chooseInApp": "ReelClip内で選択",
     "chooseInAppDescription": "アプリでお住まいの地域のApp Store価格を表示し、購入前に正確な金額を確認します。",
     "openAppStore": "App StoreでReelClipを開く",
-    "priceDisclosure": "表示価格は米国App Storeの参考価格です。Appleは購入前にお住まいの国や地域の現地価格を表示します。月額・年額は解約するまで自動更新されます。ライフタイムはワンタイム購入です。"
+    "priceDisclosure": "表示価格は米国App Storeの参考価格です。Appleは購入前にお住まいの国や地域の現地価格を表示します。月額プランは解約するまで自動更新されます。ライフタイムはワンタイム購入です。"
   },
   "account": {
     "eyebrow": "アカウント",

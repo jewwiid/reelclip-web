@@ -19,7 +19,7 @@ export function GET() {
 
   const body = `# ReelClip
 
-> ReelClip is an iPhone app that turns longer recordings into share-ready short clips for Instagram Reels, TikTok and YouTube Shorts. Video is processed on device and never uploaded. Free to create and preview; saving and exporting clips needs a Creator plan.
+> ReelClip is an iPhone app that turns longer recordings into share-ready short clips for Instagram Reels, TikTok and YouTube Shorts. Video is processed on device and never uploaded. Free to create and preview; saving and exporting clips needs Creator: $14.99 one-time or $4.99 a month (US App Store prices; Apple shows the local price before purchase). No watermark.
 
 ReelClip is a clip-preparation tool, not a full multitrack timeline editor. It suits creators, podcasters and camera owners (DJI Osmo, GoPro, iPhone) who need several short clips out of one long video.
 

@@ -87,10 +87,14 @@ export default async function TermsPage() {
               prices are:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted mt-3">
-              <li><strong className="text-text">Creator Monthly</strong>: $9.99 / month (with a 3-day free trial on an eligible first in-app purchase)</li>
-              <li><strong className="text-text">Creator Annual</strong>: $39.99 / year</li>
-              <li><strong className="text-text">Creator Lifetime</strong>: $79.99 launch price, one-time, perpetual access</li>
+              <li><strong className="text-text">Creator Lifetime</strong>: $14.99, one-time, perpetual access</li>
+              <li><strong className="text-text">Creator Monthly</strong>: $4.99 / month, renews until cancelled</li>
             </ul>
+            <p className="text-text-muted mt-4">
+              Creator Annual ($39.99 / year) is not currently offered to new
+              customers. Existing annual subscriptions continue to renew until
+              cancelled.
+            </p>
             <p className="text-text-muted mt-4">
               Creator Weekly is no longer available for new purchases or
               renewals. Customers in an already-paid weekly period keep access
