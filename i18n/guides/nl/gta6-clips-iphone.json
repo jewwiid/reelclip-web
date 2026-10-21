@@ -1,0 +1,98 @@
+{
+  "slug": "gta6-clips-iphone",
+  "title": "GTA 6-clips op iPhone: een workflow met aandacht voor rechten",
+  "description": "Plan een GTA VI-clipworkflow voor Shorts, TikTok en Reels: neem je eigen gameplay op of vraag toestemming aan een streamer, zet het bestand over naar je iPhone en bewerk het in ReelClip.",
+  "publishedAt": "2026-10-21",
+  "category": "Hoe het werkt",
+  "primaryKeyword": "GTA 6-clips",
+  "readMinutes": 6,
+  "sourceFingerprint": "7bfe8fdd0ddd3eccb04aca670edc46c5f1f376bf5eea33c766eec7590fdf255d",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "updatedAt": "2026-10-21",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vanaf 21 oktober 2026 vermeldt de uitgever van Rockstar Grand Theft Auto VI voor PlayStation 5 en Xbox Series X|S met een geplande releasedatum van 19 november 2026. Spelers kunnen hun eigen gamesessie pas opnemen na de release. Gebruik dit als een checklist voor de release en sla gelekte pre-releasebeelden over. Controleer de<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">huidige Take-Two-releaseaankondiging</a> <!-- -->voordat je op die datum vertrouwt."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Na de release kan een korte GTA 6-post beginnen met je eigen gameplay of een goedgekeurde clip van een streamer. De opnamebron en de game-uitgever hebben aparte rechten. Het huidige openbare<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">fanvideobeleid</a> <!-- -->van Rockstar beschrijft incidenteel gameplaygebruik als niet-commercieel en vermeldt dat het geen dekking biedt voor reclame of andere commerciële distributie. Ga er niet van uit dat een betaalde clippingcampagne of een gemonetiseerde post gedekt is; vraag voorafgaand aan acceptatie schriftelijke toestemming per geval aan Take-Two."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Neem een bron op die je mag bewerken"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Je eigen gameplay:</strong> gebruik de opnamefuncties van de console om een moment vast te leggen of recente gameplay op te slaan. PlayStation documenteert de PS5-opnameopties en het overdrachtsproces via de PlayStation App. De app bewaart ondersteunde opnames slechts beperkte tijd, dus download het bestand naar je apparaat zolang het beschikbaar is. Voor Xbox volg je de huidige<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.xbox.com/en-US/apps/xbox-app-on-mobile\" rel=\"noreferrer\" target=\"_blank\">Xbox-mobiele opname-instructies</a> <!-- -->voor je console en regio.</li><li><strong>Een moment van een streamer:</strong> gebruik de clipfunctie alleen waar het kanaal dit toestaat, en vraag vervolgens de streamer of campagne-eigenaar expliciet om toestemming om het bestand te bewerken en opnieuw te plaatsen. KICK-clips kunnen als MP4 worden gedownload vanaf de clippagina; Twitch-uitzenders kunnen clipcreatie beheren. De clipknop van geen van beide platforms wist de rechten op gamebeelden, muziek of andere gasten.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De helppagina van PlayStation vermeldt dat spraakchat in een opname kan worden opgenomen en adviseert om chatdeelnemers te vragen voordat je hun stemmen opneemt. Houd privéchat en herkenbare gastaudio buiten de opname, tenzij iedereen die betrokken is daarmee heeft ingestemd.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/\" rel=\"noreferrer\" target=\"_blank\">PS5-opname- en audiomontages</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/\" rel=\"noreferrer\" target=\"_blank\">opnames overzetten naar PlayStation App</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">een KICK-clip downloaden</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitch-clipmontages</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zet de opname over naar iPhone en maak de bewerking"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Zet je eigen opname of goedgekeurde bronbestand over naar Foto's of Files. Bewaar de originele opname voor het geval de clip een andere bewerking nodig heeft of de campagne om een andere versie vraagt.</li><li>Importeer de video in ReelClip. Gebruik <strong>Slice</strong> om één memorabel moment te selecteren uit een langere VOD. Gebruik<!-- --> <strong>Cut</strong> om een opname te splitsen in geplande clips op basis van aantal, duur en spatiëring. Cut detecteert niet automatisch de beste GTA-momenten.</li><li>Als het moment afhangt van gesproken commentaar, open dan<!-- --> <strong>Transcript</strong>, zoek het passage en controleer de woorden en timing tegen de afspeelweergave. Houd de opbouw en de uitkomst bij elkaar, zodat de clip ook zonder de volledige stream begrijpelijk is.</li><li>Controleer het eerste en laatste frame, game-audio, spraakchat, ondertitels en beeldframing. Een 9:16-export is een aparte framingbeslissing; een kortere tijdselectie cropt geen landscape-opname.</li><li>Bekijk de voorbereide output, exporteer de goedgekeurde clips en upload ze zelf naar het platform dat in de campagnebrief wordt genoemd. ReelClip kan een videobestand importeren en bewerken; het kan de console niet opnemen, een stream niet ophalen of de clip niet voor je publiceren. Voor exporteren is Creator vereist.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer rechten voordat je een GTA 6-post monetariseert"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Er zijn minstens twee toestemmingsvragen: of de streamer je toestaat hun opname te hergebruiken, en of de uitgever commercieel gebruik van GTA VI-beelden toestaat. Een \"clip me\"-bericht van een streamer beantwoordt alleen de eerste. Rockstars openbare beleid is gericht op niet-commerciële fanposts, terwijl YouTube zegt dat gaming-monetarisatie afhangt van de commerciële licentie van de uitgever en van commentaar of educatieve waarde. Vraag schriftelijke toestemming voor een betaalde opdracht, vermijd verhaalspoilers en geïsoleerde cinematische scènes, en gebruik geen gelekte beelden.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/138161\" rel=\"noreferrer\" target=\"_blank\">YouTubes regels voor gamecontent-monetarisatie</a> <!-- -->en<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">Rockstars huidige postbeleid</a> <!-- -->beschrijven de controles die je eerst moet uitvoeren."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor de iPhone-bewerkingsfuncties ga je verder met de<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut-walkthrough</a> <!-- -->of de gids voor<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">het kiezen van een moment met Slice</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

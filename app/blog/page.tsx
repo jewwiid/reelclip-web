@@ -14,7 +14,7 @@ import { getPostsSorted, type BlogPost } from "./posts";
 import { getRequestLocale } from "@/i18n/server";
 import { getGuideVideoForPost } from "@/lib/guide-videos";
 
-const indexDescription = "Short video walkthroughs and practical guides for cutting recordings, clipping podcasts and finding your look. Follow along on your iPhone, with no upload.";
+const indexDescription = "Practical iPhone workflows for splitting long videos, preparing authorized streamer and game clips, editing podcasts, and checking color before export. ReelClip processes video on your iPhone; source rights and campaign terms still apply.";
 
 export async function generateMetadata(): Promise<Metadata> {
   const locale = await getRequestLocale();
@@ -52,7 +52,7 @@ export default async function BlogIndexPage() {
             {t("Blog")}
           </p>
           <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-[1.05]">
-            {t("Guides for cutting long video on iPhone.")}
+            {t("Guides for cutting video and preparing short clips on iPhone.")}
           </h1>
           <p className="text-base text-text-muted mt-4 leading-relaxed max-w-2xl">
             {t(indexDescription)}

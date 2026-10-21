@@ -1,0 +1,114 @@
+{
+  "slug": "get-paid-to-clip-streamers",
+  "title": "Hoe je betaald krijgt om streamers te clippen: campagnes, rechten en workflow",
+  "description": "Leer hoe clippercampagnes betalen, welke toestemmings- en uitbetalingsregels je moet controleren, en hoe je een geautoriseerde Twitch- of Kick-clip bewerkt op iPhone.",
+  "publishedAt": "2026-10-21",
+  "category": "Hoe het werkt",
+  "primaryKeyword": "hoe je betaald krijgt om streamers te clippen",
+  "readMinutes": 7,
+  "sourceFingerprint": "a27bbb1886cf3f18daef607ad2867e2be05fc061b4fd78f5cd80917e4e1708ee",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "updatedAt": "2026-10-21",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Mensen die streamers clippen, kunnen verdienen aan een door een streamer of merk gefinancierde campagne, een directe bewerkingsklus, of hun eigen in aanmerking komende kanaalmonetisatie. Dat zijn verschillende deals. Een campagne kan betalen per goedgekeurde post, per geverifieerde weergave, of voor een vast deliverable; een platform kan een hergeplaatste clip afwijzen, zelfs wanneer de streamer toestemming heeft gegeven. Lees de voorwaarden voordat je gaat bewerken, en vraag schriftelijke toestemming voor de exacte bron en het gebruik."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Deze betaalde workflow maakt deel uit van de bredere clip-economie, waarin creators mensen inhuren om lange streams en shows om te zetten in korte posts. De discussie van The Atlantic uit 2026 over clipping beschrijft die verschuiving; het belooft niet dat een specifieke clip of campagne geld zal opleveren.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.theatlantic.com/podcasts/2026/04/how-short-form-clips-took-over-the-internet/686922/\" rel=\"noreferrer\" target=\"_blank\">Lees het verslag over de clip-economie</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies een manier om betaald te worden"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Doe mee aan een gefinancierde clipping-campagne.</strong> De campagne-eigenaar levert de briefing en beeldmateriaal, of bevestigt wat je mag gebruiken. Betaling kan per goedgekeurde post, per 1.000 geverifieerde views, of een vast retainer zijn. Bijvoorbeeld, de huidige<!-- --> <a class=\"text-accent hover:underline\" href=\"https://b4e0vdqv6zgqeqj4pfgm.apps.whop.com/terms\" rel=\"noreferrer\" target=\"_blank\">Content Rewards creator-voorwaarden</a> <!-- -->beschrijven CPM-, per-post-, retainer- en poolcampagnes. Voorwaarden verschillen per campagne, dus controleer de pagina waar je je voor aanmeldt.</li><li><strong>Werk direct voor een streamer of editor.</strong> Spreek schriftelijk een vergoeding, aantal clips, deadlines, reviewrondes, platforms en rechten af. Een vaste vergoeding betaalt voor afgesproken bewerkingswerk; een performancebonus hangt af van het contract.</li><li><strong>Bouw een kanaal dat in aanmerking komt voor platform-inkomsten.</strong>YouTube beoordeelt de algehele originaliteit van een kanaal. Het<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/1311392\" rel=\"noreferrer\" target=\"_blank\">beleid voor hergebruikte content</a> <!-- -->kan minimaal gewijzigde clips afwijzen, zelfs als de originele creator toestemming gaf. De<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/business-and-creator/creator-rewards-program/how-is-the-creator-rewards-program-different-from-the-tiktok-creator-fund\" rel=\"noreferrer\" target=\"_blank\">Creator Rewards-richtlijnen</a> <!-- -->van TikTok stellen dat in aanmerking komende video's origineel, hoogwaardig en langer dan één minuut moeten zijn, met toegang en geschiktheid afhankelijk van het account en de markt. Een korte herpost kwalificeert niet alleen omdat deze views krijgt.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sommige KICK Bounties zijn open voor kijkers, en sommige laten kijkers een clip indienen als inzending. KICK vermeldt beloningen zoals gifted subscriptions of KICK Shop-cadeaubonnen. De aparte streamergerichte Bounties beschrijven hoe KICK of merkpartners streamers betalen voor clips. Lees de<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/11744042-guide-to-kick-bounties\" rel=\"noreferrer\" target=\"_blank\">gids</a> <!-- -->voor kijkers en de<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/15159722-understanding-kick-s-revenue-split\" rel=\"noreferrer\" target=\"_blank\">uitbetalingsdetails</a> <!-- -->voor streamers. Geschiktheid en beloningen verschillen per Bounty, en een kijkersprijs is niet per se cash, dus controleer de specifieke voorwaarden voordat je het telt als betaald clipwerk."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer de briefing voordat je een clip maakt"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Een publieke stream of een werkende clip-knop is geen toestemming om de video elders te herplaatsen. Twitch laat uitzenders bepalen of kijkers clips kunnen maken, en KICK legt uit hoe kijkers clips kunnen maken en downloaden. Die tools beschrijven platformacties; ze beloven niet dat de streamer off-platform bewerkingen of betaalde promotie heeft gelicenseerd. Vraag de streamer of campagne-eigenaar om de rechten schriftelijk te bevestigen.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitch clip-instellingen</a> <!-- -->en<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">KICK clip-creatie en downloads</a> <!-- -->zijn nuttig om het bronplatform te begrijpen."
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Welke opname, kanaal en timestamps mag je gebruiken?</li><li>Op welke accounts en platforms mag je posten, en voor hoe lang?</li><li>Mag je croppen, ondertitelen, vertalen, voice-over toevoegen of de audio wijzigen?</li><li>Wat telt als een goedgekeurde post en een geverifieerde view?</li><li>Is er een minimum, een maximumuitbetaling, een reviewperiode of een vergoeding?</li><li>Welke openbaarmakings-, credit- en post-indieningsregels gelden?</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Controleer ook de bronaudio. Een streamer mag tijdens een live-uitzending muziek mogen afspelen zonder de rechten te hebben om die muziek in een clip op een andere service te plaatsen. Vraag toestemming voor de hele bewerking, inclusief muziek, overlays en gastoptredens. Als een betaalde post een product aanbeveelt, gebruik dan de branded-contenttools van het platform en controleer de lokale openbaarmakingsregels. Voor posts in de VS, raadpleeg de<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers\" rel=\"noreferrer\" target=\"_blank\">FTC</a>-richtlijnen en maak de financiële relatie duidelijk voor kijkers."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Bewerk een toegestaan streambestand op iPhone"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Begin met een bestand dat de maker of campagne heeft geautoriseerd. Voor een KICK-clip zegt het helpcentrum dat de Downloadknop een MP4 opslaat. Verplaats dat bestand naar iPhone Foto's of Files. Voor Twitch, vraag het goedgekeurde bronbestand aan of gebruik een deelmethode die de campagne toestaat.</li><li>Importeer het bestand uit Foto's of Files in ReelClip. De app bewerkt opnames die al op je iPhone staan; hij maakt geen opname van of downloadt geen Twitch- of KICK-stream.</li><li>Kies <strong>Slice</strong> wanneer je één moment hebt en de start en het einde wilt bepalen. Kies <strong>Cut</strong> wanneer je een langere geautoriseerde opname wilt verdelen op basis van aantal clips, duur en tussenruimte. De app bepaalt niet welke momenten grappig zijn of waarschijnlijk goed zullen presteren.</li><li>Voor spraak, gebruik <strong>Transcript</strong> om een passage te vinden, controleer dan namen en speel de volledige gedachte in context af. Controleer de framing apart: het selecteren van een korter tijdsbereik verandert een liggend beeld niet in een verticale crop.</li><li>Open Review, bekijk elke voorbereide clip en exporteer degenen die de brief toestaat. Exporteren vereist Creator. Upload het opgeslagen bestand zelf, dien dan de link in en houd het door de campagne opgegeven meetvenster bij.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip bereidt clips voor; het publiceert ze niet op sociale platforms, verleent geen rechten op andermans beeldmateriaal en garandeert geen campagnegoedkeuring of verdiensten. Zie de bestaande gids voor<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->en de gids voor<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">Transcript</a> <!-- -->voor de daadwerkelijke bewerkingsfuncties."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

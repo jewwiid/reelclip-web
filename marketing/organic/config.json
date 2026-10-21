@@ -17,6 +17,8 @@
     {"slug": "remove-silence-from-video-free", "terms": ["silence", "dead air", "pause"], "business_fit": 5},
     {"slug": "edit-vertical-video-on-iphone", "terms": ["iphone", "vertical video", "reel schneiden", "reels schneiden"], "business_fit": 4},
     {"slug": "how-to-apply-lut-on-iphone", "terms": ["lut", "color grade", "colour grade", "blackmagic"], "business_fit": 3},
-    {"slug": "dji-osmo-pocket-3-luts", "terms": ["osmo", "pocket 3", "dji"], "business_fit": 3}
+    {"slug": "dji-osmo-pocket-3-luts", "terms": ["osmo", "pocket 3", "dji"], "business_fit": 3},
+    {"slug": "get-paid-to-clip-streamers", "terms": ["paid clipping", "clipping campaign", "get paid to clip streamers", "clip twitch streams", "clip kick streams"], "business_fit": 4},
+    {"slug": "gta6-clips-iphone", "terms": ["gta 6 clips", "gta vi clips", "gta 6 gameplay clips", "gta 6 streamer clips"], "business_fit": 3}
   ]
 }

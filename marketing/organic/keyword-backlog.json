@@ -110,6 +110,26 @@
    }
   }
  ],
+  "editorial_requests": [
+    {
+      "status": "in_progress",
+      "proposed_slug": "get-paid-to-clip-streamers",
+      "primary_keyword": "how to get paid to clip streamers",
+      "related_terms": ["paid clipping campaigns", "clip Twitch streams", "clip KICK streams"],
+      "search_volume": null,
+      "evidence": "User-directed editorial expansion on 2026-10-21. The latest Search Console report showed no visible streamer-clipping query. No paid keyword-volume call was made.",
+      "information_gain": "Separates creator-funded clipper campaigns from platform monetization, checks rights and payout terms, and shows how an authorized file moves through ReelClip on iPhone."
+    },
+    {
+      "status": "in_progress",
+      "proposed_slug": "gta6-clips-iphone",
+      "primary_keyword": "GTA 6 clips",
+      "related_terms": ["GTA VI clips", "GTA 6 gameplay clips", "GTA 6 streamer clips"],
+      "search_volume": null,
+      "evidence": "User-directed editorial expansion on 2026-10-21. The latest Search Console report showed no visible GTA VI clipping query. No paid keyword-volume call was made.",
+      "information_gain": "A pre-launch workflow grounded in the scheduled release and current Rockstar policy; distinguishes game footage rights from a streamer's permission and avoids leaked footage."
+    }
+  ],
  "rejected_low_volume": {
   "inshot alternative": 20,
   "vn editor alternative": 10,

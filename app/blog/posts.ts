@@ -33,6 +33,24 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "get-paid-to-clip-streamers",
+    title: "How to get paid to clip streamers: campaigns, rights and workflow",
+    description: "Learn how clipper campaigns pay, what permission and payout rules to check, and how to edit an authorized Twitch or Kick clip on iPhone.",
+    publishedAt: "2026-10-21",
+    category: "How-to",
+    primaryKeyword: "how to get paid to clip streamers",
+    readMinutes: 7,
+  },
+  {
+    slug: "gta6-clips-iphone",
+    title: "GTA 6 clips on iPhone: a rights-aware launch workflow",
+    description: "Plan a GTA VI clip workflow for Shorts, TikTok and Reels: capture your own gameplay or get streamer approval, transfer the file to iPhone, then edit it in ReelClip.",
+    publishedAt: "2026-10-21",
+    category: "How-to",
+    primaryKeyword: "GTA 6 clips",
+    readMinutes: 6,
+  },
+  {
     slug: "edit-any-log-footage-iphone",
     title: "How to edit log footage on iPhone: camera conversion and creative LUTs",
     description: "Choose the correct camera profile, import a matching conversion LUT, and add a creative look in ReelClip. Learn what to check before exporting log footage.",
