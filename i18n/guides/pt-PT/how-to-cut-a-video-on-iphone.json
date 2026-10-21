@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "Como cortar um vídeo no iPhone: aparar ou dividi-lo em clipes",
+  "description": "Aprenda a aparar um vídeo com a app Fotos, dividir num ponto escolhido com o iMovie, ou usar o ReelClip para selecionar e rever vários clipes.",
+  "publishedAt": "2026-10-21",
+  "category": "Tutorial",
+  "primaryKeyword": "como cortar um vídeo no iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "schemaVersion": 1,
+  "locale": "pt-PT",
+  "updatedAt": "2026-10-21",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para uma aparagem rápida, abra um vídeo em Fotos, toque em Editar, ajuste as pegas de início e fim, toque em Concluído e escolha Guardar Vídeo ou Guardar Vídeo como Novo Clipe. Para dividir um clipe num ponto escolhido dentro de um projeto de filme, use o comando Dividir do iMovie. Para preparar vários excertos de uma gravação longa, use o Cut do ReelClip para um lote ou Slice para momentos que selecionar."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Escolha o tipo de corte certo"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Aparar o início ou o fim:</strong> Use Fotos para uma versão mais curta e rápida de uma gravação. Escolha Guardar Vídeo como Novo Clipe se quiser manter o original também.</li><li><strong class=\"text-text\">Dividir num ponto da linha temporal:</strong> <!-- -->Use o iMovie quando quiser dividir um clipe dentro de um projeto de filme e continuar a organizar as secções ali.</li><li><strong class=\"text-text\">Preparar vários clipes independentes:</strong> <!-- -->Use o ReelClip quando quiser um conjunto de momentos selecionados ou de tamanho uniforme de uma gravação de origem, e depois verificar cada resultado antes de exportar.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Aparar um vídeo em Fotos"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Abra Fotos e selecione o vídeo.</li><li>Toque em Editar.</li><li>Arraste as pegas nas extremidades do visualizador de fotogramas para definir os novos tempos de início e fim.</li><li>Pré-visualize a seleção e depois toque em Concluído.</li><li>Escolha Guardar Vídeo para manter a versão aparada, ou Guardar Vídeo como Novo Clipe para manter ambas as versões.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Fotos altera o início e o fim do vídeo selecionado. Para uma versão detalhada das instruções atuais da Apple, consulte<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">o guia da Apple para aparar um vídeo no iPhone</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Dividir um vídeo num ponto escolhido no iMovie"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Num projeto do iMovie, mova o cursor de reprodução para o ponto de divisão. Selecione o clipe de vídeo, toque em Ações e depois toque em Dividir. Também pode selecionar o clipe e deslizar para baixo sobre o cursor de reprodução. As duas secções permanecem no projeto enquanto continua a editar. Consulte<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">as instruções da Apple para o iMovie sobre dividir um clipe</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Cria um lote de clipes no ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Importa o vídeo de origem a partir de Fotos ou Files. Para clipes consecutivos com a mesma duração a partir de toda a gravação, escolhe<!-- --> <strong class=\"text-text\">Cut</strong>, define<!-- --> <strong class=\"text-text\">Space</strong> como<!-- --> <strong class=\"text-text\">No gap</strong>, escolhe a<!-- --> <strong class=\"text-text\">Clip amount</strong> e verifica o <strong class=\"text-text\">Clip duration</strong> resultante. Toca em<!-- --> <strong class=\"text-text\">Add</strong> para colocar a seleção em Planned Clips. Escolhe <strong class=\"text-text\">Slice</strong> <!-- -->para selecionar os tempos de início e fim manualmente. Reproduz cada clipe planeado e ajusta qualquer corte que interrompa uma frase ou ação."
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Este guia mostra uma receita de Cut com clipes iguais e a pré-visualização. Não mostra uma gravação concluída em Fotos. O ReelClip é gratuito para importar e pré-visualizar; guardar ou exportar requer o Creator. A aplicação prepara os ficheiros de vídeo, mas não os publica no TikTok, Instagram ou YouTube. Para um fluxo de trabalho social mais longo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-cut-long-video-for-tiktok\">como preparar clipes a partir de um vídeo longo para o TikTok</a>, ou lê o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/video-length-social-media-reach\">guia para dividir uma gravação em clipes iguais</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Qual a opção que devo utilizar?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utiliza Fotos para um corte rápido, o iMovie para uma edição na linha de tempo com um ponto de divisão preciso, e o ReelClip quando queres escolher ou criar em lote secções curtas a partir de uma gravação mais longa. Guarda o original até teres revisto as versões que planeias partilhar."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

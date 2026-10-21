@@ -4,7 +4,7 @@
  "note": "Advertising competition is not organic difficulty. Volumes are demand evidence for choosing pages, never a traffic forecast. Re-check volumes before relying on them after 2027-04.",
  "planned_pages": [
   {
-   "status": "planned",
+   "status": "covered-by-existing-guides",
    "format": "how-to",
    "proposed_slug": "how-to-split-a-video-on-iphone",
    "fit": 5,
@@ -14,10 +14,12 @@
     "video splitter app": 210,
     "split video iphone": 30
    },
-   "angle": "Core ReelClip job. Answer with Photos/iMovie first for one cut, then ReelClip Slice/Cut for many equal or chosen parts."
+   "angle": "Core ReelClip job. Answer with Photos/iMovie first for one cut, then ReelClip Slice/Cut for many equal or chosen parts.",
+   "covered_by": ["https://www.reelclips.app/blog/how-to-cut-a-video-on-iphone", "https://www.reelclips.app/blog/video-length-social-media-reach"],
+   "coverage_note": "The dedicated query is addressed by the new direct-answer guide and the existing equal-clips workflow; avoid creating a near-duplicate page."
   },
   {
-   "status": "planned",
+   "status": "published",
    "format": "how-to",
    "proposed_slug": "how-to-cut-a-video-on-iphone",
    "fit": 4,
@@ -25,7 +27,9 @@
     "how to cut a video on iphone": 9900,
     "trim video iphone": 1000
    },
-   "angle": "Huge, low-competition query dominated by Apple Support. Honest answer is the Photos trim; ReelClip earns its place when cutting one recording into several clips."
+   "angle": "Huge query dominated by Apple Support. Honest answer is the Photos trim; ReelClip earns its place when cutting one recording into several clips.",
+   "url": "https://www.reelclips.app/blog/how-to-cut-a-video-on-iphone",
+   "published": "2026-10-21"
   },
   {
    "status": "published",

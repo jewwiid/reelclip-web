@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "iPhoneで動画をカットする方法：トリミングまたはクリップに分割",
+  "description": "Photosで1本の動画をトリミングする方法、iMovieで任意のポイントで分割する方法、またはReelClipで複数のクリップを選択して確認する方法を学びましょう。",
+  "publishedAt": "2026-10-21",
+  "category": "使い方",
+  "primaryKeyword": "iphoneで動画をカットする方法",
+  "readMinutes": 4,
+  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "updatedAt": "2026-10-21",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "1回のクイックトリミングには、Photosで動画を開き、編集をタップして、開始・終了ハンドルを調整し、完了をタップして、動画を保存または新規クリップとして保存を選択します。ムービープロジェクト内で任意のポイントでクリップを分割するには、iMovieの分割コマンドを使用します。長い録画から複数の抜粋を準備するには、ReelClipのCutで一括処理するか、Sliceで選択した瞬間を処理します。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "適切なカットの種類を選ぶ"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">開始または終了をトリミング：</strong> Photosを使って、1本の録画を素早く短くする場合に使用します。元の動画も残しておきたい場合は、新規クリップとして保存を選択します。</li><li><strong class=\"text-text\">タイムライン上のポイントで分割：</strong> <!-- -->iMovieを使って、ムービープロジェクト内でクリップを分割し、そこでセクションを配置し続けたい場合に使用します。</li><li><strong class=\"text-text\">複数の独立したクリップを準備：</strong> <!-- -->ReelClipを使って、ソース録画から選択した瞬間や均等なサイズの瞬間のセットが欲しく、エクスポート前に各結果を確認したい場合に使用します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Photosで1本の動画をトリミングする"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Photosを開いて動画を選択します。</li><li>編集をタップします。</li><li>フレームビューアーの両端のハンドルをドラッグして、新しい開始時刻と終了時刻を設定します。</li><li>選択範囲をプレビューしてから、完了をタップします。</li><li>トリミング版を残す場合は動画を保存を、両方のバージョンを残す場合は新規クリップとして保存を選択します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Photosは選択した動画の先頭と末尾を変更します。Appleの現在の手順の詳細版については、<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">iPhoneで動画をトリミングするためのAppleガイド</a>をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iMovieで任意のポイントで動画を分割する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iMovieプロジェクトで、分割したいポイントに再生ヘッドを移動します。動画クリップを選択して、アクションをタップし、分割をタップします。または、クリップを選択して再生ヘッド上を下にスワイプすることもできます。2つのセクションはプロジェクトに残り、編集を続けることができます。詳細は<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">クリップを分割するためのApple iMovie手順</a>をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClipでクリップを一括作成する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ソース動画を「写真」アプリまたはFilesからインポートします。全体の録画から連続した同じ長さのクリップを作成する場合は、<strong class=\"text-text\">Cut</strong>を選択し、<strong class=\"text-text\">Space</strong>を<strong class=\"text-text\">No gap</strong>に設定し、<strong class=\"text-text\">Clip amount</strong>を選択して、結果の<strong class=\"text-text\">Clip duration</strong>を確認します。<strong class=\"text-text\">Add</strong>をタップして選択内容をPlanned Clipsに入れます。開始時刻と終了時刻を自分で選択するには<strong class=\"text-text\">Slice</strong>を選択します。Planned Clips内の各クリップを再生し、文章や動作を中断するカットがあれば調整します。"
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "このガイドでは、同じ長さのクリップのCutの手順とプレビューを紹介します。「写真」アプリへの保存完了の様子は示していません。ReelClipのインポートとプレビューは無料ですが、保存や書き出しにはCreatorが必要です。アプリは動画ファイルを準備しますが、TikTok、Instagram、YouTubeに自動投稿することはありません。より長いソーシャルメディアのワークフローについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">長い動画からTikTok用のクリップを準備する方法</a>、または<a class=\"text-accent hover:underline\" href=\"/ja/blog/video-length-social-media-reach\">録画を同じ長さのクリップに分割するガイド</a>をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "どのオプションを使えばいいですか？"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "1回だけ素早くトリミングする場合は「写真」アプリ、正確な分割位置でタイムライン編集をする場合はiMovie、長い録画から短いセクションを選択または一括作成したい場合はReelClipを使います。共有する予定のバージョンを確認するまでは、元の動画は残しておいてください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

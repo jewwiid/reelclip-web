@@ -33,6 +33,15 @@ export type BlogPost = {
 
 export const BLOG_POSTS: BlogPost[] = [
   {
+    slug: "how-to-cut-a-video-on-iphone",
+    title: "How to cut a video on iPhone: trim or split it into clips",
+    description: "Learn to trim one video with Photos, split at a chosen point with iMovie, or use ReelClip to select and review several clips.",
+    publishedAt: "2026-10-21",
+    category: "How-to",
+    primaryKeyword: "how to cut a video on iphone",
+    readMinutes: 4,
+  },
+  {
     slug: "get-paid-to-clip-streamers",
     title: "How to get paid to clip streamers: campaigns, rights and workflow",
     description: "Learn how clipper campaigns pay, what permission and payout rules to check, and how to edit an authorized Twitch or Kick clip on iPhone.",

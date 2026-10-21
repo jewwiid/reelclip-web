@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "iPhone पर वीडियो कैसे काटें: इसे ट्रिम करें या क्लिप में विभाजित करें",
+  "description": "Photos के साथ एक वीडियो को ट्रिम करना, iMovie के साथ चुने हुए बिंदु पर विभाजित करना, या ReelClip का उपयोग करके कई क्लिप चुनना और उनकी समीक्षा करना सीखें।",
+  "publishedAt": "2026-10-21",
+  "category": "कैसे करें",
+  "primaryKeyword": "how to cut a video on iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "updatedAt": "2026-10-21",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एक त्वरित ट्रिम के लिए, Photos में एक वीडियो खोलें, Edit पर टैप करें, उसके शुरू और समाप्ति हैंडल समायोजित करें, Done पर टैप करें, और Save Video या Save Video as New Clip चुनें। एक मूवी प्रोजेक्ट के अंदर चुने हुए बिंदु पर एक क्लिप को विभाजित करने के लिए, iMovie के Split कमांड का उपयोग करें। एक लंबी रिकॉर्डिंग से कई अंश तैयार करने के लिए, ReelClip के Cut का उपयोग बैच के लिए या Slice का उपयोग आपके द्वारा चुने गए क्षणों के लिए करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "सही प्रकार का कट चुनें"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">शुरुआत या अंत ट्रिम करें:</strong> Photos का उपयोग एक रिकॉर्डिंग के त्वरित छोटे संस्करण के लिए करें। यदि आप मूल को साथ में रखना चाहते हैं तो Save Video as New Clip चुनें।</li><li><strong class=\"text-text\">टाइमलाइन में एक बिंदु पर विभाजित करें:</strong> <!-- -->iMovie का उपयोग तब करें जब आप एक मूवी प्रोजेक्ट के अंदर एक क्लिप को विभाजित करना चाहते हैं और वहां अनुभागों को व्यवस्थित करना जारी रखना चाहते हैं।</li><li><strong class=\"text-text\">कई स्वतंत्र क्लिप तैयार करें:</strong> <!-- -->ReelClip का उपयोग तब करें जब आप एक स्रोत रिकॉर्डिंग से चुने हुए या समान आकार के क्षणों का एक सेट चाहते हैं, फिर निर्यात से पहले प्रत्येक परिणाम की जांच करें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Photos में एक वीडियो ट्रिम करें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Photos खोलें और वीडियो चुनें।</li><li>Edit पर टैप करें।</li><li>फ्रेम व्यूअर के सिरों पर हैंडल खींचकर नई शुरुआत और समाप्ति समय निर्धारित करें।</li><li>चयन का पूर्वावलोकन करें, फिर Done पर टैप करें।</li><li>ट्रिम किए गए संस्करण को रखने के लिए Save Video चुनें, या दोनों संस्करणों को रखने के लिए Save Video as New Clip चुनें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Photos चुने गए वीडियो की शुरुआत और अंत बदलता है। Apple के वर्तमान निर्देशों का विस्तृत संस्करण देखने के लिए, <!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">iPhone पर वीडियो ट्रिम करने के लिए Apple की गाइड</a> देखें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iMovie में चुने हुए बिंदु पर एक वीडियो विभाजित करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iMovie प्रोजेक्ट में, प्लेहेड को विभाजन बिंदु पर ले जाएं। वीडियो क्लिप चुनें, Actions पर टैप करें, फिर Split पर टैप करें। आप क्लिप चुनकर प्लेहेड पर नीचे स्वाइप भी कर सकते हैं। दोनों अनुभाग आपके संपादन जारी रखते समय प्रोजेक्ट में बने रहते हैं। <!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">Apple की iMovie निर्देश क्लिप विभाजित करने के लिए</a> देखें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip में क्लिप्स का एक बैच बनाएं"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "स्रोत वीडियो को Photos या Files से इंपोर्ट करें। पूरे रिकॉर्डिंग से लगातार, बराबर अवधि के क्लिप्स के लिए, <!-- --> <strong class=\"text-text\">Cut</strong> चुनें, <!-- --> <strong class=\"text-text\">Space</strong> को <!-- --> <strong class=\"text-text\">No gap</strong> पर सेट करें, <!-- --> <strong class=\"text-text\">Clip amount</strong> चुनें, और परिणामी <strong class=\"text-text\">Clip duration</strong> की जाँच करें। चयन को Planned Clips में डालने के लिए <!-- --> <strong class=\"text-text\">Add</strong> टैप करें। प्रारंभ और समाप्ति समय स्वयं चुनने के लिए <strong class=\"text-text\">Slice</strong> <!-- -->चुनें। हर Planned Clip चलाएं और किसी भी कट को समायोजित करें जो किसी वाक्य या क्रिया को बीच में रोकता हो।"
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "यह वॉकथ्रू एक बराबर-क्लिप Cut रेसिपी और पूर्वावलोकन दिखाता है। यह Photos में सेव करने की पूर्ण प्रक्रिया नहीं दिखाता। ReelClip में इंपोर्ट और पूर्वावलोकन करना मुफ्त है; सेविंग या एक्सपोर्टिंग के लिए Creator की आवश्यकता होती है। ऐप वीडियो फाइल तैयार करता है लेकिन उन्हें TikTok, Instagram या YouTube पर पोस्ट नहीं करता। लंबे सोशल वर्कफ्लो के लिए, <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">लंबे वीडियो से TikTok के लिए क्लिप्स तैयार करने का तरीका</a> देखें, या <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/video-length-social-media-reach\">रिकॉर्डिंग को बराबर क्लिप्स में विभाजित करने की गाइड</a> पढ़ें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "मुझे कौन सा विकल्प इस्तेमाल करना चाहिए?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एक त्वरित ट्रिम के लिए Photos का उपयोग करें, सटीक स्प्लिट पॉइंट के साथ टाइमलाइन एडिट के लिए iMovie, और ReelClip का उपयोग तब करें जब आप लंबे रिकॉर्डिंग से छोटे सेक्शन चुनना या बैच में बनाना चाहते हों। मूल फाइल तब तक रखें जब तक आप उन संस्करणों की समीक्षा न कर लें जिन्हें आप साझा करने की योजना बनाते हैं।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}
