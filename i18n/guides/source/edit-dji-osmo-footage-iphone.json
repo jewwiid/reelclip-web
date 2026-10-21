@@ -1,13 +1,13 @@
 {
   "slug": "edit-dji-osmo-footage-iphone",
   "title": "How to edit DJI footage on iPhone: import, choose moments and review the result",
-  "description": "Bring DJI footage into ReelClip, choose Slice, Cut or Transcript for the task, check color and captions, then review before saving.",
+  "description": "Transfer Osmo footage with DJI Mimo or a compatible card reader, import from Photos or Files, then choose and review clips in ReelClip.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "How-to",
   "primaryKeyword": "edit dji osmo footage on iphone",
-  "readMinutes": 4,
-  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "readMinutes": 5,
+  "sourceFingerprint": "7891d3b2ae72d0ab4b3381382944d531bbd491b7ab46b1ca119ebdb65371657b",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -41,6 +41,86 @@
         "class": "text-text-muted"
       },
       "html": "For camera-specific transfer steps, use the <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI download and manual resources</a> for your model. Transfer support depends on the camera, storage and connection; one method is not guaranteed for every Osmo, Action or drone."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Transfer Osmo Pocket footage to your iPhone"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Download with DJI Mimo"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Connect the camera to DJI Mimo using the connection supported by your model.</li><li>Open the camera album or playback view. Select a recording and use its download action. For a batch, select the recordings in the thumbnail view and download them together.</li><li>Wait for the download to finish, then check that the video is available in your iPhone Photos library before importing it in ReelClip.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI documents these album and download actions in its <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Osmo footage export guide</a>. The connection and controls can vary by camera and app version. Keep the camera original when exporting a copy with edits or effects."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Import from the camera’s memory card"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Use a card reader and adapter compatible with your iPhone and the camera’s microSD card.</li><li>Connect the reader, open Photos and use its import option to copy the selected videos. Keep the files on the card until you have checked the copies.</li><li>Open the copied video on your iPhone, then select it from Photos in ReelClip. If you copied it to a local Files folder instead, use ReelClip’s Files import.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple explains <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/ios\" rel=\"noreferrer\" target=\"_blank\">importing videos from a camera or memory card</a> and <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios\" rel=\"noreferrer\" target=\"_blank\">accessing a connected card in Files</a>. A matching port alone does not establish that a direct camera-to-phone cable connection will work; check DJI’s instructions for the exact camera."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "If the recording is missing or will not open"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>If it is still visible only in DJI Mimo, finish the camera download and check the phone copy before opening ReelClip.</li><li>If it is stored in iCloud or another cloud location, wait for the full file to download. A thumbnail is not proof that the recording is available locally.</li><li>Check the copied file’s duration and play it outside ReelClip. If the copy is incomplete, transfer it again while retaining the camera original.</li><li>If a reader is not visible, check the adapter and power requirements in Apple’s storage guide. Try a short original recording before transferring a large batch.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Try ReelClip with your transferred DJI recording</a>. Import and preview are free; saving video requires Creator."
     },
     {
       "kind": "html",

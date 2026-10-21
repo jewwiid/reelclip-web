@@ -1,13 +1,13 @@
 {
   "slug": "edit-dji-osmo-footage-iphone",
-  "title": "Hoe je DJI-beelden bewerkt op iPhone: importeren, momenten kiezen en het resultaat bekijken",
-  "description": "Breng DJI-beelden in ReelClip, kies Slice, Cut of Transcript voor de taak, controleer kleur en ondertiteling, en bekijk alles door voordat je opslaat.",
+  "title": "Hoe bewerk je DJI-beelden op iPhone: importeer, kies momenten en bekijk het resultaat",
+  "description": "Zet Osmo-beelden met DJI Mimo of een compatibele kaartlezer over, importeer ze vanuit Foto's of Files en kies en bekijk je clips in ReelClip.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Hoe het werkt",
   "primaryKeyword": "dji osmo beelden bewerken op iphone",
-  "readMinutes": 4,
-  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "readMinutes": 5,
+  "sourceFingerprint": "7891d3b2ae72d0ab4b3381382944d531bbd491b7ab46b1ca119ebdb65371657b",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Om DJI-beelden te bewerken op iPhone, zet je de originele opname over naar een locatie die je kunt benaderen, importeer je het in ReelClip, en kies je hoe je momenten wilt selecteren. Controleer kleur, framing en ondertiteling voordat je de clips opslaat voor je publicatieworkflow."
+      "html": "Om DJI-beelden op iPhone te bewerken, transfer je de originele opname naar een locatie die je kunt benaderen, importeer je deze in ReelClip, en kies je hoe je momenten wilt selecteren. Controleer kleur, framing en ondertitels voordat je de clips opslaat voor je publicatieworkflow."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Bewaar het origineel bij overzetten"
+      "html": "Bewaar het origineel bij het transferen"
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Gebruik een overzetmethode die wordt ondersteund door je camera en iPhone. Bewaar het originele camerabestand en een aantekening van de opnamemodus, in plaats van te vertrouwen op een al verwerkte deelkopie. Als het bestand in cloudopslag staat, zorg dan dat het beschikbaar is voordat je begint met bewerken."
+      "html": "Gebruik een transfermethode die wordt ondersteund door je camera en iPhone. Bewaar het originele camera-bestand en een aantekening van de opnamemodus in plaats van te vertrouwen op een al verwerkte deelkopie. Als het bestand in cloudopslag staat, zorg er dan voor dat het beschikbaar is voordat je begint met bewerken."
     },
     {
       "kind": "html",
@@ -41,7 +41,87 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor cameraspecifieke overzetstappen, gebruik de <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI-download- en handleidingbronnen</a> voor je model. Ondersteuning voor overzetten hangt af van de camera, opslag en verbinding; één methode is niet gegarandeerd voor elke Osmo, Action of drone."
+      "html": "Voor camera-specifieke transferstappen, gebruik de <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI download- en handleidingbronnen</a> voor je model. Transferondersteuning is afhankelijk van de camera, opslag en verbinding; één methode is niet gegarandeerd voor elke Osmo, Action of drone."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zet Osmo Pocket-beelden over naar je iPhone"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Download met DJI Mimo"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Verbind de camera met DJI Mimo via de verbinding die door je model wordt ondersteund.</li><li>Open het camera-album of afspeelweergave. Selecteer een opname en gebruik de downloadactie ervan. Voor meerdere bestanden selecteer je de opnamen in de miniatuurweergave en download ze tegelijk.</li><li>Wacht tot de download is voltooid, controleer vervolgens dat de video beschikbaar is in je iPhone Foto's-bibliotheek voordat je deze in ReelClip importeert.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI documenteert deze album- en downloadacties in zijn <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Osmo beelden exportgids</a>. De verbinding en bediening kunnen variëren per camera en app-versie. Bewaar het originele camerabestand bij het exporteren van een kopie met bewerkingen of effecten."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Importeer vanaf de geheugenkaart van de camera"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Gebruik een kaartlezer en adapter die compatibel zijn met je iPhone en de microSD-kaart van de camera.</li><li>Sluit de lezer aan, open Foto's en gebruik de importeeroptie om de geselecteerde video's te kopiëren. Bewaar de bestanden op de kaart totdat je de kopieën hebt gecontroleerd.</li><li>Open de gekopieerde video op je iPhone en selecteer deze vervolgens uit Foto's in ReelClip. Als je deze naar een lokale Files-map hebt gekopieerd, gebruik dan ReelClip's Files-import.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple legt uit <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/ios\" rel=\"noreferrer\" target=\"_blank\">hoe je video's importeert vanaf een camera of geheugenkaart</a> en <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios\" rel=\"noreferrer\" target=\"_blank\">hoe je een aangesloten kaart benadert in Files</a>. Een passende poort alleen garandeert niet dat een directe camera-naar-telefoon-kabelverbinding werkt; controleer DJI's instructies voor de specifieke camera."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Als de opname ontbreekt of niet opent"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Als deze alleen nog zichtbaar is in DJI Mimo, rond dan de camera-download af en controleer de telefoonkopie voordat je ReelClip opent.</li><li>Als deze is opgeslagen in iCloud of een andere cloudlocatie, wacht dan tot het volledige bestand is gedownload. Een miniatuur is geen bewijs dat de opname lokaal beschikbaar is.</li><li>Controleer de duur van het gekopieerde bestand en speel het buiten ReelClip af. Als de kopie onvolledig is, zet het dan opnieuw over terwijl je het originele camerabestand behoudt.</li><li>Als een lezer niet zichtbaar is, controleer dan de adapter en stroomvereisten in Apple's opslaghandleiding. Probeer een korte originele opname voordat je een grote reeks opnamen overzet.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Probeer ReelClip met je overgezette DJI-opname</a>. Importeren en voorvertonen zijn gratis; video opslaan vereist Creator."
     },
     {
       "kind": "html",
@@ -57,7 +137,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Slice laat je een tijdvenster kiezen, het naar een gewenst moment verplaatsen en de randen verfijnen.</li><li>Cut plant clips met de besturingselementen voor aantal, duur en spatiëring. Bekijk de geselecteerde momenten door voordat je opslaat.</li><li>Transcript is handig voor gesproken opnames: lees de herkende woorden, controleer fouten en kies de passage in context.</li><li>AI kan helpen met het plannen van momenten op basis van een prompt wanneer de vereiste apparaatfuncties beschikbaar zijn. Bekijk de voorgestelde cuts zelf door.</li>"
+      "html": "<li>Slice laat je een tijdvenster kiezen, dit verplaatsen naar een gewenst moment en de randen verfijnen.</li><li>Cut plant clips met de regelaars voor aantal, duur en tussenruimte. Bekijk de geselecteerde momenten voordat je opslaat.</li><li>Transcript is nuttig voor gesproken opnames: lees de herkende woorden, controleer fouten en kies het fragment in context.</li><li>AI kan helpen met het plannen van momenten op basis van een prompt wanneer de vereiste apparaatfuncties beschikbaar zijn. Bekijk de voorgestelde knipmomenten zelf.</li>"
     },
     {
       "kind": "html",
@@ -65,7 +145,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "De <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">Slice-walkthrough</a> en <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut-walkthrough</a> tonen de daadwerkelijke selectiebesturingselementen. De app bereidt clips voor; het plaatst ze niet rechtstreeks op sociale platforms."
+      "html": "De <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">Slice-handleiding</a> en <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut-handleiding</a> tonen de daadwerkelijke selectieregelaars. De app bereidt clips voor; deze plaatst ze niet direct op sociale platforms."
     },
     {
       "kind": "html",
@@ -81,7 +161,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "DJI-opnamemodi verschillen per model. Pas de conversie aan op de bron in plaats van dezelfde LUT op elk bestand toe te passen. Normal, D-Cinelike, D-Log M en HLG mogen niet als één formaat worden behandeld. Zie de <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-color-grading\">Pocket-kleurgids</a> voor profielidentificatie en de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">LUT-importdemo</a> voor de bediening."
+      "html": "DJI-opnamemodi verschillen per model. Pas de conversie aan op de bron in plaats van dezelfde LUT op elk bestand toe te passen. Normal, D-Cinelike, D-Log M en HLG mogen niet als één formaat worden behandeld. Zie de <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-color-grading\">Pocket-kleurgids</a> voor profielidentificatie en de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">LUT-importdemo</a> voor de regelaars."
     },
     {
       "kind": "html",
@@ -89,7 +169,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Controleer ondertitels, kadrering en geluid"
+      "html": "Controleer ondertitels, framing en geluid"
     },
     {
       "kind": "html",
@@ -97,7 +177,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Lees ondertitels af tegen de gesproken opname en corrigeer herkenningsfouten. Speel bewerkingen af om te controleren dat woorden en gebaren niet abrupt worden afgekapt. Een korter tijdsbereik kiezen kadrert op zichzelf geen wijde opname voor een verticale post, dus controleer het beeld apart."
+      "html": "Vergelijk de ondertitels met de gesproken opname en corrigeer herkenningsfouten. Speel de bewerkingen af om te controleren dat woorden en gebaren niet abrupt worden afgekapt. Het kiezen van een korter tijdsbereik betekent op zichzelf niet dat een wijde opname wordt herkaderd voor een verticale post, dus controleer het beeld afzonderlijk."
     },
     {
       "kind": "html",

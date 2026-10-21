@@ -1,13 +1,13 @@
 {
   "slug": "edit-dji-osmo-footage-iphone",
-  "title": "Jak edytować materiały DJI na iPhonie: importuj, wybierz momenty i sprawdź wynik",
-  "description": "Przenieś materiały DJI do ReelClip, wybierz Slice, Cut lub Transcript do zadania, sprawdź kolor i napisy, a następnie przejrzyj przed zapisaniem.",
+  "title": "Jak edytować materiał DJI na iPhonie: importuj, wybierz momenty i sprawdź wynik",
+  "description": "Przenieś materiał z Osmo za pomocą DJI Mimo lub kompatybilnego czytnika kart, zaimportuj ze Zdjęć lub Files, a następnie wybierz i przejrzyj klipy w ReelClip.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Instrukcja",
-  "primaryKeyword": "edytuj materiały dji osmo na iphone",
-  "readMinutes": 4,
-  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "primaryKeyword": "edytuj materiał z dji osmo na iphone",
+  "readMinutes": 5,
+  "sourceFingerprint": "7891d3b2ae72d0ab4b3381382944d531bbd491b7ab46b1ca119ebdb65371657b",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Aby edytować materiały DJI na iPhonie, przenieś oryginalne nagranie do lokalizacji, do której masz dostęp, zaimportuj je w ReelClip i wybierz, w jaki sposób chcesz wybrać momenty. Sprawdź kolor, kadrowanie i napisy przed zapisaniem klipów do swojego workflow publikacyjnego."
+      "html": "Aby edytować materiał DJI na iPhonie, przenieś oryginalne nagranie do lokalizacji, do której masz dostęp, zaimportuj je w ReelClip i wybierz, w jaki sposób chcesz zaznaczać momenty. Sprawdź kolor, kadrowanie i napisy przed zapisaniem klipów do publikacji."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Użyj metody transferu obsługiwanej przez twoją kamerę i iPhone'a. Zachowaj oryginalny plik z kamery i zanotuj jego tryb nagrywania, zamiast polegać na już przetworzonej kopii do udostępniania. Jeśli plik jest w chmurze, upewnij się, że jest dostępny przed rozpoczęciem edycji."
+      "html": "Użyj metody przenoszenia obsługiwanej przez twoją kamerę i iPhone'a. Zachowaj oryginalny plik z kamery i zanotuj tryb nagrywania, zamiast polegać na już przetworzonej kopii do udostępniania. Jeśli plik znajduje się w chmurze, upewnij się, że jest dostępny przed rozpoczęciem edycji."
     },
     {
       "kind": "html",
@@ -41,7 +41,87 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Aby uzyskać instrukcje transferu dla konkretnego modelu kamery, skorzystaj z <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">materiałów do pobrania i instrukcji DJI</a> dla swojego modelu. Obsługa transferu zależy od kamery, pamięci i połączenia; jedna metoda nie jest gwarantowana dla każdego modelu Osmo, Action czy drona."
+      "html": "Szczegółowe instrukcje przenoszenia dla konkretnych modeli kamer znajdziesz w <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">materiałach do pobrania i instrukcjach DJI</a> dla swojego modelu. Obsługa przenoszenia zależy od kamery, pamięci i połączenia; jedna metoda nie jest gwarantowana dla każdego modelu Osmo, Action czy drona."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przenieś materiał z Osmo Pocket na iPhone'a"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Pobierz za pomocą DJI Mimo"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Połącz kamerę z aplikacją DJI Mimo używając połączenia obsługiwanego przez twój model.</li><li>Otwórz album kamery lub widok odtwarzania. Wybierz nagranie i użyj opcji pobierania. Aby pobrać wiele nagrań, zaznacz je w widoku miniatur i pobierz razem.</li><li>Poczekaj na zakończenie pobierania, a następnie sprawdź, czy wideo jest dostępne w bibliotece Zdjęć na iPhonie, zanim zaimportujesz je w ReelClip.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI dokumentuje te działania związane z albumem i pobieraniem w swoim <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">przewodniku po eksporcie materiału Osmo</a>. Połączenie i sterowanie mogą się różnić w zależności od kamery i wersji aplikacji. Zachowaj oryginał z kamery podczas eksportowania kopii z edycją lub efektami."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Import z karty pamięci kamery"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Użyj czytnika kart i adaptera kompatybilnego z iPhone'em i kartą microSD kamery.</li><li>Podłącz czytnik, otwórz Zdjęcia i skorzystaj z opcji importu, aby skopiować wybrane filmy. Zachowaj pliki na karcie, dopóki nie sprawdzisz kopii.</li><li>Otwórz skopiowany film na iPhonie, a następnie wybierz go ze Zdjęć w ReelClip. Jeśli skopiowałeś go do lokalnego folderu Files, użyj importu Files w ReelClip.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple wyjaśnia <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/ios\" rel=\"noreferrer\" target=\"_blank\">importowanie filmów z kamery lub karty pamięci</a> oraz <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios\" rel=\"noreferrer\" target=\"_blank\">dostęp do podłączonej karty w Files</a>. Samo dopasowanie portu nie oznacza, że bezpośrednie połączenie kamera-telefon kablem zadziała; sprawdź instrukcje DJI dla konkretnego modelu kamery."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Jeśli nagranie jest niewidoczne lub nie otwiera się"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Jeśli jest widoczne tylko w DJI Mimo, dokończ pobieranie z kamery i sprawdź kopię na telefonie przed otwarciem ReelClip.</li><li>Jeśli jest przechowywane w iCloud lub innej lokalizacji w chmurze, poczekaj na pełne pobranie pliku. Miniaturka nie jest dowodem, że nagranie jest dostępne lokalnie.</li><li>Sprawdź czas trwania skopiowanego pliku i odtwórz go poza ReelClip. Jeśli kopia jest niekompletna, przenieś ją ponownie, zachowując oryginał z kamery.</li><li>Jeśli czytnik nie jest widoczny, sprawdź adapter i wymagania zasilania w przewodniku Apple dotyczącym pamięci masowej. Wypróbuj krótkie oryginalne nagranie przed przeniesieniem dużej partii.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Wypróbuj ReelClip z przeniesionym nagraniem DJI</a>. Import i podgląd są bezpłatne; zapisywanie filmu wymaga Creator."
     },
     {
       "kind": "html",
@@ -57,7 +137,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Slice pozwala wybrać okno czasowe, przesunąć je do pożądanego momentu i dopracować krawędzie.</li><li>Cut planuje klipy za pomocą kontrolek ilości, czasu trwania i odstępów. Przejrzyj wybrane momenty przed zapisaniem.</li><li>Transcript jest przydatny dla nagrań z mową: przeczytaj rozpoznane słowa, sprawdź błędy i wybierz fragment w kontekście.</li><li>AI może pomóc zaplanować momenty na podstawie promptu, gdy wymagane funkcje urządzenia są dostępne. Samodzielnie przejrzyj proponowane cięcia.</li>"
+      "html": "<li>Slice pozwala wybrać okno czasowe, przesunąć je do pożądanego momentu i doprecyzować krawędzie.</li><li>Cut planuje klipy za pomocą kontrolek ilości, czasu trwania i odstępów. Sprawdź wybrane momenty przed zapisaniem.</li><li>Transcript jest przydatny dla nagrań z mową: przeczytaj rozpoznane słowa, sprawdź błędy i wybierz fragment w kontekście.</li><li>AI może pomóc zaplanować momenty na podstawie podpowiedzi, gdy wymagane funkcje urządzenia są dostępne. Samodzielnie sprawdź proponowane cięcia.</li>"
     },
     {
       "kind": "html",
@@ -65,7 +145,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"/pl/blog/edit-vertical-video-on-iphone\">Poradnik Slice</a> i <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">Poradnik Cut</a> pokazują rzeczywiste kontrolki wyboru. Aplikacja przygotowuje klipy; nie publikuje ich bezpośrednio na platformach społecznościowych."
+      "html": "<a class=\"text-accent hover:underline\" href=\"/pl/blog/edit-vertical-video-on-iphone\">Przewodnik Slice</a> i <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">przewodnik Cut</a> pokazują rzeczywiste kontrolki wyboru. Aplikacja przygotowuje klipy; nie publikuje ich bezpośrednio na platformach społecznościowych."
     },
     {
       "kind": "html",
@@ -81,7 +161,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Tryby nagrywania DJI różnią się w zależności od modelu. Dopasuj konwersję do źródła, zamiast stosować ten sam LUT do każdego pliku. Normal, D-Cinelike, D-Log M i HLG nie powinny być traktowane jako jeden format. Zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/dji-osmo-pocket-color-grading\">przewodnik po kolorach Pocket</a> dotyczący identyfikacji profili oraz <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">demo importu LUT</a> omawiające sterowanie."
+      "html": "Tryby nagrywania DJI różnią się w zależności od modelu. Dopasuj konwersję do źródła, zamiast stosować ten sam LUT do każdego pliku. Normal, D-Cinelike, D-Log M i HLG nie powinny być traktowane jako jeden format. Zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/dji-osmo-pocket-color-grading\">przewodnik po kolorach Pocket</a> dotyczący identyfikacji profilu oraz <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">demonstrację importu LUT</a> dla kontrolek."
     },
     {
       "kind": "html",
@@ -89,7 +169,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Przejrzyj napisy, kadrowanie i dźwięk"
+      "html": "Sprawdź napisy, kadrowanie i dźwięk"
     },
     {
       "kind": "html",
@@ -97,7 +177,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Sprawdź napisy względem nagrania mówionego i popraw błędy rozpoznawania. Odtwórz edycje, aby sprawdzić, czy słowa i gesty nie są ucinane nagle. Wybór krótszego zakresu czasowego sam w sobie nie przekadruje szerokiego ujęcia na post w pionie, więc osobno sprawdź obraz."
+      "html": "Czytaj napisy wraz z nagraniem dźwiękowym i popraw błędy rozpoznawania. Odtwórz edycję, aby sprawdzić, czy słowa i gesty nie są przycięte zbyt gwałtownie. Wybranie krótszego zakresu czasowego samo w sobie nie kadruje szerokiego ujęcia na format pionowy do publikacji, więc sprawdź obraz osobno."
     },
     {
       "kind": "html",
@@ -121,7 +201,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Otwórz Review, obejrzyj wyrenderowany wynik i zapisz klipy, które chcesz. Zapisywanie wideo wymaga Creator. Sprawdź faktyczny plik w Zdjęciach przed udostępnieniem, szczególnie jeśli zmieniłeś ustawienia koloru lub napisów. Zachowaj źródło, aby móc później stworzyć inną wersję."
+      "html": "Otwórz Review, obejrzyj wyrenderowany wynik i zapisz klipy, które chcesz. Zapisywanie wideo wymaga Creator. Sprawdź faktyczny plik w Photos przed udostępnieniem, szczególnie jeśli zmieniłeś ustawienia koloru lub napisów. Zachowaj źródło, aby móc później wykonać inną wersję."
     },
     {
       "kind": "cta"

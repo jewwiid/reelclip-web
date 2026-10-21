@@ -51,6 +51,8 @@ When an English guide changes, refresh its 11 translations as part of the same g
 
 Use the existing Ollama connection for public copy only. The local generator requires Python 3 and BeautifulSoup 4; builds and deployment do not require Python or model access. Model responses and review logs go to ignored `.organic-runs/guide-localization/` unless an explicit local work directory is set. No Google, Apple or TelemetryDeck credentials belong in translation input.
 
+On this machine, `.organic-runs/guide-localization/venv/bin/python` provides BeautifulSoup 4 when the system Python lacks it. Use that existing interpreter for the translation commands below. Preserve this local dependency environment; it is ignored by Git and excluded from deployment.
+
 1. Run `npm run guide:source` in an owned local session. It exposes the current English components on loopback port 3093 with their build source versions. Preserve other tasks' servers; use an alternate port/source URL if this port is occupied.
 2. Run `python3 scripts/localize-guides.py --guide <slug> --source-url http://127.0.0.1:3093`. Languages of that one guide run independently; guide families remain sequential. An existing translation is skipped only when its source fingerprint matches. A stale source server is rejected.
 3. If shared guide/video/interface text changes, run `node scripts/export-guide-ui.mjs` and `python3 scripts/localize-guides.py --ui`. New visible text must use the shared translation helper. Keep recorded app-control names exact; explain them in the selected language.

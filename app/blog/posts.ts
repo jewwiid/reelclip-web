@@ -118,12 +118,12 @@ export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "edit-dji-osmo-footage-iphone",
     title: "How to edit DJI footage on iPhone: import, choose moments and review the result",
-    description: "Bring DJI footage into ReelClip, choose Slice, Cut or Transcript for the task, check color and captions, then review before saving.",
+    description: "Transfer Osmo footage with DJI Mimo or a compatible card reader, import from Photos or Files, then choose and review clips in ReelClip.",
     publishedAt: "2026-08-25",
-    updatedAt: "2026-10-20",
+    updatedAt: "2026-10-21",
     category: "How-to",
     primaryKeyword: "edit dji osmo footage on iphone",
-    readMinutes: 4,
+    readMinutes: 5,
   },
   {
     slug: "how-to-apply-lut-on-iphone",

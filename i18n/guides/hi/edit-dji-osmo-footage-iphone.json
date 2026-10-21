@@ -1,13 +1,13 @@
 {
   "slug": "edit-dji-osmo-footage-iphone",
-  "title": "iPhone पर DJI फुटेज कैसे एडिट करें: इंपोर्ट करें, पल चुनें और परिणाम की समीक्षा करें",
-  "description": "DJI फुटेज को ReelClip में लाएं, कार्य के लिए Slice, Cut या Transcript चुनें, रंग और कैप्शन जांचें, फिर सेव करने से पहले समीक्षा करें।",
+  "title": "iPhone पर DJI फुटेज कैसे एडिट करें: आयात करें, क्षण चुनें और परिणाम की समीक्षा करें",
+  "description": "DJI Mimo या संगत कार्ड रीडर के साथ Osmo फुटेज ट्रांसफर करें, फोटोज या Files से आयात करें, फिर ReelClip में क्लिप चुनें और उनकी समीक्षा करें।",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "कैसे करें",
-  "primaryKeyword": "iphone पर dji osmo footage एडिट करें",
-  "readMinutes": 4,
-  "sourceFingerprint": "16d08bfdcfc94d8fb932dc8251e83053abbbe1571b87fcd6b6697e492801c685",
+  "primaryKeyword": "iphone पर dji osmo फुटेज एडिट करें",
+  "readMinutes": 5,
+  "sourceFingerprint": "7891d3b2ae72d0ab4b3381382944d531bbd491b7ab46b1ca119ebdb65371657b",
   "schemaVersion": 1,
   "locale": "hi",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "iPhone पर DJI फुटेज एडिट करने के लिए, मूल रिकॉर्डिंग को एक ऐसे स्थान पर ट्रांसफर करें जहाँ आप उसे एक्सेस कर सकें, उसे ReelClip में इंपोर्ट करें, और पल चुनने का तरीका तय करें। पब्लिशिंग वर्कफ़्लो के लिए क्लिप्स सेव करने से पहले रंग, फ्रेमिंग और कैप्शन जांचें।"
+      "html": "iPhone पर DJI फुटेज एडिट करने के लिए, मूल रिकॉर्डिंग को एक ऐसे स्थान पर ट्रांसफर करें जहाँ आप उसे एक्सेस कर सकें, ReelClip में उसे आयात करें, और क्षण चुनने का तरीका तय करें। अपने प्रकाशन वर्कफ़्लो के लिए क्लिप सेव करने से पहले रंग, फ्रेमिंग और कैप्शन जाँच लें।"
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "अपने कैमरे और iPhone द्वारा समर्थित ट्रांसफर विधि का उपयोग करें। पहले से प्रोसेस किए गए शेयरिंग कॉपी पर निर्भर रहने के बजाय मूल कैमरा फाइल और उसके रिकॉर्डिंग मोड का नोट रखें। यदि फाइल क्लाउड स्टोरेज में है, तो एडिट शुरू करने से पहले सुनिश्चित करें कि यह उपलब्ध है।"
+      "html": "अपने कैमरे और iPhone द्वारा समर्थित ट्रांसफर विधि का उपयोग करें। पहले से प्रोसेस किए गए शेयरिंग कॉपी पर निर्भर रहने के बजाय मूल कैमरा फाइल और उसके रिकॉर्डिंग मोड का नोट रखें। यदि फाइल क्लाउड स्टोरेज में है, तो एडिट शुरू करने से पहले सुनिश्चित करें कि वह उपलब्ध है।"
     },
     {
       "kind": "html",
@@ -41,7 +41,87 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "कैमरा-विशिष्ट ट्रांसफर चरणों के लिए, अपने मॉडल के लिए <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI डाउनलोड और मैनुअल संसाधन</a> का उपयोग करें। ट्रांसफर सपोर्ट कैमरे, स्टोरेज और कनेक्शन पर निर्भर करता है; एक विधि हर Osmo, Action या ड्रोन के लिए गारंटी नहीं है।"
+      "html": "कैमरे-विशिष्ट ट्रांसफर चरणों के लिए, अपने मॉडल के लिए <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJI डाउनलोड और मैनुअल संसाधन</a> का उपयोग करें। ट्रांसफर सपोर्ट कैमरे, स्टोरेज और कनेक्शन पर निर्भर करता है; एक विधि हर Osmo, Action या ड्रोन के लिए गारंटी नहीं है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Osmo Pocket फुटेज अपने iPhone पर ट्रांसफर करें"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "DJI Mimo से डाउनलोड करें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>अपने मॉडल द्वारा समर्थित कनेक्शन का उपयोग करके कैमरे को DJI Mimo से कनेक्ट करें।</li><li>कैमरा एल्बम या प्लेबैक व्यू खोलें। एक रिकॉर्डिंग चुनें और उसके डाउनलोड एक्शन का उपयोग करें। बैच के लिए, थंबनेल व्यू में रिकॉर्डिंग चुनें और उन्हें एक साथ डाउनलोड करें।</li><li>डाउनलोड पूरा होने का इंतज़ार करें, फिर ReelClip में आयात करने से पहले जाँच लें कि वीडियो आपकी iPhone फोटोज लाइब्रेरी में उपलब्ध है।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJI इन एल्बम और डाउनलोड एक्शन को अपने <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Osmo फुटेज एक्सपोर्ट गाइड</a> में दस्तावेज़ करता है। कनेक्शन और कंट्रोल कैमरे और ऐप संस्करण के अनुसार भिन्न हो सकते हैं। एडिट या इफ़ेक्ट के साथ कॉपी एक्सपोर्ट करते समय कैमरे की मूल फ़ाइल सुरक्षित रखें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "कैमरे के मेमोरी कार्ड से इंपोर्ट करें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>अपने iPhone और कैमरे के microSD कार्ड के साथ संगत कार्ड रीडर और एडाप्टर का उपयोग करें।</li><li>रीडर कनेक्ट करें, Photos ऐप खोलें और उसके इंपोर्ट विकल्प का उपयोग करके चुने गए वीडियो कॉपी करें। जब तक आप कॉपी की जांच न कर लें, फाइलों को कार्ड पर रखें।</li><li>अपने iPhone पर कॉपी किया गया वीडियो खोलें, फिर ReelClip में Photos से उसे चुनें। यदि आपने इसे एक स्थानीय Files फ़ोल्डर में कॉपी किया है, तो ReelClip के Files इंपोर्ट का उपयोग करें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/ios\" rel=\"noreferrer\" target=\"_blank\">कैमरे या मेमोरी कार्ड से वीडियो इंपोर्ट करने</a> और <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios\" rel=\"noreferrer\" target=\"_blank\">Files में कनेक्टेड कार्ड एक्सेस करने</a> के बारे में बताता है। केवल मिलता-जुलता पोर्ट यह सुनिश्चित नहीं करता कि सीधा कैमरा-टू-फोन केबल कनेक्शन काम करेगा; सटीक कैमरे के लिए DJI के निर्देश जांचें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "यदि रिकॉर्डिंग गायब है या नहीं खुल रही है"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>यदि यह अभी भी केवल DJI Mimo में दिखाई दे रही है, तो कैमरा डाउनलोड पूरा करें और ReelClip खोलने से पहले फ़ोन पर मौजूद कॉपी की जाँच करें।</li><li>यदि यह iCloud या किसी अन्य क्लाउड लोकेशन में संग्रहीत है, तो पूरी फाइल के डाउनलोड होने की प्रतीक्षा करें। एक थंबनेल यह साबित नहीं करता कि रिकॉर्डिंग स्थानीय रूप से उपलब्ध है।</li><li>कॉपी की गई फाइल की अवधि जांचें और उसे ReelClip के बाहर चलाएं। यदि कॉपी अधूरी है, तो कैमरे की मूल फ़ाइल सुरक्षित रखते हुए इसे फिर से ट्रांसफर करें।</li><li>यदि रीडर दिखाई नहीं दे रहा है, तो Apple के स्टोरेज गाइड में एडाप्टर और पावर आवश्यकताएं जांचें। बड़े बैच ट्रांसफर करने से पहले एक छोटी ओरिजिनल रिकॉर्डिंग आजमाएं।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">अपनी ट्रांसफर की गई DJI रिकॉर्डिंग के साथ ReelClip आजमाएं</a>। इंपोर्ट और प्रीव्यू मुफ्त हैं; वीडियो सेव करने के लिए Creator की आवश्यकता होती है।"
     },
     {
       "kind": "html",
@@ -57,7 +137,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Slice आपको एक समय विंडो चुनने, उसे चाहे गए पल पर ले जाने और किनारों को परिष्कृत करने देता है।</li><li>Cut क्लिप्स की योजना amount, duration और spacing कंट्रोल का उपयोग करके बनाता है। सेव करने से पहले चुने गए पलों की समीक्षा करें।</li><li>Transcript बोले गए रिकॉर्डिंग के लिए उपयोगी है: पहचाने गए शब्द पढ़ें, त्रुटियाँ जांचें और संदर्भ में अंश चुनें।</li><li>AI एक प्रॉम्प्ट से पलों की योजना बनाने में मदद कर सकता है जब इसके आवश्यक डिवाइस फीचर्स उपलब्ध हों। प्रस्तावित कट्स की स्वयं समीक्षा करें।</li>"
+      "html": "<li>Slice आपको एक समय विंडो चुनने, उसे चाहे गए क्षण पर ले जाने और किनारों को परिष्कृत करने देता है।</li><li>Cut क्लिप की योजना संख्या, अवधि और अंतराल के कंट्रोल का उपयोग करके बनाता है। सेव करने से पहले चुने गए क्षणों की समीक्षा करें।</li><li>Transcript बोलचाल वाली रिकॉर्डिंग के लिए उपयोगी है: पहचाने गए शब्द पढ़ें, त्रुटियां जांचें और संदर्भ में अंश चुनें।</li><li>AI जब इसकी आवश्यक डिवाइस सुविधाएं उपलब्ध हों, तो एक प्रॉम्प्ट से क्षणों की योजना बनाने में मदद कर सकता है। प्रस्तावित कट्स की स्वयं समीक्षा करें।</li>"
     },
     {
       "kind": "html",
@@ -65,7 +145,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"/hi/blog/edit-vertical-video-on-iphone\">Slice वॉकथ्रू</a> और <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">Cut वॉकथ्रू</a> वास्तविक चयन कंट्रोल दिखाते हैं। ऐप क्लिप्स तैयार करता है; यह उन्हें सीधे सोशल प्लेटफॉर्म पर पोस्ट नहीं करता है।"
+      "html": "<a class=\"text-accent hover:underline\" href=\"/hi/blog/edit-vertical-video-on-iphone\">Slice वॉकथ्रू</a> और <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">Cut वॉकथ्रू</a> वास्तविक चयन कंट्रोल दिखाते हैं। ऐप क्लिप तैयार करता है; यह उन्हें सीधे सोशल प्लेटफॉर्म पर पोस्ट नहीं करता है।"
     },
     {
       "kind": "html",
@@ -81,7 +161,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "DJI रिकॉर्डिंग मोड हर मॉडल में अलग होते हैं। एक ही LUT हर फ़ाइल पर लगाने के बजाय, स्रोत के अनुसार कनवर्जन मिलाएं। Normal, D-Cinelike, D-Log M और HLG को एक ही फ़ॉर्मेट नहीं मानना चाहिए। प्रोफ़ाइल पहचान के लिए <a class=\"text-accent hover:underline\" href=\"/hi/blog/dji-osmo-pocket-color-grading\">Pocket के रंग समायोजन की गाइड</a> और कंट्रोल्स के लिए <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-apply-lut-on-iphone\">LUT आयात का डेमो</a> देखें।"
+      "html": "DJI रिकॉर्डिंग मोड मॉडल के अनुसार भिन्न होते हैं। हर फाइल पर एक ही LUT लगाने के बजाय स्रोत से रूपांतरण मिलान करें। Normal, D-Cinelike, D-Log M और HLG को एक ही फॉर्मेट नहीं मानना चाहिए। प्रोफाइल पहचान के लिए <a class=\"text-accent hover:underline\" href=\"/hi/blog/dji-osmo-pocket-color-grading\">Pocket कलर गाइड</a> और कंट्रोल के लिए <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-apply-lut-on-iphone\">LUT इंपोर्ट डेमो</a> देखें।"
     },
     {
       "kind": "html",
@@ -97,7 +177,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "बोले गए रिकॉर्डिंग के साथ कैप्शन पढ़ें और पहचान की गलतियों को सुधारें। एडिट्स को प्ले करके जांचें कि शब्द और इशारे अचानक कटे तो नहीं। कम समय सीमा चुनने से अपने आप वाइड शॉट वर्टिकल पोस्ट के लिए रीफ्रेम नहीं होता, इसलिए तस्वीर को अलग से जांचें।"
+      "html": "बोलचाल वाली रिकॉर्डिंग के साथ कैप्शन पढ़ें और पहचान की गलतियों को सही करें। संपादनों को चलाकर जांचें कि शब्द और हाव-भाव अचानक कट न रहे हों। कम समय सीमा चुनना स्वयं एक चौड़े शॉट को लंबवत पोस्ट के लिए फ्रेम नहीं करता, इसलिए तस्वीर को अलग से जांचें।"
     },
     {
       "kind": "html",
@@ -105,7 +185,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "अलग-अलग रिकॉर्डिंग लंबाई, कोडेक और डिवाइस की स्थिति प्रोसेसिंग को प्रभावित करती हैं। ट्रांसक्रिप्शन या एक्सपोर्ट समय के बारे में किसी तय वादे पर भरोसा करने के बजाय, एक प्रतिनिधि हिस्से का प्रीव्यू देखें।"
+      "html": "विभिन्न रिकॉर्डिंग लंबाई, कोडेक और डिवाइस की स्थितियाँ प्रोसेसिंग को प्रभावित करती हैं। ट्रांसक्रिप्शन या निर्यात समय के बारे में निश्चित वादे पर भरोसा करने के बजाय एक प्रतिनिधि अनुभाग का पूर्वावलोकन करें।"
     },
     {
       "kind": "html",
@@ -113,7 +193,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "जांची हुई वर्जन सेव करें"
+      "html": "जांचा हुआ संस्करण सहेजें"
     },
     {
       "kind": "html",
@@ -121,7 +201,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Review खोलें, रेंडर किया हुआ रिजल्ट देखें और जो क्लिप्स चाहें उन्हें सेव करें। वीडियो सेव करने के लिए Creator की ज़रूरत होती है। शेयर करने से पहले Photos में असली फ़ाइल जांचें, खासकर अगर आपने कलर या कैप्शन सेटिंग बदली हों। स्रोत रखें ताकि बाद में दूसरी वर्जन बना सकें।"
+      "html": "Review खोलें, रेंडर किया हुआ परिणाम देखें और जो क्लिप चाहें उन्हें सहेजें। वीडियो सहेजने के लिए Creator की आवश्यकता होती है। साझा करने से पहले Photos में वास्तविक फ़ाइल जांचें, विशेष रूप से यदि आपने रंग या कैप्शन सेटिंग बदली हों। स्रोत रखें ताकि बाद में दूसरा संस्करण बना सकें।"
     },
     {
       "kind": "cta"
