@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "Hoe knip je een video op iPhone: trim of splits in clips",
+  "description": "Leer één video trimmen met Foto's, splitsen op een gekozen punt met iMovie, of gebruik ReelClip om meerdere clips te selecteren en beoordelen.",
+  "updatedAt": "2026-10-21",
+  "publishedAt": "2026-10-21",
+  "category": "Hoe het werkt",
+  "primaryKeyword": "hoe een video te knippen op iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor één snelle trim open je een video in Foto's, tik op Bewerk, pas de start- en stophendels aan, tik op Gereed en kies Video opslaan of Video opslaan als nieuwe clip. Om een clip op een gekozen punt in een filmproject te splitsen, gebruik je iMovie's Split-commando. Om meerdere fragmenten uit een lange opname voor te bereiden, gebruik je ReelClip's Cut voor een batch of Slice voor momenten die je zelf selecteert."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies de juiste soort knip"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Trim het begin of einde:</strong> Gebruik Foto's voor een snellere kortere versie van één opname. Kies Video opslaan als nieuwe clip als je het origineel wilt behouden.</li><li><strong class=\"text-text\">Splits op een punt in een tijdlijn:</strong> <!-- -->Gebruik iMovie wanneer je een clip in een filmproject wilt splitsen en de secties daar verder wilt rangschikken.</li><li><strong class=\"text-text\">Bereid meerdere zelfstandige clips voor:</strong> <!-- -->Gebruik ReelClip wanneer je een set geselecteerde of gelijkmatig verdeelde momenten uit een bronopname wilt, en elk resultaat wilt controleren voor export.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Trim één video in Foto's"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Open Foto's en selecteer de video.</li><li>Tik op Bewerk.</li><li>Verschuif de hendels aan de uiteinden van de frameviewer om de nieuwe start- en stoptijden in te stellen.</li><li>Bekijk een voorvertoning van de selectie, tik vervolgens op Gereed.</li><li>Kies Video opslaan om de getrimde versie te behouden, of Video opslaan als nieuwe clip om beide versies te houden.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Foto's wijzigt het begin en einde van de geselecteerde video. Voor een gedetailleerde versie van Apple's huidige instructies, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">Apple's handleiding voor het trimmen van een video op iPhone</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Splits een video op een gekozen punt in iMovie"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "In een iMovie-project verplaats je de afspeelkop naar het splitspunt. Selecteer de videoclip, tik op Acties, tik vervolgens op Split. Je kunt ook de clip selecteren en omlaag vegen over de afspeelkop. De twee secties blijven in het project terwijl je verder bewerkt. Zie<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">Apple's iMovie-instructies voor het splitsen van een clip</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Maak een reeks clips in ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Importeer de bronvideo vanuit Foto's of Files. Voor opeenvolgende clips met gelijke duur uit de hele opname, kies<!-- --> <strong class=\"text-text\">Cut</strong>, stel<!-- --> <strong class=\"text-text\">Space</strong> in op<!-- --> <strong class=\"text-text\">No gap</strong>, kies de<!-- --> <strong class=\"text-text\">Clip amount</strong>, en controleer de resulterende <strong class=\"text-text\">Clip duration</strong>. Tik op<!-- --> <strong class=\"text-text\">Add</strong> om de selectie in Planned Clips te plaatsen. Kies <strong class=\"text-text\">Slice</strong> <!-- -->om zelf start- en eindtijden te selecteren. Speel elke geplande clip af en pas elke snijpunt aan dat een zin of actie onderbreekt."
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Deze walkthrough toont een gelijke-clip Cut recept en voorbeeldweergave. Het toont geen voltooide opslag naar Foto's. ReelClip is gratis om te importeren en voor te vertonen; opslaan of exporteren van je werk vereist de Creator-modus. De app bereidt de videobestanden voor, maar plaatst ze niet op TikTok, Instagram of YouTube. Voor een langere social workflow, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">hoe je clips voorbereidt uit een lange video voor TikTok</a>, of lees de<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/video-length-social-media-reach\">gids voor het splitsen van een opname in gelijke clips</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Welke optie moet ik gebruiken?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gebruik Foto's voor één snelle trim, iMovie voor een timeline-bewerking met een precies splitsingspunt, en ReelClip als je korte fragmenten wilt kiezen of in batch wilt maken uit een langere opname. Bewaar het origineel totdat je de versies die je wilt delen hebt beoordeeld."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

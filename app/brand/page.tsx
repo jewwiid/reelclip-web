@@ -1,10 +1,11 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import Image from "next/image";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
-import { getDictionary } from "@/i18n/server";
+import { getDictionary, getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = { title: "Brand assets · ReelClip", description: "Official ReelClip logos, app icon, and brand colours for press, partners, and collaborators." };
+const pageMetadata: Metadata = { title: "Brand assets · ReelClip", description: "Official ReelClip logos, app icon, and brand colours for press, partners, and collaborators." };
 
 const COLOUR_SWATCHES = [
   { hex: "#C4EF33", className: "bg-accent" },
@@ -12,6 +13,10 @@ const COLOUR_SWATCHES = [
   { hex: "#F0F1ED", className: "bg-text" },
   { hex: "#A6ABAB", className: "bg-text-muted" }
 ] as const;
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/brand", pageMetadata);
+}
 
 export default async function BrandPage() {
   const { brand: copy } = await getDictionary();

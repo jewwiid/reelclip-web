@@ -1,5 +1,5 @@
 # deps
-node_modules/
+node_modules
 
 # next
 .next/
@@ -23,6 +23,10 @@ yarn-error.log*
 
 # vercel
 .vercel
+
+# Local organic marketing reports can contain private Search Console data.
+.organic-runs/
+__pycache__/
 
 # convex generated
 convex/_generated/

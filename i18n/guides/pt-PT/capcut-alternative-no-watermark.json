@@ -1,0 +1,122 @@
+{
+  "slug": "capcut-alternative-no-watermark",
+  "title": "Uma alternativa ao CapCut sem marca de água: escolha pelo tipo de edição que precisa",
+  "description": "Compare o ReelClip para selecionar e legendar clipes curtos com o iMovie para uma edição em linha de tempo, e verifique os requisitos reais de exportação antes de escolher um plano.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Comparação",
+  "primaryKeyword": "alternativa capcut sem marca de água",
+  "readMinutes": 4,
+  "sourceFingerprint": "5acc417fbac0c3f163518beec79a433f284929ce2f5f97037b6358fa5eece391",
+  "schemaVersion": 1,
+  "locale": "pt-PT",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A alternativa certa ao CapCut depende da edição. Se precisa de encontrar momentos curtos numa gravação longa, compare os controlos de seleção de clipes e legendagem. Se precisa de montar um filme numa linha de tempo, compare as transições, áudio e ferramentas de imagem. Teste um ficheiro guardado real antes de assumir que uma transferência gratuita inclui a exportação que deseja."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip para escolher momentos de gravações"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O ReelClip oferece Slice para uma janela de tempo manual, Cut para um lote planeado, Transcript para passagens faladas e planeamento por IA quando as funcionalidades de dispositivo necessárias estão disponíveis. Revisa o resultado proposto antes de guardar. As gravações são processadas no seu dispositivo em vez de serem enviadas para os servidores do ReelClip para edição."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A importação e pré-visualização são gratuitas; guardar vídeo no seu iPhone requer o modo Creator. Consulte as <a class=\"text-accent hover:underline\" href=\"/pt-PT/pricing\">opções atuais do modo Creator</a> e a listagem na App Store antes de comprar. A pré-visualização gratuita é útil para verificar o fluxo de trabalho, mas não é uma promessa de exportação gratuita do resultado final."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utilize a <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-cut-long-video-for-tiktok\">demonstração de Cut</a> para ver uma receita em lote, ou o <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/extract-clip-from-podcast\">guia de Transcript</a> para selecionar momentos falados. O ReelClip é um editor de clipes focado, por isso verifique qualquer requisito de modelo, animação ou composição separadamente."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iMovie para uma edição em linha de tempo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">guia do iMovie para iPhone da Apple</a> abrange a organização de clipes de filme, corte, títulos, transições e áudio. É outro fluxo de trabalho para comparar quando a sequência de planos importa mais do que extrair muitos momentos curtos de uma fonte."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verifique a disponibilidade atual na App Store e os requisitos de dispositivo. Para funcionalidades como legendas automáticas de fala ou um efeito visual específico, verifique a ferramenta real em vez de assumir que os nomes de funcionalidades de outro editor têm um equivalente direto."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Verifique a exportação de que realmente precisa"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importe uma gravação curta representativa do seu material real.</li><li>Faça a edição pretendida, incluindo legendas, música ou efeitos que planeia utilizar.</li><li>Verifique o ecrã de exportação quanto a requisitos do plano, marca e opções de saída. Uma funcionalidade ou modelo pode ter condições diferentes de uma edição básica.</li><li>Guarde uma amostra e veja-a fora do editor. Inspecione todas as bordas dos fotogramas, qualquer cartão final, a sincronização das legendas e o som.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Não assuma que o CapCut adiciona sempre uma marca de água, que exige sempre uma conta ou que carrega sempre cada edição. As condições podem variar consoante a funcionalidade, a versão e o serviço. Aplique a mesma verificação de exportação de amostra a qualquer alternativa, incluindo o ReelClip, antes de comprometer um projeto completo."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Mantenha a fonte e o projeto"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Guarde o seu material original e qualquer projeto reutilizável separadamente do vídeo finalizado. Se mudar de editor mais tarde, esses originais dar-lhe-ão o melhor ponto de partida. Para as verificações de imagem e sincronização necessárias para publicações curtas, consulte <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/edit-vertical-video-on-iphone\">edição de vídeo vertical no iPhone</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

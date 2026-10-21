@@ -1,0 +1,122 @@
+{
+  "slug": "capcut-alternative-no-watermark",
+  "title": "Een CapCut-alternatief zonder watermerk: kies op basis van de bewerking die je nodig hebt",
+  "description": "Vergelijk ReelClip voor het selecteren en ondertitelen van korte clips met iMovie voor een timeline-bewerking, en controleer de daadwerkelijke exportvereisten voordat je een abonnement kiest.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Vergelijking",
+  "primaryKeyword": "capcut alternatief geen watermerk",
+  "readMinutes": 4,
+  "sourceFingerprint": "5acc417fbac0c3f163518beec79a433f284929ce2f5f97037b6358fa5eece391",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Het juiste CapCut-alternatief hangt af van de bewerking. Als je korte momenten in een lange opname moet vinden, vergelijk je de clipselectie- en ondertitelingsopties. Als je een film op een timeline moet rangschikken, vergelijk je overgangen, audio en beeldbewerkingsgereedschap. Test een daadwerkelijk opgeslagen bestand voordat je beslist dat een gratis download de export bevat die je wilt."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip voor het kiezen van momenten uit opnames"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip biedt Slice voor een handmatig tijdvenster, Cut voor een geplande batch, Transcript voor gesproken passages en AI-planning wanneer de vereiste apparaatfuncties beschikbaar zijn. Je bekijkt het voorgestelde resultaat voordat je opslaat. De opnames worden op je apparaat verwerkt in plaats van geüpload naar de servers van ReelClip voor bewerking."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Importeren en voorvertonen zijn gratis; video opslaan op je iPhone vereist Creator-modus. Controleer de <a class=\"text-accent hover:underline\" href=\"/nl/pricing\">huidige Creator-modus opties</a> en de App Store-vermelding voordat je koopt. Gratis voorvertoning is handig om de workflow te controleren, maar het is geen belofte van een gratis voltooide export."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gebruik de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">demo van Cut</a> om een batchrecept te zien, of de <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">Transcript-gids</a> om gesproken momenten te selecteren. ReelClip is een gespecialiseerde clip-editor, dus controleer elke sjabloon-, animatie- of compositing-vereiste afzonderlijk."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iMovie voor een timeline-bewerking"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">iMovie voor iPhone handleiding van Apple</a> behandelt het rangschikken van filmclips, trimmen, titels, overgangen en audio. Het is een andere workflow om te vergelijken wanneer de volgorde van shots belangrijker is dan het extraheren van veel korte momenten uit een bron."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Controleer de huidige App Store-beschikbaarheid en apparaatvereisten. Voor functies zoals automatische spraakondertiteling of een specifiek visueel effect, verifieer het daadwerkelijke hulpmiddel in plaats van ervan uit te gaan dat de functienamen van een andere editor een direct equivalent hebben."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer de export die je echt nodig hebt"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importeer een korte opname die representatief is voor je echte beeldmateriaal.</li><li>Maak de beoogde bewerking, inclusief ondertitels, muziek of effecten die je van plan bent te gebruiken.</li><li>Controleer het exportscherm op planvereisten, branding en uitvoeropties. Een functie of sjabloon kan andere voorwaarden hebben dan een basisbewerking.</li><li>Sla een voorbeeld op en bekijk het buiten de editor. Inspecteer elke frame-rand, eventuele eindkaart, timing van ondertitels en geluid.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Ga er niet van uit dat CapCut altijd een watermerk toevoegt, altijd een account vereist of elke bewerking uploadt. Voorwaarden kunnen verschillen per functie, versie en dienst. Pas dezelfde sample-exportcontrole toe op elk alternatief, inclusief ReelClip, voordat je een volledig project start."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Bewaar de bron en het project"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sla je originele beeldmateriaal en eventueel herbruikbaar project apart op van de afgewerkte video. Als je later van editor wisselt, geven die originelen je het beste uitgangspunt. Voor de beeld- en timingcontroles die nodig zijn voor korte posts, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">verticale video bewerken op iPhone</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

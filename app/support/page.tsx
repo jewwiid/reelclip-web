@@ -1,3 +1,4 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import { Nav } from "@/components/nav";
 import { Footer } from "@/components/footer";
@@ -5,23 +6,27 @@ import {
   BreadcrumbJsonLd,
   FaqPageJsonLd,
 } from "@/components/structured-data";
-import { getDictionary } from "@/i18n/server";
+import { getDictionary, getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "Support · ReelClip",
   description:
     "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
-  alternates: { canonical: "https://reelclips.app/support" },
+  alternates: { canonical: "https://www.reelclips.app/support" },
   openGraph: {
     title: "Support · ReelClip",
     description:
       "Get help with ReelClip. Bug reports, feature requests, and account questions. We respond within one business day.",
-    url: "https://reelclips.app/support",
+    url: "https://www.reelclips.app/support",
     type: "website",
   },
 };
 
 const CONTACT_EMAIL = "jude@reelclips.app";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/support", pageMetadata);
+}
 
 export default async function SupportPage() {
   const { support } = await getDictionary();
@@ -29,8 +34,8 @@ export default async function SupportPage() {
     <>
       <BreadcrumbJsonLd
         items={[
-          { name: "Home", url: "https://reelclips.app" },
-          { name: "Support", url: "https://reelclips.app/support" },
+          { name: "Home", url: "https://www.reelclips.app" },
+          { name: "Support", url: "https://www.reelclips.app/support" },
         ]}
       />
       <FaqPageJsonLd items={support.faqs} />

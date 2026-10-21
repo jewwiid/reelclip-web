@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "Jak przyciąć wideo na iPhonie: przyciąć lub podzielić na klipy",
+  "description": "Naucz się przycinać jedno wideo w Zdjęciach, dzielić w wybranym punkcie w iMovie lub używać ReelClip do wyboru i przeglądania kilku klipów.",
+  "updatedAt": "2026-10-21",
+  "publishedAt": "2026-10-21",
+  "category": "Instrukcja",
+  "primaryKeyword": "jak przyciąć wideo na iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Aby szybko przyciąć jedno wideo, otwórz je w Zdjęciach, dotknij Edytuj, dostosuj uchwyty początku i końca, dotknij Gotowe i wybierz Zapisz wideo lub Zapisz wideo jako nowy klip. Aby podzielić klip w wybranym punkcie wewnątrz projektu filmu, użyj polecenia Podziel w iMovie. Aby przygotować kilka fragmentów z długiego nagrania, użyj w ReelClip funkcji Cut dla partii lub Slice dla momentów, które wybierzesz."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wybierz odpowiedni rodzaj cięcia"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Przytnij początek lub koniec:</strong> Użyj Zdjęć, aby szybko skrócić jedno nagranie. Wybierz Zapisz wideo jako nowy klip, jeśli chcesz zachować oryginał obok niego.</li><li><strong class=\"text-text\">Podziel w punkcie na osi czasu:</strong> <!-- -->Użyj iMovie, gdy chcesz podzielić klip wewnątrz projektu filmu i kontynuować układanie sekcji tam.</li><li><strong class=\"text-text\">Przygotuj kilka samodzielnych klipów:</strong> <!-- -->Użyj ReelClip, gdy chcesz zestaw wybranych lub równomiernie rozłożonych momentów z nagrania źródłowego, a następnie sprawdź każdy wynik przed eksportem.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przytnij jedno wideo w Zdjęciach"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Otwórz Zdjęcia i wybierz wideo.</li><li>Dotknij Edytuj.</li><li>Przeciągnij uchwyty na końcach przeglądarki klatek, aby ustawić nowe czasy początku i końca.</li><li>Podglądnij zaznaczenie, a następnie dotknij Gotowe.</li><li>Wybierz Zapisz wideo, aby zachować przyciętą wersję, lub Zapisz wideo jako nowy klip, aby zachować obie wersje.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zdjęcia zmieniają początek i koniec wybranego wideo. Szczegółowe instrukcje Apple znajdziesz tutaj:<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">Przewodnik Apple dotyczący przycinania wideo na iPhonie</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Podziel wideo w wybranym punkcie w iMovie"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W projekcie iMovie przesuń głowicę odtwarzania do punktu podziału. Wybierz klip wideo, dotknij Działania, a następnie dotknij Podziel. Możesz też wybrać klip i przeciągnąć palcem w dół przez głowicę odtwarzania. Dwie sekcje pozostają w projekcie, podczas gdy kontynuujesz edycję. Zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">Instrukcje Apple dotyczące dzielenia klipu w iMovie</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zrób partię klipów w ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zaimportuj źródłowy film z Photos lub Files. Aby uzyskać kolejne klipy o równym czasie trwania z całego nagrania, wybierz<!-- --> <strong class=\"text-text\">Cut</strong>, ustaw<!-- --> <strong class=\"text-text\">Space</strong> na<!-- --> <strong class=\"text-text\">No gap</strong>, wybierz<!-- --> <strong class=\"text-text\">Clip amount</strong> i sprawdź wynikowe <strong class=\"text-text\">Clip duration</strong>. Stuknij<!-- --> <strong class=\"text-text\">Add</strong>, aby umieścić zaznaczenie w Planned Clips. Wybierz <strong class=\"text-text\">Slice</strong> <!-- -->aby samodzielnie wybrać czasy rozpoczęcia i zakończenia. Odtwórz każdy zaplanowany klip i dostosuj dowolny cięcie, które przerywa zdanie lub akcję."
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W tym przewodniku pokazano przepis i podgląd funkcji Cut na równe klipy. Nie pokazano ukończonego zapisywania do Zdjęć. ReelClip jest darmowy do importowania i podglądu; zapisywanie lub eksportowanie pracy wymaga trybu Creator. Aplikacja przygotowuje pliki wideo, ale nie publikuje ich na TikTok, Instagram ani YouTube. Dłuższy przepływ pracy w mediach społecznościowych znajdziesz w<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">poradniku: jak przygotować klipy z długiego wideo na TikTok</a>, lub przeczytaj<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/video-length-social-media-reach\">przewodnik dzielenia nagrania na równe klipy</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Której opcji użyć?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Użyj Photos do szybkiego jednego przycięcia, iMovie do edycji na osi czasu z precyzyjnym punktem podziału, a ReelClip, gdy chcesz wybrać lub zrobić partię krótkich fragmentów z dłuższego nagrania. Zachowaj oryginał, dopóki nie przejrzysz wersji, które planujesz udostępnić."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

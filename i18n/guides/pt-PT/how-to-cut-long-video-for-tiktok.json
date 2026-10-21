@@ -1,0 +1,206 @@
+{
+  "slug": "how-to-cut-long-video-for-tiktok",
+  "title": "Como cortar um vídeo longo para o TikTok no iPhone",
+  "description": "Prepare clipes a partir de uma gravação longa com os controlos Cut do ReelClip, reveja o enquadramento e as legendas e, em seguida, guarde os vídeos que pretende carregar para o TikTok.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Tutorial",
+  "primaryKeyword": "como cortar um vídeo longo para o tiktok",
+  "readMinutes": 5,
+  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
+  "schemaVersion": 1,
+  "locale": "pt-PT",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Tem um vídeo de 12 minutos com a sua cara em plano, uma gravação de uma transmissão ou um vlog longo — e quer extrair três ou quatro clipes prontos para o TikTok. Pode preparar esses clipes diretamente no seu iPhone, rever cada momento e guardar os que pretende publicar. O tempo que demora depende da gravação, do seu dispositivo e da quantidade de edição que fizer."
+    },
+    {
+      "kind": "tutorial",
+      "id": "cut-clips"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "O que precisa"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>A longa gravação já na sua biblioteca Fotos, ou na app Files.</li><li>Um iPhone com iOS 17 ou posterior, conforme indicado para a versão atual da app.</li><li><a class=\"text-accent hover:underline\" href=\"/pt-PT/\">ReelClip</a> (gratuito para importar e pré-visualizar; guardar ou exportar requer o modo Creator). As funcionalidades de IA têm requisitos adicionais de hardware e software, incluindo Apple Intelligence compatível e ativada. Verifique a disponibilidade no seu dispositivo.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "O fluxo de trabalho em 7 passos"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "1. Importe a gravação para o ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Importe a sua gravação de Fotos ou de Files. O ReelClip copia-a para a sua sandbox privada — o ficheiro original em Fotos permanece inalterado e nada é carregado para a internet."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "2. Escolha o modo de corte certo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Existem quatro modos de corte. Escolha o que corresponde ao seu material de origem:"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Cut</strong> — divide o vídeo em partes de duração igual. Ideal quando a gravação tem segmentos claros (secções de entrevista, itens de lista, capítulos).</li><li><strong class=\"text-text\">Transcript</strong> — executa reconhecimento de voz no dispositivo, encontra as pausas e permite cortar os silêncios. Ideal para conteúdo de conversa direta e podcasts.</li><li><strong class=\"text-text\">Slice</strong> — escolhe um momento manualmente, move a seleção e refina o início e o fim.</li><li><strong class=\"text-text\">AI</strong> — descreve o que pretendes (\"o momento mais engraçado\", \"a parte onde explico os preços\", \"a frase mais citável\") e o Apple Intelligence no dispositivo pode sugerir momentos para reveres, quando a funcionalidade estiver disponível no teu dispositivo.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "3. Reveja cada clip planeado"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "É este o passo que as pessoas saltam, e é o que mais importa. Toca em cada clip planeado, vê-o do início ao fim, e decide se o manténs, ajustas ou rejeitas. O ReelClip nunca exporta automaticamente. Tu decides o que sai."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "4. Ajusta cada clip ao comprimento do TikTok"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dá a cada clip uma ideia completa. Aperta o início, remove qualquer introdução desnecessária e mantém contexto suficiente para quem nunca viu a gravação completa. Verifica os limites de upload atuais do TikTok antes de publicar; não existe um comprimento ideal universal."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "5. Verifica o enquadramento para uma publicação vertical"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Se o teu vídeo de origem é horizontal, tens duas opções: exportar como está, ou cortar para uma publicação vertical no teu editor final. Escolher um intervalo de tempo e escolher o enquadramento da imagem são decisões separadas; inspeciona ambas antes de publicar."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "6. Guarda o lote nas Fotografias"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Toca em <strong class=\"text-text\">Review</strong> e aguarda que os clipes terminem de preparar. Reproduz os resultados e, em seguida, escolhe a ação de guardar para Fotos. Aguarda a confirmação de conclusão antes de sair da app. Guardar ou exportar um vídeo concluído requer o modo Creator; os originais permanecem intactos."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "7. Carrega no TikTok a partir das Fotografias"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Abre o TikTok, toca no botão de mais, depois<!-- --> <strong class=\"text-text\">Upload</strong>. Escolhe o primeiro clip da tua biblioteca. O TikTok irá obtê-lo do teu dispositivo — o ReelClip nunca teve acesso à tua conta do TikTok e nunca carregou nada para os servidores do TikTok."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Erros comuns"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Saltar a revisão.</strong> O modo de IA é bom, mas não perfeito. Veja sempre cada clipe do início ao fim antes de exportar.</li><li><strong class=\"text-text\">Carregar o ficheiro original de 12 minutos.</strong> Guarde a fonte e escolha uma versão que se adeqúe à história e ao destino. Um clipe mais curto não garante mais visualizações.</li><li><strong class=\"text-text\">Sem legendas.</strong> As legendas ajudam as pessoas a acompanhar a fala quando não podem ouvir. Verifique a ortografia e a sincronização no seu editor final antes de publicar.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "O que fazer depois do TikTok"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Antes de publicar em várias plataformas no YouTube Shorts ou Instagram Reels, verifique os requisitos atuais de formato e duração de cada plataforma. O mesmo momento pode precisar de enquadramento ou duração diferentes para cada destino. Leia o nosso <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/video-length-social-media-reach\">guia sobre duração de vídeo e alcance</a> <!-- -->para as diferenças entre plataformas, ou veja<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/extract-clip-from-podcast\">como extrair destaques de podcasts</a> <!-- -->para um fluxo de trabalho relacionado."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

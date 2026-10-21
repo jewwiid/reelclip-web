@@ -1,0 +1,102 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "Come montare video verticali su iPhone (Reels, TikTok, Shorts)",
+  "description": "Scegli e affina i momenti dalle riprese in verticale in ReelClip, verifica i sottotitoli e l'inquadratura, e salva le clip che vuoi pubblicare.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "Tutorial",
+  "primaryKeyword": "come montare video verticali su iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "schemaVersion": 1,
+  "locale": "it",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Inizia con una ripresa in verticale e scegli i momenti che vuoi conservare. In ReelClip, Slice seleziona un intervallo di tempo; non decide quale parte dell'immagine debba adattarsi a un diverso rapporto d'aspetto. Verifica l'inquadratura separatamente prima di pubblicare."
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Scegli un momento con Slice"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importa la ripresa da Foto o Files, poi apri Clip.</li><li>Scegli Slice. Sposta la selezione sulla parte che vuoi conservare.</li><li>Regola l'inizio e la fine in modo che l'azione o la frase abbiano abbastanza contesto.</li><li>Tocca Add, poi ripeti per qualsiasi altro momento che desideri.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La demo usa un breve campione e tre selezioni. La tua ripresa può richiedere un numero o una durata diversi di clip. Guarda ogni selezione; un taglio che funziona visivamente può comunque interrompere una frase parlata."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Verifica l'immagine e le parole"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Riproduci le clip pianificate e controlla i loro fotogrammi iniziali e finali. Un sorgente in verticale ha già un'immagine verticale; un sorgente in orizzontale richiede una decisione di inquadratura separata. Modificare l'intervallo di tempo selezionato non ritaglia automaticamente l'immagine per un Reel o uno Short."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Per riprese parlate, verifica anche la trascrizione e i sottotitoli. Correggi nomi e termini specialistici, poi controlla che il testo rimanga leggibile sull'immagine. Vedi il <a class=\"text-accent hover:underline\" href=\"/it/blog/extract-clip-from-podcast\">flusso di lavoro per la trascrizione</a> <!-- -->per un esempio con il parlato."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Salva, poi carica"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Scegli Review e ispeziona l'output preparato prima di salvarlo in Photos. Salvare o esportare un video finito richiede la modalità Creator. Attendi la conferma del salvataggio, poi apri l'app di destinazione e carica il file salvato autonomamente. Verifica i requisiti di caricamento attuali se modifichi il formato di output."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Se vuoi clip a intervalli regolari invece di momenti scelti manualmente, usa <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">il flusso di lavoro Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

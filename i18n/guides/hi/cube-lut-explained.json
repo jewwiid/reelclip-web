@@ -1,0 +1,146 @@
+{
+  "slug": "cube-lut-explained",
+  "title": ".cube LUT फ़ाइल क्या है? प्रारूप, टेबल आकार और iPhone आयात",
+  "description": "1D और 3D लुकअप टेबल को समझें, 17, 33 और 65 का क्या अर्थ है, और ReelClip में .cube फ़ाइल का परीक्षण कैसे करें बिना किसी क्रिएटिव लुक को कैमरा कन्वर्ज़न से भ्रमित किए।",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "ट्यूटोरियल",
+  "primaryKeyword": "what is a .cube lut file",
+  "readMinutes": 4,
+  "sourceFingerprint": "57aa682fc49a2fdd1adfcc547e03b87ca20cd886b72c6fe390a8c8af41d532c3",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": ".cube फ़ाइल एक लुकअप टेबल संग्रहीत करती है: रंग बदलने के लिए उपयोग किए जाने वाले संख्यात्मक मैपिंग का एक सेट। यह एक तकनीकी कैमरा कन्वर्ज़न या एक क्रिएटिव लुक का वर्णन कर सकती है। केवल फ़ाइलनाम आपको नहीं बताता कि यह कौन सा है, या यह किस रिकॉर्डिंग प्रोफ़ाइल की अपेक्षा करती है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "1D और 3D टेबल"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "1D LUT प्रत्येक रंग चैनल को स्वतंत्र रूप से मैप करती है। 3D LUT लाल, हरे और नीले के संयोजनों को मैप करती है, इसलिए एक आउटपुट चैनल एक से अधिक इनपुट चैनल पर निर्भर कर सकता है। दोनों प्रकार मिस्ड फोकस को ठीक नहीं करते, शोर नहीं हटाते, या रिकॉर्डिंग के दौरान क्लिप किए गए विवरण को पुनर्स्थापित नहीं करते।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": ".cube प्रारूप सादा पाठ है। हेडर टेबल और उसके इनपुट रेंज का वर्णन करते हैं, जिसके बाद रंग मानों की पंक्तियाँ होती हैं। फ़ाइल एक्सटेंशन संगतता की गारंटी नहीं है: संपादक विभिन्न टेबल आकार, हेडर वेरिएंट और टेबल के संयोजनों का समर्थन कर सकते हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "आकार संख्या का क्या अर्थ है"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "3D टेबल के लिए, LUT_3D_SIZE एक किनारे की लंबाई देता है। 17-पॉइंट क्यूब में 17 × 17 × 17 = 4,913 एंट्री होती हैं; 33-पॉइंट क्यूब में 35,937; 65-पॉइंट क्यूब में 274,625। ये संख्याएँ सैंपलिंग ग्रिड का वर्णन करती हैं, वीडियो रिज़ॉल्यूशन नहीं।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एक बड़ी टेबल को और अधिक एंट्री की आवश्यकता होती है, लेकिन यह स्वचालित रूप से एक बेहतर लुक नहीं है। फ़ाइल आकार उसके पाठ की सटीकता और फ़ॉर्मेटिंग पर भी निर्भर करता है। एक फ़ाइल चुनें जो आपके संपादक द्वारा समर्थित हो और स्रोत प्रोफ़ाइल के लिए उपयुक्त हो; केवल सबसे बड़ी संख्या के आधार पर न चुनें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "इरादित इनपुट की जाँच करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Apple Log, D-Log M या S-Log3 के लिए बनाया गया LUT उस विशेष स्रोत व्याख्या की अपेक्षा करता है। एक रचनात्मक LUT जो पहले से ही सामान्यीकृत छवि के लिए है, वह कुछ अलग की अपेक्षा करता है। यदि आपका संपादक पहले से ही कैमरा रूपांतरण लागू करता है, तो दूसरा लागू करने से अत्यधिक कंट्रास्ट या रंग बदलाव हो सकते हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Apple का LUT दस्तावेज़ीकरण</a> कैमरा LUT और कस्टम रचनात्मक प्रभावों के बीच अंतर समझाता है। इसके Final Cut Pro नियंत्रण ReelClip के इंटरफ़ेस से अलग हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iPhone पर आयात करें और परीक्षण करें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>यदि यह ZIP है तो डाउनलोड को निकालें और .cube फ़ाइल को Files से सुलभ कहीं सहेजें।</li><li>ReelClip में अपना वीडियो आयात करें। Adjust &amp; Style खोलें, LUTs चुनें, फिर Import LUT का उपयोग करें।</li><li>लुक चुनें और उसका पूर्वावलोकन मूल के साथ तुलना करें। तकनीकी रूपांतरण के लिए फ़ाइल प्रदाता के निर्देशों का पालन करें; अपनी फुटेज के अनुसार एक रचनात्मक लुक को समायोजित करें।</li><li>एक परियोजना में लुक लागू करने से पहले एक छोटा रेंडर किया गया नमूना देखें। अपने iPhone पर वीडियो सहेजने के लिए Creator मोड की आवश्यकता होती है।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-apply-lut-on-iphone\">LUT आयात वॉकथ्रू</a> एक वास्तविक रचनात्मक-लुक आयात और शक्ति समायोजन दिखाता है। यह हर कैमरा रूपांतरण या हर .cube variant को सत्यापित नहीं करता है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "यदि फ़ाइल आयात नहीं होती"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "सत्यापित करें कि आपने निकाली गई .cube फ़ाइल चुनी है, कि डाउनलोड पूरा हुआ है, और कि प्रदाता आपके संपादक का समर्थन करता है। एक संयुक्त शेपर/3D टेबल या असमर्थित आकार को एक अलग संगत निर्यात की आवश्यकता हो सकती है। फ़ाइल को लोड करने के लिए संख्यात्मक पंक्तियों को संपादित करने के बजाय मूल डाउनलोड रखें।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "अन्वेषण के लिए स्रोतों के लिए, <a class=\"text-accent hover:underline\" href=\"/hi/blog/best-free-luts-2026\">मुफ़्त LUT संसाधन</a> देखें। अपनी स्वयं की रिकॉर्डिंग पर उनका परीक्षण करने के लिए उपयुक्त फ़ाइलों का एक छोटा सेट से शुरुआत करें।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -1,0 +1,173 @@
+{
+  "slug": "best-free-luts-2026",
+  "title": "LUT gratuiti nel 2026: scegli la giusta conversione camera e il look creativo",
+  "description": "Trova risorse LUT ufficiali per camera e confronta footage flat reale e look starter originali usando uno slider prima e dopo.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Riepilogo",
+  "primaryKeyword": "migliori lut gratuiti 2026",
+  "readMinutes": 7,
+  "sourceFingerprint": "b61b4575244190d0d481ff36cbb73bcc9824131ad1bd29ac39121bf81c6912de",
+  "schemaVersion": 1,
+  "locale": "it",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Una LUT gratuita utile inizia con il giusto input. Una conversione camera interpreta una particolare curva di registrazione e gamut; un look creativo cambia l'aspetto dopo quell'interpretazione. Scegliere solo per marca di camera o per un nome file cinematografico può darti highlight tagliati, contrasto errato o spostamenti cromatici indesiderati. Le risorse qui sotto sono state verificate il 20 ottobre 2026."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Inizia dalle risorse ufficiali della tua camera"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\">La directory LUT ufficiale DJI</a> <!-- -->elenca i download per prodotto. Abbina la camera e la modalità di registrazione esatte. D-Log, D-Log M e D-Log 2 sono profili separati; non si deve assumere che una conversione per uno sia corretta per un altro. Il footage standard non necessita di una conversione Log."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://pro.sony/ue_US/technology/professional-video-lut-look-up-table\">Le risorse LUT Sony</a> <!-- -->identificano la combinazione di registrazione prevista. Abbina sia la curva, come S-Log3, che il gamut, come S-Gamut3.Cine. Una tabella S-Log3 non è una conversione universale per S-Log2 o HLG. Scarica dal titolare dei diritti e leggi le istruzioni fornite con il file scelto."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\">La guida LUT Apple</a> <!-- -->distingue le LUT camera dagli effetti LUT creativi e elenca Apple Log e Apple Log 2 separatamente. Usa il profilo effettivamente registrato nel file invece di assumere che ogni clip dallo stesso iPhone usi la stessa codifica."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Una raccolta creativa gratuita da esplorare"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://smallhd.com/blogs/community/free-3d-lut-pack-cinematic-looks-smallhd\">La collezione Cinematic Looks di SmallHD</a> <!-- -->fornisce look ispirati al cinema da provare su monitor o in post. Verifica l'input previsto di ogni tabella prima di applicarla. Un pacchetto creativo scaricabile e una conversione Log tecnica risolvono problemi diversi. L'uso gratuito non concede automaticamente il permesso di ridistribuire i file LUT sottostanti in un altro pacchetto o app."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Look starter originale di ReelClip: in sviluppo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Stiamo testando sei candidati LUT creativi originali: Clean Natural, Soft Portrait, Warm Daylight, Cool Daylight, Gentle Cinema e Classic Mono. Le loro formule sono state create per ReelClip anziché copiate o adattate da una tabella LUT di terze parti. Si aspettano sRGB codificato dopo una normalizzazione separata della camera e sono pensati per la post-produzione SDR. Non sono conversioni Log autonome né LUT per il mastering HDR."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Le collezioni Cinema, analog e travel sono in valutazione per essere incluse nel piano a pagamento di ReelClip, senza un acquisto separato di pacchetto. Queste collezioni sono ancora in sviluppo; questo articolo non ne annuncia la disponibilità nell'attuale versione dell'App Store. Il nostro starter si riferisce alla collezione LUT di base, non a una modifica dei requisiti di acquisto dell'app."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Look ispirati alla pellicola per video Log e Rec.709"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Un look ispirato alla pellicola può modellare colore, contrasto e punto nero dopo la normalizzazione della camera. I nostri candidati analogici includono palette di stampa calde e fredde, colori istantanei pastello e monocromia opaca. Si tratta di approssimazioni creative originali, non riproduzioni misurate di una pellicola Kodak, Fujifilm o di altro stock nominato. Un effetto completo di emulazione pellicola può includere anche grana, alazione e texture; un LUT solo colore non contiene quegli effetti."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Per footage Log, usa prima la corretta curva della camera e la conversione del gamut, poi applica il look creativo ispirato alla pellicola. Per footage normale Rec.709, salta la conversione Log e lascia che la pipeline con gestione del colore converta nella codifica di input dichiarata dal look. Lo stesso look creativo originale può servire entrambe le fonti dopo questa preparazione. Un'immagine generata dall'aspetto piatto non è un sostituto per footage Log genuino della camera o per una conversione validata."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Confronta sei fotogrammi di footage reale qui sotto. Il soggetto, la composizione e l'illuminazione rimangono uguali su entrambi i lati: gli esempi piatti ricevono un bilanciamento illustrativo seguito dal LUT starter originale nominato. L'esempio di architettura riceve solo un look monocromatico sulla sua sorgente pronta per la visualizzazione. Questi esempi mostrano cambiamenti cromatici creativi, non una promessa che ogni camera o esposizione produrrà lo stesso risultato."
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Applica un LUT nell'ordine corretto"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Identifica la curva di registrazione e il gamut della sorgente. Conserva i suoi metadati.</li><li>Normalizza Log o HDR attraverso l'interpretazione appropriata della sorgente o la trasformazione della camera, una sola volta.</li><li>Scegli un LUT creativo la cui codifica di input corrisponda all'immagine normalizzata. Rec.709 e sRGB condividono i primari ma hanno comportamenti di trasferimento diversi.</li><li>Bilancia esposizione e bilanciamento del bianco, regola l'intensità creativa in base alla ripresa, e controlla volti, luci alte e colori saturi.</li><li>Rivedi una clip esportata oltre all'anteprima prima di applicare il look a un intero progetto.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "In ReelClip, mantieni la trasformazione della camera separata dal look creativo. Per il flusso di importazione, vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-apply-lut-on-iphone\">come applicare un LUT su iPhone</a>. Per i formati di tabella e le limitazioni, vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/cube-lut-explained\">cosa contiene un LUT .cube</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Scegli la qualità prima della quantità"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Testa alcuni look sul footage che riprendi effettivamente: ritratti, luce diurna, interni e scene notturne. Cerca gradienti uniformi, colori pelle utili e luci alte controllate. Un catalogo ampio non può compensare un profilo di input sbagliato. Conserva il download originale, il suo autore e la sua licenza insieme a qualsiasi libreria personale che crei. Quando facciamo riferimento a un particolare influsso, l'attribuzione descrive quel influsso; non sostituisce il permesso di distribuire il lavoro di qualcun altro."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

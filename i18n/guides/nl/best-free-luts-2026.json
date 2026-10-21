@@ -1,0 +1,173 @@
+{
+  "slug": "best-free-luts-2026",
+  "title": "Gratis LUT's in 2026: kies de juiste camera-conversie en creatieve look",
+  "description": "Vind officiële camera-LUT-bronnen en vergelijk echt flat-footage en originele starter-looks met een voor-en-na-slider.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "Overzicht",
+  "primaryKeyword": "beste gratis luts 2026",
+  "readMinutes": 7,
+  "sourceFingerprint": "b61b4575244190d0d481ff36cbb73bcc9824131ad1bd29ac39121bf81c6912de",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Een nuttige gratis LUT begint met de juiste invoer. Een camera-conversie interpreteert een bepaalde opnamecurve en gamut; een creatieve look verandert het uiterlijk na die interpretatie. Kiezen op basis van cameramerk of een cinematische bestandsnaam alleen kan leiden tot afgeknipte highlights, incorrect contrast of ongewenste kleurverschuivingen. De bronnen hieronder zijn gecontroleerd op 20 oktober 2026."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Begin met de officiële bronnen van je camera"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\">DJI's officiële LUT-directory</a> <!-- -->lijst downloads per product. Match de exacte camera en opnamemodus. D-Log, D-Log M en D-Log 2 zijn aparte profielen; een conversie voor de ene mag niet als correct voor de andere worden aangenomen. Standaard-footage heeft geen Log-conversie nodig."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://pro.sony/ue_US/technology/professional-video-lut-look-up-table\">Sony's LUT-bronnen</a> <!-- -->identificeren de beoogde opnamecombinatie. Match zowel de curve, zoals S-Log3, als de gamut, zoals S-Gamut3.Cine. Een S-Log3-tabel is geen universele conversie voor S-Log2 of HLG. Download van de rechthebbende en lees de instructies die bij het gekozen bestand horen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\">Apple's LUT-gids</a> <!-- -->onderscheidt camera-LUT's van creatieve LUT-effecten en somt Apple Log en Apple Log 2 apart op. Gebruik het profiel dat daadwerkelijk in het bestand is opgenomen, in plaats van aan te nemen dat elke clip van dezelfde iPhone dezelfde encoding gebruikt."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Een gratis creatieve collectie om te verkennen"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://smallhd.com/blogs/community/free-3d-lut-pack-cinematic-looks-smallhd\">SmallHD's Cinematic Looks-collectie</a> <!-- -->biedt film-geïnspireerde looks om uit te proberen op een monitor of in post. Controleer de beoogde invoer van elke tabel voordat je deze toepast. Een downloadbare creatieve pack en een technische Log-conversie lossen verschillende problemen op. Gratis gebruik geeft niet automatisch toestemming om de onderliggende LUT-bestanden te herdistribueren in een andere pack of app."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip's originele starter: in ontwikkeling"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "We testen zes originele creatieve LUT-kandidaten: Clean Natural, Soft Portrait, Warm Daylight, Cool Daylight, Gentle Cinema en Classic Mono. Hun formules zijn speciaal voor ReelClip ontwikkeld en niet gekopieerd of aangepast van een LUT-tabel van derden. Ze verwachten gecodeerde sRGB na afzonderlijke cameranormalisatie en zijn bedoeld voor SDR-bewerking. Het zijn geen zelfstandige Log-conversies of HDR-mastering-LUTs."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Ook cinema-, analoog- en reiscollecties worden geëvalueerd voor opname in het betaalde abonnement van ReelClip, zonder afzonderlijke aankoop van een pakket. Deze collecties zijn nog in ontwikkeling; dit artikel kondigt hun beschikbaarheid niet aan in de huidige App Store-release. Onze starter verwijst naar de basis-LUT-collectie, niet naar een wijziging in de aankoopvereisten van de app."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Film-geïnspireerde looks voor Log- en Rec.709-video"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Een film-geïnspireerde look kan kleur, contrast en het zwartpunt vormgeven na cameranormalisatie. Onze analoog-kandidaten omvatten warme en koele printpaletten, pastel instant color en mat monochrome. Dit zijn originele creatieve benaderingen, geen gemeten reproducties van een Kodak, Fujifilm of ander genoemd filmtype. Een volledig film-emulatie-effect kan ook grain, halation en textuur omvatten; een LUT die alleen kleur bevat, bevat die effecten niet."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor Log-materiaal: gebruik eerst de juiste cameracurve en gamut-conversie, pas daarna de creatieve film-look toe. Voor normaal Rec.709-materiaal: sla de Log-conversie over en laat de kleurbeheerde pipeline converteren naar de door de look gedeclareerde invoercodering. Dezelfde originele creatieve look kan na die voorbereiding voor beide bronnen dienen. Een vlak ogend gegenereerd beeld is geen vervanging voor echt camera-Log-materiaal of een gevalideerde conversie."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vergelijk hieronder zes frames met echt materiaal. Het onderwerp, de compositie en de belichting blijven aan beide zijden gelijk: de vlakke voorbeelden ontvangen een illustratieve balans gevolgd door de genoemde originele starter-LUT. Het architectuurvoorbeeld ontvangt alleen een monochrome look op zijn display-ready bron. Deze voorbeelden tonen creatieve kleurveranderingen, geen garantie dat elke camera of belichting hetzelfde resultaat oplevert."
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Pas een LUT in de juiste volgorde toe"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Identificeer de opnamecurve en gamut van de bron. Bewaar de metadata.</li><li>Normaliseer Log of HDR via de juiste broninterpretatie of cameratransform, eenmaal.</li><li>Kies een creatieve LUT waarvan de invoercodering overeenkomt met het genormaliseerde beeld. Rec.709 en sRGB delen primaires maar hebben verschillend overdrachtsgedrag.</li><li>Balanceer belichting en witbalans, pas creatieve sterkte aan op de shot, en controleer gezichten, highlights en verzadigde kleuren.</li><li>Bekijk een geëxporteerd fragment evenals de preview voordat je de look op een heel project toepast.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Houd in ReelClip de cameratransform gescheiden van de creatieve look. Voor het importwerkproces, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">hoe je een LUT toepast op iPhone</a>. Voor tabelformaten en beperkingen, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/cube-lut-explained\">wat een .cube-LUT bevat</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies kwaliteit boven kwantiteit"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Test een paar looks op het materiaal dat je daadwerkelijk filmt: portretten, daglicht, interieurs en nachtscènes. Zoek naar vloeiende overgangen, bruikbare huidtinten en gecontroleerde highlights. Een groot catalogus kan niet compenseren voor het verkeerde invoerprofiel. Bewaar de originele download, de auteur en de licentie naast elke persoonlijke bibliotheek die je maakt. Wanneer we een specifieke invloed noemen, beschrijft attributie die invloed; het vervangt geen toestemming om het werk van iemand anders te distribueren."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

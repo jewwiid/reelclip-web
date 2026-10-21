@@ -1,0 +1,20 @@
+{
+  "provider": "TelemetryDeck",
+  "website_app_name": "ReelClip Website",
+  "website_app_id": "16925097-703F-4E97-BD7F-5E32AEB57E7C",
+  "native_app_id": "CB5186DB-79BD-4561-8F5E-0D6D6153027F",
+  "dashboard": "https://dashboard.telemetrydeck.com/o/F58F7E1B-EAA3-4074-BBCF-E2CA217983EA/apps/16925097-703F-4E97-BD7F-5E32AEB57E7C",
+  "ingest": "https://nom.telemetrydeck.com/v3/w/",
+  "events": {
+    "pageview": "One view per initial load or pathname navigation",
+    "ReelClip.Web.downloadClicked": "Outbound App Store intent; placement and website page group",
+    "ReelClip.Web.tutorialPlayed": "First play per mounted tutorial",
+    "ReelClip.Web.tutorialReachedEnd": "First reached-end event per mounted tutorial; not proof every second was watched"
+  },
+  "test_mode": "Non-production hosts and td_test=true are marked as test events. Exclude these from acquisition analysis.",
+  "privacy": "No client cookies or persistent IDs. Only pathname, cleaned referrer, language, approved UTM tags and categorical event parameters are sent. No form values or arbitrary query parameters.",
+  "identity_limit": "Web visitor identifiers reset daily and cannot link website visits to native app installations.",
+  "read_status": "Dashboard verified via existing signed-in account. No new query API credentials were created. Daily numeric website reporting requires an actual dashboard read/export or a separately authorized API connection; missing metrics are unknown.",
+  "apple": "Keep the verified website_main / website_guides Apple campaign links and existing App Store analytics collector.",
+  "verification": "Browser pageview and App Store click appeared in Test Mode with correct path, campaign and placement. tutorialPlayed and tutorialReachedEnd arrived for actual Cut/LUT playback. Public deployment and live Cut playback verified; test data excluded from production analysis."
+}
