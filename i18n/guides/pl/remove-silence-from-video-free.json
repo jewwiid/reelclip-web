@@ -1,13 +1,13 @@
 {
   "slug": "remove-silence-from-video-free",
   "title": "Jak usunąć ciszę z wideo na iPhonie",
-  "description": "Użyj funkcji kontroli pauz w trybie Transcript ReelClip, sprawdź timing i obejrzyj edytowane wideo. Podgląd przed eksportem; zapisanie wymaga planu Creator.",
+  "description": "Użyj kontroli pauz w trybie Transcript ReelClip, sprawdź timing i obejrzyj edytowane wideo. Podgląd przed eksportem; zapisanie gotowego wideo na iPhone wymaga trybu Creator.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Instrukcja",
   "primaryKeyword": "remove silence from video iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "64763fe44f4cca427135d38312396cb2ec5a4c8748045f6e5886b095fb3f471e",
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Długie przerwy mogą sprawić, że wideo z mówieniem będzie się wydawać powolne. Tryb Transcript w ReelClip pozwala usuwać pauzy i przeglądać efekt na iPhonie. Obejrzyj podgląd edycji przed podjęciem decyzji o eksporcie; zapisanie wyniku wymaga planu Creator."
+      "html": "Długie przerwy mogą sprawić, że wideo z mówieniem będzie się wydawało powolne. Tryb Transcript w ReelClip pozwala usuwać pauzy i przeglądać efekt na iPhonie. Obejrzyj edycję przed podjęciem decyzji o eksporcie; zapisanie wyniku wymaga trybu Creator."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Zaimportuj wideo i wybierz Transcript. Poczekaj na zakończenie transkrypcji.</li><li>Otwórz Audio, następnie znajdź Cleanup i włącz Remove pauses.</li><li>Rozwiń Cut timing, aby sprawdzić próg pauzy i przestrzeń pozostawioną wokół mowy.</li><li>Dotknij ponownie Audio, aby zamknąć panel i sprawdzić pauzy w transkrypcji.</li><li>Wybierz Review video, aby przygotować i odtworzyć edytowany wynik.</li>"
+      "html": "<li>Importuj wideo i wybierz Transcript. Poczekaj na zakończenie transkrypcji.</li><li>Otwórz Audio, następnie znajdź Cleanup i włącz Remove pauses.</li><li>Rozwiń Cut timing, aby sprawdzić próg pauzy i przestrzeń pozostawioną wokół mowy.</li><li>Dotknij ponownie Audio, aby zamknąć jego panel i sprawdzić pauzy w transkrypcji.</li><li>Wybierz Review video, aby przygotować i odtworzyć edytowany wynik.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "W nagranym przykładzie Cut pauses longer than jest ustawione na 0,35 s. To tylko przykład, nie ustawienie potrzebne w każdym nagraniu. Niższy próg usuwa krótsze przerwy; zostaw wystarczająco dużo miejsca na naturalną mowę i pauze, które niosą znaczenie."
+      "html": "W nagranym przykładzie Cut pauzy dłuższe niż ustawiono na 0,35 s. To przykład, a nie ustawienie, które każde nagranie potrzebuje. Niższy próg usuwa krótsze przerwy; zostaw wystarczająco dużo miejsca dla naturalnej mowy i pauz, które niosą znaczenie."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Posłuchaj cięć"
+      "html": "Posłuchaj przy cięciach"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Użyj słuchawek lub głośnika, aby sprawdzić początek i koniec każdej frazy. Jeśli oddech lub koniec słowa brzmią jakby były ucięte, dostosuj czas i sprawdź ponownie. Sprawdź też transkrypcję; błędy rozpoznawania mogą sprawić, że edycja zachowa się inaczej, niż się spodziewasz."
+      "html": "Użyj słuchawek lub głośnika, aby sprawdzić początek i koniec każdej frazy. Jeśli oddech lub koniec słowa brzmią jakby zostały ucięte, dostosuj czas i sprawdź ponownie. Sprawdź też transkrypcję; błędy rozpoznawania mogą sprawić, że edycja zachowa się inaczej, niż się spodziewasz."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usuwanie pauz i usuwanie słów-wypełniaczy to osobne kontrolki. Zacznij od zmiany, której potrzebujesz, a następnie posłuchaj efektu, zanim dodasz więcej opcji Cleanup."
+      "html": "Usuwanie pauz i usuwanie słów-wypełniaczy to osobne opcje. Zacznij od zmiany, której potrzebujesz, a następnie posłuchaj efektu, zanim dodasz więcej czyszczenia."
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Po sprawdzeniu efektu końcowego użyj Save to Photos i poczekaj na zakończenie. Twoje oryginalne nagranie pozostaje nienaruszone. Jeśli potrzebujesz plików z napisami, osobno sprawdź opcje eksportu transkrypcji — nie zakładaj, że zapisanie wideo automatycznie tworzy plik SRT lub VTT."
+      "html": "Po sprawdzeniu wyniku użyj Save to Photos i poczekaj na zakończenie. Twoje oryginalne nagranie pozostaje nienaruszone. Jeśli potrzebujesz plików z napisami, sprawdź osobno opcje eksportu transkrypcji, zamiast zakładać, że zapisanie wideo automatycznie tworzy plik SRT lub VTT."
     },
     {
       "kind": "html",

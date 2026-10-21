@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to extract highlights from a podcast on iPhone",
   description: "Use the transcript to find and review spoken moments from a podcast video, check captions, and prepare clips for export on iPhone.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   category: "Use case" as const,
   primaryKeyword: "how to clip podcast highlights",
   readMinutes: 4,
@@ -56,7 +56,7 @@ export default function Post() {
         <PostH2>Save the clip you intend to post</PostH2>
         <PostP>
           Choose Review and inspect the prepared output, then save to Photos.
-          Export requires Creator. Check the saved file and its framing before
+          Saving to Photos or exporting a finished video requires Creator mode. Check the saved file and its framing before
           uploading it to your chosen platform. Transcription and rendering
           time depend on the recording and device; there is no fixed processing
           time or guaranteed number of useful highlights.

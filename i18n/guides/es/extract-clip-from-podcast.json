@@ -3,11 +3,11 @@
   "title": "Cómo extraer momentos destacados de un podcast en iPhone",
   "description": "Usa la transcripción para encontrar y revisar momentos hablados de un video de podcast, verificar subtítulos y preparar clips para exportar en iPhone.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Caso de uso",
   "primaryKeyword": "cómo recortar momentos destacados de podcast",
   "readMinutes": 4,
-  "sourceFingerprint": "7e0aebe6d876f222ae5cdb5c7043cac8064702026caf06dc725e5c218368e20b",
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
   "schemaVersion": 1,
   "locale": "es",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Una transcripción puede ayudarte a encontrar un momento hablado sin tener que desplazarte repetidamente por toda la grabación. Comienza con un video de tu podcast o entrevista, luego lee la transcripción y reproduce el pasaje anterior antes de elegir un clip."
+      "html": "Una transcripción puede ayudarte a encontrar un momento hablado sin tener que desplazarte repetidamente por toda la grabación. Comienza con un video de tu podcast o entrevista, luego lee la transcripción y reproduce el pasaje circundante antes de elegir un clip."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Mantén suficiente contexto para alguien que no haya escuchado el episodio. Una frase citada puede seguir necesitando la pregunta o explicación que la precedió."
+      "html": "Mantén suficiente contexto para alguien que no ha escuchado el episodio. Una frase citada puede seguir necesitando la pregunta o explicación que la precedió."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Encontrar y seleccionar el pasaje"
+      "html": "Encuentra y selecciona el pasaje"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importa el video desde Fotos o Archivos y elige Transcript.</li><li>Espera la transcripción, luego verifica los nombres y cualquier palabra que haya entendido mal.</li><li>Lee el texto y reproduce un pasaje candidato en contexto.</li><li>Usa Add as clip para el pasaje que deseas, o usa Slice cuando ya conozcas su rango de tiempo.</li>"
+      "html": "<li>Importa el video desde Fotos o Files y elige Transcript.</li><li>Espera la transcripción, luego verifica los nombres y cualquier palabra que haya entendido mal.</li><li>Lee el texto y reproduce un pasaje candidato en contexto.</li><li>Usa Add as clip para el pasaje que deseas, o usa Slice cuando ya conoces su rango de tiempo.</li>"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Revisar subtítulos y sonido"
+      "html": "Revisa subtítulos y sonido"
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Previsualiza cada clip candidato antes de exportar. Verifica su inicio, final y cualquier discurso eliminado. Si usas subtítulos, revisa las palabras y su colocación sobre la imagen. Verifica los subtítulos en el archivo final guardado, así como en la previsualización del editor."
+      "html": "Previsualiza cada clip candidato antes de exportar. Verifica su inicio, final y cualquier discurso eliminado. Si usas subtítulos, revisa las palabras y su colocación sobre la imagen. Verifica los subtítulos en el archivo final guardado así como en la previsualización del editor."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Puedes inspeccionar el menú Export de la transcripción para opciones de texto y subtítulos por separado del guardado del video. Para largos silencios, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/remove-silence-from-video-free\">eliminación de pausas</a>."
+      "html": "Puedes inspeccionar el menú Exportar de la transcripción para opciones de texto y subtítulos por separado de guardar el video. Para largos silencios, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/remove-silence-from-video-free\">limpieza de pausas</a>."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Elige Revisar e inspecciona el resultado preparado, luego guarda en Fotos. La exportación requiere Creator. Verifica el archivo guardado y su encuadre antes de subirlo a la plataforma que elijas. El tiempo de transcripción y renderizado depende de la grabación y el dispositivo; no hay un tiempo de procesamiento fijo ni un número garantizado de momentos destacados útiles."
+      "html": "Elige Review e inspecciona el resultado preparado, luego guarda en Photos. Guardar en Photos o exportar un video terminado requiere el modo Creator. Verifica el archivo guardado y su encuadre antes de subirlo a la plataforma que elijas. El tiempo de transcripción y renderizado depende de la grabación y el dispositivo; no hay un tiempo de procesamiento fijo ni un número garantizado de momentos destacados útiles."
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">Cortar</a> <!-- -->cuando clips espaciados regularmente se adapten mejor a la grabación que la selección por transcripción."
+      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->cuando clips espaciados regularmente se adaptan mejor a la grabación que la selección por transcripción."
     },
     {
       "kind": "cta"

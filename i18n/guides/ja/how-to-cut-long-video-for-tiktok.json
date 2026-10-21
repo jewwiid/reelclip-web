@@ -3,11 +3,11 @@
   "title": "iPhoneで長い動画をTikTok用にカットする方法",
   "description": "ReelClipのCutコントロールで長い録画からクリップを準備し、フレーミングとキャプションを確認してから、TikTokにアップロードしたい動画を保存します。",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "チュートリアル",
-  "primaryKeyword": "how to cut a long video for tiktok",
+  "primaryKeyword": "tiktok用に長い動画をカットする方法",
   "readMinutes": 5,
-  "sourceFingerprint": "d3365273b55c212a650fa6edeb92c1829ba0c1152d983ad396416c82aced6ef4",
+  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
   "schemaVersion": 1,
   "locale": "ja",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "12分間のトーキングヘッド動画、ストリーム録画、または長いブログ動画があり、そこから3〜4本のTikTok対応クリップを作りたいとします。iPhone上で直接これらのクリップを準備し、各瞬間を確認して、投稿したいものを保存できます。所要時間は録画内容、お使いのデバイス、編集量によって異なります。"
+      "html": "12分間のトーキングヘッド動画、ストリーム録画、または長いブログ動画があり、そこから3〜4本のTikTok対応クリップを作りたいとします。iPhone上で直接そのようなクリップを準備し、各瞬間を確認して、投稿したいものを保存できます。所要時間は録画内容、デバイス、編集量によって異なります。"
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>すでに写真ライブラリにある長い録画、またはファイルアプリ内の録画。</li><li>現在のアプリリリースで記載されているiOS 17以降を搭載したiPhone。</li><li><a class=\"text-accent hover:underline\" href=\"/ja/\">ReelClip</a>（インポートとプレビューは無料、エクスポートはCreatorプラン）。AI機能には、対応して有効化されたApple Intelligenceを含む、追加のハードウェアとソフトウェアの要件があります。お使いのデバイスでの利用可能性をご確認ください。</li>"
+      "html": "<li>すでにフォトライブラリにある長い録画、またはFilesアプリ内の録画。</li><li>現在のアプリリリースで記載されている通り、iOS 17以降を搭載したiPhone。</li><li><a class=\"text-accent hover:underline\" href=\"/ja/\">ReelClip</a>（インポートとプレビューは無料；保存または書き出しにはCreatorモードが必要）。AI機能には、対応して有効化されたApple Intelligenceを含む、追加のハードウェアおよびソフトウェア要件があります。お使いのデバイスでの利用可否をご確認ください。</li>"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "録画をPhotosまたはFilesからインポートします。ReelClipは録画をプライベートサンドボックスにコピーします — Photos内の元ファイルはそのまま残り、アップロードは一切行われません。"
+      "html": "PhotosまたはFilesから録画をインポートします。ReelClipは独自のサンドボックスにコピーします——Photos内の元ファイルは変更されず、アップロードも行われません。"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — 動画を同じ長さの区間に分割します。録画に明確なセグメントがある場合（インタビューのセクション、リスト項目、章など）に適しています。</li><li><strong class=\"text-text\">Transcript</strong> — デバイス上で音声認識を実行し、間を見つけて無音部分をトリミングできます。トーキングヘッドのコンテンツやポッドキャストに適しています。</li><li><strong class=\"text-text\">Slice</strong> — 自分で瞬間を選び、選択範囲を移動して開始点と終了点を調整します。</li><li><strong class=\"text-text\">AI</strong> — 欲しいものを説明すると（「一番面白い瞬間」「料金説明の部分」「一番引用したいセリフ」など）、デバイス上のApple Intelligenceが候補を提案します。お使いのデバイスで機能が利用可能になれば確認できます。</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — 動画を同じ長さの区間に分割します。録画に明確なセグメントがある場合に有効です（インタビューのセクション、リスト項目、チャプターなど）。</li><li><strong class=\"text-text\">Transcript</strong> — デバイス上で音声認識を実行し、無音部分を検出して、余分な間をトリミングできます。トーキングヘッドコンテンツやポッドキャストに最適です。</li><li><strong class=\"text-text\">Slice</strong> — 自分で瞬間を選び、選択範囲を移動して開始点と終了点を調整します。</li><li><strong class=\"text-text\">AI</strong> — 欲しいものを説明してください（「一番面白い瞬間」「料金説明の部分」「最も引用したいセリフ」など）。デバイスで利用可能になれば、デバイス上のApple Intelligenceが瞬間を提案し、確認できます。</li>"
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-xl font-bold tracking-tight mt-8 mb-3"
       },
-      "html": "3. 計画したすべてのクリップを確認する"
+      "html": "3. 各Planned Clipsを確認する"
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "これは人々が飛ばしがちなステップですが、最も重要なステップです。各計画クリップをタップして、最初から最後まで視聴し、保持、トリミング、または拒否を決定してください。ReelClipは自動エクスポートを行いません。出力するものはあなたが決めます。"
+      "html": "このステップを飛ばす人が多いですが、これが最も重要です。各Planned Clipsをタップして、最初から最後まで再生し、保持するかトリミングするか、または破棄するかを決めてください。ReelClipは自動でエクスポートしません。出力するものはあなたが決めます。"
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "各クリップに1つの完全なアイデアを与えてください。開始を引き締め、不要な導入部分を削除し、フル録画を見たことがない人にも十分な文脈を残してください。投稿前にTikTokの現在のアップロード制限を確認してください。普遍的な理想的なクリップ長は存在しません。"
+      "html": "各クリップには1つの完全なアイデアを含めてください。開始部分を引き締め、不要な導入部分を削除し、フル録画を見たことがない人にも十分な文脈を残してください。投稿前にTikTokの現在のアップロード制限を確認してください。普遍的な理想的なクリップ長さは存在しません。"
     },
     {
       "kind": "html",
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-xl font-bold tracking-tight mt-8 mb-3"
       },
-      "html": "5. 縦向き投稿のフレーミングを確認する"
+      "html": "5. 縦向き投稿用のフレーミングを確認する"
     },
     {
       "kind": "html",
@@ -133,7 +133,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "ソース動画が横長の場合、2つの選択肢があります。そのままエクスポートするか、仕上げエディターで縦長投稿用にクロップするかです。時間範囲の選択と画面構成の選択は別の判断です。投稿前に両方を確認してください。"
+      "html": "ソース動画が横長の場合、2つの選択肢があります。そのままエクスポートするか、仕上げ用エディターで縦向き投稿用にクロップするかです。時間範囲の選択と画面構成の選択は別の判断です。投稿前に両方を確認してください。"
     },
     {
       "kind": "html",
@@ -149,7 +149,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<strong class=\"text-text\">Review</strong>をタップして、クリップの準備が完了するのを待ちます。出力を再生してから、Photos用の保存アクションを選択してください。アプリを離れる前に完了確認を待ってください。エクスポートにはCreatorが必要です。元のファイルはそのまま残ります。"
+      "html": "<strong class=\"text-text\">Review</strong>をタップし、クリップの準備が完了するのを待ちます。出力を再生し、保存アクションでPhotosを選択します。完了の確認が表示されるまでアプリを閉じないでください。完成した動画の保存や書き出しにはCreatorモードが必要です。元の動画はそのまま残ります。"
     },
     {
       "kind": "html",
@@ -165,7 +165,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "TikTokを開き、プラスボタンをタップしてから<!-- --> <strong class=\"text-text\">Upload</strong>を選択してください。ライブラリから最初のクリップを選んでください。TikTokがデバイスから取得します。ReelClipはあなたのTikTokアカウントにアクセスしたことも、TikTokのサーバーに何かをアップロードしたこともありません。"
+      "html": "TikTokを開き、プラスボタンをタップしてから<!-- --> <strong class=\"text-text\">Upload</strong>を選択してください。ライブラリから最初のクリップを選んでください。TikTokがデバイスから取得します — ReelClipはあなたのTikTokアカウントにアクセスしたことも、TikTokのサーバーに何かをアップロードしたこともありません。"
     },
     {
       "kind": "html",
@@ -181,7 +181,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">レビューをスキップすること。</strong> AIモードは優秀ですが完璧ではありません。書き出す前に、必ず各クリップを最初から最後まで視聴してください。</li><li><strong class=\"text-text\">元の12分ファイルをそのままアップロードすること。</strong> ソースは保持した上で、ストーリーと投稿先に合ったバージョンを選択してください。短いクリップが必ずしも再生回数を増やすわけではありません。</li><li><strong class=\"text-text\">キャプションがないこと。</strong> キャプションは、音声を聞けない状況で人々が発言内容を追えるように助けになります。投稿前に、最終編集ソフトでスペルとタイミングを確認してください。</li>"
+      "html": "<li><strong class=\"text-text\">レビューをスキップすること。</strong> AIモードは優秀ですが完璧ではありません。エクスポートする前に、必ず各クリップを最初から最後まで視聴してください。</li><li><strong class=\"text-text\">元の12分ファイルをそのままアップロードすること。</strong> ソースは保持し、ストーリーと投稿先に適したバージョンを選択してください。短いクリップが必ずしも多くの再生数を保証するわけではありません。</li><li><strong class=\"text-text\">キャプションがないこと。</strong> キャプションは、音声を聴けない状況で人々が発言内容を追えるように助けとなります。投稿前に、仕上げ用エディターでスペルとタイミングを確認してください。</li>"
     },
     {
       "kind": "html",
@@ -189,7 +189,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "TikTok後にすべきこと"
+      "html": "TikTok投稿後の対応"
     },
     {
       "kind": "html",
@@ -197,7 +197,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "YouTube ShortsやInstagram Reelsにクロス投稿する前に、各プラットフォームの最新のフォーマットと長さの要件を確認してください。同じ場面でも、投稿先ごとに異なるフレーミングや長さが必要になる場合があります。プラットフォームごとの違いについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/video-length-social-media-reach\">動画の長さとリーチに関するガイド</a> <!-- -->をご覧ください。または、関連するワークフローとして<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">ポッドキャストのハイライト抽出方法</a> <!-- -->も参照してください。"
+      "html": "YouTube ShortsやInstagram Reelsへのクロス投稿前に、各プラットフォームの現在のフォーマットと長さの要件を確認してください。同じ場面でも、投稿先によって異なるフレーミングや長さが必要になる場合があります。プラットフォームの違いについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/video-length-social-media-reach\">動画の長さとリーチに関するガイド</a><!-- -->を、関連するワークフローについては<a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">ポッドキャストハイライトの抽出方法</a><!-- -->をご覧ください。"
     },
     {
       "kind": "cta"

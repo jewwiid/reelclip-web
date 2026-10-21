@@ -1,13 +1,13 @@
 {
   "slug": "edit-vertical-video-on-iphone",
   "title": "Como editar vídeo vertical no iPhone (Reels, TikTok, Shorts)",
-  "description": "Escolha e refine momentos de gravações em retrato no ReelClip, revise as legendas e o enquadramento, e salve os clipes que quiser postar.",
+  "description": "Escolha e refine momentos de filmagens na vertical no ReelClip, revise as legendas e o enquadramento, e salve os clipes que quiser postar.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Como fazer",
   "primaryKeyword": "como editar vídeo vertical no iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "03100b4950a80f8da2f3ee5a8729cbcd697378649022efab96588fdbde2126d6",
+  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Comece com uma gravação em retrato e escolha os momentos que deseja manter. No ReelClip, Slice seleciona um intervalo de tempo; ele não decide qual parte da imagem deve se encaixar em uma proporção diferente. Verifique o enquadramento separadamente antes de postar."
+      "html": "Comece com uma filmagem na vertical e escolha os momentos que quer manter. No ReelClip, Slice seleciona um intervalo de tempo; ele não decide qual parte da imagem deve se ajustar a uma proporção diferente. Verifique o enquadramento separadamente antes de postar."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importe a gravação de Fotos ou Arquivos, depois abra Clip.</li><li>Escolha Slice. Mova a seleção para a parte que deseja manter.</li><li>Ajuste o início e o fim para que a ação ou frase tenha contexto suficiente.</li><li>Toque em Add, depois repita para quaisquer outros momentos que desejar.</li>"
+      "html": "<li>Importe a filmagem de Fotos ou Files, depois abra Clip.</li><li>Escolha Slice. Mova a seleção para a parte que quer manter.</li><li>Ajuste o início e o fim para que a ação ou frase tenha contexto suficiente.</li><li>Toque em Add, depois repita para outros momentos que quiser.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A demonstração usa uma amostra curta e três seleções. Sua gravação pode precisar de uma quantidade ou duração diferente de clipes. Assista cada seleção; um corte que funciona visualmente ainda pode interromper uma frase falada."
+      "html": "A demonstração usa uma amostra curta e três seleções. Sua filmagem pode precisar de uma quantidade ou duração diferente de clipes. Assista cada seleção; um corte que funciona visualmente ainda pode interromper uma frase falada."
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Reproduza os clipes planejados e verifique seus primeiros e últimos quadros. Uma fonte em retrato já tem uma imagem vertical; uma fonte em paisagem precisa de uma decisão de enquadramento separada. Alterar o intervalo de tempo selecionado não corta automaticamente a imagem para um Reel ou Short."
+      "html": "Reproduza os clipes planejados e verifique seus primeiros e últimos quadros. Uma fonte na vertical já tem uma imagem vertical; uma fonte na horizontal precisa de uma decisão de enquadramento separada. Alterar o intervalo de tempo selecionado não corta automaticamente a imagem para um Reel ou Short."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para gravações com fala, revise também a transcrição e as legendas. Corrija nomes e termos especializados, depois verifique se o texto permanece legível sobre a imagem. Veja o <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/extract-clip-from-podcast\">fluxo de trabalho de transcrição</a> <!-- -->para um exemplo usando fala."
+      "html": "Para filmagens com fala, revise também a transcrição e as legendas. Corrija nomes e termos especializados, depois verifique se o texto permanece legível sobre a imagem. Veja o <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/extract-clip-from-podcast\">fluxo de trabalho de transcrição</a> <!-- -->para um exemplo usando fala."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Escolha Review e inspecione a saída preparada antes de salvar em Fotos. A exportação requer o Creator. Aguarde a confirmação de salvamento, depois abra o app de destino e faça o upload do arquivo salvo você mesmo. Verifique os requisitos atuais de upload se alterar o formato de saída."
+      "html": "Escolha Review e inspecione o resultado preparado antes de salvar em Fotos. Salvar ou exportar um vídeo finalizado requer o modo Creator. Aguarde a confirmação de salvamento, depois abra o app de destino e faça o upload do arquivo salvo você mesmo. Verifique os requisitos atuais de upload se alterar o formato de saída."
     },
     {
       "kind": "html",

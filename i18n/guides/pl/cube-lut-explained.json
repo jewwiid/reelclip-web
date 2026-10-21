@@ -1,13 +1,13 @@
 {
   "slug": "cube-lut-explained",
   "title": "Co to jest plik .cube LUT? Format, rozmiary tabel i import na iPhone'a",
-  "description": "Zrozum jednowymiarowe i trójwymiarowe tablice odnośników, co oznaczają liczby 17, 33 i 65, oraz jak przetestować plik .cube w ReelClip, nie myląc stylu kreatywnego z konwersją kamery.",
+  "description": "Zrozum różnicę między tabelami 1D i 3D, co oznaczają liczby 17, 33 i 65 oraz jak przetestować plik .cube w ReelClip bez mylenia stylu kreatywnego z konwersją kamery.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Poradnik",
-  "primaryKeyword": "co to jest plik .cube lut",
+  "primaryKeyword": "Co to jest plik .cube LUT?",
   "readMinutes": 4,
-  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "sourceFingerprint": "57aa682fc49a2fdd1adfcc547e03b87ca20cd886b72c6fe390a8c8af41d532c3",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Plik .cube przechowuje tablicę odnośników: zestaw mapowań numerycznych służących do zmiany koloru. Może opisywać techniczną konwersję kamery lub styl kreatywny. Sama nazwa pliku nie mówi, który to rodzaj, ani jaki profil nagrywania jest wymagany."
+      "html": "Plik .cube przechowuje tabelę przeszukiwania (lookup table): zestaw mapowań numerycznych służących do zmiany koloru. Może opisywać techniczną konwersję kamery lub styl kreatywny. Sama nazwa pliku nie mówi, który to rodzaj, ani jaki profil nagrywania jest wymagany."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Tablice 1D i 3D"
+      "html": "Tabele 1D i 3D"
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Tablica 1D LUT mapuje każdy kanał koloru niezależnie. Tablica 3D LUT mapuje kombinacje czerwieni, zieleni i niebieskiego, więc jeden kanał wyjściowy może zależeć od więcej niż jednego kanału wejściowego. Żaden z tych rodzajów nie naprawia nieostrości, nie usuwa szumu ani nie przywraca szczegółów utraconych podczas nagrywania."
+      "html": "Tabela 1D mapuje każdy kanał koloru niezależnie. Tabela 3D mapuje kombinacje czerwieni, zieleni i niebieskiego, więc jeden kanał wyjściowy może zależeć od więcej niż jednego kanału wejściowego. Żaden z tych rodzajów nie naprawia nieostrości, nie usuwa szumu ani nie przywraca szczegółów utraconych podczas nagrywania."
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Dla tabeli 3D parametr LUT_3D_SIZE podaje długość jednej krawędzi. Sześcian 17-punktowy zawiera 17 × 17 × 17 = 4 913 wpisów; sześcian 33-punktowy zawiera 35 937; sześcian 65-punktowy zawiera 274 625. Te liczby opisują siatkę próbkowania, a nie rozdzielczość wideo."
+      "html": "Dla tabeli 3D LUT_3D_SIZE podaje długość jednej krawędzi. Sześcian 17-punktowy zawiera 17 × 17 × 17 = 4 913 wpisów; sześcian 33-punktowy zawiera 35 937; sześcian 65-punktowy zawiera 274 625. Te liczby opisują siatkę próbkowania, a nie rozdzielczość wideo."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "LUT stworzony dla Apple Log, D-Log M lub S-Log3 zakłada konkretną interpretację źródła. Kreatywny LUT przeznaczony dla już znormalizowanego obrazu zakłada coś innego. Jeśli Twój edytor już stosuje konwersję z kamery, zastosowanie kolejnej może spowodować nadmierny kontrast lub przesunięcia kolorów."
+      "html": "LUT stworzony dla Apple Log, D-Log M lub S-Log3 zakłada konkretną interpretację źródła. Kreatywny LUT przeznaczony dla już znormalizowanego obrazu zakłada coś innego. Jeśli Twój edytor już stosuje konwersję kamery, zastosowanie kolejnej może spowodować nadmierny kontrast lub przesunięcia kolorów."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Dokumentacja Apple dotycząca LUT</a> wyjaśnia różnicę między LUTami kamerowymi a niestandardowymi efektami kreatywnymi. Kontrolki Final Cut Pro są oddzielone od interfejsu ReelClip."
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Dokumentacja Apple dotycząca LUT</a> wyjaśnia różnicę między LUTami kamery a niestandardowymi efektami kreatywnymi. Kontrolki Final Cut Pro są oddzielne od interfejsu ReelClip."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Wypakuj pobrany plik, jeśli to ZIP, i zapisz plik .cube w miejscu dostępnym z aplikacji Pliki.</li><li>Zaimportuj wideo w ReelClip. Otwórz Adjust &amp; Style, wybierz LUTs, a następnie użyj Import LUT.</li><li>Wybierz look i porównaj jego podgląd z oryginałem. Postępuj zgodnie z instrukcjami dostawcy pliku w przypadku konwersji technicznej; dostosuj look kreatywny do swojego materiału.</li><li>Przejrzyj krótki wyrenderowany fragment przed zastosowaniem looku w całym projekcie. Zapisywanie wideo wymaga Creator.</li>"
+      "html": "<li>Wypakuj pobrany plik, jeśli to ZIP, i zapisz plik .cube w miejscu dostępnym z Files.</li><li>Zaimportuj wideo w ReelClip. Otwórz Adjust &amp; Style, wybierz LUTs, a następnie użyj Import LUT.</li><li>Wybierz look i porównaj podgląd z oryginałem. Postępuj zgodnie z instrukcjami dostawcy pliku w przypadku konwersji technicznej; dostosuj look kreatywny do swojego materiału.</li><li>Przejrzyj krótką wyrenderowaną próbkę przed zastosowaniem looku w całym projekcie. Zapisanie wideo na iPhonie wymaga trybu Creator.</li>"
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">Przewodnik po imporcie LUT</a> pokazuje rzeczywisty import looku kreatywnego i dostosowanie jego siły. Nie weryfikuje on każdej konwersji kamerowej ani każdej wariantu .cube."
+      "html": "<a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">Przewodnik po imporcie LUT</a> pokazuje rzeczywisty import looku kreatywnego i dostosowanie jego siły. Nie weryfikuje on każdej konwersji kamery ani każdej warianty .cube."
     },
     {
       "kind": "html",
@@ -137,7 +137,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Aby poznać źródła do odkrycia, zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">darmowe zasoby LUT</a>. Zacznij od małego zestawu odpowiednich plików i przetestuj je na własnych nagraniach."
+      "html": "Aby poznać źródła do eksploracji, zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">darmowe zasoby LUT</a>. Zacznij od małego zestawu odpowiednich plików i przetestuj je na własnych nagraniach."
     },
     {
       "kind": "cta"

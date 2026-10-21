@@ -172,25 +172,25 @@
   },
   "pricing": {
     "eyebrow": "Pricing",
-    "heading": "Create your clips free. Pay only when you're ready to export.",
-    "intro": "Import your footage, let ReelClip find the strongest moments, and preview every result for free. Choose Creator when you're ready to save, share, or export your clips.",
+    "heading": "Try ReelClip free. Unlock Creator mode to save your work.",
+    "intro": "Import your footage and preview every result for free. Creator mode unlocks full access to ReelClip, including saving, sharing, and exporting your work on your iPhone.",
     "tryFree": "Try ReelClip free",
-    "tryFreeDescription": "Import a video, generate clips, and preview the results. A Creator plan is required to export or save.",
-    "creatorPlans": "Creator plans",
-    "purchaseInApp": "Choose your plan inside ReelClip. Apple handles the purchase.",
+    "tryFreeDescription": "Import a video and preview your edit for free. Creator mode unlocks full access and lets you save, share, and export your work on your iPhone.",
+    "creatorPlans": "Creator mode options",
+    "purchaseInApp": "Choose your access option inside ReelClip. Apple handles the purchase.",
     "usPrices": "US App Store prices",
     "monthly": "Monthly",
     "monthlySuffix": "/ month",
-    "monthlyDescription": "Flexible access with no long-term commitment.",
+    "monthlyDescription": "Creator mode access with monthly billing. Cancel anytime.",
     "annual": "Annual",
     "annualSuffix": "/ year",
     "annualDescription": "{price} a month, billed annually. Save {savings}% versus monthly.",
     "lifetime": "Lifetime",
     "lifetimeSuffix": "one-time",
-    "lifetimeDescription": "Pay once and keep Creator with no renewal.",
+    "lifetimeDescription": "Pay once to keep Creator mode access with no renewal.",
     "recommended": "Recommended",
     "launchPrice": "Launch price",
-    "allPlans": "Every plan unlocks Creator",
+    "allPlans": "Every option unlocks Creator mode",
     "perks": [
       "Save, share, and export every finished clip",
       "Original-quality video, up to 60fps",
@@ -207,11 +207,11 @@
   },
   "account": {
     "eyebrow": "Account",
-    "heading": "Your subscription",
-    "intro": "Check your subscription status, look up your tier, manage billing, or cancel anytime.",
-    "checkoutSuccess": "Subscription active. Look up your account below to confirm.",
+    "heading": "Your ReelClip access",
+    "intro": "Check your ReelClip access, look up your account, and manage billing or cancel a monthly subscription.",
+    "checkoutSuccess": "Your purchase is complete. Look up your account below to confirm Creator mode access.",
     "lookupHeading": "Look up your account",
-    "lookupDescription": "Use the same email or app account token you used when subscribing.",
+    "lookupDescription": "Use the purchase email or your iOS app account token to look up Creator mode access.",
     "email": "Email",
     "token": "iOS app account token",
     "optional": "optional",
@@ -224,9 +224,9 @@
     "openingStripe": "Opening Stripe…",
     "manageSubscription": "Manage subscription",
     "portalFailed": "Portal failed (HTTP {status})",
-    "creator": "Creator",
+    "creator": "Creator mode",
     "free": "Free",
-    "currentTier": "Current tier",
+    "currentTier": "Current access",
     "activeEntitlements": "Active entitlements ({count})",
     "noEntitlements": "No active entitlements.",
     "upgradeSuffix": "to upgrade.",
@@ -257,8 +257,8 @@
         "answer": "ReelClip is available on the App Store. Search for ReelClip or visit the App Store link on this page. It requires iPhone running iOS 26 or later."
       },
       {
-        "question": "Can I get a refund on my subscription?",
-        "answer": "Yes. Refunds are handled by Apple. Go to reportaproblem.apple.com, sign in with the Apple ID you used to subscribe, and request a refund for the ReelClip charge. We can't process refunds directly."
+        "question": "Can I get a refund for my ReelClip purchase?",
+        "answer": "Yes. Refunds for App Store purchases are handled by Apple. Go to reportaproblem.apple.com, sign in with the Apple ID you used for the purchase, and request a refund for the ReelClip charge. We can't process refunds directly."
       },
       {
         "question": "Why does the website use reelclips.app?",
@@ -366,7 +366,7 @@
       "We do not upload your video, audio, transcripts, or AI feature packs to any server.",
       "We do not use third-party AI providers, cloud LLMs, or bring-your-own-API-key integrations.",
       "We do not embed third-party analytics, ad SDKs, or cross-app trackers.",
-      "We do not place watermarks on paid-plan exports."
+      "We do not add watermarks to videos exported in Creator mode."
     ],
     "whoTitle": "Who built it",
     "whoBody": "ReelClip is built and operated by an independent iOS developer.",
@@ -374,7 +374,7 @@
     "nextItems": [
       "Read the Privacy Policy for the full data flow.",
       "See how ReelClip compares to CapCut, InShot, VN, OpusClip, and Quik.",
-      "Check the Creator plans if you're ready to export.",
+      "See Creator mode options if you're ready to save or export.",
       "Get the app on the App Store."
     ]
   },

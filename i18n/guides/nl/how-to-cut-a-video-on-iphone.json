@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Hoe knip je een video op iPhone: trim of splits in clips",
   "description": "Leer één video trimmen met Foto's, splitsen op een gekozen punt met iMovie, of gebruik ReelClip om meerdere clips te selecteren en beoordelen.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Hoe het werkt",
   "primaryKeyword": "hoe een video te knippen op iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "nl",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Deze walkthrough toont een gelijke-clip Cut recept en voorvertoning. Het toont geen voltooide opslag naar Foto's. ReelClip is gratis om te importeren en voor te vertonen; opslaan of exporteren vereist Creator. De app bereidt de videobestanden voor maar plaatst ze niet op TikTok, Instagram of YouTube. Voor een langere social workflow, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">hoe je clips uit een lange video voorbereidt voor TikTok</a>, of lees de<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/video-length-social-media-reach\">gids voor het splitsen van een opname in gelijke clips</a>."
+      "html": "Deze walkthrough toont een gelijke-clip Cut recept en voorbeeldweergave. Het toont geen voltooide opslag naar Foto's. ReelClip is gratis om te importeren en voor te vertonen; opslaan of exporteren van je werk vereist de Creator-modus. De app bereidt de videobestanden voor, maar plaatst ze niet op TikTok, Instagram of YouTube. Voor een langere social workflow, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">hoe je clips voorbereidt uit een lange video voor TikTok</a>, of lees de<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/video-length-social-media-reach\">gids voor het splitsen van een opname in gelijke clips</a>."
     },
     {
       "kind": "html",

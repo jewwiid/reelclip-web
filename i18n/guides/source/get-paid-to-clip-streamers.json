@@ -2,11 +2,12 @@
   "slug": "get-paid-to-clip-streamers",
   "title": "How to get paid to clip streamers: campaigns, rights and workflow",
   "description": "Learn how clipper campaigns pay, what permission and payout rules to check, and how to edit an authorized Twitch or Kick clip on iPhone.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "How-to",
   "primaryKeyword": "how to get paid to clip streamers",
   "readMinutes": 7,
-  "sourceFingerprint": "a27bbb1886cf3f18daef607ad2867e2be05fc061b4fd78f5cd80917e4e1708ee",
+  "sourceFingerprint": "dcf7a2f37f156a956cf96d8301552981984bc628686b9e3c1d20b65097795883",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -95,7 +96,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Start with a file the creator or campaign has authorized. For a KICK clip, the help center says its Download button saves an MP4. Move that file to iPhone Photos or Files. For Twitch, request the approved source file or use a sharing method the campaign permits.</li><li>Import the file from Photos or Files in ReelClip. The app edits recordings already on your iPhone; it does not capture or download a Twitch or KICK stream.</li><li>Choose <strong>Slice</strong> when you have one moment and want to set its start and end. Choose <strong>Cut</strong> when you want to divide a longer authorized recording by clip count, duration and spacing. The app does not decide which moments are funny or likely to perform.</li><li>For speech, use <strong>Transcript</strong> to find a passage, then check names and play the full thought in context. Review the framing separately: selecting a shorter time range does not turn a landscape picture into a vertical crop.</li><li>Open Review, watch each prepared clip and export the ones the brief allows. Export requires Creator. Upload the saved file yourself, then submit its link and track the campaign’s stated measurement window.</li>"
+      "html": "<li>Start with a file the creator or campaign has authorized. For a KICK clip, the help center says its Download button saves an MP4. Move that file to iPhone Photos or Files. For Twitch, request the approved source file or use a sharing method the campaign permits.</li><li>Import the file from Photos or Files in ReelClip. The app edits recordings already on your iPhone; it does not capture or download a Twitch or KICK stream.</li><li>Choose <strong>Slice</strong> when you have one moment and want to set its start and end. Choose <strong>Cut</strong> when you want to divide a longer authorized recording by clip count, duration and spacing. The app does not decide which moments are funny or likely to perform.</li><li>For speech, use <strong>Transcript</strong> to find a passage, then check names and play the full thought in context. Review the framing separately: selecting a shorter time range does not turn a landscape picture into a vertical crop.</li><li>Open Review, watch each prepared clip and export the ones the brief allows. Saving or exporting a finished video requires Creator mode. Upload the saved file yourself, then submit its link and track the campaign’s stated measurement window.</li>"
     },
     {
       "kind": "html",

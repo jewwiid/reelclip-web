@@ -1,13 +1,13 @@
 {
   "slug": "remove-silence-from-video-free",
   "title": "iPhone에서 동영상의 침묵 구간 제거하는 방법",
-  "description": "ReelClip의 Transcript 일시 정지 컨트롤을 사용하고 타이밍을 검토한 후 편집된 동영상을 확인하세요. 내보내기 전에 미리보기를 하고, 저장하려면 Creator가 필요합니다.",
+  "description": "ReelClip의 Transcript 일시정지 컨트롤을 사용하고, 타이밍을 검토한 후 편집된 동영상을 확인하세요. 내보내기 전에 미리보기를 하고, 완성된 동영상을 iPhone에 저장하려면 Creator 모드가 필요합니다.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "사용 방법",
   "primaryKeyword": "remove silence from video iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "64763fe44f4cca427135d38312396cb2ec5a4c8748045f6e5886b095fb3f471e",
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "긴 공백은 말하는 동영상을 느리게 느껴지게 합니다. ReelClip의 Transcript 모드를 사용하면 iPhone에서 일시 정지를 제거하고 결과 동영상을 검토할 수 있습니다. 내보내기를 결정하기 전에 편집 내용을 미리보기하고, 출력 파일을 저장하려면 Creator가 필요합니다."
+      "html": "긴 공백은 말하는 동영상을 느리게 느껴지게 할 수 있습니다. ReelClip의 Transcript 모드를 사용하면 iPhone에서 일시정지를 제거하고 결과 동영상을 검토할 수 있습니다. 내보내기를 결정하기 전에 편집을 미리보기하고, 출력물을 저장하려면 Creator 모드가 필요합니다."
     },
     {
       "kind": "tutorial",
@@ -29,7 +29,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "일시 정지 컨트롤 찾기"
+      "html": "일시정지 컨트롤 찾기"
     },
     {
       "kind": "html",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>동영상을 가져와서 Transcript를 선택하세요. 전사가 완료될 때까지 기다리세요.</li><li>Audio를 열고 Cleanup을 찾아 Remove pauses를 켜세요.</li><li>Cut timing을 확장하여 일시 정지 임계값과 음성 주변에 남겨둘 공간을 확인하세요.</li><li>Audio를 다시 탭하여 패널을 닫고 전사에서 일시 정지를 확인하세요.</li><li>Review video를 선택하여 편집된 결과를 준비하고 재생하세요.</li>"
+      "html": "<li>동영상을 가져오고 Transcript를 선택하세요. 전사가 완료될 때까지 기다리세요.</li><li>Audio을(를) 연 다음 Cleanup을(를) 찾아 Remove pauses을(를) 켜세요.</li><li>Cut timing을(를) 확장하여 일시정지 임계값과 음성 주변에 남겨둘 공간을 확인하세요.</li><li>Audio을(를) 다시 탭하여 패널을 닫고 전사에서 일시정지를 확인하세요.</li><li>Review video을(를) 선택하여 편집된 결과를 준비하고 재생하세요.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "녹화된 예시에서 Cut pauses longer than은 0.35초로 설정되어 있습니다. 이는 예시일 뿐 모든 녹화에 필요한 설정은 아닙니다. 더 낮은 임계값은 더 짧은 공백을 제거합니다. 자연스러운 음성과 의미를 전달하는 일시 정지에 충분한 여유를 남기세요."
+      "html": "녹화된 예시에서 Cut은(는) 설정된 0.35초보다 긴 일시정지입니다. 이는 예시일 뿐이며 모든 녹화에 필요한 설정은 아닙니다. 임계값을 낮추면 더 짧은 공백이 제거됩니다. 자연스러운 음성과 의미를 전달하는 일시정지에 충분한 여유를 남겨두세요."
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "제거될 일시 정지 확인"
+      "html": "제거될 일시정지 확인"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "녹색 Auto keep은 편집에 일시 정지를 남깁니다. 빨간색 Auto remove 또는 Remove는 제거 대상으로 표시합니다. 출력을 검토하기 전에 긴 일시 정지 자체의 레이블을 확인하세요. 재생 버튼은 해당 공백을 듣는 용도입니다."
+      "html": "녹색 Auto keep은(는) 편집에 일시정지를 남깁니다. 빨간색 Auto remove 또는 Remove는 제거 대상으로 표시합니다. 출력을 검토하기 전에 긴 일시정지 자체의 레이블을 확인하세요. 재생 버튼은 해당 공백을 듣는 용도입니다."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "직접 한 공백을 제거하려면 해당 일시 정지의 작업 메뉴를 열고 Remove pause를 선택하세요. Review video를 선택하기 전에 제거 표시를 다시 확인하세요."
+      "html": "직접 한 공백을 제거하려면 해당 일시정지의 작업 메뉴를 열고 Remove pause를 선택하세요. Review video을(를) 선택하기 전에 제거 표시를 다시 확인하세요."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "헤드폰이나 스피커를 사용하여 각 구절의 시작과 끝을 확인하세요. 숨소리나 단어 끝이 잘린 느낌이 들면 타이밍을 조정하고 다시 검토하세요. 대본도 확인하세요; 인식 오류로 인해 예상과 다르게 편집될 수 있습니다."
+      "html": "헤드폰이나 스피커로 각 구절의 시작과 끝을 확인하세요. 숨소리나 단어 끝이 잘린 느낌이 들면 타이밍을 조정하고 다시 검토하세요. 대본도 확인하세요; 인식 오류로 인해 편집이 예상과 다르게 동작할 수 있습니다."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "멈춤 제거와 추임새 제거는 별도의 컨트롤입니다. 필요한 변경부터 시작한 후, 추가 정리를 더하기 전에 결과를 들어보세요."
+      "html": "침묵 제거와 추임새 제거는 별도의 컨트롤입니다. 먼저 필요한 변경을 적용한 후 결과를 들어보고, 그 다음 추가 정리를 하세요."
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "출력을 검토한 후 Save to Photos를 사용하고 완료될 때까지 기다리세요. 원본 녹화는 그대로 유지됩니다. 자막 파일이 필요하면 비디오 저장과 함께 SRT나 VTT 파일이 생성된다고 가정하지 말고, 대본 내보내기 옵션을 별도로 확인하세요."
+      "html": "출력을 검토한 후 Save to Photos을 사용하고 완료될 때까지 기다리세요. 원본 녹음은 그대로 유지됩니다. 자막 파일이 필요하면 비디오 저장과 함께 SRT나 VTT 파일이 생성된다고 가정하지 말고, 대본 내보내기 옵션을 별도로 확인하세요."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "특정 발언 순간을 선택하려면<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/extract-clip-from-podcast\">팟캐스트 클리핑 가이드</a>를 참조하세요. 일정한 간격으로 클립을 만들려면 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">Cut</a>을 사용하세요."
+      "html": "특정 발화 순간을 선택하려면<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/extract-clip-from-podcast\">팟캐스트 클리핑 가이드</a>를 참조하세요. 일정한 간격으로 클립을 만들려면 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">Cut</a>을 사용하세요."
     },
     {
       "kind": "cta"

@@ -1,13 +1,13 @@
 {
   "slug": "edit-vertical-video-on-iphone",
   "title": "iPhone에서 세로 영상 편집하는 방법 (Reels, TikTok, Shorts)",
-  "description": "ReelClip에서 세로 촬영 영상의 순간을 선택하고 다듬은 후, 자막과 프레이밍을 확인하고 게시하고 싶은 클립을 저장하세요.",
+  "description": "ReelClip에서 세로 촬영 영상의 순간을 선택하고 다듬고, 자막과 프레이밍을 확인한 뒤, 게시하고 싶은 클립을 저장하세요.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "사용 방법",
   "primaryKeyword": "iphone에서 세로 영상 편집하는 방법",
   "readMinutes": 4,
-  "sourceFingerprint": "03100b4950a80f8da2f3ee5a8729cbcd697378649022efab96588fdbde2126d6",
+  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "세로 녹화 영상으로 시작하고 유지하고 싶은 순간을 선택하세요. ReelClip에서 Slice는 시간 범위를 선택합니다. 다른 화면비에 맞춰야 할 화면의 어느 부분을 결정하지는 않습니다. 게시 전에 프레이밍은 별도로 확인하세요."
+      "html": "세로 녹화 영상으로 시작해서 유지하고 싶은 순간을 선택하세요. ReelClip에서 Slice은 시간 범위를 선택합니다. 화면의 어떤 부분을 다른 화면비에 맞춰야 할지 결정하지는 않습니다. 게시 전에 프레이밍을 별도로 확인하세요."
     },
     {
       "kind": "tutorial",
@@ -29,7 +29,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Slice로 순간 선택하기"
+      "html": "Slice으로 순간 선택하기"
     },
     {
       "kind": "html",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Photos 또는 Files에서 녹화 영상을 가져온 다음 Clip을 엽니다.</li><li>Slice를 선택합니다. 선택 영역을 유지하고 싶은 부분으로 이동시킵니다.</li><li>시작과 끝을 조정하여 동작이나 문장에 충분한 맥락이 있도록 합니다.</li><li>Add를 탭한 다음, 원하는 다른 순간이 있으면 반복합니다.</li>"
+      "html": "<li>Photos 또는 Files에서 녹화 영상을 가져온 뒤 Clip을 엽니다.</li><li>Slice을 선택합니다. 선택 영역을 유지하고 싶은 부분으로 이동하세요.</li><li>시작과 끝을 조정해서 동작이나 문장에 충분한 맥락이 있도록 하세요.</li><li>Add을 탭한 뒤, 원하는 다른 순간도 반복하세요.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "데모에서는 짧은 샘플과 세 개의 선택 영역을 사용합니다. 녹화 영상에는 다른 수나 길이의 클립이 필요할 수 있습니다. 각 선택 영역을 확인하세요. 시각적으로 잘 보이는 컷이라도 말하는 문장을 끊을 수 있습니다."
+      "html": "데모에서는 짧은 샘플과 세 개의 선택 영역을 사용합니다. 녹화 영상에 따라 필요한 클립의 수나 길이가 다를 수 있습니다. 각 선택 영역을 재생해 보세요. 시각적으로 괜찮아 보이는 컷도 말하는 문장을 끊을 수 있습니다."
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "화면과 말 확인하기"
+      "html": "화면과 대사 확인하기"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "계획한 클립을 재생하고 첫 프레임과 마지막 프레임을 확인하세요. 세로 소스는 이미 세로 화면을 가지고 있습니다. 가로 소스는 별도의 프레이밍 결정이 필요합니다. 선택한 시간 범위를 변경해도 Reel이나 Short용으로 이미지가 자동으로 크롭되지는 않습니다."
+      "html": "계획한 클립을 재생하고 첫 프레임과 마지막 프레임을 확인하세요. 세로 소스는 이미 세로 화면입니다. 가로 소스는 별도의 프레이밍 결정이 필요합니다. 선택한 시간 범위를 변경해도 Reel이나 Short용으로 이미지가 자동으로 크롭되지는 않습니다."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "말하는 영상의 경우, 대본과 자막도 함께 확인하세요. 이름과 전문 용어를 수정한 다음, 텍스트가 화면 위에서 읽기 쉬운지 확인하세요. 음성을 사용하는 예시는 <a class=\"text-accent hover:underline\" href=\"/ko/blog/extract-clip-from-podcast\">대본 워크플로</a> <!-- -->를 참조하세요."
+      "html": "대사가 있는 영상이라면 대본과 자막도 함께 확인하세요. 이름과 전문 용어를 수정한 뒤, 텍스트가 화면 위에서 읽기 좋게 유지되는지 확인하세요. 음성 사용 예시는 <a class=\"text-accent hover:underline\" href=\"/ko/blog/extract-clip-from-podcast\">대본 워크플로</a> <!-- -->를 참조하세요."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "검토를 선택하고 사진에 저장하기 전에 준비된 출력물을 확인하세요. 내보내기에는 Creator가 필요합니다. 저장 완료 알림을 기다린 다음, 대상 앱을 열어 저장된 파일을 직접 업로드하세요. 출력 형식을 변경하는 경우 해당 업로드 요건을 확인하세요."
+      "html": "검토를 선택하고 사진에 저장하기 전에 준비된 출력물을 확인하세요. 완성된 비디오를 저장하거나 내보내려면 Creator 모드가 필요합니다. 저장 완료 확인을 기다린 다음, 대상 앱을 열어 저장된 파일을 직접 업로드하세요. 출력 형식을 변경하는 경우 해당 앱의 현재 업로드 요구사항을 확인하세요."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "직접 선택한 순간 대신 일정한 간격으로 클립을 원한다면 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">Cut 워크플로</a>를 사용하세요."
+      "html": "직접 선별한 순간 대신 일정한 간격으로 클립을 원한다면, <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">Cut 워크플로</a>를 사용하세요."
     },
     {
       "kind": "cta"

@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to apply a .cube LUT on iPhone",
   description: "Import a .cube LUT from Files, adjust its strength and compare the preview in ReelClip. Includes a short recording of the actual controls.",
   publishedAt: "2026-08-25",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   category: "How-to" as const,
   primaryKeyword: "how to apply a lut on iphone",
   readMinutes: 4,
@@ -62,7 +62,7 @@ export default function Post() {
         <PostH2>Review the finished video</PostH2>
         <PostP>
           Finish the adjustment, open Review and inspect the rendered output.
-          Saving the video requires Creator. Check the actual saved file before
+          Saving the video to your iPhone requires Creator mode. Check the actual saved file before
           sharing it, especially if colour or HDR settings changed during the edit.
         </PostP>
         <PostP>

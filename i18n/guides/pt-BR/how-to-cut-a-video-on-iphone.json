@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Como cortar um vídeo no iPhone: aparar ou dividi-lo em clipes",
   "description": "Aprenda a aparar um vídeo com o Fotos, dividir em um ponto escolhido com o iMovie, ou usar o ReelClip para selecionar e revisar vários clipes.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Como fazer",
   "primaryKeyword": "como cortar um vídeo no iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "pt-BR",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para aparar rapidamente, abra um vídeo no Fotos, toque em Editar, ajuste as alças de início e fim, toque em Concluído e escolha Salvar Vídeo ou Salvar Vídeo como Novo Clipe. Para dividir um clipe em um ponto escolhido dentro de um projeto de filme, use o comando Dividir do iMovie. Para preparar vários trechos de uma gravação longa, use o Cut do ReelClip para um lote ou Slice para momentos que você selecionar."
+      "html": "Para um aparar rápido, abra um vídeo no Fotos, toque em Editar, ajuste as alças de início e fim, toque em Concluído e escolha Salvar Vídeo ou Salvar Vídeo como Novo Clipe. Para dividir um clipe em um ponto escolhido dentro de um projeto de filme, use o comando Dividir do iMovie. Para preparar vários trechos de uma gravação longa, use o Cut do ReelClip para um lote ou Slice para momentos que você selecionar."
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Este passo a passo mostra uma receita de Cut de clipes iguais e a visualização. Não mostra um salvamento concluído em Fotos. O ReelClip é gratuito para importar e visualizar; salvar ou exportar requer o Creator. O app prepara os arquivos de vídeo, mas não os publica no TikTok, Instagram ou YouTube. Para um fluxo de trabalho social mais longo, veja<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">como preparar clipes de um vídeo longo para o TikTok</a>, ou leia o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/video-length-social-media-reach\">guia para dividir uma gravação em clipes iguais</a>."
+      "html": "Este tutorial mostra uma receita de Cut de clipes iguais e uma pré-visualização. Não mostra uma conclusão de salvamento para Fotos. O ReelClip é gratuito para importar e pré-visualizar; salvar ou exportar seu trabalho requer o modo Creator. O app prepara os arquivos de vídeo, mas não os publica no TikTok, Instagram ou YouTube. Para um fluxo de trabalho social mais longo, veja<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">como preparar clipes de um vídeo longo para o TikTok</a>, ou leia o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/video-length-social-media-reach\">guia para dividir uma gravação em clipes iguais</a>."
     },
     {
       "kind": "html",

@@ -130,8 +130,7 @@ export default function Post() {
             Review the prepared output, export the approved clips and upload
             them yourself to the platform named in the campaign brief. ReelClip
             can import and edit a video file; it cannot record the console,
-            fetch a stream or publish the clip for you. Export requires
-            Creator.
+            fetch a stream or publish the clip for you. Saving or exporting the finished video requires Creator mode.
           </li>
         </PostOl>
 

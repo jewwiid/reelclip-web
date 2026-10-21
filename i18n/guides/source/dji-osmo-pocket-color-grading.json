@@ -3,11 +3,11 @@
   "title": "DJI Osmo Pocket color grading on iPhone: choose the right recording profile",
   "description": "Distinguish D-Cinelike, D-Log M and other Pocket profiles, choose a matching conversion and review creative color changes on your iPhone.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Use case",
   "primaryKeyword": "dji osmo pocket color grading",
   "readMinutes": 4,
-  "sourceFingerprint": "40842a7435a08ec30100ef78d30833c2c6094e1483b8bb9358150e8bf9a58666",
+  "sourceFingerprint": "d7ff3ee8d885e7802fe69fa7be3b145cb384d02595e4aacd52c23376b566367c",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -80,7 +80,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Keep the original recording and import the clip you want to edit.</li><li>Save your compatible .cube file in Files. In ReelClip, open Adjust &amp; Style → LUTs → Import LUT.</li><li>Select the look and compare the preview with the original. Follow its expected-input requirements.</li><li>Adjust the creative strength to suit the shot. Check faces, bright areas and dark detail as the clip plays.</li><li>Review the rendered result and a saved sample before applying the settings across a project. Saving video requires Creator.</li>"
+      "html": "<li>Keep the original recording and import the clip you want to edit.</li><li>Save your compatible .cube file in Files. In ReelClip, open Adjust &amp; Style → LUTs → Import LUT.</li><li>Select the look and compare the preview with the original. Follow its expected-input requirements.</li><li>Adjust the creative strength to suit the shot. Check faces, bright areas and dark detail as the clip plays.</li><li>Review the rendered result and a saved sample before applying the settings across a project. Saving the video to your iPhone requires Creator mode.</li>"
     },
     {
       "kind": "html",

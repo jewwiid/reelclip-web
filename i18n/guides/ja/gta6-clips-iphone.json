@@ -1,15 +1,15 @@
 {
   "slug": "gta6-clips-iphone",
   "title": "iPhoneでGTA 6クリップ：権利を意識した公開ワークフロー",
-  "description": "Shorts、TikTok、Reels向けGTA VIクリップワークフローを計画しよう：自分のゲームプレイを録画するか、配信者の承認を得て、ファイルをiPhoneに転送し、ReelClipで編集します。",
+  "description": "Shorts、TikTok、Reels向けのGTA VIクリップワークフローを計画しましょう：自分のゲームプレイを録画するか、ストリーマーの承認を得て、ファイルをiPhoneに転送し、ReelClipで編集します。",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "使い方",
   "primaryKeyword": "GTA 6クリップ",
   "readMinutes": 6,
-  "sourceFingerprint": "7bfe8fdd0ddd3eccb04aca670edc46c5f1f376bf5eea33c766eec7590fdf255d",
+  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
   "schemaVersion": 1,
   "locale": "ja",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "2026年10月21日時点で、RockstarのパブリッシャーはGrand Theft Auto VIをPlayStation 5およびXbox Series X|S向けに、2026年11月19日の発売予定日で掲載しています。発売までは自分のゲームセッションを録画できません。これを発売チェックリストとして使用し、リークされた発売前映像はスキップしてください。その日付を前提とする前に、<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">現在のTake-Two発売発表</a> <!-- -->を確認してください。"
+      "html": "2026年10月21日時点で、RockstarのパブリッシャーはGrand Theft Auto VIをPlayStation 5およびXbox Series X|S向けに、2026年11月19日の発売予定日でリストしています。発売までは自分のゲームセッションを録画できません。これを発売チェックリストとして使用し、リークされた発売前の映像はスキップしてください。その日付を前提とする前に、<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">現在のTake-Two発売発表</a> <!-- -->を確認してください。"
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "発売後、GTA 6の短い投稿は自分のゲームプレイまたは配信者の承認済みクリップから始めることができます。録画ソースとゲームパブリッシャーには別々の権利があります。Rockstarの現在の公開<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">ファンビデオポリシー</a> <!-- -->では、非営利の偶発的なゲームプレイ使用を説明し、広告やその他の商業配布は対象外としています。有料クリッピングキャンペーンや収益化投稿が対象になると仮定しないでください。受諾する前に、ケースごとの書面による許可をTake-Twoに依頼してください。"
+      "html": "発売後、GTA 6の短い投稿は自分のゲームプレイか、ストリーマーの承認済みクリップから始めることができます。キャプチャソースとゲームパブリッシャーには別々の権利があります。Rockstarの現在の公開<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">ファンビデオポリシー</a> <!-- -->では、非営利での偶発的なゲームプレイ使用を説明し、広告やその他の商業配布は対象外としています。有料クリッピングキャンペーンや収益化投稿が対象と思い込まないでください。受諾する前に、Take-Twoにケースごとの書面による許可を求めてください。"
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "編集の許可があるソースを録画する"
+      "html": "編集許可を得たソースをキャプチャする"
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>自分のゲームプレイ：</strong>コンソールの録画コントロールを使用して、瞬間を録画するか、最近のゲームプレイを保存します。PlayStationはPS5の録画オプションとPlayStation Appの転送プロセスを説明しています。アプリは対応する録画を限られた期間しか保持しないため、利用可能な間にファイルをデバイスにダウンロードしてください。Xboxの場合は、コンソールと地域に応じた現在の<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.xbox.com/en-US/apps/xbox-app-on-mobile\" rel=\"noreferrer\" target=\"_blank\">Xboxモバイル録画手順</a> <!-- -->に従ってください。</li><li><strong>配信者の瞬間：</strong>チャンネルが許可している場所でのみクリップ機能を使用し、その後、ファイルの編集と再投稿の明示的な許可を配信者またはキャンペーンオーナーに求めてください。KICKのクリップはクリップページからMP4としてダウンロードできます。Twitchの配信者はクリップ作成を制御できます。どちらのプラットフォームのクリップボタンも、ゲーム映像、音楽、その他のゲストの権利をクリアするものではありません。</li>"
+      "html": "<li><strong>自分のゲームプレイ：</strong>コンソールのキャプチャコントロールを使用して、瞬間を録画するか、最近のゲームプレイを保存します。PlayStationはPS5のキャプチャオプションとPlayStationアプリの転送プロセスを文書化しています。アプリは対応するキャプチャを限られた期間のみ保持するため、利用可能な間にファイルをデバイスにダウンロードしてください。Xboxの場合は、現在の<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.xbox.com/en-US/apps/xbox-app-on-mobile\" rel=\"noreferrer\" target=\"_blank\">Xboxモバイルキャプチャ手順</a> <!-- -->をコンソールと地域に応じて確認してください。</li><li><strong>ストリーマーの瞬間：</strong>チャンネルが許可している場合のみクリップ機能を使用し、ストリーマーまたはキャンペーンオーナーにファイルの編集と再投稿の明示的な許可を求めてください。KICKのクリップはクリップページからMP4としてダウンロードできます。Twitchの配信者はクリップ作成を制御できます。どちらのプラットフォームのクリップボタンも、ゲーム映像、音楽、その他のゲストの権利をクリアするものではありません。</li>"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "PlayStationのヘルプページでは、ボイスチャットが録画に含まれる可能性があること、チャット参加者の声を含める前に許可を求めるよう記載しています。関係者全員が同意していない限り、プライベートチャットと特定可能なゲスト音声は除外してください。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/\" rel=\"noreferrer\" target=\"_blank\">PS5の録画と音声設定</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/\" rel=\"noreferrer\" target=\"_blank\">PlayStation Appへの録画転送</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">KICKクリップのダウンロード</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitchクリップ設定</a>。"
+      "html": "PlayStationのヘルプページでは、ボイスチャットがキャプチャに含まれる可能性があることに言及し、チャット参加者の声を含める前に許可を求めるよう述べています。関係者全員が同意していない限り、プライベートチャットや特定可能なゲストの音声は含めないでください。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/\" rel=\"noreferrer\" target=\"_blank\">PS5キャプチャと音声設定</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/\" rel=\"noreferrer\" target=\"_blank\">キャプチャをPlayStationアプリに転送</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">KICKクリップをダウンロード</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitchクリップ設定</a>。"
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "録画をiPhoneに移動して編集する"
+      "html": "キャプチャをiPhoneに移動し編集する"
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>自分の録画または承認済みソースファイルをPhotosまたはFilesに転送してください。クリップに別の編集が必要になった場合や、キャンペーンが別のバージョンを求めた場合に備え、元の録画は保持してください。</li><li>動画をReelClipにインポートしてください。長いVODから印象的な瞬間を1つ選ぶには<strong>Slice</strong>を使用します。録画を数、長さ、間隔で計画的にクリップに分割するには<!-- --> <strong>Cut</strong>を使用します。CutはGTAのベストな瞬間を自動的に検出するものではありません。</li><li>瞬間が音声解説に依存する場合は、<!-- --> <strong>Transcript</strong>を開き、該当箇所を見つけて、言葉とタイミングを再生と照合してください。フルストリームがなくてもクリップが意味を持つよう、セットアップとペイオフを一緒に保ってください。</li><li>最初と最後のフレーム、ゲーム音声、ボイスチャット、字幕、画面のフレーミングを確認してください。9:16の書き出しは別のフレーミング判断です。時間の短い選択では、横長の録画はクロップされません。</li><li>準備された出力を確認し、承認済みのクリップを書き出して、キャンペーンブリーフに記載されたプラットフォームに自分でアップロードしてください。ReelClipは動画ファイルのインポートと編集はできますが、コンソールの録画、ストリームの取得、クリップの代わりの公開はできません。書き出しにはCreatorが必要です。</li>"
+      "html": "<li>自分のキャプチャまたは承認済みソースファイルをPhotosまたはFilesに転送してください。クリップに別の編集が必要になった場合や、キャンペーンが別のバージョンを求めた場合に備え、元の録画は保持しておいてください。</li><li>動画をReelClipにインポートしてください。長いVODから忘れられない瞬間を1つ選ぶには<strong>Slice</strong>を使用します。録画を数、長さ、間隔で計画的なクリップに分割するには<!-- --> <strong>Cut</strong>を使用してください。CutはGTAの最高の瞬間を自動的に検出するものではありません。</li><li>瞬間が音声解説に依存する場合は、<!-- --> <strong>Transcript</strong>を開き、該当箇所を見つけて、言葉とタイミングを再生と照合してください。セットアップと結果を一緒に保ち、フルストリームがなくてもクリップが意味を成すようにしてください。</li><li>最初と最後のフレーム、ゲーム音声、ボイスチャット、字幕、画面構成を確認してください。9:16の書き出しは別の構成判断です。時間選択を短くしても、横長のキャプチャはクロップされません。</li><li>準備された出力を確認し、承認済みのクリップを書き出して、キャンペーンブリーフに記載されたプラットフォームに自分でアップロードしてください。ReelClipは動画ファイルのインポートと編集はできますが、コンソールの録画、ストリームの取得、クリップの公開はできません。完成した動画の保存または書き出しにはCreatorモードが必要です。</li>"
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "GTA 6投稿を収益化する前に権利を確認する"
+      "html": "GTA 6の投稿を収益化する前に権利を確認する"
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "少なくとも2つの許可に関する問題があります。配信者が録画の再利用を許可するかどうか、および出版社がGTA VIの映像の商用利用を許可するかどうかです。配信者の「クリップして」というメッセージは最初の問題にしか答えていません。Rockstarの公開ポリシーは非営利のファン投稿を対象としており、一方YouTubeではゲームの収益化は出版社の商用利用ライセンスおよび解説や教育的価値に依存すると述べています。有料の仕事には書面による許可を取得し、ストーリーのネタバレや単独のカットシーンは避け、リーク映像は使用しないでください。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/138161\" rel=\"noreferrer\" target=\"_blank\">YouTubeのゲームコンテンツ収益化ルール</a> <!-- -->および<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">Rockstarの現在の投稿ポリシー</a> <!-- -->に、まず確認すべき事項が記載されています。"
+      "html": "少なくとも2つの許可に関する問題があります。配信者が録画の再利用を許可するかどうか、およびパブリッシャーがGTA VIの映像の商用利用を許可するかどうかです。配信者の「クリップして」というメッセージは最初の問題にしか答えていません。Rockstarの公開ポリシーは非商用のファンポストを対象としており、一方YouTubeはゲームの収益化がパブリッシャーの商用利用ライセンスおよび解説や教育的価値に依存すると述べています。有償の仕事には書面による許可を取得し、ストーリーのネタバレや単独のシネマティックを避け、リーク映像は使用しないでください。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/138161\" rel=\"noreferrer\" target=\"_blank\">YouTubeのゲームコンテンツ収益化ルール</a> <!-- -->および<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">Rockstarの現在の投稿ポリシー</a> <!-- -->に、まず確認すべき事項が記載されています。"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "iPhoneの編集コントロールについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">カットのウォークスルー</a> <!-- -->または<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/edit-vertical-video-on-iphone\">Sliceで瞬間を選ぶガイド</a> <!-- -->をご覧ください。"
+      "html": "iPhoneの編集コントロールについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cutのウォークスルー</a> <!-- -->または<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/edit-vertical-video-on-iphone\">Sliceで瞬間を選ぶガイド</a>を参照してください。"
     },
     {
       "kind": "cta"

@@ -206,25 +206,25 @@
   },
   "pricing": {
     "eyebrow": "가격",
-    "heading": "클립은 무료로 제작하세요. 내보낼 때만 결제하세요.",
-    "intro": "영상을 가져오면 ReelClip이 가장 강렬한 순간을 찾아주고, 모든 결과를 무료로 미리보기할 수 있어요. 저장, 공유, 내보내기가 필요할 때 Creator를 선택하세요.",
+    "heading": "ReelClip을 무료로 사용해 보세요. 작업을 저장하려면 Creator 모드를 잠금 해제하세요.",
+    "intro": "영상을 가져오고 모든 결과를 무료로 미리보세요. Creator 모드는 저장, 공유, iPhone에서 작업물 내보내기를 포함한 ReelClip의 전체 기능을 제공합니다.",
     "tryFree": "ReelClip 무료 체험",
-    "tryFreeDescription": "영상을 가져와 클립을 생성하고 결과를 미리보세요. 내보내기나 저장에는 Creator 플랜이 필요합니다.",
-    "creatorPlans": "Creator 플랜",
-    "purchaseInApp": "ReelClip 내에서 플랜을 선택하세요. 결제는 Apple이 처리합니다.",
+    "tryFreeDescription": "영상을 가져오고 편집 결과를 무료로 미리보세요. Creator 모드는 전체 기능을 잠금 해제하고 iPhone에서 작업물을 저장, 공유, 내보낼 수 있게 해줍니다.",
+    "creatorPlans": "Creator 모드 옵션",
+    "purchaseInApp": "ReelClip에서 원하는 이용권을 선택하세요. 결제는 Apple에서 처리합니다.",
     "usPrices": "미국 App Store 기준 가격",
     "monthly": "월간",
     "monthlySuffix": "/월",
-    "monthlyDescription": "장기 약정 없이 유연하게 이용하세요.",
+    "monthlyDescription": "월간 결제로 Creator 모드를 이용하세요. 언제든 해지 가능합니다.",
     "annual": "연간",
     "annualSuffix": "/년",
     "annualDescription": "월 {price}, 연간 결제. 월간 대비 {savings}% 절약하세요.",
     "lifetime": "평생",
     "lifetimeSuffix": "일회성",
-    "lifetimeDescription": "한 번 결제로 갱신 없이 Creator를 영구 보유하세요.",
+    "lifetimeDescription": "한 번 결제로 갱신 없이 Creator 모드를 영구 이용하세요.",
     "recommended": "추천",
     "launchPrice": "런칭 특가",
-    "allPlans": "모든 플랜이 Creator를 해금합니다",
+    "allPlans": "모든 옵션은 Creator 모드를 잠금 해제합니다",
     "perks": [
       "완성된 모든 클립 저장, 공유, 내보내기",
       "최대 60fps 원본 화질 영상",
@@ -241,11 +241,11 @@
   },
   "account": {
     "eyebrow": "계정",
-    "heading": "내 구독",
-    "intro": "등급 확인, 결제 관리, 언제든 해지가 가능합니다.",
-    "checkoutSuccess": "구독 활성 중. 아래에서 계정을 조회하여 확인하세요.",
+    "heading": "ReelClip 이용 현황",
+    "intro": "ReelClip 이용 현황을 확인하고, 계정을 조회하며, 결제 관리 또는 월간 구독 해지를 진행하세요.",
+    "checkoutSuccess": "결제가 완료되었습니다. 아래에서 계정을 조회하여 Creator 모드 이용 권한을 확인하세요.",
     "lookupHeading": "계정 조회",
-    "lookupDescription": "구독 시 사용한 이메일 또는 앱 계정 토큰을 입력하세요.",
+    "lookupDescription": "구매에 사용한 이메일 또는 iOS 앱 계정 토큰으로 Creator 모드 이용 권한을 조회하세요.",
     "email": "이메일",
     "token": "iOS 앱 계정 토큰",
     "optional": "선택사항",
@@ -258,9 +258,9 @@
     "openingStripe": "Stripe 열기 중…",
     "manageSubscription": "구독 관리",
     "portalFailed": "포털 오류 (HTTP {status})",
-    "creator": "Creator",
+    "creator": "Creator 모드",
     "free": "무료",
-    "currentTier": "현재 요금제",
+    "currentTier": "현재 이용 현황",
     "activeEntitlements": "활성 혜택 ({count})",
     "noEntitlements": "활성 혜택이 없습니다.",
     "upgradeSuffix": "업그레이드하려면",
@@ -291,8 +291,8 @@
         "answer": "ReelClip은 App Store에서 다운로드할 수 있습니다. App Store에서 ReelClip을 검색하거나 이 페이지의 App Store 링크를 방문하세요. iOS 26 이상이 설치된 iPhone이 필요합니다."
       },
       {
-        "question": "구독 환불이 가능한가요?",
-        "answer": "네. 환불은 Apple에서 처리합니다. reportaproblem.apple.com에 접속하여 구독에 사용한 Apple ID로 로그인한 후 ReelClip 결제에 대한 환불을 요청하세요. 저희가 직접 환불을 처리할 수는 없습니다."
+        "question": "ReelClip 구매 환불을 받을 수 있나요?",
+        "answer": "네. App Store 구매 환불은 Apple에서 처리합니다. reportaproblem.apple.com에 접속하여 구매 시 사용한 Apple ID로 로그인한 후, ReelClip 결제 내역에 대해 환불을 요청하세요. 저희는 직접 환불을 처리할 수 없습니다."
       },
       {
         "question": "웹사이트 주소가 reelclips.app인 이유는 무엇인가요?",
@@ -471,7 +471,7 @@
       "영상, 오디오, 대본, 또는 AI 기능 팩을 어떤 서버에도 업로드하지 않습니다.",
       "서드파티 AI 제공업체, 클라우드 LLM, 또는 자체 API 키 연동을 사용하지 않습니다.",
       "서드파티 분석, 광고 SDK, 또는 앱 간 추적기를 포함하지 않습니다.",
-      "유료 플랜으로 내보낸 영상에는 워터마크를 넣지 않습니다."
+      "Creator 모드로 내보낸 영상에는 워터마크를 추가하지 않습니다."
     ],
     "whoTitle": "만든 사람",
     "whoBody": "ReelClip은 독립 iOS 개발자가 직접 개발하고 운영합니다.",
@@ -479,7 +479,7 @@
     "nextItems": [
       "전체 데이터 흐름은 개인정보 처리방침에서 확인하세요.",
       "ReelClip이 CapCut, InShot, VN, OpusClip, Quik과 어떻게 다른지 비교해 보세요.",
-      "내보내기를 준비하셨다면 Creator 플랜을 확인해 보세요.",
+      "저장이나 내보내기를 준비했다면 Creator 모드 옵션을 확인하세요.",
       "App Store에서 앱을 다운로드하세요."
     ]
   },

@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Comment couper une vidéo sur iPhone : la raccourcir ou la diviser en extraits",
   "description": "Apprenez à raccourcir une vidéo avec Photos, à la diviser à un point précis avec iMovie, ou à utiliser ReelClip pour sélectionner et examiner plusieurs extraits.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Mode d'emploi",
   "primaryKeyword": "comment couper une vidéo sur iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "fr",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Cette procédure montre une recette Cut de clips égaux et un aperçu. Elle ne montre pas une sauvegarde terminée dans Photos. ReelClip est gratuit pour importer et prévisualiser ; la sauvegarde ou l'exportation nécessite Creator. L'application prépare les fichiers vidéo mais ne les publie pas sur TikTok, Instagram ou YouTube. Pour un flux social plus long, consultez<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">comment préparer des clips à partir d'une longue vidéo pour TikTok</a>, ou lisez le<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/video-length-social-media-reach\">guide pour diviser un enregistrement en clips égaux</a>."
+      "html": "Ce guide montre une recette de Cut à clips égaux et un aperçu. Il ne montre pas une sauvegarde terminée dans Photos. ReelClip est gratuit pour importer et prévisualiser ; sauvegarder ou exporter votre travail nécessite le mode Creator. L'application prépare les fichiers vidéo mais ne les publie pas sur TikTok, Instagram ou YouTube. Pour un flux de travail social plus long, consultez<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">comment préparer des clips à partir d'une longue vidéo pour TikTok</a>, ou lisez le<!-- --> <a class=\"text-accent hover:underline\" href=\"/fr/blog/video-length-social-media-reach\">guide pour diviser un enregistrement en clips égaux</a>."
     },
     {
       "kind": "html",

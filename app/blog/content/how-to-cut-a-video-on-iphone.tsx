@@ -105,7 +105,7 @@ export default function Post() {
         <PostP>
           This walkthrough shows an equal-clip Cut recipe and preview. It does
           not show a completed save to Photos. ReelClip is free to import and
-          preview; saving or exporting requires Creator. The app prepares the
+          preview; saving or exporting your work requires Creator mode. The app prepares the
           video files but does not post them to TikTok, Instagram or YouTube.
           For a longer social workflow, see{" "}
           <PostLink href="/blog/how-to-cut-long-video-for-tiktok">

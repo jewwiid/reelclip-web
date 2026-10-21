@@ -3,11 +3,11 @@
   "title": "DJI D-Log a Rec.709 su iPhone: abbina la fotocamera e il profilo di registrazione",
   "description": "Scegli una conversione DJI specifica per il modello, evita di applicarla due volte e testa il risultato su iPhone prima di montare l'intera registrazione.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "converti dji d-log in rec 709 su iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "f85a30966388796732d5fea02dea8f017c6e15d28584f59fa63ebef114f8e141",
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
   "schemaVersion": 1,
   "locale": "it",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Per convertire una registrazione DJI in Rec.709, identifica la fotocamera e la modalità effettivamente utilizzate, poi scegli una conversione corrispondente. D-Log, D-Log M, D-Log 2, D-Cinelike e HLG non sono nomi intercambiabili per la stessa immagine."
+      "html": "Per convertire una registrazione DJI in Rec.709, identifica la fotocamera e la modalità effettivamente utilizzata, poi scegli una conversione corrispondente. D-Log, D-Log M, D-Log 2, D-Cinelike e HLG non sono nomi intercambiabili per la stessa immagine."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Controlla le impostazioni della fotocamera, i metadati del file originale e la documentazione della fotocamera. Conserva il file originale durante il trasferimento delle riprese; una copia elaborata da un'altra app potrebbe avere già un look o una conversione applicati."
+      "html": "Controlla le impostazioni della fotocamera, i metadati del file originale e la documentazione della fotocamera. Conserva il file originale durante il trasferimento del materiale; una copia elaborata da un'altra app potrebbe avere già un look o una conversione applicata."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Tabella modelli e LUT di DJI</a> elenca i profili di registrazione e le risorse disponibili. Ad esempio, Pocket 3 ha una conversione D-Log M, mentre l'Osmo Pocket originale e Pocket 2 sono elencati con D-Cinelike. Non dedurre il profilo dalla sola parola Pocket."
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Tabella modelli e LUT DJI</a> elenca i profili di registrazione e le risorse disponibili. Ad esempio, Pocket 3 ha una conversione D-Log M, mentre l'Osmo Pocket originale e Pocket 2 sono elencati con D-Cinelike. Non dedurre il profilo dalla sola parola Pocket."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Verifica se il tuo editor gestisce già la conversione della sorgente. Applicare un'altra conversione fotocamera sopra una già esistente può produrre contrasto e colori errati. Per HLG o un altro flusso di lavoro HDR, usa un editor e una configurazione di output che supportino esplicitamente quella sorgente, piuttosto che assumere che una LUT Log esegua anche il tone mapping HDR."
+      "html": "Verifica se il tuo editor gestisce già la conversione sorgente. Applicare un'altra conversione fotocamera sopra una già esistente può produrre contrasto e colori errati. Per HLG o un altro flusso di lavoro HDR, usa un editor e una configurazione di output che supportino esplicitamente quella sorgente, invece di presumere che una LUT Log esegua anche il tone mapping HDR."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Testa una breve sezione in ReelClip"
+      "html": "Testa un breve segmento in ReelClip"
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importa la registrazione originale e rendi disponibile il file .cube corrispondente in Files.</li><li>Apri Adjust & Style → LUTs → Import LUT e seleziona il file.</li><li>Segui le istruzioni del fornitore per l'interpretazione della sorgente. Confronta l'anteprima con l'immagine non regolata e controlla diversi fotogrammi.</li><li>Rivedi il risultato renderizzato, poi ispeziona un breve campione salvato. Il salvataggio del video richiede Creator.</li>"
+      "html": "<li>Importa la registrazione originale e rendi disponibile il file .cube corrispondente in Files.</li><li>Apri Adjust & Style → LUTs → Import LUT e seleziona il file.</li><li>Segui le istruzioni del fornitore per l'interpretazione della sorgente. Confronta l'anteprima con l'immagine non regolata e controlla diversi fotogrammi.</li><li>Rivedi il risultato renderizzato, poi ispeziona un breve campione salvato. Il salvataggio del video su iPhone richiede la modalità Creator.</li>"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "La <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-apply-lut-on-iphone\">demo LUT di ReelClip</a> registrata mostra i controlli di importazione e intensità con un look creativo. Non verifica una conversione DJI calibrata, ogni codifica di input o ogni variante di LUT. Se un file tecnico non si comporta come previsto, utilizza un flusso di lavoro colore specifico per la fotocamera verificato prima di continuare la tua modifica."
+      "html": "La <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-apply-lut-on-iphone\">demo LUT ReelClip</a> registrata mostra i controlli di importazione e intensità con un look creativo. Non verifica una conversione DJI calibrata, ogni codifica di input o ogni variante LUT. Se un file tecnico non si comporta come previsto, utilizza un flusso di lavoro colore specifico per la fotocamera verificato prima di continuare la tua modifica."
     },
     {
       "kind": "html",
@@ -97,7 +97,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Continua dopo aver controllato il colore"
+      "html": "Continua dopo aver verificato il colore"
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">Cut</a> per un batch pianificato o il <a class=\"text-accent hover:underline\" href=\"/it/blog/extract-clip-from-podcast\">flusso di lavoro Transcript</a> per i passaggi parlati. Conserva una copia della registrazione originale così puoi rivedere le scelte di colore in seguito."
+      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">Cut</a> per un batch pianificato o il <a class=\"text-accent hover:underline\" href=\"/it/blog/extract-clip-from-podcast\">flusso di lavoro Transcript</a> per passaggi parlati. Conserva una copia della registrazione originale così potrai rivedere le scelte di colore in seguito."
     },
     {
       "kind": "cta"

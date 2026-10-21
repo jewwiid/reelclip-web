@@ -1,13 +1,13 @@
 {
   "slug": "extract-clip-from-podcast",
   "title": "Hoe je hoogtepunten uit een podcast extraheert op iPhone",
-  "description": "Gebruik het transcript om gesproken momenten uit een podcastvideo te vinden en te beoordelen, ondertitels te controleren en clips voor te bereiden voor export op iPhone.",
+  "description": "Gebruik het transcript om gesproken momenten uit een podcastvideo te vinden en te reviewen, ondertitels te controleren en clips voor te bereiden voor export op iPhone.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Toepassing",
   "primaryKeyword": "hoe je podcasthoogtepunten clipt",
   "readMinutes": 4,
-  "sourceFingerprint": "7e0aebe6d876f222ae5cdb5c7043cac8064702026caf06dc725e5c218368e20b",
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Behoud genoeg context voor iemand die de aflevering niet heeft gehoord. Een citeerbare zin kan nog steeds de vraag of uitleg nodig hebben die eraan voorafging."
+      "html": "Houd genoeg context voor iemand die de aflevering niet heeft gehoord. Een citeerbare zin kan nog steeds de vraag of uitleg nodig hebben die eraan voorafging."
     },
     {
       "kind": "tutorial",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importeer de video vanuit Foto's of Bestanden en kies Transcript.</li><li>Wacht op de transcriptie, controleer dan namen en eventuele verkeerd begrepen woorden.</li><li>Lees de tekst door en speel een kandidaat-fragment in context af.</li><li>Gebruik Add as clip voor het fragment dat je wilt, of gebruik Slice wanneer je het tijdsbereik al kent.</li>"
+      "html": "<li>Importeer de video vanuit Foto's of Files en kies Transcript.</li><li>Wacht op de transcriptie, controleer dan namen en eventuele woorden die het verkeerd begreep.</li><li>Lees de tekst door en speel een kandidaatfragment in context af.</li><li>Gebruik Add as clip voor het fragment dat je wilt, of gebruik Slice wanneer je het tijdbereik al kent.</li>"
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "De opgenomen interface toont Add as clip naast een transcriptpassage. De demo toont ook een woord dat uit de bewerking is verwijderd. Het verwijderen van een woord verandert de videobewerking, dus luister op dat knijppunt in plaats van het als een simpele spellingscorrectie te behandelen."
+      "html": "De opgenomen interface toont Add as clip naast een transcriptfragment. De demo toont ook een woord dat uit de bewerking is verwijderd. Het verwijderen van een woord verandert de videobewerking, dus luister op dat knippunt in plaats van het als een simpele spellingscorrectie te behandelen."
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Beoordeel ondertitels en geluid"
+      "html": "Review ondertitels en geluid"
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Bekijk elke kandidaat-clip vooraf voordat je exporteert. Controleer het begin, het einde en eventuele verwijderde spraak. Als je ondertitels gebruikt, controleer dan de woorden en hun plaatsing over het beeld. Controleer de ondertitels in het uiteindelijk opgeslagen bestand, evenals in de voorvertoning van de editor."
+      "html": "Preview elke kandidaatclip voordat je exporteert. Controleer het begin, het einde en eventueel verwijderde spraak. Als je ondertitels gebruikt, review dan de woorden en hun plaatsing over het beeld. Controleer de ondertitels in het uiteindelijk opgeslagen bestand en in de editor-preview."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Je kunt het Export-menu van het transcript inspecteren voor tekst- en ondertitelopties, los van het opslaan van de video. Voor lange stiltes, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/remove-silence-from-video-free\">pauze-cleanup</a>."
+      "html": "Je kunt het Export-menu van het transcript inspecteren voor tekst- en ondertitelopties, apart van het opslaan van de video. Voor lange stiltegaten, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/remove-silence-from-video-free\">pauze-cleanup</a>."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Kies Review en controleer de voorbereide uitvoer, sla daarna op in Foto's. Exporteren vereist Creator. Controleer het opgeslagen bestand en de framing voordat je het uploadt naar je gekozen platform. Transcriptie- en rendertijd zijn afhankelijk van de opname en het apparaat; er is geen vaste verwerkingstijd of gegarandeerd aantal bruikbare highlights."
+      "html": "Kies Review en controleer de voorbereide uitvoer, sla deze vervolgens op in Foto's. Opslaan in Foto's of exporteren van een voltooide video vereist de Creator-modus. Controleer het opgeslagen bestand en de framing voordat je het uploadt naar je gekozen platform. Transcriptie- en rendertijd zijn afhankelijk van de opname en het apparaat; er is geen vaste verwerkingstijd of gegarandeerd aantal bruikbare highlights."
     },
     {
       "kind": "html",

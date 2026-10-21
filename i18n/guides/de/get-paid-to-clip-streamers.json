@@ -1,15 +1,15 @@
 {
   "slug": "get-paid-to-clip-streamers",
-  "title": "So verdienst du Geld damit, Streamer zu clippen: Kampagnen, Rechte und Workflow",
-  "description": "Erfahre, wie Clipper-Kampagnen bezahlen, welche Berechtigungs- und Auszahlungsregeln du prüfen musst und wie du einen autorisierten Twitch- oder Kick-Clip auf dem iPhone bearbeitest.",
+  "title": "So verdienst du Geld mit Streamer-Clips: Kampagnen, Rechte und Workflow",
+  "description": "Erfahre, wie Clipper-Kampagnen bezahlen, welche Berechtigungs- und Auszahlungsregeln du prüfen musst, und wie du einen autorisierten Twitch- oder Kick-Clip auf dem iPhone bearbeitest.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Anleitung",
-  "primaryKeyword": "so verdienst du geld damit, streamer zu clippen",
+  "primaryKeyword": "so verdienst du geld mit streamer-clips",
   "readMinutes": 7,
-  "sourceFingerprint": "a27bbb1886cf3f18daef607ad2867e2be05fc061b4fd78f5cd80917e4e1708ee",
+  "sourceFingerprint": "dcf7a2f37f156a956cf96d8301552981984bc628686b9e3c1d20b65097795883",
   "schemaVersion": 1,
   "locale": "de",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Menschen, die Streamer clippen, können von einer streamer- oder markenfinanzierten Kampagne, einem direkten Schnittauftrag oder der eigenen berechtigten Kanalmonetarisierung verdienen. Das sind unterschiedliche Deals. Eine Kampagne kann pro genehmigtem Post, pro verifizierter View oder für ein festes Deliverable zahlen; eine Plattform kann einen reposteten Clip ablehnen, selbst wenn der Streamer die Erlaubnis gegeben hat. Lies die Bedingungen, bevor du schneidest, und hol dir eine schriftliche Genehmigung für die genaue Quelle und Verwendung."
+      "html": "Wer Streamer clippt, kann über eine streamer- oder markenfinanzierte Kampagne, einen direkten Schnittauftrag oder die eigene kanalberechtigte Monetarisierung Geld verdienen. Das sind unterschiedliche Deals. Eine Kampagne kann pro genehmigtem Post, pro verifizierter View oder für ein festes Deliverable bezahlen; eine Plattform kann einen reposteten Clip ablehnen, selbst wenn der Streamer die Erlaubnis gegeben hat. Lies die Bedingungen, bevor du schneidest, und hole dir schriftliche Erlaubnis für die genaue Quelle und Verwendung."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Dieser bezahlte Workflow ist Teil der breiteren Clip-Ökonomie, in der Creator Leute einstellen, um lange Streams und Shows in kurze Posts zu verwandeln. Die Atlantic-Diskussion von 2026 über Clipping beschreibt diesen Wandel; sie verspricht nicht, dass ein bestimmter Clip oder eine bestimmte Kampagne Geld verdient.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.theatlantic.com/podcasts/2026/04/how-short-form-clips-took-over-the-internet/686922/\" rel=\"noreferrer\" target=\"_blank\">Lies den Bericht über die Clip-Ökonomie</a>."
+      "html": "Dieser bezahlte Workflow ist Teil der breiteren Clip-Ökonomie, in der Creator Menschen einstellen, um lange Streams und Shows in kurze Posts zu verwandeln. Die Atlantic-Diskussion über Clipping aus dem Jahr 2026 beschreibt diesen Wandel; sie verspricht nicht, dass ein bestimmter Clip oder eine bestimmte Kampagne Geld einbringt.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.theatlantic.com/podcasts/2026/04/how-short-form-clips-took-over-the-internet/686922/\" rel=\"noreferrer\" target=\"_blank\">Lies den Bericht über die Clip-Ökonomie</a>."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Wähle eine Möglichkeit, Geld zu verdienen"
+      "html": "Wähle eine Bezahlungsmethode"
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Schließe dich einer finanzierten Clipping-Kampagne an.</strong> Der Kampagneninhaber liefert das Briefing und Footage oder bestätigt, was du verwenden darfst. Die Bezahlung kann pro genehmigtem Post, pro 1.000 verifizierten Views oder als fixe Vergütung erfolgen. Beispielsweise beschreiben die aktuellen<!-- --> <a class=\"text-accent hover:underline\" href=\"https://b4e0vdqv6zgqeqj4pfgm.apps.whop.com/terms\" rel=\"noreferrer\" target=\"_blank\">Content Rewards Creator Terms</a> <!-- -->CPM-, Per-Post-, Vergütungs- und Pool-Kampagnen. Die Bedingungen unterscheiden sich je nach Kampagne, also prüfe die Seite, der du beitrittst.</li><li><strong>Arbeite direkt für einen Streamer oder Editor.</strong> Einige dich schriftlich über Honorar, Anzahl der Clips, Deadlines, Review-Runden, Plattformen und Rechte. Ein Fixhonorar zahlt für vereinbarte Bearbeitungsarbeit; eine Performance-Prämie hängt vom Vertrag ab.</li><li><strong>Baue einen Kanal auf, der für Plattform-Einnahmen qualifiziert ist.</strong>YouTube prüft die Gesamtorignalität eines Kanals. Seine<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/1311392\" rel=\"noreferrer\" target=\"_blank\">Reused-Content-Richtlinie</a> <!-- -->kann minimal veränderte Clips ablehnen, auch wenn der ursprüngliche Creator die Erlaubnis gegeben hat. TikToks<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/business-and-creator/creator-rewards-program/how-is-the-creator-rewards-program-different-from-the-tiktok-creator-fund\" rel=\"noreferrer\" target=\"_blank\">Creator Rewards Guidance</a> <!-- -->besagt, dass qualifizierte Videos original, hochwertig und länger als eine Minute sein müssen, wobei Zugriff und Berechtigung vom Konto und Markt abhängen. Ein kurzer Repost qualifiziert sich nicht einfach, weil er Views bekommt.</li>"
+      "html": "<li><strong>Mach bei einer finanzierten Clipping-Kampagne mit.</strong> Der Kampagneninhaber liefert das Briefing und Footage oder bestätigt, was du verwenden darfst. Die Bezahlung kann pro genehmigtem Post, pro 1.000 verifizierten Views oder als feste Vergütung erfolgen. Die aktuellen<!-- --> <a class=\"text-accent hover:underline\" href=\"https://b4e0vdqv6zgqeqj4pfgm.apps.whop.com/terms\" rel=\"noreferrer\" target=\"_blank\">Content Rewards Creator Terms</a> <!-- -->beschreiben beispielsweise CPM-, Per-Post-, Retainer- und Pool-Kampagnen. Die Bedingungen variieren je nach Kampagne, also prüfe die Seite, der du beitrittst.</li><li><strong>Arbeite direkt für einen Streamer oder Editor.</strong> Einige dich schriftlich über Honorar, Anzahl der Clips, Deadlines, Review-Runden, Plattformen und Rechte. Ein Festhonorar bezahlt vereinbarte Schnittarbeit; eine Performance-Prämie hängt vom Vertrag ab.</li><li><strong>Baue einen Kanal auf, der für Plattform-Einnahmen qualifiziert ist.</strong>YouTube prüft die Gesamtoriginalität eines Kanals. Die<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/1311392\" rel=\"noreferrer\" target=\"_blank\">Reused-Content-Richtlinie</a> <!-- -->kann minimal veränderte Clips ablehnen, selbst wenn der ursprüngliche Creator die Erlaubnis gegeben hat. Laut TikToks<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/business-and-creator/creator-rewards-program/how-is-the-creator-rewards-program-different-from-the-tiktok-creator-fund\" rel=\"noreferrer\" target=\"_blank\">Creator Rewards Guidance</a> <!-- -->müssen qualifizierte Videos original, hochwertig und länger als eine Minute sein, wobei Zugang und Berechtigung vom Konto und Markt abhängen. Ein kurzer Repost qualifiziert sich nicht einfach, weil er Views bekommt.</li>"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Einige KICK Bounties sind für Zuschauer offen, und bei einigen können Zuschauer einen Clip als Beitrag einreichen. KICK listet Belohnungen wie geschenkte Abonnements oder KICK Shop-Geschenkkarten auf. Die separaten, auf Streamer ausgerichteten Bounties beschreiben, wie KICK oder Markenpartner Streamer für Clips bezahlen. Lies den Zuschauer-<!-- --><a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/11744042-guide-to-kick-bounties\" rel=\"noreferrer\" target=\"_blank\">Guide</a><!-- --> und die Auszahlungs-<!-- --><a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/15159722-understanding-kick-s-revenue-split\" rel=\"noreferrer\" target=\"_blank\">Details</a><!-- --> für Streamer. Die Teilnahmeberechtigung und die Belohnungen variieren je nach Bounty, und ein Zuschauerpreis ist nicht unbedingt Bargeld. Prüfe daher die spezifischen Bedingungen, bevor du es als bezahlte Clipper-Arbeit einstufst."
+      "html": "Einige KICK Bounties sind für Zuschauer offen, und bei einigen können Zuschauer einen Clip als Einreichung einreichen. KICK listet Belohnungen wie geschenkte Abonnements oder KICK Shop-Geschenkkarten auf. Die separaten streamer-orientierten Bounties beschreiben, wie KICK oder Markenpartner Streamer für Clips bezahlen. Lies den Zuschauer<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/11744042-guide-to-kick-bounties\" rel=\"noreferrer\" target=\"_blank\">Guide</a> <!-- -->und die Streamer-Auszahlungs<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/15159722-understanding-kick-s-revenue-split\" rel=\"noreferrer\" target=\"_blank\">Details</a>. Berechtigung und Belohnungen variieren je nach Bounty, und ein Zuschauerpreis ist nicht unbedingt Bargeld, also prüfe die konkreten Bedingungen, bevor du es als bezahlte Clipper-Arbeit einplanst."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Ein öffentlicher Stream oder eine funktionierende Clip-Schaltfläche ist keine Erlaubnis, das Video anderswo zu reposten. Twitch lässt Broadcaster kontrollieren, ob Zuschauer Clips erstellen dürfen, und KICK erklärt, wie Zuschauer Clips erstellen und herunterladen können. Diese Tools beschreiben Plattform-Aktionen; sie versprechen nicht, dass der Streamer Off-Platform-Bearbeitungen oder bezahlte Promotion lizenziert hat. Bitte den Streamer oder Kampagneninhaber, die Rechte schriftlich zu bestätigen.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitch-Clip-Einstellungen</a> <!-- -->und<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">KICK-Clip-Erstellung und -Downloads</a> <!-- -->sind nützlich, um die Quellplattform zu verstehen."
+      "html": "Ein öffentlicher Stream oder ein funktionierender Clip-Button ist keine Erlaubnis, das Video woanders zu reposten. Twitch lässt Broadcaster kontrollieren, ob Zuschauer Clips erstellen dürfen, und KICK erklärt, wie Zuschauer Clips erstellen und herunterladen können. Diese Tools beschreiben Plattform-Aktionen; sie versprechen nicht, dass der Streamer Off-Platform-Edits oder bezahlte Promotion lizenziert hat. Bitte den Streamer oder Kampagneninhaber, die Rechte schriftlich zu bestätigen.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitch Clip-Einstellungen</a> <!-- -->und<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">KICK Clip-Erstellung und Downloads</a> <!-- -->helfen, die Quellplattform zu verstehen."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Welche Aufnahme, welcher Kanal und welche Zeitstempel darfst du verwenden?</li><li>Auf welche Accounts und Plattformen darfst du posten und für wie lange?</li><li>Darfst du zuschneiden, untertiteln, übersetzen, Voice-over hinzufügen oder das Audio ändern?</li><li>Was zählt als genehmigter Post und als verifizierter View?</li><li>Gibt es ein Minimum, ein Maximum, ein Review-Fenster oder eine Gebühr?</li><li>Welche Offenlegungs-, Credit- und Post-Submission-Regeln gelten?</li>"
+      "html": "<li>Welche Aufnahme, welcher Kanal und welche Timestamps darfst du verwenden?</li><li>Auf welche Accounts und Plattformen darfst du posten und für wie lange?</li><li>Darfst du zuschneiden, untertiteln, übersetzen, Voice-over hinzufügen oder das Audio ändern?</li><li>Was zählt als genehmigter Post und als verifizierter View?</li><li>Gibt es ein Minimum, ein Maximum, ein Review-Fenster oder eine Gebühr?</li><li>Welche Offenlegungs-, Credit- und Post-Submission-Regeln gelten?</li>"
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Prüfe auch die Original-Audiospur. Ein Streamer darf möglicherweise Musik während einer Live-Übertragung abspielen, ohne die Rechte zu besitzen, diese Musik in einem Clip auf einem anderen Dienst zu verwenden. Hole dir die Erlaubnis für den gesamten Schnitt, einschließlich Musik, Overlays und Gastauftritte. Wenn ein bezahlter Beitrag ein Produkt bewirbt, nutze die Branded-Content-Tools der Plattform und prüfe die lokalen Offenlegungsregeln. Für Beiträge in den USA beachte die<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers\" rel=\"noreferrer\" target=\"_blank\">FTC</a>-Richtlinien und mache die finanzielle Beziehung den Zuschauern deutlich."
+      "html": "Prüfe auch die Original-Audiospur. Ein Streamer darf möglicherweise Musik während einer Live-Übertragung abspielen, ohne die Rechte zu besitzen, diese Musik in einem Clip auf einem anderen Dienst zu verwenden. Hol dir die Erlaubnis für den gesamten Schnitt, einschließlich Musik, Overlays und Gastauftritte. Wenn ein bezahlter Beitrag ein Produkt bewirbt, nutze die Branded-Content-Tools der Plattform und prüfe die lokalen Offenlegungsregeln. Für Beiträge in den USA beachte die<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers\" rel=\"noreferrer\" target=\"_blank\">FTC</a>-Richtlinien und mache die finanzielle Beziehung den Zuschauern deutlich."
     },
     {
       "kind": "html",
@@ -97,7 +97,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Beginne mit einer Datei, die der Creator oder die Kampagne autorisiert hat. Für einen KICK-Clip besagt das Hilfe-Center, dass der Download-Button einen MP4 speichert. Verschiebe diese Datei in die iPhone-Fotos oder Files. Für Twitch fordere die genehmigte Quelldatei an oder nutze eine vom Campaign erlaubte Freigabemethode.</li><li>Importiere die Datei aus Fotos oder Files in ReelClip. Die App bearbeitet Aufnahmen, die bereits auf deinem iPhone vorhanden sind; sie nimmt keinen Twitch- oder KICK-Stream auf oder lädt ihn herunter.</li><li>Wähle <strong>Slice</strong>, wenn du einen Moment hast und seinen Anfang und sein Ende festlegen möchtest. Wähle <strong>Cut</strong>, wenn du eine längere autorisierte Aufnahme nach Clip-Anzahl, Dauer und Abstand aufteilen möchtest. Die App entscheidet nicht, welche Momente lustig oder erfolgversprechend sind.</li><li>Für Sprache nutze <strong>Transcript</strong>, um eine Passage zu finden, prüfe dann Namen und spiele den vollständigen Gedanken im Kontext ab. Überprüfe das Framing separat: Die Auswahl eines kürzeren Zeitbereichs verwandelt ein Querformat-Bild nicht in einen vertikalen Crop.</li><li>Öffne Review, schaue dir jeden vorbereiteten Clip an und exportiere diejenigen, die der Brief erlaubt. Export erfordert Creator. Lade die gespeicherte Datei selbst hoch, reiche dann den Link ein und verfolge das vom Campaign angegebene Messfenster.</li>"
+      "html": "<li>Beginne mit einer Datei, die der Creator oder die Kampagne autorisiert hat. Für einen KICK-Clip besagt das Hilfe-Center, dass der Download-Button ein MP4 speichert. Verschiebe diese Datei in die iPhone-Fotos oder Files. Für Twitch fordere die genehmigte Quelldatei an oder verwende eine Freigabemethode, die die Kampagne erlaubt.</li><li>Importiere die Datei aus Fotos oder Files in ReelClip. Die App bearbeitet Aufnahmen, die bereits auf deinem iPhone vorhanden sind; sie nimmt keinen Twitch- oder KICK-Stream auf oder lädt ihn herunter.</li><li>Wähle <strong>Slice</strong>, wenn du einen Moment hast und dessen Anfang und Ende festlegen möchtest. Wähle <strong>Cut</strong>, wenn du eine längere autorisierte Aufnahme nach Clip-Anzahl, Dauer und Abstand aufteilen möchtest. Die App entscheidet nicht, welche Momente lustig oder erfolgversprechend sind.</li><li>Für Sprache verwende <strong>Transcript</strong>, um eine Passage zu finden, überprüfe dann Namen und spiele den vollständigen Gedanken im Kontext ab. Überprüfe das Framing separat: Die Auswahl eines kürzeren Zeitraums verwandelt ein Querformatbild nicht in einen vertikalen Crop.</li><li>Öffne Review, schaue dir jeden vorbereiteten Clip an und exportiere diejenigen, die das Briefing erlaubt. Das Speichern oder Exportieren eines fertigen Videos erfordert den Creator-Modus. Lade die gespeicherte Datei selbst hoch, reiche dann den Link ein und verfolge das von der Kampagne angegebene Messfenster.</li>"
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "ReelClip bereitet Clips vor; es veröffentlicht sie nicht auf sozialen Plattformen, gewährt keine Rechte an fremdem Material und garantiert keine Kampagnenfreigabe oder Einnahmen. Sieh dir die bestehende Anleitung zum <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">Cut</a> und die Anleitung zum <a class=\"text-accent hover:underline\" href=\"/de/blog/extract-clip-from-podcast\">Transcript</a> für die eigentlichen Bearbeitungssteuerungen an."
+      "html": "ReelClip bereitet Clips vor; es veröffentlicht sie nicht auf Social-Media-Plattformen, gewährt keine Rechte an fremdem Material und garantiert keine Kampagnenfreigabe oder Einnahmen. Sieh dir die bestehende Anleitung zu<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->und die Anleitung zu<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/extract-clip-from-podcast\">Transcript</a> <!-- -->für die eigentlichen Bearbeitungsfunktionen an."
     },
     {
       "kind": "cta"

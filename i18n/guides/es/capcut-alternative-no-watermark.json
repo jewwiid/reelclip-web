@@ -3,11 +3,11 @@
   "title": "Una alternativa a CapCut sin marca de agua: elige según la edición que necesites",
   "description": "Compara ReelClip para seleccionar y subtitular clips cortos con iMovie para una edición en línea de tiempo, y verifica los requisitos reales de exportación antes de elegir un plan.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Comparación",
   "primaryKeyword": "alternativa a capcut sin marca de agua",
   "readMinutes": 4,
-  "sourceFingerprint": "7d280bf324b1c057c22b4df91f820da190d3e56101a11cc5f691627d70cb535c",
+  "sourceFingerprint": "5acc417fbac0c3f163518beec79a433f284929ce2f5f97037b6358fa5eece391",
   "schemaVersion": 1,
   "locale": "es",
   "blocks": [
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "ReelClip ofrece Slice para una ventana de tiempo manual, Cut para un lote planificado, Transcript para pasajes hablados y planificación con IA cuando las funciones requeridas del dispositivo están disponibles. Revisas el resultado propuesto antes de guardar. Las grabaciones se procesan en tu dispositivo en lugar de subirse a los servidores de ReelClip para editarse."
+      "html": "ReelClip ofrece Slice para una ventana de tiempo manual, Cut para un lote planificado, Transcript para pasajes hablados y planificación con AI cuando las funciones requeridas del dispositivo están disponibles. Revisas el resultado propuesto antes de guardar. Las grabaciones se procesan en tu dispositivo en lugar de subirse a los servidores de ReelClip para editar."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "La importación y la vista previa son gratuitas; guardar video requiere Creator. Consulta las <a class=\"text-accent hover:underline\" href=\"/es/pricing\">opciones actuales de Creator</a> y el listado de la App Store antes de comprar. La vista previa gratuita es útil para verificar el flujo de trabajo, pero no es una promesa de exportación final gratuita."
+      "html": "La importación y la vista previa son gratuitas; guardar video en tu iPhone requiere el modo Creator. Consulta las <a class=\"text-accent hover:underline\" href=\"/es/pricing\">opciones actuales del modo Creator</a> y el listado de la App Store antes de comprar. La vista previa gratuita es útil para verificar el flujo de trabajo, pero no es una promesa de exportación gratuita finalizada."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usa la <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">demo de Cut</a> para ver una receta por lotes, o la <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">guía de Transcript</a> para seleccionar momentos hablados. ReelClip es un editor de clips especializado, así que verifica cualquier requisito de plantilla, animación o composición por separado."
+      "html": "Usa la <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">demostración de Cut</a> para ver una receta por lotes, o la <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">guía de Transcript</a> para seleccionar momentos hablados. ReelClip es un editor de clips especializado, así que verifica cualquier requisito de plantilla, animación o composición por separado."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Verifica la disponibilidad actual en la App Store y los requisitos del dispositivo. Para funciones como subtítulos automáticos de voz o un efecto visual particular, verifica la herramienta real en lugar de suponer que los nombres de funciones de otro editor tienen un equivalente directo."
+      "html": "Verifica la disponibilidad actual en la App Store y los requisitos del dispositivo. Para funciones como subtítulos automáticos de voz o un efecto visual particular, verifica la herramienta real en lugar de asumir que los nombres de funciones de otro editor tienen un equivalente directo."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Comprueba la exportación que realmente necesitas"
+      "html": "Verifica la exportación que realmente necesitas"
     },
     {
       "kind": "html",
@@ -97,7 +97,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "No asumas que CapCut siempre añade una marca de agua, siempre requiere una cuenta o sube cada edición. Las condiciones pueden variar según la función, la versión y el servicio. Aplica la misma verificación de muestra-exportación a cualquier alternativa, incluyendo ReelClip, antes de comprometer un proyecto completo."
+      "html": "No asumas que CapCut siempre agrega una marca de agua, siempre requiere una cuenta o sube cada edición. Las condiciones pueden variar según la función, la versión y el servicio. Aplica la misma verificación de exportación de muestra a cualquier alternativa, incluyendo ReelClip, antes de comprometer un proyecto completo."
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Guarda tu material original y cualquier proyecto reutilizable por separado del vídeo terminado. Si cambias de editor más adelante, esos originales te dan el mejor punto de partida. Para las comprobaciones de imagen y sincronización necesarias para publicaciones cortas, consulta <a class=\"text-accent hover:underline\" href=\"/es/blog/edit-vertical-video-on-iphone\">edición de vídeo vertical en iPhone</a>."
+      "html": "Guarda tu material original y cualquier proyecto reutilizable por separado del video terminado. Si cambias de editor más adelante, esos originales te dan el mejor punto de partida. Para las verificaciones de imagen y sincronización necesarias para publicaciones cortas, consulta <a class=\"text-accent hover:underline\" href=\"/es/blog/edit-vertical-video-on-iphone\">edición de video vertical en iPhone</a>."
     },
     {
       "kind": "cta"

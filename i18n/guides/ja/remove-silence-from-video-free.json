@@ -1,13 +1,13 @@
 {
   "slug": "remove-silence-from-video-free",
   "title": "iPhoneで動画の無音部分を削除する方法",
-  "description": "ReelClipのTranscript一時停止コントロールを使い、タイミングを確認して編集後の動画をチェックしてください。エクスポート前にプレビューします。保存にはCreatorが必要です。",
+  "description": "ReelClipのTranscriptの一時停止コントロールを使い、タイミングを確認して編集後の動画をチェックします。エクスポート前にプレビューしてください。完成した動画をiPhoneに保存するにはCreatorモードが必要です。",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "使い方",
   "primaryKeyword": "remove silence from video iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "64763fe44f4cca427135d38312396cb2ec5a4c8748045f6e5886b095fb3f471e",
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
   "schemaVersion": 1,
   "locale": "ja",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "長い間隔があると、話している動画が遅く感じられます。ReelClipのTranscriptモードを使えば、iPhoneで一時停止を削除し、結果の動画を確認できます。エクスポートを決定する前に編集をプレビューしてください。出力の保存にはCreatorが必要です。"
+      "html": "長い間隔があると、話している動画が遅く感じられます。ReelClipのTranscriptモードでは、iPhoneで一時停止を削除し、その結果の動画を確認できます。エクスポートするかどうか決める前に編集をプレビューしてください。出力を保存するにはCreatorモードが必要です。"
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>動画をインポートしてTranscriptを選択してください。文字起こしが完了するまでお待ちください。</li><li>Audioを開き、Cleanupを見つけてRemove pausesをオンにしてください。</li><li>Cut timingを展開して、一時停止のしきい値と音声の周囲に残すSpaceを確認してください。</li><li>Audioをもう一度タップしてパネルを閉じ、文字起こしの一時停止を確認してください。</li><li>Review videoを選択して、編集結果を準備して再生してください。</li>"
+      "html": "<li>動画をインポートしてTranscriptを選択します。文字起こしが完了するのを待ちます。</li><li>Audioを開き、Cleanupを見つけてRemove pausesをオンにします。</li><li>Cut timingを展開して、一時停止のしきい値と音声の周りに残すSpaceを確認します。</li><li>Audioを再度タップしてパネルを閉じ、文字起こしの一時停止を確認します。</li><li>Review videoを選択して、編集結果を準備して再生します。</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "録画された例では、0.35秒を超えるポーズがカットされています。これはあくまで例であり、すべての録音に必要な設定ではありません。しきい値を低くすると、より短い間隔も削除されます。自然な話し方や意味を持つポーズに十分な余裕を残すようにしてください。"
+      "html": "記録された例では、Cutが設定された0.35sより長い一時停止を削除します。これは例であり、すべての録音に必要な設定ではありません。しきい値を低くすると短い間隔も削除されます。自然な音声や意味を持つ一時停止には十分な余裕を残してください。"
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "自分で1つの間隔を削除するには、そのPauseアクションメニューを開いてRemove pauseを選択してください。Review videoを選ぶ前に、削除マーカーを再度確認してください。"
+      "html": "自分で1つの間隔を削除するには、そのPauseアクションメニューを開いてRemove pauseを選択します。Review videoを選択する前に、再度削除マーカーを確認してください。"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "ヘッドフォンやスピーカーを使って、各フレーズの冒頭と末尾を確認してください。息継ぎや単語の終わりが切れているように感じたら、タイミングを調整して再度確認してください。文字起こしも確認してください。認識エラーにより、編集が予想と異なる動作をすることがあります。"
+      "html": "ヘッドフォンやスピーカーを使って、各フレーズの冒頭と末尾を確認してください。息継ぎや単語の終わりが切れているように感じたら、タイミングを調整して再度確認してください。文字起こしも確認してください。認識エラーにより、編集が予期しない動作をする場合があります。"
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "無音削除とフィラー語削除は別々のコントロールです。まず必要な変更から始めて、結果を聞いてからさらにクリーンアップを追加してください。"
+      "html": "無音の削除とフィラーワードの削除は別々のコントロールです。まず必要な変更から始めて、結果を聞いてからさらにクリーンアップを追加してください。"
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "出力を確認したら、「写真に保存」を使用して完了を待ってください。元の録画はそのまま残ります。字幕ファイルが必要な場合は、動画保存でSRTやVTTファイルも作成されると想定せず、別途文字起こしのエクスポートオプションを確認してください。"
+      "html": "出力を確認した後、Save to Photosを使用して完了するまで待ってください。元の録音はそのまま残ります。字幕ファイルが必要な場合は、動画の保存と同時にSRTやVTTファイルが作成されると想定せず、文字起こしのエクスポートオプションを別途確認してください。"
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "特定の発話の瞬間を選択するには、<!-- --><a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">ポッドキャストクリッピングガイド</a>を参照してください。定期的な間隔のクリップには、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cut</a>を使用してください。"
+      "html": "特定の発言の瞬間を選択する場合は、<!-- --><a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">ポッドキャストクリッピングガイド</a>を参照してください。定期的な間隔でクリップを作成する場合は、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cut</a>を使用してください。"
     },
     {
       "kind": "cta"

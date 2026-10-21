@@ -1,13 +1,13 @@
 {
   "slug": "dji-osmo-pocket-3-luts",
   "title": "DJI Osmo Pocket 3 LUTs: de officiële download en iPhone-workflow",
-  "description": "Vind DJI’s officiële Pocket 3 D-Log M naar Rec.709 LUT, identificeer je opnamemodus en test een passend .cube-bestand op iPhone.",
+  "description": "Vind DJI's officiële Pocket 3 D-Log M naar Rec.709 LUT, identificeer je opnamemodus en test een bijpassend .cube-bestand op iPhone.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Overzicht",
   "primaryKeyword": "dji osmo pocket 3 luts",
   "readMinutes": 4,
-  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "sourceFingerprint": "48818f74b3281027429344da7002752e9e645d3df6344cecb006ee6403ba5c03",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Als je je Osmo Pocket 3-video in D-Log M hebt opgenomen, begin dan met DJI’s conversie voor die camera en profiel. Als je in Normal of HLG hebt opgenomen, kies dan een workflow voor die modus. Plat uitziend beeld alleen is niet voldoende om het opnameformaat te identificeren."
+      "html": "Als je je Osmo Pocket 3-video in D-Log M hebt opgenomen, begin dan met DJI's conversie voor die camera en dat profiel. Als je in Normal of HLG hebt opgenomen, kies dan een workflow voor die modus. Plat uitziend beeld alleen is niet voldoende om het opnameformaat te identificeren."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "D-Log en D-Log M zijn aparte profielen. Vervang geen bestand bedoeld voor een andere opnamecurve alleen omdat beide camera’s van DJI zijn. De originele Osmo Pocket en Pocket 2 gebruiken D-Cinelike in plaats van de Pocket 3’s D-Log M-workflow."
+      "html": "D-Log en D-Log M zijn aparte profielen. Vervang geen bestand dat bedoeld is voor een andere opnamecurve alleen omdat beide camera's van DJI zijn. De originele Osmo Pocket en Pocket 2 gebruiken D-Cinelike in plaats van de Pocket 3's D-Log M-workflow."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Als de editor de bron al correct interpreteert of converteert, vermijd dan dezelfde conversie twee keer toe te voegen. Er is geen universele regel dat elke creatieve LUT na elke andere LUT op een vaste sterkte gestapeld moet worden."
+      "html": "Als de editor de bron al correct interpreteert of converteert, voeg dan niet twee keer dezelfde conversie toe. Er is geen universele regel dat elke creatieve LUT na elke andere LUT moet worden gestapeld met een vaste sterkte."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Bewaar het originele camera-bestand en noteer de opnamemodus. Zet het over naar een locatie die je iPhone kan benaderen.</li><li>Pak het gedownloade .cube-bestand indien nodig uit en zet het beschikbaar in Bestanden.</li><li>Open in ReelClip je clip en gebruik Adjust & Style → LUTs → Import LUT. Selecteer het geïmporteerde bestand en bekijk de voorvertoning.</li><li>Voor een technische conversie, volg de invoervereisten van de aanbieder. Controleer huid, highlights en verzadigde kleuren in verschillende delen van de opname.</li><li>Bekijk een kort opgeslagen voorbeeld voordat je het hele project gradeert. Video opslaan vereist Creator.</li>"
+      "html": "<li>Bewaar het originele camerabestand en noteer de opnamemodus. Zet het over naar een locatie die je iPhone kan benaderen.</li><li>Pak het gedownloade .cube-bestand indien nodig uit en zorg dat het beschikbaar is in Files.</li><li>Open in ReelClip je clip en gebruik Adjust & Style → LUTs → Import LUT. Selecteer het geïmporteerde bestand en bekijk de preview.</li><li>Voor een technische conversie volg je de invoervereisten van de aanbieder. Controleer huid, highlights en verzadigde kleuren in verschillende delen van de opname.</li><li>Bekijk een kort opgeslagen voorbeeld voordat je het hele project gradeert. Het opslaan van de video op je iPhone vereist Creator-modus.</li>"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Onze <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">import-walkthrough</a> toont de bedieningselementen met een creative look. Deze garandeert geen gekalibreerde conversie-ondersteuning voor elk DJI-bestand en belooft niet dat een voltooide export overeenkomt met een andere editor."
+      "html": "Onze <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-apply-lut-on-iphone\">importwalkthrough</a> demonstreert de bedieningselementen met een creatieve look. Het bevestigt geen gekalibreerde conversie-ondersteuning voor elk DJI-bestand en garandeert niet dat een voltooide export overeenkomt met een andere editor."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Bewaar de instructies en licentie van de auteur bij elke download. Een gratis creative collectie is niet per se specifiek voor de Pocket 3. De <a class=\"text-accent hover:underline\" href=\"/nl/blog/best-free-luts-2026\">gratis-LUT-gids</a> linkt naar officiële bronnen en legt uit hoe je kiest op basis van de verwachte invoer."
+      "html": "Houd de instructies en licentie van de auteur bij elke download. Een gratis creatieve collectie is niet per se specifiek voor de Pocket 3. De <a class=\"text-accent hover:underline\" href=\"/nl/blog/best-free-luts-2026\">gratis-LUT-gids</a> linkt naar officiële bronnen en legt uit hoe je kiest op basis van de verwachte input."
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor beelden van een ander Pocket-model, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-color-grading\">het juiste Pocket-opnameprofiel kiezen</a>. Voor knippen en ondertiteling na kleurwerk, gebruik de <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-dji-osmo-footage-iphone\">werkwijze voor DJI-montage</a>."
+      "html": "Voor beelden van een ander Pocket-model, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-color-grading\">de opnameprofiel van de Pocket matchen</a>. Voor knippen en ondertiteling na kleurwerk, gebruik de <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-dji-osmo-footage-iphone\">DJI-bewerkingsworkflow</a>."
     },
     {
       "kind": "cta"

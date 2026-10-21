@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Como cortar um vídeo no iPhone: aparar ou dividi-lo em clipes",
   "description": "Aprenda a aparar um vídeo com a app Fotos, dividir num ponto escolhido com o iMovie, ou usar o ReelClip para selecionar e rever vários clipes.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "como cortar um vídeo no iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "pt-PT",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Este guia mostra uma receita de Cut com clipes iguais e a pré-visualização. Não mostra uma gravação concluída em Fotos. O ReelClip é gratuito para importar e pré-visualizar; guardar ou exportar requer o Creator. A aplicação prepara os ficheiros de vídeo, mas não os publica no TikTok, Instagram ou YouTube. Para um fluxo de trabalho social mais longo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-cut-long-video-for-tiktok\">como preparar clipes a partir de um vídeo longo para o TikTok</a>, ou lê o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/video-length-social-media-reach\">guia para dividir uma gravação em clipes iguais</a>."
+      "html": "Este guia mostra uma receita de Cut em clipes iguais e a pré-visualização. Não mostra uma gravação completa guardada nas Fotos. O ReelClip é gratuito para importar e pré-visualizar; guardar ou exportar o teu trabalho requer o modo Creator. A aplicação prepara os ficheiros de vídeo mas não os publica no TikTok, Instagram ou YouTube. Para um fluxo de trabalho social mais longo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-cut-long-video-for-tiktok\">como preparar clipes a partir de um vídeo longo para o TikTok</a>, ou lê o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/video-length-social-media-reach\">guia para dividir uma gravação em clipes iguais</a>."
     },
     {
       "kind": "html",

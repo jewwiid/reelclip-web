@@ -3,11 +3,11 @@
   "title": "Come estrarre i momenti salienti da un podcast su iPhone",
   "description": "Usa la trascrizione per trovare e rivedere i momenti parlati da un video podcast, controllare i sottotitoli e preparare le clip per l'esportazione su iPhone.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Caso d'uso",
   "primaryKeyword": "come creare clip dei momenti salienti del podcast",
   "readMinutes": 4,
-  "sourceFingerprint": "7e0aebe6d876f222ae5cdb5c7043cac8064702026caf06dc725e5c218368e20b",
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
   "schemaVersion": 1,
   "locale": "it",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Una trascrizione può aiutarti a trovare un momento parlato senza dover scorrere ripetutamente tutta la registrazione. Inizia con un video del tuo podcast o intervista, poi leggi la trascrizione e riproduci il brano circostante prima di scegliere una clip."
+      "html": "Una trascrizione può aiutarti a trovare un momento parlato senza dover scorrere ripetutamente l'intera registrazione. Inizia con un video del tuo podcast o intervista, poi leggi la trascrizione e riproduci il brano circostante prima di scegliere una clip."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Mantieni sufficiente contesto per chi non ha ascoltato l'episodio. Una frase citabile può ancora aver bisogno della domanda o della spiegazione che l'ha preceduta."
+      "html": "Mantieni sufficiente contesto per chi non ha ascoltato l'episodio. Una frase citabile può ancora avere bisogno della domanda o della spiegazione che la precedeva."
     },
     {
       "kind": "tutorial",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importa il video da Foto o File e scegli Transcript.</li><li>Attendi la trascrizione, poi controlla i nomi e le eventuali parole fraintese.</li><li>Leggi il testo e riproduci un brano candidato nel suo contesto.</li><li>Usa Add as clip per il brano che desideri, oppure usa Slice quando già conosci l'intervallo di tempo.</li>"
+      "html": "<li>Importa il video da Foto o Files e scegli Transcript.</li><li>Attendi la trascrizione, poi controlla i nomi e eventuali parole che ha capito male.</li><li>Leggi il testo e riproduci un brano candidato nel suo contesto.</li><li>Usa Add as clip per il brano che vuoi, oppure usa Slice quando conosci già il suo intervallo di tempo.</li>"
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "L'interfaccia registrata mostra Add as clip accanto a un brano della trascrizione. La demo mostra anche una parola rimossa dalla modifica. La rimozione di una parola modifica il montaggio video, quindi ascolta in quel punto di taglio invece di trattarla come una semplice correzione ortografica."
+      "html": "L'interfaccia registrata mostra Add as clip accanto a un brano della trascrizione. La demo mostra anche una parola rimossa dalla modifica. Rimuovere una parola cambia la modifica del video, quindi ascolta in quel punto di taglio invece di trattarla come una semplice correzione ortografica."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Anteprima ogni clip candidata prima dell'esportazione. Controlla l'apertura, la chiusura e qualsiasi discorso rimosso. Se usi i sottotitoli, rivedi le parole e il loro posizionamento sull'immagine. Controlla i sottotitoli anche nel file finale salvato, oltre che nell'anteprima dell'editor."
+      "html": "Anteprima ogni clip candidata prima di esportare. Controlla l'inizio, la fine e qualsiasi discorso rimosso. Se usi i sottotitoli, rivedi le parole e la loro posizione sull'immagine. Controlla i sottotitoli anche nel file salvato finale, oltre che nell'anteprima dell'editor."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Puoi esaminare il menu Export della trascrizione per le opzioni di testo e sottotitoli separatamente dal salvataggio del video. Per lunghi silenzi, vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/remove-silence-from-video-free\">rimozione delle pause</a>."
+      "html": "Puoi ispezionare il menu Esporta della trascrizione per le opzioni di testo e sottotitoli separatamente dal salvataggio del video. Per lunghi silenzi, vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/remove-silence-from-video-free\">pulizia delle pause</a>."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Scegli Review e ispeziona l'output preparato, poi salva in Foto. L'esportazione richiede Creator. Controlla il file salvato e il suo inquadraggio prima di caricarlo sulla piattaforma prescelta. I tempi di trascrizione e rendering dipendono dalla registrazione e dal dispositivo; non esiste un tempo di elaborazione fisso né un numero garantito di highlight utili."
+      "html": "Scegli Review e ispeziona l'output preparato, quindi salva in Save to Photos. Il salvataggio in Photos o l'esportazione di un video finito richiede la modalità Creator. Verifica il file salvato e il suo inquadratura prima di caricarlo sulla piattaforma scelta. I tempi di trascrizione e rendering dipendono dalla registrazione e dal dispositivo; non esiste un tempo di elaborazione fisso né un numero garantito di highlight utili."
     },
     {
       "kind": "html",

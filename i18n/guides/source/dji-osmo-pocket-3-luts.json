@@ -3,11 +3,11 @@
   "title": "DJI Osmo Pocket 3 LUTs: the official download and iPhone workflow",
   "description": "Find DJI’s official Pocket 3 D-Log M to Rec.709 LUT, identify your recording mode and test a matching .cube file on iPhone.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Roundup",
   "primaryKeyword": "dji osmo pocket 3 luts",
   "readMinutes": 4,
-  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "sourceFingerprint": "48818f74b3281027429344da7002752e9e645d3df6344cecb006ee6403ba5c03",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -80,7 +80,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Keep the original camera file and a note of the recording mode. Transfer it to a location your iPhone can access.</li><li>Extract the downloaded .cube file if necessary and make it available in Files.</li><li>In ReelClip, open your clip and use Adjust &amp; Style → LUTs → Import LUT. Select the imported file and inspect the preview.</li><li>For a technical conversion, follow the provider’s input requirements. Check skin, highlights and saturated colors across several parts of the recording.</li><li>Review a short saved sample before grading the whole project. Saving video requires Creator.</li>"
+      "html": "<li>Keep the original camera file and a note of the recording mode. Transfer it to a location your iPhone can access.</li><li>Extract the downloaded .cube file if necessary and make it available in Files.</li><li>In ReelClip, open your clip and use Adjust &amp; Style → LUTs → Import LUT. Select the imported file and inspect the preview.</li><li>For a technical conversion, follow the provider’s input requirements. Check skin, highlights and saturated colors across several parts of the recording.</li><li>Review a short saved sample before grading the whole project. Saving the video to your iPhone requires Creator mode.</li>"
     },
     {
       "kind": "html",

@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to edit log footage on iPhone: camera conversion and creative LUTs",
   description: "Choose the correct camera profile, import a matching conversion LUT, and add a creative look in ReelClip. Learn what to check before exporting log footage.",
   publishedAt: "2026-10-20",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   category: "Use case" as const,
   primaryKeyword: "edit log footage on iphone",
   readMinutes: 5,
@@ -55,7 +55,7 @@ export default function Post() {
           <li><strong>Choose the source profile.</strong> In the color controls, check the detected profile or select the matching log option.</li>
           <li><strong>Import the camera transform.</strong> Choose a .cube conversion that matches the camera, recording curve and gamut. Check its documentation for the expected output color space. A log profile marked “LUT needed” still needs this file.</li>
           <li><strong>Add a creative LUT.</strong> Select a look intended for the converted image. The universal creative packs expect normalized sRGB/Rec.709 input. Use the strength control to adjust the creative effect.</li>
-          <li><strong>Review, then export.</strong> Check skin tones, bright skies and shadow detail. Editing and preview are available free; saving the finished video requires Creator.</li>
+          <li><strong>Review, then export.</strong> Check skin tones, bright skies and shadow detail. Editing and preview are available free; saving the finished video requires Creator mode.</li>
         </PostOl>
         <PostP>
           Apply the technical conversion once. If another editor has already converted
@@ -122,8 +122,9 @@ export default function Post() {
         </PostP>
         <PostP>
           Color preview and rendering run on-device. You can import, edit and
-          preview before upgrading. Video export requires Creator, available as a one-time
-          purchase or a monthly plan.
+          preview before unlocking Creator mode. Saving or exporting a finished
+          video requires Creator mode, available through a one-time purchase or
+          monthly billing.
         </PostP>
         <PostCta />
       </PostBody>

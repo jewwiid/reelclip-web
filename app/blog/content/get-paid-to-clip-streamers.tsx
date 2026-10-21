@@ -181,7 +181,7 @@ export default function Post() {
           </li>
           <li>
             Open Review, watch each prepared clip and export the ones the brief
-            allows. Export requires Creator. Upload the saved file yourself,
+            allows. Saving or exporting a finished video requires Creator mode. Upload the saved file yourself,
             then submit its link and track the campaign’s stated measurement
             window.
           </li>

@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Jak przyciąć wideo na iPhonie: przyciąć lub podzielić na klipy",
   "description": "Naucz się przycinać jedno wideo w Zdjęciach, dzielić w wybranym punkcie w iMovie lub używać ReelClip do wyboru i przeglądania kilku klipów.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Instrukcja",
   "primaryKeyword": "jak przyciąć wideo na iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "pl",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Zaimportuj źródłowy film z Photos lub Files. Aby uzyskać kolejne klipy o równym czasie trwania z całego nagrania, wybierz<!-- --> <strong class=\"text-text\">Cut</strong>, ustaw<!-- --> <strong class=\"text-text\">Space</strong> na<!-- --> <strong class=\"text-text\">No gap</strong>, wybierz<!-- --> <strong class=\"text-text\">Clip amount</strong> i sprawdź wynikowe <strong class=\"text-text\">Clip duration</strong>. Stuknij<!-- --> <strong class=\"text-text\">Add</strong>, aby umieścić zaznaczenie w Planned Clips. Wybierz <strong class=\"text-text\">Slice</strong> <!-- -->aby samodzielnie wybrać czasy rozpoczęcia i zakończenia. Odtwórz każdy zaplanowany klip i popraw każde cięcie, które przerywa zdanie lub akcję."
+      "html": "Zaimportuj źródłowy film z Photos lub Files. Aby uzyskać kolejne klipy o równym czasie trwania z całego nagrania, wybierz<!-- --> <strong class=\"text-text\">Cut</strong>, ustaw<!-- --> <strong class=\"text-text\">Space</strong> na<!-- --> <strong class=\"text-text\">No gap</strong>, wybierz<!-- --> <strong class=\"text-text\">Clip amount</strong> i sprawdź wynikowe <strong class=\"text-text\">Clip duration</strong>. Stuknij<!-- --> <strong class=\"text-text\">Add</strong>, aby umieścić zaznaczenie w Planned Clips. Wybierz <strong class=\"text-text\">Slice</strong> <!-- -->aby samodzielnie wybrać czasy rozpoczęcia i zakończenia. Odtwórz każdy zaplanowany klip i dostosuj dowolny cięcie, które przerywa zdanie lub akcję."
     },
     {
       "kind": "tutorial",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Ten przewodnik pokazuje przepis i podgląd na Cut o równych klipach. Nie pokazuje ukończonego zapisywania do Photos. ReelClip jest darmowy do importu i podglądu; zapisywanie lub eksportowanie wymaga Creator. Aplikacja przygotowuje pliki wideo, ale nie publikuje ich na TikTok, Instagram ani YouTube. Aby poznać dłuższy workflow społecznościowy, zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">jak przygotować klipy z długiego filmu na TikTok</a> lub przeczytaj<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/video-length-social-media-reach\">przewodnik po dzieleniu nagrania na równe klipy</a>."
+      "html": "W tym przewodniku pokazano przepis i podgląd funkcji Cut na równe klipy. Nie pokazano ukończonego zapisywania do Zdjęć. ReelClip jest darmowy do importowania i podglądu; zapisywanie lub eksportowanie pracy wymaga trybu Creator. Aplikacja przygotowuje pliki wideo, ale nie publikuje ich na TikTok, Instagram ani YouTube. Dłuższy przepływ pracy w mediach społecznościowych znajdziesz w<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">poradniku: jak przygotować klipy z długiego wideo na TikTok</a>, lub przeczytaj<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/video-length-social-media-reach\">przewodnik dzielenia nagrania na równe klipy</a>."
     },
     {
       "kind": "html",

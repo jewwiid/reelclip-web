@@ -1,13 +1,13 @@
 {
   "slug": "capcut-alternative-no-watermark",
   "title": "Une alternative à CapCut sans filigrane : choisissez selon le montage dont vous avez besoin",
-  "description": "Comparez ReelClip pour la sélection et le sous-titrage de courts extraits avec iMovie pour un montage sur timeline, et vérifiez les conditions réelles d'exportation avant de choisir un forfait.",
+  "description": "Comparez ReelClip pour la sélection et le sous-titrage de courts extraits avec iMovie pour un montage sur timeline, et vérifiez les conditions d'export réelles avant de choisir un forfait.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Comparaison",
   "primaryKeyword": "alternative capcut sans filigrane",
   "readMinutes": 4,
-  "sourceFingerprint": "7d280bf324b1c057c22b4df91f820da190d3e56101a11cc5f691627d70cb535c",
+  "sourceFingerprint": "5acc417fbac0c3f163518beec79a433f284929ce2f5f97037b6358fa5eece391",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "La bonne alternative à CapCut dépend du montage. Si vous devez trouver de courts moments dans un long enregistrement, comparez les contrôles de sélection d'extraits et de sous-titrage. Si vous devez assembler un film sur une timeline, comparez les transitions, l'audio et les outils d'image. Testez un fichier réellement enregistré avant de conclure qu'un téléchargement gratuit inclut l'exportation souhaitée."
+      "html": "La bonne alternative à CapCut dépend du montage. Si vous devez trouver des moments courts dans un long enregistrement, comparez les contrôles de sélection d'extraits et de sous-titrage. Si vous devez assembler un film sur une timeline, comparez les transitions, l'audio et les outils d'image. Testez un fichier réellement enregistré avant de conclure qu'un téléchargement gratuit inclut l'export souhaité."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "ReelClip pour choisir des moments dans vos enregistrements"
+      "html": "ReelClip pour choisir des moments dans des enregistrements"
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "L'importation et l'aperçu sont gratuits ; l'enregistrement vidéo nécessite Creator. Consultez les <a class=\"text-accent hover:underline\" href=\"/fr/pricing\">options Creator actuelles</a> et la fiche App Store avant d'acheter. L'aperçu gratuit est utile pour vérifier le flux de travail, mais ce n'est pas une promesse d'exportation gratuite du résultat final."
+      "html": "L'importation et l'aperçu sont gratuits ; l'enregistrement de vidéos sur votre iPhone nécessite le mode Creator. Consultez les <a class=\"text-accent hover:underline\" href=\"/fr/pricing\">options actuelles du mode Creator</a> et la fiche App Store avant d'acheter. L'aperçu gratuit est utile pour vérifier le flux de travail, mais ce n'est pas une promesse d'export gratuit finalisé."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Utilisez la <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">démonstration Cut</a> pour voir une recette de traitement par lots, ou le <a class=\"text-accent hover:underline\" href=\"/fr/blog/extract-clip-from-podcast\">guide Transcript</a> pour sélectionner des moments parlés. ReelClip est un éditeur d'extraits ciblé, donc vérifiez séparément toute exigence de modèle, d'animation ou de compositing."
+      "html": "Utilisez la <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">démo Cut</a> pour voir une recette par lots, ou le <a class=\"text-accent hover:underline\" href=\"/fr/blog/extract-clip-from-podcast\">guide Transcript</a> pour sélectionner des moments parlés. ReelClip est un éditeur d'extraits ciblé, vérifiez donc séparément tout besoin de modèle, d'animation ou de composition."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Le <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">guide d'iMovie pour iPhone d'Apple</a> couvre l'arrangement des extraits vidéo, le rognage, les titres, les transitions et l'audio. C'est un autre flux de travail à comparer lorsque la séquence des plans compte plus que l'extraction de nombreux courts moments d'une source."
+      "html": "Le <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">guide d'iMovie pour iPhone d'Apple</a> couvre l'arrangement de clips vidéo, la rogne, les titres, les transitions et l'audio. C'est un autre flux de travail à comparer lorsque la séquence des plans compte plus que l'extraction de nombreux courts moments d'une source."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Vérifiez la disponibilité actuelle sur l'App Store et les exigences de l'appareil. Pour des fonctionnalités telles que les sous-titres automatiques de la parole ou un effet visuel particulier, vérifiez l'outil réel plutôt que de supposer que les noms de fonctionnalités d'un autre éditeur ont un équivalent direct."
+      "html": "Vérifiez la disponibilité actuelle sur l'App Store et les exigences de l'appareil. Pour des fonctionnalités telles que les sous-titres automatiques de parole ou un effet visuel particulier, vérifiez l'outil réel plutôt que de supposer que les noms de fonctionnalités d'un autre éditeur ont un équivalent direct."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importez un court enregistrement représentatif de vos vraies images.</li><li>Faites le montage prévu, y compris les sous-titres, la musique ou les effets que vous envisagez d'utiliser.</li><li>Vérifiez l'écran d'export pour les exigences d'abonnement, le branding et les options de sortie. Une fonctionnalité ou un modèle peut avoir des conditions différentes d'un montage de base.</li><li>Enregistrez un échantillon et regardez-le en dehors de l'éditeur. Inspectez chaque bord d'image, toute carte de fin, le timing des sous-titres et le son.</li>"
+      "html": "<li>Importez un court enregistrement représentatif de vos vraies images.</li><li>Faites le montage prévu, y compris les sous-titres, la musique ou les effets que vous prévoyez d'utiliser.</li><li>Vérifiez l'écran d'export pour les exigences d'abonnement, le branding et les options de sortie. Une fonctionnalité ou un modèle peut avoir des conditions différentes d'un montage de base.</li><li>Enregistrez un échantillon et regardez-le en dehors de l'éditeur. Inspectez chaque bord d'image, toute carte de fin, le timing des sous-titres et le son.</li>"
     },
     {
       "kind": "html",

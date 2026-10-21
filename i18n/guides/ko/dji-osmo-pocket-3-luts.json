@@ -1,13 +1,13 @@
 {
   "slug": "dji-osmo-pocket-3-luts",
   "title": "DJI Osmo Pocket 3 LUT: 공식 다운로드 및 iPhone 워크플로우 완벽 가이드",
-  "description": "DJI의 공식 Pocket 3 D-Log M to Rec.709 LUT를 찾고, 녹화 모드를 확인한 뒤 iPhone에서 해당 .cube 파일을 테스트하세요.",
+  "description": "DJI의 공식 Pocket 3 D-Log M to Rec.709 LUT를 찾고, 촬영 모드를 확인한 뒤 iPhone에서 맞는 .cube 파일을 테스트하세요.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "요약",
   "primaryKeyword": "dji osmo pocket 3 luts",
   "readMinutes": 4,
-  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "sourceFingerprint": "48818f74b3281027429344da7002752e9e645d3df6344cecb006ee6403ba5c03",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Osmo Pocket 3로 D-Log M으로 촬영했다면, 해당 카메라와 프로파일용 DJI 변환 LUT부터 시작하세요. Normal이나 HLG로 촬영했다면 해당 모드용 워크플로우를 선택하세요. 평평해 보이는 영상만으로는 녹화 포맷을 판별할 수 없습니다."
+      "html": "Osmo Pocket 3로 D-Log M으로 촬영했다면, 해당 카메라와 프로파일용 DJI 변환 LUT부터 시작하세요. Normal이나 HLG로 촬영했다면 해당 모드용 워크플로우를 선택하세요. 플랫하게 보이는 영상만으로는 촬영 형식을 판단할 수 없습니다."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "DJI는 <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M to Rec.709</a>를 제공합니다. DJI에서 파일을 다운로드하고 안내에 따라 진행하세요. <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">공식 LUT 디렉토리</a>에서도 카메라 모델별로 리소스를 구분해 확인할 수 있습니다."
+      "html": "DJI에서 <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M to Rec.709</a>를 제공합니다. DJI에서 파일을 다운로드하고 안내에 따라 설치하세요. <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">공식 LUT 디렉토리</a>에서도 카메라 모델별로 리소스를 구분해 제공합니다."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "D-Log와 D-Log M은 별도의 프로파일입니다. 두 카메라가 모두 DJI 제품이라는 이유만으로 다른 녹화 곡선용 파일을 대체 사용하지 마세요. 기존 Osmo Pocket과 Pocket 2는 Pocket 3의 D-Log M 워크플로우가 아닌 D-Cinelike를 사용합니다."
+      "html": "D-Log와 D-Log M은 별개의 프로파일입니다. 같은 DJI 제조사라는 이유로 다른 촬영 곡선용 파일을 대체 사용하지 마세요. 원조 Osmo Pocket과 Pocket 2는 Pocket 3의 D-Log M 워크플로우가 아닌 D-Cinelike를 사용합니다."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "변환과 크리에이티브 룩은 서로 다른 목적을 가집니다"
+      "html": "변환과 크리에이티브 룩은 다른 목적을 가집니다"
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "카메라 변환은 소스를 Rec.709 같은 목적지에 맞게 준비합니다. 크리에이티브 룩은 선언된 입력에 따라 화면 느낌을 바꿉니다. 제공자의 안내를 확인하세요: 일부 룩은 Log를 직접 입력으로 받고, 다른 룩은 이미 노멀라이즈된 이미지를 입력으로 받습니다."
+      "html": "카메라 변환은 소스를 Rec.709 같은 목적지에 맞게 준비합니다. 크리에이티브 룩은 선언된 입력에 따라 화면 느낌을 바꿉니다. 제공자의 안내를 확인하세요: 일부 룩은 Log를 직접 받고, 다른 룩은 이미 노멀라이즈된 이미지를 받습니다."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "편집기가 이미 소스를 올바르게 해석하거나 변환한다면, 동일한 변환을 두 번 추가하지 마세요. 모든 크리에이티브 LUT를 고정된 강도로 다른 LUT 뒤에 항상 쌓아야 한다는 보편적인 규칙은 없습니다."
+      "html": "편집기가 이미 소스를 올바르게 해석하거나 변환한다면, 같은 변환을 두 번 추가하지 마세요. 모든 크리에이티브 LUT가 고정된 강도로 다른 LUT 뒤에 쌓아야 한다는 보편적인 규칙은 없습니다."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>원본 카메라 파일과 촬영 모드 기록을 보관하세요. iPhone이 접근할 수 있는 위치로 전송하세요.</li><li>필요한 경우 다운로드한 .cube 파일을 압축 해제하고 Files에서 사용할 수 있도록 하세요.</li><li>ReelClip에서 클립을 열고 Adjust &amp; Style → LUTs → Import LUT를 사용하세요. 가져온 파일을 선택하고 미리보기를 확인하세요.</li><li>기술적 변환의 경우, 제공업체의 입력 요구사항을 따르세요. 녹화물의 여러 부분에서 피부톤, 하이라이트, 채도 높은 색상을 확인하세요.</li><li>전체 프로젝트를 그레이딩하기 전에 짧은 저장 샘플을 Review하세요. 동영상 저장에는 Creator가 필요합니다.</li>"
+      "html": "<li>원본 카메라 파일과 촬영 모드 기록을 보관하세요. iPhone이 접근할 수 있는 위치로 전송하세요.</li><li>필요한 경우 다운로드한 .cube 파일을 압축 해제하고 Files에서 사용할 수 있도록 준비하세요.</li><li>ReelClip에서 클립을 열고 Adjust & Style → LUTs → Import LUT를 사용하세요. 가져온 파일을 선택하고 미리보기를 확인하세요.</li><li>기술적 변환의 경우 제공업체의 입력 요구사항을 따르세요. 녹화물의 여러 부분에서 피부톤, 하이라이트, 채도 높은 색상을 확인하세요.</li><li>전체 프로젝트를 색보정하기 전에 짧은 저장 샘플을 Review하세요. iPhone에 동영상을 저장하려면 Creator 모드가 필요합니다.</li>"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "저희 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-apply-lut-on-iphone\">가져오기 워크스루</a>는 크리에이티브 룩으로 컨트롤을 시연합니다. 이는 모든 DJI 파일에 대한 보정된 변환 지원을 보장하거나, 완성된 내보내기가 다른 편집기와 일치할 것을 약속하지 않습니다."
+      "html": "저희 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-apply-lut-on-iphone\">가져오기 워크스루</a>는 크리에이티브 룩으로 컨트롤을 시연합니다. 이는 모든 DJI 파일에 대한 교정된 변환 지원을 보장하거나 완성된 내보내기가 다른 편집기와 일치할 것을 약속하지 않습니다."
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "다른 Pocket 모델의 촬영물의 경우, <a class=\"text-accent hover:underline\" href=\"/ko/blog/dji-osmo-pocket-color-grading\">Pocket 촬영 프로파일 매칭</a>을 참조하세요. 색상 작업 후 클리핑과 자막이 필요한 경우, <a class=\"text-accent hover:underline\" href=\"/ko/blog/edit-dji-osmo-footage-iphone\">DJI 편집 워크플로</a>를 사용하세요."
+      "html": "다른 Pocket 모델의 촬영물은 <a class=\"text-accent hover:underline\" href=\"/ko/blog/dji-osmo-pocket-color-grading\">Pocket 촬영 프로파일 매칭</a>을 참조하세요. 색상 작업 후 클리핑과 자막은 <a class=\"text-accent hover:underline\" href=\"/ko/blog/edit-dji-osmo-footage-iphone\">DJI 편집 워크플로우</a>를 사용하세요."
     },
     {
       "kind": "cta"

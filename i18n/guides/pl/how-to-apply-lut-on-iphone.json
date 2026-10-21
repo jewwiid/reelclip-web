@@ -1,13 +1,13 @@
 {
   "slug": "how-to-apply-lut-on-iphone",
   "title": "Jak zastosować plik .cube LUT na iPhonie",
-  "description": "Zaimportuj plik .cube LUT z aplikacji Pliki, dostosuj jego siłę i porównaj podgląd w ReelClip. Zawiera krótki zapis rzeczywistych elementów sterujących.",
+  "description": "Zaimportuj plik .cube LUT z Files, dostosuj jego siłę i porównaj podgląd w ReelClip. Zawiera krótki zapis rzeczywistych kontrolek.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Instrukcja",
   "primaryKeyword": "jak zastosować lut na iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "5c632d7d5f82024d8ee55a14f70dca920fef590845adec3f67c59bb3734f96f1",
+  "sourceFingerprint": "8777186ad37135f37758c0e43ddabbc0b04ec0faa99bfcfcaab8b16119b8351a",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Jeśli masz już plik .cube LUT, możesz zaimportować go z aplikacji Pliki i dostosować jego siłę w ReelClip. Zacznij od LUT przeznaczonego dla Twojego materiału i konfiguracji kolorów; look kreatywny i konwersja kamery służą różnym celom."
+      "html": "Jeśli masz już plik .cube LUT, możesz go zaimportować z Files i dostosować jego siłę w ReelClip. Zacznij od LUT przeznaczonego dla Twojego materiału i konfiguracji kolorów; kreatywny look i konwersja kamery służą różnym celom."
     },
     {
       "kind": "tutorial",
@@ -29,7 +29,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Wybierz odpowiednie wejście przed lookiem kreatywnym"
+      "html": "Wybierz właściwe wejście przed kreatywnym lookiem"
     },
     {
       "kind": "html",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Znormalizuj materiał Log lub HDR przed zastosowaniem gotowego do wyświetlenia LUT kreatywnego. Własne wyeksportowane LUT-y kreatywne ReelClip używają zakodowanego sRGB; Rec.709 dzieli z nim pierwotne kolory, ale ma inne zachowanie transferowe. Dopasuj do udokumentowanego wejścia LUT-a i unikaj dwukrotnego stosowania normalizacji kamery. Nasza oryginalna kolekcja startowa jest obecnie testowana. Zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">przewodnik po darmowych zasobach LUT</a> <!-- -->dla statusu jej rozwoju i oficjalnych zasobów kamer."
+      "html": "Znormalizuj materiał Log lub HDR przed zastosowaniem gotowego do wyświetlenia kreatywnego LUT. Własne eksportowane kreatywne LUT-y ReelClip używają zakodowanego sRGB; Rec.709 dzieli z nim pierwotne kolory, ale ma inne zachowanie transferowe. Dopasuj udokumentowane wejście LUT i unikaj dwukrotnego stosowania normalizacji kamery. Nasza oryginalna kolekcja startowa jest obecnie testowana. Zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">przewodnik po darmowych zasobach LUT</a> <!-- -->dla statusu jej rozwoju i oficjalnych zasobów kamery."
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Zaimportuj wideo, które chcesz edytować.</li><li>Otwórz Adjust & Style i wybierz LUTs.</li><li>Dotknij Import LUT i wybierz plik .cube z aplikacji Pliki.</li><li>Wybierz zaimportowany look w bibliotece LUT.</li>"
+      "html": "<li>Zaimportuj wideo, które chcesz edytować.</li><li>Otwórz Adjust & Style i wybierz LUTs.</li><li>Dotknij Import LUT i wybierz plik .cube z Files.</li><li>Wybierz zaimportowany look w bibliotece LUT.</li>"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Demonstracja używa zakładki Creative i wcześniej zapisanego looku ReelClip. Gdy LUT pojawi się w Twojej bibliotece, wybierz go i sprawdź jego efekt na własnym materiale."
+      "html": "Demonstracja używa karty Creative i wcześniej zapisanego looku ReelClip. Gdy LUT pojawi się w Twojej bibliotece, wybierz go i sprawdź jego efekt na własnym materiale."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "W przypadku konwersji kamery postępuj zgodnie z instrukcjami dołączonymi do LUT i dopasuj profil źródłowego nagrania. Nie zakładaj, że LUT stworzony dla jednego profilu log jest odpowiedni dla innego. Przykład ten przedstawia kontrolki importu i korekty, a nie obsługę każdej kamery lub pliku LUT."
+      "html": "W przypadku konwersji kamery postępuj zgodnie z instrukcjami dołączonymi do LUT i dopasuj profil źródłowego nagrania. Nie zakładaj, że LUT stworzony dla jednego profilu log jest odpowiedni dla innego. Przykład ten prezentuje kontrolki importu i korekcji, a nie obsługę każdej kamery lub pliku LUT."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Przejrzyj gotowe wideo"
+      "html": "Sprawdź gotowy film"
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Zakończ korektę, otwórz Review i sprawdź wyrenderowane wyjście. Zapisanie wideo wymaga Creator. Sprawdź faktycznie zapisany plik przed udostępnieniem, szczególnie jeśli ustawienia koloru lub HDR uległy zmianie podczas edycji."
+      "html": "Zakończ korekcję, otwórz Review i sprawdź wyrenderowany wynik. Zapisanie wideo na iPhone'a wymaga trybu Creator. Sprawdź faktycznie zapisany plik przed udostępnieniem, szczególnie jeśli ustawienia koloru lub HDR uległy zmianie podczas edycji."
     },
     {
       "kind": "html",

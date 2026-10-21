@@ -3,11 +3,11 @@
   "title": "DJI D-Log to Rec.709 on iPhone: match the camera and recording profile",
   "description": "Choose a model-specific DJI conversion, avoid applying it twice and test the result on iPhone before editing the full recording.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "convert dji d-log to rec 709 on iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "f85a30966388796732d5fea02dea8f017c6e15d28584f59fa63ebef114f8e141",
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -80,7 +80,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Import the original recording and make the matching .cube file available in Files.</li><li>Open Adjust &amp; Style → LUTs → Import LUT and select the file.</li><li>Follow its provider’s instructions for the source interpretation. Compare the preview with the unadjusted image and check several frames.</li><li>Review the rendered result, then inspect a short saved sample. Saving video requires Creator.</li>"
+      "html": "<li>Import the original recording and make the matching .cube file available in Files.</li><li>Open Adjust &amp; Style → LUTs → Import LUT and select the file.</li><li>Follow its provider’s instructions for the source interpretation. Compare the preview with the unadjusted image and check several frames.</li><li>Review the rendered result, then inspect a short saved sample. Saving the video to your iPhone requires Creator mode.</li>"
     },
     {
       "kind": "html",

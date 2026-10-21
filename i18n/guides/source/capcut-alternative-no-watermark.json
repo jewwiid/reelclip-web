@@ -3,11 +3,11 @@
   "title": "A CapCut alternative without a watermark: choose by the edit you need",
   "description": "Compare ReelClip for selecting and captioning short clips with iMovie for a timeline edit, and check the actual export requirements before choosing a plan.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Comparison",
   "primaryKeyword": "capcut alternative no watermark",
   "readMinutes": 4,
-  "sourceFingerprint": "7d280bf324b1c057c22b4df91f820da190d3e56101a11cc5f691627d70cb535c",
+  "sourceFingerprint": "5acc417fbac0c3f163518beec79a433f284929ce2f5f97037b6358fa5eece391",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -40,7 +40,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Import and preview are free; saving video requires Creator. Check the <a class=\"text-accent hover:underline\" href=\"/pricing\">current Creator options</a> and the App Store listing before buying. Free preview is useful for checking the workflow, but it is not a promise of a free finished export."
+      "html": "Import and preview are free; saving video to your iPhone requires Creator mode. Check the <a class=\"text-accent hover:underline\" href=\"/pricing\">current Creator mode options</a> and the App Store listing before buying. Free preview is useful for checking the workflow, but it is not a promise of a free finished export."
     },
     {
       "kind": "html",

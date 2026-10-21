@@ -7,7 +7,7 @@
   "category": "How-to",
   "primaryKeyword": "edit dji osmo footage on iphone",
   "readMinutes": 5,
-  "sourceFingerprint": "7891d3b2ae72d0ab4b3381382944d531bbd491b7ab46b1ca119ebdb65371657b",
+  "sourceFingerprint": "51eb8ed9b2bf09dd5d568bb5f96ab8a1998e004f133f862ffa3bacbde6fc7c4c",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -120,7 +120,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Try ReelClip with your transferred DJI recording</a>. Import and preview are free; saving video requires Creator."
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Try ReelClip with your transferred DJI recording</a>. Import and preview are free; saving video to your iPhone requires Creator mode."
     },
     {
       "kind": "html",
@@ -200,7 +200,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Open Review, watch the rendered result and save the clips you want. Saving video requires Creator. Check the actual file in Photos before sharing, particularly if you changed color or caption settings. Keep the source so you can make another version later."
+      "html": "Open Review, watch the rendered result and save the clips you want. Saving the video to your iPhone requires Creator mode. Check the actual file in Photos before sharing, particularly if you changed color or caption settings. Keep the source so you can make another version later."
     },
     {
       "kind": "cta"

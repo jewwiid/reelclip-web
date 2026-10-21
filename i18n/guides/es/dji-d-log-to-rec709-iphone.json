@@ -3,11 +3,11 @@
   "title": "Conversión de DJI D-Log a Rec.709 en iPhone: haz coincidir la cámara y el perfil de grabación",
   "description": "Elige una conversión específica para el modelo DJI, evita aplicarla dos veces y prueba el resultado en iPhone antes de editar la grabación completa.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "convertir dji d-log a rec 709 en iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "f85a30966388796732d5fea02dea8f017c6e15d28584f59fa63ebef114f8e141",
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
   "schemaVersion": 1,
   "locale": "es",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para convertir una grabación de DJI a Rec.709, identifica la cámara y el modo realmente utilizado, luego elige una conversión que coincida. D-Log, D-Log M, D-Log 2, D-Cinelike y HLG no son nombres intercambiables para la misma imagen."
+      "html": "Para convertir una grabación DJI a Rec.709, identifica la cámara y el modo realmente utilizado, luego elige una conversión que coincida. D-Log, D-Log M, D-Log 2, D-Cinelike y HLG no son nombres intercambiables para la misma imagen."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Revisa la configuración de la cámara, los metadatos del archivo original y la documentación de la cámara. Conserva el archivo original al transferir el material; una copia procesada de otra aplicación puede ya tener un look o conversión aplicada."
+      "html": "Revisa la configuración de la cámara, los metadatos del archivo original y la documentación de la cámara. Conserva el archivo original al transferir el material; una copia procesada de otra app puede ya tener aplicado un look o una conversión."
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usa el <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">directorio oficial de descargas de DJI</a> y las instrucciones para tu modelo exacto. Verifica tanto la entrada esperada como la salida. Un LUT con Rec.709 en su nombre de archivo puede aun así esperar una curva de origen diferente a la que grabaste."
+      "html": "Usa el <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">directorio oficial de descargas de DJI</a> y las instrucciones para tu modelo exacto. Revisa tanto la entrada esperada como la salida. Un LUT con Rec.709 en su nombre de archivo puede aun así esperar una curva de origen diferente a la que grabaste."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Comprueba si tu editor ya gestiona la conversión de origen. Aplicar otra conversión de cámara sobre una ya existente puede producir contraste y color incorrectos. Para HLG u otro flujo de trabajo HDR, usa un editor y configuración de salida que admitan explícitamente esa fuente en lugar de asumir que un LUT de Log también realiza el mapeo de tonos HDR."
+      "html": "Verifica si tu editor ya gestiona la conversión de origen. Aplicar otra conversión de cámara sobre una existente puede producir contraste y color incorrectos. Para HLG u otro flujo de trabajo HDR, usa un editor y configuración de salida que admitan explícitamente esa fuente en lugar de asumir que un LUT de Log también realiza el mapeo de tonos HDR."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importa la grabación original y ten el archivo .cube correspondiente disponible en Archivos.</li><li>Abre Ajustar y Estilizar → LUTs → Importar LUT y selecciona el archivo.</li><li>Sigue las instrucciones de su proveedor para la interpretación de la fuente. Compara la vista previa con la imagen sin ajustar y revisa varios fotogramas.</li><li>Revisa el resultado renderizado, luego inspecciona una muestra guardada corta. Guardar video requiere Creator.</li>"
+      "html": "<li>Importa la grabación original y haz que el archivo .cube coincidente esté disponible en Files.</li><li>Abre Adjust & Style → LUTs → Import LUT y selecciona el archivo.</li><li>Sigue las instrucciones de su proveedor para la interpretación de la fuente. Compara la vista previa con la imagen sin ajustar y revisa varios fotogramas.</li><li>Revisa el resultado renderizado, luego inspecciona una muestra guardada corta. Guardar el video en tu iPhone requiere el modo Creator.</li>"
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">Cortar</a> para un lote planificado o el <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">flujo de trabajo de Transcripción</a> para pasajes hablados. Guarda una copia de la grabación original para poder revisar las decisiones de color más tarde."
+      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">Cut</a> para un lote planificado o el <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">flujo de trabajo Transcript</a> para pasajes hablados. Guarda una copia de la grabación original para poder revisar las decisiones de color más adelante."
     },
     {
       "kind": "cta"

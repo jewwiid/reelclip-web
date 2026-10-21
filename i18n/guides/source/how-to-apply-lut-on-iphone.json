@@ -3,11 +3,11 @@
   "title": "How to apply a .cube LUT on iPhone",
   "description": "Import a .cube LUT from Files, adjust its strength and compare the preview in ReelClip. Includes a short recording of the actual controls.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "How-to",
   "primaryKeyword": "how to apply a lut on iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "5c632d7d5f82024d8ee55a14f70dca920fef590845adec3f67c59bb3734f96f1",
+  "sourceFingerprint": "8777186ad37135f37758c0e43ddabbc0b04ec0faa99bfcfcaab8b16119b8351a",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -100,7 +100,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Finish the adjustment, open Review and inspect the rendered output. Saving the video requires Creator. Check the actual saved file before sharing it, especially if colour or HDR settings changed during the edit."
+      "html": "Finish the adjustment, open Review and inspect the rendered output. Saving the video to your iPhone requires Creator mode. Check the actual saved file before sharing it, especially if colour or HDR settings changed during the edit."
     },
     {
       "kind": "html",

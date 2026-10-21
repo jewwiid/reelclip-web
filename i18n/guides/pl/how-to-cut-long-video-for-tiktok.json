@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
-  "title": "Jak przyciąć długi film na TikToka na iPhonie",
-  "description": "Przygotuj klipy z długiego nagrania za pomocą narzędzi do cięcia w ReelClip, sprawdź kadrowanie i napisy, a następnie zapisz filmy, które chcesz przesłać na TikToka.",
+  "title": "Jak przyciąć długie wideo na TikToka na iPhonie",
+  "description": "Przygotuj klipy z długiego nagrania za pomocą kontrolek Cut w ReelClip, sprawdź kadrowanie i napisy, a następnie zapisz wideo, które chcesz przesłać na TikToka.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Poradnik",
-  "primaryKeyword": "jak przyciąć długi film na tiktoka",
+  "primaryKeyword": "jak przyciąć długie wideo na tiktoka",
   "readMinutes": 5,
-  "sourceFingerprint": "d3365273b55c212a650fa6edeb92c1829ba0c1152d983ad396416c82aced6ef4",
+  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Masz 12-minutowe nagranie talking-head, zapis streamu lub długi vlog — i chcesz z tego wyciągnąć trzy lub cztery gotowe do TikToka klipy. Możesz przygotować te klipy bezpośrednio na iPhonie, przejrzeć każdy moment i zapisać te, które chcesz opublikować. Czas potrzebny na to zależy od nagrania, Twojego urządzenia i tego, ile edytujesz."
+      "html": "Masz 12-minutowe wideo z mówiącą do kamery osobą, nagranie ze streama albo długi vlog — i chcesz z niego wyciągnąć trzy lub cztery kliki gotowe do TikToka. Możesz przygotować te klipy bezpośrednio na iPhonie, przejrzeć każdy moment i zapisać te, które chcesz opublikować. Czas potrzebny na to zależy od nagrania, Twojego urządzenia i tego, ile edytujesz."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Długie nagranie już w bibliotece Zdjęcia lub w aplikacji Pliki.</li><li>iPhone z systemem iOS 17 lub nowszym, zgodnie z wymaganiami aktualnej wersji aplikacji.</li><li><a class=\"text-accent hover:underline\" href=\"/pl/\">ReelClip</a> (darmowy import i podgląd, plan Creator do eksportu). Funkcje AI mają dodatkowe wymagania sprzętowe i programowe, w tym kompatybilną i włączoną funkcję Apple Intelligence. Sprawdź dostępność na swoim urządzeniu.</li>"
+      "html": "<li>Długie nagranie już znajdujące się w bibliotece Zdjęć lub w aplikacji Files.</li><li>iPhone z systemem iOS 17 lub nowszym, zgodnie z wymaganiami podanymi dla aktualnej wersji aplikacji.</li><li><a class=\"text-accent hover:underline\" href=\"/pl/\">ReelClip</a> (darmowy import i podgląd; zapisywanie lub eksportowanie wymaga trybu Creator). Funkcje AI mają dodatkowe wymagania sprzętowe i programowe, w tym kompatybilną i włączoną funkcję Apple Intelligence. Sprawdź dostępność na swoim urządzeniu.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "7-etapowy workflow"
+      "html": "Przepływ pracy w 7 krokach"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Zaimportuj swoje nagranie z Zdjęć lub Plików. ReelClip kopiuje je do swojej prywatnej przestrzeni — oryginalny plik w Zdjęciach pozostaje nietknięty, a nic nie jest wysyłane do chmury."
+      "html": "Zaimportuj nagranie ze Zdjęć lub z Files. ReelClip kopiuje je do swojej prywatnej przestrzeni — oryginalny plik w Zdjęciach pozostaje nietknięty, a nic nie jest wysyłane na zewnątrz."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Są cztery tryby cięcia. Wybierz ten, który odpowiada Twojemu materiałowi źródłowemu:"
+      "html": "Są cztery tryby cięcia. Wybierz ten, który pasuje do Twojego materiału źródłowego:"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — dzieli wideo na fragmenty o równej długości. Dobre rozwiązanie, gdy nagranie ma wyraźne segmenty (sekcje wywiadu, punkty listy, rozdziały).</li><li><strong class=\"text-text\">Transcript</strong> — uruchamia rozpoznawanie mowy na urządzeniu, znajduje pauzy i pozwala przyciąć martwe powietrze. Dobre dla treści typu talking-head i podcastów.</li><li><strong class=\"text-text\">Slice</strong> — sam wybierasz moment, przesuwasz zaznaczenie i doprecyzowujesz jego początek i koniec.</li><li><strong class=\"text-text\">AI</strong> — opisz, czego chcesz („najzabawniejszy moment\", „fragment, w którym tłumaczę cennik\", „najbardziej cytowalna kwestia\"), a wbudowana Apple Intelligence może zaproponować momenty do przejrzenia, gdy funkcja będzie dostępna na Twoim urządzeniu.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — dzieli wideo na fragmenty o równej długości. Sprawdza się, gdy nagranie ma wyraźne segmenty (sekcje wywiadu, punkty listy, rozdziały).</li><li><strong class=\"text-text\">Transcript</strong> — uruchamia lokalne rozpoznawanie mowy, wykrywa pauzy i pozwala przyciąć martwe powietrze. Dobre dla materiałów typu talking-head i podcastów.</li><li><strong class=\"text-text\">Slice</strong> — sam wybierasz moment, przesuwasz zaznaczenie i doprecyzowujesz jego początek i koniec.</li><li><strong class=\"text-text\">AI</strong> — opisz, czego chcesz („najzabawniejszy moment”, „fragment, w którym tłumaczę cennik”, „najbardziej cytowalna kwestia”), a lokalna Apple Intelligence może zaproponować momenty do przejrzenia, gdy funkcja będzie dostępna na Twoim urządzeniu.</li>"
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "To krok, który ludzie pomijają, a to właśnie on ma znaczenie. Stuknij w każdy zaplanowany klip, obejrzyj go od początku do końca, a następnie zachowaj, przyciń lub odrzuć go. ReelClip nigdy nie eksportuje automatycznie. Ty decydujesz, co trafia do publikacji."
+      "html": "To krok, który ludzie pomijają, a to właśnie on ma znaczenie. Stuknij w każdy zaplanowany klip, obejrzyj go od początku do końca, a następnie zachowaj, przyciń lub odrzuć go. ReelClip nigdy nie eksportuje automatycznie. To Ty decydujesz, co trafia do publikacji."
     },
     {
       "kind": "html",
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-xl font-bold tracking-tight mt-8 mb-3"
       },
-      "html": "5. Sprawdź kadrowanie pod post w pionie"
+      "html": "5. Sprawdź kadrowanie na post pionowy"
     },
     {
       "kind": "html",
@@ -133,7 +133,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Jeśli twoje źródłowe wideo jest poziome, masz dwie opcje: wyeksportuj tak jak jest, albo przytnij je do posta pionowego w swoim edytorze końcowym. Wybór zakresu czasowego i kadrowania obrazu to osobne decyzje; sprawdź obie przed publikacją."
+      "html": "Jeśli Twoje źródłowe wideo jest poziome, masz dwie opcje: wyeksportuj tak jak jest, albo przytnij do pionu w edytorze końcowym. Wybór zakresu czasowego i wyboru kadrowania to osobne decyzje; sprawdź obie przed publikacją."
     },
     {
       "kind": "html",
@@ -149,7 +149,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Stuknij <strong class=\"text-text\">Review</strong> i poczekaj, aż klipy zakończą przygotowywanie. Odtwórz wyniki, a następnie wybierz akcję zapisu do Zdjęć. Poczekaj na potwierdzenie ukończenia przed opuszczeniem aplikacji. Eksport wymaga Creator; oryginały pozostają nienaruszone."
+      "html": "Stuknij <strong class=\"text-text\">Review</strong> i poczekaj, aż klipy zostaną przygotowane. Odtwórz wyniki, a następnie wybierz akcję zapisywania do Zdjęć. Poczekaj na potwierdzenie zakończenia przed opuszczeniem aplikacji. Zapisywanie lub eksportowanie gotowego wideo wymaga trybu Creator; oryginały pozostają nienaruszone."
     },
     {
       "kind": "html",
@@ -165,7 +165,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Otwórz TikToka, stuknij przycisk plus, a następnie<!-- --> <strong class=\"text-text\">Upload</strong>. Wybierz pierwszy klip z biblioteki. TikTok pobierze go z twojego urządzenia — ReelClip nigdy nie miał dostępu do twojego konta na TikToku i nigdy nic nie przesłał na serwery TikToka."
+      "html": "Otwórz TikToka, stuknij przycisk plus, a następnie<!-- --> <strong class=\"text-text\">Upload</strong>. Wybierz pierwszy klip z biblioteki. TikTok pobierze go z Twojego urządzenia — ReelClip nigdy nie miał dostępu do Twojego konta na TikToku i nigdy nic nie przesłał na serwery TikToka."
     },
     {
       "kind": "html",
@@ -181,7 +181,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Pominięcie przeglądu.</strong> Tryb AI jest dobry, ale nie idealny. Zawsze obejrzyj każdy klip od początku do końca przed wyeksportowaniem.</li><li><strong class=\"text-text\">Przesyłanie oryginalnego pliku 12-minutowego.</strong> Zachowaj źródło, a następnie wybierz wersję, która pasuje do historii i miejsca docelowego. Krótszy klip nie gwarantuje większej liczby wyświetleń.</li><li><strong class=\"text-text\">Brak napisów.</strong> Napisy pomagają ludziom śledzić mowę, gdy nie mogą słuchać. Sprawdź ich pisownię i synchronizację w końcowym edytorze przed publikacją.</li>"
+      "html": "<li><strong class=\"text-text\">Pominięcie przeglądu.</strong> Tryb AI jest dobry, ale nie doskonały. Zawsze obejrzyj każdy klip od początku do końca przed eksportem.</li><li><strong class=\"text-text\">Przesyłanie oryginalnego pliku 12-minutowego.</strong> Zachowaj źródło, a następnie wybierz wersję, która pasuje do historii i miejsca docelowego. Krótszy klip nie gwarantuje większej liczby wyświetleń.</li><li><strong class=\"text-text\">Brak napisów.</strong> Napisy pomagają ludziom śledzić mowę, gdy nie mogą słuchać. Sprawdź ich pisownię i synchronizację w końcowym edytorze przed publikacją.</li>"
     },
     {
       "kind": "html",
@@ -189,7 +189,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Co robić po TikToku"
+      "html": "Co zrobić po TikToku"
     },
     {
       "kind": "html",
@@ -197,7 +197,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Przed cross-postingiem na YouTube Shorts lub Instagram Reels sprawdź aktualne wymagania dotyczące formatu i długości każdej platformy. Ten sam moment może wymagać innego kadrowania lub czasu trwania dla każdego miejsca docelowego. Przeczytaj nasz <a class=\"text-accent hover:underline\" href=\"/pl/blog/video-length-social-media-reach\">przewodnik po długości wideo i zasięgu</a> <!-- -->w celu poznania różnic między platformami, lub zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/extract-clip-from-podcast\">jak wyciągać fragmenty podcastów</a> <!-- -->dla pokrewnego workflow."
+      "html": "Przed udostępnieniem na YouTube Shorts lub Instagram Reels sprawdź aktualne wymagania dotyczące formatu i długości każdej platformy. Ten sam moment może wymagać innego kadrowania lub długości dla każdego miejsca docelowego. Przeczytaj nasz <a class=\"text-accent hover:underline\" href=\"/pl/blog/video-length-social-media-reach\">przewodnik o długości wideo i zasięgu</a> <!-- -->w celu poznania różnic między platformami, lub zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/extract-clip-from-podcast\">jak wyciągać fragmenty podcastów</a> <!-- -->dla pokrewnego workflow."
     },
     {
       "kind": "cta"

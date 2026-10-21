@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "iPhoneで動画をカットする方法：トリミングまたはクリップに分割",
   "description": "Photosで1本の動画をトリミングする方法、iMovieで任意のポイントで分割する方法、またはReelClipで複数のクリップを選択して確認する方法を学びましょう。",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "使い方",
   "primaryKeyword": "iphoneで動画をカットする方法",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "ja",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "ソース動画を「写真」アプリまたはFilesからインポートします。全体の録画から連続した同じ長さのクリップを作成する場合は、<strong class=\"text-text\">Cut</strong>を選択し、<strong class=\"text-text\">Space</strong>を<strong class=\"text-text\">No gap</strong>に設定し、<strong class=\"text-text\">Clip amount</strong>を選択して、結果の<strong class=\"text-text\">Clip duration</strong>を確認します。<strong class=\"text-text\">Add</strong>をタップして選択内容をPlanned Clipsに入れます。開始時刻と終了時刻を自分で選択するには<strong class=\"text-text\">Slice</strong>を選択します。Planned Clips内の各クリップを再生し、文章や動作を中断するカットがあれば調整します。"
+      "html": "ソース動画を「写真」アプリまたはFilesからインポートします。全体の録画から連続した同じ長さのクリップを作成する場合は、<strong class=\"text-text\">Cut</strong>を選択し、<strong class=\"text-text\">Space</strong>を<strong class=\"text-text\">No gap</strong>に設定し、<strong class=\"text-text\">Clip amount</strong>を選択して、結果の<strong class=\"text-text\">Clip duration</strong>を確認します。<strong class=\"text-text\">Add</strong>をタップして選択内容をPlanned Clipsに入れます。開始時刻と終了時刻を自分で選択するには<strong class=\"text-text\">Slice</strong>を選択します。各Planned Clipsを再生し、文章や動作を中断するカットがあれば調整します。"
     },
     {
       "kind": "tutorial",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "このガイドでは、同じ長さのクリップのCutの手順とプレビューを紹介します。「写真」アプリへの保存完了の様子は示していません。ReelClipのインポートとプレビューは無料ですが、保存や書き出しにはCreatorが必要です。アプリは動画ファイルを準備しますが、TikTok、Instagram、YouTubeに自動投稿することはありません。より長いソーシャルメディアのワークフローについては、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">長い動画からTikTok用のクリップを準備する方法</a>、または<a class=\"text-accent hover:underline\" href=\"/ja/blog/video-length-social-media-reach\">録画を同じ長さのクリップに分割するガイド</a>をご覧ください。"
+      "html": "このガイドでは、等間隔クリップのCutのレシピとプレビューを紹介します。Photosへの保存完了画面は表示しません。ReelClipのインポートとプレビューは無料ですが、作品の保存や書き出しにはCreatorモードが必要です。アプリは動画ファイルを準備しますが、TikTok、Instagram、YouTubeへの投稿は行いません。より長いソーシャルメディアのワークフローについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">長い動画からTikTok用のクリップを準備する方法</a>をご覧いただくか、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/video-length-social-media-reach\">録画を等間隔のクリップに分割するガイド</a>をお読みください。"
     },
     {
       "kind": "html",

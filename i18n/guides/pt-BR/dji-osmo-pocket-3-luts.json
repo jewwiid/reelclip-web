@@ -1,13 +1,13 @@
 {
   "slug": "dji-osmo-pocket-3-luts",
   "title": "LUTs do DJI Osmo Pocket 3: download oficial e fluxo de trabalho no iPhone",
-  "description": "Encontre o LUT oficial da DJI de D-Log M para Rec.709 do Pocket 3, identifique seu modo de gravação e teste um arquivo .cube correspondente no iPhone.",
+  "description": "Encontre a LUT oficial da DJI de D-Log M para Rec.709 do Pocket 3, identifique seu modo de gravação e teste um arquivo .cube correspondente no iPhone.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Resumo",
   "primaryKeyword": "luts dji osmo pocket 3",
   "readMinutes": 4,
-  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "sourceFingerprint": "48818f74b3281027429344da7002752e9e645d3df6344cecb006ee6403ba5c03",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Obtenha o LUT oficial do Pocket 3"
+      "html": "Obtenha a LUT oficial do Pocket 3"
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A DJI publica o <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M para Rec.709</a>. Baixe o arquivo da DJI e siga as instruções. O <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">diretório oficial de LUTs</a> também separa os recursos por modelo de câmera."
+      "html": "A DJI publica <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads/softwares/osmo-pocket-3-dlog-to-rec709\" rel=\"noreferrer\" target=\"_blank\">DJI OSMO Pocket 3 D-Log M para Rec.709</a>. Baixe o arquivo da DJI e siga as instruções. O <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">diretório oficial de LUTs</a> também separa os recursos por modelo de câmera."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Se o editor já interpreta ou converte a fonte corretamente, evite adicionar a mesma conversão duas vezes. Não existe regra universal de que todo LUT criativo deve ser empilhado após qualquer outro LUT em uma intensidade fixa."
+      "html": "Se o editor já interpreta ou converte a fonte corretamente, evite adicionar a mesma conversão duas vezes. Não existe regra universal de que toda LUT criativa deve ser empilhada após qualquer outra LUT em uma intensidade fixa."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Mantenha o arquivo original da câmera e uma anotação do modo de gravação. Transfira-o para um local que o iPhone possa acessar.</li><li>Extraia o arquivo .cube baixado, se necessário, e deixe-o disponível no app Arquivos.</li><li>No ReelClip, abra seu clipe e use Ajustar e Estilizar → LUTs → Importar LUT. Selecione o arquivo importado e inspecione a visualização.</li><li>Para uma conversão técnica, siga os requisitos de entrada do fornecedor. Verifique a pele, os realces e as cores saturadas em várias partes da gravação.</li><li>Revise uma amostra curta salva antes de fazer a correção de cor de todo o projeto. Salvar vídeo requer o Creator.</li>"
+      "html": "<li>Mantenha o arquivo original da câmera e uma anotação do modo de gravação. Transfira-o para um local que o iPhone possa acessar.</li><li>Extraia o arquivo .cube baixado, se necessário, e deixe-o disponível em Files.</li><li>No ReelClip, abra seu clipe e use Adjust & Style → LUTs → Import LUT. Selecione o arquivo importado e inspecione a visualização.</li><li>Para uma conversão técnica, siga os requisitos de entrada do fornecedor. Verifique a pele, os destaques e as cores saturadas em várias partes da gravação.</li><li>Revise uma amostra curva salva antes de fazer a graduação de todo o projeto. Salvar o vídeo no iPhone requer o modo Creator.</li>"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Nosso <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-apply-lut-on-iphone\">guia de importação</a> demonstra os controles com um look criativo. Ele não estabelece suporte a conversão calibrada para todos os arquivos DJI nem promete que uma exportação final corresponderá a outro editor."
+      "html": "Nosso <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-apply-lut-on-iphone\">guia de importação</a> demonstra os controles com um look criativo. Ele não estabelece suporte de conversão calibrada para todos os arquivos DJI nem promete que uma exportação final corresponderá a outro editor."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Mantenha as instruções e a licença do autor com cada download. Uma coleção criativa gratuita não é necessariamente específica para o Pocket 3. O <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/best-free-luts-2026\">guia de LUTs gratuitos</a> vincula recursos oficiais e explica como escolher pela entrada esperada."
+      "html": "Mantenha as instruções do autor e a licença de cada download. Uma coleção criativa gratuita não é necessariamente específica para o Pocket 3. O <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/best-free-luts-2026\">guia de LUTs gratuitos</a> vincula recursos oficiais e explica como escolher pela entrada esperada."
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para imagens de um modelo Pocket diferente, consulte <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/dji-osmo-pocket-color-grading\">correspondência do perfil de gravação do Pocket</a>. Para recorte e legendas após o trabalho de cor, use o <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/edit-dji-osmo-footage-iphone\">fluxo de edição DJI</a>."
+      "html": "Para imagens de um modelo Pocket diferente, consulte <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/dji-osmo-pocket-color-grading\">correspondência do perfil de gravação do Pocket</a>. Para clipping e legendas após o trabalho de cor, use o <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/edit-dji-osmo-footage-iphone\">fluxo de edição DJI</a>."
     },
     {
       "kind": "cta"

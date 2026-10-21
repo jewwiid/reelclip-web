@@ -1,13 +1,13 @@
 {
   "slug": "edit-dji-osmo-footage-iphone",
-  "title": "So bearbeitest du DJI-Aufnahmen auf dem iPhone: importieren, Momente auswählen und Ergebnis überprüfen",
-  "description": "Übertrage Osmo-Aufnahmen mit DJI Mimo oder einem kompatiblen Kartenleser, importiere aus Fotos oder Files, wähle dann Clips in ReelClip aus und überprüfe sie.",
+  "title": "So bearbeitest du DJI-Material auf dem iPhone: importieren, Momente auswählen und Ergebnis überprüfen",
+  "description": "Übertrage Osmo-Material mit DJI Mimo oder einem kompatiblen Kartenleser, importiere aus Fotos oder Files, dann wähle und überprüfe Clips in ReelClip.",
   "publishedAt": "2026-08-25",
   "updatedAt": "2026-10-21",
   "category": "Anleitung",
-  "primaryKeyword": "dji osmo aufnahmen auf iphone bearbeiten",
+  "primaryKeyword": "dji osmo material auf iphone bearbeiten",
   "readMinutes": 5,
-  "sourceFingerprint": "7891d3b2ae72d0ab4b3381382944d531bbd491b7ab46b1ca119ebdb65371657b",
+  "sourceFingerprint": "51eb8ed9b2bf09dd5d568bb5f96ab8a1998e004f133f862ffa3bacbde6fc7c4c",
   "schemaVersion": 1,
   "locale": "de",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Um DJI-Aufnahmen auf dem iPhone zu bearbeiten, übertrage die Originalaufnahme an einen Ort, auf den du zugreifen kannst, importiere sie in ReelClip und wähle, wie du Momente auswählen möchtest. Prüfe Farbe, Bildaufbau und Untertitel, bevor du die Clips für deinen Publishing-Workflow speicherst."
+      "html": "Um DJI-Material auf dem iPhone zu bearbeiten, übertrage die Originalaufnahme an einen Ort, auf den du zugreifen kannst, importiere sie in ReelClip und wähle, wie du Momente auswählen möchtest. Überprüfe Farbe, Bildschnitt und Untertitel, bevor du die Clips für deinen Veröffentlichungs-Workflow speicherst."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Verwende eine Übertragungsmethode, die von deiner Kamera und deinem iPhone unterstützt wird. Bewahre die Originalkameradatei und eine Notiz zum Aufnahmemodus auf, anstatt dich auf eine bereits verarbeitete Freigabekopie zu verlassen. Befindet sich die Datei in einem Cloud-Speicher, stelle sicher, dass sie verfügbar ist, bevor du mit der Bearbeitung beginnst."
+      "html": "Verwende eine Übertragungsmethode, die von deiner Kamera und deinem iPhone unterstützt wird. Bewahre die Originalkameradatei und eine Notiz zum Aufnahmemodus auf, anstatt dich auf eine bereits verarbeitete Freigabekopie zu verlassen. Wenn sich die Datei in der Cloud befindet, stelle sicher, dass sie verfügbar ist, bevor du mit der Bearbeitung beginnst."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Übertrage Osmo Pocket-Aufnahmen auf dein iPhone"
+      "html": "Übertrage Osmo Pocket-Material auf dein iPhone"
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Verbinde die Kamera mit DJI Mimo über die von deinem Modell unterstützte Verbindung.</li><li>Öffne das Kameraalbum oder die Wiedergabeansicht. Wähle eine Aufnahme aus und nutze deren Download-Aktion. Für mehrere Dateien wähle die Aufnahmen in der Miniaturansicht aus und lade sie gemeinsam herunter.</li><li>Warte, bis der Download abgeschlossen ist, und prüfe dann, ob das Video in deiner iPhone-Fotos-Bibliothek verfügbar ist, bevor du es in ReelClip importierst.</li>"
+      "html": "<li>Verbinde die Kamera mit DJI Mimo über die von deinem Modell unterstützte Verbindung.</li><li>Öffne das Kameraalbum oder die Wiedergabeansicht. Wähle eine Aufnahme aus und nutze deren Download-Aktion. Für einen Batch wähle die Aufnahmen in der Miniaturansicht aus und lade sie gemeinsam herunter.</li><li>Warte, bis der Download abgeschlossen ist, und überprüfe dann, ob das Video in deiner iPhone-Fotos-Bibliothek verfügbar ist, bevor du es in ReelClip importierst.</li>"
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "DJI dokumentiert diese Album- und Download-Aktionen in seinem <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Anleitung zum Exportieren von Osmo-Aufnahmen</a>. Verbindung und Steuerung können je nach Kamera und App-Version variieren. Bewahre das Kameraoriginal auf, wenn du eine Kopie mit Bearbeitungen oder Effekten exportierst."
+      "html": "DJI dokumentiert diese Album- und Download-Aktionen in seinem <a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Osmo-Material-Export-Guide</a>. Die Verbindung und Steuerung können je nach Kamera und App-Version variieren. Bewahre das Kameraoriginal auf, wenn du eine Kopie mit Bearbeitungen oder Effekten exportierst."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-xl font-bold tracking-tight mt-8 mb-3"
       },
-      "html": "Von der Speicherkarte der Kamera importieren"
+      "html": "Import von der Speicherkarte der Kamera"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Verwende einen Kartenleser und Adapter, der mit deinem iPhone und der microSD-Karte der Kamera kompatibel ist.</li><li>Schließe den Leser an, öffne Fotos und nutze dessen Importoption, um die ausgewählten Videos zu kopieren. Bewahre die Dateien auf der Karte auf, bis du die Kopien überprüft hast.</li><li>Öffne das kopierte Video auf deinem iPhone und wähle es dann in ReelClip aus Fotos aus. Hast du es stattdessen in einen lokalen Files-Ordner kopiert, verwende ReelClips Files-Import.</li>"
+      "html": "<li>Verwende einen Kartenleser und Adapter, die mit deinem iPhone und der microSD-Karte der Kamera kompatibel sind.</li><li>Schließe den Leser an, öffne Fotos und nutze die Importfunktion, um die ausgewählten Videos zu kopieren. Lass die Dateien auf der Karte, bis du die Kopien überprüft hast.</li><li>Öffne das kopierte Video auf deinem iPhone, wähle es dann in ReelClip aus Fotos aus. Hast du es stattdessen in einen lokalen Files-Ordner kopiert, verwende den Files-Import von ReelClip.</li>"
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Wenn sie nur noch in DJI Mimo sichtbar ist, schließe den Kameradownload ab und prüfe die Telefonkopie, bevor du ReelClip öffnest.</li><li>Wenn sie in iCloud oder einem anderen Cloud-Speicher liegt, warte, bis die vollständige Datei heruntergeladen ist. Ein Vorschaubild beweist nicht, dass die Aufnahme lokal verfügbar ist.</li><li>Prüfe die Dauer der kopierten Datei und spiele sie außerhalb von ReelClip ab. Ist die Kopie unvollständig, übertrage sie erneut und bewahre dabei das Kameraoriginal auf.</li><li>Wenn ein Leser nicht angezeigt wird, prüfe Adapter und Stromversorgung in Apples Speicheranleitung. Teste mit einer kurzen Originalaufnahme, bevor du einen großen Stapel überträgst.</li>"
+      "html": "<li>Wenn sie nur noch in DJI Mimo sichtbar ist, schließe den Kameradownload ab und prüfe die Telefonkopie, bevor du ReelClip öffnest.</li><li>Wenn sie in iCloud oder einem anderen Cloud-Speicher liegt, warte, bis die vollständige Datei heruntergeladen ist. Ein Vorschaubild beweist nicht, dass die Aufnahme lokal verfügbar ist.</li><li>Prüfe die Dauer der kopierten Datei und spiele sie außerhalb von ReelClip ab. Ist die Kopie unvollständig, übertrage sie erneut und behalte das Kameraoriginal bei.</li><li>Wenn ein Leser nicht angezeigt wird, prüfe Adapter- und Stromversorgungsanforderungen in Apples Speicheranleitung. Teste mit einer kurzen Originalaufnahme, bevor du einen großen Stapel überträgst.</li>"
     },
     {
       "kind": "html",
@@ -121,7 +121,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Probiere ReelClip mit deiner übertragenen DJI-Aufnahme aus</a>. Import und Vorschau sind kostenlos; zum Speichern von Videos ist Creator erforderlich."
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">Probiere ReelClip mit deiner übertragenen DJI-Aufnahme aus</a>. Import und Vorschau sind kostenlos; das Speichern von Video auf deinem iPhone erfordert den Creator-Modus."
     },
     {
       "kind": "html",
@@ -137,7 +137,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Mit Slice wählst du ein Zeitfenster, verschiebst es zu einem gewünschten Moment und verfeinerst die Ränder.</li><li>Cut plant Clips mit den Steuerungen für Anzahl, Dauer und Abstand. Überprüfe die ausgewählten Momente vor dem Speichern.</li><li>Transcript ist für gesprochene Aufnahmen nützlich: Lies die erkannten Wörter, prüfe Fehler und wähle die Passage im Kontext.</li><li>AI kann bei verfügbaren erforderlichen Gerätefunktionen Momente aus einer Eingabeaufforderung planen. Überprüfe die vorgeschlagenen Schnitte selbst.</li>"
+      "html": "<li>Slice lässt dich ein Zeitfenster wählen, es zum gewünschten Moment verschieben und die Ränder verfeinern.</li><li>Cut plant Clips mit den Steuerungen für Anzahl, Dauer und Abstand. Überprüfe die ausgewählten Momente vor dem Speichern.</li><li>Transcript ist für gesprochene Aufnahmen nützlich: Lies die erkannten Wörter, prüfe Fehler und wähle die Passage im Kontext.</li><li>AI kann bei verfügbaren erforderlichen Gerätefunktionen Momente aus einem Prompt planen. Überprüfe die vorgeschlagenen Schnitte selbst.</li>"
     },
     {
       "kind": "html",
@@ -153,7 +153,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Farbprofil prüfen"
+      "html": "Prüfe das Farbprofil"
     },
     {
       "kind": "html",
@@ -169,7 +169,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Untertitel, Bildaufbau und Ton überprüfen"
+      "html": "Überprüfe Untertitel, Bildschnitt und Ton"
     },
     {
       "kind": "html",
@@ -177,7 +177,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Lies die Untertitel anhand der gesprochenen Aufnahme und korrigiere Erkennungsfehler. Spiele die Bearbeitungen durch, um zu prüfen, dass Wörter und Gesten nicht abrupt abgeschnitten werden. Die Wahl eines kürzeren Zeitbereichs rahmt eine breite Aufnahme nicht automatisch für einen vertikalen Beitrag neu, also prüfe das Bild separat."
+      "html": "Lies die Untertitel anhand der gesprochenen Aufnahme und korrigiere Erkennungsfehler. Spiele die Schnitte durch, um zu prüfen, dass Wörter und Gesten nicht abrupt abgeschnitten werden. Die Wahl eines kürzeren Zeitbereichs bewirkt allein keine Umrahmung einer Weitwinkelaufnahme für einen vertikalen Post, also prüfe das Bild separat."
     },
     {
       "kind": "html",
@@ -185,7 +185,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Unterschiedliche Aufnahmelängen, Codecs und Gerätebedingungen beeinflussen die Verarbeitung. Sieh dir einen repräsentativen Abschnitt in der Vorschau an, statt dich auf eine feste Zusage bezüglich Transkriptions- oder Exportzeit zu verlassen."
+      "html": "Unterschiedliche Aufnahmelängen, Codecs und Gerätebedingungen beeinflussen die Verarbeitung. Zeige einen repräsentativen Abschnitt in der Vorschau an, statt dich auf eine feste Zusage bezüglich Transkriptions- oder Exportzeit zu verlassen."
     },
     {
       "kind": "html",
@@ -193,7 +193,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Speichere die Version, die du geprüft hast"
+      "html": "Speichere die geprüfte Version"
     },
     {
       "kind": "html",
@@ -201,7 +201,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Öffne Review, schau dir das gerenderte Ergebnis an und speichere die Clips, die du möchtest. Zum Speichern von Videos ist Creator erforderlich. Prüfe die tatsächliche Datei in Photos, bevor du sie teilst, besonders wenn du Farb- oder Untertiteleinstellungen geändert hast. Bewahre die Quelle auf, damit du später eine andere Version erstellen kannst."
+      "html": "Öffne Review, schaue dir das gerenderte Ergebnis an und speichere die Clips, die du möchtest. Das Speichern des Videos auf deinem iPhone erfordert den Creator-Modus. Prüfe die tatsächliche Datei in Fotos, bevor du sie teilst, besonders wenn du Farb- oder Untertiteleinstellungen geändert hast. Bewahre die Quelldatei auf, damit du später eine andere Version erstellen kannst."
     },
     {
       "kind": "cta"

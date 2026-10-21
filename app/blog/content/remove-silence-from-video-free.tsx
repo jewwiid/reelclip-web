@@ -4,9 +4,9 @@ import { PostBody, PostCta, PostH2, PostHeader, PostLink, PostOl, PostP } from "
 export const POST_META = {
   slug: "remove-silence-from-video-free",
   title: "How to remove silence from a video on iPhone",
-  description: "Use ReelClip’s Transcript pause controls, review the timing and check the edited video. Preview before export; saving requires Creator.",
+  description: "Use ReelClip’s Transcript pause controls, review the timing and check the edited video. Preview before export; saving the finished video to your iPhone requires Creator mode.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   category: "How-to" as const,
   primaryKeyword: "remove silence from video iphone",
   readMinutes: 4,
@@ -20,7 +20,7 @@ export default function Post() {
           Long gaps can make a spoken video feel slow. ReelClip’s Transcript
           mode lets you remove pauses and review the resulting video on your
           iPhone. Preview the edit before deciding to export; saving the output
-          requires Creator.
+          requires Creator mode.
         </PostP>
         <GuideVideo id="pause-cleanup" />
         <PostH2>Find the pause controls</PostH2>

@@ -54,10 +54,10 @@ export async function LocalizedGuide({ guide }: { guide: TranslatedGuide }) {
           case "cta": return <aside key={index} data-guide-component="cta" className="mt-16 rounded-2xl border border-accent/25 bg-accent/5 p-6 sm:p-8">
             <p className="mb-3 text-xs font-bold uppercase tracking-wider text-accent">{t("Try it on your iPhone")}</p>
             <h3 className="mb-2 text-2xl font-black tracking-tight">{t("Cut, transcribe, and export — on-device, no upload.")}</h3>
-            <p className="mb-5 text-sm leading-relaxed text-text-muted">{t("ReelClip is free to import and preview. A Creator plan unlocks export. Choose Slice, Cut, Transcript or AI for your edit. All video and audio processing stays on your iPhone — nothing is uploaded to ReelClip servers.")}</p>
+            <p className="mb-5 text-sm leading-relaxed text-text-muted">{t("ReelClip is free to import and preview. Creator mode unlocks full access, including saving, sharing, and exporting your work on your iPhone. Choose Slice, Cut, Transcript or AI for your edit. All video and audio processing stays on your iPhone — nothing is uploaded to ReelClip servers.")}</p>
             <div className="flex flex-col gap-3 sm:flex-row">
               <AppStoreLink target="_blank" rel="noreferrer" data-analytics-event="download_click_blog" data-analytics-event-placement="article_cta" className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-bg hover:bg-accent-deep">{t("Download on the App Store")}</AppStoreLink>
-              <Link href={localizedPath(locale, "/pricing")} className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold hover:bg-surface">{t("See Creator pricing")}</Link>
+              <Link href={localizedPath(locale, "/pricing")} className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold hover:bg-surface">{t("See Creator mode options")}</Link>
             </div>
           </aside>;
           // Only versioned, structurally checked content is loaded here. The generator

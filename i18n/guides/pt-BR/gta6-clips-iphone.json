@@ -1,15 +1,15 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "Clips de GTA 6 no iPhone: fluxo de lançamento com atenção aos direitos",
+  "title": "Clips de GTA 6 no iPhone: um fluxo de lançamento consciente dos direitos",
   "description": "Planeje um fluxo de clipes de GTA VI para Shorts, TikTok e Reels: capture sua própria gameplay ou obtenha aprovação de streamer, transfira o arquivo para o iPhone e depois edite no ReelClip.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Como fazer",
   "primaryKeyword": "Clips de GTA 6",
   "readMinutes": 6,
-  "sourceFingerprint": "7bfe8fdd0ddd3eccb04aca670edc46c5f1f376bf5eea33c766eec7590fdf255d",
+  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
   "schemaVersion": 1,
   "locale": "pt-BR",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A partir de 21 de outubro de 2026, a editora da Rockstar lista Grand Theft Auto VI para PlayStation 5 e Xbox Series X|S com data de lançamento planejada para 19 de novembro de 2026. Os jogadores não podem capturar sua própria sessão de jogo até o lançamento. Use isto como uma lista de verificação de lançamento e ignore vazamentos de pré-lançamento. Verifique o<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">anúncio de lançamento atual da Take-Two</a> <!-- -->antes de confiar nessa data."
+      "html": "A partir de 21 de outubro de 2026, a editora da Rockstar lista Grand Theft Auto VI para PlayStation 5 e Xbox Series X|S com data de lançamento planejada para 19 de novembro de 2026. Os jogadores não podem capturar sua própria sessão de jogo até o lançamento. Use isto como uma lista de verificação de lançamento e ignore imagens vazadas de pré-lançamento. Verifique o<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">anúncio de lançamento atual da Take-Two</a> <!-- -->antes de confiar nessa data."
     },
     {
       "kind": "html",
@@ -25,7 +25,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Após o lançamento, uma postagem curta de GTA 6 pode começar com sua própria gameplay ou com um clipe aprovado de um streamer. A fonte de captura e a editora do jogo têm direitos separados. A<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">política pública atual da Rockstar para vídeos de fãs</a> <!-- -->descreve o uso ocasional de gameplay como não comercial e diz que não cobre publicidade ou outra distribuição comercial. Não presuma que uma campanha de clipes paga ou uma postagem monetizada esteja coberta; solicite permissão por escrito específica para o caso da Take-Two antes de aceitar uma."
+      "html": "Após o lançamento, uma postagem curta de GTA 6 pode começar com sua própria gameplay ou com um clipe aprovado de um streamer. A fonte de captura e a editora do jogo têm direitos separados. A<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">política atual de vídeos de fãs</a> <!-- -->da Rockstar descreve o uso ocasional de gameplay como não comercial e diz que não cobre publicidade ou outra distribuição comercial. Não presuma que uma campanha de clipes paga ou uma postagem monetizada esteja coberta; solicite permissão por escrito específica para o caso da Take-Two antes de aceitar uma."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Sua própria gameplay:</strong> use os controles de captura do console para gravar um momento ou salvar a gameplay recente. A PlayStation documenta suas opções de captura no PS5 e o processo de transferência pelo PlayStation App. O app mantém as capturas compatíveis apenas por tempo limitado, então baixe o arquivo para o seu dispositivo enquanto estiver disponível. Para Xbox, siga as<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.xbox.com/en-US/apps/xbox-app-on-mobile\" rel=\"noreferrer\" target=\"_blank\">instruções atuais de captura móvel do Xbox</a> <!-- -->para o seu console e região.</li><li><strong>Um momento de streamer:</strong> use a função de clipe apenas onde o canal permite, e depois peça ao streamer ou ao dono da campanha permissão explícita para editar e republicar o arquivo. Clipes do KICK podem ser baixados como MP4 na página do clipe; os streamers da Twitch podem controlar a criação de clipes. O botão de clipe de nenhuma plataforma libera os direitos da filmagem do jogo, da música ou de outros convidados.</li>"
+      "html": "<li><strong>Sua própria gameplay:</strong> use os controles de captura do console para gravar um momento ou salvar gameplay recente. A PlayStation documenta suas opções de captura do PS5 e o processo de transferência do PlayStation App. O aplicativo mantém capturas compatíveis apenas por um tempo limitado, então baixe o arquivo para seu dispositivo enquanto estiver disponível. Para Xbox, siga as<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.xbox.com/en-US/apps/xbox-app-on-mobile\" rel=\"noreferrer\" target=\"_blank\">instruções atuais de captura móvel do Xbox</a> <!-- -->para seu console e região.</li><li><strong>O momento de um streamer:</strong> use o recurso de clipe apenas onde o canal permitir e depois peça ao streamer ou ao dono da campanha permissão explícita para editar e republicar o arquivo. Clipes do KICK podem ser baixados como MP4 na página do clipe; transmissores da Twitch podem controlar a criação de clipes. O botão de clipe de nenhuma plataforma libera os direitos da imagem do jogo, da música ou de outros convidados.</li>"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A página de ajuda da PlayStation observa que o chat de voz pode ser incluído em uma captura e diz para perguntar aos participantes do chat antes de incluir as vozes deles. Mantenha conversas privadas e áudio de convidados identificáveis fora, a menos que todos os envolvidos tenham concordado.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/\" rel=\"noreferrer\" target=\"_blank\">Configurações de captura e áudio do PS5</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/\" rel=\"noreferrer\" target=\"_blank\">transferir capturas para o PlayStation App</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">baixar um clipe do KICK</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">configurações de clipes da Twitch</a>."
+      "html": "A página de ajuda da PlayStation observa que o chat de voz pode ser incluído em uma captura e diz para perguntar aos participantes do chat antes de incluir suas vozes. Mantenha conversas privadas e áudio de convidados identificáveis fora, a menos que todos os envolvidos tenham concordado.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/capture-ps5-gameplay-screenshots/\" rel=\"noreferrer\" target=\"_blank\">Configurações de captura e áudio do PS5</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.playstation.com/en-us/support/games/ps5-game-captures-ps-app/\" rel=\"noreferrer\" target=\"_blank\">transferir capturas para o PlayStation App</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">baixar um clipe do KICK</a> <!-- -->·<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">configurações de clipes da Twitch</a>."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Transfira sua própria captura ou arquivo de fonte aprovado para Fotos ou Files. Mantenha a gravação original caso o clipe precise de outra edição ou a campanha peça uma versão diferente.</li><li>Importe o vídeo para o ReelClip. Use <strong>Slice</strong> para selecionar um momento memorável de um VOD mais longo. Use<!-- --> <strong>Cut</strong> para dividir uma gravação em clipes planejados por quantidade, duração e espaçamento. Cut não detecta automaticamente os melhores momentos de GTA.</li><li>Se o momento depende de comentário falado, abra<!-- --> <strong>Transcript</strong>, encontre a passagem e verifique as palavras e o tempo contra a reprodução. Mantenha a preparação e o desfecho juntos para que o clipe faça sentido sem a stream completa.</li><li>Verifique o primeiro e o último quadro, o áudio do jogo, o chat de voz, as legendas e o enquadramento da imagem. Uma exportação 9:16 é uma decisão de enquadramento separada; uma seleção de tempo mais curta não corta uma captura em paisagem.</li><li>Revise a saída preparada, exporte os clipes aprovados e faça o upload você mesmo para a plataforma indicada no briefing da campanha. O ReelClip pode importar e editar um arquivo de vídeo; ele não pode gravar o console, buscar uma stream ou publicar o clipe para você. A exportação requer Creator.</li>"
+      "html": "<li>Transfira sua própria captura ou arquivo de fonte aprovado para Fotos ou Files. Mantenha a gravação original caso o clipe precise de outra edição ou a campanha peça uma versão diferente.</li><li>Importe o vídeo para o ReelClip. Use <strong>Slice</strong> para selecionar um momento memorável de um VOD mais longo. Use<!-- --> <strong>Cut</strong> para dividir uma gravação em clipes planejados por quantidade, duração e espaçamento. Cut não detecta os melhores momentos de GTA automaticamente.</li><li>Se o momento depende de comentário falado, abra<!-- --> <strong>Transcript</strong>, encontre a passagem e verifique as palavras e a sincronização contra a reprodução. Mantenha a preparação e a recompensa juntas para que o clipe faça sentido sem a transmissão completa.</li><li>Verifique o primeiro e o último quadro, o áudio do jogo, o chat de voz, as legendas e o enquadramento da imagem. Uma exportação 9:16 é uma decisão de enquadramento separada; uma seleção de tempo mais curta não corta uma captura em paisagem.</li><li>Revise a saída preparada, exporte os clipes aprovados e faça o upload você mesmo para a plataforma indicada no briefing da campanha. O ReelClip pode importar e editar um arquivo de vídeo; ele não pode gravar o console, buscar uma transmissão ou publicar o clipe para você. Salvar ou exportar o vídeo finalizado requer o modo Creator.</li>"
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Existem pelo menos duas questões de permissão: se o streamer permite que você reutilize a gravação dele, e se a editora permite o uso comercial de imagens do GTA VI. A mensagem \"clipa eu\" de um streamer responde apenas à primeira. A política pública da Rockstar é voltada para posts de fãs não comerciais, enquanto o YouTube diz que a monetização de games depende da licença de uso comercial da editora e do valor de comentário ou educacional. Obtenha autorização por escrito para um trabalho pago, evite spoilers da história e cinemáticas isoladas, e não use imagens vazadas.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/138161\" rel=\"noreferrer\" target=\"_blank\">Regras de monetização de conteúdo de games do YouTube</a> <!-- -->e<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">Política atual de postagem da Rockstar</a> <!-- -->estabelecem as verificações a serem feitas primeiro."
+      "html": "Existem pelo menos duas questões de permissão: se o streamer permite que você reutilize a gravação dele, e se a editora permite o uso comercial de imagens do GTA VI. A mensagem \"clipa eu\" de um streamer responde apenas à primeira. A política pública da Rockstar é voltada para postagens de fãs não comerciais, enquanto o YouTube diz que a monetização de jogos depende da licença de uso comercial da editora e do valor de comentário ou educacional. Obtenha autorização por escrito para um trabalho pago, evite spoilers da história e cinemáticas isoladas, e não use imagens vazadas.<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/138161\" rel=\"noreferrer\" target=\"_blank\">Regras de monetização de conteúdo de jogos do YouTube</a> <!-- -->e<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.rockstargames.com/articles/7bNaeoMFTV0iUDGhStTXvz/policy-on-posting-copyrighted-rockstar-games-material\" rel=\"noreferrer\" target=\"_blank\">política atual de postagem da Rockstar</a> <!-- -->estabelecem as verificações a serem feitas primeiro."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para os controles de edição no iPhone, continue com o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">passo a passo de Cut</a> <!-- -->ou o guia para<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/edit-vertical-video-on-iphone\">escolher um momento com o Slice</a>."
+      "html": "Para os controles de edição do iPhone, continue com o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">tutorial de Cut</a> <!-- -->ou o guia para<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/edit-vertical-video-on-iphone\">escolher um momento com Slice</a>."
     },
     {
       "kind": "cta"

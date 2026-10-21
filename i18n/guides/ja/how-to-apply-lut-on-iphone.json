@@ -1,13 +1,13 @@
 {
   "slug": "how-to-apply-lut-on-iphone",
   "title": "iPhoneで.cube LUTを適用する方法",
-  "description": "Filesから.cube LUTを読み込み、強度を調整してReelClipでプレビューを比較します。実際のコントロールの短い録画付き。",
+  "description": "Filesから.cube LUTを読み込み、強度を調整してReelClipでプレビューを比較します。実際のコントロールの短い録画も含まれています。",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "使い方",
   "primaryKeyword": "iphoneでlutを適用する方法",
   "readMinutes": 4,
-  "sourceFingerprint": "5c632d7d5f82024d8ee55a14f70dca920fef590845adec3f67c59bb3734f96f1",
+  "sourceFingerprint": "8777186ad37135f37758c0e43ddabbc0b04ec0faa99bfcfcaab8b16119b8351a",
   "schemaVersion": 1,
   "locale": "ja",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "すでに.cube LUTをお持ちの場合、Filesから読み込んでReelClipで強度を調整できます。映像とカラーセットアップ用のLUTから始めてください。クリエイティブルックとカメラ変換は異なる目的を持っています。"
+      "html": "すでに.cube LUTをお持ちの場合、Filesから読み込んでReelClipで強度を調整できます。映像とカラーセットアップに適したLUTから始めてください。クリエイティブルックとカメラ変換は異なる目的を持っています。"
     },
     {
       "kind": "tutorial",
@@ -29,7 +29,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "クリエイティブルックの前に正しい入力を選択"
+      "html": "クリエイティブルックの前に正しい入力を選択する"
     },
     {
       "kind": "html",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "LogやHDR映像を、表示用のクリエイティブLUTを適用する前に正規化してください。ReelClipのエクスポート済みクリエイティブLUTはエンコードされたsRGBを使用します。Rec.709は原色を共有しますが、異なるトランスファー特性を持ちます。LUTのドキュメントに記載された入力に合わせ、カメラ正規化を2回適用しないでください。オリジナルのスターターコレクションは現在テスト中です。開発状況と公式カメラリソースについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/best-free-luts-2026\">無料LUTリソースガイド</a> <!-- -->をご覧ください。"
+      "html": "LogやHDR映像を、表示用のクリエイティブLUTを適用する前に正規化してください。ReelClipがエクスポートするクリエイティブLUTはエンコードされたsRGBを使用します。Rec.709は原色を共有しますが、トランスファー特性が異なります。LUTのドキュメントに記載された入力に合わせ、カメラ正規化を2回適用しないようにしてください。オリジナルのスターターコレクションは現在テスト中です。<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/best-free-luts-2026\">無料LUTリソースガイド</a> <!-- -->で開発状況と公式カメラリソースをご確認ください。"
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>編集したい映像を読み込みます。</li><li>Adjust &amp; Styleを開き、LUTsを選択します。</li><li>Import LUTをタップし、Filesから.cubeファイルを選択します。</li><li>LUTライブラリで読み込んだルックを選択します。</li>"
+      "html": "<li>編集したい映像を読み込みます。</li><li>Adjust &amp; Styleを開いてLUTsを選択します。</li><li>Import LUTをタップして、Filesから.cubeファイルを選択します。</li><li>読み込んだルックをLUTライブラリで選択します。</li>"
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "強度を映像で確認"
+      "html": "映像に対して強度を確認する"
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "強度スライダーを動かし、結果を元と比較します。映像が再生される中で、肌色、明るい部分、暗い部分のディテールを確認してください。サンプルでは68%になっていますが、この値はこのサンプル専用であり、すべてのクリップに推奨される設定ではありません。"
+      "html": "強度スライダーを動かして、結果を元の映像と比較します。映像が再生される中で、肌色、明るい部分、暗い部分のディテールを確認してください。サンプルでは68%に達していますが、この値はこのサンプル固有のものであり、すべてのクリップに推奨される設定ではありません。"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "カメラ変換の場合は、LUTに付属の説明に従い、ソースの録画プロファイルと一致させてください。あるログプロファイル用に作成されたLUTが別のプロファイルに適していると仮定しないでください。こちらのサンプルは、すべてのカメラやLUTファイルをサポートするものではなく、インポートと調整コントロールの確立を目的としています。"
+      "html": "カメラ変換を行う場合は、LUTに付属の説明に従い、ソースの録画プロファイルと一致させてください。あるログプロファイル用に作成されたLUTが別のプロファイルにも適しているとは限りません。こちらのサンプルは、インポートと調整コントロールの確立を目的としており、すべてのカメラやLUTファイルへの対応を保証するものではありません。"
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "完成した動画を確認"
+      "html": "完成した動画を確認する"
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "調整を完了したら、Reviewを開いてレンダリングされた出力を確認してください。動画の保存にはCreatorが必要です。編集中にカラーやHDRの設定を変更した場合は、特に共有する前に実際に保存されたファイルを確認してください。"
+      "html": "調整を完了し、Reviewを開いてレンダリングされた出力を確認してください。動画をiPhoneに保存するにはCreatorモードが必要です。編集中にカラーやHDR設定を変更した場合は、特に共有する前に実際に保存されたファイルを確認してください。"
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "ファイル自体の背景情報については、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/cube-lut-explained\">.cube LUTに含まれるもの</a>をお読みください。"
+      "html": "ファイル自体の背景情報については、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/cube-lut-explained\">.cube LUTに含まれるもの</a>をご覧ください。"
     },
     {
       "kind": "cta"

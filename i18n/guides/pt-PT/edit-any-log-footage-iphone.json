@@ -1,13 +1,13 @@
 {
   "slug": "edit-any-log-footage-iphone",
-  "title": "Como editar filmagens log no iPhone: conversão de câmara e LUTs criativas",
-  "description": "Escolhe o perfil de câmara correto, importa um LUT de conversão correspondente e adiciona um aspeto criativo no ReelClip. Descobre o que verificar antes de exportar filmagens log.",
+  "title": "Como editar filmagens log no iPhone: conversão de câmara e LUTs criativos",
+  "description": "Escolhe o perfil de câmara correto, importa um LUT de conversão correspondente e adiciona um aspeto criativo no ReelClip. Aprende o que verificar antes de exportar filmagens log.",
   "publishedAt": "2026-10-20",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Caso de utilização",
   "primaryKeyword": "editar filmagens log no iphone",
   "readMinutes": 5,
-  "sourceFingerprint": "06c1c09f49209cd1d56211dced514a5598730100a21e51d77319301ec75bf9f6",
+  "sourceFingerprint": "1640b83821683436e06817d7a4347457556a732e0f581c22af027ba289a6c990",
   "schemaVersion": 1,
   "locale": "pt-PT",
   "blocks": [
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>DJI:</strong> D-Log, D-Log M e D-Log 2.</li><li><strong>Apple:</strong> Apple Log e Apple Log 2.</li><li><strong>HDR:</strong> HLG e PQ, tratados separadamente dos LUTs de conversão log importados.</li><li><strong>Standard:</strong> filmagens que já estão prontas para exibição.</li><li><strong>Outro log:</strong> outra fonte log com uma transformação de câmara importada correspondente.</li>"
+      "html": "<li><strong>DJI:</strong> D-Log, D-Log M e D-Log 2.</li><li><strong>Apple:</strong> Apple Log e Apple Log 2.</li><li><strong>HDR:</strong> HLG e PQ, tratados separadamente dos LUTs de conversão log importados.</li><li><strong>Standard:</strong> filmagens já prontas para exibição.</li><li><strong>Other log:</strong> outra fonte log com uma transformação de câmara importada correspondente.</li>"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A deteção automática pode utilizar metadados suportados e sugestões de nomes de ficheiro. Verifica a seleção face às definições da tua câmara: o nome do ficheiro é uma sugestão e as transferências ou edições anteriores podem alterar a informação disponível para a aplicação."
+      "html": "A deteção automática pode utilizar metadados suportados e sugestões de nome de ficheiro. Verifica a seleção face às definições da tua câmara: o nome do ficheiro é uma sugestão e as transferências ou edições anteriores podem alterar a informação disponível para a aplicação."
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A Sony, Canon, Panasonic e Blackmagic não são perfis pré-definidos nomeados no ReelClip. Para filmagens destas câmaras, utiliza Outro log com o LUT de conversão correto, desde que o iPhone consiga descodificar o ficheiro de vídeo. A marca da câmara por si só não estabelece compatibilidade com todos os codecs ou formatos RAW."
+      "html": "A Sony, Canon, Panasonic e Blackmagic não são perfis predefinidos nomeados no ReelClip. Para filmagens destas câmaras, utiliza Other log com o LUT de conversão correto, desde que o iPhone consiga descodificar o ficheiro de vídeo. A marca da câmara por si só não estabelece compatibilidade com todos os codecs ou formatos RAW."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Importa o teu clipe.</strong> Utiliza a gravação original sempre que possível e confirma o seu perfil e gama de gravação.</li><li><strong>Escolhe o perfil de origem.</strong> Nos controlos de cor, verifica o perfil detetado ou seleciona a opção log correspondente.</li><li><strong>Importa a transformação da câmara.</strong> Escolhe uma conversão .cube que corresponda à câmara, curva de gravação e gama. Verifica a documentação para o espaço de cor de saída esperado. Um perfil log marcado como \"LUT necessário\" ainda precisa deste ficheiro.</li><li><strong>Adiciona um LUT criativo.</strong> Seleciona um aspeto destinado à imagem convertida. Os packs criativos universais esperam entrada normalizada sRGB/Rec.709. Utiliza o controlo de intensidade para ajustar o efeito criativo.</li><li><strong>Revisa e exporta.</strong> Verifica os tons de pele, céus brilhantes e detalhes nas sombras. A edição e pré-visualização estão disponíveis gratuitamente; guardar o vídeo finalizado requer o Creator.</li>"
+      "html": "<li><strong>Importa o teu clipe.</strong> Utiliza a gravação original sempre que possível e confirma o seu perfil de gravação e gamut.</li><li><strong>Escolhe o perfil de origem.</strong> Nos controlos de cor, verifica o perfil detetado ou seleciona a opção log correspondente.</li><li><strong>Importa a transformação da câmara.</strong> Escolhe uma conversão .cube que corresponda à câmara, curva de gravação e gamut. Consulta a documentação para o espaço de cor de saída esperado. Um perfil log marcado \"LUT needed\" ainda precisa deste ficheiro.</li><li><strong>Add um LUT criativo.</strong> Seleciona um aspeto destinado à imagem convertida. Os packs criativos universais esperam entrada normalizada sRGB/Rec.709. Utiliza o controlo de intensidade para ajustar o efeito criativo.</li><li><strong>Revisa e exporta.</strong> Verifica os tons de pele, céus claros e detalhes de sombra. A edição e pré-visualização estão disponíveis gratuitamente; guardar o vídeo finalizado requer o modo Creator.</li>"
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Arrasta o cursor para comparar fotogramas reais de stock com grades ilustrativas. O fotograma sem grade está à esquerda, com a etiqueta Flat source (ou Original no exemplo da cidade pronto para exibição), e o resultado com grade está à direita. Os uploads de stock não confirmam a curva log exata de uma câmara, por isso trata estes exemplos como criativos, não como referências de conversão. Cada cena inclui a sua fonte de imagem e link de licença."
+      "html": "Arrasta o cursor para comparar fotogramas reais de stock com grades ilustrativas. O fotograma não gradado está à esquerda, com a etiqueta Flat source (ou Original para o exemplo da cidade pronto a exibir), e o resultado gradado está à direita. Os uploads de stock não confirmam a curva log exata da câmara, por isso trata estes exemplos como criativos, não como referências de conversão. Cada cena inclui a sua fonte de imagens e respetiva ligação de licença."
     },
     {
       "kind": "comparison"
@@ -116,7 +116,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Estes exemplos utilizam as mesmas imagens reais e looks iniciais do nosso guia gratuito de LUTs. O equilíbrio ilustrativo não é uma conversão calibrada do fabricante. Avalia um look nas tuas próprias imagens antes de decidir se se adequa ao teu projeto."
+      "html": "Estes exemplos utilizam as mesmas imagens reais e looks iniciais do nosso guia de LUTs gratuitas. O equilíbrio ilustrativo não é uma conversão calibrada do fabricante. Avalia um look nas tuas próprias imagens antes de decidir se se adequa ao teu projeto."
     },
     {
       "kind": "html",
@@ -124,7 +124,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Conversão de câmara e LUTs criativas têm funções diferentes"
+      "html": "A conversão de câmara e as LUTs criativas têm funções diferentes"
     },
     {
       "kind": "html",
@@ -132,7 +132,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Uma <strong>conversão de câmara</strong> mapeia uma codificação de gravação específica para o espaço de trabalho ou exibição pretendido. Corresponde tanto a curva log como o gamut de cor: dois ficheiros descritos como \"log\" podem precisar de transformações diferentes."
+      "html": "Uma <strong>conversão de câmara</strong> mapeia uma codificação de gravação específica para o espaço de trabalho ou exibição pretendido. Corresponde tanto a curva log como ao gamut de cor: dois ficheiros descritos como \"log\" podem precisar de transformações diferentes."
     },
     {
       "kind": "html",
@@ -140,7 +140,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Uma <strong>LUT criativa</strong> estiliza a imagem convertida. Pode aquecer os realces, arrefecer as sombras ou reduzir a saturação. Não pode corrigir uma transformação de origem errada, e uma LUT por si só não adiciona grão de filme ou halation."
+      "html": "Uma <strong>LUT criativa</strong> estiliza a imagem convertida. Pode aquecer os realces, arrefecer as sombras ou reduzir a saturação. Não pode corrigir uma transformação de origem incorreta, e uma LUT por si só não adiciona grão de filme ou halation."
     },
     {
       "kind": "html",
@@ -156,7 +156,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Se o resultado parecer errado"
+      "html": "Se o resultado parecer incorreto"
     },
     {
       "kind": "html",
@@ -164,7 +164,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Ainda deslavado?</strong> Confirma que uma transformação de câmara está carregada, e não apenas um perfil log selecionado.</li><li><strong>Contraste excessivo?</strong> Verifica se houve uma conversão aplicada duas vezes e confirma que a LUT criativa espera o teu espaço de cor convertido.</li><li><strong>Cores pouco naturais?</strong> Revisa o gamut de gravação, o balanço de brancos e o ficheiro de conversão antes de aumentar a intensidade do look.</li><li><strong>Um ficheiro não importa?</strong> Verifica o contentor de vídeo e o codec. Selecionar Other log não adiciona suporte para um formato de vídeo de outra forma não suportado.</li>"
+      "html": "<li><strong>Ainda deslavado?</strong> Confirma que uma transformação de câmara está carregada, não apenas um perfil log selecionado.</li><li><strong>Contraste excessivo?</strong> Verifica se uma conversão foi aplicada duas vezes e confirma que a LUT criativa espera o teu espaço de cor convertido.</li><li><strong>Cores pouco naturais?</strong> Reverifica o gamut de gravação, o balanço de brancos e o ficheiro de conversão antes de aumentar a intensidade do look.</li><li><strong>Um ficheiro não importa?</strong> Verifica o contentor de vídeo e o codec. Selecionar Other log não adiciona suporte para um formato de vídeo de outra forma não suportado.</li>"
     },
     {
       "kind": "html",
@@ -180,7 +180,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Comece com um clipe curto que contenha um rosto, objetos neutros e algum detalhe brilhante. Analise a conversão da câmara com o aspeto criativo desativado e, de seguida, adicione o aspeto com uma intensidade moderada. Clipes de câmaras diferentes podem ainda necessitar de ajustes individuais de exposição e balanço de brancos."
+      "html": "Comece com um clip curto que contenha um rosto, objetos neutros e algum detalhe brilhante. Reveja a conversão da câmara com o look criativo desativado e, em seguida, adicione o look com uma intensidade moderada. Clips de câmaras diferentes podem ainda precisar de ajustes individuais de exposição e balanço de brancos."
     },
     {
       "kind": "html",
@@ -188,7 +188,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A pré-visualização e a renderização de cor são executadas no dispositivo. Pode importar, editar e pré-visualizar antes de atualizar. A exportação de vídeo requer o Creator, disponível como compra única ou plano mensal."
+      "html": "A pré-visualização e a renderização de cor são executadas no dispositivo. Pode importar, editar e pré-visualizar antes de desbloquear o modo Creator. Guardar ou exportar um vídeo concluído requer o modo Creator, disponível através de uma compra única ou de faturação mensal."
     },
     {
       "kind": "cta"

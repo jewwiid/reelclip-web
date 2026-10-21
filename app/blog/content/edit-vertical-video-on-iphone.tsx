@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
   description: "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
   publishedAt: "2026-08-25",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   category: "How-to" as const,
   primaryKeyword: "how to edit vertical video on iphone",
   readMinutes: 4,
@@ -51,7 +51,7 @@ export default function Post() {
         <PostH2>Save, then upload</PostH2>
         <PostP>
           Choose Review and inspect the prepared output before saving to
-          Photos. Export requires Creator. Wait for the save confirmation,
+          Photos. Saving or exporting a finished video requires Creator mode. Wait for the save confirmation,
           then open the destination app and upload the saved file yourself.
           Check its current upload requirements if you change the output format.
         </PostP>

@@ -1,13 +1,13 @@
 {
   "slug": "cube-lut-explained",
-  "title": "O que é um ficheiro .cube LUT? Formato, tamanhos de tabela e importação no iPhone",
-  "description": "Compreenda as tabelas de consulta 1D e 3D, o que significam 17, 33 e 65, e como testar um ficheiro .cube no ReelClip sem confundir um aspeto criativo com uma conversão de câmara.",
+  "title": "O que é um ficheiro LUT .cube? Formato, tamanhos de tabela e importação no iPhone",
+  "description": "Compreenda tabelas de consulta 1D e 3D, o que significam 17, 33 e 65, e como testar um ficheiro .cube no ReelClip sem confundir um aspeto criativo com uma conversão de câmara.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
-  "primaryKeyword": "o que é um ficheiro .cube lut",
+  "primaryKeyword": "o que é um ficheiro lut .cube",
   "readMinutes": 4,
-  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "sourceFingerprint": "57aa682fc49a2fdd1adfcc547e03b87ca20cd886b72c6fe390a8c8af41d532c3",
   "schemaVersion": 1,
   "locale": "pt-PT",
   "blocks": [
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Uma LUT 1D mapeia cada canal de cor de forma independente. Uma LUT 3D mapeia combinações de vermelho, verde e azul, pelo que um canal de saída pode depender de mais do que um canal de entrada. Nenhum dos tipos corrige o foco falhado, remove ruído ou restaura detalhe cortado durante a gravação."
+      "html": "Uma LUT 1D mapeia cada canal de cor de forma independente. Uma LUT 3D mapeia combinações de vermelho, verde e azul, pelo que um canal de saída pode depender de mais do que um canal de entrada. Nenhum dos tipos corrige foco falhado, remove ruído ou restaura detalhe cortado durante a gravação."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Uma tabela maior precisa de mais entradas, mas não é automaticamente um aspeto melhor. O tamanho do ficheiro também depende da precisão e da formatação do seu texto. Escolha um ficheiro suportado pelo seu editor e apropriado para o perfil de origem; não escolha apenas pelo número maior."
+      "html": "Uma tabela maior precisa de mais entradas, mas não é automaticamente um aspeto melhor. O tamanho do ficheiro também depende da precisão e da formatação do seu texto. Escolha um ficheiro suportado pelo seu editor e adequado ao perfil de origem; não escolha apenas pelo número maior."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">documentação sobre LUTs da Apple</a> explica a distinção entre LUTs de câmara e efeitos criativos personalizados. Os controlos do Final Cut Pro são separados da interface do ReelClip."
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Documentação da Apple sobre LUTs</a> explica a distinção entre LUTs de câmara e efeitos criativos personalizados. Os controlos do Final Cut Pro são separados da interface do ReelClip."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Extraia o download se for um ZIP e guarde o ficheiro .cube num local acessível a partir do Files.</li><li>Importe o seu vídeo no ReelClip. Abra Adjust &amp; Style, escolha LUTs e depois utilize Import LUT.</li><li>Selecione o aspeto e compare a pré-visualização com o original. Siga as instruções do fornecedor do ficheiro para uma conversão técnica; ajuste um aspeto criativo para se adequar às suas filmagens.</li><li>Reveja uma amostra renderizada curta antes de aplicar o aspeto em todo o projeto. Guardar vídeo requer Creator.</li>"
+      "html": "<li>Extraia o download se for um ZIP e guarde o ficheiro .cube num local acessível a partir de Files.</li><li>Importe o seu vídeo no ReelClip. Abra Adjust &amp; Style, escolha LUTs e depois utilize Import LUT.</li><li>Selecione o visual e compare a pré-visualização com a original. Siga as instruções do fornecedor do ficheiro para uma conversão técnica; ajuste um visual criativo para adequar às suas filmagens.</li><li>Reveja uma amostra renderizada curta antes de aplicar o visual a todo o projeto. Guardar o vídeo no iPhone requer o modo Creator.</li>"
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "O <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-apply-lut-on-iphone\">guia passo a passo de importação de LUTs</a> mostra uma importação real de um aspeto criativo e o ajuste da intensidade. Não verifica todas as conversões de câmara nem todas as variantes .cube."
+      "html": "O <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/how-to-apply-lut-on-iphone\">guia passo a passo de importação de LUTs</a> mostra uma importação real de visual criativo e ajuste de intensidade. Não verifica todas as conversões de câmara nem todas as variantes .cube."
     },
     {
       "kind": "html",
@@ -137,7 +137,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para fontes a explorar, consulte <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/best-free-luts-2026\">recursos de LUTs gratuitos</a>. Comece com um pequeno conjunto de ficheiros adequados e teste-os nas suas próprias gravações."
+      "html": "Para fontes a explorar, consulte <a class=\"text-accent hover:underline\" href=\"/pt-PT/blog/best-free-luts-2026\">recursos de LUTs gratuitos</a>. Comece com um conjunto pequeno de ficheiros adequados e teste-os nas suas próprias gravações."
     },
     {
       "kind": "cta"

@@ -1,13 +1,13 @@
 {
   "slug": "edit-vertical-video-on-iphone",
   "title": "Cómo editar video vertical en iPhone (Reels, TikTok, Shorts)",
-  "description": "Elige y refina momentos de grabaciones verticales en ReelClip, revisa los subtítulos y el encuadre, y guarda los clips que quieras publicar.",
+  "description": "Elige y refina momentos de material grabado en vertical con ReelClip, revisa los subtítulos y el encuadre, y guarda los clips que quieras publicar.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Cómo hacerlo",
   "primaryKeyword": "cómo editar video vertical en iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "03100b4950a80f8da2f3ee5a8729cbcd697378649022efab96588fdbde2126d6",
+  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
   "schemaVersion": 1,
   "locale": "es",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Comienza con una grabación vertical y elige los momentos que quieres conservar. En ReelClip, Slice selecciona un rango de tiempo; no decide qué parte de la imagen debe adaptarse a una proporción diferente. Revisa el encuadre por separado antes de publicar."
+      "html": "Comienza con una grabación en vertical y elige los momentos que quieres conservar. En ReelClip, Slice selecciona un rango de tiempo; no decide qué parte de la imagen debe adaptarse a una relación de aspecto diferente. Verifica el encuadre por separado antes de publicar."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importa la grabación desde Fotos o Archivos, luego abre Clip.</li><li>Elige Slice. Mueve la selección a la parte que quieres conservar.</li><li>Ajusta el inicio y el final para que la acción o la frase tengan suficiente contexto.</li><li>Toca Add, luego repite para cualquier otro momento que desees.</li>"
+      "html": "<li>Importa la grabación desde Fotos o Files, luego abre Clip.</li><li>Elige Slice. Mueve la selección a la parte que quieres conservar.</li><li>Ajusta el inicio y el final para que la acción o la frase tengan suficiente contexto.</li><li>Toca Add, luego repite para cualquier otro momento que desees.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "La demostración usa una muestra corta y tres selecciones. Tu grabación puede necesitar una cantidad o duración diferente de clips. Revisa cada selección; un corte que funciona visualmente puede interrumpir una frase hablada."
+      "html": "La demostración usa una muestra corta y tres selecciones. Tu grabación puede necesitar una cantidad o duración diferente de clips. Observa cada selección; un corte que funciona visualmente puede interrumpir una frase hablada."
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Reproduce los clips planificados y verifica sus primeros y últimos fotogramas. Una fuente vertical ya tiene una imagen vertical; una fuente horizontal requiere una decisión de encuadre separada. Cambiar el rango de tiempo seleccionado no recorta automáticamente la imagen para un Reel o Short."
+      "html": "Reproduce los clips planificados y verifica sus primeros y últimos fotogramas. Una fuente en vertical ya tiene una imagen vertical; una fuente en horizontal necesita una decisión de encuadre separada. Cambiar el rango de tiempo seleccionado no recorta automáticamente la imagen para un Reel o Short."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para grabaciones con diálogo, revisa también la transcripción y los subtítulos. Corrige nombres y términos especializados, luego verifica que el texto se mantenga legible sobre la imagen. Consulta el <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">flujo de trabajo de transcripción</a> <!-- -->para un ejemplo con voz."
+      "html": "Para material hablado, revisa también la transcripción y los subtítulos. Corrige nombres y términos especializados, luego verifica que el texto se mantenga legible sobre la imagen. Consulta el <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">flujo de trabajo de transcripción</a> <!-- -->para un ejemplo usando voz."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Elige Review e inspecciona el resultado preparado antes de guardar en Fotos. La exportación requiere Creator. Espera la confirmación de guardado, luego abre la app de destino y sube el archivo guardado tú mismo. Verifica sus requisitos actuales de subida si cambias el formato de salida."
+      "html": "Elige Review e inspecciona el resultado preparado antes de guardar en Photos. Guardar o exportar un video terminado requiere el modo Creator. Espera la confirmación de guardado, luego abre la app de destino y sube el archivo guardado tú mismo. Verifica sus requisitos actuales de subida si cambias el formato de salida."
     },
     {
       "kind": "html",

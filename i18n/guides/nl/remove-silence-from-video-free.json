@@ -1,13 +1,13 @@
 {
   "slug": "remove-silence-from-video-free",
-  "title": "Hoe je stilte verwijdert uit een video op iPhone",
-  "description": "Gebruik de pauzebesturing van ReelClip in Transcript-modus, controleer de timing en bekijk de bewerkte video. Preview voor export; opslaan vereist Creator.",
+  "title": "Hoe je stilte uit een video verwijdert op iPhone",
+  "description": "Gebruik de pauzebediening van ReelClip in Transcript-modus, controleer de timing en bekijk de bewerkte video. Bekijk een voorvertoning voordat je exporteert; het opslaan van de voltooide video op je iPhone vereist de Creator-modus.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Hoe het werkt",
-  "primaryKeyword": "remove silence from video iphone",
+  "primaryKeyword": "stilte verwijderen uit video iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "64763fe44f4cca427135d38312396cb2ec5a4c8748045f6e5886b095fb3f471e",
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Lange stiltes kunnen een gesproken video traag laten aanvoelen. De Transcript-modus van ReelClip laat je pauzes verwijderen en het resultaat bekijken op je iPhone. Preview de bewerking voordat je besluit te exporteren; het opslaan van de output vereist Creator."
+      "html": "Lange stiltes kunnen een gesproken video traag laten aanvoelen. De Transcript-modus van ReelClip stelt je in staat om pauzes te verwijderen en de resulterende video op je iPhone te bekijken. Bekijk een voorvertoning van de bewerking voordat je besluit te exporteren; het opslaan van het resultaat vereist de Creator-modus."
     },
     {
       "kind": "tutorial",
@@ -29,7 +29,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Vind de pauzebesturing"
+      "html": "Vind de pauzebediening"
     },
     {
       "kind": "html",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importeer je video en kies Transcript. Wacht tot het transcript klaar is.</li><li>Open Audio, vind vervolgens Cleanup en zet Remove pauses aan.</li><li>Klap Cut timing uit om de pauzedrempel en de ruimte rondom spraak te inspecteren.</li><li>Tik nogmaals op Audio om het paneel te sluiten en controleer de pauzes in het transcript.</li><li>Kies Review video om het bewerkte resultaat voor te bereiden en af te spelen.</li>"
+      "html": "<li>Importeer je video en kies Transcript. Wacht tot het transcript is voltooid.</li><li>Open Audio, zoek vervolgens Cleanup en schakel Remove pauses in.</li><li>Klap Cut timing uit om de pauzedrempel en de ruimte rond spraak te inspecteren.</li><li>Tik opnieuw op Audio om het paneel te sluiten en de pauzes in het transcript te controleren.</li><li>Kies Review video om het bewerkte resultaat voor te bereiden en af te spelen.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "In het opgenomen voorbeeld is Cut pauses longer than ingesteld op 0,35s. Dat is een voorbeeld, geen instelling die elke opname nodig heeft. Een lagere drempel verwijdert kortere stiltes; laat genoeg ruimte voor natuurlijke spraak en pauzes die betekenis dragen."
+      "html": "In het opgenomen voorbeeld worden pauzes langer dan Cut ingesteld op 0,35s verwijderd. Dat is een voorbeeld, geen instelling die elke opname nodig heeft. Een lagere drempel verwijdert kortere stiltes; laat genoeg ruimte voor natuurlijke spraak en pauzes die betekenis dragen."
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Groen Auto keep laat een pauze in de bewerking staan. Rood Auto remove of Remove markeert deze voor verwijdering. Controleer het label op de lange pauze zelf voordat je de output bekijkt; de afspeelknop is alleen om die stilte te beluisteren."
+      "html": "Groen Auto keep laat een pauze in de bewerking staan. Rood Auto remove of Remove markeert deze voor verwijdering. Controleer het label op de lange pauze zelf voordat je de uitvoer bekijkt; de afspeelknop is alleen om naar die stilte te luisteren."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Om zelf één stilte te verwijderen, open je het Pause-actiemenu en kies je Remove pause. Controleer het verwijderingsmarkering opnieuw voordat je Review video kiest."
+      "html": "Om zelf één stilte te verwijderen, open je het Pauze-actiemenu en kies je Remove pause. Controleer het verwijderingsmarkering opnieuw voordat je Review video kiest."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Luister bij de cuts"
+      "html": "Luister bij de knippunten"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Gebruik een koptelefoon of je speaker om het begin en einde van elke zin te controleren. Als een ademhaling of het einde van een woord afgekapt aanvoelt, pas dan de timing aan en bekijk het opnieuw. Controleer ook het transcript; herkenningsfouten kunnen ervoor zorgen dat een bewerking anders uitpakt dan je verwacht."
+      "html": "Gebruik een koptelefoon of je luidspreker om het begin en einde van elke zin te controleren. Als een ademhaling of het einde van een woord afgekapt aanvoelt, pas dan de timing aan en controleer opnieuw. Controleer ook het transcript; herkenningsfouten kunnen ervoor zorgen dat een bewerking anders verloopt dan je verwacht."
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Pauzeverwijdering en vulwoordverwijdering zijn aparte besturingselementen. Begin met de wijziging die je nodig hebt, luister dan naar het resultaat voordat je meer Cleanup toevoegt."
+      "html": "Pauzeverwijdering en vulwoordverwijdering zijn aparte bedieningselementen. Begin met de wijziging die je nodig hebt, luister dan naar het resultaat voordat je meer opschoonwerk toevoegt."
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Bewaar de versie die je hebt beoordeeld"
+      "html": "Bewaar de versie die je hebt gecontroleerd"
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Na het beoordelen van de output gebruik je Save to Photos en wacht je op voltooiing. Je originele opname blijft ongewijzigd. Als je ondertitelbestanden nodig hebt, bekijk dan de exportopties voor het transcript apart in plaats van te veronderstellen dat een video-opslag ook een SRT- of VTT-bestand maakt."
+      "html": "Na het controleren van de uitvoer, gebruik Save to Photos en wacht op voltooiing. Je originele opname blijft ongewijzigd. Als je ondertitelbestanden nodig hebt, bekijk dan apart de exportopties voor het transcript in plaats van aan te nemen dat een video-opslag ook een SRT- of VTT-bestand maakt."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor het selecteren van een specifiek gesproken moment, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">de gids voor podcastfragmenten</a>. Voor regelmatig gespatieerde clips gebruik je <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
+      "html": "Voor het selecteren van een specifiek gesproken moment, zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">de gids voor podcastfragmenten</a>. Voor regelmatig verdeelde fragmenten, gebruik <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
     },
     {
       "kind": "cta"

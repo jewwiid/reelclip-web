@@ -16,7 +16,7 @@ export const POST_META = {
   description:
     "Prepare clips from a long recording with ReelClip’s Cut controls, review the framing and captions, then save the videos you want to upload to TikTok.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-20",
+  updatedAt: "2026-10-21",
   category: "Tutorial" as const,
   primaryKeyword: "how to cut a long video for tiktok",
   readMinutes: 5,
@@ -46,7 +46,7 @@ export default function Post() {
           <li>An iPhone running iOS 17 or later, as listed for the current app release.</li>
           <li>
             <PostLink href="/">ReelClip</PostLink> (free to import and
-            preview, Creator plan to export). AI features have additional
+            preview; saving or exporting requires Creator mode). AI features have additional
             hardware and software requirements, including compatible, enabled
             Apple Intelligence. Check availability on your device.
           </li>
@@ -119,7 +119,7 @@ export default function Post() {
           Tap <strong className="text-text">Review</strong> and wait for the
           clips to finish preparing. Play the outputs, then choose the save
           action for Photos. Wait for the completion confirmation before
-          leaving the app. Export requires Creator; the originals stay intact.
+          leaving the app. Saving or exporting a finished video requires Creator mode; the originals stay intact.
         </PostP>
 
         <PostH3>7. Upload to TikTok from Photos</PostH3>

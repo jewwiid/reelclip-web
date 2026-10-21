@@ -144,10 +144,10 @@ export function PostCta() {
         Cut, transcribe, and export — on-device, no upload.
       </h3>
       <p className="text-sm text-text-muted leading-relaxed mb-5">
-        ReelClip is free to import and preview. A Creator plan unlocks export.
-        Choose Slice, Cut, Transcript or AI for your edit. All video and
-        audio processing stays on your iPhone — nothing is uploaded to
-        ReelClip servers.
+        ReelClip is free to import and preview. Creator mode unlocks full access,
+        including saving, sharing, and exporting your work on your iPhone.
+        Choose Slice, Cut, Transcript or AI for your edit. All video and audio
+        processing stays on your iPhone — nothing is uploaded to ReelClip servers.
       </p>
       <div className="flex flex-col sm:flex-row gap-3">
         <AppStoreLink
@@ -163,7 +163,7 @@ export function PostCta() {
           href="/pricing"
           className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold text-text transition-[background-color,transform] hover:bg-surface active:scale-[0.98] ease-out"
         >
-          See Creator pricing
+          See Creator mode options
         </Link>
       </div>
     </aside>

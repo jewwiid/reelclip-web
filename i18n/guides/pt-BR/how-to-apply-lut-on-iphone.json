@@ -1,13 +1,13 @@
 {
   "slug": "how-to-apply-lut-on-iphone",
   "title": "Como aplicar um LUT .cube no iPhone",
-  "description": "Importe um LUT .cube do Arquivos, ajuste a intensidade e compare a pré-visualização no ReelClip. Inclui uma gravação curta dos controles reais.",
+  "description": "Importe um LUT .cube de Files, ajuste a intensidade e compare a pré-visualização no ReelClip. Inclui uma breve gravação dos controles reais.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Como fazer",
   "primaryKeyword": "como aplicar um lut no iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "5c632d7d5f82024d8ee55a14f70dca920fef590845adec3f67c59bb3734f96f1",
+  "sourceFingerprint": "8777186ad37135f37758c0e43ddabbc0b04ec0faa99bfcfcaab8b16119b8351a",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Se você já tem um LUT .cube, pode importá-lo do Arquivos e ajustar a intensidade no ReelClip. Comece com um LUT destinado às suas imagens e configuração de cor; um visual criativo e uma conversão de câmera servem a propósitos diferentes."
+      "html": "Se você já tem um LUT .cube, pode importá-lo de Files e ajustar a intensidade no ReelClip. Comece com um LUT destinado à sua filmagem e configuração de cor; um visual criativo e uma conversão de câmera servem a propósitos diferentes."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Normalize imagens em Log ou HDR antes de aplicar um LUT criativo pronto para exibição. Os LUTs criativos exportados pelo próprio ReelClip usam sRGB codificado; Rec.709 compartilha suas primárias, mas tem comportamento de transferência diferente. Corresponda à entrada documentada do LUT e evite aplicar a normalização de câmera duas vezes. Nossa coleção inicial original está atualmente em teste. Veja o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/best-free-luts-2026\">guia de recursos de LUTs gratuitos</a> <!-- -->para o status de desenvolvimento e recursos oficiais de câmera."
+      "html": "Normalize a filmagem Log ou HDR antes de aplicar um LUT criativo pronto para exibição. Os LUTs criativos exportados pelo próprio ReelClip usam sRGB codificado; Rec.709 compartilha suas primárias, mas tem comportamento de transferência diferente. Combine com a entrada documentada do LUT e evite aplicar a normalização da câmera duas vezes. Nossa coleção inicial original está atualmente em testes. Veja o<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/best-free-luts-2026\">guia de recursos de LUTs gratuitos</a> <!-- -->para saber o status de desenvolvimento e recursos oficiais de câmera."
     },
     {
       "kind": "html",
@@ -53,7 +53,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importe o vídeo que deseja editar.</li><li>Abra Adjust &amp; Style e escolha LUTs.</li><li>Toque em Import LUT e escolha o arquivo .cube do Arquivos.</li><li>Selecione o visual importado na biblioteca de LUTs.</li>"
+      "html": "<li>Importe o vídeo que deseja editar.</li><li>Abra Adjust &amp; Style e escolha LUTs.</li><li>Toque em Import LUT e escolha o arquivo .cube de Files.</li><li>Selecione o visual importado na biblioteca de LUTs.</li>"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "A demonstração usa a guia Creative e um visual do ReelClip salvo anteriormente. Depois que o LUT aparecer na sua biblioteca, selecione-o e verifique o efeito nas suas próprias imagens."
+      "html": "A demonstração usa a aba Creative e um visual ReelClip salvo anteriormente. Assim que o LUT aparecer na sua biblioteca, selecione-o e verifique o efeito na sua própria filmagem."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Verifique a intensidade nas suas imagens"
+      "html": "Verifique a intensidade na sua filmagem"
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Mova o controle deslizante de intensidade e compare o resultado com o original. Verifique a pele, áreas claras e detalhes escuros enquanto o vídeo reproduz. O exemplo atinge 68%; esse valor pertence a esta amostra e não é uma configuração recomendada para todos os clipes."
+      "html": "Mova o controle deslizante de intensidade e compare o resultado com o original. Verifique a pele, áreas claras e detalhes escuros enquanto a filmagem reproduz. O exemplo chega a 68%; esse valor pertence a essa amostra e não é uma configuração recomendada para todos os clipes."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para uma conversão de câmera, siga as instruções fornecidas com o LUT e corresponda ao perfil de gravação da fonte. Não presuma que um LUT feito para um perfil log seja adequado para outro. O exemplo aqui estabelece os controles de importação e ajuste, não o suporte para toda câmera ou arquivo LUT."
+      "html": "Para uma conversão de câmera, siga as instruções fornecidas com a LUT e corresponda ao perfil de gravação da fonte. Não presuma que uma LUT feita para um perfil log seja adequada para outro. O exemplo aqui estabelece os controles de importação e ajuste, não o suporte para todas as câmeras ou arquivos LUT."
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Finalize o ajuste, abra Review e inspecione a saída renderizada. Salvar o vídeo requer Creator. Verifique o arquivo salvo real antes de compartilhá-lo, especialmente se as configurações de cor ou HDR mudaram durante a edição."
+      "html": "Finalize o ajuste, abra Review e inspecione a saída renderizada. Salvar o vídeo no seu iPhone requer o modo Creator. Verifique o arquivo salvo real antes de compartilhá-lo, especialmente se as configurações de cor ou HDR mudaram durante a edição."
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para contexto sobre o arquivo em si, leia<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/cube-lut-explained\">o que um LUT .cube contém</a>."
+      "html": "Para contexto sobre o arquivo em si, leia<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/cube-lut-explained\">o que um arquivo .cube LUT contém</a>."
     },
     {
       "kind": "cta"

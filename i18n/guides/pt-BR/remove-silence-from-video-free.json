@@ -1,13 +1,13 @@
 {
   "slug": "remove-silence-from-video-free",
-  "title": "Como remover silêncio de um vídeo no iPhone",
-  "description": "Use os controles de pausa da Transcrição do ReelClip, revise o tempo e verifique o vídeo editado. Visualize antes de exportar; salvar requer Creator.",
+  "title": "Como remover o silêncio de um vídeo no iPhone",
+  "description": "Use os controles de pausa da Transcrição do ReelClip, revise o tempo e verifique o vídeo editado. Visualize antes de exportar; salvar o vídeo finalizado no seu iPhone requer o modo Creator.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Como fazer",
-  "primaryKeyword": "remove silence from video iphone",
+  "primaryKeyword": "remover silêncio do vídeo iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "64763fe44f4cca427135d38312396cb2ec5a4c8748045f6e5886b095fb3f471e",
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Intervalos longos podem deixar um vídeo falado lento. O modo Transcrição do ReelClip permite remover pausas e revisar o vídeo resultante no seu iPhone. Visualize a edição antes de decidir exportar; salvar o resultado requer Creator."
+      "html": "Intervalos longos podem deixar um vídeo falado lento. O modo Transcrição do ReelClip permite remover pausas e revisar o vídeo resultante no seu iPhone. Visualize a edição antes de decidir exportar; salvar o resultado requer o modo Creator."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importe seu vídeo e escolha Transcript. Aguarde a conclusão da transcrição.</li><li>Abra Audio, depois encontre Cleanup e ative Remove pauses.</li><li>Expanda Cut timing para inspecionar o limite de pausa e o espaço deixado ao redor da fala.</li><li>Toque em Audio novamente para fechar seu painel e verifique as pausas na transcrição.</li><li>Escolha Review video para preparar e reproduzir o resultado editado.</li>"
+      "html": "<li>Importe seu vídeo e escolha Transcript. Aguarde a conclusão da transcrição.</li><li>Abra Audio, depois encontre Cleanup e ative Remove pauses.</li><li>Expanda Cut timing para inspecionar o limiar de pausa e o espaço deixado ao redor da fala.</li><li>Toque em Audio novamente para fechar seu painel e verificar as pausas na transcrição.</li><li>Escolha Review video para preparar e reproduzir o resultado editado.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "No exemplo gravado, Cut pauses longer than está definido como 0,35s. Isso é um exemplo, não uma configuração que toda gravação precisa. Um limite menor remove intervalos mais curtos; deixe espaço suficiente para a fala natural e quaisquer pausas que carreguem significado."
+      "html": "No exemplo gravado, Cut pausas maiores que está definido como 0,35s. Isso é um exemplo, não uma configuração que toda gravação precisa. Um limiar mais baixo remove intervalos mais curtos; deixe espaço suficiente para a fala natural e quaisquer pausas que tenham significado."
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Green Auto keep mantém uma pausa na edição. Red Auto remove ou Remove a marca para remoção. Verifique o rótulo na própria pausa longa antes de revisar o resultado; o botão de reprodução serve apenas para ouvir aquele intervalo."
+      "html": "Auto keep verde mantém uma pausa na edição. Auto remove vermelho ou Remove a marca para remoção. Verifique o rótulo na própria pausa longa antes de revisar o resultado; o botão de reprodução serve apenas para ouvir aquele intervalo."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para remover um intervalo você mesmo, abra o menu de ação Pause dele e escolha Remove pause. Verifique o marcador de remoção novamente antes de escolher Review video."
+      "html": "Para remover um intervalo você mesmo, abra o menu de ação Pausa dele e escolha Remove pause. Verifique o marcador de remoção novamente antes de escolher Review video."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Use fones de ouvido ou a caixa de som para verificar o início e o fim de cada frase. Se uma respiração ou o final de uma palavra parecer cortado demais, ajuste o tempo e revise novamente. Verifique também a transcrição; erros de reconhecimento podem fazer com que uma edição se comporte de forma diferente do esperado."
+      "html": "Use fones de ouvido ou a caixa de som do aparelho para conferir o início e o fim de cada frase. Se uma respiração ou o final de uma palavra parecer cortado, ajuste o timing e revise novamente. Verifique também a transcrição; erros de reconhecimento podem fazer com que uma edição se comporte diferente do esperado."
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Após revisar o resultado, use Salvar para Fotos e aguarde a conclusão. Sua gravação original permanece intacta. Se precisar de arquivos de legenda, verifique as opções de exportação de transcrição separadamente, em vez de assumir que salvar um vídeo também cria um arquivo SRT ou VTT."
+      "html": "Depois de revisar o resultado, use Save to Photos e aguarde a conclusão. Sua gravação original permanece intacta. Se precisar de arquivos de legenda, verifique as opções de exportação da transcrição separadamente, em vez de assumir que salvar o vídeo também cria um arquivo SRT ou VTT."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para selecionar um momento específico da fala, consulte<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/extract-clip-from-podcast\">o guia de recorte de podcast</a>. Para clipes com espaçamento regular, use <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
+      "html": "Para selecionar um momento específico da fala, consulte<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/extract-clip-from-podcast\">o guia de recorte de podcast</a>. Para clipes com intervalos regulares, use <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
     },
     {
       "kind": "cta"

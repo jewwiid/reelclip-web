@@ -206,25 +206,25 @@
   },
   "pricing": {
     "eyebrow": "Cennik",
-    "heading": "Twórz klipy za darmo. Płać tylko przy eksporcie.",
-    "intro": "Zaimportuj materiał, pozwól ReelClip znaleźć najlepsze momenty i przeglądaj wyniki za darmo. Wybierz Creator, gdy będziesz gotowy zapisać, udostępnić lub wyeksportować klipy.",
+    "heading": "Wypróbuj ReelClip za darmo. Odblokuj tryb Creator, aby zapisać swoją pracę.",
+    "intro": "Zaimportuj materiał i bezpłatnie podejrzyj każdy efekt. Tryb Creator odblokowuje pełny dostęp do ReelClip, w tym zapisywanie, udostępnianie i eksportowanie pracy na iPhonie.",
     "tryFree": "Wypróbuj ReelClip za darmo",
-    "tryFreeDescription": "Zaimportuj wideo, wygeneruj klipy i przeglądaj wyniki. Plan Creator jest wymagany do eksportu lub zapisu.",
-    "creatorPlans": "Plany Creator",
-    "purchaseInApp": "Wybierz plan w ReelClip. Zakup obsługuje Apple.",
+    "tryFreeDescription": "Zaimportuj wideo i bezpłatnie podejrzyj swój montaż. Tryb Creator odblokowuje pełny dostęp i pozwala zapisywać, udostępniać oraz eksportować pracę na iPhonie.",
+    "creatorPlans": "Opcje trybu Creator",
+    "purchaseInApp": "Wybierz opcję dostępu w aplikacji ReelClip. Zakup obsługuje Apple.",
     "usPrices": "Ceny US App Store",
     "monthly": "Miesięczny",
     "monthlySuffix": "/ miesiąc",
-    "monthlyDescription": "Elastyczny dostęp bez zobowiązania długoterminowego.",
+    "monthlyDescription": "Dostęp do trybu Creator z rozliczeniem miesięcznym. Anuluj w dowolnym momencie.",
     "annual": "Roczny",
     "annualSuffix": "/ rok",
     "annualDescription": "{price} miesięcznie, płatne rocznie. Oszczędzaj {savings}% w porównaniu z miesięcznym.",
     "lifetime": "Dożywotni",
     "lifetimeSuffix": "jednorazowo",
-    "lifetimeDescription": "Zapłać raz i zachowaj Creator bez odnawiania.",
+    "lifetimeDescription": "Zapłać raz, aby zachować dostęp do trybu Creator bez odnawiania.",
     "recommended": "Polecany",
     "launchPrice": "Cena premierowa",
-    "allPlans": "Każdy plan odblokowuje Creator",
+    "allPlans": "Każda opcja odblokowuje tryb Creator",
     "perks": [
       "Zapisuj, udostępniaj i eksportuj każdy gotowy klip",
       "Wideo w oryginalnej jakości, do 60 kl./s",
@@ -241,11 +241,11 @@
   },
   "account": {
     "eyebrow": "Konto",
-    "heading": "Twoja subskrypcja",
-    "intro": "Sprawdź swój plan, zarządzaj płatnościami lub anuluj w dowolnym momencie.",
-    "checkoutSuccess": "Subskrypcja aktywna. Sprawdź swoje konto poniżej, aby potwierdzić.",
+    "heading": "Twój dostęp do ReelClip",
+    "intro": "Sprawdź swój dostęp do ReelClip, sprawdź swoje konto oraz zarządzaj rozliczeniami lub anuluj subskrypcję miesięczną.",
+    "checkoutSuccess": "Twój zakup został zakończony. Sprawdź swoje konto poniżej, aby potwierdzić dostęp do trybu Creator.",
     "lookupHeading": "Sprawdź swoje konto",
-    "lookupDescription": "Użyj tego samego adresu e-mail lub tokenu konta aplikacji, którego użyłeś przy subskrybowaniu.",
+    "lookupDescription": "Użyj adresu e-mail z zakupu lub tokena konta aplikacji iOS, aby sprawdzić dostęp do trybu Creator.",
     "email": "E-mail",
     "token": "Token konta aplikacji iOS",
     "optional": "opcjonalnie",
@@ -258,9 +258,9 @@
     "openingStripe": "Otwieranie Stripe…",
     "manageSubscription": "Zarządzaj subskrypcją",
     "portalFailed": "Portal nie powiódł się (HTTP {status})",
-    "creator": "Creator",
+    "creator": "Tryb Creator",
     "free": "Darmowy",
-    "currentTier": "Aktualny plan",
+    "currentTier": "Aktualny dostęp",
     "activeEntitlements": "Aktywne uprawnienia ({count})",
     "noEntitlements": "Brak aktywnych uprawnień.",
     "upgradeSuffix": "aby przejść na wyższy plan.",
@@ -291,8 +291,8 @@
         "answer": "ReelClip jest dostępny w App Store. Wyszukaj ReelClip lub odwiedź link do App Store na tej stronie. Wymaga iPhone'a z iOS 26 lub nowszym."
       },
       {
-        "question": "Czy mogę otrzymać zwrot za subskrypcję?",
-        "answer": "Tak. Zwroty obsługuje Apple. Wejdź na reportaproblem.apple.com, zaloguj się za pomocą Apple ID użytego do subskrypcji i złóż wniosek o zwrot za ReelClip. Nie możemy przetwarzać zwrotów bezpośrednio."
+        "question": "Czy mogę uzyskać zwrot kosztów za zakup ReelClip?",
+        "answer": "Tak. Zwroty za zakupy w App Store obsługuje Apple. Wejdź na reportaproblem.apple.com, zaloguj się przy użyciu Apple ID użytego podczas zakupu i złóż wniosek o zwrot kosztów za transakcję ReelClip. Nie możemy przetwarzać zwrotów bezpośrednio."
       },
       {
         "question": "Dlaczego strona używa domeny reelclips.app?",
@@ -471,7 +471,7 @@
       "Nie przesyłamy Twojego wideo, audio, transkrypcji ani pakietów funkcji AI na żaden serwer.",
       "Nie używamy zewnętrznych dostawców AI, chmurowych LLM ani integracji z własnym kluczem API.",
       "Nie osadzamy zewnętrznej analityki, SDK reklam ani trackerów międzyaplikacyjnych.",
-      "Nie umieszczamy znaków wodnych w eksportach z płatnych planów."
+      "Nie dodajemy znaków wodnych do wideo eksportowanego w trybie Creator."
     ],
     "whoTitle": "Kto to stworzył",
     "whoBody": "ReelClip tworzy i prowadzi niezależny deweloper iOS.",
@@ -479,7 +479,7 @@
     "nextItems": [
       "Przeczytaj Politykę Prywatności, aby poznać pełny przepływ danych.",
       "Zobacz, jak ReelClip wypada na tle CapCut, InShot, VN, OpusClip i Quik.",
-      "Sprawdź plany dla twórców, jeśli jesteś gotowy do eksportu.",
+      "Zobacz opcje trybu Creator, jeśli chcesz zapisać lub wyeksportować.",
       "Pobierz aplikację z App Store."
     ]
   },

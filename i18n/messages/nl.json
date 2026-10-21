@@ -206,25 +206,25 @@
   },
   "pricing": {
     "eyebrow": "Prijzen",
-    "heading": "Maak je clips gratis. Betaal pas wanneer je klaar bent om te exporteren.",
-    "intro": "Importeer je beeldmateriaal, laat ReelClip de sterkste momenten vinden en bekijk elk resultaat gratis. Kies Creator wanneer je klaar bent om je clips op te slaan, te delen of te exporteren.",
+    "heading": "Probeer ReelClip gratis. Ontgrendel Creator-modus om je werk op te slaan.",
+    "intro": "Importeer je beeldmateriaal en bekijk elk resultaat gratis. Creator-modus geeft volledige toegang tot ReelClip, inclusief opslaan, delen en exporteren van je werk op je iPhone.",
     "tryFree": "Probeer ReelClip gratis",
-    "tryFreeDescription": "Importeer een video, genereer clips en bekijk de resultaten. Een Creator-abonnement is vereist om te exporteren of op te slaan.",
-    "creatorPlans": "Creator-abonnementen",
-    "purchaseInApp": "Kies je abonnement in ReelClip. Apple verwerkt de aankoop.",
+    "tryFreeDescription": "Importeer een video en bekijk je bewerking gratis. Creator-modus ontgrendelt volledige toegang en laat je je werk opslaan, delen en exporteren op je iPhone.",
+    "creatorPlans": "Creator-modus opties",
+    "purchaseInApp": "Kies je toegangsoptie in ReelClip. Apple verwerkt de aankoop.",
     "usPrices": "US App Store-prijzen",
     "monthly": "Maandelijks",
     "monthlySuffix": "/ maand",
-    "monthlyDescription": "Flexibele toegang zonder langdurige verplichting.",
+    "monthlyDescription": "Creator-modus toegang met maandelijkse facturatie. Altijd opzegbaar.",
     "annual": "Jaarlijks",
     "annualSuffix": "/ jaar",
     "annualDescription": "{price} per maand, jaarlijks gefactureerd. Bespaar {savings}% ten opzichte van maandelijks.",
     "lifetime": "Levenslang",
     "lifetimeSuffix": "eenmalig",
-    "lifetimeDescription": "Betaal één keer en behoud Creator zonder verlenging.",
+    "lifetimeDescription": "Betaal eenmalig voor blijvende Creator-modus toegang zonder verlenging.",
     "recommended": "Aanbevolen",
     "launchPrice": "Introductieprijs",
-    "allPlans": "Elk abonnement ontgrendelt Creator",
+    "allPlans": "Elke optie ontgrendelt Creator-modus",
     "perks": [
       "Sla elke afgeronde clip op, deel of exporteer",
       "Video van oorspronkelijke kwaliteit, tot 60fps",
@@ -241,11 +241,11 @@
   },
   "account": {
     "eyebrow": "Account",
-    "heading": "Je abonnement",
-    "intro": "Bekijk je niveau, beheer je betalingen of zeg op elk moment op.",
-    "checkoutSuccess": "Abonnement actief. Bekijk je account hieronder om te bevestigen.",
+    "heading": "Je ReelClip toegang",
+    "intro": "Controleer je ReelClip toegang, bekijk je account en beheer facturatie of zeg een maandelijks abonnement op.",
+    "checkoutSuccess": "Je aankoop is voltooid. Zoek hieronder je account op om de toegang tot Creator-modus te bevestigen.",
     "lookupHeading": "Zoek je account op",
-    "lookupDescription": "Gebruik hetzelfde e-mailadres of app-accounttoken dat je bij het abonneren hebt gebruikt.",
+    "lookupDescription": "Gebruik het aankoop-e-mailadres of je iOS-app-accounttoken om de toegang tot Creator-modus op te zoeken.",
     "email": "E-mail",
     "token": "iOS-app-accounttoken",
     "optional": "optioneel",
@@ -258,9 +258,9 @@
     "openingStripe": "Stripe openen…",
     "manageSubscription": "Beheer abonnement",
     "portalFailed": "Portal mislukt (HTTP {status})",
-    "creator": "Creator",
+    "creator": "Creator-modus",
     "free": "Gratis",
-    "currentTier": "Huidig abonnement",
+    "currentTier": "Huidige toegang",
     "activeEntitlements": "Actieve rechten ({count})",
     "noEntitlements": "Geen actieve rechten.",
     "upgradeSuffix": "om te upgraden.",
@@ -291,8 +291,8 @@
         "answer": "ReelClip is beschikbaar in de App Store. Zoek naar ReelClip of bezoek de App Store-link op deze pagina. Het vereist een iPhone met iOS 26 of nieuwer."
       },
       {
-        "question": "Kan ik een terugbetaling krijgen voor mijn abonnement?",
-        "answer": "Ja. Terugbetalingen worden door Apple afgehandeld. Ga naar reportaproblem.apple.com, log in met de Apple ID waarmee je hebt geabonneerd, en vraag een terugbetaling aan voor de ReelClip-kosten. We kunnen geen terugbetalingen direct verwerken."
+        "question": "Kan ik een terugbetaling krijgen voor mijn ReelClip-aankoop?",
+        "answer": "Ja. Terugbetalingen voor App Store-aankopen worden door Apple afgehandeld. Ga naar reportaproblem.apple.com, log in met de Apple ID die je voor de aankoop hebt gebruikt, en vraag een terugbetaling aan voor de ReelClip-kosten. We kunnen geen terugbetalingen direct verwerken."
       },
       {
         "question": "Waarom gebruikt de website reelclips.app?",
@@ -471,7 +471,7 @@
       "We uploaden je video, audio, transcripts of AI-featurepacks niet naar enige server.",
       "We gebruiken geen externe AI-providers, cloud-LLM's of bring-your-own-API-key-integraties.",
       "We embedden geen externe analytics, ad-SDK's of cross-app trackers.",
-      "We plaatsen geen watermerken op exports van betaalde abonnementen."
+      "We voegen geen watermerken toe aan video's geëxporteerd in Creator-modus."
     ],
     "whoTitle": "Wie heeft het gemaakt",
     "whoBody": "ReelClip is gebouwd en beheerd door een onafhankelijke iOS-ontwikkelaar.",
@@ -479,7 +479,7 @@
     "nextItems": [
       "Lees het Privacybeleid voor het volledige dataverloop.",
       "Zie hoe ReelClip zich verhoudt tot CapCut, InShot, VN, OpusClip en Quik.",
-      "Bekijk de Creator-abonnementen als je klaar bent om te exporteren.",
+      "Bekijk Creator-modus opties als je klaar bent om op te slaan of te exporteren.",
       "Download de app in de App Store."
     ]
   },

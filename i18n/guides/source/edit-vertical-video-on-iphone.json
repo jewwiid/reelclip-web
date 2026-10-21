@@ -3,11 +3,11 @@
   "title": "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
   "description": "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "How-to",
   "primaryKeyword": "how to edit vertical video on iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "03100b4950a80f8da2f3ee5a8729cbcd697378649022efab96588fdbde2126d6",
+  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -84,7 +84,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Choose Review and inspect the prepared output before saving to Photos. Export requires Creator. Wait for the save confirmation, then open the destination app and upload the saved file yourself. Check its current upload requirements if you change the output format."
+      "html": "Choose Review and inspect the prepared output before saving to Photos. Saving or exporting a finished video requires Creator mode. Wait for the save confirmation, then open the destination app and upload the saved file yourself. Check its current upload requirements if you change the output format."
     },
     {
       "kind": "html",

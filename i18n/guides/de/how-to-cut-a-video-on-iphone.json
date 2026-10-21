@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "So schneidest du ein Video auf dem iPhone: trimmen oder in Clips teilen",
   "description": "Lerne, wie du mit Fotos ein Video trimmst, mit iMovie an einem gewählten Punkt teilst oder mit ReelClip mehrere Clips auswählst und überprüfst.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Anleitung",
   "primaryKeyword": "wie man ein video auf dem iphone schneidet",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "de",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Diese Anleitung zeigt ein Rezept und eine Vorschau für gleichlange Clips mit Cut. Sie zeigt keinen vollständigen Speichervorgang in Fotos. ReelClip ist zum Importieren und Vorschauen kostenlos; Speichern oder Exportieren erfordert Creator. Die App bereitet die Videodateien vor, postet sie aber nicht auf TikTok, Instagram oder YouTube. Für einen längeren Social-Media-Workflow siehe<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">wie man Clips aus einem langen Video für TikTok vorbereitet</a> oder lies den<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/video-length-social-media-reach\">Leitfaden zum Aufteilen einer Aufnahme in gleichlange Clips</a>."
+      "html": "Diese Anleitung zeigt ein Rezept für gleichlange Clips mit Cut und eine Vorschau. Es wird kein vollständiges Speichern in Fotos gezeigt. ReelClip ist kostenlos zum Importieren und für die Vorschau; das Speichern oder Exportieren deiner Arbeit erfordert den Creator-Modus. Die App bereitet die Videodateien vor, postet sie aber nicht auf TikTok, Instagram oder YouTube. Für einen längeren Social-Media-Workflow sieh dir<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">wie du Clips aus einem langen Video für TikTok vorbereitest</a> an, oder lies den<!-- --> <a class=\"text-accent hover:underline\" href=\"/de/blog/video-length-social-media-reach\">Leitfaden zum Aufteilen einer Aufnahme in gleichlange Clips</a>."
     },
     {
       "kind": "html",

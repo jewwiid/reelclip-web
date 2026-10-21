@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Cómo cortar un video en iPhone: recortar o dividirlo en clips",
   "description": "Aprende a recortar un video con Fotos, dividir en un punto elegido con iMovie, o usar ReelClip para seleccionar y revisar varios clips.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Cómo hacerlo",
   "primaryKeyword": "cómo cortar un video en iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "es",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Para un recorte rápido, abre un video en Fotos, toca Editar, ajusta las controles de inicio y fin, toca Listo y elige Guardar video o Guardar video como clip nuevo. Para dividir un clip en un punto elegido dentro de un proyecto de película, usa el comando Dividir de iMovie. Para preparar varios extractos de una grabación larga, usa Cut de ReelClip para un lote o Slice para los momentos que selecciones."
+      "html": "Para un recorte rápido, abre un video en Fotos, toca Editar, ajusta las palancas de inicio y fin, toca Listo y elige Guardar video o Guardar video como clip nuevo. Para dividir un clip en un punto elegido dentro de un proyecto de película, usa el comando Dividir de iMovie. Para preparar varios extractos de una grabación larga, usa Cut de ReelClip para un lote o Slice para los momentos que selecciones."
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Esta guía muestra una receta de Cut de clips iguales y su vista previa. No muestra un guardado completado en Fotos. ReelClip es gratuito para importar y previsualizar; guardar o exportar requiere Creator. La app prepara los archivos de video pero no los publica en TikTok, Instagram o YouTube. Para un flujo de trabajo social más largo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">cómo preparar clips de un video largo para TikTok</a>, o lee la<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/video-length-social-media-reach\">guía para dividir una grabación en clips iguales</a>."
+      "html": "Esta guía muestra una receta de Cut de clips iguales y su vista previa. No muestra una exportación completada a Fotos. ReelClip es gratuito para importar y previsualizar; guardar o exportar tu trabajo requiere el modo Creator. La app prepara los archivos de video pero no los publica en TikTok, Instagram ni YouTube. Para un flujo de trabajo social más largo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">cómo preparar clips de un video largo para TikTok</a>, o lee la<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/video-length-social-media-reach\">guía para dividir una grabación en clips iguales</a>."
     },
     {
       "kind": "html",

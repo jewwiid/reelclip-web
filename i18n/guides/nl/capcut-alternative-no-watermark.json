@@ -3,11 +3,11 @@
   "title": "Een CapCut-alternatief zonder watermerk: kies op basis van de bewerking die je nodig hebt",
   "description": "Vergelijk ReelClip voor het selecteren en ondertitelen van korte clips met iMovie voor een timeline-bewerking, en controleer de daadwerkelijke exportvereisten voordat je een abonnement kiest.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Vergelijking",
   "primaryKeyword": "capcut alternatief geen watermerk",
   "readMinutes": 4,
-  "sourceFingerprint": "7d280bf324b1c057c22b4df91f820da190d3e56101a11cc5f691627d70cb535c",
+  "sourceFingerprint": "5acc417fbac0c3f163518beec79a433f284929ce2f5f97037b6358fa5eece391",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Het juiste CapCut-alternatief hangt af van de bewerking. Als je korte momenten in een lange opname moet vinden, vergelijk je de clipselectie- en ondertitelingsfuncties. Als je een film op een timeline moet rangschikken, vergelijk je overgangen, audio en beeldbewerkingsgereedschappen. Test een daadwerkelijk opgeslagen bestand voordat je besluit dat een gratis download de export bevat die je wilt."
+      "html": "Het juiste CapCut-alternatief hangt af van de bewerking. Als je korte momenten in een lange opname moet vinden, vergelijk je de clipselectie- en ondertitelingsopties. Als je een film op een timeline moet rangschikken, vergelijk je overgangen, audio en beeldbewerkingsgereedschap. Test een daadwerkelijk opgeslagen bestand voordat je beslist dat een gratis download de export bevat die je wilt."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Importeren en voorvertonen zijn gratis; video opslaan vereist Creator. Controleer de <a class=\"text-accent hover:underline\" href=\"/nl/pricing\">huidige Creator-opties</a> en de App Store-vermelding voordat je koopt. Gratis voorvertoning is handig om de workflow te controleren, maar het is geen belofte van een gratis voltooide export."
+      "html": "Importeren en voorvertonen zijn gratis; video opslaan op je iPhone vereist Creator-modus. Controleer de <a class=\"text-accent hover:underline\" href=\"/nl/pricing\">huidige Creator-modus opties</a> en de App Store-vermelding voordat je koopt. Gratis voorvertoning is handig om de workflow te controleren, maar het is geen belofte van een gratis voltooide export."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Gebruik de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut-demo</a> om een batchrecept te zien, of de <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">Transcript-gids</a> om gesproken momenten te selecteren. ReelClip is een gerichte clip-editor, dus controleer elke sjabloon-, animatie- of compositingvereiste afzonderlijk."
+      "html": "Gebruik de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">demo van Cut</a> om een batchrecept te zien, of de <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">Transcript-gids</a> om gesproken momenten te selecteren. ReelClip is een gespecialiseerde clip-editor, dus controleer elke sjabloon-, animatie- of compositing-vereiste afzonderlijk."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "De <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">iMovie-gids van Apple voor iPhone</a> behandelt het rangschikken van filmclips, trimmen, titels, overgangen en audio. Het is een andere workflow om te vergelijken wanneer de volgorde van shots belangrijker is dan het extraheren van veel korte momenten uit een bron."
+      "html": "De <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">iMovie voor iPhone handleiding van Apple</a> behandelt het rangschikken van filmclips, trimmen, titels, overgangen en audio. Het is een andere workflow om te vergelijken wanneer de volgorde van shots belangrijker is dan het extraheren van veel korte momenten uit een bron."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importeer een korte opname die representatief is voor je echte beeldmateriaal.</li><li>Maak de beoogde bewerking, inclusief ondertitels, muziek of effecten die je van plan bent te gebruiken.</li><li>Controleer het exportscherm op abonnementsvereisten, branding en uitvoeropties. Een functie of sjabloon kan andere voorwaarden hebben dan een basisbewerking.</li><li>Sla een voorbeeld op en bekijk het buiten de editor. Inspecteer elke frame-rand, eventuele eindkaart, timing van ondertitels en geluid.</li>"
+      "html": "<li>Importeer een korte opname die representatief is voor je echte beeldmateriaal.</li><li>Maak de beoogde bewerking, inclusief ondertitels, muziek of effecten die je van plan bent te gebruiken.</li><li>Controleer het exportscherm op planvereisten, branding en uitvoeropties. Een functie of sjabloon kan andere voorwaarden hebben dan een basisbewerking.</li><li>Sla een voorbeeld op en bekijk het buiten de editor. Inspecteer elke frame-rand, eventuele eindkaart, timing van ondertitels en geluid.</li>"
     },
     {
       "kind": "html",
@@ -97,7 +97,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Ga er niet van uit dat CapCut altijd een watermerk toevoegt, altijd een account vereist of elke bewerking uploadt. Voorwaarden kunnen verschillen per functie, versie en service. Pas dezelfde voorbeeld-exportcontrole toe op elk alternatief, inclusief ReelClip, voordat je een volledig project start."
+      "html": "Ga er niet van uit dat CapCut altijd een watermerk toevoegt, altijd een account vereist of elke bewerking uploadt. Voorwaarden kunnen verschillen per functie, versie en dienst. Pas dezelfde sample-exportcontrole toe op elk alternatief, inclusief ReelClip, voordat je een volledig project start."
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Sla je originele beeldmateriaal en eventueel herbruikbaar project apart op van de afgewerkte video. Als je later van editor wisselt, vormen die originelen je beste startpunt. Voor de beeld- en timingcontroles die nodig zijn voor korte posts, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">verticale video bewerken op iPhone</a>."
+      "html": "Sla je originele beeldmateriaal en eventueel herbruikbaar project apart op van de afgewerkte video. Als je later van editor wisselt, geven die originelen je het beste uitgangspunt. Voor de beeld- en timingcontroles die nodig zijn voor korte posts, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-vertical-video-on-iphone\">verticale video bewerken op iPhone</a>."
     },
     {
       "kind": "cta"

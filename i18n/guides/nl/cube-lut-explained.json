@@ -3,11 +3,11 @@
   "title": "Wat is een .cube LUT-bestand? Formaat, tabelgroottes en importeren op iPhone",
   "description": "Begrijp 1D- en 3D-lookuptabellen, wat 17, 33 en 65 betekenen, en hoe je een .cube-bestand test in ReelClip zonder een creatieve look te verwarren met een cameraconversie.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Handleiding",
-  "primaryKeyword": "wat is een .cube lut bestand",
+  "primaryKeyword": "what is a .cube lut file",
   "readMinutes": 4,
-  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "sourceFingerprint": "57aa682fc49a2fdd1adfcc547e03b87ca20cd886b72c6fe390a8c8af41d532c3",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Een .cube-bestand slaat een lookuptabel op: een set numerieke toewijzingen om kleur te wijzigen. Het kan een technische cameraconversie of een creatieve look beschrijven. Alleen de bestandsnaam vertelt je niet welke het is, of welk opnameprofiel het verwacht."
+      "html": "Een .cube-bestand slaat een lookuptabel op: een set numerieke toewijzingen die worden gebruikt om kleur te veranderen. Het kan een technische cameraconversie of een creatieve look beschrijven. De bestandsnaam alleen vertelt je niet welke het is, of welk opnameprofiel het verwacht."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Het .cube-formaat is platte tekst. Headers beschrijven de tabel en het invoerbereik, gevolgd door rijen kleurwaarden. Een bestandsextensie is geen compatibiliteitsgarantie: editors kunnen verschillende tabelgroottes, headervarianten en combinaties van tabellen ondersteunen."
+      "html": "Het .cube-formaat is platte tekst. Kopteksten beschrijven de tabel en het invoerbereik, gevolgd door rijen kleurwaarden. Een bestandsextensie is geen compatibiliteitsgarantie: editors kunnen verschillende tabelgroottes, koptekstvarianten en combinaties van tabellen ondersteunen."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Wat het getal voor de grootte betekent"
+      "html": "Wat het groottegetal betekent"
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor een 3D-tabel geeft LUT_3D_SIZE de lengte van één zijde aan. Een 17-puntscube bevat 17 × 17 × 17 = 4.913 entries; een 33-puntscube bevat 35.937; een 65-puntscube bevat 274.625. Deze getallen beschrijven het bemonsteringsraster, niet de videoresolutie."
+      "html": "Voor een 3D-tabel geeft LUT_3D_SIZE de lengte van één zijde aan. Een 17-puntscube bevat 17 × 17 × 17 = 4.913 invoeren; een 33-puntscube bevat 35.937; een 65-puntscube bevat 274.625. Deze getallen beschrijven het bemonsteringsraster, niet de videoresolutie."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Een grotere tabel heeft meer entries nodig, maar is niet automatisch een betere look. De bestandsgrootte hangt ook af van de precisie en opmaak van de tekst. Kies een bestand dat door je editor wordt ondersteund en passend is voor het bronprofiel; kies niet alleen op het grootste getal."
+      "html": "Een grotere tabel heeft meer invoeren nodig, maar het is niet automatisch een betere look. De bestandsgrootte hangt ook af van de precisie en opmaak van de tekst. Kies een bestand dat wordt ondersteund door je editor en passend is voor het bronprofiel; kies niet alleen op basis van het grootste getal."
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Apple's LUT-documentatie</a> legt het onderscheid uit tussen camera-LUT's en aangepaste creatieve effecten. De Final Cut Pro-bedieningselementen zijn gescheiden van ReelClip's interface."
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\" rel=\"noreferrer\" target=\"_blank\">Apple’s LUT-documentatie</a> legt het onderscheid uit tussen camera-LUTs en aangepaste creatieve effecten. De Final Cut Pro-bedieningselementen zijn gescheiden van ReelClip’s interface."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Pak het downloadbestand uit als het een ZIP is en sla het .cube-bestand op een toegankelijke locatie op in Bestanden.</li><li>Importeer je video in ReelClip. Open Adjust &amp; Style, kies LUTs, en gebruik vervolgens Import LUT.</li><li>Selecteer de look en vergelijk de voorvertoning met het origineel. Volg de instructies van de bestandsaanbieder voor een technische conversie; pas een creatieve look aan op je beeldmateriaal.</li><li>Bekijk een kort gerenderd fragment voordat je de look op een heel project toepast. Video opslaan vereist Creator.</li>"
+      "html": "<li>Pak het downloadbestand uit als het een ZIP is en sla het .cube-bestand op een toegankelijke locatie op vanuit Files.</li><li>Importeer je video in ReelClip. Open Adjust &amp; Style, kies LUTs, en gebruik vervolgens Import LUT.</li><li>Selecteer de look en vergelijk de voorvertoning met het origineel. Volg de instructies van de bestandsprovider voor een technische conversie; pas een creatieve look aan op je beeldmateriaal.</li><li>Bekijk een kort gerenderd fragment voordat je de look op een heel project toepast. Het opslaan van de video op je iPhone vereist Creator-modus.</li>"
     },
     {
       "kind": "html",
@@ -129,7 +129,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Controleer dat je het uitgepakte .cube-bestand hebt geselecteerd, dat de download is voltooid, en dat de aanbieder je editor ondersteunt. Een gecombineerde shaper/3D-tabel of een niet-ondersteunde grootte vereist mogelijk een aparte compatibele export. Bewaar de originele download in plaats van numerieke rijen te bewerken om een bestand te forceren te laden."
+      "html": "Controleer dat je het uitgepakte .cube-bestand hebt geselecteerd, dat de download is voltooid, en dat de provider je editor ondersteunt. Een gecombineerde shaper/3D-tabel of een niet-ondersteunde grootte kan een aparte compatibele export vereisen. Bewaar de originele download in plaats van numerieke rijen te bewerken om een bestand geforceerd te laden."
     },
     {
       "kind": "html",
@@ -137,7 +137,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor bronnen om te verkennen, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/best-free-luts-2026\">gratis LUT-bronnen</a>. Begin met een kleine set geschikte bestanden en test deze op je eigen opnames."
+      "html": "Voor bronnen om te verkennen, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/best-free-luts-2026\">gratis LUT-resources</a>. Begin met een kleine set geschikte bestanden en test deze op je eigen opnames."
     },
     {
       "kind": "cta"

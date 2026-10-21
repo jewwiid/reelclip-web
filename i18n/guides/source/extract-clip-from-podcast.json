@@ -3,11 +3,11 @@
   "title": "How to extract highlights from a podcast on iPhone",
   "description": "Use the transcript to find and review spoken moments from a podcast video, check captions, and prepare clips for export on iPhone.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Use case",
   "primaryKeyword": "how to clip podcast highlights",
   "readMinutes": 4,
-  "sourceFingerprint": "7e0aebe6d876f222ae5cdb5c7043cac8064702026caf06dc725e5c218368e20b",
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -92,7 +92,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Choose Review and inspect the prepared output, then save to Photos. Export requires Creator. Check the saved file and its framing before uploading it to your chosen platform. Transcription and rendering time depend on the recording and device; there is no fixed processing time or guaranteed number of useful highlights."
+      "html": "Choose Review and inspect the prepared output, then save to Photos. Saving to Photos or exporting a finished video requires Creator mode. Check the saved file and its framing before uploading it to your chosen platform. Transcription and rendering time depend on the recording and device; there is no fixed processing time or guaranteed number of useful highlights."
     },
     {
       "kind": "html",

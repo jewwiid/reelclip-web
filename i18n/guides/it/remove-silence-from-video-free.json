@@ -1,13 +1,13 @@
 {
   "slug": "remove-silence-from-video-free",
   "title": "Come rimurre i silenzi da un video su iPhone",
-  "description": "Usa i controlli delle pause della Trascrizione di ReelClip, rivedi i tempi e controlla il video modificato. Anteprima prima dell'esportazione; il salvataggio richiede Creator.",
+  "description": "Usa i controlli delle pause in modalità Transcript di ReelClip, rivedi la temporizzazione e controlla il video modificato. Anteprima prima dell'esportazione; il salvataggio del video finito sull'iPhone richiede la modalità Creator.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "remove silence from video iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "64763fe44f4cca427135d38312396cb2ec5a4c8748045f6e5886b095fb3f471e",
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
   "schemaVersion": 1,
   "locale": "it",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "I silenzi prolungati possono rendere un video parlato lento. La modalità Trascrizione di ReelClip ti permette di rimuovere le pause e rivedere il video risultante sul tuo iPhone. Visualizza l'anteprima della modifica prima di decidere se esportare; il salvataggio del risultato richiede Creator."
+      "html": "I lunghi vuoti possono far sembrare lento un video parlato. La modalità Transcript di ReelClip ti permette di rimuovere le pause e rivedere il video risultante sul tuo iPhone. Anteprima della modifica prima di decidere se esportare; il salvataggio dell'output richiede la modalità Creator."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Importa il tuo video e scegli Trascrizione. Attendi il completamento della trascrizione.</li><li>Apri Audio, poi trova Cleanup e attiva Remove pauses.</li><li>Espandi Cut timing per ispezionare la soglia di pausa e lo spazio lasciato attorno al parlato.</li><li>Tocca di nuovo Audio per chiudere il suo pannello e controllare le pause nella trascrizione.</li><li>Scegli Review video per preparare e riprodurre il risultato modificato.</li>"
+      "html": "<li>Importa il tuo video e scegli Transcript. Attendi che la trascrizione sia completata.</li><li>Apri Audio, poi trova Cleanup e attiva Remove pauses.</li><li>Espandi Cut timing per ispezionare la soglia di pausa e lo spazio lasciato attorno al parlato.</li><li>Tocca di nuovo Audio per chiudere il suo pannello e controllare le pause nella trascrizione.</li><li>Scegli Review video per preparare e riprodurre il risultato modificato.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Nell'esempio registrato, Cut pauses longer than è impostato su 0,35s. Questo è un esempio, non un'impostazione necessaria per ogni registrazione. Una soglia più bassa rimuove silenzi più brevi; lascia abbastanza spazio per il parlato naturale e per le pause che portano significato."
+      "html": "Nell'esempio registrato, Cut pause più lunghe di è impostato su 0,35s. Questo è un esempio, non un'impostazione necessaria per ogni registrazione. Una soglia più bassa rimuove vuoti più brevi; lascia abbastanza spazio per il parlato naturale e per eventuali pause che portano significato."
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Green Auto keep lascia una pausa nel montaggio. Red Auto remove o Remove la contrassegna per la rimozione. Controlla l'etichetta sulla pausa lunga stessa prima di rivedere il risultato; il pulsante play serve solo per ascoltare quel silenzio."
+      "html": "Auto keep verde lascia una pausa nella modifica. Auto remove rosso o Remove la contrassegna per la rimozione. Controlla l'etichetta sulla pausa lunga stessa prima di rivedere l'output; il pulsante play serve solo per ascoltare quel vuoto."
     },
     {
       "kind": "html",
@@ -69,7 +69,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Per rimuovere tu stesso un silenzio, apri il suo menu Azione pausa e scegli Remove pause. Controlla di nuovo il marcatore di rimozione prima di scegliere Review video."
+      "html": "Per rimuovere un vuoto da solo, apri il suo menu azione Pause e scegli Remove pause. Controlla di nuovo il marcatore di rimozione prima di scegliere Review video."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Usa le cuffie o l'altoparlante per controllare l'inizio e la fine di ogni frase. Se un respiro o la fine di una parola sembrano tagliati, regola la durata e controlla di nuovo. Verifica anche la trascrizione; gli errori di riconoscimento possono far comportare un taglio in modo diverso da quanto ti aspetti."
+      "html": "Usa le cuffie o l'altoparlante per controllare l'inizio e la fine di ogni frase. Se un respiro o la fine di una parola sembrano tagliati, regola la tempistica e controlla di nuovo. Verifica anche la trascrizione; gli errori di riconoscimento possono far comportare un taglio in modo diverso da quanto ti aspetti."
     },
     {
       "kind": "html",
@@ -109,7 +109,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Dopo aver controllato il risultato, usa Salva in Foto e attendi il completamento. La registrazione originale rimane intatta. Se ti servono file di sottotitoli, esamina separatamente le opzioni di esportazione della trascrizione invece di presumere che il salvataggio di un video crei anche un file SRT o VTT."
+      "html": "Dopo aver controllato il risultato, usa Save to Photos e attendi il completamento. La registrazione originale rimane intatta. Se ti servono file di sottotitoli, esamina separatamente le opzioni di esportazione della trascrizione invece di presumere che il salvataggio di un video crei anche un file SRT o VTT."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Per selezionare un momento specifico del parlato, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/extract-clip-from-podcast\">la guida al ritaglio di podcast</a>. Per clip a intervalli regolari, usa <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">Taglia</a>."
+      "html": "Per selezionare un momento parlato specifico, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/extract-clip-from-podcast\">la guida al ritaglio di podcast</a>. Per clip a intervalli regolari, usa <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
     },
     {
       "kind": "cta"

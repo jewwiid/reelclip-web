@@ -3,11 +3,11 @@
   "title": "What is a .cube LUT file? Format, table sizes and iPhone import",
   "description": "Understand 1D and 3D lookup tables, what 17, 33 and 65 mean, and how to test a .cube file in ReelClip without confusing a creative look with a camera conversion.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "what is a .cube lut file",
   "readMinutes": 4,
-  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "sourceFingerprint": "57aa682fc49a2fdd1adfcc547e03b87ca20cd886b72c6fe390a8c8af41d532c3",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -104,7 +104,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Extract the download if it is a ZIP and save the .cube file somewhere accessible from Files.</li><li>Import your video in ReelClip. Open Adjust &amp; Style, choose LUTs, then use Import LUT.</li><li>Select the look and compare its preview with the original. Follow the file provider’s instructions for a technical conversion; adjust a creative look to suit your footage.</li><li>Review a short rendered sample before applying the look across a project. Saving video requires Creator.</li>"
+      "html": "<li>Extract the download if it is a ZIP and save the .cube file somewhere accessible from Files.</li><li>Import your video in ReelClip. Open Adjust &amp; Style, choose LUTs, then use Import LUT.</li><li>Select the look and compare its preview with the original. Follow the file provider’s instructions for a technical conversion; adjust a creative look to suit your footage.</li><li>Review a short rendered sample before applying the look across a project. Saving the video to your iPhone requires Creator mode.</li>"
     },
     {
       "kind": "html",

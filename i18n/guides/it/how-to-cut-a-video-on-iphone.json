@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "Come tagliare un video su iPhone: ritagliarlo o dividerlo in clip",
   "description": "Impara a ritagliare un video con Foto, dividerlo in un punto scelto con iMovie, o usa ReelClip per selezionare e rivedere più clip.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "come tagliare un video su iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "it",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Questa guida mostra una ricetta Cut con clip uguali e un'anteprima. Non mostra un salvataggio completato in Foto. ReelClip è gratuito per importare e visualizzare l'anteprima; il salvataggio o l'esportazione richiedono Creator. L'app prepara i file video ma non li pubblica su TikTok, Instagram o YouTube. Per un flusso di lavoro social più lungo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">come preparare clip da un video lungo per TikTok</a>, o leggi la<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/video-length-social-media-reach\">guida per dividere una registrazione in clip uguali</a>."
+      "html": "Questa guida mostra una ricetta di Cut a clip uguali e un'anteprima. Non mostra un salvataggio completato su Foto. ReelClip è gratuito per importare e visualizzare l'anteprima; il salvataggio o l'esportazione del lavoro richiede la modalità Creator. L'app prepara i file video ma non li pubblica su TikTok, Instagram o YouTube. Per un flusso di lavoro social più lungo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">come preparare clip da un video lungo per TikTok</a>, o leggi la<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/video-length-social-media-reach\">guida per dividere una registrazione in clip uguali</a>."
     },
     {
       "kind": "html",

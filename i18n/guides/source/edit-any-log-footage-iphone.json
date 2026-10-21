@@ -3,11 +3,11 @@
   "title": "How to edit log footage on iPhone: camera conversion and creative LUTs",
   "description": "Choose the correct camera profile, import a matching conversion LUT, and add a creative look in ReelClip. Learn what to check before exporting log footage.",
   "publishedAt": "2026-10-20",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Use case",
   "primaryKeyword": "edit log footage on iphone",
   "readMinutes": 5,
-  "sourceFingerprint": "06c1c09f49209cd1d56211dced514a5598730100a21e51d77319301ec75bf9f6",
+  "sourceFingerprint": "1640b83821683436e06817d7a4347457556a732e0f581c22af027ba289a6c990",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -72,7 +72,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Import your clip.</strong> Use the original recording where possible and confirm its recording profile and gamut.</li><li><strong>Choose the source profile.</strong> In the color controls, check the detected profile or select the matching log option.</li><li><strong>Import the camera transform.</strong> Choose a .cube conversion that matches the camera, recording curve and gamut. Check its documentation for the expected output color space. A log profile marked “LUT needed” still needs this file.</li><li><strong>Add a creative LUT.</strong> Select a look intended for the converted image. The universal creative packs expect normalized sRGB/Rec.709 input. Use the strength control to adjust the creative effect.</li><li><strong>Review, then export.</strong> Check skin tones, bright skies and shadow detail. Editing and preview are available free; saving the finished video requires Creator.</li>"
+      "html": "<li><strong>Import your clip.</strong> Use the original recording where possible and confirm its recording profile and gamut.</li><li><strong>Choose the source profile.</strong> In the color controls, check the detected profile or select the matching log option.</li><li><strong>Import the camera transform.</strong> Choose a .cube conversion that matches the camera, recording curve and gamut. Check its documentation for the expected output color space. A log profile marked “LUT needed” still needs this file.</li><li><strong>Add a creative LUT.</strong> Select a look intended for the converted image. The universal creative packs expect normalized sRGB/Rec.709 input. Use the strength control to adjust the creative effect.</li><li><strong>Review, then export.</strong> Check skin tones, bright skies and shadow detail. Editing and preview are available free; saving the finished video requires Creator mode.</li>"
     },
     {
       "kind": "html",
@@ -187,7 +187,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Color preview and rendering run on-device. You can import, edit and preview before upgrading. Video export requires Creator, available as a one-time purchase or a monthly plan."
+      "html": "Color preview and rendering run on-device. You can import, edit and preview before unlocking Creator mode. Saving or exporting a finished video requires Creator mode, available through a one-time purchase or monthly billing."
     },
     {
       "kind": "cta"

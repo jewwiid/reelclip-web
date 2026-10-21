@@ -1,13 +1,13 @@
 {
   "slug": "dji-osmo-pocket-3-luts",
-  "title": "LUTs DJI Osmo Pocket 3 : le téléchargement officiel et le workflow iPhone",
+  "title": "DJI Osmo Pocket 3 LUTs : le téléchargement officiel et le workflow iPhone",
   "description": "Trouvez le LUT officiel DJI Pocket 3 D-Log M vers Rec.709, identifiez votre mode d'enregistrement et testez un fichier .cube correspondant sur iPhone.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Récapitulatif",
   "primaryKeyword": "dji osmo pocket 3 luts",
   "readMinutes": 4,
-  "sourceFingerprint": "9ca789cd5a57ffc24688c4c6cd0957375713a2d09ee710944fa3b8bc7c2d7ee7",
+  "sourceFingerprint": "48818f74b3281027429344da7002752e9e645d3df6344cecb006ee6403ba5c03",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Si vous avez enregistré votre vidéo Osmo Pocket 3 en D-Log M, commencez par la conversion DJI pour cet appareil et ce profil. Si vous avez enregistré en Normal ou HLG, choisissez plutôt un workflow pour ce mode. Un rendu plat à l'écran ne suffit pas à identifier le format d'enregistrement."
+      "html": "Si vous avez enregistré votre vidéo Osmo Pocket 3 en D-Log M, commencez par la conversion DJI pour cet appareil et ce profil. Si vous avez enregistré en Normal ou HLG, choisissez plutôt un workflow pour ce mode. Un rendu plat à lui seul ne suffit pas pour identifier le format d'enregistrement."
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "La conversion et les looks créatifs ont des objectifs différents"
+      "html": "La conversion et les looks créatifs servent des objectifs différents"
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Conservez le fichier caméra original et une note du mode d'enregistrement. Transférez-le vers un emplacement accessible par votre iPhone.</li><li>Extrayez le fichier .cube téléchargé si nécessaire et rendez-le disponible dans Fichiers.</li><li>Dans ReelClip, ouvrez votre clip et utilisez Adjust & Style → LUTs → Import LUT. Sélectionnez le fichier importé et examinez l'aperçu.</li><li>Pour une conversion technique, suivez les exigences d'entrée du fournisseur. Vérifiez la peau, les hautes lumières et les couleurs saturées sur plusieurs parties de l'enregistrement.</li><li>Examinez un court échantillon enregistré avant d'étalonner l'ensemble du projet. L'enregistrement vidéo nécessite Creator.</li>"
+      "html": "<li>Conservez le fichier caméra original et une note du mode d'enregistrement. Transférez-le vers un emplacement accessible par votre iPhone.</li><li>Extrayez le fichier .cube téléchargé si nécessaire et rendez-le disponible dans Files.</li><li>Dans ReelClip, ouvrez votre clip et utilisez Adjust & Style → LUTs → Import LUT. Sélectionnez le fichier importé et inspectez l'aperçu.</li><li>Pour une conversion technique, suivez les exigences d'entrée du fournisseur. Vérifiez la peau, les hautes lumières et les couleurs saturées sur plusieurs parties de l'enregistrement.</li><li>Examinez un court échantillon enregistré avant d'étalonner l'ensemble du projet. L'enregistrement de la vidéo sur votre iPhone nécessite le mode Creator.</li>"
     },
     {
       "kind": "html",
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Notre <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-apply-lut-on-iphone\">guide d'importation</a> démontre les contrôles avec un look créatif. Il n'établit pas de support de conversion calibrée pour chaque fichier DJI ni ne garantit qu'un export final correspondra à un autre éditeur."
+      "html": "Notre <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-apply-lut-on-iphone\">guide d'importation</a> démontre les contrôles avec un look créatif. Il n'établit pas de support de conversion calibrée pour chaque fichier DJI ni ne garantit qu'un export final corresponde à un autre éditeur."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Conservez les instructions de l'auteur et la licence avec chaque téléchargement. Une collection créative gratuite n'est pas nécessairement spécifique à la Pocket 3. Le <a class=\"text-accent hover:underline\" href=\"/fr/blog/best-free-luts-2026\">guide des LUT gratuites</a> relie les ressources officielles et explique comment choisir selon l'entrée attendue."
+      "html": "Conservez les instructions de l'auteur et la licence avec chaque téléchargement. Une collection créative gratuite n'est pas nécessairement spécifique au Pocket 3. Le <a class=\"text-accent hover:underline\" href=\"/fr/blog/best-free-luts-2026\">guide des LUT gratuits</a> répertorie les ressources officielles et explique comment choisir selon l'entrée attendue."
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Pour des images d'un autre modèle Pocket, consultez <a class=\"text-accent hover:underline\" href=\"/fr/blog/dji-osmo-pocket-color-grading\">la correspondance du profil d'enregistrement Pocket</a>. Pour le découpage et les sous-titres après le travail de couleur, utilisez le <a class=\"text-accent hover:underline\" href=\"/fr/blog/edit-dji-osmo-footage-iphone\">flux de montage DJI</a>."
+      "html": "Pour des rushes d'un modèle Pocket différent, consultez <a class=\"text-accent hover:underline\" href=\"/fr/blog/dji-osmo-pocket-color-grading\">la correspondance du profil d'enregistrement Pocket</a>. Pour le découpage et les sous-titres après le travail de couleur, utilisez le <a class=\"text-accent hover:underline\" href=\"/fr/blog/edit-dji-osmo-footage-iphone\">flux de montage DJI</a>."
     },
     {
       "kind": "cta"

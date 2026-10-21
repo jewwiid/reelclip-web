@@ -2,14 +2,14 @@
   "slug": "how-to-cut-a-video-on-iphone",
   "title": "iPhone पर वीडियो कैसे काटें: इसे ट्रिम करें या क्लिप में विभाजित करें",
   "description": "Photos के साथ एक वीडियो को ट्रिम करना, iMovie के साथ चुने हुए बिंदु पर विभाजित करना, या ReelClip का उपयोग करके कई क्लिप चुनना और उनकी समीक्षा करना सीखें।",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "कैसे करें",
   "primaryKeyword": "how to cut a video on iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "6b88082a2b2afa14804034a9e58896bb51da70baac00aebc1a1c320f119b3472",
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
   "schemaVersion": 1,
   "locale": "hi",
-  "updatedAt": "2026-10-21",
   "blocks": [
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "यह वॉकथ्रू एक बराबर-क्लिप Cut रेसिपी और पूर्वावलोकन दिखाता है। यह Photos में सेव करने की पूर्ण प्रक्रिया नहीं दिखाता। ReelClip में इंपोर्ट और पूर्वावलोकन करना मुफ्त है; सेविंग या एक्सपोर्टिंग के लिए Creator की आवश्यकता होती है। ऐप वीडियो फाइल तैयार करता है लेकिन उन्हें TikTok, Instagram या YouTube पर पोस्ट नहीं करता। लंबे सोशल वर्कफ्लो के लिए, <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">लंबे वीडियो से TikTok के लिए क्लिप्स तैयार करने का तरीका</a> देखें, या <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/video-length-social-media-reach\">रिकॉर्डिंग को बराबर क्लिप्स में विभाजित करने की गाइड</a> पढ़ें।"
+      "html": "यह वॉकथ्रू एक समान-क्लिप Cut रेसिपी और पूर्वावलोकन दिखाता है। यह Photos में सेव की गई पूर्ण प्रक्रिया नहीं दिखाता है। ReelClip को आयात और पूर्वावलोकन के लिए मुफ्त में इस्तेमाल किया जा सकता है; अपने काम को सेव या एक्सपोर्ट करने के लिए Creator मोड की आवश्यकता होती है। ऐप वीडियो फाइलों को तैयार करता है लेकिन उन्हें TikTok, Instagram या YouTube पर पोस्ट नहीं करता। सोशल वर्कफ्लो के लिए अधिक जानकारी के लिए, <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">लंबे वीडियो से क्लिप तैयार करने का तरीका</a> देखें, या <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/video-length-social-media-reach\">रिकॉर्डिंग को समान क्लिप में विभाजित करने की गाइड</a> पढ़ें।"
     },
     {
       "kind": "html",

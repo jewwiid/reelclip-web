@@ -2,11 +2,12 @@
   "slug": "gta6-clips-iphone",
   "title": "GTA 6 clips on iPhone: a rights-aware launch workflow",
   "description": "Plan a GTA VI clip workflow for Shorts, TikTok and Reels: capture your own gameplay or get streamer approval, transfer the file to iPhone, then edit it in ReelClip.",
+  "updatedAt": "2026-10-21",
   "publishedAt": "2026-10-21",
   "category": "How-to",
   "primaryKeyword": "GTA 6 clips",
   "readMinutes": 6,
-  "sourceFingerprint": "7bfe8fdd0ddd3eccb04aca670edc46c5f1f376bf5eea33c766eec7590fdf255d",
+  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -63,7 +64,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Transfer your own capture or approved source file to Photos or Files. Keep the original recording in case the clip needs another edit or the campaign asks for a different version.</li><li>Import the video into ReelClip. Use <strong>Slice</strong> to select one memorable moment from a longer VOD. Use<!-- --> <strong>Cut</strong> to split a recording into planned clips by count, duration and spacing. Cut does not detect the best GTA moments automatically.</li><li>If the moment depends on spoken commentary, open<!-- --> <strong>Transcript</strong>, find the passage and check the words and timing against playback. Keep the setup and payoff together so the clip makes sense without the full stream.</li><li>Check the first and last frame, game audio, voice chat, subtitles and picture framing. A 9:16 export is a separate framing decision; a shorter time selection does not crop a landscape capture.</li><li>Review the prepared output, export the approved clips and upload them yourself to the platform named in the campaign brief. ReelClip can import and edit a video file; it cannot record the console, fetch a stream or publish the clip for you. Export requires Creator.</li>"
+      "html": "<li>Transfer your own capture or approved source file to Photos or Files. Keep the original recording in case the clip needs another edit or the campaign asks for a different version.</li><li>Import the video into ReelClip. Use <strong>Slice</strong> to select one memorable moment from a longer VOD. Use<!-- --> <strong>Cut</strong> to split a recording into planned clips by count, duration and spacing. Cut does not detect the best GTA moments automatically.</li><li>If the moment depends on spoken commentary, open<!-- --> <strong>Transcript</strong>, find the passage and check the words and timing against playback. Keep the setup and payoff together so the clip makes sense without the full stream.</li><li>Check the first and last frame, game audio, voice chat, subtitles and picture framing. A 9:16 export is a separate framing decision; a shorter time selection does not crop a landscape capture.</li><li>Review the prepared output, export the approved clips and upload them yourself to the platform named in the campaign brief. ReelClip can import and edit a video file; it cannot record the console, fetch a stream or publish the clip for you. Saving or exporting the finished video requires Creator mode.</li>"
     },
     {
       "kind": "html",

@@ -3,11 +3,11 @@
   "title": "DJI Osmo Pocket color grading op iPhone: kies het juiste opnameprofiel",
   "description": "Onderscheid D-Cinelike, D-Log M en andere Pocket-profielen, kies een passende conversie en bekijk creatieve kleurwijzigingen op je iPhone.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Toepassing",
   "primaryKeyword": "dji osmo pocket color grading",
   "readMinutes": 4,
-  "sourceFingerprint": "40842a7435a08ec30100ef78d30833c2c6094e1483b8bb9358150e8bf9a58666",
+  "sourceFingerprint": "d7ff3ee8d885e7802fe69fa7be3b145cb384d02595e4aacd52c23376b566367c",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Color grading van Pocket-beelden begint met de opnamemodus, niet alleen met het generatienummer. Bepaal hoe de bron geïnterpreteerd moet worden voordat je een creatieve look toevoegt. Een opname die al een afgewerkte Normal-uitstraling heeft, heeft geen Log-conversie nodig alleen omdat deze van een DJI-camera afkomstig is."
+      "html": "Color grading van Pocket-beeldmateriaal begint met de opnamemodus, niet alleen met het generatienummer. Bepaal hoe de bron geïnterpreteerd moet worden voordat je een creatieve look toevoegt. Een opname die al een afgewerkte Normal-uitstraling heeft, heeft geen Log-conversie nodig alleen omdat deze van een DJI-camera afkomstig is."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI's profiel- en LUT-referentie</a> vermeldt de originele Osmo Pocket en Pocket 2 met D-Cinelike, Pocket 3 met D-Log M, en Pocket 4 met D-Log. Behandel varianten apart en verificeer het huidige item voor je camera; deze labels zijn niet uitwisselbaar."
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI's profiel- en LUT-referentie</a> vermeldt de originele Osmo Pocket en Pocket 2 met D-Cinelike, Pocket 3 met D-Log M, en Pocket 4 met D-Log. Behandel varianten afzonderlijk en verifieer de huidige vermelding voor je camera; deze labels zijn niet uitwisselbaar."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Gebruik de instellingen van de originele opname, ondersteunde metadata en de cameradocumentatie samen. Een beeld dat er plat uitziet, is geen bewijs van zijn curve of gamut. Een kopie die via een andere bewerkingsapp is opgeslagen, kan al getransformeerd zijn."
+      "html": "Gebruik de instellingen van de originele opname, ondersteunde metadata en de cameradocumentatie samen. Een beeld dat er flat uitziet, is geen bewijs van zijn curve of gamut. Een kopie die via een andere bewerkingsapp is opgeslagen, kan al getransformeerd zijn."
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor Log-materiaal kies je een conversie die bedoeld is voor de camera en het profiel. Raadpleeg <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI's officiële bronnen</a> en de instructies van het geselecteerde bestand. Als je editor de bron al correct converteert, voeg je de conversie geen tweede keer toe."
+      "html": "Voor Log-materiaal, kies een conversie die bedoeld is voor de camera en het profiel. Raadpleeg <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI's officiële bronnen</a> en de instructies van het geselecteerde bestand. Als je editor de bron al correct converteert, voeg dan de conversie niet een tweede keer toe."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor D-Cinelike-, Normal- of HDR-materiaal volg je een workflow die expliciet ondersteuning biedt voor die modus. Kies geen D-Log M-bestand alleen omdat het beeld er contrastrijker door lijkt. Technische correctheid en een gewenste creatieve uitstraling zijn afzonderlijke beslissingen."
+      "html": "Voor D-Cinelike, Normal of HDR-materiaal, volg je een workflow die expliciet die modus ondersteunt. Kies niet zomaar een D-Log M-bestand omdat het beeld er contrastrijker door lijkt. Technische correctheid en een gewenste creatieve uitstraling zijn afzonderlijke beslissingen."
     },
     {
       "kind": "html",
@@ -81,7 +81,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Bewaar de originele opname en importeer de clip die je wilt bewerken.</li><li>Sla je compatibele .cube-bestand op in Bestanden. Open in ReelClip Aanpassen & Stijl → LUTs → Importeer LUT.</li><li>Selecteer de look en vergelijk de voorvertoning met het origineel. Volg de verwachte invoervereisten.</li><li>Pas de creatieve sterkte aan om bij de shot te passen. Controleer gezichten, lichte gebieden en donkere details terwijl de clip afspeelt.</li><li>Bekijk het gerenderde resultaat en een opgeslagen voorbeeld voordat je de instellingen op een hele project toepast. Video opslaan vereist Creator.</li>"
+      "html": "<li>Bewaar de originele opname en importeer de clip die je wilt bewerken.</li><li>Sla je compatibele .cube-bestand op in Files. Open in ReelClip Adjust & Style → LUTs → Import LUT.</li><li>Selecteer de look en vergelijk de voorvertoning met het origineel. Volg de verwachte invoervereisten.</li><li>Pas de creatieve intensiteit aan op basis van de opname. Controleer gezichten, lichte gebieden en donkere details terwijl de clip afspeelt.</li><li>Bekijk het gerenderde resultaat en een opgeslagen voorbeeld voordat je de instellingen over een hele project toepast. Het opslaan van de video op je iPhone vereist Creator-modus.</li>"
     },
     {
       "kind": "html",
@@ -113,7 +113,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voor de model-specifieke download, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-3-luts\">LUTs voor de Pocket 3</a>. Om je afgeronde momenten voor te bereiden op een post, ga verder met <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-dji-osmo-footage-iphone\">DJI-footage bewerken op iPhone</a>."
+      "html": "Voor de model-specifieke download, zie <a class=\"text-accent hover:underline\" href=\"/nl/blog/dji-osmo-pocket-3-luts\">LUT's voor Pocket 3</a>. Om je afgeronde momenten voor te bereiden op een post, ga verder met <a class=\"text-accent hover:underline\" href=\"/nl/blog/edit-dji-osmo-footage-iphone\">DJI-footage bewerken op iPhone</a>."
     },
     {
       "kind": "cta"

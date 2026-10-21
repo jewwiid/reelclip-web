@@ -1,13 +1,13 @@
 {
   "slug": "cube-lut-explained",
   "title": "Qu'est-ce qu'un fichier LUT .cube ? Format, tailles de table et import sur iPhone",
-  "description": "Comprenez les tables de correspondance 1D et 3D, ce que signifient 17, 33 et 65, et comment tester un fichier .cube dans ReelClip sans confondre un look créatif avec une conversion caméra.",
+  "description": "Comprendre les tables de correspondance 1D et 3D, ce que signifient 17, 33 et 65, et comment tester un fichier .cube dans ReelClip sans confondre un look créatif avec une conversion caméra.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutoriel",
   "primaryKeyword": "qu'est-ce qu'un fichier lut .cube",
   "readMinutes": 4,
-  "sourceFingerprint": "8ca66e0535f212d9ea45f758fe6e4f8de481c7792ea470152181ebd53645d958",
+  "sourceFingerprint": "57aa682fc49a2fdd1adfcc547e03b87ca20cd886b72c6fe390a8c8af41d532c3",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Un fichier .cube stocke une table de correspondance : un ensemble de mappages numériques utilisés pour modifier les couleurs. Il peut décrire une conversion technique de caméra ou un look créatif. Le seul nom de fichier ne vous indique pas lequel c'est, ni quel profil d'enregistrement il attend."
+      "html": "Un fichier .cube stocke une table de correspondance : un ensemble de mappages numériques utilisés pour modifier la couleur. Il peut décrire une conversion technique de caméra ou un look créatif. Le seul nom de fichier ne vous dit pas lequel c'est, ni quel profil d'enregistrement il attend."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Une LUT 1D mappe chaque canal de couleur indépendamment. Une LUT 3D mappe les combinaisons de rouge, vert et bleu, donc un canal de sortie peut dépendre de plusieurs canaux d'entrée. Aucun des deux types ne répare une mise au point manquée, ne supprime le bruit ni ne restaure les détails écrêtés lors de l'enregistrement."
+      "html": "Une LUT 1D mappe chaque canal de couleur indépendamment. Une LUT 3D mappe les combinaisons de rouge, de vert et de bleu, donc un canal de sortie peut dépendre de plus d'un canal d'entrée. Aucun des deux types ne répare la mise au point manquée, ne supprime le bruit ni ne restaure les détails écrêtés lors de l'enregistrement."
     },
     {
       "kind": "html",
@@ -41,7 +41,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Le format .cube est un texte brut. Les en-têtes décrivent la table et sa plage d'entrée, suivies de lignes de valeurs de couleur. Une extension de fichier n'est pas une garantie de compatibilité : les éditeurs peuvent prendre en charge différentes tailles de table, variantes d'en-tête et combinaisons de tables."
+      "html": "Le format .cube est du texte brut. Les en-têtes décrivent la table et sa plage d'entrée, suivis de lignes de valeurs de couleur. Une extension de fichier n'est pas une garantie de compatibilité : les éditeurs peuvent prendre en charge différentes tailles de table, variantes d'en-tête et combinaisons de tables."
     },
     {
       "kind": "html",
@@ -65,7 +65,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Une table plus grande nécessite plus d'entrées, mais ce n'est pas automatiquement un meilleur look. La taille du fichier dépend aussi de la précision et du formatage de son texte. Choisissez un fichier pris en charge par votre éditeur et adapté au profil source ; ne choisissez pas seulement en fonction du plus grand nombre."
+      "html": "Une table plus grande nécessite plus d'entrées, mais ce n'est pas automatiquement un meilleur look. La taille du fichier dépend aussi de la précision et du formatage de son texte. Choisissez un fichier pris en charge par votre éditeur et approprié pour le profil source ; ne choisissez pas seulement par le plus grand nombre."
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>Extrayez le téléchargement s'il s'agit d'un ZIP et enregistrez le fichier .cube dans un emplacement accessible depuis Fichiers.</li><li>Importez votre vidéo dans ReelClip. Ouvrez Adjust & Style, choisissez LUTs, puis utilisez Import LUT.</li><li>Sélectionnez le look et comparez son aperçu avec l'original. Suivez les instructions du fournisseur de fichiers pour une conversion technique ; ajustez un look créatif pour qu'il convienne à vos images.</li><li>Examinez un court échantillon rendu avant d'appliquer le look sur l'ensemble d'un projet. L'enregistrement de vidéo nécessite Creator.</li>"
+      "html": "<li>Extrayez le téléchargement s'il s'agit d'un ZIP et enregistrez le fichier .cube quelque part accessible depuis Files.</li><li>Importez votre vidéo dans ReelClip. Ouvrez Adjust &amp; Style, choisissez LUTs, puis utilisez Import LUT.</li><li>Sélectionnez le look et comparez son aperçu avec l'original. Suivez les instructions du fournisseur de fichiers pour une conversion technique ; ajustez un look créatif pour l'adapter à vos images.</li><li>Examinez un court échantillon rendu avant d'appliquer le look sur tout un projet. L'enregistrement de la vidéo sur votre iPhone nécessite le mode Creator.</li>"
     },
     {
       "kind": "html",

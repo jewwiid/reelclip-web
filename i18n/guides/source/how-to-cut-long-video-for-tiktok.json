@@ -3,11 +3,11 @@
   "title": "How to cut a long video for TikTok on iPhone",
   "description": "Prepare clips from a long recording with ReelClip’s Cut controls, review the framing and captions, then save the videos you want to upload to TikTok.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "how to cut a long video for tiktok",
   "readMinutes": 5,
-  "sourceFingerprint": "d3365273b55c212a650fa6edeb92c1829ba0c1152d983ad396416c82aced6ef4",
+  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -36,7 +36,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>The long recording already in your Photos library, or in the Files app.</li><li>An iPhone running iOS 17 or later, as listed for the current app release.</li><li><a class=\"text-accent hover:underline\" href=\"/\">ReelClip</a> (free to import and preview, Creator plan to export). AI features have additional hardware and software requirements, including compatible, enabled Apple Intelligence. Check availability on your device.</li>"
+      "html": "<li>The long recording already in your Photos library, or in the Files app.</li><li>An iPhone running iOS 17 or later, as listed for the current app release.</li><li><a class=\"text-accent hover:underline\" href=\"/\">ReelClip</a> (free to import and preview; saving or exporting requires Creator mode). AI features have additional hardware and software requirements, including compatible, enabled Apple Intelligence. Check availability on your device.</li>"
     },
     {
       "kind": "html",
@@ -148,7 +148,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Tap <strong class=\"text-text\">Review</strong> and wait for the clips to finish preparing. Play the outputs, then choose the save action for Photos. Wait for the completion confirmation before leaving the app. Export requires Creator; the originals stay intact."
+      "html": "Tap <strong class=\"text-text\">Review</strong> and wait for the clips to finish preparing. Play the outputs, then choose the save action for Photos. Wait for the completion confirmation before leaving the app. Saving or exporting a finished video requires Creator mode; the originals stay intact."
     },
     {
       "kind": "html",

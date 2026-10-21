@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "Cómo cortar un video largo para TikTok en iPhone",
-  "description": "Prepara clips de una grabación larga con los controles de Cut de ReelClip, revisa el encuadre y los subtítulos, luego guarda los videos que quieras subir a TikTok.",
+  "description": "Prepara clips de una grabación larga con los controles Cut de ReelClip, revisa el encuadre y los subtítulos, luego guarda los videos que quieras subir a TikTok.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Tutorial",
   "primaryKeyword": "cómo cortar un video largo para tiktok",
   "readMinutes": 5,
-  "sourceFingerprint": "d3365273b55c212a650fa6edeb92c1829ba0c1152d983ad396416c82aced6ef4",
+  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
   "schemaVersion": 1,
   "locale": "es",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Tienes un video de 12 minutos hablando a cámara, una grabación de stream o un vlog largo — y quieres sacar de ahí tres o cuatro clips listos para TikTok. Puedes preparar esos clips directamente en tu iPhone, revisar cada momento y guardar los que quieras publicar. El tiempo que toma depende de la grabación, tu dispositivo y cuánto edites."
+      "html": "Tienes un video de 12 minutos tipo talking-head, una grabación de stream o un vlog largo, y quieres sacar de ahí tres o cuatro clips listos para TikTok. Puedes preparar esos clips directamente en tu iPhone, revisar cada momento y guardar los que quieras publicar. El tiempo que toma depende de la grabación, tu dispositivo y cuánto edites."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>La grabación larga ya en tu biblioteca de Fotos, o en la app Archivos.</li><li>Un iPhone con iOS 17 o posterior, según lo indicado para la versión actual de la app.</li><li><a class=\"text-accent hover:underline\" href=\"/es/\">ReelClip</a> (gratis para importar y previsualizar, plan Creator para exportar). Las funciones de AI tienen requisitos adicionales de hardware y software, incluyendo Apple Intelligence compatible y habilitada. Verifica la disponibilidad en tu dispositivo.</li>"
+      "html": "<li>La grabación larga que ya tengas en tu biblioteca de Fotos, o en la app Files.</li><li>Un iPhone con iOS 17 o posterior, según lo indicado para la versión actual de la app.</li><li><a class=\"text-accent hover:underline\" href=\"/es/\">ReelClip</a> (gratis para importar y previsualizar; guardar o exportar requiere el modo Creator). Las funciones de IA tienen requisitos adicionales de hardware y software, incluyendo Apple Intelligence compatible y activado. Verifica la disponibilidad en tu dispositivo.</li>"
     },
     {
       "kind": "html",
@@ -45,7 +45,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "El flujo de trabajo de 7 pasos"
+      "html": "El flujo de trabajo en 7 pasos"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Importa tu grabación desde Fotos o Archivos. ReelClip la copia a su sandbox privada — el archivo original en Fotos permanece intacto, y no se sube nada."
+      "html": "Importa tu grabación desde Fotos o Files. ReelClip la copia a su sandbox privada: el archivo original en Fotos permanece intacto y no se sube nada."
     },
     {
       "kind": "html",
@@ -77,7 +77,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Hay cuatro modos de corte. Elige el que coincida con tu material fuente:"
+      "html": "Hay cuatro modos de corte. Elige el que corresponda a tu material fuente:"
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — divide el video en fragmentos de igual duración. Ideal cuando la grabación tiene segmentos claros (secciones de entrevista, elementos de lista, capítulos).</li><li><strong class=\"text-text\">Transcript</strong> — ejecuta reconocimiento de voz en el dispositivo, encuentra las pausas y te permite recortar los silencios. Ideal para contenido de cámara frontal y podcasts.</li><li><strong class=\"text-text\">Slice</strong> — elige un momento tú mismo, mueve la selección y refina su inicio y fin.</li><li><strong class=\"text-text\">AI</strong> — describe lo que quieres (\"el momento más divertido\", \"la parte donde explico los precios\", \"la frase más citable\") y Apple Intelligence en el dispositivo puede proponerte momentos para que los revises cuando la función esté disponible en tu dispositivo.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — divide el video en fragmentos de duración igual. Funciona bien cuando la grabación tiene segmentos claros (secciones de entrevista, elementos de lista, capítulos).</li><li><strong class=\"text-text\">Transcript</strong> — ejecuta el reconocimiento de voz en el dispositivo, encuentra las pausas y te permite recortar el silencio. Ideal para contenido de cámara en mano y podcasts.</li><li><strong class=\"text-text\">Slice</strong> — elige un momento tú mismo, mueve la selección y refina su inicio y fin.</li><li><strong class=\"text-text\">AI</strong> — describe lo que quieres (\"el momento más divertido\", \"la parte donde explico los precios\", \"la frase más citable\") y Apple Intelligence en el dispositivo puede proponerte momentos para que los revises cuando la función esté disponible en tu dispositivo.</li>"
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Este es el paso que la gente omite, y es el que importa. Toca cada clip planificado, míralo de principio a fin, y decide si conservarlo, recortarlo o rechazarlo. ReelClip nunca exporta automáticamente. Tú decides qué se publica."
+      "html": "Este es el paso que la gente omite, y es el que más importa. Toca cada clip planificado, míralo de principio a fin, y manténlo, recórtalo o recházalo. ReelClip nunca exporta automáticamente. Tú decides qué se publica."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Dale a cada clip una idea completa. Ajusta el inicio, elimina cualquier introducción innecesaria y conserva suficiente contexto para alguien que nunca haya visto la grabación completa. Verifica los límites de subida actuales de TikTok antes de publicar; no existe una duración ideal universal."
+      "html": "Dale a cada clip una idea completa. Ajusta el inicio, elimina cualquier introducción innecesaria y conserva suficiente contexto para alguien que nunca haya visto la grabación completa. Verifica los límites de carga actuales de TikTok antes de publicar; no existe una duración ideal universal para los clips."
     },
     {
       "kind": "html",
@@ -133,7 +133,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Si tu video original es horizontal, tienes dos opciones: exportarlo tal cual o recortarlo para una publicación vertical en tu editor final. Elegir un rango de tiempo y elegir el encuadre de la imagen son decisiones separadas; revisa ambas antes de publicar."
+      "html": "Si tu video de origen es horizontal, tienes dos opciones: exportarlo tal cual o recortarlo para una publicación vertical en tu editor de acabado. Elegir un rango de tiempo y elegir el encuadre de la imagen son decisiones separadas; inspecciona ambas antes de publicar."
     },
     {
       "kind": "html",
@@ -149,7 +149,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Toca <strong class=\"text-text\">Review</strong> y espera a que los clips terminen de prepararse. Reproduce los resultados, luego elige la acción de guardar para Fotos. Espera la confirmación de finalización antes de salir de la app. La exportación requiere Creator; los originales permanecen intactos."
+      "html": "Toca <strong class=\"text-text\">Review</strong> y espera a que los clips terminen de prepararse. Reproduce los resultados, luego elige la acción de guardar para Fotos. Espera la confirmación de finalización antes de salir de la app. Guardar o exportar un video terminado requiere el modo Creator; los originales permanecen intactos."
     },
     {
       "kind": "html",
@@ -181,7 +181,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Omitir la revisión.</strong> El modo IA es bueno pero no perfecto. Siempre mira cada clip de principio a fin antes de exportar.</li><li><strong class=\"text-text\">Subir el archivo original de 12 minutos.</strong> Conserva la fuente, luego elige una versión que se ajuste a la historia y al destino. Un clip más corto no garantiza más vistas.</li><li><strong class=\"text-text\">Sin subtítulos.</strong> Los subtítulos ayudan a las personas a seguir el discurso cuando no pueden escuchar. Revisa su ortografía y sincronización en tu editor final antes de publicar.</li>"
+      "html": "<li><strong class=\"text-text\">Omitir la revisión.</strong> El modo de IA es bueno pero no perfecto. Siempre mira cada clip de principio a fin antes de exportar.</li><li><strong class=\"text-text\">Subir el archivo original de 12 minutos.</strong> Guarda el original, luego elige una versión que se ajuste a la historia y al destino. Un clip más corto no garantiza más vistas.</li><li><strong class=\"text-text\">Sin subtítulos.</strong> Los subtítulos ayudan a la gente a seguir el diálogo cuando no puede escuchar. Revisa su ortografía y sincronización en tu editor final antes de publicar.</li>"
     },
     {
       "kind": "html",

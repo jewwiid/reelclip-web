@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "Hoe knip je een lange video voor TikTok op iPhone",
-  "description": "Bereid clips voor uit een lange opname met de Cut-besturingselementen van ReelClip, controleer de framing en ondertitels, en sla de video's op die je wilt uploaden naar TikTok.",
+  "description": "Bereid clips voor uit een lange opname met de Cut-bediening van ReelClip, controleer de framing en ondertitels, en sla de video's op die je wilt uploaden naar TikTok.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Handleiding",
   "primaryKeyword": "hoe knip je een lange video voor tiktok",
   "readMinutes": 5,
-  "sourceFingerprint": "d3365273b55c212a650fa6edeb92c1829ba0c1152d983ad396416c82aced6ef4",
+  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Je hebt een 12-minuten talking-head-video, een streamopname of een lange vlog — en je wilt er drie of vier TikTok-klare clips uit halen. Je kunt die clips direct op je iPhone voorbereiden, elk moment bekijken, en de clips opslaan die je wilt posten. Hoe lang het duurt, hangt af van de opname, je apparaat en hoeveel je bewerkt."
+      "html": "Je hebt een 12-minuten talking-head video, een stream-opname, of een lange vlog — en je wilt er drie of vier TikTok-klare clips uit halen. Je kunt die clips direct op je iPhone voorbereiden, elk moment controleren, en degenen opslaan die je wilt posten. Hoe lang het duurt, hangt af van de opname, je apparaat, en hoeveel je bewerkt."
     },
     {
       "kind": "tutorial",
@@ -37,7 +37,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li>De lange opname die al in je Foto's-bibliotheek staat, of in de app Bestanden.</li><li>Een iPhone met iOS 17 of later, zoals vermeld voor de huidige app-release.</li><li><a class=\"text-accent hover:underline\" href=\"/nl/\">ReelClip</a> (gratis om te importeren en voor te vertonen, Creator-plan om te exporteren). AI-functies hebben aanvullende hardware- en softwarevereisten, waaronder compatibele, ingeschakelde Apple Intelligence. Controleer de beschikbaarheid op je apparaat.</li>"
+      "html": "<li>De lange opname die al in je Foto's-bibliotheek staat, of in de Files-app.</li><li>Een iPhone met iOS 17 of later, zoals vermeld voor de huidige app-release.</li><li><a class=\"text-accent hover:underline\" href=\"/nl/\">ReelClip</a> (gratis om te importeren en voor te vertonen; opslaan of exporteren vereist Creator-modus). AI-functies hebben aanvullende hardware- en softwarevereisten, waaronder compatibele, ingeschakelde Apple Intelligence. Controleer de beschikbaarheid op je apparaat.</li>"
     },
     {
       "kind": "html",
@@ -61,7 +61,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Importeer je opname uit Foto's of Bestanden. ReelClip kopieert het naar zijn privésandbox — het originele bestand in Foto's blijft onaangeroerd, en er wordt niets geüpload."
+      "html": "Importeer je opname uit Foto's of Files. ReelClip kopieert het naar zijn privé-sandbox — het originele bestand in Foto's blijft onaangeroerd, en er wordt niets geüpload."
     },
     {
       "kind": "html",
@@ -85,7 +85,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — splitst de video in stukken van gelijke duur. Handig wanneer de opname duidelijke segmenten heeft (interviewsecties, lijstitems, hoofdstukken).</li><li><strong class=\"text-text\">Transcript</strong> — voert spraakherkenning uit op het apparaat, vindt de pauzes en laat je de dode lucht trimmen. Handig voor talking-head-content en podcasts.</li><li><strong class=\"text-text\">Slice</strong> — kies zelf een moment, verplaats de selectie en verfijn het begin en einde.</li><li><strong class=\"text-text\">AI</strong> — beschrijf wat je wilt (“het grappigste moment”, “het deel waar ik de prijzen uitleg”, “de meest citaatwaardige zin”) en on-device Apple Intelligence kan momenten voorstellen die je kunt beoordelen wanneer de functie beschikbaar is op je apparaat.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — splitst de video in stukken met gelijke duur. Handig wanneer de opname duidelijke segmenten heeft (interviewsecties, lijstitems, hoofdstukken).</li><li><strong class=\"text-text\">Transcript</strong> — voert spraakherkenning uit op het apparaat, vindt de pauzes en laat je de stiltes inkorten. Handig voor talking-head-content en podcasts.</li><li><strong class=\"text-text\">Slice</strong> — kies zelf een moment, verplaats de selectie en verfijn het begin en einde.</li><li><strong class=\"text-text\">AI</strong> — beschrijf wat je wilt (\"het grappigste moment\", \"het deel waar ik de prijzen uitleg\", \"de meest citaatwaardige zin\") en Apple Intelligence op het apparaat kan momenten voorstellen die je kunt beoordelen wanneer de functie beschikbaar is op je apparaat.</li>"
     },
     {
       "kind": "html",
@@ -93,7 +93,7 @@
       "attributes": {
         "class": "text-xl font-bold tracking-tight mt-8 mb-3"
       },
-      "html": "3. Bekijk elke geplande clip"
+      "html": "3. Beoordeel elke geplande clip"
     },
     {
       "kind": "html",
@@ -101,7 +101,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Dit is de stap die mensen overslaan, en het is degene die ertoe doet. Tik op elke geplande clip, bekijk hem van begin tot eind, en houd hem, trim hem of verwijder hem. ReelClip exporteert nooit automatisch. Jij bepaalt wat wordt gepubliceerd."
+      "html": "Dit is de stap die mensen overslaan, en het is degene die ertoe doet. Tik op elke geplande clip, bekijk hem van begin tot eind, en houd hem, kort hem in of verwijder hem. ReelClip exporteert nooit automatisch. Jij bepaalt wat wordt gepubliceerd."
     },
     {
       "kind": "html",
@@ -117,7 +117,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Geef elke clip één compleet idee. Verstrak het begin, verwijder onnodig inleidend materiaal, en houd genoeg context voor iemand die de volledige opname nooit heeft gezien. Controleer TikToks huidige uploadlimieten voor je post; er is geen universele ideale cliplengte."
+      "html": "Geef elke clip één compleet idee. Verstrak het begin, verwijder onnodige inleidingen, en houd genoeg context voor iemand die de volledige opname nooit heeft gezien. Controleer TikToks huidige uploadlimieten voordat je plaatst; er is geen universele ideale cliplengte."
     },
     {
       "kind": "html",
@@ -133,7 +133,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Als je bronvideo landscape is, heb je twee opties: exporteer zoals hij is, of crop hem voor een verticale post in je afwerkingssoftware. Een tijdsbereik kiezen en de beeldframing kiezen zijn aparte beslissingen; controleer beide voor je post."
+      "html": "Als je bronvideo landscape is, heb je twee keuzes: exporteer zoals hij is, of crop hem voor een verticale post in je afwerking-editor. Een tijdsbereik kiezen en de beeldframing kiezen zijn aparte beslissingen; controleer beide voordat je plaatst."
     },
     {
       "kind": "html",
@@ -141,7 +141,7 @@
       "attributes": {
         "class": "text-xl font-bold tracking-tight mt-8 mb-3"
       },
-      "html": "6. Sla de batch op in Foto's"
+      "html": "6. Sla de batch op naar Foto's"
     },
     {
       "kind": "html",
@@ -149,7 +149,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Tik op <strong class=\"text-text\">Review</strong> en wacht tot de clips klaar zijn met voorbereiden. Speel de resultaten af, kies dan de opslagactie voor Foto's. Wacht op de voltooiingsbevestiging voor je de app verlaat. Exporteren vereist Creator; de originelen blijven ongewijzigd."
+      "html": "Tik op <strong class=\"text-text\">Review</strong> en wacht tot de clips klaar zijn met voorbereiden. Speel de resultaten af en kies vervolgens de opslagactie voor Foto's. Wacht op de bevestiging van voltooiing voordat je de app verlaat. Het opslaan of exporteren van een voltooide video vereist de Creator-modus; de originelen blijven ongewijzigd."
     },
     {
       "kind": "html",
@@ -165,7 +165,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Open TikTok, tik op de plusknop, dan<!-- --> <strong class=\"text-text\">Upload</strong>. Kies de eerste clip uit je bibliotheek. TikTok haalt hem van je apparaat — ReelClip had nooit toegang tot je TikTok-account en heeft nooit iets geüpload naar TikToks servers."
+      "html": "Open TikTok, tik op de plus-knop, dan<!-- --> <strong class=\"text-text\">Upload</strong>. Kies de eerste clip uit je bibliotheek. TikTok haalt hem van je apparaat — ReelClip had nooit toegang tot je TikTok-account en heeft nooit iets geüpload naar TikToks servers."
     },
     {
       "kind": "html",
@@ -181,7 +181,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">De review overslaan.</strong> De AI-modus is goed maar niet perfect. Bekijk elke clip altijd van begin tot eind voordat je exporteert.</li><li><strong class=\"text-text\">Het originele bestand van 12 minuten uploaden.</strong> Bewaar de bron, kies dan een versie die past bij het verhaal en de bestemming. Een kortere clip garandeert niet meer views.</li><li><strong class=\"text-text\">Geen ondertiteling.</strong> Ondertiteling helpt mensen de spraak te volgen wanneer ze niet kunnen luisteren. Controleer de spelling en timing in je afwerkingseditor voordat je plaatst.</li>"
+      "html": "<li><strong class=\"text-text\">De review overslaan.</strong> De AI-modus is goed maar niet perfect. Bekijk elke clip altijd van begin tot eind voordat je exporteert.</li><li><strong class=\"text-text\">Het originele bestand van 12 minuten uploaden.</strong> Bewaar de bron, en kies dan een versie die past bij het verhaal en de bestemming. Een kortere clip garandeert niet meer views.</li><li><strong class=\"text-text\">Geen ondertiteling.</strong> Ondertiteling helpt mensen de spraak te volgen wanneer ze niet kunnen luisteren. Controleer de spelling en timing in je afwerkingseditor voordat je plaatst.</li>"
     },
     {
       "kind": "html",
@@ -197,7 +197,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Voordat je cross-post naar YouTube Shorts of Instagram Reels, controleer de huidige formaat- en lengtevereisten van elk platform. Hetzelfde moment kan voor elke bestemming een andere framing of duur nodig hebben. Lees onze <a class=\"text-accent hover:underline\" href=\"/nl/blog/video-length-social-media-reach\">gids over videolengte en bereik</a> <!-- -->voor de platformverschillen, of zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">hoe je podcast-highlights extraheert</a> <!-- -->voor een gerelateerde workflow."
+      "html": "Voordat je cross-post naar YouTube Shorts of Instagram Reels, controleer de huidige formaat- en lengtevereisten van elk platform. Hetzelfde moment kan voor elke bestemming andere framing of duur nodig hebben. Lees onze <a class=\"text-accent hover:underline\" href=\"/nl/blog/video-length-social-media-reach\">gids over videolengte en bereik</a> <!-- -->voor de platformverschillen, of zie<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">hoe je podcast-highlights extraheert</a> <!-- -->voor een gerelateerde workflow."
     },
     {
       "kind": "cta"

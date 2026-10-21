@@ -1,13 +1,13 @@
 {
   "slug": "edit-any-log-footage-iphone",
   "title": "Comment éditer du footage log sur iPhone : conversion caméra et LUTs créatifs",
-  "description": "Choisissez le bon profil caméra, importez une LUT de conversion correspondante, et ajoutez un look créatif dans ReelClip. Découvrez ce qu'il faut vérifier avant d'exporter du footage log.",
+  "description": "Choisissez le bon profil de caméra, importez une LUT de conversion correspondante et ajoutez un look créatif dans ReelClip. Découvrez ce qu'il faut vérifier avant d'exporter du footage log.",
   "publishedAt": "2026-10-20",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
   "category": "Cas d'usage",
   "primaryKeyword": "éditer du footage log sur iphone",
   "readMinutes": 5,
-  "sourceFingerprint": "06c1c09f49209cd1d56211dced514a5598730100a21e51d77319301ec75bf9f6",
+  "sourceFingerprint": "1640b83821683436e06817d7a4347457556a732e0f581c22af027ba289a6c990",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Le footage log peut paraître délavé avant la conversion colorimétrique. Pour l'étalonner, faites d'abord correspondre le profil d'enregistrement de la caméra avec la bonne transformation technique, puis choisissez un look créatif. ReelClip sépare ces deux étapes pour que vous puissiez ajuster le style sans remplacer la conversion caméra."
+      "html": "Le footage log peut paraître délavé avant la conversion des couleurs. Pour l'étalonner, faites d'abord correspondre le profil d'enregistrement de la caméra avec la bonne transformation technique, puis choisissez un look créatif. ReelClip sépare ces deux étapes pour que vous puissiez ajuster le style sans remplacer la conversion caméra."
     },
     {
       "kind": "html",
@@ -33,7 +33,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Quels profils caméra pouvez-vous sélectionner ?"
+      "html": "Quels profils de caméra pouvez-vous sélectionner ?"
     },
     {
       "kind": "html",
@@ -49,7 +49,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "La détection automatique peut utiliser les métadonnées prises en charge et les indices de nom de fichier. Vérifiez la sélection par rapport aux réglages de votre caméra : un nom de fichier est une suggestion, et les transferts ou éditions antérieures peuvent modifier les informations disponibles pour l'application."
+      "html": "La détection automatique peut utiliser les métadonnées prises en charge et les indices de nom de fichier. Vérifiez la sélection par rapport aux réglages de votre caméra : un nom de fichier est une suggestion, et les transferts ou les éditions antérieures peuvent modifier les informations disponibles pour l'application."
     },
     {
       "kind": "html",
@@ -57,7 +57,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Sony, Canon, Panasonic et Blackmagic ne sont pas des préréglages de profils nommés dans ReelClip. Pour du footage de ces caméras, utilisez Autre log avec la LUT de conversion correcte, à condition que l'iPhone puisse décoder le fichier vidéo. Une marque de caméra à elle seule n'établit pas la compatibilité avec tous les codecs ou formats RAW."
+      "html": "Sony, Canon, Panasonic et Blackmagic ne sont pas des préréglages de profils nommés dans ReelClip. Pour du footage de ces caméras, utilisez Autre log avec la bonne LUT de conversion, à condition que l'iPhone puisse décoder le fichier vidéo. Une marque de caméra seule n'établit pas la compatibilité avec tous les codecs ou formats RAW."
     },
     {
       "kind": "html",
@@ -73,7 +73,7 @@
       "attributes": {
         "class": "list-decimal pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Importez votre clip.</strong> Utilisez l'enregistrement original si possible et confirmez son profil et sa gamut d'enregistrement.</li><li><strong>Choisissez le profil source.</strong> Dans les contrôles colorimétriques, vérifiez le profil détecté ou sélectionnez l'option log correspondante.</li><li><strong>Importez la transformation caméra.</strong> Choisissez une conversion .cube qui correspond à la caméra, à la courbe d'enregistrement et à la gamut. Vérifiez sa documentation pour l'espace colorimétrique de sortie attendu. Un profil log marqué « LUT nécessaire » a toujours besoin de ce fichier.</li><li><strong>Ajoutez une LUT créative.</strong> Sélectionnez un look destiné à l'image convertie. Les packs créatifs universels attendent une entrée normalisée sRGB/Rec.709. Utilisez le contrôle d'intensité pour ajuster l'effet créatif.</li><li><strong>Vérifiez, puis exportez.</strong> Contrôlez les tons chair, les ciels lumineux et les détails dans les ombres. L'édition et la prévisualisation sont disponibles gratuitement ; l'enregistrement de la vidéo finie nécessite Creator.</li>"
+      "html": "<li><strong>Importez votre clip.</strong> Utilisez l'enregistrement original si possible et confirmez son profil et sa gamut d'enregistrement.</li><li><strong>Choisissez le profil source.</strong> Dans les contrôles de couleur, vérifiez le profil détecté ou sélectionnez l'option log correspondante.</li><li><strong>Importez la transformation caméra.</strong> Choisissez une conversion .cube qui correspond à la caméra, à la courbe d'enregistrement et à la gamut. Vérifiez sa documentation pour l'espace colorimétrique de sortie attendu. Un profil log marqué « LUT needed » a toujours besoin de ce fichier.</li><li><strong>Add une LUT créative.</strong> Sélectionnez un look destiné à l'image convertie. Les packs créatifs universels attendent une entrée normalisée sRGB/Rec.709. Utilisez le contrôle de force pour ajuster l'effet créatif.</li><li><strong>Revue, puis export.</strong> Vérifiez les tons chair, les ciels lumineux et les détails dans les ombres. L'édition et l'aperçu sont disponibles gratuitement ; l'enregistrement de la vidéo finie nécessite le mode Creator.</li>"
     },
     {
       "kind": "html",
@@ -105,7 +105,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Faites glisser le curseur pour comparer des images réelles de banques de vidéos avec des étalonnages illustratifs. L'image non étalonnée se trouve à gauche, intitulée Source plate (ou Original pour l'exemple de ville prêt à l'affichage), et le résultat étalonné se trouve à droite. Les téléchargements de banques de vidéos ne confirment pas la courbe log exacte d'une caméra, traitez-les donc comme des exemples créatifs, pas comme des références de conversion. Chaque scène indique sa source de vidéo et son lien de licence."
+      "html": "Faites glisser le curseur pour comparer des images réelles de stock avec des étalonnages illustratifs. L'image non étalonnée est à gauche, intitulée Flat source (ou Original pour l'exemple de ville prêt à l'affichage), et le résultat étalonné est à droite. Les uploads de stock ne confirment pas la courbe log exacte d'une caméra, traitez-les donc comme des exemples créatifs, pas comme des références de conversion. Chaque scène indique sa source de footage et son lien de licence."
     },
     {
       "kind": "comparison"
@@ -116,7 +116,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Ces exemples utilisent les mêmes images réelles et looks de démarrage que notre guide de LUTs gratuites. L'équilibre illustratif n'est pas une conversion calibrée du fabricant. Évaluez un look sur vos propres images avant de décider s'il convient à votre projet."
+      "html": "Ces exemples utilisent les mêmes images réelles et looks de démarrage que notre guide gratuit sur les LUTs. L'équilibre illustratif n'est pas une conversion calibrée du fabricant. Évaluez un look sur vos propres images avant de décider s'il convient à votre projet."
     },
     {
       "kind": "html",
@@ -124,7 +124,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "La conversion caméra et les LUTs créatives remplissent des fonctions différentes"
+      "html": "La conversion caméra et les LUTs créatives ont des rôles différents"
     },
     {
       "kind": "html",
@@ -132,7 +132,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Une <strong>conversion caméra</strong> convertit un encodage d'enregistrement spécifique dans l'espace de travail ou d'affichage prévu. Faites correspondre à la fois la courbe log et la gamme de couleurs : deux fichiers décrits comme « log » peuvent nécessiter des transformations différentes."
+      "html": "Une <strong>conversion caméra</strong> convertit un encodage d'enregistrement spécifique dans l'espace de travail ou d'affichage prévu. Faites correspondre la courbe log et l'espace colorimétrique : deux fichiers décrits comme « log » peuvent nécessiter des transformations différentes."
     },
     {
       "kind": "html",
@@ -140,7 +140,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Une <strong>LUT créative</strong> stylise l'image convertie. Elle peut réchauffer les hautes lumières, refroidir les ombres ou réduire la saturation. Elle ne peut pas corriger une mauvaise transformation source, et une LUT seule n'ajoute pas de grain de film ni de halation."
+      "html": "Une <strong>LUT créative</strong> stylise l'image convertie. Elle peut réchauffer les hautes lumières, refroidir les ombres ou réduire la saturation. Elle ne peut pas corriger une mauvaise transformation source, et une LUT seule n'ajoute pas de grain de film ni d'halation."
     },
     {
       "kind": "html",
@@ -164,7 +164,7 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong>Toujours délavé ?</strong> Confirmez qu'une transformation caméra est chargée, pas seulement un profil log sélectionné.</li><li><strong>Trop contrasté ?</strong> Vérifiez qu'une conversion n'a pas été appliquée deux fois et confirmez que la LUT créative attend votre espace colorimétrique converti.</li><li><strong>Couleurs peu naturelles ?</strong> Revérifiez la gamme d'enregistrement, la balance des blancs et le fichier de conversion avant d'augmenter l'intensité du look.</li><li><strong>Un fichier ne s'importe pas ?</strong> Vérifiez le conteneur vidéo et le codec. Sélectionner Other log n'ajoute pas la prise en charge d'un format vidéo par ailleurs non pris en charge.</li>"
+      "html": "<li><strong>Toujours terne ?</strong> Confirmez qu'une transformation caméra est chargée, pas seulement un profil log sélectionné.</li><li><strong>Trop contrasté ?</strong> Vérifiez qu'une conversion n'a pas été appliquée deux fois et confirmez que la LUT créative attend votre espace colorimétrique converti.</li><li><strong>Couleurs peu naturelles ?</strong> Revérifiez l'espace colorimétrique d'enregistrement, la balance des blancs et le fichier de conversion avant d'augmenter l'intensité du look.</li><li><strong>Un fichier ne s'importe pas ?</strong> Vérifiez le conteneur vidéo et le codec. Sélectionner Other log n'ajoute pas la prise en charge d'un format vidéo par ailleurs non pris en charge.</li>"
     },
     {
       "kind": "html",
@@ -172,7 +172,7 @@
       "attributes": {
         "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
       },
-      "html": "Essayez le flux de travail sur vos propres images"
+      "html": "Essayez le workflow sur vos propres images"
     },
     {
       "kind": "html",
@@ -180,7 +180,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Commencez par un clip court contenant un visage, des objets neutres et quelques détails lumineux. Examinez la conversion caméra avec le look créatif désactivé, puis ajoutez le look à une intensité modérée. Les clips provenant de différentes caméras peuvent encore nécessiter des ajustements individuels d'exposition et de balance des blancs."
+      "html": "Commencez par un court clip contenant un visage, des objets neutres et quelques détails lumineux. Examinez la conversion caméra avec le look créatif désactivé, puis ajoutez le look à une intensité modérée. Les clips provenant de différentes caméras peuvent encore nécessiter des ajustements individuels d'exposition et de balance des blancs."
     },
     {
       "kind": "html",
@@ -188,7 +188,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "L'aperçu des couleurs et le rendu s'exécutent sur l'appareil. Vous pouvez importer, éditer et prévisualiser avant de passer à la version payante. L'export vidéo nécessite Creator, disponible à l'achat unique ou en abonnement mensuel."
+      "html": "L'aperçu des couleurs et le rendu s'exécutent sur l'appareil. Vous pouvez importer, éditer et prévisualiser avant de déverrouiller le mode Creator. L'enregistrement ou l'exportation d'une vidéo terminée nécessite le mode Creator, disponible via un achat unique ou un abonnement mensuel."
     },
     {
       "kind": "cta"
