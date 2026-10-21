@@ -61,6 +61,14 @@ On this machine, `.organic-runs/guide-localization/venv/bin/python` provides Bea
 
 The legacy `generate-static-page-translations.mjs` handles only privacy/terms. Frozen blog HTML is obsolete and must not be regenerated.
 
+## App-control grounding pilot
+
+The equal-sections walkthrough links to a curated readable reference at `/app-reference/equal-clips`. Its Markdown and JSON forms are linked from `/llms.txt`; all three use `public/app-reference/equal-clips.json` as their reviewed source. This is an English reference with exact labels, meanings, observed values, video timestamps and two unchanged reviewed frames. The shared link label is translated across all guide languages; article prose and recording language are unchanged. The reference page advertises only English and uses the existing `website_guides` CTA campaign.
+
+When changing this walkthrough or its control explanations, read `marketing/organic/walkthrough-grounding/equal-clips.json` and the iOS repository's `reelclip-ui-evidence` and `reelclip-feature-demo` instructions. Run `python3 scripts/check-app-reference-source.py --app-root /Users/judeokun/Documents/GitHub/reelclip` locally. It resolves exact control/caller meanings from the app catalog and checks the source version, original review and media hashes. A mismatch requires review; do not refresh a hash to bypass it. The existing recording has no established current-build source match or runtime telemetry. Keep that limit explicit; a source definition is not proof an action succeeded.
+
+Edit the structured public reference, run `node scripts/export-walkthrough-reference.mjs`, review its prose and images, then run `npm run check:guides`. Builds check the public document and reviewed media without needing private provenance or the local iOS repository. Keep local paths/catalog internals out of the public packet. A new recording or language variant needs its own review before the player links this reference. Add creates Planned Clips; this footage demonstrates preview, not a completed Photos save. Use the same bounded, reviewed approach for future walkthroughs rather than publishing the raw app catalog.
+
 ## Authorization and credentials
 
 Use only `gum --profile reelclip-organic` with Search Console's read-only scope. The collector queries only `sc-domain:reelclips.app`. Keep client secrets and refresh tokens out of source, prompts, logs, and reports. A failed API request is a collection failure, never evidence of zero traffic.

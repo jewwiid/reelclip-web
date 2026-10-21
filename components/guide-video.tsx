@@ -3,6 +3,7 @@
 import { useRef, useState } from "react";
 import { videoTimestamp, type GuideVideoId } from "@/lib/guide-videos";
 import { getGuideVideoPlayback } from "@/lib/guide-video-variants";
+import { getWalkthroughReference } from "@/lib/walkthrough-references";
 import { trackWebsiteEvent } from "@/lib/site-analytics";
 import { translateGuide, type GuideTranslation } from "@/lib/guide-translation";
 
@@ -16,6 +17,7 @@ function GuideVideoPlayer({ id, translations, captionLocale = "en" }: GuideVideo
   const t = (text: string, values?: Record<string, string | number>) => translateGuide(translations, text, values);
   const playback = getGuideVideoPlayback(id, captionLocale);
   const details = playback.details;
+  const controlReference = getWalkthroughReference(id, playback.video);
   const videoRef = useRef<HTMLVideoElement>(null);
   const pendingSeek = useRef<number | null>(null);
   const played = useRef(false);
@@ -179,6 +181,7 @@ function GuideVideoPlayer({ id, translations, captionLocale = "en" }: GuideVideo
             })}
           </ol>
           <p className="mt-6 border-t border-hairline pt-4 text-xs leading-relaxed text-text-muted">{t(details.note)}</p>
+          {controlReference && <p className="mt-3 text-xs leading-relaxed"><a href={controlReference} hrefLang="en" className="text-accent underline underline-offset-4">{t("Read the control reference (English)")}</a></p>}
           {captionLocale !== playback.appLanguage && <p className="mt-3 text-xs leading-relaxed text-text-muted">{t("The recording uses English app controls. Step captions are translated.")}</p>}
           {hasError && (
             <p role="alert" className="mt-4 text-sm leading-relaxed text-text-muted">

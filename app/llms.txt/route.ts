@@ -46,6 +46,11 @@ Requirements: iPhone with iOS 17.0 or later. Feature-specific requirements (Appl
 
 - [Reels, TikTok and Shorts safe zone checker](${SITE_URL}/tools/safe-zone-checker): drop a 9:16 video or frame and see which areas platform buttons and captions cover. Runs in the browser; nothing is uploaded.
 
+## App controls and walkthrough evidence
+
+- [Cut: split a recording into equal clips — control reference](${SITE_URL}/app-reference/equal-clips.md): exact English UI labels, control meanings, steps with video timestamps and two reviewed screenshots. Also available as a [readable reference page](${SITE_URL}/app-reference/equal-clips). Explains No gap, Clip amount, calculated Clip duration and Add to Planned Clips. This recording demonstrates planning and preview; it does not show a completed save to Photos.
+- [Structured equal-clips reference](${SITE_URL}/app-reference/equal-clips.json): the same reviewed facts in JSON, including recording and screenshot hashes. Scope is this walkthrough; it is not a complete app reference or proof of current-build runtime coverage.
+
 ## Guides
 
 ${guides}

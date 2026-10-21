@@ -10,6 +10,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { path: "/competitors", priority: 0.8 },
     { path: "/blog", priority: 0.8 },
     { path: "/tools/safe-zone-checker", priority: 0.7 },
+    { path: "/app-reference/equal-clips", priority: 0.4 },
     { path: "/support", priority: 0.6 },
     { path: "/about", priority: 0.5 },
     { path: "/brand", priority: 0.3 },
