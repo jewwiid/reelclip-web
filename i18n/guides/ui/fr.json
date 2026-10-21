@@ -78,12 +78,10 @@
   "Real stock footage. Log examples use an illustrative contrast/saturation balance followed by the named ReelClip starter LUT. The architecture example already looks display-ready and receives only Classic Mono. Uploader descriptions do not establish the recording curve and gamut of the downloaded files; these are grading illustrations, not calibrated camera conversions. No AI generation or subject replacement.": "Images stock réelles. Les exemples Log utilisent un équilibre illustratif de contraste/saturation suivi du LUT de démarrage ReelClip nommé. L'exemple d'architecture est déjà prêt pour l'affichage et ne reçoit que Classic Mono. Les descriptions des téléchargeurs n'établissent pas la courbe d'enregistrement et le gamut des fichiers téléchargés ; ce sont des illustrations d'étalonnage, pas des conversions de caméra calibrées. Aucune génération IA ni remplacement de sujet.",
   "Real studio portrait frame filmed by Abdijabar Mohamud.": "Vraie image de portrait en studio filmée par Abdijabar Mohamud.",
   "Red Auto remove marks the long pause for removal.": "Le marqueur Auto remove rouge indique la longue pause à supprimer.",
-  "ReelClip is free to import and preview. A Creator plan unlocks export. Choose Slice, Cut, Transcript or AI for your edit. All video and audio processing stays on your iPhone — nothing is uploaded to ReelClip servers.": "ReelClip est gratuit pour importer et prévisualiser. Un plan Creator débloque l'exportation. Choisissez Slice, Cut, Transcript ou AI pour votre montage. Tout le traitement vidéo et audio reste sur votre iPhone — rien n'est téléversé vers les serveurs ReelClip.",
   "Refine the edges": "Affiner les bords",
   "Remove an unwanted word": "Supprimer un mot indésirable",
   "Reveal {source} before image on {title}": "Révéler {source} avant l'image sur {title}",
   "Roundup": "Récapitulatif",
-  "See Creator pricing": "Voir les tarifs Creator",
   "See a word removed from the edit, check the playback and preview captions that follow the speech.": "Voir un mot supprimé du montage, vérifier la lecture et prévisualiser les sous-titres qui suivent la parole.",
   "See what ReelClip does": "Découvrir ce que fait ReelClip",
   "Select your .cube look from the Files picker.": "Sélectionner votre look .cube depuis le sélecteur Files.",
@@ -127,5 +125,7 @@
   "{seconds} sec video": "Vidéo de {seconds} sec",
   "{seconds} sec · Silent, captioned": "{seconds} sec · Silencieux, sous-titré",
   "{title} — video preview": "{title} — aperçu vidéo",
-  "{title}, play from {time}": "{title}, lecture à partir de {time}"
+  "{title}, play from {time}": "{title}, lecture à partir de {time}",
+  "ReelClip is free to import and preview. Creator mode unlocks full access, including saving, sharing, and exporting your work on your iPhone. Choose Slice, Cut, Transcript or AI for your edit. All video and audio processing stays on your iPhone — nothing is uploaded to ReelClip servers.": "ReelClip est gratuit pour importer et prévisualiser. Creator mode débloque l'accès complet, y compris la sauvegarde, le partage et l'exportation de vos créations sur votre iPhone. Choisissez Slice, Cut, Transcript ou AI pour votre montage. Tout le traitement vidéo et audio reste sur votre iPhone — rien n'est téléchargé sur les serveurs de ReelClip.",
+  "See Creator mode options": "Voir les options de Creator mode"
 }

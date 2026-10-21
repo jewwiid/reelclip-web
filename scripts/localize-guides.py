@@ -44,6 +44,7 @@ def tag_signature(value):
 def validate(source,target):
  if not isinstance(target,str) or not target.strip():return 'empty or non-string'
  if target.startswith('```'):return 'markdown wrapper'
+ if re.search(r'(?<![A-Za-z])Creator mode(?![A-Za-z])',source) and not re.search(r'(?<![A-Za-z])Creator mode(?![A-Za-z])',target):return 'changed product feature name'
  if set(re.findall(r'\{[a-zA-Z][a-zA-Z0-9_]*\}',source))!=set(re.findall(r'\{[a-zA-Z][a-zA-Z0-9_]*\}',target)):return 'changed placeholder'
  if tag_signature(source)!=tag_signature(target):return 'changed HTML tags, attributes or links'
  plain=text(source);translated=text(target)
@@ -60,9 +61,9 @@ def validate(source,target):
 
 def request(values,locale,context,repair=False):
  language=LANGUAGES[locale]
- # Protect the exact names visible in the reused English recordings. Placeholder
- # restoration is deterministic; only the surrounding explanation is translated.
- controls=['Adjust & Style','Remove pauses','Clip duration','Clip amount','Auto remove','Auto keep','Cut timing','Add as clip','Import LUT','Save to Photos','Review video','Planned Clips','No gap','Space','Cut','Slice','Add','Audio','Cleanup','Files','Creative']
+ # Protect the Creator mode product name and exact controls visible in the reused
+ # English recordings. Only the surrounding explanation is translated.
+ controls=['Creator mode','Adjust & Style','Remove pauses','Clip duration','Clip amount','Auto remove','Auto keep','Cut timing','Add as clip','Import LUT','Save to Photos','Review video','Planned Clips','No gap','Space','Cut','Slice','Add','Audio','Cleanup','Files','Creative']
  replacements={};protected=[]
  for index,value in enumerate(values):
   def mask(match):
@@ -74,7 +75,7 @@ def request(values,locale,context,repair=False):
   'Use natural, clear language for creators. Preserve meaning, limitations, conditional statements, numbers and factual claims; add nothing.\n'
   'Preserve HTML tags and every attribute value exactly, including URLs and CSS classes. Translate text inside tags. Do not add or remove tags.\n'
   'Preserve placeholders such as {seconds}, {title}, {date}, {time} exactly.\n'
-  'Keep product and named look labels: ReelClip, Creator, Apple Intelligence, iPhone, iOS, App Store, DJI, Sony, Blackmagic, CapCut, iMovie, TikTok, Instagram, YouTube Shorts, DaVinci Resolve, Pexels, Clean Natural, Soft Portrait, Warm Daylight, Cool Daylight, Gentle Cinema, Classic Mono.\n'
+  'Keep product and named look labels: ReelClip, Creator, Creator mode, Apple Intelligence, iPhone, iOS, App Store, DJI, Sony, Blackmagic, CapCut, iMovie, TikTok, Instagram, YouTube Shorts, DaVinci Resolve, Pexels, Clean Natural, Soft Portrait, Warm Daylight, Cool Daylight, Gentle Cinema, Classic Mono.\n'
   'Keep exact English control labels when naming recorded app controls. These are fixed labels shown in the app, so never translate, pluralize or inflect them: Slice, Cut, Transcript, AI, Adjust & Style, LUTs, Import LUT, Creative, Files, Photos, Audio, Cleanup, Remove pauses, Cut timing, Auto keep, Auto remove, Remove, Review, Review video, Save to Photos, Clip amount, Clip duration, Space, No gap, Planned Clips, Add.\n'
   'Keep technical tokens: .cube, SRT, VTT, LUT_3D_SIZE, Apple Log, Apple Log 2, D-Log, D-Log M, D-Log 2, D-Cinelike, S-Log3, S-Gamut3.Cine, Rec.709, sRGB, HLG, HDR.\n'
   'For Hindi use grammatical Devanagari prose, not English sentences with a few Hindi words. For Portuguese respect the requested regional variety.\n'

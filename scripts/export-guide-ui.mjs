@@ -9,8 +9,8 @@ const strings = new Set([
   "Tutorial", "Roundup", "Comparison", "How-to", "Use case", "Video preview",
   "Looking for the app itself?", "See what ReelClip does", "Try it on your iPhone",
   "Cut, transcribe, and export — on-device, no upload.",
-  "ReelClip is free to import and preview. A Creator plan unlocks export. Choose Slice, Cut, Transcript or AI for your edit. All video and audio processing stays on your iPhone — nothing is uploaded to ReelClip servers.",
-  "Download on the App Store", "See Creator pricing", "Flat source", "Original",
+  "ReelClip is free to import and preview. Creator mode unlocks full access, including saving, sharing, and exporting your work on your iPhone. Choose Slice, Cut, Transcript or AI for your edit. All video and audio processing stays on your iPhone — nothing is uploaded to ReelClip servers.",
+  "Download on the App Store", "See Creator mode options", "Flat source", "Original",
 ]);
 for (const path of inputs) {
   const source = readFileSync(path, "utf8");
