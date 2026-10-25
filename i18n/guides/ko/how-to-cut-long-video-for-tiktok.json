@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "iPhone에서 긴 동영상을 TikTok용으로 자르는 방법",
-  "description": "ReelClip의 Cut 컨트롤로 긴 녹화본에서 클립을 준비하고, 프레이밍과 자막을 검토한 다음, TikTok에 업로드하고 싶은 동영상을 저장하세요.",
+  "description": "iPhone에서 TikTok용 긴 영상을 준비하고 ReelClip의 자르기 모드를 살펴보며, Apple Intelligence가 샘플링된 영상 프레임을 어떻게 분석하는지 알아보세요.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-25",
   "category": "튜토리얼",
   "primaryKeyword": "긴 동영상을 틱톡용으로 자르는 방법",
   "readMinutes": 5,
-  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
+  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -85,7 +85,47 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — 영상을 동일한 길이의 조각으로 나눕니다. 녹음에 명확한 구간(인터뷰 섹션, 목록 항목, 챕터)이 있을 때 적합합니다.</li><li><strong class=\"text-text\">Transcript</strong> — 기기 내 음성 인식을 실행하여 휴지를 찾아내고, 불필요한 공백을 잘라낼 수 있게 합니다. 토킹헤드 콘텐츠와 팟캐스트에 적합합니다.</li><li><strong class=\"text-text\">Slice</strong> — 직접 원하는 순간을 선택하고, 선택 영역을 이동하며 시작과 끝을 세밀하게 조정합니다.</li><li><strong class=\"text-text\">AI</strong> — 원하는 내용을 설명하면(“가장 재미있는 순간”, “가격 설명하는 부분”, “가장 인용하기 좋은 대사”) 기기 내 Apple Intelligence가 순간을 제안해 검토할 수 있게 합니다. 해당 기능은 사용 중인 기기에서 이용 가능할 때 제공됩니다.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — 영상을 동일한 길이의 조각으로 나눕니다. 녹음에 명확한 구간(인터뷰 섹션, 목록 항목, 챕터)이 있을 때 적합합니다.</li><li><strong class=\"text-text\">Transcript</strong> — 기기 내 음성 인식을 실행하여 휴지를 찾아내고, 불필요한 공백을 잘라낼 수 있게 합니다. 토킹헤드 콘텐츠와 팟캐스트에 적합합니다.</li><li><strong class=\"text-text\">Slice</strong> — 직접 원하는 순간을 선택하고, 선택 영역을 이동하며 시작과 끝을 세밀하게 조정합니다.</li><li><strong class=\"text-text\">AI</strong> — “가장 재미있는 순간”, “가격을 설명하는 부분”, “가장 인용하기 좋은 한마디”처럼 찾고 싶은 내용을 설명하세요. 기기에서 기능을 사용할 수 있으면 Apple Intelligence가 요청을 해석하고 검토할 순간을 제안하는 데 도움을 줄 수 있습니다.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip 1.5에서 Apple Intelligence가 작동하는 방식"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip 1.5에는 AI 레시피용 온디바이스 요청 도우미가 추가됩니다. 별도의 시트로 열리며 요청을 명확히 하거나 이미지에서 찾을 내용과 음성에서 찾을 내용을 구분하는 데 도움을 줍니다. 제안을 검토하고 수정하거나 취소해 원래 문구를 유지할 수 있습니다. 클립 개수나 길이 설정은 바꾸지 않으며, 수락하기 전에는 검색을 시작하지 않습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iOS 27을 실행하는 iPhone에서 Apple Intelligence 모델을 사용할 수 있고 언어가 지원되면 ReelClip 1.5는 시각적 요청에 Foundation Models 프레임워크의 이미지 입력도 사용할 수 있습니다. 앱은 샘플링한 정지 프레임을 확인하고 제안된 순간을 원본 영상의 시점에 연결합니다. iOS 26에서는 시각적 요청에 계속 기기 내 Vision 관찰 결과를 사용합니다. Apple의<!-- --> <a class=\"text-accent hover:underline\" href=\"https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting\" rel=\"noreferrer\" target=\"_blank\">Foundation Models 이미지 프롬프트 가이드</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "이는 샘플링된 프레임을 분석하는 방식이지 모든 프레임을 계속 보는 방식은 아닙니다. 샘플 사이에 발생한 짧은 동작은 놓칠 수 있으며, 선택된 순간도 직접 확인해야 합니다. 시각 분석은 음악, 무음, 말투 또는 소리만으로 판단해야 하는 다른 조건을 확인할 수 없습니다."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "2026년 10월 25일 기준 제공 현황: Apple의 공개 App Store 목록에는 여전히 버전 1.4.3이 표시됩니다. 요청 도우미와 iOS 27 이미지 입력 경로는 ReelClip 1.5 TestFlight 빌드 518에 포함되어 있어 아직 공개 App Store 버전에서 사용할 수 없습니다. 직접 이미지 입력에는 iOS 27, 지원 언어, 사용 가능한 Apple Intelligence 모델도 필요합니다."
     },
     {
       "kind": "html",

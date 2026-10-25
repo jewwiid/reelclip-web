@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "Jak przyciąć długie wideo na TikToka na iPhonie",
-  "description": "Przygotuj klipy z długiego nagrania za pomocą kontrolek Cut w ReelClip, sprawdź kadrowanie i napisy, a następnie zapisz wideo, które chcesz przesłać na TikToka.",
+  "description": "Przygotuj długie nagranie na TikToka na iPhonie, poznaj tryby cięcia w ReelClip i dowiedz się, jak Apple Intelligence analizuje wybrane klatki wideo.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-25",
   "category": "Poradnik",
   "primaryKeyword": "jak przyciąć długie wideo na tiktoka",
   "readMinutes": 5,
-  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
+  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -85,7 +85,47 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — dzieli wideo na fragmenty o równej długości. Sprawdza się, gdy nagranie ma wyraźne segmenty (sekcje wywiadu, punkty listy, rozdziały).</li><li><strong class=\"text-text\">Transcript</strong> — uruchamia lokalne rozpoznawanie mowy, wykrywa pauzy i pozwala przyciąć martwe powietrze. Dobre dla materiałów typu talking-head i podcastów.</li><li><strong class=\"text-text\">Slice</strong> — sam wybierasz moment, przesuwasz zaznaczenie i doprecyzowujesz jego początek i koniec.</li><li><strong class=\"text-text\">AI</strong> — opisz, czego chcesz („najzabawniejszy moment”, „fragment, w którym tłumaczę cennik”, „najbardziej cytowalna kwestia”), a lokalna Apple Intelligence może zaproponować momenty do przejrzenia, gdy funkcja będzie dostępna na Twoim urządzeniu.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — dzieli wideo na fragmenty o równej długości. Sprawdza się, gdy nagranie ma wyraźne segmenty (sekcje wywiadu, punkty listy, rozdziały).</li><li><strong class=\"text-text\">Transcript</strong> — uruchamia lokalne rozpoznawanie mowy, wykrywa pauzy i pozwala przyciąć martwe powietrze. Dobre dla materiałów typu talking-head i podcastów.</li><li><strong class=\"text-text\">Slice</strong> — sam wybierasz moment, przesuwasz zaznaczenie i doprecyzowujesz jego początek i koniec.</li><li><strong class=\"text-text\">AI</strong> — opisz, czego chcesz szukać („najzabawniejszego momentu”, „fragmentu, w którym wyjaśniam ceny” lub „najbardziej cytowalnej kwestii”). Apple Intelligence może pomóc zinterpretować prośbę i zaproponować momenty do sprawdzenia, jeśli ta funkcja jest dostępna na Twoim urządzeniu.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Jak działa Apple Intelligence w ReelClip 1.5"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip 1.5 dodaje działającego na urządzeniu asystenta poleceń do przepisów AI. Otwiera się on w osobnym arkuszu i może pomóc doprecyzować prośbę albo rozdzielić to, czego szukasz na obrazie, od tego, czego szukasz w mowie. Sprawdź sugestię, edytuj ją lub anuluj, aby zachować pierwotne brzmienie. Asystent nie zmienia ustawień liczby ani czasu trwania klipów i nie rozpoczyna wyszukiwania, dopóki nie zaakceptujesz sugestii."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Na iPhonie z systemem iOS 27, dostępnym modelem Apple Intelligence i obsługiwanym językiem ReelClip 1.5 może też używać wejścia obrazów z frameworka Foundation Models do poleceń wizualnych. Aplikacja analizuje próbkowane nieruchome klatki i łączy sugerowany moment z jego czasem w materiale źródłowym. W iOS 26 polecenia wizualne nadal korzystają z obserwacji Vision wykonywanych na urządzeniu. Zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting\" rel=\"noreferrer\" target=\"_blank\">przewodnik Apple po promptach obrazowych w Foundation Models</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "To analiza próbkowanych klatek, a nie ciągłe oglądanie każdej klatki. Krótka akcja między próbkami może zostać pominięta, a wybrany moment i tak wymaga sprawdzenia. Analiza obrazu nie potwierdzi muzyki, ciszy, tonu głosu ani innych warunków zależnych wyłącznie od dźwięku."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dostępność sprawdzono 25 października 2026 r.: publiczna karta Apple w App Store nadal pokazuje wersję 1.4.3. Asystent poleceń i ścieżka wejścia obrazów w iOS 27 są dostępne w ReelClip 1.5 TestFlight build 518, więc tych funkcji nie ma jeszcze w publicznej wersji z App Store. Bezpośrednie wejście obrazów wymaga także iOS 27, obsługiwanego języka i dostępnego modelu Apple Intelligence."
     },
     {
       "kind": "html",

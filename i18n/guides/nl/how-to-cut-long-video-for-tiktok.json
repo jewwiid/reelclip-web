@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "Hoe knip je een lange video voor TikTok op iPhone",
-  "description": "Bereid clips voor uit een lange opname met de Cut-bediening van ReelClip, controleer de framing en ondertitels, en sla de video's op die je wilt uploaden naar TikTok.",
+  "description": "Bereid een lange opname op je iPhone voor TikTok voor, bekijk de knipmodi van ReelClip en lees hoe Apple Intelligence geselecteerde videoframes analyseert.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-25",
   "category": "Handleiding",
   "primaryKeyword": "hoe knip je een lange video voor tiktok",
   "readMinutes": 5,
-  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
+  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -85,7 +85,47 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — splitst de video in stukken met gelijke duur. Handig wanneer de opname duidelijke segmenten heeft (interviewsecties, lijstitems, hoofdstukken).</li><li><strong class=\"text-text\">Transcript</strong> — voert spraakherkenning uit op het apparaat, vindt de pauzes en laat je de stiltes inkorten. Handig voor talking-head-content en podcasts.</li><li><strong class=\"text-text\">Slice</strong> — kies zelf een moment, verplaats de selectie en verfijn het begin en einde.</li><li><strong class=\"text-text\">AI</strong> — beschrijf wat je wilt (\"het grappigste moment\", \"het deel waar ik de prijzen uitleg\", \"de meest citaatwaardige zin\") en Apple Intelligence op het apparaat kan momenten voorstellen die je kunt beoordelen wanneer de functie beschikbaar is op je apparaat.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — splitst de video in stukken met gelijke duur. Handig wanneer de opname duidelijke segmenten heeft (interviewsecties, lijstitems, hoofdstukken).</li><li><strong class=\"text-text\">Transcript</strong> — voert spraakherkenning uit op het apparaat, vindt de pauzes en laat je de stiltes inkorten. Handig voor talking-head-content en podcasts.</li><li><strong class=\"text-text\">Slice</strong> — kies zelf een moment, verplaats de selectie en verfijn het begin en einde.</li><li><strong class=\"text-text\">AI</strong> — beschrijf wat je wilt vinden (‘het grappigste moment’, ‘het deel waarin ik de prijzen uitleg’ of ‘de meest citeerbare zin’). Apple Intelligence kan helpen de opdracht te begrijpen en momenten voorstellen om te beoordelen, als de functie op je apparaat beschikbaar is.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zo werkt Apple Intelligence in ReelClip 1.5"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip 1.5 voegt een on-device opdrachtassistent toe voor AI-recepten. Die opent in een apart venster en kan helpen een opdracht te verduidelijken of te scheiden wat je in beeld wilt vinden van wat je in spraak wilt vinden. Bekijk de suggestie, pas die aan of annuleer om je oorspronkelijke tekst te behouden. De assistent verandert de instellingen voor het aantal clips of de duur niet en start pas een zoekopdracht nadat je akkoord gaat."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Op een iPhone met iOS 27, een beschikbaar Apple Intelligence-model en een ondersteunde taal kan ReelClip 1.5 voor visuele opdrachten ook de afbeeldingsinvoer van het Foundation Models-framework gebruiken. De app controleert bemonsterde stilstaande frames en koppelt een voorgesteld moment aan de tijd in de bronvideo. Op iOS 26 blijven visuele opdrachten gebruikmaken van on-device Vision-waarnemingen. Bekijk Apples<!-- --> <a class=\"text-accent hover:underline\" href=\"https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting\" rel=\"noreferrer\" target=\"_blank\">handleiding voor beeldprompts met Foundation Models</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dit is analyse van bemonsterde frames, geen doorlopende weergave van elk frame. Een korte actie tussen twee samples kan worden gemist en je moet het geselecteerde moment nog steeds zelf controleren. Visuele analyse kan geen muziek, stilte, intonatie of andere uitsluitend op geluid gebaseerde voorwaarden bevestigen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Beschikbaarheid gecontroleerd op 25 oktober 2026: Apples openbare App Store-vermelding toont nog steeds versie 1.4.3. De opdrachtassistent en de iOS 27-route voor beeldinvoer zitten in ReelClip 1.5 TestFlight-build 518 en zijn dus nog niet beschikbaar in de openbare App Store-versie. Voor directe beeldinvoer zijn ook iOS 27, een ondersteunde taal en een beschikbaar Apple Intelligence-model vereist."
     },
     {
       "kind": "html",

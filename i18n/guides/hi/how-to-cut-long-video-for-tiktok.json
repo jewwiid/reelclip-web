@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "iPhone पर TikTok के लिए लंबे वीडियो को कैसे काटें",
-  "description": "ReelClip के Cut कंट्रोल्स से लंबी रिकॉर्डिंग से क्लिप तैयार करें, फ्रेमिंग और कैप्शन की समीक्षा करें, फिर वे वीडियो सेव करें जिन्हें आप TikTok पर अपलोड करना चाहते हैं।",
+  "description": "iPhone पर TikTok के लिए लंबी रिकॉर्डिंग तैयार करें, ReelClip के कट मोड देखें और जानें कि Apple Intelligence चुने हुए वीडियो फ़्रेमों का विश्लेषण कैसे करता है।",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-25",
   "category": "ट्यूटोरियल",
   "primaryKeyword": "tiktok के लिए लंबे वीडियो को कैसे काटें",
   "readMinutes": 5,
-  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
+  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
   "schemaVersion": 1,
   "locale": "hi",
   "blocks": [
@@ -85,7 +85,47 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — वीडियो को बराबर अवधि वाले टुकड़ों में बाँटता है। तब अच्छा है जब रिकॉर्डिंग में स्पष्ट खंड हों (इंटरव्यू के हिस्से, सूची की चीज़ें, अध्याय)।</li><li><strong class=\"text-text\">Transcript</strong> — डिवाइस पर स्पीच रिकग्निशन चलाता है, ठहराव ढूँढता है, और आपको बेकार हवा काटने देता है। बातचीत वाले कॉन्टेंट और पॉडकास्ट के लिए अच्छा है।</li><li><strong class=\"text-text\">Slice</strong> — खुद एक पल चुनें, चयन को हिलाएँ और उसकी शुरुआत और अंत को बेहतर बनाएँ।</li><li><strong class=\"text-text\">AI</strong> — बताएँ कि आप क्या चाहते हैं (\"सबसे मज़ेदार पल\", \"वह हिस्सा जहाँ मैं कीमत समझाता हूँ\", \"सबसे उद्धरण योग्य पंक्ति\") और डिवाइस पर Apple Intelligence आपके लिए पल सुझा सकता है जब यह सुविधा आपके डिवाइस पर उपलब्ध हो।</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — वीडियो को बराबर अवधि वाले टुकड़ों में बाँटता है। तब अच्छा है जब रिकॉर्डिंग में स्पष्ट खंड हों (इंटरव्यू के हिस्से, सूची की चीज़ें, अध्याय)।</li><li><strong class=\"text-text\">Transcript</strong> — डिवाइस पर स्पीच रिकग्निशन चलाता है, ठहराव ढूँढता है, और आपको बेकार हवा काटने देता है। बातचीत वाले कॉन्टेंट और पॉडकास्ट के लिए अच्छा है।</li><li><strong class=\"text-text\">Slice</strong> — खुद एक पल चुनें, चयन को हिलाएँ और उसकी शुरुआत और अंत को बेहतर बनाएँ।</li><li><strong class=\"text-text\">AI</strong> — बताएँ कि आप क्या ढूँढ़ना चाहते हैं (“सबसे मज़ेदार पल”, “वह हिस्सा जहाँ मैं कीमतें समझाता हूँ” या “सबसे यादगार पंक्ति”)। आपके डिवाइस पर सुविधा उपलब्ध होने पर Apple Intelligence अनुरोध समझने और समीक्षा के लिए पल सुझाने में मदद कर सकता है।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip 1.5 में Apple Intelligence कैसे काम करता है"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip 1.5 में AI रेसिपी के लिए डिवाइस पर चलने वाला अनुरोध सहायक जोड़ा गया है। यह अलग शीट में खुलता है और अनुरोध स्पष्ट करने या यह अलग करने में मदद कर सकता है कि चित्रों में क्या ढूँढ़ना है और बोली गई बातों में क्या। सुझाव की समीक्षा करें, उसे संपादित करें या रद्द करके अपना मूल अनुरोध बनाए रखें। यह क्लिप की संख्या या अवधि वाले नियंत्रण नहीं बदलता और आपकी स्वीकृति के बिना खोज शुरू नहीं करता।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iOS 27 चलाने वाले iPhone पर, यदि Apple Intelligence मॉडल उपलब्ध हो और भाषा समर्थित हो, तो ReelClip 1.5 दृश्य अनुरोधों के लिए Foundation Models फ़्रेमवर्क के इमेज इनपुट का भी उपयोग कर सकता है। ऐप नमूने के तौर पर चुने गए स्थिर फ़्रेमों की जाँच करता है और सुझाए गए पल को उसके स्रोत समय से जोड़ता है। iOS 26 पर दृश्य अनुरोध अब भी डिवाइस पर Vision अवलोकनों का उपयोग करते हैं। Apple की<!-- --> <a class=\"text-accent hover:underline\" href=\"https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting\" rel=\"noreferrer\" target=\"_blank\">Foundation Models के साथ इमेज प्रॉम्प्टिंग की मार्गदर्शिका</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "यह चुने हुए फ़्रेमों का विश्लेषण है, हर फ़्रेम को लगातार देखने की प्रक्रिया नहीं। दो नमूनों के बीच होने वाली छोटी कार्रवाई छूट सकती है, और चुने गए पल की आपको फिर भी समीक्षा करनी चाहिए। दृश्य विश्लेषण संगीत, मौन, बोलने के लहजे या केवल ध्वनि पर निर्भर अन्य शर्तों की पुष्टि नहीं कर सकता।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "उपलब्धता की जाँच 25 अक्टूबर 2026 को की गई: Apple की सार्वजनिक App Store सूची में अभी भी संस्करण 1.4.3 है। अनुरोध सहायक और iOS 27 का इमेज इनपुट पथ ReelClip 1.5 TestFlight बिल्ड 518 में हैं, इसलिए ये सुविधाएँ अभी सार्वजनिक App Store संस्करण में उपलब्ध नहीं हैं। सीधे इमेज इनपुट के लिए iOS 27, समर्थित भाषा और उपलब्ध Apple Intelligence मॉडल भी आवश्यक हैं।"
     },
     {
       "kind": "html",

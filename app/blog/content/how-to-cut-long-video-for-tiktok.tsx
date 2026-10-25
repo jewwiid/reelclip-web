@@ -14,12 +14,12 @@ export const POST_META = {
   slug: "how-to-cut-long-video-for-tiktok",
   title: "How to cut a long video for TikTok on iPhone",
   description:
-    "Prepare clips from a long recording with ReelClip’s Cut controls, review the framing and captions, then save the videos you want to upload to TikTok.",
+    "Prepare a long recording for TikTok on iPhone, review ReelClip’s cut modes, and learn how Apple Intelligence works with sampled video frames.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-21",
+  updatedAt: "2026-10-25",
   category: "Tutorial" as const,
   primaryKeyword: "how to cut a long video for tiktok",
-  readMinutes: 5,
+  readMinutes: 6,
 };
 
 export default function Post() {
@@ -84,11 +84,50 @@ export default function Post() {
           <li>
             <strong className="text-text">AI</strong> — describe what you
             want (“the funniest moment”, “the part where I explain the
-            pricing”, “the most quotable line”) and on-device Apple
-            Intelligence can propose moments for you to review when the
-            feature is available on your device.
+            pricing”, “the most quotable line”). Apple Intelligence can help
+            interpret the request and propose moments for you to review when
+            the feature is available on your device.
           </li>
         </PostUl>
+
+        <PostH2>How Apple Intelligence works in ReelClip 1.5</PostH2>
+        <PostP>
+          ReelClip 1.5 adds an on-device request assistant for AI recipes. It
+          opens in a separate sheet and can help clarify a request or separate
+          what should be found in pictures from what should be found in
+          speech. Review the suggestion, edit it, or cancel and keep your
+          original wording. It does not change the clip-count or duration
+          controls, and it does not start a search until you accept.
+        </PostP>
+        <PostP>
+          On an iPhone running iOS 27 with an available Apple Intelligence
+          model and a supported language, ReelClip 1.5 can also use the
+          Foundation Models framework’s image input for visual requests. The
+          app checks sampled still frames and ties a proposed moment to its
+          source time. On iOS 26, visual requests continue to use on-device
+          Vision observations instead. See Apple’s{" "}
+          <PostLink
+            href="https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting"
+            external
+          >
+            guide to image prompting with Foundation Models
+          </PostLink>
+          .
+        </PostP>
+        <PostP>
+          This is sampled-frame analysis, not continuous viewing of every
+          frame. A brief action between samples can be missed, and a selected
+          moment still needs your review. Visual analysis cannot confirm music,
+          silence, tone of voice, or other sound-only conditions.
+        </PostP>
+        <PostP>
+          Availability checked 25 October 2026: Apple’s public App Store
+          listing is still version 1.4.3. The request assistant and the iOS 27
+          image-input path are in ReelClip 1.5 TestFlight build 518, so these
+          features are not yet in the public App Store version. Direct image
+          input also requires iOS 27, a supported language, and an available
+          Apple Intelligence model.
+        </PostP>
 
         <PostH3>3. Review every planned clip</PostH3>
         <PostP>

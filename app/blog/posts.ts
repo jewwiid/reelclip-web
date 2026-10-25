@@ -180,12 +180,12 @@ export const BLOG_POSTS: BlogPost[] = [
     title:
       "How to cut a long video for TikTok on iPhone",
     description:
-      "Prepare clips from a long recording with ReelClip’s Cut controls, review the framing and captions, then save the videos you want to upload to TikTok.",
+      "Prepare a long recording for TikTok on iPhone, review ReelClip’s cut modes, and learn how Apple Intelligence works with sampled video frames.",
     publishedAt: "2026-08-24",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-25",
     category: "Tutorial",
     primaryKeyword: "how to cut a long video for tiktok",
-    readMinutes: 5,
+    readMinutes: 6,
   },
   {
     slug: "extract-clip-from-podcast",

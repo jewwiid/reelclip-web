@@ -1,13 +1,13 @@
 {
   "slug": "how-to-cut-long-video-for-tiktok",
   "title": "So schneidest du ein langes Video für TikTok auf dem iPhone",
-  "description": "Bereite Clips aus einer langen Aufnahme mit ReelClips Cut-Steuerungen vor, überprüfe Bildschnitt und Untertitel, und speichere dann die Videos, die du auf TikTok hochladen möchtest.",
+  "description": "Bereite eine lange Aufnahme auf dem iPhone für TikTok vor, prüfe die Schnittmodi von ReelClip und erfahre, wie Apple Intelligence ausgewählte Videobilder analysiert.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-25",
   "category": "Tutorial",
   "primaryKeyword": "wie man ein langes video für tiktok schneidet",
   "readMinutes": 5,
-  "sourceFingerprint": "b78e460525c5bfebbd22d83fd81bb5ec89298334f0d3bbe0edaca67d6a920a9b",
+  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
   "schemaVersion": 1,
   "locale": "de",
   "blocks": [
@@ -85,7 +85,47 @@
       "attributes": {
         "class": "list-disc pl-6 space-y-2 text-text-muted"
       },
-      "html": "<li><strong class=\"text-text\">Cut</strong> — teilt das Video in gleich lange Abschnitte. Gut geeignet, wenn die Aufnahme klare Segmente hat (Interviewabschnitte, Listenpunkte, Kapitel).</li><li><strong class=\"text-text\">Transcript</strong> — führt die Spracherkennung auf dem Gerät durch, findet die Pausen und ermöglicht es dir, die Totzeiten zu kürzen. Gut geeignet für Talking-Head-Inhalte und Podcasts.</li><li><strong class=\"text-text\">Slice</strong> — wähle selbst einen Moment aus, verschiebe die Auswahl und verfeinere Anfang und Ende.</li><li><strong class=\"text-text\">AI</strong> — beschreibe, was du möchtest („der lustigste Moment“, „der Teil, in dem ich die Preise erkläre“, „das am meisten zitierfähige Zitat“), und die on-device Apple Intelligence kann dir Momente vorschlagen, die du überprüfen kannst, sobald die Funktion auf deinem Gerät verfügbar ist.</li>"
+      "html": "<li><strong class=\"text-text\">Cut</strong> — teilt das Video in gleich lange Abschnitte. Gut geeignet, wenn die Aufnahme klare Segmente hat (Interviewabschnitte, Listenpunkte, Kapitel).</li><li><strong class=\"text-text\">Transcript</strong> — führt die Spracherkennung auf dem Gerät durch, findet die Pausen und ermöglicht es dir, die Totzeiten zu kürzen. Gut geeignet für Talking-Head-Inhalte und Podcasts.</li><li><strong class=\"text-text\">Slice</strong> — wähle selbst einen Moment aus, verschiebe die Auswahl und verfeinere Anfang und Ende.</li><li><strong class=\"text-text\">AI</strong> — beschreibe, was du finden möchtest („den lustigsten Moment“, „die Stelle, an der ich die Preise erkläre“ oder „das zitierwürdigste Zitat“). Apple Intelligence kann helfen, die Anfrage zu verstehen und Momente vorzuschlagen, die du prüfen kannst, wenn die Funktion auf deinem Gerät verfügbar ist.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "So funktioniert Apple Intelligence in ReelClip 1.5"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip 1.5 ergänzt AI-Rezepte um einen Anforderungsassistenten, der auf dem Gerät läuft. Er öffnet sich in einem separaten Sheet und kann helfen, eine Anfrage zu präzisieren oder zu trennen, was in Bildern und was in Sprache gefunden werden soll. Prüfe den Vorschlag, bearbeite ihn oder brich ab, um deinen ursprünglichen Wortlaut beizubehalten. Der Assistent ändert weder die Steuerelemente für Clip-Anzahl und -Dauer noch startet er eine Suche, bevor du zustimmst."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Auf einem iPhone mit iOS 27, einem verfügbaren Apple-Intelligence-Modell und einer unterstützten Sprache kann ReelClip 1.5 für visuelle Anfragen auch die Bildeingabe des Foundation-Models-Frameworks nutzen. Die App prüft abgetastete Standbilder und verknüpft einen vorgeschlagenen Moment mit seiner Position im Quellvideo. Unter iOS 26 verwenden visuelle Anfragen weiterhin die lokalen Vision-Beobachtungen. Siehe Apples<!-- --> <a class=\"text-accent hover:underline\" href=\"https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting\" rel=\"noreferrer\" target=\"_blank\">Leitfaden zur Bild-Prompt-Eingabe mit Foundation Models</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Dabei werden ausgewählte Standbilder analysiert, nicht jedes Videobild durchgehend betrachtet. Eine kurze Aktion zwischen zwei Stichproben kann übersehen werden, und den vorgeschlagenen Moment solltest du trotzdem prüfen. Eine visuelle Analyse kann Musik, Stille, den Tonfall oder andere rein akustische Bedingungen nicht bestätigen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verfügbarkeit geprüft am 25. Oktober 2026: Apples öffentliche App-Store-Seite zeigt weiterhin Version 1.4.3. Der Anforderungsassistent und die iOS-27-Bildeingabe sind in ReelClip 1.5 TestFlight Build 518 enthalten und daher noch nicht in der öffentlichen App-Store-Version verfügbar. Die direkte Bildeingabe erfordert außerdem iOS 27, eine unterstützte Sprache und ein verfügbares Apple-Intelligence-Modell."
     },
     {
       "kind": "html",
