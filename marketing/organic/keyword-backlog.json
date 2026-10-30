@@ -45,7 +45,7 @@
    "published": "2026-10-20"
   },
   {
-   "status": "planned",
+   "status": "covered-by-existing-guides",
    "format": "alternatives",
    "proposed_slug": "capcut-alternatives",
    "fit": 4,
@@ -55,7 +55,9 @@
     "apps like capcut": 1000,
     "capcut alternative no watermark": 10
    },
-   "angle": "Either broaden the existing capcut-alternative-no-watermark guide (preferred by the brief) or redirect it to a fuller roundup. Do not create two pages for one intent."
+   "angle": "Broaden the existing no-watermark guide into a fair alternatives comparison. Do not create two pages for one intent.",
+   "covered_by": ["https://www.reelclips.app/blog/capcut-alternative-no-watermark"],
+   "coverage_note": "Broadened the existing page on 2026-10-30 to compare iPhone editing workflows; retained one route for this search intent."
   },
   {
    "status": "planned",

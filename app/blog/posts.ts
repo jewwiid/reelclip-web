@@ -167,13 +167,13 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "capcut-alternative-no-watermark",
-    title: "A CapCut alternative without a watermark: choose by the edit you need",
-    description: "Compare ReelClip for selecting and captioning short clips with iMovie for a timeline edit, and check the actual export requirements before choosing a plan.",
+    title: "CapCut alternatives for iPhone: choose by your editing job",
+    description: "Compare iMovie, VN, InShot and ReelClip by editing job, and learn when CapCut can export without a watermark.",
     publishedAt: "2026-08-24",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-30",
     category: "Comparison",
-    primaryKeyword: "capcut alternative no watermark",
-    readMinutes: 4,
+    primaryKeyword: "capcut alternative",
+    readMinutes: 5,
   },
   {
     slug: "how-to-cut-long-video-for-tiktok",
