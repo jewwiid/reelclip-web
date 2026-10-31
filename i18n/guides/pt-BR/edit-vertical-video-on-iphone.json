@@ -3,11 +3,11 @@
   "title": "Como editar vídeo vertical no iPhone (Reels, TikTok, Shorts)",
   "description": "Escolha e refine momentos de filmagens na vertical no ReelClip, revise as legendas e o enquadramento, e salve os clipes que quiser postar.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "Como fazer",
   "primaryKeyword": "como editar vídeo vertical no iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "Comece com uma filmagem na vertical e escolha os momentos que quer manter. No ReelClip, Slice seleciona um intervalo de tempo; ele não decide qual parte da imagem deve se ajustar a uma proporção diferente. Verifique o enquadramento separadamente antes de postar."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Quer encurtar um vídeo no Fotos ou dividi-lo em um ponto específico no iMovie? Veja nosso <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-a-video-on-iphone\">guia passo a passo para cortar vídeos no iPhone</a>. Este guia se concentra em escolher momentos de uma gravação vertical e conferir o enquadramento."
     },
     {
       "kind": "tutorial",

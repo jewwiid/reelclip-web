@@ -3,11 +3,11 @@
   "title": "Comment éditer une vidéo verticale sur iPhone (Reels, TikTok, Shorts)",
   "description": "Choisissez et affinez les moments d'un plan portrait dans ReelClip, vérifiez les sous-titres et le cadrage, puis enregistrez les extraits que vous souhaitez publier.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "Mode d'emploi",
   "primaryKeyword": "comment éditer une vidéo verticale sur iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "Commencez par un enregistrement portrait et choisissez les moments que vous voulez conserver. Dans ReelClip, Slice sélectionne une plage de temps ; il ne détermine pas quelle partie de l'image doit s'adapter à un ratio d'aspect différent. Vérifiez le cadrage séparément avant de publier."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vous voulez raccourcir une seule vidéo dans Photos ou la scinder à un point précis dans iMovie ? Consultez notre <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-a-video-on-iphone\">guide pas à pas pour couper une vidéo sur iPhone</a>. Ce guide se concentre sur le choix de moments dans une vidéo portrait et la vérification du cadrage."
     },
     {
       "kind": "tutorial",

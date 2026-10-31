@@ -6,7 +6,7 @@ export const POST_META = {
   title: "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
   description: "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
   publishedAt: "2026-08-25",
-  updatedAt: "2026-10-21",
+  updatedAt: "2026-10-31",
   category: "How-to" as const,
   primaryKeyword: "how to edit vertical video on iphone",
   readMinutes: 4,
@@ -21,6 +21,12 @@ export default function Post() {
           keep. In ReelClip, Slice selects a time range; it does not decide
           which part of the picture should fit a different aspect ratio.
           Check the framing separately before you post.
+        </PostP>
+        <PostP>
+          Looking to trim one video in Photos or split it at a point in iMovie?
+          See the <PostLink href="/blog/how-to-cut-a-video-on-iphone">step-by-step iPhone cutting guide</PostLink>.
+          This walkthrough focuses on choosing moments from portrait footage
+          and checking their framing.
         </PostP>
         <GuideVideo id="choose-moment" />
         <PostH2>Choose a moment with Slice</PostH2>

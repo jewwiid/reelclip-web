@@ -3,11 +3,11 @@
   "title": "iPhoneで縦型動画を編集する方法（Reels、TikTok、Shorts）",
   "description": "ReelClipで縦型映像から瞬間を選び、絞り込み、キャプションとフレーミングを確認して、投稿したいクリップを保存します。",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "使い方",
   "primaryKeyword": "iphoneで縦型動画を編集する方法",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "ja",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "縦型の録画から始めて、残したい瞬間を選びます。ReelClipでは、Sliceで時間範囲を選択しますが、異なるアスペクト比に合わせるべき画面のどの部分かを決定するものではありません。投稿前にフレーミングは別途確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "写真アプリで1本の動画をトリミングしたり、iMovieで任意の位置で分割したりしたい場合は、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-a-video-on-iphone\">iPhoneで動画をカットする手順ガイド</a>をご覧ください。このガイドでは、縦向きの録画から残す場面を選び、フレーミングを確認する方法を説明します。"
     },
     {
       "kind": "tutorial",

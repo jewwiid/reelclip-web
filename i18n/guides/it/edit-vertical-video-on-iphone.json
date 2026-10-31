@@ -3,11 +3,11 @@
   "title": "Come montare video verticali su iPhone (Reels, TikTok, Shorts)",
   "description": "Scegli e affina i momenti dalle riprese in verticale in ReelClip, verifica i sottotitoli e l'inquadratura, e salva le clip che vuoi pubblicare.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "Tutorial",
   "primaryKeyword": "come montare video verticali su iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "it",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "Inizia con una ripresa in verticale e scegli i momenti che vuoi conservare. In ReelClip, Slice seleziona un intervallo di tempo; non decide quale parte dell'immagine debba adattarsi a un diverso rapporto d'aspetto. Verifica l'inquadratura separatamente prima di pubblicare."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vuoi accorciare un singolo video in Foto o dividerlo in un punto preciso con iMovie? Segui la nostra <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-a-video-on-iphone\">guida passo passo per tagliare un video su iPhone</a>. Questa guida si concentra sulla scelta dei momenti da una registrazione verticale e sul controllo dell’inquadratura."
     },
     {
       "kind": "tutorial",

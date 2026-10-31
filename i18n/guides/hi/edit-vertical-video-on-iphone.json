@@ -3,11 +3,11 @@
   "title": "iPhone पर वर्टिकल वीडियो कैसे एडिट करें (Reels, TikTok, Shorts)",
   "description": "ReelClip में पोर्ट्रेट फुटेज से पलों को चुनें और परिष्कृत करें, कैप्शन और फ्रेमिंग की समीक्षा करें, और जिन क्लिप्स को पोस्ट करना चाहते हैं उन्हें सेव करें।",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "कैसे करें",
   "primaryKeyword": "iphone पर vertical video edit kaise kare",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "hi",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "एक पोर्ट्रेट रिकॉर्डिंग से शुरू करें और जिन पलों को रखना चाहते हैं उन्हें चुनें। ReelClip में, Slice एक समय सीमा चुनता है; यह यह निर्णय नहीं करता कि चित्र के किस भाग को एक अलग आस्पेक्ट रेशियो में फिट करना चाहिए। पोस्ट करने से पहले फ्रेमिंग की अलग से जाँच करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "क्या आप Photos में एक वीडियो छोटा करना या iMovie में किसी खास बिंदु पर उसे बाँटना चाहते हैं? iPhone पर वीडियो काटने की हमारी <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-a-video-on-iphone\">चरण-दर-चरण गाइड</a> देखें। यह गाइड पोर्ट्रेट रिकॉर्डिंग से पल चुनने और फ्रेमिंग की जाँच करने पर केंद्रित है।"
     },
     {
       "kind": "tutorial",

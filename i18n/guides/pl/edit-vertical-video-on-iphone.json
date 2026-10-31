@@ -3,11 +3,11 @@
   "title": "Jak edytować wideo pionowe na iPhonie (Reels, TikTok, Shorts)",
   "description": "Wybieraj i doprecyzowuj momenty z ujęć portretowych w ReelClip, przeglądaj napisy i kadrowanie, a następnie zapisz klipy, które chcesz opublikować.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "Instrukcja",
   "primaryKeyword": "jak edytować wideo pionowe na iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "Zacznij od nagrania portretowego i wybierz momenty, które chcesz zachować. W ReelClip Slice wybiera zakres czasowy; nie decyduje on, która część obrazu powinna pasować do innego proporcji. Sprawdź kadrowanie osobno przed opublikowaniem."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Chcesz skrócić jeden film w aplikacji Zdjęcia albo podzielić go w wybranym miejscu w iMovie? Zobacz nasz <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-a-video-on-iphone\">przewodnik krok po kroku po przycinaniu wideo na iPhonie</a>. Ten poradnik skupia się na wybieraniu momentów z pionowego nagrania i sprawdzaniu kadru."
     },
     {
       "kind": "tutorial",

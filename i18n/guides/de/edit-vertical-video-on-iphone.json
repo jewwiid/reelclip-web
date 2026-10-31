@@ -3,11 +3,11 @@
   "title": "So bearbeitest du vertikale Videos auf dem iPhone (Reels, TikTok, Shorts)",
   "description": "Wähle und verfeinere Momente aus Portrait-Aufnahmen in ReelClip, überprüfe Untertitel und Bildschnitt und speichere die Clips, die du posten möchtest.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "Anleitung",
   "primaryKeyword": "how to edit vertical video on iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "de",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "Beginne mit einer Portrait-Aufnahme und wähle die Momente, die du behalten möchtest. In ReelClip wählt Slice einen Zeitbereich aus; es entscheidet nicht, welcher Teil des Bildes in ein anderes Seitenverhältnis passen soll. Überprüfe den Bildschnitt separat, bevor du postest."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Möchtest du ein einzelnes Video in Fotos kürzen oder es in iMovie an einer bestimmten Stelle teilen? Lies unseren <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-a-video-on-iphone\">Schritt-für-Schritt-Guide zum Schneiden von Videos auf dem iPhone</a>. Dieser Guide konzentriert sich darauf, Momente aus Hochformataufnahmen auszuwählen und den Bildausschnitt zu prüfen."
     },
     {
       "kind": "tutorial",

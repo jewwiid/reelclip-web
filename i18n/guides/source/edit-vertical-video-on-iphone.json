@@ -3,11 +3,11 @@
   "title": "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
   "description": "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "How-to",
   "primaryKeyword": "how to edit vertical video on iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -17,6 +17,14 @@
         "class": "text-text-muted"
       },
       "html": "Start with a portrait recording and choose the moments you want to keep. In ReelClip, Slice selects a time range; it does not decide which part of the picture should fit a different aspect ratio. Check the framing separately before you post."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Looking to trim one video in Photos or split it at a point in iMovie? See the <a class=\"text-accent hover:underline\" href=\"/blog/how-to-cut-a-video-on-iphone\">step-by-step iPhone cutting guide</a>. This walkthrough focuses on choosing moments from portrait footage and checking their framing."
     },
     {
       "kind": "tutorial",

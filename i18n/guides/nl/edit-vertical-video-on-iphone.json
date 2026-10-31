@@ -3,11 +3,11 @@
   "title": "Hoe je verticale video bewerkt op iPhone (Reels, TikTok, Shorts)",
   "description": "Kies en verfijn momenten uit portretopnames in ReelClip, controleer ondertitels en framing, en sla de clips op die je wilt posten.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "Hoe het werkt",
   "primaryKeyword": "hoe je verticale video bewerkt op iphone",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "Begin met een portretopname en kies de momenten die je wilt houden. In ReelClip selecteert Slice een tijdsbereik; het bepaalt niet welk deel van het beeld moet passen bij een andere beeldverhouding. Controleer de framing apart voordat je post."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wil je één video inkorten in Foto’s of op een specifiek punt splitsen in iMovie? Bekijk dan onze <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-a-video-on-iphone\">stap-voor-stapgids voor video knippen op iPhone</a>. Deze gids richt zich op momenten kiezen uit verticale beelden en de kadrering controleren."
     },
     {
       "kind": "tutorial",

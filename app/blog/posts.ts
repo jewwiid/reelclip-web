@@ -100,7 +100,7 @@ export const BLOG_POSTS: BlogPost[] = [
     title: "How to edit vertical video on iPhone (Reels, TikTok, Shorts)",
     description: "Choose and refine moments from portrait footage in ReelClip, review captions and framing, and save the clips you want to post.",
     publishedAt: "2026-08-25",
-    updatedAt: "2026-10-21",
+    updatedAt: "2026-10-31",
     category: "How-to",
     primaryKeyword: "how to edit vertical video on iphone",
     readMinutes: 4,

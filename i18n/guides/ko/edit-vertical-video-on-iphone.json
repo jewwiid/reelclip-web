@@ -3,11 +3,11 @@
   "title": "iPhone에서 세로 영상 편집하는 방법 (Reels, TikTok, Shorts)",
   "description": "ReelClip에서 세로 촬영 영상의 순간을 선택하고 다듬고, 자막과 프레이밍을 확인한 뒤, 게시하고 싶은 클립을 저장하세요.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-21",
+  "updatedAt": "2026-10-31",
   "category": "사용 방법",
   "primaryKeyword": "iphone에서 세로 영상 편집하는 방법",
   "readMinutes": 4,
-  "sourceFingerprint": "4507712083ff9cdd5aa85e437805ace60bb0d05b96ac9c3bb29751d7add1672d",
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -18,6 +18,14 @@
         "class": "text-text-muted"
       },
       "html": "세로 녹화 영상으로 시작해서 유지하고 싶은 순간을 선택하세요. ReelClip에서 Slice은 시간 범위를 선택합니다. 화면의 어떤 부분을 다른 화면비에 맞춰야 할지 결정하지는 않습니다. 게시 전에 프레이밍을 별도로 확인하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "사진 앱에서 동영상 하나를 자르거나 iMovie에서 원하는 지점으로 나누려면 <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-a-video-on-iphone\">iPhone 동영상 자르기 단계별 가이드</a>를 참고하세요. 이 가이드는 세로 영상에서 순간을 고르고 구도를 확인하는 방법에 초점을 둡니다."
     },
     {
       "kind": "tutorial",
