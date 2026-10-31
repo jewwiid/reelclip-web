@@ -1,0 +1,246 @@
+{
+  "slug": "how-to-cut-long-video-for-tiktok",
+  "title": "iPhone पर TikTok के लिए लंबे वीडियो को कैसे काटें",
+  "description": "iPhone पर TikTok के लिए लंबी रिकॉर्डिंग तैयार करें, ReelClip के कट मोड देखें और जानें कि Apple Intelligence चुने हुए वीडियो फ़्रेमों का विश्लेषण कैसे करता है।",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-25",
+  "category": "ट्यूटोरियल",
+  "primaryKeyword": "tiktok के लिए लंबे वीडियो को कैसे काटें",
+  "readMinutes": 5,
+  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "आपके पास 12 मिनट की टॉकिंग-हेड वीडियो, एक स्ट्रीम रिकॉर्डिंग, या एक लंबा व्लॉग है — और आप इसमें से तीन या चार TikTok-रेडी क्लिप चाहते हैं। आप ये क्लिप सीधे अपने iPhone पर तैयार कर सकते हैं, हर पल की समीक्षा कर सकते हैं, और जिन्हें पोस्ट करना चाहते हैं उन्हें सेव कर सकते हैं। इसमें कितना समय लगेगा यह रिकॉर्डिंग, आपके डिवाइस, और आपके एडिटिंग की मात्रा पर निर्भर करता है।"
+    },
+    {
+      "kind": "tutorial",
+      "id": "cut-clips"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "आपको क्या चाहिए"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>वह लंबी रिकॉर्डिंग जो पहले से ही आपकी Photos लाइब्रेरी में है, या Files ऐप में।</li><li>iPhone जिसमें iOS 17 या बाद का संस्करण चल रहा हो, जैसा कि वर्तमान ऐप रिलीज़ के लिए सूचीबद्ध है।</li><li><a class=\"text-accent hover:underline\" href=\"/hi/\">ReelClip</a> (आयात और पूर्वावलोकन के लिए निःशुल्क; सहेजने या निर्यात करने के लिए Creator मोड की आवश्यकता होती है)। AI सुविधाओं के लिए अतिरिक्त हार्डवेयर और सॉफ्टवेयर आवश्यकताएँ हैं, जिसमें संगत, सक्षम Apple Intelligence शामिल है। अपने डिवाइस पर उपलब्धता जाँचें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "7-चरणीय वर्कफ़्लो"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "1. रिकॉर्डिंग को ReelClip में इम्पोर्ट करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "अपनी रिकॉर्डिंग को Photos या Files से इम्पोर्ट करें। ReelClip इसे अपने प्राइवेट सैंडबॉक्स में कॉपी करता है — Photos में मूल फ़ाइल अछूती रहती है, और कुछ भी अपलोड नहीं होता।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "2. सही कट मोड चुनें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "चार कट मोड हैं। वह चुनें जो आपके सोर्स मटेरियल से मेल खाता हो:"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Cut</strong> — वीडियो को बराबर अवधि वाले टुकड़ों में बाँटता है। तब अच्छा है जब रिकॉर्डिंग में स्पष्ट खंड हों (इंटरव्यू के हिस्से, सूची की चीज़ें, अध्याय)।</li><li><strong class=\"text-text\">Transcript</strong> — डिवाइस पर स्पीच रिकग्निशन चलाता है, ठहराव ढूँढता है, और आपको बेकार हवा काटने देता है। बातचीत वाले कॉन्टेंट और पॉडकास्ट के लिए अच्छा है।</li><li><strong class=\"text-text\">Slice</strong> — खुद एक पल चुनें, चयन को हिलाएँ और उसकी शुरुआत और अंत को बेहतर बनाएँ।</li><li><strong class=\"text-text\">AI</strong> — बताएँ कि आप क्या ढूँढ़ना चाहते हैं (“सबसे मज़ेदार पल”, “वह हिस्सा जहाँ मैं कीमतें समझाता हूँ” या “सबसे यादगार पंक्ति”)। आपके डिवाइस पर सुविधा उपलब्ध होने पर Apple Intelligence अनुरोध समझने और समीक्षा के लिए पल सुझाने में मदद कर सकता है।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip 1.5 में Apple Intelligence कैसे काम करता है"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip 1.5 में AI रेसिपी के लिए डिवाइस पर चलने वाला अनुरोध सहायक जोड़ा गया है। यह अलग शीट में खुलता है और अनुरोध स्पष्ट करने या यह अलग करने में मदद कर सकता है कि चित्रों में क्या ढूँढ़ना है और बोली गई बातों में क्या। सुझाव की समीक्षा करें, उसे संपादित करें या रद्द करके अपना मूल अनुरोध बनाए रखें। यह क्लिप की संख्या या अवधि वाले नियंत्रण नहीं बदलता और आपकी स्वीकृति के बिना खोज शुरू नहीं करता।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iOS 27 चलाने वाले iPhone पर, यदि Apple Intelligence मॉडल उपलब्ध हो और भाषा समर्थित हो, तो ReelClip 1.5 दृश्य अनुरोधों के लिए Foundation Models फ़्रेमवर्क के इमेज इनपुट का भी उपयोग कर सकता है। ऐप नमूने के तौर पर चुने गए स्थिर फ़्रेमों की जाँच करता है और सुझाए गए पल को उसके स्रोत समय से जोड़ता है। iOS 26 पर दृश्य अनुरोध अब भी डिवाइस पर Vision अवलोकनों का उपयोग करते हैं। Apple की<!-- --> <a class=\"text-accent hover:underline\" href=\"https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting\" rel=\"noreferrer\" target=\"_blank\">Foundation Models के साथ इमेज प्रॉम्प्टिंग की मार्गदर्शिका</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "यह चुने हुए फ़्रेमों का विश्लेषण है, हर फ़्रेम को लगातार देखने की प्रक्रिया नहीं। दो नमूनों के बीच होने वाली छोटी कार्रवाई छूट सकती है, और चुने गए पल की आपको फिर भी समीक्षा करनी चाहिए। दृश्य विश्लेषण संगीत, मौन, बोलने के लहजे या केवल ध्वनि पर निर्भर अन्य शर्तों की पुष्टि नहीं कर सकता।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "उपलब्धता की जाँच 25 अक्टूबर 2026 को की गई: Apple की सार्वजनिक App Store सूची में अभी भी संस्करण 1.4.3 है। अनुरोध सहायक और iOS 27 का इमेज इनपुट पथ ReelClip 1.5 TestFlight बिल्ड 518 में हैं, इसलिए ये सुविधाएँ अभी सार्वजनिक App Store संस्करण में उपलब्ध नहीं हैं। सीधे इमेज इनपुट के लिए iOS 27, समर्थित भाषा और उपलब्ध Apple Intelligence मॉडल भी आवश्यक हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "3. हर planned clip की समीक्षा करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "यह वह कदम है जो लोग छोड़ देते हैं, और यही वह कदम है जो मायने रखता है। हर planned clip पर टैप करें, उसे शुरू से अंत तक देखें, और या तो रखें, छाँटें, या अस्वीकार करें। ReelClip कभी auto-export नहीं करता। आप तय करते हैं कि क्या भेजा जाए।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "4. हर clip को TikTok लंबाई तक छाँटें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "हर clip को एक पूरी विचार दें। शुरुआत को कसें, कोई भी अनावश्यक lead-in हटाएँ, और किसी ऐसे व्यक्ति के लिए पर्याप्त संदर्भ रखें जिसने पूरी रिकॉर्डिंग कभी नहीं देखी। पोस्ट करने से पहले TikTok की मौजूदा upload सीमाएँ देखें; कोई सार्वभौमिक आदर्श clip लंबाई नहीं है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "5. vertical post के लिए framing जाँचें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "अगर आपका स्रोत वीडियो landscape है, तो आपके पास दो विकल्प हैं: जैसा है वैसा export करें, या अपने finishing editor में vertical post के लिए crop करें। समय सीमा चुनना और picture framing चुनना अलग-अलग फैसले हैं; पोस्ट करने से पहले दोनों की जाँच करें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "6. बैच को Photos में सहेजें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong class=\"text-text\">Review</strong> पर टैप करें और क्लिप्स के तैयार होने का इंतज़ार करें। आउटपुट चलाएं, फिर Photos के लिए सेव एक्शन चुनें। ऐप छोड़ने से पहले पूर्णता की पुष्टि का इंतज़ार करें। तैयार वीडियो को सेव या एक्सपोर्ट करने के लिए Creator मोड की आवश्यकता होती है; मूल वीडियो अछूते रहते हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "7. Photos से TikTok पर upload करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "TikTok खोलें, plus बटन टैप करें, फिर<!-- --> <strong class=\"text-text\">Upload</strong>। अपनी लाइब्रेरी से पहला clip चुनें। TikTok इसे आपके डिवाइस से लेगा — ReelClip को आपके TikTok account की कभी पहुँच नहीं थी और कभी कुछ TikTok के servers पर upload नहीं किया।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "आम गलतियाँ"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">समीक्षा छोड़ना।</strong> AI मोड अच्छा है लेकिन परफेक्ट नहीं। एक्सपोर्ट करने से पहले हमेशा हर क्लिप को शुरू से अंत तक देखें।</li><li><strong class=\"text-text\">मूल 12-मिनट की फाइल अपलोड करना।</strong> सोर्स रखें, फिर एक वर्जन चुनें जो कहानी और डेस्टिनेशन के अनुकूल हो। छोटा क्लिप ज़्यादा व्यूज़ की गारंटी नहीं देता।</li><li><strong class=\"text-text\">कैप्शन नहीं।</strong> कैप्शन लोगों को बोलचाल समझने में मदद करते हैं जब वे सुन नहीं सकते। पोस्ट करने से पहले अपने फिनिशिंग एडिटर में उनकी स्पेलिंग और टाइमिंग जाँचें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "TikTok के बाद क्या करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "YouTube Shorts या Instagram Reels पर क्रॉस-पोस्टिंग करने से पहले, हर प्लेटफॉर्म की मौजूदा फॉर्मेट और लंबाई की ज़रूरतें जाँचें। एक ही पल के लिए हर डेस्टिनेशन के लिए अलग फ्रेमिंग या अवधि की ज़रूरत हो सकती है। प्लेटफॉर्म के अंतर के लिए हमारा <a class=\"text-accent hover:underline\" href=\"/hi/blog/video-length-social-media-reach\">वीडियो लंबाई और रीच गाइड</a> <!-- -->पढ़ें, या संबंधित वर्कफ्लो के लिए<!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/extract-clip-from-podcast\">पॉडकास्ट हाइलाइट्स कैसे निकालें</a> <!-- -->देखें।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

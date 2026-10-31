@@ -1,0 +1,122 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "DJI D-Log zu Rec.709 auf dem iPhone: Kamera und Aufnahmeprofil zuordnen",
+  "description": "Wähle eine modellspezifische DJI-Konvertierung, wende sie nicht doppelt an und teste das Ergebnis auf dem iPhone, bevor du die komplette Aufnahme bearbeitest.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "Tutorial",
+  "primaryKeyword": "dji d-log zu rec 709 auf iphone konvertieren",
+  "readMinutes": 4,
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
+  "schemaVersion": 1,
+  "locale": "de",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Um eine DJI-Aufnahme in Rec.709 zu konvertieren, identifiziere die Kamera und den tatsächlich verwendeten Modus, dann wähle die passende Konvertierung. D-Log, D-Log M, D-Log 2, D-Cinelike und HLG sind nicht austauschbare Bezeichnungen für dasselbe Bild."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zuerst die Quelle identifizieren"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Überprüfe die Kameraeinstellungen, die Metadaten der Originaldatei und die Dokumentation der Kamera. Behalte die Originaldatei bei der Übertragung des Footage; eine bearbeitete Kopie aus einer anderen App kann bereits einen Look oder eine Konvertierung angewendet haben."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJIs Modell- und LUT-Tabelle</a> listet die Aufnahmeprofile und verfügbaren Ressourcen auf. Zum Beispiel hat die Pocket 3 eine D-Log M-Konvertierung, während die originale Osmo Pocket und die Pocket 2 mit D-Cinelike gelistet sind. Leite das Profil nicht allein vom Wort Pocket ab."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Die passende Konvertierung wählen"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Nutze <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJIs offizielles Download-Verzeichnis</a> und die Anleitungen für dein genaues Modell. Prüfe sowohl die erwartete Eingabe als auch die Ausgabe. Eine LUT mit Rec.709 im Dateinamen kann trotzdem eine andere Quellenkurve erwarten als die, die du aufgenommen hast."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Prüfe, ob dein Editor die Quellenkonvertierung bereits verwaltet. Die Anwendung einer weiteren Kamerakonvertierung auf eine bestehende kann zu falschem Kontrast und falscher Farbe führen. Für HLG oder einen anderen HDR-Workflow nutze einen Editor und ein Output-Setup, das diese Quelle explizit unterstützt, anstatt anzunehmen, dass eine Log-LUT auch HDR-Tone-Mapping durchführt."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Einen kurzen Abschnitt in ReelClip testen"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importiere die Originalaufnahme und stelle die passende .cube-Datei in Files zur Verfügung.</li><li>Öffne Adjust & Style → LUTs → Import LUT und wähle die Datei aus.</li><li>Befolge die Anweisungen des Anbieters für die Quelleninterpretation. Vergleiche die Vorschau mit dem unbearbeiteten Bild und prüfe mehrere Frames.</li><li>Überprüfe das gerenderte Ergebnis, dann inspiziere ein kurzes gespeichertes Sample. Das Speichern des Videos auf deinem iPhone erfordert den Creator-Modus.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Die aufgezeichnete <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-apply-lut-on-iphone\">ReelClip LUT-Demo</a> zeigt Import- und Stärke-Regler mit einem kreativen Look. Sie verifiziert keine kalibrierte DJI-Konvertierung, jede Eingabekodierung oder jede LUT-Variante. Wenn sich eine technische Datei nicht wie beabsichtigt verhält, verwende einen verifizierten kameraspezifischen Farb-Workflow, bevor du mit dem Schnitt fortfährst."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Weiter nach Farbprüfung"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sobald dein Sample im gewünschten Output-Setup richtig aussieht, wende dieselben überprüften Einstellungen auf die erforderlichen Clips an. Beachte Unterschiede in Belichtung und Weißabgleich zwischen den Aufnahmen. Ein LUT allein lässt unterschiedlich belichtete Shots nicht zusammenpassen."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verwende <a class=\"text-accent hover:underline\" href=\"/de/blog/how-to-cut-long-video-for-tiktok\">Cut</a> für eine geplante Stapelverarbeitung oder den <a class=\"text-accent hover:underline\" href=\"/de/blog/extract-clip-from-podcast\">Transcript-Workflow</a> für gesprochene Passagen. Bewahre eine Kopie der Originalaufnahme auf, damit du die Farbentscheidungen später noch einmal anpassen kannst."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

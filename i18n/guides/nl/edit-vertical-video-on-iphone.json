@@ -1,0 +1,110 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "Hoe je verticale video bewerkt op iPhone (Reels, TikTok, Shorts)",
+  "description": "Kies en verfijn momenten uit portretopnames in ReelClip, controleer ondertitels en framing, en sla de clips op die je wilt posten.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-31",
+  "category": "Hoe het werkt",
+  "primaryKeyword": "hoe je verticale video bewerkt op iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Begin met een portretopname en kies de momenten die je wilt houden. In ReelClip selecteert Slice een tijdsbereik; het bepaalt niet welk deel van het beeld moet passen bij een andere beeldverhouding. Controleer de framing apart voordat je post."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wil je één video inkorten in Foto’s of op een specifiek punt splitsen in iMovie? Bekijk dan onze <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-a-video-on-iphone\">stap-voor-stapgids voor video knippen op iPhone</a>. Deze gids richt zich op momenten kiezen uit verticale beelden en de kadrering controleren."
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies een moment met Slice"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importeer de opname vanuit Foto's of Files, en open dan Clip.</li><li>Kies Slice. Verplaats de selectie naar het deel dat je wilt houden.</li><li>Pas het begin en einde aan zodat de actie of zin genoeg context heeft.</li><li>Tik op Add, en herhaal dit voor andere momenten die je wilt.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De demo gebruikt een kort voorbeeld en drie selecties. Jouw opname kan een ander aantal of een andere lengte van clips nodig hebben. Bekijk elke selectie; een cut die visueel werkt kan nog steeds een gesproken zin onderbreken."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer het beeld en de woorden"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Speel de geplande clips af en controleer hun eerste en laatste frames. Een portretbron heeft al een verticaal beeld; een landschapsbron vereist een aparte framing-beslissing. Het wijzigen van het geselecteerde tijdsbereik cropt het beeld niet automatisch voor een Reel of Short."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor gesproken beeldmateriaal, controleer ook het transcript en de ondertitels. Corrigeer namen en vaktermen, en controleer dan dat de tekst leesbaar blijft over het beeld. Zie de <a class=\"text-accent hover:underline\" href=\"/nl/blog/extract-clip-from-podcast\">transcriptieworkflow</a> <!-- -->voor een voorbeeld met spraak."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Opslaan, dan uploaden"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Kies Review en controleer de voorbereide uitvoer voordat je opslaat naar Foto's. Het opslaan of exporteren van een voltooide video vereist de Creator-modus. Wacht op de bevestiging van het opslaan, open vervolgens de bestemmingsapp en upload het opgeslagen bestand zelf. Controleer de huidige uploadvereisten als je het uitvoerformaat wijzigt."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Als je regelmatig gescheiden clips wilt in plaats van handgekozen momenten, gebruik dan <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">de Cut-workflow</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

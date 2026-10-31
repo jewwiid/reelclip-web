@@ -1,0 +1,110 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "Jak edytować wideo pionowe na iPhonie (Reels, TikTok, Shorts)",
+  "description": "Wybieraj i doprecyzowuj momenty z ujęć portretowych w ReelClip, przeglądaj napisy i kadrowanie, a następnie zapisz klipy, które chcesz opublikować.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-31",
+  "category": "Instrukcja",
+  "primaryKeyword": "jak edytować wideo pionowe na iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zacznij od nagrania portretowego i wybierz momenty, które chcesz zachować. W ReelClip Slice wybiera zakres czasowy; nie decyduje on, która część obrazu powinna pasować do innego proporcji. Sprawdź kadrowanie osobno przed opublikowaniem."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Chcesz skrócić jeden film w aplikacji Zdjęcia albo podzielić go w wybranym miejscu w iMovie? Zobacz nasz <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-a-video-on-iphone\">przewodnik krok po kroku po przycinaniu wideo na iPhonie</a>. Ten poradnik skupia się na wybieraniu momentów z pionowego nagrania i sprawdzaniu kadru."
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wybierz moment za pomocą Slice"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importuj nagranie z Zdjęć lub Files, a następnie otwórz Clip.</li><li>Wybierz Slice. Przesuń zaznaczenie na fragment, który chcesz zachować.</li><li>Dostosuj początek i koniec, aby akcja lub zdanie miały wystarczający kontekst.</li><li>Dotknij Add, a następnie powtórz dla innych momentów, które chcesz.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W demonstracji użyto krótkiego przykładu i trzech zaznaczeń. Twoje nagranie może wymagać innej liczby lub długości klipów. Obejrzyj każde zaznaczenie; cięcie, które działa wizualnie, może nadal przerywać wypowiedziane zdanie."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przejrzyj obraz i słowa"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Odtwórz zaplanowane klipy i sprawdź ich pierwszą i ostatnią klatkę. Źródło portretowe ma już pionowy obraz; źródło poziome wymaga osobnej decyzji dotyczącej kadrowania. Zmiana wybranego zakresu czasowego nie automatycznie przycina obrazu do Reels lub Shorts."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "W przypadku nagrań z mową przejrzyj również transkrypcję i napisy. Popraw imiona i terminy specjalistyczne, a następnie sprawdź, czy tekst pozostaje czytelny na tle obrazu. Zobacz <a class=\"text-accent hover:underline\" href=\"/pl/blog/extract-clip-from-podcast\">przepływ pracy z transkrypcją</a> <!-- -->dla przykładu z wykorzystaniem mowy."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zapisz, a następnie prześlij"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wybierz Review i sprawdź przygotowane wyjście przed zapisaniem do Photos. Zapisanie lub wyeksportowanie gotowego wideo wymaga trybu Creator. Poczekaj na potwierdzenie zapisu, a następnie otwórz docelową aplikację i samodzielnie prześlij zapisany plik. Sprawdź jej aktualne wymagania dotyczące przesyłania, jeśli zmienisz format wyjściowy."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Jeśli chcesz regularnie rozmieszczone klipy zamiast ręcznie wybranych momentów, użyj <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">przepływu pracy Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

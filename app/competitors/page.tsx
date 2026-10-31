@@ -1,3 +1,5 @@
+import { AppStoreLink } from "@/components/app-store-link";
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
@@ -6,7 +8,7 @@ import { Footer } from "@/components/footer";
 import { localizedPath } from "@/i18n/routing";
 import { getDictionary, getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "ReelClip vs CapCut, InShot, VN, OpusClip, and Quik",
   description: "A practical guide to where ReelClip fits alongside CapCut, InShot, VN, OpusClip, and GoPro Quik. On-device clip preparation before your final edit.",
 };
@@ -25,6 +27,10 @@ function LogoTile({ name, logo }: (typeof COMPETITORS)[number]) {
   return <div className="relative h-12 w-12 shrink-0 overflow-hidden rounded-xl bg-surface-2 ring-1 ring-hairline"><Image src={logo} alt={`${name} app icon`} fill sizes="48px" className="object-cover" /></div>;
 }
 
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/competitors", pageMetadata);
+}
+
 export default async function CompetitorsPage() {
   const locale = await getRequestLocale();
   const { competitors: copy } = await getDictionary(locale);
@@ -39,7 +45,7 @@ export default async function CompetitorsPage() {
 
     <section className="border-b border-hairline px-6 py-16 sm:px-10 sm:py-20"><div className="mx-auto max-w-4xl"><SectionHeading eyebrow={copy.otherEyebrow} heading={copy.otherHeading} /><div className="grid gap-4 sm:grid-cols-2">{copy.alternatives.map((item) => <NicheCard key={item.title} {...item} />)}</div></div></section>
 
-    <section className="px-6 py-20 sm:px-10 sm:py-28"><div className="mx-auto max-w-3xl text-center"><h2 className="mb-4 text-3xl font-black tracking-tight sm:text-4xl">{copy.ctaHeading}</h2><p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-text-muted">{copy.ctaBody}</p><div className="flex flex-col items-center justify-center gap-3 sm:flex-row"><a href="https://apps.apple.com/app/reelclip/id6787742864" target="_blank" rel="noreferrer" data-event-name="download_click_compare" className="accent-glow w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep sm:w-auto active:scale-[0.98] ease-out">{copy.download}</a><Link href={localizedPath(locale, "/pricing")} className="w-full rounded-full border border-hairline px-7 py-3.5 text-base font-semibold text-text transition-[background-color,transform] hover:bg-surface sm:w-auto active:scale-[0.98] ease-out">{copy.seePricing}</Link></div></div></section>
+    <section className="px-6 py-20 sm:px-10 sm:py-28"><div className="mx-auto max-w-3xl text-center"><h2 className="mb-4 text-3xl font-black tracking-tight sm:text-4xl">{copy.ctaHeading}</h2><p className="mx-auto mb-8 max-w-xl text-base leading-relaxed text-text-muted">{copy.ctaBody}</p><div className="flex flex-col items-center justify-center gap-3 sm:flex-row"><AppStoreLink target="_blank" rel="noreferrer" data-analytics-event="download_click_compare" className="accent-glow w-full rounded-full bg-accent px-7 py-3.5 text-base font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep sm:w-auto active:scale-[0.98] ease-out">{copy.download}</AppStoreLink><Link href={localizedPath(locale, "/pricing")} className="w-full rounded-full border border-hairline px-7 py-3.5 text-base font-semibold text-text transition-[background-color,transform] hover:bg-surface sm:w-auto active:scale-[0.98] ease-out">{copy.seePricing}</Link></div></div></section>
   </main><Footer /></>;
 }
 

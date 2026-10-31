@@ -1,0 +1,146 @@
+{
+  "slug": "capcut-alternative-no-watermark",
+  "title": "Alternativas ao CapCut no iPhone: escolha pelo tipo de edição",
+  "description": "Compare iMovie, VN, InShot e ReelClip por tarefa e veja quando o CapCut pode exportar sem marca-d’água.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-30",
+  "category": "Comparação",
+  "primaryKeyword": "alternativa ao CapCut",
+  "readMinutes": 5,
+  "sourceFingerprint": "db72bdf1be4c4ac025239ab4e70d80302645c77a2157c205652951f85e267b6b",
+  "schemaVersion": 1,
+  "locale": "pt-BR",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A melhor alternativa ao CapCut depende do que você precisa fazer. Se a ideia é apenas exportar sem marca-d’água, o CapCut informa que uma edição manual padrão pode fazer isso; modelos e recursos premium podem mudar o resultado. Para outros fluxos, compare o iMovie para montar um filme na linha do tempo, o VN para cortes precisos, o InShot para ferramentas sociais e o ReelClip para criar vários clipes a partir de uma gravação longa."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Confira a exportação do CapCut antes de trocar"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A <a class=\"text-accent hover:underline\" href=\"https://www.capcut.com/help/video-without-watermark\" rel=\"noreferrer\" target=\"_blank\">página de ajuda do CapCut sobre marca-d’água</a> explica que um projeto feito no editor padrão pode ser exportado sem marca-d’água. Alguns modelos adicionam um clipe final com o logotipo do CapCut, e modelos ou recursos premium podem ter outras condições de exportação. Antes de trocar de app, remova o clipe final, confira o aviso de exportação e assista ao arquivo salvo até o último quadro. A orientação do CapCut é mais precisa do que dizer que toda exportação tem marca-d’água."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Alternativas ao CapCut no iPhone por tipo de edição"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "iMovie: monte um filme na linha do tempo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Escolha o iMovie se quiser organizar várias tomadas em um filme e adicionar títulos, transições, música ou efeitos. O <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">guia da Apple para iPhone</a> documenta essas ferramentas da linha do tempo. É um bom começo para uma edição tradicional quando a ordem das cenas importa mais do que extrair vários momentos de uma gravação longa."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "VN: corte e divida com controle da linha do tempo"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O <a class=\"text-accent hover:underline\" href=\"https://www.vlognow.me/help/getting-started/editing-101/\" rel=\"noreferrer\" target=\"_blank\">guia oficial de edição do VN</a> explica como aparar, dividir com precisão e escolher a proporção da imagem. Compare o VN se você quiser controlar onde os clipes começam, terminam e aparecem na sequência. O editor e as opções de exportação podem mudar; confira o app e o plano atuais antes de depender de uma configuração específica."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "InShot: adicione ferramentas sociais às imagens selecionadas"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O InShot é outra opção se você procura ferramentas como Auto Captions, efeitos e AI Cut em um editor de vídeo para redes sociais. A <a class=\"text-accent hover:underline\" href=\"https://apps.apple.com/us/app/inshot-video-editor/id997362197\" rel=\"noreferrer\" target=\"_blank\">página do InShot na App Store dos EUA</a> descreve esses recursos e lista o app como gratuito para baixar, com compras dentro do app. A disponibilidade e os recursos pagos variam por região; confira a página local e a tela de exportação."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "ReelClip: crie vários clipes a partir de uma gravação longa"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "O ReelClip é focado em selecionar e criar clipes a partir de gravações longas. Escolha momentos com Slice, divida por quantidade ou intervalo com Cut, edite trechos falados em Transcript ou planeje cortes com AI nos dispositivos compatíveis. Revise os clipes sugeridos antes de salvar; o processamento fica no iPhone. Importar e pré-visualizar é grátis; para salvar ou exportar, é preciso <a class=\"text-accent hover:underline\" href=\"/pt-BR/pricing\">ativar o Creator mode</a>. O ReelClip atende à etapa de transformar uma gravação em clipes separados; use um editor de linha do tempo para montar uma sequência com camadas, música, transições ou sobreposições."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Veja um exemplo de corte em lote no <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">passo a passo do Cut</a>. Para um único corte, o <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-a-video-on-iphone\">guia para cortar vídeo no iPhone</a> começa pelo Fotos da Apple e pelo iMovie."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Compare o arquivo salvo, não só a página do app"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Use uma cópia curta de um vídeo parecido com o que você pretende editar.</li><li>Faça exatamente a edição necessária, incluindo modelo, legenda, música ou efeito.</li><li>Na tela de exportação, confira marca-d’água, plano necessário, resolução e limite de duração.</li><li>Salve um exemplo e assista fora do editor. Confira o primeiro e o último quadro, as legendas, as bordas da imagem e o áudio.</li><li>Guarde a gravação original e compare o arquivo final antes de mover um projeto inteiro.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Baixar um app grátis não significa que todos os efeitos e exportações sejam gratuitos. Da mesma forma, importar ou visualizar grátis não é o mesmo que salvar um vídeo. Confira as condições atuais da sua região antes de investir tempo em uma edição completa."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

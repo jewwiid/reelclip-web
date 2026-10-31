@@ -1,0 +1,146 @@
+{
+  "slug": "capcut-alternative-no-watermark",
+  "title": "CapCut-alternatieven voor iPhone: kies op basis van je bewerking",
+  "description": "Vergelijk iMovie, VN, InShot en ReelClip per taak en ontdek wanneer CapCut zonder watermerk kan exporteren.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-30",
+  "category": "Vergelijking",
+  "primaryKeyword": "CapCut-alternatief",
+  "readMinutes": 5,
+  "sourceFingerprint": "db72bdf1be4c4ac025239ab4e70d80302645c77a2157c205652951f85e267b6b",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Het beste CapCut-alternatief hangt af van je klus. Wil je alleen zonder watermerk exporteren, dan zegt CapCut dat dit met een gewone handmatige bewerking kan; sjablonen en premium onderdelen kunnen het resultaat veranderen. Voor andere workflows kun je iMovie vergelijken voor een filmtijdlijn, VN voor precies trimmen en splitsen, InShot voor socialvideotools en ReelClip voor meerdere clips uit een lange opname."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer de CapCut-export voordat je overstapt"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De <a class=\"text-accent hover:underline\" href=\"https://www.capcut.com/help/video-without-watermark\" rel=\"noreferrer\" target=\"_blank\">CapCut-hulppagina over watermerken</a> zegt dat een project uit de standaardeditor zonder watermerk kan worden geëxporteerd. Sommige sjablonen voegen aan het einde een clip met het CapCut-logo toe; voor premium sjablonen of onderdelen kunnen andere exportvoorwaarden gelden. Verwijder voordat je overstapt de eindclip, controleer de exportmelding en bekijk het opgeslagen bestand tot het laatste frame. Volgens CapCut zelf heeft dus niet elke export een watermerk."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "CapCut-alternatieven voor iPhone per taak"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "iMovie: monteer een film op een tijdlijn"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Kies iMovie als je meerdere opnamen tot één film wilt rangschikken en titels, overgangen, muziek of effecten wilt toevoegen. De <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">iPhone-handleiding van Apple</a> beschrijft deze tijdlijnfuncties. Het is een goed startpunt voor een gewone filmmontage wanneer de volgorde van scènes belangrijker is dan veel momenten uit een lange opname halen."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "VN: trim en splits met controle over de tijdlijn"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De <a class=\"text-accent hover:underline\" href=\"https://www.vlognow.me/help/getting-started/editing-101/\" rel=\"noreferrer\" target=\"_blank\">officiële montagegids van VN</a> beschrijft trimmen, nauwkeurig splitsen en de beeldverhouding kiezen. Vergelijk VN als je zelf wilt bepalen waar clips beginnen, eindigen en in de volgorde staan. De editor en exportopties kunnen veranderen; controleer de huidige app en het abonnement voordat je op een specifieke uitvoerinstelling vertrouwt."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "InShot: voeg socialfuncties toe aan geselecteerde beelden"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "InShot is een andere optie als je functies zoals Auto Captions, effecten en AI Cut in een editor voor socialvideo zoekt. De <a class=\"text-accent hover:underline\" href=\"https://apps.apple.com/us/app/inshot-video-editor/id997362197\" rel=\"noreferrer\" target=\"_blank\">Amerikaanse App Store-pagina van InShot</a> noemt deze functies en vermeldt een gratis download met aankopen in de app. Beschikbaarheid en betaalde functies verschillen per regio; controleer je lokale pagina en het exportscherm."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "ReelClip: maak meerdere clips uit een lange opname"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip richt zich op het selecteren en maken van clips uit langere opnamen. Kies momenten met Slice, splits op aantal of interval met Cut, bewerk gesproken passages in Transcript of plan cuts met AI op ondersteunde apparaten. Bekijk de voorgestelde clips voordat je ze opslaat; de verwerking blijft op je iPhone. Importeren en bekijken is gratis; om op te slaan of te exporteren moet je <a class=\"text-accent hover:underline\" href=\"/nl/pricing\">Creator mode inschakelen</a>.inschakelen. ReelClip past bij de stap van opname naar losse clips; gebruik een tijdlijneditor voor een gelaagde montage met muziek, overgangen of overlays."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Bekijk voor een voorbeeld van een batch de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-long-video-for-tiktok\">Cut-uitleg</a>. Voor één enkele trim begint de <a class=\"text-accent hover:underline\" href=\"/nl/blog/how-to-cut-a-video-on-iphone\">gids voor video knippen op iPhone</a> met Apple Foto’s en iMovie."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Vergelijk het opgeslagen bestand, niet alleen de app-pagina"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Gebruik een korte kopie van beelden die lijken op wat je wilt monteren.</li><li>Voer precies de bewerking uit die je nodig hebt, inclusief sjabloon, ondertitels, muziek of effecten.</li><li>Controleer in het exportscherm het watermerk, het vereiste abonnement, de resolutie en de maximale lengte.</li><li>Sla een voorbeeld op en bekijk het buiten de editor. Controleer het eerste en laatste frame, de ondertitels, beeldranden en het geluid.</li><li>Bewaar de oorspronkelijke opname en vergelijk het eindbestand voordat je een heel project verplaatst.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Gratis downloaden betekent niet altijd dat elk effect of elke export gratis is. Gratis importeren of bekijken is ook niet hetzelfde als een opgeslagen video. Controleer de actuele voorwaarden in jouw regio voordat je tijd in een volledige montage steekt."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

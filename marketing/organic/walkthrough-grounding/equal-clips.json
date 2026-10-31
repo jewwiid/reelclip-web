@@ -1,0 +1,48 @@
+{
+  "schema": 1,
+  "reviewed_on": "2026-10-21",
+  "review_method": "Curated source-meaning cross-check plus full-resolution visual inspection of the two retained output frames; original recorded-action motion observations remain in the unchanged feature-demo review. No new native capture, runtime telemetry or current-build approval was created. Added a readable page URL without changing the reviewed control meanings, observations, steps or media.",
+  "capture_source_match": "not_established_legacy_recording",
+  "original_run": "output/feature-demo-review-20261020/article-video-length-review/equal-sections-v1",
+  "original_review_sha256": "6f548120ce75acfcf41173df1cd95c4122fd42ad99d355f233d58ac41fcfe9f9",
+  "public_reference": {
+    "file": "public/app-reference/equal-clips.json",
+    "sha256": "ff83ff7164744b44d55b45d09a5f3f163c509aee6e968569d1cd2c17c68d51c5"
+  },
+  "catalog_source_tree_sha256": "b34674a1e2e3fb2cdb704efefee8808ce4be243e2c6d026355c9ce09eb20b0b6",
+  "catalog_definitions_sha256": "f26c9f64eb0c14af6f530846275de78a5b1723c0f604cf41f48107ae99f9757b",
+  "control_refs": {
+    "cut": [
+      "parameter:CutMode.fixed"
+    ],
+    "space": [
+      "VideoSlicer/Views/ClipCutRecipeSurface.swift:ClipFixedRecipeControl.body:FixedRecipeEditor:90900cabf389ed5f:1",
+      "VideoSlicer/Views/FixedRecipeEditor.swift:FixedRecipeEditor.buttonInputs:RecipeDurationSelector:0f6b79f87ac3d902:1",
+      "VideoSlicer/Views/FixedRecipeEditor.swift:RecipeDurationSelector.randomButton():longPressRandomButton:7377c4ca1f598d51:1"
+    ],
+    "clip-amount": [
+      "VideoSlicer/Views/ClipCutRecipeSurface.swift:ClipFixedRecipeControl.body:FixedRecipeEditor:90900cabf389ed5f:1",
+      "VideoSlicer/Views/FixedRecipeEditor.swift:FixedRecipeEditor.buttonInputs:RecipeCountSelector:dbe95fbb9bb178f4:1",
+      "VideoSlicer/Views/RecipeCountSelector.swift:RecipeCountSelector.stepper:stepButton:7ff9ff6e978e8874:1"
+    ],
+    "clip-duration": [
+      "VideoSlicer/Views/ClipCutRecipeSurface.swift:ClipFixedRecipeControl.body:FixedRecipeEditor:90900cabf389ed5f:1",
+      "VideoSlicer/Views/FixedRecipeEditor.swift:FixedRecipeEditor.buttonInputs:RecipeDurationSelector:07b1f81f71a25099:1"
+    ],
+    "add": [
+      "parameter:CutMode.fixed",
+      "VideoSlicer/Views/ClipCutRecipeSurface.swift:ClipRecipeAddButton.body:Button:fb7fc3c596ac2ce2:1",
+      "VideoSlicer/Views/ClipCutRecipeSurface.swift:ClipCutRecipeSurface.body:ClipRecipeAddButton:659550f7153d9ca7:1"
+    ]
+  },
+  "frames": [
+    {
+      "public_id": "recipe",
+      "original": "review/output/check-duration-middle.jpg"
+    },
+    {
+      "public_id": "planned-ranges",
+      "original": "review/output/check-ranges-middle.jpg"
+    }
+  ]
+}

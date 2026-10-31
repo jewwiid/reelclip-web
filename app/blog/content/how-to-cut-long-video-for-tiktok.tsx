@@ -1,3 +1,4 @@
+import { GuideVideo } from "@/components/guide-video";
 import {
   PostBody,
   PostCta,
@@ -5,17 +6,17 @@ import {
   PostH3,
   PostHeader,
   PostLink,
-  PostOl,
   PostP,
   PostUl,
 } from "@/components/blog";
 
 export const POST_META = {
   slug: "how-to-cut-long-video-for-tiktok",
-  title: "How to cut a long video for TikTok on iPhone (without re-uploading)",
+  title: "How to cut a long video for TikTok on iPhone",
   description:
-    "A 7-step workflow that takes one long recording and turns it into 3–5 TikTok-ready vertical clips — all on your iPhone, with no cloud upload.",
+    "Prepare a long recording for TikTok on iPhone, review ReelClip’s cut modes, and learn how Apple Intelligence works with sampled video frames.",
   publishedAt: "2026-08-24",
+  updatedAt: "2026-10-25",
   category: "Tutorial" as const,
   primaryKeyword: "how to cut a long video for tiktok",
   readMinutes: 6,
@@ -29,10 +30,12 @@ export default function Post() {
         <PostP>
           You have a 12-minute talking-head video, a stream recording, or a
           long vlog — and you want three or four TikTok-ready clips out of it.
-          Uploading the whole thing to a desktop editor, scrubbing a timeline,
-          and rendering each clip is the slow way. On iPhone, with on-device
-          AI, it is now a 5-minute job. Here is the workflow.
+          You can prepare those clips directly on your iPhone, review each
+          moment, and save the ones you want to post. How long it takes
+          depends on the recording, your device, and how much you edit.
         </PostP>
+
+        <GuideVideo id="cut-clips" />
 
         <PostH2>What you need</PostH2>
         <PostUl>
@@ -40,11 +43,12 @@ export default function Post() {
             The long recording already in your Photos library, or in the Files
             app.
           </li>
-          <li>An iPhone running iOS 26 or later.</li>
+          <li>An iPhone running iOS 17 or later, as listed for the current app release.</li>
           <li>
             <PostLink href="/">ReelClip</PostLink> (free to import and
-            preview, Creator plan to export). For iOS 26+ devices with Apple
-            Intelligence enabled, the AI mode is available too.
+            preview; saving or exporting requires Creator mode). AI features have additional
+            hardware and software requirements, including compatible, enabled
+            Apple Intelligence. Check availability on your device.
           </li>
         </PostUl>
 
@@ -52,8 +56,7 @@ export default function Post() {
 
         <PostH3>1. Import the recording into ReelClip</PostH3>
         <PostP>
-          Open ReelClip and tap <strong className="text-text">Import</strong>.
-          Pick the long video from the Photos picker. ReelClip copies it into
+          Import your recording from Photos or Files. ReelClip copies it into
           its private sandbox — the original file in Photos stays untouched,
           and nothing is uploaded.
         </PostP>
@@ -75,18 +78,56 @@ export default function Post() {
             the dead air. Good for talking-head content and podcasts.
           </li>
           <li>
-            <strong className="text-text">Slice</strong> — manual highlight
-            mode. Drag start and end points on the timeline. Good when you
-            already know which moments you want.
+            <strong className="text-text">Slice</strong> — choose a moment
+            yourself, move the selection and refine its start and end.
           </li>
           <li>
             <strong className="text-text">AI</strong> — describe what you
-            want ("the funniest moment", "the part where I explain the
-            pricing", "the most quotable line") and on-device Apple
-            Intelligence picks the moments. Good when you do not want to
-            scrub yourself.
+            want (“the funniest moment”, “the part where I explain the
+            pricing”, “the most quotable line”). Apple Intelligence can help
+            interpret the request and propose moments for you to review when
+            the feature is available on your device.
           </li>
         </PostUl>
+
+        <PostH2>How Apple Intelligence works in ReelClip 1.5</PostH2>
+        <PostP>
+          ReelClip 1.5 adds an on-device request assistant for AI recipes. It
+          opens in a separate sheet and can help clarify a request or separate
+          what should be found in pictures from what should be found in
+          speech. Review the suggestion, edit it, or cancel and keep your
+          original wording. It does not change the clip-count or duration
+          controls, and it does not start a search until you accept.
+        </PostP>
+        <PostP>
+          On an iPhone running iOS 27 with an available Apple Intelligence
+          model and a supported language, ReelClip 1.5 can also use the
+          Foundation Models framework’s image input for visual requests. The
+          app checks sampled still frames and ties a proposed moment to its
+          source time. On iOS 26, visual requests continue to use on-device
+          Vision observations instead. See Apple’s{" "}
+          <PostLink
+            href="https://developer.apple.com/documentation/foundationmodels/analyzing-images-with-multimodal-prompting"
+            external
+          >
+            guide to image prompting with Foundation Models
+          </PostLink>
+          .
+        </PostP>
+        <PostP>
+          This is sampled-frame analysis, not continuous viewing of every
+          frame. A brief action between samples can be missed, and a selected
+          moment still needs your review. Visual analysis cannot confirm music,
+          silence, tone of voice, or other sound-only conditions.
+        </PostP>
+        <PostP>
+          Availability checked 25 October 2026: Apple’s public App Store
+          listing is still version 1.4.3. The request assistant and the iOS 27
+          image-input path are in ReelClip 1.5 TestFlight build 518, so these
+          features are not yet in the public App Store version. Direct image
+          input also requires iOS 27, a supported language, and an available
+          Apple Intelligence model.
+        </PostP>
 
         <PostH3>3. Review every planned clip</PostH3>
         <PostP>
@@ -98,26 +139,26 @@ export default function Post() {
 
         <PostH3>4. Trim each clip to TikTok length</PostH3>
         <PostP>
-          TikTok supports videos up to 10 minutes, but the algorithm
-          consistently rewards clips under 90 seconds. While you are
-          reviewing, tighten the start and end of each clip — the first
-          second is the one viewers decide on.
+          Give each clip one complete idea. Tighten the start, remove any
+          unnecessary lead-in, and keep enough context for someone who
+          has never seen the full recording. Check TikTok’s current upload
+          limits before posting; there is no universal ideal clip length.
         </PostP>
 
-        <PostH3>5. Pick a vertical export</PostH3>
+        <PostH3>5. Check the framing for a vertical post</PostH3>
         <PostP>
           If your source video is landscape, you have two choices: export as
-          is (TikTok accepts landscape and will letterbox), or change the
-          framing in your finishing editor. ReelClip exports the trimmed
-          range at the original aspect ratio — it does not crop or zoom.
+          is, or crop it for a vertical post in your finishing editor.
+          Choosing a time range and choosing the picture framing are separate
+          decisions; inspect both before posting.
         </PostP>
 
         <PostH3>6. Save the batch to Photos</PostH3>
         <PostP>
-          When you are happy with the review screen, tap{" "}
-          <strong className="text-text">Save clips</strong>. ReelClip exports
-          each approved clip to your Photos library with a confirmation
-          notification. The originals are not modified.
+          Tap <strong className="text-text">Review</strong> and wait for the
+          clips to finish preparing. Play the outputs, then choose the save
+          action for Photos. Wait for the completion confirmation before
+          leaving the app. Saving or exporting a finished video requires Creator mode; the originals stay intact.
         </PostP>
 
         <PostH3>7. Upload to TikTok from Photos</PostH3>
@@ -126,7 +167,7 @@ export default function Post() {
           <strong className="text-text">Upload</strong>. Pick the first clip
           from your library. TikTok will pull it from your device — ReelClip
           never had access to your TikTok account and never uploaded
-          anything to TikTok's servers.
+          anything to TikTok’s servers.
         </PostP>
 
         <PostH2>Common pitfalls</PostH2>
@@ -138,23 +179,23 @@ export default function Post() {
           </li>
           <li>
             <strong className="text-text">Uploading the original 12-minute
-            file.</strong> That is the workflow ReelClip exists to avoid.
-            Smaller, tighter clips get watched further.
+            file.</strong> Keep the source, then choose a version that fits the story
+            and destination. A shorter clip does not guarantee more views.
           </li>
           <li>
-            <strong className="text-text">No captions.</strong> 80% of
-            TikTok is watched on mute. Add burned-in captions in your
-            finishing editor — or use ReelClip's caption export if you want
-            an SRT/VTT file to drop into CapCut.
+            <strong className="text-text">No captions.</strong> Captions
+            help people follow speech when they cannot listen. Check their
+            spelling and timing in your finishing editor before posting.
           </li>
         </PostUl>
 
         <PostH2>What to do after TikTok</PostH2>
         <PostP>
-          Once you have a TikTok workflow, the same clips usually work on
-          YouTube Shorts and Instagram Reels. Cross-posting is the cheapest
-          growth move in short-form video — one batch of clips, three
-          platforms, three audiences. See{" "}
+          Before cross-posting to YouTube Shorts or Instagram Reels, check
+          each platform’s current format and length requirements. The same
+          moment may need different framing or duration for each destination.
+          Read our <PostLink href="/blog/video-length-social-media-reach">guide to video length and reach</PostLink>
+          {" "}for the platform distinctions, or see{" "}
           <PostLink href="/blog/extract-clip-from-podcast">
             how to extract podcast highlights
           </PostLink>{" "}

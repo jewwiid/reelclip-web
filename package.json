@@ -6,7 +6,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "prebuild": "npm run check:guides && node scripts/export-guide-versions.mjs",
+    "check:guides": "node scripts/check-guide-localization.mjs && node scripts/check-guide-video-variants.mjs && node scripts/export-walkthrough-reference.mjs --check",
+    "guide:source": "node scripts/guide-source-server.mjs",
+    "guide:localize": "python3 scripts/localize-guides.py"
   },
   "dependencies": {
     "convex": "^1.42.1",
@@ -24,6 +28,7 @@
     "eslint": "^9",
     "eslint-config-next": "16.2.10",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "@next/env": "16.2.10"
   }
 }

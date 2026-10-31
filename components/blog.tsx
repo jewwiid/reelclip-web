@@ -1,3 +1,5 @@
+import { AppStoreLink } from "@/components/app-store-link";
+import { getGuideVideoForPost } from "@/lib/guide-videos";
 /**
  * Reusable prose component for blog posts.
  * Keeps post files declarative (just call <PostTitle>, <PostH2>, etc).
@@ -10,34 +12,51 @@ export function PostHeader({
   title,
   description,
   publishedAt,
+  updatedAt,
   readMinutes,
+  slug,
 }: {
   category: string;
   title: string;
   description: string;
   publishedAt: string;
+  updatedAt?: string;
   readMinutes: number;
+  slug?: string;
 }) {
-  const date = new Date(publishedAt).toLocaleDateString("en-US", {
+  const tutorial = getGuideVideoForPost(slug);
+  const displayDate = updatedAt ?? publishedAt;
+  const date = new Date(`${displayDate}T00:00:00Z`).toLocaleDateString("en-US", {
     year: "numeric",
     month: "long",
     day: "numeric",
+    timeZone: "UTC",
   });
   return (
-    <header className="mb-12">
-      <p className="text-xs uppercase tracking-wider text-accent font-bold mb-4">
-        {category}
-      </p>
-      <h1 className="text-4xl sm:text-5xl font-black tracking-tight leading-[1.05]">
+    <header className="mx-auto mb-10 max-w-2xl sm:mb-12">
+      <div className="mb-7 flex items-center gap-3 text-xs font-medium">
+        <Link href="/blog" className="inline-flex items-center gap-2 text-text-muted transition-colors hover:text-text focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent">
+          <span aria-hidden="true">←</span> All guides
+        </Link>
+        <span aria-hidden="true" className="text-text-faint">/</span>
+        <span className="text-accent">{category}</span>
+      </div>
+      <h1 className="text-4xl leading-[1.08] font-black tracking-tight text-balance sm:text-5xl">
         {title}
       </h1>
-      <p className="text-base text-text-muted mt-4 leading-relaxed">
+      <p className="mt-5 text-base leading-relaxed text-pretty text-text-muted">
         {description}
       </p>
-      <div className="mt-6 flex items-center gap-3 text-xs text-text-faint">
-        <time dateTime={publishedAt}>{date}</time>
+      <div className="mt-7 flex flex-wrap items-center gap-x-3 gap-y-4 text-xs text-text-muted">
+        <time dateTime={displayDate}>{updatedAt ? "Updated " : ""}{date}</time>
         <span aria-hidden="true">·</span>
         <span>{readMinutes} min read</span>
+        {tutorial && (
+          <a href="#walkthrough" className="inline-flex min-h-9 items-center gap-2 rounded-full border border-hairline px-3 font-medium text-accent transition-colors hover:border-accent/50 hover:bg-accent/5 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-accent sm:ml-auto">
+            <svg aria-hidden="true" viewBox="0 0 20 20" className="h-3 w-3 fill-current"><path d="m6 3 11 7L6 17V3Z" /></svg>
+            Watch the {Math.round(tutorial.duration)} sec walkthrough
+          </a>
+        )}
       </div>
     </header>
   );
@@ -49,7 +68,7 @@ export function PostBody({
   children: React.ReactNode;
 }) {
   return (
-    <article className="prose-sm space-y-8 text-text leading-relaxed max-w-none">
+    <article className="prose-sm max-w-none space-y-8 leading-relaxed text-text [&>:not(.guide-walkthrough)]:mx-auto [&>:not(.guide-walkthrough)]:max-w-2xl">
       {children}
     </article>
   );
@@ -117,7 +136,7 @@ export function PostLink({
 /** The closing "what to do next" panel — drives traffic to /pricing etc. */
 export function PostCta() {
   return (
-    <aside className="mt-16 rounded-2xl border border-accent/25 bg-accent/5 p-6 sm:p-8">
+    <aside data-guide-component="cta" className="mt-16 rounded-2xl border border-accent/25 bg-accent/5 p-6 sm:p-8">
       <p className="text-xs uppercase tracking-wider text-accent font-bold mb-3">
         Try it on your iPhone
       </p>
@@ -125,25 +144,26 @@ export function PostCta() {
         Cut, transcribe, and export — on-device, no upload.
       </h3>
       <p className="text-sm text-text-muted leading-relaxed mb-5">
-        ReelClip is free to import and preview. A Creator plan unlocks export
-        and the four cut modes (Cut, Transcript, Slice, AI). All video and
-        audio processing stays on your iPhone — nothing is uploaded to
-        ReelClip servers.
+        ReelClip is free to import and preview. Creator mode unlocks full access,
+        including saving, sharing, and exporting your work on your iPhone.
+        Choose Slice, Cut, Transcript or AI for your edit. All video and audio
+        processing stays on your iPhone — nothing is uploaded to ReelClip servers.
       </p>
       <div className="flex flex-col sm:flex-row gap-3">
-        <a
-          href="https://apps.apple.com/app/reelclip/id6787742864"
+        <AppStoreLink
           target="_blank"
           rel="noreferrer"
+          data-analytics-event="download_click_blog"
+          data-analytics-event-placement="article_cta"
           className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-bold text-bg transition-[background-color,transform] hover:bg-accent-deep active:scale-[0.98] ease-out"
         >
           Download on the App Store
-        </a>
+        </AppStoreLink>
         <Link
           href="/pricing"
           className="inline-flex items-center justify-center rounded-full border border-hairline px-5 py-2.5 text-sm font-semibold text-text transition-[background-color,transform] hover:bg-surface active:scale-[0.98] ease-out"
         >
-          See Creator pricing
+          See Creator mode options
         </Link>
       </div>
     </aside>

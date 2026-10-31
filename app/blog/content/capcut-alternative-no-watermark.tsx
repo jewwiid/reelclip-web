@@ -1,177 +1,37 @@
-import {
-  PostBody,
-  PostCta,
-  PostH2,
-  PostH3,
-  PostHeader,
-  PostLink,
-  PostOl,
-  PostP,
-  PostUl,
-} from "@/components/blog";
+import { PostBody, PostCta, PostH2, PostH3, PostHeader, PostLink, PostOl, PostP } from "@/components/blog";
 
 export const POST_META = {
-  slug: "capcut-alternative-no-watermark",
-  title:
-    "The best CapCut alternative without a watermark (2026, iPhone)",
-  description:
-    "CapCut adds a watermark to some exports, requires an account, and uploads your footage to its servers. Here are four iPhone-first alternatives that ship clean exports without the upload.",
-  publishedAt: "2026-08-24",
-  category: "Comparison" as const,
-  primaryKeyword: "capcut alternative no watermark",
-  readMinutes: 7,
+  "slug": "capcut-alternative-no-watermark",
+  "title": "CapCut alternatives for iPhone: choose by your editing job",
+  "description": "Compare iMovie, VN, InShot and ReelClip by editing job, and learn when CapCut can export without a watermark.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-30",
+  "category": "Comparison" as const,
+  "primaryKeyword": "capcut alternative",
+  "readMinutes": 5
 };
 
 export default function Post() {
-  return (
-    <>
-      <PostHeader {...POST_META} />
-      <PostBody>
-        <PostP>
-          CapCut is one of the most-installed video editors on iPhone, and
-          for good reason: the templates are endless and the editing tools are
-          powerful. But there are three recurring complaints that send people
-          looking for a CapCut alternative: watermark on certain exports, a
-          forced login, and — most importantly — footage uploaded to ByteDance
-          servers before it ever reaches your timeline.
-        </PostP>
-
-        <PostP>
-          If you want to keep editing on your iPhone but with cleaner exports
-          and your footage staying on your device, here are four solid options,
-          each with a clear reason to pick it.
-        </PostP>
-
-        <PostH2>What you actually want from a CapCut alternative</PostH2>
-        <PostP>
-          Before naming tools, name the job. Most people searching for a
-          CapCut alternative want one or more of these:
-        </PostP>
-        <PostUl>
-          <li>
-            <strong className="text-text">No watermark on free exports.</strong>
-            {" "}CapCut's free tier is generous but stamps clips in some
-            situations, and the watermark removal lives behind a subscription.
-          </li>
-          <li>
-            <strong className="text-text">No forced login or account.</strong>
-            {" "}CapCut requires a login to save projects. Some iOS editors do
-            not.
-          </li>
-          <li>
-            <strong className="text-text">Privacy.</strong> CapCut uploads
-            project media to its cloud by default. For podcasters, creators
-            with unreleased footage, or anyone working with sensitive source
-            video, that is a deal-breaker.
-          </li>
-          <li>
-            <strong className="text-text">Quick clip planning.</strong> Not
-            everyone needs CapCut's full editing suite — many people just want
-            to cut a long recording into a few share-ready clips and finish
-            elsewhere.
-          </li>
-        </PostUl>
-
-        <PostH2>The four best iPhone alternatives in 2026</PostH2>
-
-        <PostH3>1. ReelClip — for clip preparation, not full editing</PostH3>
-        <PostP>
-          ReelClip is the right pick when you want to turn one long
-          recording into several ready-to-post clips, then finish the edit in
-          whatever app you already use. Every analysis step — cuts, transcripts,
-          AI plans — runs{" "}
-          <em>entirely on-device</em> via Apple Intelligence. Nothing is
-          uploaded, there is no account to create, and Creator exports have no
-          watermark.
-        </PostP>
-        <PostP>
-          The trade-off: ReelClip is not a full timeline editor. It will not
-          replace CapCut if you build your video inside one app. It is the
-          step <em>before</em> that — import, pick the moments, export a batch
-          of clips to Photos, then take them into CapCut, Shorts, Reels, or
-          anywhere else.
-        </PostP>
-        <PostP>
-          Four cut modes cover the common cases: <em>Cut</em> splits a video
-          into equal pieces by duration; <em>Transcript</em> uses on-device
-          speech recognition to find the pauses and let you trim the dead air;
-          {" "}<em>Slice</em> places highlights manually on the timeline;
-          {" "}<em>AI</em> asks Apple Intelligence to pick the moments based on
-          a prompt. All four are reviewable before export.
-        </PostP>
-
-        <PostH3>2. iMovie — for simple timeline edits</PostH3>
-        <PostP>
-          iMovie is free, ships on every iPhone, has no watermark, and never
-          uploads anything. It is the right pick if you need basic cuts,
-          transitions, and titles and do not mind a learning curve. It is not
-          a clip-planning tool, though — you still do the editing manually.
-        </PostP>
-
-        <PostH3>3. VN Video Editor — for hands-on mobile editors</PostH3>
-        <PostP>
-          VN is a free, no-watermark editor with a multi-track timeline,
-          keyframes, and speed curves. Closer in feel to a desktop editor than
-          CapCut, and it does not require an account. The trade-off is that
-          there are no AI-assisted clip planning features, so finding the
-          moments in a long recording is still manual work.
-        </PostP>
-
-        <PostH3>4. InShot — for fast finishing edits</PostH3>
-        <PostP>
-          InShot is good at the last mile: add music, captions, stickers, and
-          effects to a clip that is already cut. Free tier has a watermark on
-          some exports; Pro removes it. Like CapCut, it uploads project media
-          to its servers.
-        </PostP>
-
-        <PostH2>When ReelClip is the right pick</PostH2>
-        <PostP>
-          If you cut a long recording every week — a podcast, an interview,
-          a stream, a screen recording — ReelClip is the fastest way to get
-          from one long file to a batch of share-ready clips without
-          uploading your footage anywhere. The four cut modes handle the
-          common patterns without you having to scrub a timeline.
-        </PostP>
-        <PostP>
-          If you want to do the whole edit in one app — adding music,
-          effects, transitions, captions, and finishing in the same
-          workspace — CapCut or VN is a better fit.
-        </PostP>
-
-        <PostH2>How to switch from CapCut to a private workflow</PostH2>
-        <PostOl>
-          <li>
-            Open ReelClip and import the long recording from Photos. No login,
-            no upload — the file is copied into the app's sandbox.
-          </li>
-          <li>
-            Pick a cut mode. <em>Transcript</em> works well for interviews
-            and podcasts; <em>AI</em> for vlogs and screen recordings;
-            {" "}<em>Cut</em> if you just want equal-duration clips.
-          </li>
-          <li>
-            Review every planned clip. ReelClip does not auto-export — you
-            approve each one.
-          </li>
-          <li>
-            Export the clips to Photos. The originals stay on your device,
-            the new clips land in your library.
-          </li>
-          <li>
-            Open CapCut (or VN, InShot, your editor of choice) and pull the
-            clips from Photos into your project.
-          </li>
-        </PostOl>
-
-        <PostP>
-          For a head-to-head feature comparison of ReelClip against CapCut,
-          InShot, VN, OpusClip, and GoPro Quik, see our{" "}
-          <PostLink href="/competitors">full comparison page</PostLink>.
-        </PostP>
-
-        <PostCta />
-      </PostBody>
-    </>
-  );
+  return <>
+    <PostHeader {...POST_META} />
+    <PostBody>
+<PostP>The best CapCut alternative depends on the job. If you only want a clean export, CapCut says a standard manual edit can be watermark-free; templates and premium assets can change the result. If you need a different editing workflow, compare iMovie for a movie timeline, VN for precise timeline trims and splits, InShot for social-editing tools, and ReelClip for making several clips from a longer recording.</PostP>
+<PostH2>Check CapCut’s export before you switch</PostH2>
+<PostP>CapCut’s <PostLink href="https://www.capcut.com/help/video-without-watermark" external>watermark help page</PostLink> says a project made in the standard editing interface can export without a watermark. Some templates add an ending clip with the CapCut logo, and premium templates or assets can trigger different export requirements. Before changing apps, remove any ending card, check the export prompt and watch the saved file through its final frame. CapCut’s own advice is more precise than saying every CapCut export has a watermark.</PostP>
+<PostH2>CapCut alternatives for iPhone, by editing job</PostH2>
+<PostH3>iMovie: arrange a movie on a timeline</PostH3>
+<PostP>Choose iMovie when you want to arrange several shots into one movie and add titles, transitions, music or effects. <PostLink href="https://support.apple.com/guide/imovie-iphone/welcome/ios" external>Apple’s iPhone guide</PostLink> documents those timeline tools. It is a straightforward place to start if you want a conventional movie edit rather than extracting many separate moments from a long source.</PostP>
+<PostH3>VN: trim and split with timeline control</PostH3>
+<PostP>VN’s <PostLink href="https://www.vlognow.me/help/getting-started/editing-101/" external>official editing guide</PostLink> covers trimming, precise splits and choosing an aspect ratio. Compare it when you want hands-on control over where clips start, end and sit in a sequence. Its editor and export options can change; inspect the current app and plan before relying on a particular output setting.</PostP>
+<PostH3>InShot: add social-editing tools to selected footage</PostH3>
+<PostP>InShot is another option when you want editing tools such as Auto Captions, effects and AI Cut in a social-video editor. Apple’s <PostLink href="https://apps.apple.com/us/app/inshot-video-editor/id997362197" external>U.S. App Store listing</PostLink> describes those features and lists the app as a free download with in-app purchases. Availability and paid-feature terms vary, so check your region’s listing and the export screen.</PostP>
+<PostH3>ReelClip: make a batch of clips from a long recording</PostH3>
+<PostP>ReelClip focuses on selecting and producing clips from longer recordings. Choose moments with Slice, split by count or interval with Cut, edit spoken passages in Transcript, or use AI planning where supported. Preview the proposed clips before saving; processing stays on your iPhone. Import and preview are free, while saving or exporting requires <PostLink href="/pricing">Creator mode</PostLink>. ReelClip is a fit for the source-to-clips step; use a timeline editor when you need to build a layered sequence with music, transitions or overlays.</PostP>
+<PostP>For a worked batch example, see the <PostLink href="/blog/how-to-cut-long-video-for-tiktok">Cut walkthrough</PostLink>. For a single trim, the <PostLink href="/blog/how-to-cut-a-video-on-iphone">iPhone video-cutting guide</PostLink> starts with Apple Photos and iMovie.</PostP>
+<PostH2>Compare the saved export, not just the download page</PostH2>
+<PostOl><li>Use a short copy of footage like the recording you plan to edit.</li><li>Make the exact edit you need, including any template, caption, music or effect.</li><li>Check the export screen for a watermark, plan requirement, resolution and length limit.</li><li>Save a sample and watch it outside the editor. Inspect the first and last frames, captions, picture edges and sound.</li><li>Keep the original recording and compare the finished file before moving a full project.</li></PostOl>
+<PostP>Free to download does not always mean every effect or export is free. Likewise, a free import or preview is not the same as a saved video. Check the current terms in your region before committing time to a full edit.</PostP>
+      <PostCta />
+    </PostBody>
+  </>;
 }

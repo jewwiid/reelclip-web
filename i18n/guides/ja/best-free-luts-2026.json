@@ -1,0 +1,173 @@
+{
+  "slug": "best-free-luts-2026",
+  "title": "2026年の無料LUT：適切なカメラ変換とクリエイティブルックを選ぶ",
+  "description": "公式カメラLUTリソースを見つけ、ビフォーアフタースライダーで実際のフラット映像とオリジナルのスタータールックを比較する。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-20",
+  "category": "まとめ",
+  "primaryKeyword": "2026年ベスト無料LUT",
+  "readMinutes": 7,
+  "sourceFingerprint": "b61b4575244190d0d481ff36cbb73bcc9824131ad1bd29ac39121bf81c6912de",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "役立つ無料LUTは適切な入力から始まる。カメラ変換は特定の記録カーブとガムトを解釈するもので、クリエイティブルックはその解釈後の見た目を変えるもの。カメラブランドやシネマティックなファイル名だけで選ぶと、ハイライトのクリップ、不適切なコントラスト、望まない色ずれが生じる可能性がある。以下のリソースは2026年10月20日に確認済み。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "まずはカメラの公式リソースから"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\">DJIの公式LUTディレクトリ</a> <!-- -->は製品別にダウンロードを掲載している。正確なカメラと記録モードを一致させる。D-Log、D-Log M、D-Log 2は別々のプロファイルであり、一方の変換が他方にも適するとは限らない。標準映像にはLog変換は不要。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://pro.sony/ue_US/technology/professional-video-lut-look-up-table\">SonyのLUTリソース</a> <!-- -->は対象となる記録の組み合わせを明示している。S-Log3などのカーブとS-Gamut3.Cineなどのガムトの両方を一致させる。S-Log3のテーブルはS-Log2やHLGの普遍的な変換ではない。権利者からダウンロードし、選択したファイルに付属の説明書を読むこと。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/final-cut-pro/apply-luts-ver24f966423/mac\">AppleのLUTガイド</a> <!-- -->はカメラLUTとクリエイティブLUTエフェクトを区別し、Apple LogとApple Log 2を別々に掲載している。同じiPhoneからのすべてのクリップが同じエンコーディングとは限らないため、ファイルに実際に記録されたプロファイルを使用する。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "試してみる無料クリエイティブコレクション"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://smallhd.com/blogs/community/free-3d-lut-pack-cinematic-looks-smallhd\">SmallHDのCinematic Looksコレクション</a> <!-- -->はモニターやポストで試せる映画風のルックを提供している。適用前に各テーブルの対象入力を確認する。ダウンロード可能なクリエイティブパックと技術的なLog変換は、異なる問題を解決するもの。無料利用は、別のパックやアプリで基盤となるLUTファイルを再配布する許可を自動的に与えるものではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClipのオリジナルスターター：開発中"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "6つのオリジナルクリエイティブLUT候補をテストしています：Clean Natural、Soft Portrait、Warm Daylight、Cool Daylight、Gentle Cinema、Classic Monoです。これらのフォーミュラは、サードパーティのLUTテーブルからコピーまたはフィッティングしたものではなく、ReelClipのために独自に作成されています。個別のカメラノーマライゼーション後のエンコード済みsRGBを想定し、SDR編集用に設計されています。これらはスタンドアロンのLog変換LUTでもHDRマスタリングLUTでもありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Cinema、analog、travelコレクションも、ReelClipの有料プランに含めるべく評価中ですが、別途パック購入は不要です。これらのコレクションは現在開発中であり、本記事は現行のApp Storeリリースでの提供開始を発表するものではありません。スターターとは基本LUTコレクションを指し、アプリの購入要件の変更ではありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "LogおよびRec.709映像向けのフィルム風ルック"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "フィルム風ルックは、カメラノーマライゼーション後のカラー、コントラスト、ブラックポイントを調整できます。アナログ候補には、ウォームおよびクールなプリントパレット、パステル調のインスタントカラー、マットなモノクロが含まれます。これらはオリジナルのクリエイティブな近似表現であり、Kodak、Fujifilm、その他の有名フィルム銘柄の計測された再現ではありません。完全なフィルムエミュレーション効果には、グレイン、ハレーション、テクスチャーも含まれることがありますが、カラーのみのLUTにはこれらの効果は含まれていません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Log映像の場合は、まず正しいカメラカーブとガムット変換を使用し、その後クリエイティブなフィルムルックを適用してください。通常のRec.709映像の場合は、Log変換をスキップし、カラーマネージドパイプラインでルックの宣言された入力エンコーディングに変換させてください。同じオリジナルクリエイティブルックは、この準備後に両方のソースに使用できます。フラットに見える生成画像は、本物のカメラLog映像や検証済み変換の代替にはなりません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "以下に6つの実際の映像フレームを比較します。被写体、構図、照明は両側で同じです：フラットな例には説明的なバランス調整の後、名前の付いたオリジナルスターターLUTが適用されています。建築の例には、ディスプレイ対応ソースにモノクロルックのみが適用されています。これらの例はクリエイティブなカラーチェンジを示すものであり、すべてのカメラや露出が同じ結果を生むという保証ではありません。"
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "LUTを正しい順序で適用する"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>ソースの記録カーブとガムットを特定します。メタデータは保持します。</li><li>LogまたはHDRを、適切なソース解釈またはカメラトランスフォームで一度だけノーマライズします。</li><li>入力エンコーディングがノーマライズ済み映像と一致するクリエイティブLUTを選択します。Rec.709とsRGBは原色を共有しますが、トランスファー特性は異なります。</li><li>露出とホワイトバランスを調整し、ショットに合わせてクリエイティブ強度を調整し、肌、ハイライト、飽和色を確認します。</li><li>ルックをプロジェクト全体に適用する前に、プレビューだけでなく書き出したクリップも確認します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClipでは、カメラトランスフォームとクリエイティブルックを分離して保持してください。インポートワークフローについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">iPhoneでLUTを適用する方法</a>をご覧ください。テーブル形式と制限については、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/cube-lut-explained\">.cube LUTに含まれるもの</a>をご覧ください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "量より質を選ぶ"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "実際に撮影する映像——ポートレート、昼光、室内、夜景——でいくつかのルックをテストしてください。スムーズな階調、有用な肌色、コントロールされたハイライトを確認してください。大量のカタログは、誤った入力プロファイルを補うことはできません。作成する個人ライブラリには、オリジナルのダウンロードファイル、その作者、ライセンスを併せて保持してください。特定の影響元を参照する場合、帰属表示はその影響を説明するものであり、他者の作品を配布する許諾の代替にはなりません。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -1,0 +1,197 @@
+{
+  "slug": "edit-any-log-footage-iphone",
+  "title": "Jak edytować materiał log na iPhonie: konwersja z kamery i kreatywne LUT-y",
+  "description": "Wybierz właściwy profil kamery, zaimportuj dopasowany LUT konwersji i dodaj kreatywny look w ReelClip. Dowiedz się, co sprawdzić przed wyeksportowaniem materiału log.",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
+  "category": "Zastosowanie",
+  "primaryKeyword": "edytuj materiał log na iphone",
+  "readMinutes": 5,
+  "sourceFingerprint": "1640b83821683436e06817d7a4347457556a732e0f581c22af027ba289a6c990",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Materiał log może wyglądać na wypłowiały przed konwersją kolorów. Aby go zgradować, najpierw dopasuj profil nagrywania kamery do właściwej transformacji technicznej, a następnie wybierz kreatywny look. ReelClip oddziela te dwa kroki, dzięki czemu możesz dostosować styl bez zastępowania konwersji z kamery."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wybranie profilu log nie instaluje LUT-u konwersji. Potrzebujesz kompatybilnego pliku wideo i dopasowanego pliku .cube konwersji z kamery dla opisanego poniżej workflow log."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Jakie profile kamery możesz wybrać?"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>DJI:</strong> D-Log, D-Log M i D-Log 2.</li><li><strong>Apple:</strong> Apple Log i Apple Log 2.</li><li><strong>HDR:</strong> HLG i PQ, obsługiwane oddzielnie od zaimportowanych LUT-ów konwersji log.</li><li><strong>Standard:</strong> materiał, który jest już gotowy do wyświetlenia.</li><li><strong>Inny log:</strong> inne źródło log z dopasowaną zaimportowaną transformacją kamery.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Automatyczne wykrywanie może wykorzystywać obsługiwane metadane i wskazówki z nazwy pliku. Sprawdź wybór względem ustawień kamery: nazwa pliku to sugestia, a transfery lub wcześniejsze edycje mogą zmienić informacje dostępne dla aplikacji."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sony, Canon, Panasonic i Blackmagic nie są nazwanymi presetami profili w ReelClip. Dla materiału z tych kamer użyj Inny log z właściwym LUT-em konwersji, pod warunkiem że iPhone może zdekodować plik wideo. Sama marka kamery nie gwarantuje kompatybilności z każdym kodekiem lub formatem RAW."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przekonwertuj materiał log przed dodaniem kreatywnego looku"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Zaimportuj swój klip.</strong> Użyj oryginalnego nagrania, jeśli to możliwe, i potwierdź profil nagrywania oraz gamut.</li><li><strong>Wybierz profil źródłowy.</strong> W kontrolkach koloru sprawdź wykryty profil lub wybierz dopasowaną opcję log.</li><li><strong>Zaimportuj transformację z kamery.</strong> Wybierz konwersję .cube dopasowaną do kamery, krzywej nagrywania i gamutu. Sprawdź w dokumentacji oczekiwaną przestrzeń kolorów wyjściowych. Profil log oznaczony „LUT needed” wciąż wymaga tego pliku.</li><li><strong>Add kreatywny LUT.</strong> Wybierz look przeznaczony dla przekonwertowanego obrazu. Uniwersalne pakiety kreatywne oczekują znormalizowanego wejścia sRGB/Rec.709. Użyj kontrolki siły, aby dostosować efekt kreatywny.</li><li><strong>Przejrzyj, a następnie wyeksportuj.</strong> Sprawdź odcienie skóry, jasne niebo i szczegóły w cieniach. Edycja i podgląd są dostępne bezpłatnie; zapisanie gotowego wideo wymaga trybu Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zastosuj konwersję techniczną raz. Jeśli inny edytor już przekonwertował plik do standardowego SDR, wybierz Standard zamiast ponownie stosować oryginalną konwersję log. Podwójna konwersja może wyprodukować nadmierny kontrast i obcięte detale."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Więcej o wyborze i imporcie kreatywnych LUT-ów znajdziesz w<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-apply-lut-on-iphone\">jak zastosować LUT na iPhonie</a>. Możesz też przeglądać<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/best-free-luts-2026\">zasoby konwersji kamery i startowe looki</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Porównaj prawdziwe ujęcia przed i po"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Przeciągnij suwak, aby porównać prawdziwe klatki stockowe z ilustracyjnymi gradacjami. Niegradowana klatka jest po lewej, oznaczona jako Flat source (lub Original dla przykładu miejskiego gotowego do wyświetlenia), a wynik po gradacji po prawej. Stockowe przesyłki nie potwierdzają dokładnej krzywej log kamery, więc traktuj je jako przykłady kreatywne, nie jako referencje konwersji. Każda scena zawiera źródło ujęcia i link do licencji."
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Te przykłady używają tych samych prawdziwych ujęć i startowych looków co nasz darmowy przewodnik LUT. Ilustracyjna balansacja nie jest skalibrowaną konwersją producenta. Oceń look na własnych ujęciach przed podjęciem decyzji, czy pasuje do twojego projektu."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Konwersja kamery i kreatywne LUT-y pełnią różne funkcje"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong>Konwersja kamery</strong> mapuje konkretne kodowanie nagrania do zamierzonej przestrzeni roboczej lub wyświetlania. Dopasuj zarówno krzywą log, jak i przestrzeń barwną: dwa pliki opisane jako „log” mogą wymagać różnych transformacji."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong>Kreatywny LUT</strong> stylizuje przekonwertowany obraz. Może ocieplić światła, ochłodzić cienie lub zmniejszyć nasycenie. Nie może skorygować błędnej transformacji źródłowej, a sam LUT nie dodaje ziarna filmowego ani halacji."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip stosuje dostarczoną transformację kamery przed lookiem kreatywnym. Zachowaj konwersję techniczną w kontrolce transformacji kamery, a styl w kontrolce looku kreatywnego. Sprawdź wymagania wejściowe każdego LUT-a zamiast zakładać, że każdy plik .cube służy temu samemu celowi."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Jeśli wynik wygląda źle"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>Wciąż wypłaszczony?</strong> Potwierdź, że załadowana jest transformacja kamery, a nie tylko wybrany profil log.</li><li><strong>Zbyt kontrastowy?</strong> Sprawdź, czy konwersja nie została zastosowana dwukrotnie i potwierdź, że kreatywny LUT oczekuje twojej przekonwertowanej przestrzeni barwnej.</li><li><strong>Nienaturalne kolory?</strong> Sprawdź ponownie przestrzeń barwną nagrania, balans bieli i plik konwersji przed zwiększeniem siły looku.</li><li><strong>Plik się nie importuje?</strong> Sprawdź kontener wideo i kodek. Wybranie Other log nie dodaje wsparcia dla w innych przypadkach nieobsługiwanego formatu wideo.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Wypróbuj workflow na własnych ujęciach"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zacznij od krótkiego klipu zawierającego twarz, neutralne obiekty i nieco jasnych detali. Przejrzyj konwersję kamery z wyłączonym kreatywnym lookiem, a następnie dodaj look w umiarkowanej sile. Klipy z różnych kamer mogą nadal wymagać indywidualnych korekt ekspozycji i balansu bieli."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Podgląd kolorów i renderowanie odbywają się na urządzeniu. Możesz importować, edytować i przeglądać przed odblokowaniem trybu Creator. Zapisanie lub wyeksportowanie gotowego wideo wymaga trybu Creator, dostępnego przez jednorazowy zakup lub rozliczenie miesięczne."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}
