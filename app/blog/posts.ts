@@ -90,7 +90,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Find official camera LUT resources and compare real flat footage and original starter looks using a before-and-after slider.",
     publishedAt: "2026-08-25",
-    updatedAt: "2026-10-20",
+    updatedAt: "2026-11-07",
     category: "Roundup",
     primaryKeyword: "best free luts 2026",
     readMinutes: 7,

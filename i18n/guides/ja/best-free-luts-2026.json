@@ -3,11 +3,11 @@
   "title": "2026年の無料LUT：適切なカメラ変換とクリエイティブルックを選ぶ",
   "description": "公式カメラLUTリソースを見つけ、ビフォーアフタースライダーで実際のフラット映像とオリジナルのスタータールックを比較する。",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-11-07",
   "category": "まとめ",
   "primaryKeyword": "2026年ベスト無料LUT",
   "readMinutes": 7,
-  "sourceFingerprint": "b61b4575244190d0d481ff36cbb73bcc9824131ad1bd29ac39121bf81c6912de",
+  "sourceFingerprint": "2dd1115a985d567dd311e50208eab85583d70d9e336f917c2144ed456f2d2e09",
   "schemaVersion": 1,
   "locale": "ja",
   "blocks": [
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Cinema、analog、travelコレクションも、ReelClipの有料プランに含めるべく評価中ですが、別途パック購入は不要です。これらのコレクションは現在開発中であり、本記事は現行のApp Storeリリースでの提供開始を発表するものではありません。スターターとは基本LUTコレクションを指し、アプリの購入要件の変更ではありません。"
+      "html": "米国のApp Storeページには現在、ReelClipのオプションLUTパック6種類（Stylized、Black & White、Vintage & Retro、Analog Film、Travel & Nature、Cinema Volume 1）が、それぞれ$4.99で掲載されています。これらの有料アプリ内購入は、上記の開発中のオリジナルスタータールック6種類とは別の商品です。ここで紹介する無料リソースはサードパーティのダウンロードです。LUTを使用または再配布する前に、各制作者のライセンスを確認してください。お住まいの地域の価格と提供状況はApp Storeの購入画面で確認してください。"
     },
     {
       "kind": "html",

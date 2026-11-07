@@ -3,11 +3,11 @@
   "title": "2026년 무료 LUT: 올바른 카메라 변환과 크리에이티브 룩 선택하기",
   "description": "공식 카메라 LUT 리소스를 찾고 전후 비교 슬라이더로 실제 플랫 푸티지와 오리지널 스타터 룩을 비교해보세요.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-11-07",
   "category": "요약",
   "primaryKeyword": "2026년 최고의 무료 LUT",
   "readMinutes": 7,
-  "sourceFingerprint": "b61b4575244190d0d481ff36cbb73bcc9824131ad1bd29ac39121bf81c6912de",
+  "sourceFingerprint": "2dd1115a985d567dd311e50208eab85583d70d9e336f917c2144ed456f2d2e09",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Cinema, analog, travel 컬렉션도 ReelClip 유료 플랜에 포함될 수 있도록 별도 팩 구매 없이 검토 중입니다. 이 컬렉션들은 아직 개발 중이며, 본 문서는 현재 App Store 릴리스에서의 가용성을 발표하는 것이 아닙니다. 스타터는 기본 LUT 컬렉션을 의미하며, 앱의 구매 요건 변경은 아닙니다."
+      "html": "미국 App Store 페이지에는 현재 ReelClip의 선택형 LUT 팩 6종이 각각 $4.99로 표시되어 있습니다: Stylized, Black & White, Vintage & Retro, Analog Film, Travel & Nature, Cinema Volume 1. 이 유료 앱 내 구입 항목은 위에 언급한 개발 중인 오리지널 스타터 룩 6종과 별개입니다. 여기 소개된 무료 리소스는 제3자 다운로드이므로 LUT를 사용하거나 재배포하기 전에 각 제작자의 라이선스를 확인하세요. 거주 지역의 가격과 제공 여부는 App Store 구입 화면에서 확인하세요."
     },
     {
       "kind": "html",

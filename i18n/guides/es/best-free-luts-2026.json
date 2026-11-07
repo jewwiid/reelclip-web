@@ -3,11 +3,11 @@
   "title": "LUTs gratuitos en 2026: elige la conversión de cámara y el look creativo adecuados",
   "description": "Encuentra recursos oficiales de LUTs de cámara y compara metraje flat real y looks iniciales originales con un deslizador de antes y después.",
   "publishedAt": "2026-08-25",
-  "updatedAt": "2026-10-20",
+  "updatedAt": "2026-11-07",
   "category": "Resumen",
   "primaryKeyword": "mejores luts gratuitos 2026",
   "readMinutes": 7,
-  "sourceFingerprint": "b61b4575244190d0d481ff36cbb73bcc9824131ad1bd29ac39121bf81c6912de",
+  "sourceFingerprint": "2dd1115a985d567dd311e50208eab85583d70d9e336f917c2144ed456f2d2e09",
   "schemaVersion": 1,
   "locale": "es",
   "blocks": [
@@ -89,7 +89,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Las colecciones Cinema, analog y travel también se están evaluando para incluirse en el plan de pago de ReelClip, sin compra de paquete por separado. Estas colecciones aún están en desarrollo; este artículo no anuncia su disponibilidad en la versión actual de la App Store. Nuestro starter se refiere a la colección base de LUTs, no a un cambio en los requisitos de compra de la app."
+      "html": "La ficha estadounidense de App Store muestra actualmente seis paquetes LUT opcionales de ReelClip: Stylized, Black & White, Vintage & Retro, Analog Film, Travel & Nature y Cinema Volume 1, a 4,99 USD cada uno. Estas compras integradas de pago son distintas de los seis looks iniciales originales mencionados arriba, que siguen en desarrollo. Los recursos gratuitos de esta guía son descargas de terceros; revisa la licencia de cada autor antes de usar o redistribuir un LUT. Consulta el precio y la disponibilidad de tu región en la pantalla de compra de App Store."
     },
     {
       "kind": "html",

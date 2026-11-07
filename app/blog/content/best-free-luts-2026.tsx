@@ -61,11 +61,13 @@ export default function Post() {
           for SDR editing. They are not standalone Log conversions or HDR mastering LUTs.
         </PostP>
         <PostP>
-          Cinema, analog and travel collections are also being evaluated for inclusion
-          with ReelClip’s paid plan, without a separate pack purchase. These collections
-          are still in development; this article does not announce their availability in
-          the current App Store release. Our starter refers to the base LUT collection,
-          not a change to the app’s purchase requirements.
+          The US App Store listing currently shows six optional ReelClip LUT packs:
+          Stylized, Black &amp; White, Vintage &amp; Retro, Analog Film, Travel &amp; Nature,
+          and Cinema Volume 1, each listed at $4.99. These paid in-app products are
+          separate from the six original starter-look candidates above, which remain in
+          development. The free resources in this guide are third-party downloads; check
+          each creator’s license before using or redistributing a LUT. Check the App Store
+          purchase screen for local pricing and availability.
         </PostP>
         <PostH2>Film-inspired looks for Log and Rec.709 video</PostH2>
         <PostP>
