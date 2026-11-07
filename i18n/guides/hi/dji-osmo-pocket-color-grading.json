@@ -1,0 +1,122 @@
+{
+  "slug": "dji-osmo-pocket-color-grading",
+  "title": "DJI Osmo Pocket कलर ग्रेडिंग iPhone पर: सही रिकॉर्डिंग प्रोफाइल चुनें",
+  "description": "D-Cinelike, D-Log M और अन्य Pocket प्रोफाइल में अंतर समझें, मिलान कन्वर्जन चुनें और अपने iPhone पर क्रिएटिव कलर बदलाव देखें।",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "उपयोग का उदाहरण",
+  "primaryKeyword": "dji osmo pocket color grading",
+  "readMinutes": 4,
+  "sourceFingerprint": "d7ff3ee8d885e7802fe69fa7be3b145cb384d02595e4aacd52c23376b566367c",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pocket फुटेज की कलर ग्रेडिंग जनरेशन नंबर से नहीं, रिकॉर्डिंग मोड से शुरू होती है। क्रिएटिव लुक जोड़ने से पहले यह तय करें कि सोर्स को कैसे इंटरप्रेट किया जाना चाहिए। एक रिकॉर्डिंग जिसमें पहले से ही तैयार Normal रूप है, उसे केवल इसलिए Log कन्वर्जन की ज़रूरत नहीं है क्योंकि यह DJI कैमरे से आया है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "अपना मॉडल और मोड जांचें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI की प्रोफाइल और LUT रेफरेंस</a> में मूल Osmo Pocket और Pocket 2 को D-Cinelike के साथ, Pocket 3 को D-Log M के साथ, और Pocket 4 को D-Log के साथ सूचीबद्ध किया गया है। वेरिएंट को अलग-अलग मानें और अपने कैमरे के लिए वर्तमान एंट्री सत्यापित करें; ये लेबल आपस में बदले नहीं जा सकते।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "मूल रिकॉर्डिंग की सेटिंग्स, समर्थित मेटाडेटा और कैमरा दस्तावेज़ीकरण को एक साथ उपयोग करें। एक छवि का फ्लैट दिखना उसके कर्व या गैमट का प्रमाण नहीं है। किसी अन्य एडिटिंग ऐप के माध्यम से सेव की गई कॉपी पहले से ही ट्रांसफॉर्म हो चुकी हो सकती है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "छवि को स्टाइल करने से पहले तैयार करें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Log मटेरियल के लिए, कैमरे और प्रोफाइल के लिए बनाए गए कन्वर्जन को चुनें। <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI के आधिकारिक संसाधन</a> और चुनी गई फ़ाइल के निर्देश जांचें। यदि आपका एडिटर पहले से ही सोर्स को सही ढंग से कन्वर्ट करता है, तो कन्वर्जन दूसरी बार न जोड़ें।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "D-Cinelike, Normal या HDR मटेरियल के लिए, उस मोड को स्पष्ट रूप से समर्थन देने वाले वर्कफ़्लो का पालन करें। केवल इसलिए D-Log M फ़ाइल न चुनें क्योंकि यह छवि को अधिक कंट्रास्टी दिखाती है। तकनीकी सटीकता और पसंदीदा क्रिएटिव रूप अलग-अलग निर्णय हैं।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip में एक क्रिएटिव लुक आज़माएं"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>मूल रिकॉर्डिंग रखें और उस क्लिप को इम्पोर्ट करें जिसे आप एडिट करना चाहते हैं।</li><li>अपनी संगत .cube फ़ाइल Files में सेव करें। ReelClip में, Adjust & Style → LUTs → Import LUT खोलें।</li><li>लुक चुनें और पूर्वावलोकन को मूल के साथ तुलना करें। इसकी अपेक्षित-इनपुट आवश्यकताओं का पालन करें।</li><li>शॉट के अनुसार क्रिएटिव स्ट्रेंथ एडजस्ट करें। क्लिप चलते समय चेहरों, चमकदार क्षेत्रों और गहरे विवरण की जाँच करें।</li><li>सेटिंग्स को पूरे प्रोजेक्ट में लागू करने से पहले रेंडर किए गए परिणाम और सेव किए गए सैंपल की समीक्षा करें। वीडियो को अपने iPhone पर सेव करने के लिए Creator मोड की आवश्यकता होती है।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-apply-lut-on-iphone\">LUT वॉकथ्रू</a> एक वास्तविक क्रिएटिव-लुक इम्पोर्ट दिखाता है। यह हर कैमरा कन्वर्जन, HDR आउटपुट या तकनीकी LUT फ़ाइल को प्रमाणित करने के बजाय कंट्रोल्स का प्रदर्शन करता है।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "जो आप देख सकते हैं उसके अनुसार शॉट्स मिलाएं"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एक्सपोजर और व्हाइट बैलेंस से शुरू करें, फिर शॉट्स के बीच स्किन, तटस्थ वस्तुओं और संतृप्त क्षेत्रों की तुलना करें। एक ही LUT अलग-अलग रोशनी में बनी रिकॉर्डिंग पर अलग दिख सकता है। कोई भी स्ट्रेंथ प्रतिशत हर क्लिप के लिए काम नहीं करता।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "मॉडल-विशिष्ट डाउनलोड के लिए, <a class=\"text-accent hover:underline\" href=\"/hi/blog/dji-osmo-pocket-3-luts\">Pocket 3 के लिए LUT</a> देखें। अपने तैयार किए गए पलों को पोस्ट के लिए तैयार करने के लिए, <a class=\"text-accent hover:underline\" href=\"/hi/blog/edit-dji-osmo-footage-iphone\">iPhone पर DJI वीडियो संपादित करना</a> के साथ जारी रखें।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

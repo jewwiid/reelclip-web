@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "Come estrarre i momenti salienti da un podcast su iPhone",
+  "description": "Usa la trascrizione per trovare e rivedere i momenti parlati da un video podcast, controllare i sottotitoli e preparare le clip per l'esportazione su iPhone.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Caso d'uso",
+  "primaryKeyword": "come creare clip dei momenti salienti del podcast",
+  "readMinutes": 4,
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
+  "schemaVersion": 1,
+  "locale": "it",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Una trascrizione può aiutarti a trovare un momento parlato senza dover scorrere ripetutamente l'intera registrazione. Inizia con un video del tuo podcast o intervista, poi leggi la trascrizione e riproduci il brano circostante prima di scegliere una clip."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Mantieni sufficiente contesto per chi non ha ascoltato l'episodio. Una frase citabile può ancora avere bisogno della domanda o della spiegazione che la precedeva."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Trova e seleziona il brano"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importa il video da Foto o Files e scegli Transcript.</li><li>Attendi la trascrizione, poi controlla i nomi e eventuali parole che ha capito male.</li><li>Leggi il testo e riproduci un brano candidato nel suo contesto.</li><li>Usa Add as clip per il brano che vuoi, oppure usa Slice quando conosci già il suo intervallo di tempo.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "L'interfaccia registrata mostra Add as clip accanto a un brano della trascrizione. La demo mostra anche una parola rimossa dalla modifica. Rimuovere una parola cambia la modifica del video, quindi ascolta in quel punto di taglio invece di trattarla come una semplice correzione ortografica."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Rivedi sottotitoli e audio"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Anteprima ogni clip candidata prima di esportare. Controlla l'inizio, la fine e qualsiasi discorso rimosso. Se usi i sottotitoli, rivedi le parole e la loro posizione sull'immagine. Controlla i sottotitoli anche nel file salvato finale, oltre che nell'anteprima dell'editor."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Puoi ispezionare il menu Esporta della trascrizione per le opzioni di testo e sottotitoli separatamente dal salvataggio del video. Per lunghi silenzi, vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/remove-silence-from-video-free\">pulizia delle pause</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Salva la clip che intendi pubblicare"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Scegli Review e ispeziona l'output preparato, quindi salva in Save to Photos. Il salvataggio in Photos o l'esportazione di un video finito richiede la modalità Creator. Verifica il file salvato e il suo inquadratura prima di caricarlo sulla piattaforma scelta. I tempi di trascrizione e rendering dipendono dalla registrazione e dal dispositivo; non esiste un tempo di elaborazione fisso né un numero garantito di highlight utili."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->quando clip a intervalli regolari si adattano meglio alla registrazione rispetto alla selezione tramite trascrizione."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

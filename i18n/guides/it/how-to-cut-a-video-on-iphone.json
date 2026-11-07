@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "Come tagliare un video su iPhone: ritagliarlo o dividerlo in clip",
+  "description": "Impara a ritagliare un video con Foto, dividerlo in un punto scelto con iMovie, o usa ReelClip per selezionare e rivedere più clip.",
+  "updatedAt": "2026-10-21",
+  "publishedAt": "2026-10-21",
+  "category": "Tutorial",
+  "primaryKeyword": "come tagliare un video su iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
+  "schemaVersion": 1,
+  "locale": "it",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Per un ritaglio rapido, apri un video in Foto, tocca Modifica, regola le maniglie di inizio e fine, tocca Fine e scegli Salva video o Salva video come nuova clip. Per dividere una clip in un punto scelto all'interno di un progetto film, usa il comando Dividi di iMovie. Per preparare diversi estratti da una registrazione lunga, usa Cut di ReelClip per un gruppo o Slice per i momenti che selezioni."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Scegli il tipo di taglio giusto"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Ritaglia l'inizio o la fine:</strong> Usa Foto per una versione più breve e rapida di una registrazione. Scegli Salva video come nuova clip se vuoi conservare anche l'originale.</li><li><strong class=\"text-text\">Dividi in un punto della timeline:</strong> <!-- -->Usa iMovie quando vuoi dividere una clip all'interno di un progetto film e continuare a disporre le sezioni lì.</li><li><strong class=\"text-text\">Prepara diverse clip autonome:</strong> <!-- -->Usa ReelClip quando vuoi un set di momenti selezionati o di dimensioni uniformi da una registrazione sorgente, poi controlla ogni risultato prima dell'esportazione.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Ritaglia un video in Foto"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Apri Foto e seleziona il video.</li><li>Tocca Modifica.</li><li>Trascina le maniglie alle estremità del visualizzatore fotogrammi per impostare i nuovi tempi di inizio e fine.</li><li>Anteprima la selezione, poi tocca Fine.</li><li>Scegli Salva video per conservare la versione ritagliata, o Salva video come nuova clip per conservare entrambe le versioni.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Foto modifica l'inizio e la fine del video selezionato. Per una versione dettagliata delle istruzioni attuali di Apple, vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">La guida di Apple per ritagliare un video su iPhone</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Dividi un video in un punto scelto in iMovie"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "In un progetto iMovie, sposta l'indicatore di riproduzione sul punto di divisione. Seleziona la clip video, tocca Azioni, poi tocca Dividi. Puoi anche selezionare la clip e scorrere verso il basso sull'indicatore di riproduzione. Le due sezioni rimangono nel progetto mentre continui a montare. Vedi<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">Le istruzioni di Apple per iMovie su come dividere una clip</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Crea un gruppo di clip in ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Importa il video sorgente da Foto o Files. Per clip consecutive della stessa durata dall'intera registrazione, scegli<!-- --> <strong class=\"text-text\">Cut</strong>, imposta<!-- --> <strong class=\"text-text\">Space</strong> su<!-- --> <strong class=\"text-text\">No gap</strong>, scegli il<!-- --> <strong class=\"text-text\">Clip amount</strong> e controlla il risultato in <strong class=\"text-text\">Clip duration</strong>. Tocca<!-- --> <strong class=\"text-text\">Add</strong> per inserire la selezione in Planned Clips. Scegli <strong class=\"text-text\">Slice</strong> <!-- -->per selezionare tu stesso i tempi di inizio e fine. Riproduci ogni clip pianificata e regola qualsiasi taglio che interrompa una frase o un'azione."
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Questa guida mostra una ricetta di Cut a clip uguali e un'anteprima. Non mostra un salvataggio completato su Foto. ReelClip è gratuito per importare e visualizzare l'anteprima; il salvataggio o l'esportazione del lavoro richiede la modalità Creator. L'app prepara i file video ma non li pubblica su TikTok, Instagram o YouTube. Per un flusso di lavoro social più lungo, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/how-to-cut-long-video-for-tiktok\">come preparare clip da un video lungo per TikTok</a>, o leggi la<!-- --> <a class=\"text-accent hover:underline\" href=\"/it/blog/video-length-social-media-reach\">guida per dividere una registrazione in clip uguali</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Quale opzione dovrei usare?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Usa Foto per un taglio rapido singolo, iMovie per un montaggio sulla timeline con un punto di divisione preciso, e ReelClip quando vuoi scegliere o creare in gruppo sezioni brevi da una registrazione più lunga. Conserva l'originale finché non hai rivisto le versioni che intendi condividere."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

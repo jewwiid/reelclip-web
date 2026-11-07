@@ -1,0 +1,126 @@
+{
+  "slug": "remove-silence-from-video-free",
+  "title": "iPhone पर वीडियो से मौन हटाने का तरीका",
+  "description": "ReelClip के Transcript pause controls का उपयोग करें, समय की समीक्षा करें और संपादित वीडियो की जाँच करें। निर्यात से पहले पूर्वावलोकन करें; अपने iPhone पर तैयार वीडियो सहेजने के लिए Creator मोड की आवश्यकता होती है।",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "कैसे करें",
+  "primaryKeyword": "remove silence from video iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
+  "schemaVersion": 1,
+  "locale": "hi",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "लंबे अंतराल एक बोले गए वीडियो को धीमा महसूस करा सकते हैं। ReelClip का Transcript mode आपको अपने iPhone पर रुकावटें हटाने और परिणामी वीडियो की समीक्षा करने की अनुमति देता है। निर्यात करने का निर्णय लेने से पहले संपादन का पूर्वावलोकन करें; आउटपुट सहेजने के लिए Creator मोड की आवश्यकता होती है।"
+    },
+    {
+      "kind": "tutorial",
+      "id": "pause-cleanup"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "रुकावट नियंत्रण खोजें"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>अपना वीडियो आयात करें और Transcript चुनें। ट्रांसक्रिप्ट पूर्ण होने तक प्रतीक्षा करें।</li><li>Audio खोलें, फिर Cleanup ढूंढें और Remove pauses चालू करें।</li><li>Cut timing का विस्तार करें ताकि रुकावट की सीमा और भाषण के आसप छोड़ी गई जगह की जाँच कर सकें।</li><li>Audio पर फिर से टैप करें ताकि उसका पैनल बंद हो जाए और ट्रांसक्रिप्ट में रुकावटों की जाँच कर सकें।</li><li>संपादित परिणाम तैयार करने और चलाने के लिए Review video चुनें।</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "रिकॉर्ड किए गए उदाहरण में, Cut 0.35s से अधिक लंबी रुकावटें हटाता है। यह एक उदाहरण है, न कि एक ऐसी सेटिंग जो हर रिकॉर्डिंग को चाहिए। एक निचली सीमा छोटे अंतराल हटाती है; प्राकृतिक भाषण और किसी भी रुकावट के लिए पर्याप्त जगह छोड़ें जो अर्थ लेकर आती हो।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "जाँचें कि कौन सी रुकावटें हटाई जाएंगी"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "हरा Auto keep संपादन में एक रुकावट छोड़ता है। लाल Auto remove या Remove इसे हटाने के लिए चिह्नित करता है। आउटपुट की समीक्षा करने से पहले लंबी रुकावट पर लेबल की जाँच करें; प्ले बटन केवल उस अंतराल को सुनने के लिए है।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "एक अंतराल स्वयं हटाने के लिए, उसका Pause action menu खोलें और Remove pause चुनें। Review video चुनने से पहले हटाने का चिह्न फिर से जाँचें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "कटों पर सुनें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "हेडफ़ोन या स्पीकर का उपयोग करके हर वाक्य की शुरुआत और अंत जाँचें। यदि कोई साँस या शब्द का अंत कटा हुआ लगे, तो समय-सीमा को समायोजित करें और फिर से समीक्षा करें। ट्रांसक्रिप्ट भी जाँचें; पहचान की त्रुटियों के कारण कोई संपादन आपकी अपेक्षा से अलग व्यवहार कर सकता है।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "विराम हटाना और भराव शब्द हटाना अलग-अलग नियंत्रण हैं। जिस परिवर्तन की आपको आवश्यकता है उससे शुरुआत करें, फिर परिणाम सुनें और उसके बाद और सफ़ाई जोड़ें।"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "अपनी समीक्षा किए गए संस्करण को रखें"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "आउटपुट की समीक्षा करने के बाद, Save to Photos का उपयोग करें और पूर्ण होने की प्रतीक्षा करें। आपकी मूल रिकॉर्डिंग अछूती रहती है। यदि आपको कैप्शन फ़ाइलों की आवश्यकता है, तो यह मानकर न चलें कि वीडियो सेव करने से SRT या VTT फ़ाइल भी बनती है—ट्रांसक्रिप्ट निर्यात विकल्पों को अलग से जाँचें।"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "किसी विशिष्ट बोले गए क्षण का चयन करने के लिए, <!-- --> <a class=\"text-accent hover:underline\" href=\"/hi/blog/extract-clip-from-podcast\">पॉडकास्ट क्लिपिंग गाइड</a> देखें। नियमित अंतराल वाले क्लिप्स के लिए, <a class=\"text-accent hover:underline\" href=\"/hi/blog/how-to-cut-long-video-for-tiktok\">Cut</a> का उपयोग करें।"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

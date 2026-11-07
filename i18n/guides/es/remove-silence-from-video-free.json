@@ -1,0 +1,126 @@
+{
+  "slug": "remove-silence-from-video-free",
+  "title": "Cómo eliminar el silencio de un vídeo en iPhone",
+  "description": "Usa los controles de pausa de Transcript de ReelClip, revisa la duración y comprueba el vídeo editado. Previsualiza antes de exportar; guardar el vídeo terminado en tu iPhone requiere el modo Creator.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Cómo hacerlo",
+  "primaryKeyword": "eliminar silencio de vídeo iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "a03abe2167807db4324971b5b8a730a91b77ab677da6cf10a106c6e9d0d45094",
+  "schemaVersion": 1,
+  "locale": "es",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Los espacios largos pueden hacer que un vídeo hablado se sienta lento. El modo Transcript de ReelClip te permite eliminar pausas y revisar el vídeo resultante en tu iPhone. Previsualiza la edición antes de decidir exportar; guardar el resultado requiere el modo Creator."
+    },
+    {
+      "kind": "tutorial",
+      "id": "pause-cleanup"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Encuentra los controles de pausa"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importa tu vídeo y elige Transcript. Espera a que finalice la transcripción.</li><li>Abre Audio, luego busca Cleanup y activa Remove pauses.</li><li>Despliega Cut timing para inspeccionar el umbral de pausa y el espacio que queda alrededor del habla.</li><li>Toca Audio de nuevo para cerrar su panel y comprobar las pausas en la transcripción.</li><li>Elige Review video para preparar y reproducir el resultado editado.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "En el ejemplo grabado, Cut pausas superiores a está configurado en 0,35 s. Eso es un ejemplo, no un ajuste que necesite cada grabación. Un umbral más bajo elimina espacios más cortos; deja suficiente espacio para el habla natural y cualquier pausa que tenga significado."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Comprueba qué pausas se eliminarán"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Auto keep en verde deja una pausa en la edición. Auto remove en rojo o Remove la marca para eliminación. Comprueba la etiqueta en la pausa larga misma antes de revisar el resultado; el botón de reproducción solo sirve para escuchar ese espacio."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para eliminar un espacio tú mismo, abre su menú de acción Pause y elige Remove pause. Comprueba el marcador de eliminación de nuevo antes de elegir Review video."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Escucha en los cortes"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Usa auriculares o el altavoz para revisar el inicio y el final de cada frase. Si un respiro o el final de una palabra suena cortado, ajusta la duración y vuelve a revisar. Comprueba también la transcripción; los errores de reconocimiento pueden hacer que una edición se comporte de forma distinta a lo esperado."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La eliminación de pausas y la eliminación de muletillas son controles separados. Comienza con el cambio que necesitas, luego escucha el resultado antes de añadir más limpieza."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Conserva la versión que revisaste"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Después de revisar el resultado, usa Save to Photos y espera a que se complete. Tu grabación original permanece intacta. Si necesitas archivos de subtítulos, consulta las opciones de exportación de transcripción por separado en lugar de suponer que guardar el vídeo también genera un archivo SRT o VTT."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Para seleccionar un momento de habla específico, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/extract-clip-from-podcast\">la guía de recorte de podcasts</a>. Para clips con espaciado regular, usa <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}
