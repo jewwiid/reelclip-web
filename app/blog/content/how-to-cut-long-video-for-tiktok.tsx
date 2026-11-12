@@ -16,7 +16,7 @@ export const POST_META = {
   description:
     "Prepare a long recording for TikTok on iPhone, review ReelClip’s cut modes, and learn how Apple Intelligence works with sampled video frames.",
   publishedAt: "2026-08-24",
-  updatedAt: "2026-10-25",
+  updatedAt: "2026-11-12",
   category: "Tutorial" as const,
   primaryKeyword: "how to cut a long video for tiktok",
   readMinutes: 6,
@@ -121,12 +121,9 @@ export default function Post() {
           silence, tone of voice, or other sound-only conditions.
         </PostP>
         <PostP>
-          Availability checked 25 October 2026: Apple’s public App Store
-          listing is still version 1.4.3. The request assistant and the iOS 27
-          image-input path are in ReelClip 1.5 TestFlight build 518, so these
-          features are not yet in the public App Store version. Direct image
-          input also requires iOS 27, a supported language, and an available
-          Apple Intelligence model.
+          ReelClip 1.5 is available on the App Store. Visual search with
+          direct image input requires iOS 27, a supported language, and an
+          available Apple Intelligence model.
         </PostP>
 
         <PostH3>3. Review every planned clip</PostH3>

@@ -182,7 +182,7 @@ export const BLOG_POSTS: BlogPost[] = [
     description:
       "Prepare a long recording for TikTok on iPhone, review ReelClip’s cut modes, and learn how Apple Intelligence works with sampled video frames.",
     publishedAt: "2026-08-24",
-    updatedAt: "2026-10-25",
+    updatedAt: "2026-11-12",
     category: "Tutorial",
     primaryKeyword: "how to cut a long video for tiktok",
     readMinutes: 6,

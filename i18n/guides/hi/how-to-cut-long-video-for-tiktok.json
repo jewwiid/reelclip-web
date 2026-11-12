@@ -3,11 +3,11 @@
   "title": "iPhone पर TikTok के लिए लंबे वीडियो को कैसे काटें",
   "description": "iPhone पर TikTok के लिए लंबी रिकॉर्डिंग तैयार करें, ReelClip के कट मोड देखें और जानें कि Apple Intelligence चुने हुए वीडियो फ़्रेमों का विश्लेषण कैसे करता है।",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-12",
   "category": "ट्यूटोरियल",
   "primaryKeyword": "tiktok के लिए लंबे वीडियो को कैसे काटें",
   "readMinutes": 5,
-  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
+  "sourceFingerprint": "77d753b60defeee9a997ecec026c71dd64a50e0fea5f8f1a4a91d772d1f199de",
   "schemaVersion": 1,
   "locale": "hi",
   "blocks": [
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "उपलब्धता की जाँच 25 अक्टूबर 2026 को की गई: Apple की सार्वजनिक App Store सूची में अभी भी संस्करण 1.4.3 है। अनुरोध सहायक और iOS 27 का इमेज इनपुट पथ ReelClip 1.5 TestFlight बिल्ड 518 में हैं, इसलिए ये सुविधाएँ अभी सार्वजनिक App Store संस्करण में उपलब्ध नहीं हैं। सीधे इमेज इनपुट के लिए iOS 27, समर्थित भाषा और उपलब्ध Apple Intelligence मॉडल भी आवश्यक हैं।"
+      "html": "ReelClip 1.5 App Store पर उपलब्ध है। सीधे चित्रों का विश्लेषण करके खोजने के लिए iOS 27, समर्थित भाषा और उपलब्ध Apple Intelligence मॉडल चाहिए।"
     },
     {
       "kind": "html",

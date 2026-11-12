@@ -3,11 +3,11 @@
   "title": "Como cortar um vídeo longo para o TikTok no iPhone",
   "description": "Prepare uma gravação longa para o TikTok no iPhone, conheça os modos de corte do ReelClip e veja como o Apple Intelligence analisa quadros de vídeo selecionados.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-12",
   "category": "Tutorial",
   "primaryKeyword": "como cortar um vídeo longo para tiktok",
   "readMinutes": 5,
-  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
+  "sourceFingerprint": "77d753b60defeee9a997ecec026c71dd64a50e0fea5f8f1a4a91d772d1f199de",
   "schemaVersion": 1,
   "locale": "pt-BR",
   "blocks": [
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Disponibilidade verificada em 25 de outubro de 2026: a página pública da Apple na App Store ainda mostra a versão 1.4.3. O assistente de pedidos e o caminho de entrada de imagens do iOS 27 estão no build 518 do ReelClip 1.5 no TestFlight, então esses recursos ainda não estão disponíveis na versão pública da App Store. A entrada direta de imagens também requer iOS 27, um idioma compatível e um modelo do Apple Intelligence disponível."
+      "html": "O ReelClip 1.5 está disponível na App Store. A busca visual com entrada direta de imagens requer iOS 27, um idioma compatível e um modelo do Apple Intelligence disponível."
     },
     {
       "kind": "html",

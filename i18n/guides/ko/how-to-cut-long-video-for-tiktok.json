@@ -3,11 +3,11 @@
   "title": "iPhone에서 긴 동영상을 TikTok용으로 자르는 방법",
   "description": "iPhone에서 TikTok용 긴 영상을 준비하고 ReelClip의 자르기 모드를 살펴보며, Apple Intelligence가 샘플링된 영상 프레임을 어떻게 분석하는지 알아보세요.",
   "publishedAt": "2026-08-24",
-  "updatedAt": "2026-10-25",
+  "updatedAt": "2026-11-12",
   "category": "튜토리얼",
   "primaryKeyword": "긴 동영상을 틱톡용으로 자르는 방법",
   "readMinutes": 5,
-  "sourceFingerprint": "02837ab9affb17ba1f5ab6b69ab6f10ead3b9947c8147d6b283e0438d3827d5a",
+  "sourceFingerprint": "77d753b60defeee9a997ecec026c71dd64a50e0fea5f8f1a4a91d772d1f199de",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -125,7 +125,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "2026년 10월 25일 기준 제공 현황: Apple의 공개 App Store 목록에는 여전히 버전 1.4.3이 표시됩니다. 요청 도우미와 iOS 27 이미지 입력 경로는 ReelClip 1.5 TestFlight 빌드 518에 포함되어 있어 아직 공개 App Store 버전에서 사용할 수 없습니다. 직접 이미지 입력에는 iOS 27, 지원 언어, 사용 가능한 Apple Intelligence 모델도 필요합니다."
+      "html": "ReelClip 1.5는 App Store에서 다운로드할 수 있습니다. 이미지를 직접 입력하는 시각 검색을 사용하려면 iOS 27, 지원되는 언어 및 사용 가능한 Apple Intelligence 모델이 필요합니다."
     },
     {
       "kind": "html",
