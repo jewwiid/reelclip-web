@@ -1,0 +1,146 @@
+{
+  "slug": "capcut-alternative-no-watermark",
+  "title": "Alternatives à CapCut sur iPhone : choisissez selon votre montage",
+  "description": "Comparez iMovie, VN, InShot et ReelClip selon le montage recherché, et découvrez quand CapCut peut exporter sans filigrane.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-30",
+  "category": "Comparaison",
+  "primaryKeyword": "alternative à CapCut",
+  "readMinutes": 5,
+  "sourceFingerprint": "db72bdf1be4c4ac025239ab4e70d80302645c77a2157c205652951f85e267b6b",
+  "schemaVersion": 1,
+  "locale": "fr",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La meilleure alternative à CapCut dépend de votre besoin. Si vous voulez seulement exporter sans filigrane, CapCut indique qu’un montage manuel classique le permet ; les modèles et éléments premium peuvent changer le résultat. Pour d’autres usages, comparez iMovie pour monter un film sur une timeline, VN pour couper avec précision, InShot pour les outils de vidéo sociale et ReelClip pour créer plusieurs clips à partir d’un long enregistrement."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Vérifiez l’export CapCut avant de changer d’application"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La <a class=\"text-accent hover:underline\" href=\"https://www.capcut.com/help/video-without-watermark\" rel=\"noreferrer\" target=\"_blank\">page d’aide de CapCut sur les filigranes</a> indique qu’un projet réalisé dans l’éditeur standard peut être exporté sans filigrane. Certains modèles ajoutent un clip de fin avec le logo CapCut, et les modèles ou éléments premium peuvent imposer d’autres conditions d’export. Avant de changer, supprimez le clip de fin, vérifiez le message d’export et regardez le fichier enregistré jusqu’à la dernière image. La documentation de CapCut est plus précise que l’affirmation selon laquelle toutes ses vidéos portent un filigrane."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Alternatives à CapCut sur iPhone selon le montage"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "iMovie : assemblez un film sur une timeline"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Choisissez iMovie si vous voulez organiser plusieurs prises dans un film et ajouter des titres, transitions, musiques ou effets. Le <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">guide Apple pour iPhone</a> décrit ces outils de timeline. C’est un bon point de départ pour un montage classique, lorsque l’ordre des plans compte davantage que l’extraction de nombreux moments d’une longue vidéo."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "VN : coupez et séparez avec précision sur la timeline"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Le <a class=\"text-accent hover:underline\" href=\"https://www.vlognow.me/help/getting-started/editing-101/\" rel=\"noreferrer\" target=\"_blank\">guide officiel de montage de VN</a> explique le rognage, les coupes précises et le choix du format d’image. Comparez VN si vous souhaitez contrôler où les clips commencent, se terminent et s’insèrent dans la séquence. L’éditeur et les options d’export peuvent évoluer ; vérifiez l’application et l’offre actuelles avant de compter sur un réglage précis."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "InShot : ajoutez des outils sociaux aux séquences choisies"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "InShot est une autre option si vous cherchez des outils comme Auto Captions, des effets et AI Cut dans un éditeur vidéo orienté réseaux sociaux. La <a class=\"text-accent hover:underline\" href=\"https://apps.apple.com/us/app/inshot-video-editor/id997362197\" rel=\"noreferrer\" target=\"_blank\">fiche américaine d’InShot sur l’App Store</a> décrit ces fonctions et indique un téléchargement gratuit avec achats intégrés. La disponibilité et les fonctions payantes varient ; vérifiez la fiche de votre région et l’écran d’export."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "ReelClip : créez plusieurs clips à partir d’un long enregistrement"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClip est conçu pour sélectionner et créer des clips à partir d’enregistrements plus longs. Choisissez les moments avec Slice, séparez par nombre ou intervalle avec Cut, modifiez les passages parlés dans Transcript ou planifiez les coupes avec AI lorsque l’appareil le permet. Vérifiez les clips proposés avant de les enregistrer ; le traitement reste sur votre iPhone. L’importation et l’aperçu sont gratuits ; pour enregistrer ou exporter, vous devez <a class=\"text-accent hover:underline\" href=\"/fr/pricing\">activer Creator mode</a>. ReelClip convient à l’étape qui transforme une source en plusieurs clips ; utilisez un éditeur sur timeline pour créer une séquence à plusieurs pistes avec musique, transitions ou incrustations."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pour voir un exemple de découpe par lots, consultez la <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">démonstration Cut</a>. Pour un seul rognage, le <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-a-video-on-iphone\">guide de découpe vidéo sur iPhone</a> commence par Photos d’Apple et iMovie."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Comparez le fichier enregistré, pas seulement la fiche de l’application"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Utilisez une courte copie d’une vidéo similaire à celle que vous souhaitez monter.</li><li>Réalisez exactement le montage voulu, avec les modèles, sous-titres, musique ou effets nécessaires.</li><li>Vérifiez sur l’écran d’export le filigrane, l’offre requise, la résolution et la limite de durée.</li><li>Enregistrez un exemple et regardez-le hors de l’éditeur. Vérifiez les premières et dernières images, les sous-titres, les bords de l’image et le son.</li><li>Conservez l’enregistrement original et comparez le fichier final avant de déplacer un projet complet.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Un téléchargement gratuit ne signifie pas que tous les effets ou exports sont gratuits. De même, un import ou un aperçu gratuit ne correspond pas à une vidéo enregistrée. Vérifiez les conditions actuelles dans votre région avant de consacrer du temps à un montage complet."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

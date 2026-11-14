@@ -1,0 +1,110 @@
+{
+  "slug": "edit-vertical-video-on-iphone",
+  "title": "Comment éditer une vidéo verticale sur iPhone (Reels, TikTok, Shorts)",
+  "description": "Choisissez et affinez les moments d'un plan portrait dans ReelClip, vérifiez les sous-titres et le cadrage, puis enregistrez les extraits que vous souhaitez publier.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-31",
+  "category": "Mode d'emploi",
+  "primaryKeyword": "comment éditer une vidéo verticale sur iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "fe01ade1949e1fef3d2413df4bce739fbb5d4b6832409676bdeba1a05170c9a8",
+  "schemaVersion": 1,
+  "locale": "fr",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Commencez par un enregistrement portrait et choisissez les moments que vous voulez conserver. Dans ReelClip, Slice sélectionne une plage de temps ; il ne détermine pas quelle partie de l'image doit s'adapter à un ratio d'aspect différent. Vérifiez le cadrage séparément avant de publier."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vous voulez raccourcir une seule vidéo dans Photos ou la scinder à un point précis dans iMovie ? Consultez notre <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-a-video-on-iphone\">guide pas à pas pour couper une vidéo sur iPhone</a>. Ce guide se concentre sur le choix de moments dans une vidéo portrait et la vérification du cadrage."
+    },
+    {
+      "kind": "tutorial",
+      "id": "choose-moment"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Choisissez un moment avec Slice"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importez l'enregistrement depuis Photos ou Files, puis ouvrez Clip.</li><li>Choisissez Slice. Déplacez la sélection sur la partie que vous voulez conserver.</li><li>Ajustez le début et la fin pour que l'action ou la phrase ait suffisamment de contexte.</li><li>Appuyez sur Add, puis répétez pour les autres moments souhaités.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La démonstration utilise un court extrait et trois sélections. Votre enregistrement peut nécessiter un nombre ou une durée d'extraits différents. Visionnez chaque sélection ; une coupe qui fonctionne visuellement peut quand même interrompre une phrase parlée."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Vérifiez l'image et les mots"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Lisez les extraits planifiés et vérifiez leurs premières et dernières images. Une source portrait a déjà une image verticale ; une source paysage nécessite une décision de cadrage distincte. Modifier la plage de temps sélectionnée ne recadre pas automatiquement l'image pour un Reel ou un Short."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pour un plan avec parole, vérifiez également la transcription et les sous-titres. Corrigez les noms et les termes spécialisés, puis assurez-vous que le texte reste lisible sur l'image. Consultez le <a class=\"text-accent hover:underline\" href=\"/fr/blog/extract-clip-from-podcast\">workflow de transcription</a> <!-- -->pour un exemple utilisant la parole."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Enregistrez, puis publiez"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Choisissez Review et inspectez le résultat préparé avant de l'enregistrer dans Photos. L'enregistrement ou l'exportation d'une vidéo terminée nécessite le mode Creator. Attendez la confirmation de l'enregistrement, puis ouvrez l'application de destination et téléchargez vous-même le fichier enregistré. Vérifiez ses exigences de téléchargement actuelles si vous modifiez le format de sortie."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Si vous voulez des clips régulièrement espacés au lieu de moments choisis manuellement, utilisez <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">le workflow Cut</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

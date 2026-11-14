@@ -1,0 +1,114 @@
+{
+  "slug": "get-paid-to-clip-streamers",
+  "title": "ストリーマーのクリップで報酬を得る方法：キャンペーン、権利、ワークフロー",
+  "description": "クリッパーキャンペーンの報酬体系、確認すべき許可と支払いルール、iPhoneで承認済みのTwitchまたはKickクリップを編集する方法を解説します。",
+  "updatedAt": "2026-10-21",
+  "publishedAt": "2026-10-21",
+  "category": "使い方",
+  "primaryKeyword": "ストリーマーのクリップで報酬を得る方法",
+  "readMinutes": 7,
+  "sourceFingerprint": "dcf7a2f37f156a956cf96d8301552981984bc628686b9e3c1d20b65097795883",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ストリーマーのクリップを作成する人は、ストリーマーまたはブランドが資金提供するキャンペーン、直接的な編集依頼、または自身の対象チャンネルの収益化から収入を得ることができます。これらは異なる契約です。キャンペーンは承認済み投稿あたり、検証済み視聴あたり、または固定の成果物に対して支払う場合があります。プラットフォームは、ストリーマーが許可を与えた場合でも、再投稿されたクリップを拒否することがあります。編集する前に規約を読み、正確なソースと用途について書面での許可を得てください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "この有料ワークフローは、クリップ経済の一部です。クリップ経済では、クリエイターが長時間のストリームや番組を短い投稿に変換するよう人を雇う仕組みです。The Atlanticの2026年のクリッピングに関する議論はその変化を説明するものであり、特定のクリップやキャンペーンが必ずしも収益を生むことを保証するものではありません。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.theatlantic.com/podcasts/2026/04/how-short-form-clips-took-over-the-internet/686922/\" rel=\"noreferrer\" target=\"_blank\">クリップ経済に関する報道を読む</a>。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "報酬を得る方法を選ぶ"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>資金提供されたクリッピングキャンペーンに参加する。</strong> キャンペーンの所有者が概要と映像を提供するか、使用可能なものを確認します。支払いは承認済み投稿あたり、1,000回の検証済み視聴あたり、または固定のレテイナー料金です。例えば、現在の<!-- --> <a class=\"text-accent hover:underline\" href=\"https://b4e0vdqv6zgqeqj4pfgm.apps.whop.com/terms\" rel=\"noreferrer\" target=\"_blank\">Content Rewardsクリエイター規約</a> <!-- -->では、CPM、投稿あたり、レテイナー、プールキャンペーンについて説明しています。キャンペーンごとに規約が異なるため、参加するページを確認してください。</li><li><strong>ストリーマーまたは編集者と直接仕事をする。</strong> 料金、クリップ数、締め切り、レビュー回数、プラットフォーム、権利について書面で合意してください。固定料金は合意された編集作業に対する支払いです。パフォーマンスボーナスは契約次第です。</li><li><strong>プラットフォーム収益の対象となるチャンネルを構築する。</strong>YouTubeはチャンネル全体の独自性を審査します。その<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.google.com/youtube/answer/1311392\" rel=\"noreferrer\" target=\"_blank\">再利用コンテンツポリシー</a> <!-- -->では、オリジナルのクリエイターが許可を与えた場合でも、最小限の変更しか加えられていないクリップを拒否することがあります。TikTokの<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.tiktok.com/en/business-and-creator/creator-rewards-program/how-is-the-creator-rewards-program-different-from-the-tiktok-creator-fund\" rel=\"noreferrer\" target=\"_blank\">Creator Rewardsガイダンス</a> <!-- -->では、対象となる動画はオリジナルで高品質かつ1分以上である必要があり、アクセスと対象資格はアカウントと市場によって異なると説明しています。短い再投稿が視聴回数を得たからといって対象になるわけではありません。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "一部のKICK Bountiesは視聴者向けに公開されており、一部では視聴者がクリップをエントリーとして提出できます。KICKはギフトサブスクリプションやKICK Shopギフトカードなどの報酬を掲載しています。別途のストリーマー向けBountiesでは、KICKまたはブランドパートナーがストリーマーにクリップの対価を支払うことを説明しています。視聴者向け<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/11744042-guide-to-kick-bounties\" rel=\"noreferrer\" target=\"_blank\">ガイド</a> <!-- -->とストリーマー支払い<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/15159722-understanding-kick-s-revenue-split\" rel=\"noreferrer\" target=\"_blank\">詳細</a> をお読みください。対象資格と報酬はBountyごとに異なり、視聴者の賞品が必ずしも現金とは限らないため、有料のクリッパー作業としてカウントする前に特定の規約を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "クリップを作成する前に概要を確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "公開されているストリームや動作中のクリップボタンは、他の場所に動画を再投稿する許可ではありません。Twitchでは、放送者が視聴者がクリップを作成できるかどうかを制御でき、KICKでは視聴者がクリップを作成してダウンロードする方法を説明しています。これらのツールはプラットフォームの動作を説明するものであり、ストリーマーがプラットフォーム外の編集や有料プロモーションをライセンスしたことを保証するものではありません。ストリーマーまたはキャンペーンの所有者に書面で権利を確認するよう依頼してください。<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.twitch.tv/s/article/clips-settings\" rel=\"noreferrer\" target=\"_blank\">Twitchクリップ設定</a> <!-- -->と<!-- --> <a class=\"text-accent hover:underline\" href=\"https://help.kick.com/en/articles/7120566-how-to-create-clips-on-kick\" rel=\"noreferrer\" target=\"_blank\">KICKクリップ作成とダウンロード</a> <!-- -->は、ソースプラットフォームを理解する上で役立ちます。"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>どの録画、チャンネル、タイムスタンプを使用できますか？</li><li>どのアカウントとプラットフォームに投稿でき、どのくらいの期間ですか？</li><li>クロップ、キャプション、翻訳、ボイスオーバー追加、オーディオ変更は可能ですか？</li><li>承認済み投稿と検証済み視聴の定義は何ですか？</li><li>最低支払額、最高支払額、レビュー期間、手数料はありますか？</li><li>どのような開示、クレジット、投稿後のルールが適用されますか？</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ソースの音声も確認してください。ストリーマーはライブ配信中に音楽を再生することを許可されていても、その音楽を別のサービスのクリップに使用する権利を持っていない場合があります。編集全体の許可を取得してください。音楽、オーバーレイ、ゲスト出演も含みます。有料投稿が製品を推奨する場合は、プラットフォームのブランデッドコンテンツツールを使用し、現地の開示規則を確認してください。米国の投稿については、<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.ftc.gov/business-guidance/resources/disclosures-101-social-media-influencers\" rel=\"noreferrer\" target=\"_blank\">FTC</a> <!-- -->のガイダンスを確認し、視聴者に金銭的関係を明確に伝えてください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "許可されたストリームファイルをiPhoneで編集する"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>クリエイターまたはキャンペーンが承認したファイルから始めてください。KICKのクリップの場合、ヘルプセンターによるとダウンロードボタンでMP4が保存されます。そのファイルをiPhoneの写真またはFilesに移動してください。Twitchの場合、承認されたソースファイルをリクエストするか、キャンペーンが許可する共有方法を使用してください。</li><li>ReelClipで写真またはFilesからファイルをインポートしてください。このアプリはiPhone上の既存の録画を編集します。TwitchやKICKのストリームをキャプチャまたはダウンロードすることはありません。</li><li>1つの瞬間があり、開始と終了を設定したい場合は<strong>Slice</strong>を選択してください。承認された長い録画をクリップ数、長さ、間隔で分割したい場合は<strong>Cut</strong>を選択してください。このアプリはどの瞬間が面白いか、またはパフォーマンスが良いかを判断することはありません。</li><li>音声の場合、<strong>Transcript</strong>を使用して該当部分を見つけ、名前を確認し、文脈の中で完全な考えを再生してください。フレーミングは別途確認してください：時間範囲を短く選択しても、横長の映像が縦長のクロップにはなりません。</li><li>Reviewを開き、準備した各クリップを視聴し、概要で許可されているものをエクスポートしてください。完成した動画の保存またはエクスポートにはCreatorモードが必要です。保存したファイルを自分でアップロードし、そのリンクを提出して、キャンペーンが定めた計測期間を追跡してください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClipはクリップを準備します。ソーシャルプラットフォームへの投稿、他者の映像への権利付与、キャンペーンの承認や収益の保証は行いません。実際の編集コントロールについては、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->の既存ガイドと<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">Transcript</a> <!-- -->のガイドを参照してください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

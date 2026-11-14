@@ -7,11 +7,13 @@ import { switchLocalePath } from "@/i18n/routing";
 export function LanguageSwitcher({
   locale,
   label,
-  selectLabel
+  selectLabel,
+  availableLocales = LOCALES.map(({ code }) => code),
 }: {
   locale: Locale;
   label: string;
   selectLabel: string;
+  availableLocales?: Locale[];
 }) {
   const [isChanging, setIsChanging] = useState(false);
 
@@ -32,7 +34,7 @@ export function LanguageSwitcher({
         onChange={(event) => changeLanguage(event.target.value as Locale)}
         className="h-9 max-w-36 cursor-pointer appearance-none rounded-full border border-hairline bg-surface py-1 pl-3 pr-8 text-xs font-semibold text-text transition-[border-color,opacity] hover:border-accent/50 focus:border-accent focus:outline-none disabled:cursor-wait disabled:opacity-70"
       >
-        {LOCALES.map((option) => (
+        {LOCALES.filter((option) => availableLocales.includes(option.code)).map((option) => (
           <option key={option.code} value={option.code}>
             {option.nativeName}
           </option>

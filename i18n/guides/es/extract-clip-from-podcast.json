@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "Cómo extraer momentos destacados de un podcast en iPhone",
+  "description": "Usa la transcripción para encontrar y revisar momentos hablados de un video de podcast, verificar subtítulos y preparar clips para exportar en iPhone.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Caso de uso",
+  "primaryKeyword": "cómo recortar momentos destacados de podcast",
+  "readMinutes": 4,
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
+  "schemaVersion": 1,
+  "locale": "es",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Una transcripción puede ayudarte a encontrar un momento hablado sin tener que desplazarte repetidamente por toda la grabación. Comienza con un video de tu podcast o entrevista, luego lee la transcripción y reproduce el pasaje circundante antes de elegir un clip."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Mantén suficiente contexto para alguien que no ha escuchado el episodio. Una frase citada puede seguir necesitando la pregunta o explicación que la precedió."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Encuentra y selecciona el pasaje"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importa el video desde Fotos o Files y elige Transcript.</li><li>Espera la transcripción, luego verifica los nombres y cualquier palabra que haya entendido mal.</li><li>Lee el texto y reproduce un pasaje candidato en contexto.</li><li>Usa Add as clip para el pasaje que deseas, o usa Slice cuando ya conoces su rango de tiempo.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La interfaz grabada muestra Add as clip junto a un pasaje de la transcripción. La demostración también muestra una palabra eliminada de la edición. Eliminar una palabra cambia la edición del video, así que escucha en ese corte en lugar de tratarlo como una simple corrección ortográfica."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Revisa subtítulos y sonido"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Previsualiza cada clip candidato antes de exportar. Verifica su inicio, final y cualquier discurso eliminado. Si usas subtítulos, revisa las palabras y su colocación sobre la imagen. Verifica los subtítulos en el archivo final guardado así como en la previsualización del editor."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Puedes inspeccionar el menú Exportar de la transcripción para opciones de texto y subtítulos por separado de guardar el video. Para largos silencios, consulta<!-- --> <a class=\"text-accent hover:underline\" href=\"/es/blog/remove-silence-from-video-free\">limpieza de pausas</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Guarda el clip que planeas publicar"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Elige Review e inspecciona el resultado preparado, luego guarda en Photos. Guardar en Photos o exportar un video terminado requiere el modo Creator. Verifica el archivo guardado y su encuadre antes de subirlo a la plataforma que elijas. El tiempo de transcripción y renderizado depende de la grabación y el dispositivo; no hay un tiempo de procesamiento fijo ni un número garantizado de momentos destacados útiles."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Usa <a class=\"text-accent hover:underline\" href=\"/es/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->cuando clips espaciados regularmente se adaptan mejor a la grabación que la selección por transcripción."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -1,0 +1,126 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "iPhone에서 동영상 자르기: 트리밍하거나 클립으로 분할하기",
+  "description": "Photos로 하나의 동영상을 트리밍하거나, iMovie로 원하는 지점에서 분할하거나, ReelClip으로 여러 클립을 선택하고 검토하는 방법을 알아보세요.",
+  "updatedAt": "2026-10-21",
+  "publishedAt": "2026-10-21",
+  "category": "사용 방법",
+  "primaryKeyword": "iphone에서 동영상 자르는 방법",
+  "readMinutes": 4,
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
+  "schemaVersion": 1,
+  "locale": "ko",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "빠르게 한 번 트리밍하려면 Photos에서 동영상을 열고, 편집을 탭한 뒤 시작과 종료 핸들을 조정하고, 완료를 탭한 다음 동영상 저장 또는 새로운 클립으로 동영상 저장을 선택하세요. 무비 프로젝트 안에서 원하는 지점에서 클립을 나누려면 iMovie의 분할 명령을 사용하세요. 긴 녹화물에서 여러 개의 발췌본을 준비하려면 ReelClip의 Cut으로 일괄 처리하거나, 선택한 순간은 Slice을 사용하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "적절한 자르기 방식 선택하기"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">시작 또는 끝 트리밍:</strong> 하나의 녹화물을 빠르게 짧게 만들 때 Photos를 사용하세요. 원본도 함께 보관하려면 새로운 클립으로 동영상 저장을 선택하세요.</li><li><strong class=\"text-text\">타임라인의 특정 지점에서 분할:</strong> <!-- -->무비 프로젝트 안에서 클립을 나누고 각 구간을 계속 배치하고 싶을 때 iMovie를 사용하세요.</li><li><strong class=\"text-text\">여러 개의 독립형 클립 준비:</strong> <!-- -->원본 녹화물에서 선택한 순간이나 균일한 크기의 순간들을 원할 때 ReelClip을 사용하고, 내보내기 전에 각 결과를 확인하세요.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Photos에서 하나의 동영상 트리밍하기"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Photos를 열고 동영상을 선택하세요.</li><li>편집을 탭하세요.</li><li>프레임 뷰어 양쪽 끝의 핸들을 드래그하여 새로운 시작과 종료 시간을 설정하세요.</li><li>선택 영역을 미리 본 뒤 완료를 탭하세요.</li><li>트리밍된 버전을 유지하려면 동영상 저장을, 두 버전 모두 유지하려면 새로운 클립으로 동영상 저장을 선택하세요.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Photos는 선택한 동영상의 시작과 끝을 변경합니다. Apple의 현재 지침 상세 버전은<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">iPhone에서 동영상 트리밍하기에 대한 Apple 가이드</a>를 참조하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "iMovie에서 원하는 지점에서 동영상 분할하기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iMovie 프로젝트에서 재생 헤드를 분할 지점으로 이동하세요. 동영상 클립을 선택하고, 동작을 탭한 뒤 분할을 탭하세요. 클립을 선택하고 재생 헤드 위로 아래로 스와이프할 수도 있습니다. 두 구간은 편집을 계속하는 동안 프로젝트에 남아 있습니다. 자세한 내용은<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">클립 분할에 대한 Apple iMovie 지침</a>을 참조하세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClip에서 여러 클립을 한 번에 만들기"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Photos 또는 Files에서 원본 영상을 가져옵니다. 전체 녹화본에서 연속적이고 동일한 길이의 클립을 원하면 <strong class=\"text-text\">Cut</strong>을 선택하고, <strong class=\"text-text\">Space</strong>를 <strong class=\"text-text\">No gap</strong>로 설정한 뒤 <strong class=\"text-text\">Clip amount</strong>를 선택하고 결과 <strong class=\"text-text\">Clip duration</strong>를 확인합니다. <strong class=\"text-text\">Add</strong>를 탭하여 선택 항목을 Planned Clips에 넣습니다. <strong class=\"text-text\">Slice</strong>를 선택하면 시작과 끝 시간을 직접 지정할 수 있습니다. 모든 Planned Clips를 재생하고 문장이나 동작을 끊는 컷은 조정합니다."
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "이 워크스루에서는 동일한 길이의 클립 Cut 레시피와 미리보기를 보여줍니다. 완료된 Photos 저장은 보여주지 않습니다. ReelClip은 가져오기와 미리보기가 무료입니다. 작업을 저장하거나 내보내려면 Creator 모드가 필요합니다. 앱은 비디오 파일을 준비하지만 TikTok, Instagram 또는 YouTube에 게시하지는 않습니다. 더 긴 소셜 워크플로우는<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/how-to-cut-long-video-for-tiktok\">긴 비디오에서 TikTok용 클립을 준비하는 방법</a>을 참조하거나,<!-- --> <a class=\"text-accent hover:underline\" href=\"/ko/blog/video-length-social-media-reach\">녹화본을 동일한 클립으로 분할하는 가이드</a>를 읽어보세요."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "어떤 옵션을 사용해야 하나요?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "빠른 한 번 자르기에는 Photos, 정확한 분할 지점으로 타임라인 편집에는 iMovie, 긴 녹화본에서 짧은 구간을 선택하거나 여러 개를 한 번에 만들 때는 ReelClip을 사용하세요. 공유할 버전을 모두 검토할 때까지 원본은 보관하세요."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}
