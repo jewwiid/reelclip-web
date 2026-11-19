@@ -1,8 +1,9 @@
 import { NavClient } from "@/components/nav-client";
 import { localizedPath } from "@/i18n/routing";
 import { getDictionary, getRequestLocale } from "@/i18n/server";
+import type { Locale } from "@/i18n/config";
 
-export async function Nav() {
+export async function Nav({ availableLocales }: { availableLocales?: Locale[] } = {}) {
   const locale = await getRequestLocale();
   const dictionary = await getDictionary(locale);
   const { nav } = dictionary;
@@ -15,5 +16,5 @@ export async function Nav() {
     { href: localizedPath(locale, "/account"), label: nav.account }
   ];
 
-  return <NavClient locale={locale} links={links} labels={nav} language={dictionary.language} />;
+  return <NavClient locale={locale} links={links} labels={nav} language={dictionary.language} availableLocales={availableLocales} />;
 }

@@ -1,0 +1,210 @@
+{
+  "slug": "edit-dji-osmo-footage-iphone",
+  "title": "iPhoneでDJI映像を編集する方法：読み込み、瞬間の選択、結果の確認",
+  "description": "DJI Mimoまたは対応カードリーダーでOsmo映像を転送し、写真またはFilesから読み込んで、ReelClipでクリップを選択・確認してください。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "使い方",
+  "primaryKeyword": "iphoneでdji osmo映像を編集",
+  "readMinutes": 5,
+  "sourceFingerprint": "51eb8ed9b2bf09dd5d568bb5f96ab8a1998e004f133f862ffa3bacbde6fc7c4c",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "iPhoneでDJI映像を編集するには、元の録画をアクセスできる場所に転送し、ReelClipで読み込んで、瞬間を選択する方法を選びます。公開ワークフロー用にクリップを保存する前に、色、構図、字幕を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "転送時は元ファイルを保持"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラとiPhoneでサポートされている転送方法を使用してください。既に処理された共有コピーに頼るのではなく、元のカメラファイルとその録画モードのメモを保持してください。ファイルがクラウドストレージにある場合は、編集を開始する前に利用可能であることを確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラ固有の転送手順については、お使いの機種の<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/downloads\" rel=\"noreferrer\" target=\"_blank\">DJIダウンロードおよびマニュアルリソース</a>をご利用ください。転送サポートはカメラ、ストレージ、接続状況によって異なり、Osmo、Action、ドローンすべてで1つの方法が保証されるわけではありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Osmo Pocketの映像をiPhoneに転送"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "DJI Mimoでダウンロード"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>お使いの機種でサポートされている接続方法で、カメラをDJI Mimoに接続します。</li><li>カメラアルバムまたは再生ビューを開きます。録画を選択し、そのダウンロードアクションを使用します。バッチ処理の場合は、サムネイルビューで録画を選択し、まとめてダウンロードします。</li><li>ダウンロードが完了するのを待ち、ReelClipで読み込む前にiPhoneの写真ライブラリで映像が利用可能であることを確認します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJIはアルバムおよびダウンロードアクションについて、<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700006849&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Osmo映像エクスポートガイド</a>に記載しています。接続方法と操作はカメラやアプリのバージョンによって異なる場合があります。編集やエフェクト付きのコピーをエクスポートする際は、カメラの元ファイルを保持してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "カメラのメモリーカードからインポート"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>iPhoneとカメラのmicroSDカードに対応したカードリーダーとアダプターを使用します。</li><li>リーダーを接続し、Photosを開いてインポート機能を使って選択した動画をコピーします。コピーを確認するまでは、カード内のファイルは残しておきます。</li><li>iPhoneでコピーした動画を開き、ReelClipのPhotosから選択します。ローカルのFilesフォルダーにコピーした場合は、ReelClipのFilesインポートを使用します。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Appleは<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/import-and-export-photos-and-videos-iph480caa1f3/ios\" rel=\"noreferrer\" target=\"_blank\">カメラやメモリーカードからの動画インポート</a>と<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/external-storage-devices-iph95baac91f/ios\" rel=\"noreferrer\" target=\"_blank\">接続したカードへのアクセス（Files）</a>について説明しています。ポートが一致していても、カメラとiPhoneを直接ケーブル接続して動作するわけではありません。DJIのカメラ別の説明書を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "録画が見つからない、または開けない場合"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>DJI Mimo内でのみ表示されている場合は、カメラからのダウンロードを完了し、ReelClipを開く前にスマートフォン側のコピーを確認してください。</li><li>iCloudやその他のクラウドに保存されている場合は、ファイル全体のダウンロードが完了するまで待ちます。サムネイルが表示されていても、ローカルで録画が利用可能である証明にはなりません。</li><li>コピーしたファイルの長さを確認し、ReelClip以外で再生してください。コピーが不完全な場合は、カメラのオリジナルを残したまま、再度転送してください。</li><li>リーダーが認識されない場合は、Appleのストレージガイドでアダプターと電源要件を確認してください。大量のバッチを転送する前に、短いテスト録画で試してください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" data-analytics-campaign=\"website_guides\" data-analytics-event=\"download_click_blog\" data-analytics-event-placement=\"dji_transfer_cta\" href=\"https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&amp;ct=website_guides&amp;mt=8\">転送したDJIの録画でReelClipを試す</a>。インポートとプレビューは無料です。iPhoneに動画を保存するにはCreatorモードが必要です。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "タスクに合った編集モードを選ぶ"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Sliceでは時間帯を選び、目的の瞬間に移動して端を調整できます。</li><li>Cutでは、クリップ数、長さ、間隔のコントロールを使ってクリップを計画します。保存前に選んだ瞬間を確認してください。</li><li>Transcriptは音声のある録画に便利です。認識された言葉を読み、誤りを確認し、文脈の中で区間を選びます。</li><li>AIは、必要なデバイス機能が利用可能な場合、プロンプトから瞬間を計画するのに役立ちます。提案されたカットは必ず自分で確認してください。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ja/blog/edit-vertical-video-on-iphone\">Sliceの使い方</a>と<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cutの使い方</a>で、実際の選択コントロールを紹介しています。アプリはクリップを作成します。SNSプラットフォームに直接投稿することはありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "カラープロファイルを確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJIの録画モードは機種によって異なります。すべてのファイルに同じLUTを適用するのではなく、ソースに合わせて変換を行ってください。Normal、D-Cinelike、D-Log M、HLGを同じフォーマットとして扱わないでください。プロファイルの識別方法は<a class=\"text-accent hover:underline\" href=\"/ja/blog/dji-osmo-pocket-color-grading\">Pocketカラーガイド</a>、コントロールの詳細は<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">LUTインポートデモ</a>を参照してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "字幕、フレーミング、音声を確認する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "キャプションを音声録音に照らし合わせて読み、認識エラーを修正してください。編集箇所を再生して、言葉や身振りが不自然に切れていないか確認してください。時間範囲を短く選択しても、それだけではワイドショットが縦向き投稿用に再フレーミングされるわけではないため、映像は別途確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "録音時間、コーデック、デバイスの状態によって処理に影響があります。書き起こしや書き出し時間について固定の約束に頼るのではなく、代表的な区間をプレビューしてください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "確認したバージョンを保存"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Reviewを開き、レンダリング結果を確認して、必要なクリップを保存してください。iPhoneに動画を保存するにはCreatorモードが必要です。色やキャプション設定を変更した場合は特に、共有する前にPhotosで実際のファイルを確認してください。あとで別のバージョンを作れるよう、ソースは保持してください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

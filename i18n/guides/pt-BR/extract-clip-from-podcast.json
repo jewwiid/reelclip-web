@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "Como extrair destaques de um podcast no iPhone",
+  "description": "Use a transcrição para encontrar e revisar momentos falados de um vídeo de podcast, verifique as legendas e prepare clipes para exportação no iPhone.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Caso de uso",
+  "primaryKeyword": "como recortar destaques de podcast",
+  "readMinutes": 4,
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
+  "schemaVersion": 1,
+  "locale": "pt-BR",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Uma transcrição pode ajudá-lo a encontrar um momento falado sem precisar percorrer repetidamente toda a gravação. Comece com um vídeo do seu podcast ou entrevista, depois leia a transcrição e reproduza a passagem ao redor antes de escolher um clipe."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Mantenha contexto suficiente para alguém que não ouviu o episódio. Uma frase citável ainda pode precisar da pergunta ou explicação que veio antes dela."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Encontre e selecione a passagem"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importe o vídeo de Fotos ou Files e escolha Transcript.</li><li>Aguarde a transcrição e verifique nomes e palavras que possam ter sido entendidas incorretamente.</li><li>Leia o texto e reproduza uma passagem candidata em contexto.</li><li>Use Add as clip para a passagem desejada, ou use Slice quando já souber o intervalo de tempo.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "A interface gravada mostra Add as clip ao lado de uma passagem da transcrição. A demonstração também mostra uma palavra removida da edição. Remover uma palavra altera a edição do vídeo, então ouça nesse corte em vez de tratá-lo como uma simples correção ortográfica."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Revise legendas e áudio"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pré-visualize cada clipe candidato antes de exportar. Verifique o início, o fim e qualquer fala removida. Se usar legendas, revise as palavras e sua posição sobre a imagem. Verifique as legendas no arquivo salvo final, bem como na pré-visualização do editor."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Você pode inspecionar o menu Exportar da transcrição para opções de texto e legendas separadamente do salvamento do vídeo. Para longos intervalos de silêncio, consulte<!-- --> <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/remove-silence-from-video-free\">limpeza de pausas</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Salve o clipe que pretende publicar"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Escolha Review e inspecione o resultado preparado, depois salve em Save to Photos. Salvar em Photos ou exportar um vídeo finalizado requer o modo Creator. Verifique o arquivo salvo e seu enquadramento antes de fazer o upload para a plataforma escolhida. O tempo de transcrição e renderização depende da gravação e do dispositivo; não há tempo de processamento fixo ou número garantido de destaques úteis."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use <a class=\"text-accent hover:underline\" href=\"/pt-BR/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->quando clipes espaçados regularmente se adequam melhor à gravação do que a seleção por transcrição."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

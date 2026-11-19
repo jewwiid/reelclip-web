@@ -1,6 +1,5 @@
 import type { MetadataRoute } from "next";
-
-const SITE_URL = "https://reelclips.app";
+import { SITE_URL } from "@/i18n/seo";
 
 export default function robots(): MetadataRoute.Robots {
   return {

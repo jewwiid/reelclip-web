@@ -1,0 +1,12 @@
+{
+  "app_id": "6787742864",
+  "provider_token": "129072536",
+  "generated_in": "App Store Connect > ReelClip > Analytics > Campaigns",
+  "verified_on": "2026-10-19",
+  "campaigns": {
+    "website_main": "https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&ct=website_main&mt=8",
+    "website_guides": "https://apps.apple.com/app/apple-store/id6787742864?pt=129072536&ct=website_guides&mt=8"
+  },
+  "classification": "Current page group. Does not identify the search engine or acquisition source of an individual visitor.",
+  "reporting_note": "New campaigns may not appear until at least 24 hours and 5 individual Apple Accounts have produced attributed downloads. A missing or suppressed campaign metric is unknown, not zero."
+}

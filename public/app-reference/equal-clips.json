@@ -1,0 +1,127 @@
+{
+  "schema": "reelclip.walkthrough-reference/1",
+  "id": "equal-sections",
+  "title": "ReelClip controls: split a recording into equal clips",
+  "language": "en",
+  "reviewed_on": "2026-10-21",
+  "app_version_in_recording": null,
+  "summary": "In Cut, choose No gap, set Clip amount, check the calculated Clip duration, then Add the plan and preview its consecutive sections.",
+  "guide": "/blog/video-length-social-media-reach#walkthrough",
+  "documents": {
+    "page": "/app-reference/equal-clips",
+    "markdown": "/app-reference/equal-clips.md",
+    "json": "/app-reference/equal-clips.json"
+  },
+  "video": {
+    "path": "/tutorials/cut-equal-sections-v1.mp4",
+    "sha256": "5ae0ddf4cd82c355c992fc5b284e04f3fb01a04386be607abfb9b93f8b992161",
+    "duration_seconds": 26.533333,
+    "app_language": "en",
+    "audio": "silent",
+    "scope": "Existing native app recording with a few frames held for readability. It demonstrates planning and previewing three equal sections, without a completed save to Photos."
+  },
+  "context": [
+    "The recording starts with a video already imported and Cut selected; importing is not demonstrated.",
+    "This example uses the whole 4m14.2s source. Coverage is limited to the selected source window when a shorter window is chosen.",
+    "Control meanings were cross-checked against the app catalog and the visible states in this recording. The app version and its match to the current source build are not established."
+  ],
+  "controls": [
+    {
+      "id": "cut",
+      "label": "Cut",
+      "location": "Editing mode selector, above Cut recipe",
+      "meaning": "Choose a recipe using clip count, clip length and source spacing.",
+      "observed": "Cut is already selected when the walkthrough starts."
+    },
+    {
+      "id": "space",
+      "label": "Space / No gap",
+      "location": "Space row in Cut recipe; hold its shuffle button",
+      "meaning": "Space controls source time skipped between planned clips. Holding this row's shuffle button chooses No gap and turns off random spacing.",
+      "observed": "Space changes from 10s to No gap. The recipe displays: No gaps · the whole video is fully covered."
+    },
+    {
+      "id": "clip-amount",
+      "label": "Clip amount",
+      "location": "Minus and plus controls at the top of Cut recipe",
+      "meaning": "Set the requested number of clips. With No gap and count-based sizing, changing this count recalculates the equal clip duration for the selected source.",
+      "observed": "The minus control changes four clips to three. The rounded Clip duration changes from 1m04s to 1m25s."
+    },
+    {
+      "id": "clip-duration",
+      "label": "Clip duration",
+      "location": "Duration row below Clip amount",
+      "meaning": "Clip length is separate from skipped source spacing. In this count-based No gap example, check the calculated duration after setting the count.",
+      "observed": "The large label reads 1m25s. The more precise readout is 4m14.2s ÷ 3 = 1m24.7s each."
+    },
+    {
+      "id": "add",
+      "label": "Add",
+      "location": "Cut recipe action, after checking the recipe values",
+      "meaning": "Add the current Cut recipe to Planned Clips for review. This action does not save the clips to Photos or publish them.",
+      "observed": "Three consecutive ranges appear in Planned Clips and the bottom action becomes Review 3 clips."
+    }
+  ],
+  "steps": [
+    {
+      "id": "choose-no-gap",
+      "start_seconds": 0,
+      "title": "Choose No gap",
+      "instruction": "Start in Cut with the full source selected. Hold the Space shuffle button until No gap appears. Check the whole-video coverage message.",
+      "control_ids": ["cut", "space"]
+    },
+    {
+      "id": "set-count",
+      "start_seconds": 4.533333,
+      "title": "Set the clip count and check duration",
+      "instruction": "Use Clip amount to choose three clips. Check No gap remains selected and read the calculated 1m24.7s duration; the main label rounds this to 1m25s.",
+      "control_ids": ["clip-amount", "clip-duration", "space"]
+    },
+    {
+      "id": "check-ranges",
+      "start_seconds": 12.033333,
+      "title": "Add and check the planned ranges",
+      "instruction": "Tap Add. Check that all three ranges meet end to start and cover 0:00–4:14.2 in Planned Clips.",
+      "control_ids": ["add"]
+    },
+    {
+      "id": "preview",
+      "start_seconds": 17.533333,
+      "title": "Preview the three planned clips",
+      "instruction": "Open the review and play each planned section. The walkthrough shows actual previews of all three; it ends before any completed Photos save.",
+      "control_ids": []
+    }
+  ],
+  "example": {
+    "source_duration_display": "4m14.2s",
+    "clip_count": 3,
+    "clip_duration_display": "1m25s",
+    "precise_duration_readout": "4m14.2s ÷ 3 = 1m24.7s each",
+    "spacing_display": "No gap",
+    "planned_ranges_display": ["0:00–1:24.7", "1:24.7–2:49.5", "2:49.5–4:14.2"],
+    "rounding_note": "The visible duration and range labels are rounded. Use the actual planned ranges, rather than assuming every displayed value is exact to a frame."
+  },
+  "screenshots": [
+    {
+      "id": "recipe",
+      "path": "/app-reference/equal-clips-recipe.jpg",
+      "sha256": "55b4ebd0cba876fbb5ee13ee40b74670f6350c876186be36c450c1635b5a7605",
+      "video_seconds": 10.533333,
+      "description": "Cut recipe: Clip amount 3, Clip duration 1m25s, precise 1m24.7s readout and Space No gap. Review 0 clips is still disabled before Add."
+    },
+    {
+      "id": "planned-ranges",
+      "path": "/app-reference/equal-clips-ranges.jpg",
+      "sha256": "8db0b8d1ac17239b943b3c9c24bff7649eb8f32457c2a2b7fae0f772a428ceac",
+      "video_seconds": 16.033333,
+      "description": "Planned Clips: three consecutive source ranges, with Review 3 clips available after Add."
+    }
+  ],
+  "limits": [
+    "Space skips source time; it does not insert black frames or a blank pause into the output.",
+    "Add creates a plan. Previewing that plan does not establish a successful save to Photos.",
+    "The recording does not show importing, purchasing, a completed export or posting to a social platform.",
+    "This is an English-control reference for this recording. Translated guide instructions and captions do not change the language of the app pixels.",
+    "The example demonstrates equal sections, not a prediction of social reach or an automatic choice of the best moments."
+  ]
+}

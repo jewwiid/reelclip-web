@@ -1,0 +1,121 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "DJI D-Log to Rec.709 on iPhone: match the camera and recording profile",
+  "description": "Choose a model-specific DJI conversion, avoid applying it twice and test the result on iPhone before editing the full recording.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "Tutorial",
+  "primaryKeyword": "convert dji d-log to rec 709 on iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "To convert a DJI recording to Rec.709, identify the camera and the mode actually used, then choose a matching conversion. D-Log, D-Log M, D-Log 2, D-Cinelike and HLG are not interchangeable names for the same image."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Identify the source first"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Check the camera settings, original file metadata and the camera’s documentation. Keep the original file when transferring footage; a processed copy from another app may already have a look or conversion applied."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJI’s model and LUT table</a> lists the recording profiles and available resources. For example, Pocket 3 has a D-Log M conversion, while the original Osmo Pocket and Pocket 2 are listed with D-Cinelike. Do not infer the profile from the word Pocket alone."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Choose the matching conversion"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJI’s official download directory</a> and the instructions for your exact model. Check both the expected input and output. A LUT with Rec.709 in its filename can still expect a different source curve from the one you recorded."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Check whether your editor already manages the source conversion. Applying another camera conversion on top of an existing one can produce incorrect contrast and color. For HLG or another HDR workflow, use an editor and output setup that explicitly support that source rather than assuming a Log LUT also performs HDR tone mapping."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Test a short section in ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Import the original recording and make the matching .cube file available in Files.</li><li>Open Adjust &amp; Style → LUTs → Import LUT and select the file.</li><li>Follow its provider’s instructions for the source interpretation. Compare the preview with the unadjusted image and check several frames.</li><li>Review the rendered result, then inspect a short saved sample. Saving the video to your iPhone requires Creator mode.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "The recorded <a class=\"text-accent hover:underline\" href=\"/blog/how-to-apply-lut-on-iphone\">ReelClip LUT demo</a> shows import and strength controls with a creative look. It does not verify a calibrated DJI conversion, every input encoding or every LUT variant. If a technical file does not behave as intended, use a verified camera-specific color workflow before continuing your edit."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Continue after checking color"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Once your sample looks right in the intended output setup, apply the same reviewed settings to the required clips. Keep exposure and white-balance differences between shots in mind. A LUT alone does not make differently lit shots match."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use <a class=\"text-accent hover:underline\" href=\"/blog/how-to-cut-long-video-for-tiktok\">Cut</a> for a planned batch or the <a class=\"text-accent hover:underline\" href=\"/blog/extract-clip-from-podcast\">Transcript workflow</a> for spoken passages. Keep a copy of the original recording so you can revisit the color choices later."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

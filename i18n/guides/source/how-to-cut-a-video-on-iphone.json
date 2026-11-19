@@ -1,0 +1,125 @@
+{
+  "slug": "how-to-cut-a-video-on-iphone",
+  "title": "How to cut a video on iPhone: trim or split it into clips",
+  "description": "Learn to trim one video with Photos, split at a chosen point with iMovie, or use ReelClip to select and review several clips.",
+  "updatedAt": "2026-10-21",
+  "publishedAt": "2026-10-21",
+  "category": "How-to",
+  "primaryKeyword": "how to cut a video on iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "3ac9e3bab471d48eeabeed38651e6f4947b2c9de720124ca7eabc0f2d3070c27",
+  "schemaVersion": 1,
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "For one quick trim, open a video in Photos, tap Edit, adjust its start and stop handles, tap Done, and choose Save Video or Save Video as New Clip. To divide a clip at a chosen point inside a movie project, use iMovie’s Split command. To prepare several excerpts from a long recording, use ReelClip’s Cut for a batch or Slice for moments you select."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Choose the right kind of cut"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong class=\"text-text\">Trim the start or end:</strong> Use Photos for a quick shorter version of one recording. Choose Save Video as New Clip if you want to keep the original alongside it.</li><li><strong class=\"text-text\">Split at a point in a timeline:</strong> <!-- -->Use iMovie when you want to divide a clip inside a movie project and continue arranging the sections there.</li><li><strong class=\"text-text\">Prepare several standalone clips:</strong> <!-- -->Use ReelClip when you want a set of selected or evenly sized moments from a source recording, then check each result before export.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Trim one video in Photos"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Open Photos and select the video.</li><li>Tap Edit.</li><li>Drag the handles at the ends of the frame viewer to set the new start and stop times.</li><li>Preview the selection, then tap Done.</li><li>Choose Save Video to keep the trimmed version, or Save Video as New Clip to keep both versions.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Photos changes the beginning and end of the selected video. For a detailed version of Apple’s current instructions, see<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/iphone/iph1d1344a2d/27/ios/27\" rel=\"noreferrer\" target=\"_blank\">Apple’s guide to trimming a video on iPhone</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Split a video at a chosen point in iMovie"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "In an iMovie project, move the playhead to the split point. Select the video clip, tap Actions, then tap Split. You can also select the clip and swipe down over the playhead. The two sections stay in the project while you continue editing. See<!-- --> <a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/knac788312/ios\" rel=\"noreferrer\" target=\"_blank\">Apple’s iMovie instructions for splitting a clip</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Make a batch of clips in ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Import the source video from Photos or Files. For consecutive, equal-duration clips from the whole recording, choose<!-- --> <strong class=\"text-text\">Cut</strong>, set<!-- --> <strong class=\"text-text\">Space</strong> to<!-- --> <strong class=\"text-text\">No gap</strong>, choose the<!-- --> <strong class=\"text-text\">Clip amount</strong>, and check the resulting <strong class=\"text-text\">Clip duration</strong>. Tap<!-- --> <strong class=\"text-text\">Add</strong> to put the selection in Planned Clips. Choose <strong class=\"text-text\">Slice</strong> <!-- -->to select start and end times yourself. Play every planned clip and adjust any cut that interrupts a sentence or action."
+    },
+    {
+      "kind": "tutorial",
+      "id": "equal-sections"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "This walkthrough shows an equal-clip Cut recipe and preview. It does not show a completed save to Photos. ReelClip is free to import and preview; saving or exporting your work requires Creator mode. The app prepares the video files but does not post them to TikTok, Instagram or YouTube. For a longer social workflow, see<!-- --> <a class=\"text-accent hover:underline\" href=\"/blog/how-to-cut-long-video-for-tiktok\">how to prepare clips from a long video for TikTok</a>, or read the<!-- --> <a class=\"text-accent hover:underline\" href=\"/blog/video-length-social-media-reach\">guide to splitting a recording into equal clips</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "Which option should I use?"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Use Photos for one quick trim, iMovie for a timeline edit with a precise split point, and ReelClip when you want to choose or batch short sections from a longer recording. Keep the original until you’ve reviewed the versions you plan to share."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

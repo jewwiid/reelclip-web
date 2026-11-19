@@ -1,0 +1,122 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "DJI D-Log vers Rec.709 sur iPhone : faites correspondre l'appareil et le profil d'enregistrement",
+  "description": "Choisissez une conversion DJI spécifique au modèle, évitez de l'appliquer deux fois et testez le résultat sur iPhone avant d'éditer l'enregistrement complet.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "Tutoriel",
+  "primaryKeyword": "convertir dji d-log en rec 709 sur iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
+  "schemaVersion": 1,
+  "locale": "fr",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Pour convertir un enregistrement DJI en Rec.709, identifiez l'appareil photo et le mode réellement utilisé, puis choisissez une conversion correspondante. D-Log, D-Log M, D-Log 2, D-Cinelike et HLG ne sont pas des noms interchangeables pour la même image."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Identifiez d'abord la source"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vérifiez les paramètres de l'appareil, les métadonnées du fichier original et la documentation de l'appareil. Conservez le fichier original lors du transfert des rushs ; une copie traitée provenant d'une autre application peut déjà avoir un look ou une conversion appliquée."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">Table des modèles et LUT de DJI</a> répertorie les profils d'enregistrement et les ressources disponibles. Par exemple, le Pocket 3 dispose d'une conversion D-Log M, tandis que l'Osmo Pocket original et le Pocket 2 sont listés avec D-Cinelike. Ne déduisez pas le profil du seul mot Pocket."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Choisissez la conversion correspondante"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utilisez <a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">le répertoire de téléchargement officiel de DJI</a> et les instructions pour votre modèle exact. Vérifiez à la fois l'entrée et la sortie attendues. Une LUT avec Rec.709 dans son nom de fichier peut encore attendre une courbe source différente de celle que vous avez enregistrée."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Vérifiez si votre éditeur gère déjà la conversion source. Appliquer une autre conversion d'appareil par-dessus une conversion existante peut produire un contraste et des couleurs incorrects. Pour HLG ou un autre flux de travail HDR, utilisez un éditeur et une configuration de sortie qui prennent explicitement en charge cette source plutôt que de supposer qu'une LUT Log effectue également le mappage tonal HDR."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Testez une courte section dans ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importez l'enregistrement original et rendez le fichier .cube correspondant disponible dans Files.</li><li>Ouvrez Adjust & Style → LUTs → Import LUT et sélectionnez le fichier.</li><li>Suivez les instructions de son fournisseur pour l'interprétation de la source. Comparez l'aperçu avec l'image non ajustée et vérifiez plusieurs images.</li><li>Examinez le résultat rendu, puis inspectez un court échantillon enregistré. L'enregistrement de la vidéo sur votre iPhone nécessite le mode Creator.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "La <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-apply-lut-on-iphone\">démo LUT ReelClip</a> enregistrée montre les contrôles d'importation et d'intensité avec un look créatif. Elle ne vérifie pas une conversion DJI calibrée, chaque encodage d'entrée ni chaque variante de LUT. Si un fichier technique ne se comporte pas comme prévu, utilisez un workflow couleur vérifié spécifique à l'appareil avant de poursuivre votre montage."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Continuer après vérification de la couleur"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Une fois que votre échantillon semble correct dans la configuration de sortie prévue, appliquez les mêmes paramètres vérifiés aux clips nécessaires. Gardez à l'esprit les différences d'exposition et de balance des blancs entre les plans. Une LUT seule ne fait pas correspondre des plans éclairés différemment."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Utilisez <a class=\"text-accent hover:underline\" href=\"/fr/blog/how-to-cut-long-video-for-tiktok\">Cut</a> pour un lot planifié ou le <a class=\"text-accent hover:underline\" href=\"/fr/blog/extract-clip-from-podcast\">workflow Transcript</a> pour les passages parlés. Conservez une copie de l'enregistrement original afin de pouvoir revenir sur les choix de couleur ultérieurement."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

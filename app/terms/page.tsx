@@ -1,3 +1,4 @@
+import { localizedMetadata } from "@/i18n/seo";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { Nav } from "@/components/nav";
@@ -5,7 +6,7 @@ import { Footer } from "@/components/footer";
 import { LocalizedStaticPage } from "@/components/localized-static-page";
 import { getRequestLocale } from "@/i18n/server";
 
-export const metadata: Metadata = {
+const pageMetadata: Metadata = {
   title: "Terms of Service · ReelClip",
   description:
     "The terms that govern your use of ReelClip: subscription terms, auto-renewal disclosure, refund policy, and acceptable use.",
@@ -15,12 +16,12 @@ export const metadata: Metadata = {
     "reelclip refund policy",
     "video editor terms of service",
   ],
-  alternates: { canonical: "https://reelclips.app/terms" },
+  alternates: { canonical: "https://www.reelclips.app/terms" },
   openGraph: {
     title: "Terms of Service · ReelClip",
     description:
       "The terms that govern your use of ReelClip: subscription terms, auto-renewal, refunds, and acceptable use.",
-    url: "https://reelclips.app/terms",
+    url: "https://www.reelclips.app/terms",
     type: "website",
   },
   robots: { index: true, follow: true },
@@ -28,6 +29,10 @@ export const metadata: Metadata = {
 
 const UPDATED = "August 24, 2026";
 const EFFECTIVE = "July 8, 2026";
+
+export async function generateMetadata(): Promise<Metadata> {
+  return localizedMetadata(await getRequestLocale(), "/terms", pageMetadata);
+}
 
 export default async function TermsPage() {
   const locale = await getRequestLocale();
@@ -70,26 +75,31 @@ export default async function TermsPage() {
               <code className="px-1.5 py-0.5 rounded bg-surface text-text-muted text-xs mx-1">.reelclip</code>
               project file. AI Assist runs entirely on-device via Apple
               Intelligence; no third-party AI services, cloud LLMs, or
-              bring-your-own-API-key integrations are supported. Some features
-              require a paid subscription.
+              bring-your-own-API-key integrations are supported. Importing and
+              previewing are free. Saving, sharing, or exporting finished videos
+              requires Creator mode.
             </p>
           </Section>
 
-          <Section title="3. Subscriptions, auto-renewal, and cancellation">
+          <Section title="3. Creator mode purchases, renewals, and cancellation">
             <p className="text-text-muted">
-              ReelClip offers new Creator purchases through Apple&apos;s in-app
-              purchase system (StoreKit 2). The current US App Store reference
-              prices are:
+              ReelClip offers Creator mode through Apple&apos;s in-app purchase
+              system (StoreKit 2). The current US App Store reference prices for
+              the available access options are:
             </p>
             <ul className="list-disc pl-6 space-y-1.5 text-text-muted mt-3">
-              <li><strong className="text-text">Creator Monthly</strong>: $9.99 / month (with a 3-day free trial on an eligible first in-app purchase)</li>
-              <li><strong className="text-text">Creator Annual</strong>: $39.99 / year</li>
-              <li><strong className="text-text">Creator Lifetime</strong>: $79.99 launch price, one-time, perpetual access</li>
+              <li><strong className="text-text">Creator Lifetime</strong>: $14.99, one-time purchase for lifetime Creator mode access</li>
+              <li><strong className="text-text">Creator Monthly</strong>: $4.99 / month, renews until cancelled and unlocks Creator mode</li>
             </ul>
             <p className="text-text-muted mt-4">
-              Creator Weekly is no longer available for new purchases or
-              renewals. Customers in an already-paid weekly period keep access
-              until that period ends.
+              Creator Annual ($39.99 / year) is the legacy annual Creator mode
+              option and is not currently offered to new customers. Existing
+              annual subscriptions continue to renew until cancelled.
+            </p>
+            <p className="text-text-muted mt-4">
+              Creator Weekly was a weekly Creator mode option and is no longer
+              available for new purchases or renewals. Customers in an
+              already-paid weekly period keep access until that period ends.
             </p>
             <p className="text-text-muted mt-4">
               Apple displays the localized price for your country or region
@@ -108,13 +118,6 @@ export default async function TermsPage() {
               anytime in iOS Settings → Apple ID → Subscriptions. Cancellation
               takes effect at the end of your current billing period. You will
               continue to have access to paid features until then.
-            </p>
-            <p className="text-text-muted mt-3">
-              <strong className="text-text">Free trial.</strong> Where shown by
-              the App Store, the 3-day free trial on Creator Monthly converts to
-              a paid subscription unless you cancel at least 24 hours before the
-              trial ends. Apple determines eligibility and shows the offer before
-              purchase.
             </p>
             <p className="text-text-muted mt-3">
               <strong className="text-text">Pricing changes.</strong> If we change

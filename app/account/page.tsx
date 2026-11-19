@@ -6,7 +6,7 @@ import { getDictionary } from "@/i18n/server";
 
 export const metadata: Metadata = {
   title: "Account · ReelClip",
-  description: "Manage your ReelClip subscription.",
+  description: "Check your Creator mode access and manage ReelClip billing.",
 };
 
 export default async function AccountPage(props: {
