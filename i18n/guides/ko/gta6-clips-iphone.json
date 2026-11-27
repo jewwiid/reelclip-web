@@ -1,13 +1,13 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "iPhone에서 GTA 6 클립: 권리를 고려한 출시 워크플로우",
-  "description": "Shorts, TikTok, Reels용 GTA VI 클립 워크플로우를 계획하세요: 직접 게임플레이를 캡처하거나 스트리머의 승인을 받고, 파일을 iPhone으로 전송한 뒤 ReelClip에서 편집하세요.",
-  "updatedAt": "2026-10-21",
+  "title": "iPhone에서 GTA 6 클립 만드는 방법: 권리를 고려한 가이드",
+  "description": "직접 GTA VI 게임플레이를 녹화하거나 스트리머의 허가를 받고, 승인된 클립을 iPhone으로 옮겨 ReelClip에서 편집하세요. 게시 전 권리를 확인하세요.",
+  "updatedAt": "2026-11-27",
   "publishedAt": "2026-10-21",
   "category": "사용 방법",
-  "primaryKeyword": "GTA 6 클립",
+  "primaryKeyword": "GTA 6 클립 만드는 방법",
   "readMinutes": 6,
-  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
+  "sourceFingerprint": "dfa8b946f15373205baec77d511ef464fddba69f874a821262cec2788bd894f4",
   "schemaVersion": 1,
   "locale": "ko",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "2026년 10월 21일 기준, Rockstar의 퍼블리셔인 Take-Two는 Grand Theft Auto VI를 PlayStation 5와 Xbox Series X|S용으로 2026년 11월 19일 출시 예정으로 등록했습니다. 플레이어는 출시 전까지 자신의 게임 세션을 캡처할 수 없습니다. 이것을 출시 체크리스트로 사용하고, 유출된 출시 전 영상은 건너뛰세요. 해당 날짜를 신뢰하기 전에<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">현재 Take-Two 출시 공지</a> <!-- -->를 확인하세요."
+      "html": "Grand Theft Auto VI는 이제 PlayStation 5와 Xbox Series X|S에서 이용할 수 있습니다. iPhone에서 GTA 6 클립을 만들려면 콘솔에서 직접 플레이를 녹화하거나 스트리머의 녹화본을 사용할 허가를 받으세요. 허가된 파일을 휴대폰으로 옮긴 뒤 ReelClip에서 편집하면 됩니다. Rockstar는 2026년 11월 19일 출시를<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available\" rel=\"noreferrer\" target=\"_blank\">Grand Theft Auto VI 출시 안내</a>에서 발표했습니다. 영상을 게시하거나 수익화하기 전에 아래 권리 안내를 확인하세요."
     },
     {
       "kind": "html",

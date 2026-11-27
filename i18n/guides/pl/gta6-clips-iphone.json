@@ -1,13 +1,13 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "GTA 6 na iPhone: workflow na start z uwzględnieniem praw autorskich",
-  "description": "Zaplanuj workflow klipów GTA VI na Shorts, TikTok i Reels: nagraj własną rozgrywkę lub uzyskaj zgodę streamera, przenieś plik na iPhone, a następnie edytuj go w ReelClip.",
-  "updatedAt": "2026-10-21",
+  "title": "Jak zrobić klipy z GTA 6 na iPhonie: poradnik o prawach do materiałów",
+  "description": "Nagraj własną rozgrywkę z GTA VI lub uzyskaj zgodę streamera, przenieś dozwolony klip na iPhone’a i zmontuj go w ReelClip. Przed publikacją sprawdź prawa.",
+  "updatedAt": "2026-11-27",
   "publishedAt": "2026-10-21",
   "category": "Instrukcja",
-  "primaryKeyword": "Klipy GTA 6",
+  "primaryKeyword": "jak zrobić klipy z GTA 6",
   "readMinutes": 6,
-  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
+  "sourceFingerprint": "dfa8b946f15373205baec77d511ef464fddba69f874a821262cec2788bd894f4",
   "schemaVersion": 1,
   "locale": "pl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Na dzień 21 października 2026 roku wydawca Rockstar wymienia Grand Theft Auto VI na PlayStation 5 i Xbox Series X|S z planowaną datą premiery 19 listopada 2026 roku. Gracze nie mogą nagrywać własnych sesji gry przed premierą. Użyj tego jako checklisty startowej i pomijaj wyciekłe materiały przedpremierowe. Sprawdź<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">aktualne ogłoszenie premierowe Take-Two</a> <!-- -->zanim zdasz się na tę datę."
+      "html": "Grand Theft Auto VI jest już dostępne na PlayStation 5 i Xbox Series X|S. Aby zrobić klip z GTA 6 na iPhonie, nagraj własną rozgrywkę na konsoli albo uzyskaj zgodę na wykorzystanie nagrania streamera. Przenieś dozwolony plik na telefon, a następnie zmontuj go w ReelClip. Rockstar ogłosił premierę 19 listopada 2026 r. w swoim<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available\" rel=\"noreferrer\" target=\"_blank\">komunikacie o premierze Grand Theft Auto VI</a>. Przed publikacją lub zarabianiem na filmie zapoznaj się z poniższymi informacjami o prawach."
     },
     {
       "kind": "html",

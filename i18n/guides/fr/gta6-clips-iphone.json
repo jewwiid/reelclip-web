@@ -1,13 +1,13 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "GTA 6 sur iPhone : un workflow de lancement respectueux des droits",
-  "description": "Planifiez un workflow de clips GTA VI pour Shorts, TikTok et Reels : capturez votre propre gameplay ou obtenez l'approbation d'un streamer, transférez le fichier sur iPhone, puis montez-le dans ReelClip.",
-  "updatedAt": "2026-10-21",
+  "title": "Comment créer des clips de GTA 6 sur iPhone : guide sur les droits",
+  "description": "Filmez votre propre gameplay de GTA VI ou obtenez l’autorisation d’un streamer, transférez le clip autorisé sur iPhone et montez-le dans ReelClip. Vérifiez les droits avant de publier.",
+  "updatedAt": "2026-11-27",
   "publishedAt": "2026-10-21",
   "category": "Mode d'emploi",
-  "primaryKeyword": "Clips GTA 6",
+  "primaryKeyword": "comment créer des clips GTA 6",
   "readMinutes": 6,
-  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
+  "sourceFingerprint": "dfa8b946f15373205baec77d511ef464fddba69f874a821262cec2788bd894f4",
   "schemaVersion": 1,
   "locale": "fr",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Au 21 octobre 2026, l'éditeur de Rockstar liste Grand Theft Auto VI pour PlayStation 5 et Xbox Series X|S avec une date de lancement prévue au 19 novembre 2026. Les joueurs ne peuvent pas capturer leur propre session de jeu avant le lancement. Utilisez ceci comme une liste de contrôle pour le lancement, et ignorez les fuites de footage pré-sortie. Vérifiez<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">l'annonce de sortie actuelle de Take-Two</a> <!-- -->avant de vous fier à cette date."
+      "html": "Grand Theft Auto VI est désormais disponible sur PlayStation 5 et Xbox Series X|S. Pour créer un clip de GTA 6 sur iPhone, capturez votre propre partie sur console ou obtenez l’autorisation d’utiliser l’enregistrement d’un streamer. Transférez le fichier autorisé sur votre téléphone, puis montez-le dans ReelClip. Rockstar a annoncé la sortie du 19 novembre 2026 dans son<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available\" rel=\"noreferrer\" target=\"_blank\">annonce de lancement de Grand Theft Auto VI</a>. Consultez les conseils sur les droits ci-dessous avant de monétiser ou de publier la vidéo."
     },
     {
       "kind": "html",

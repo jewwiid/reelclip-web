@@ -11,12 +11,13 @@ import {
 
 export const POST_META = {
   slug: "gta6-clips-iphone",
-  title: "GTA 6 clips on iPhone: a rights-aware launch workflow",
+  title: "How to make GTA 6 clips on iPhone: a rights-aware workflow",
   description:
-    "Plan a GTA VI clip workflow for Shorts, TikTok and Reels: capture your own gameplay or get streamer approval, transfer the file to iPhone, then edit it in ReelClip.",
+    "Capture your own GTA VI gameplay or get streamer approval, transfer the authorized clip to iPhone, and edit it in ReelClip. Check the rights before posting.",
+  updatedAt: "2026-11-27",
   publishedAt: "2026-10-21",
   category: "How-to" as const,
-  primaryKeyword: "GTA 6 clips",
+  primaryKeyword: "how to make gta 6 clips",
   readMinutes: 6,
 };
 
@@ -26,16 +27,16 @@ export default function Post() {
       <PostHeader {...POST_META} />
       <PostBody>
         <PostP>
-          As of October 21, 2026, Rockstar’s publisher lists Grand Theft Auto
-          VI for PlayStation 5 and Xbox Series X|S with a planned launch date of
-          November 19, 2026. Players cannot capture their own game session
-          until launch. Use this as a launch checklist, and skip leaked pre-release
-          footage. Check the
+          Grand Theft Auto VI is now available for PlayStation 5 and Xbox Series
+          X|S. To make a GTA 6 clip on iPhone, capture your own gameplay on
+          console or get permission to use a streamer’s recording, transfer the
+          authorized file to your phone, then edit it. Rockstar announced the
+          November 19, 2026 release in its
           {" "}
-          <PostLink href="https://ir.take2games.com/node/32311/pdf" external>
-            current Take-Two release announcement
+          <PostLink href="https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available" external>
+            Grand Theft Auto VI launch update
           </PostLink>
-          {" "}before you rely on that date.
+          . Check the rights guidance below before monetizing or posting footage.
         </PostP>
         <PostP>
           After launch, a short GTA 6 post can begin with your own gameplay or

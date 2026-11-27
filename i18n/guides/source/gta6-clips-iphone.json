@@ -1,13 +1,13 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "GTA 6 clips on iPhone: a rights-aware launch workflow",
-  "description": "Plan a GTA VI clip workflow for Shorts, TikTok and Reels: capture your own gameplay or get streamer approval, transfer the file to iPhone, then edit it in ReelClip.",
-  "updatedAt": "2026-10-21",
+  "title": "How to make GTA 6 clips on iPhone: a rights-aware workflow",
+  "description": "Capture your own GTA VI gameplay or get streamer approval, transfer the authorized clip to iPhone, and edit it in ReelClip. Check the rights before posting.",
+  "updatedAt": "2026-11-27",
   "publishedAt": "2026-10-21",
   "category": "How-to",
-  "primaryKeyword": "GTA 6 clips",
+  "primaryKeyword": "how to make gta 6 clips",
   "readMinutes": 6,
-  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
+  "sourceFingerprint": "dfa8b946f15373205baec77d511ef464fddba69f874a821262cec2788bd894f4",
   "schemaVersion": 1,
   "blocks": [
     {
@@ -16,7 +16,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "As of October 21, 2026, Rockstar’s publisher lists Grand Theft Auto VI for PlayStation 5 and Xbox Series X|S with a planned launch date of November 19, 2026. Players cannot capture their own game session until launch. Use this as a launch checklist, and skip leaked pre-release footage. Check the<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">current Take-Two release announcement</a> <!-- -->before you rely on that date."
+      "html": "Grand Theft Auto VI is now available for PlayStation 5 and Xbox Series X|S. To make a GTA 6 clip on iPhone, capture your own gameplay on console or get permission to use a streamer’s recording, transfer the authorized file to your phone, then edit it. Rockstar announced the November 19, 2026 release in its<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available\" rel=\"noreferrer\" target=\"_blank\">Grand Theft Auto VI launch update</a>. Check the rights guidance below before monetizing or posting footage."
     },
     {
       "kind": "html",

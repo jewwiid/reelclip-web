@@ -1,13 +1,13 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "iPhoneでGTA 6クリップ：権利を意識した公開ワークフロー",
-  "description": "Shorts、TikTok、Reels向けのGTA VIクリップワークフローを計画しましょう：自分のゲームプレイを録画するか、ストリーマーの承認を得て、ファイルをiPhoneに転送し、ReelClipで編集します。",
-  "updatedAt": "2026-10-21",
+  "title": "iPhoneでGTA 6のクリップを作る方法：権利に配慮した手順",
+  "description": "自分のGTA VIプレイを録画するか、配信者の許可を得て、使用が認められたクリップをiPhoneに転送してReelClipで編集します。投稿前に権利を確認しましょう。",
+  "updatedAt": "2026-11-27",
   "publishedAt": "2026-10-21",
   "category": "使い方",
-  "primaryKeyword": "GTA 6クリップ",
+  "primaryKeyword": "GTA 6 クリップ 作り方",
   "readMinutes": 6,
-  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
+  "sourceFingerprint": "dfa8b946f15373205baec77d511ef464fddba69f874a821262cec2788bd894f4",
   "schemaVersion": 1,
   "locale": "ja",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "2026年10月21日時点で、RockstarのパブリッシャーはGrand Theft Auto VIをPlayStation 5およびXbox Series X|S向けに、2026年11月19日の発売予定日でリストしています。発売までは自分のゲームセッションを録画できません。これを発売チェックリストとして使用し、リークされた発売前の映像はスキップしてください。その日付を前提とする前に、<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">現在のTake-Two発売発表</a> <!-- -->を確認してください。"
+      "html": "Grand Theft Auto VIはPlayStation 5とXbox Series X|Sで発売中です。iPhoneでGTA 6のクリップを作るには、コンソールで自分のプレイ映像を録画するか、配信者の録画を使う許可を得てください。許可されたファイルをiPhoneに転送してからReelClipで編集します。Rockstarは2026年11月19日の発売を<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available\" rel=\"noreferrer\" target=\"_blank\">Grand Theft Auto VIの発売告知</a>で発表しました。投稿や収益化の前に、下記の権利に関する案内を確認してください。"
     },
     {
       "kind": "html",

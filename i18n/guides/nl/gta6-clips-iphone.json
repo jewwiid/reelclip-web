@@ -1,13 +1,13 @@
 {
   "slug": "gta6-clips-iphone",
-  "title": "GTA 6-clips op iPhone: een workflow die rekening houdt met rechten",
-  "description": "Plan een GTA VI-clipworkflow voor Shorts, TikTok en Reels: neem je eigen gameplay op of vraag toestemming aan een streamer, transfer het bestand naar je iPhone en bewerk het dan in ReelClip.",
-  "updatedAt": "2026-10-21",
+  "title": "GTA 6-clips maken op iPhone: een gids over gebruiksrechten",
+  "description": "Neem je eigen GTA VI-gameplay op of vraag toestemming aan een streamer, zet de toegestane clip over naar je iPhone en bewerk hem in ReelClip. Controleer de rechten voor je iets plaatst.",
+  "updatedAt": "2026-11-27",
   "publishedAt": "2026-10-21",
   "category": "Hoe het werkt",
-  "primaryKeyword": "GTA 6-clips",
+  "primaryKeyword": "GTA 6-clips maken",
   "readMinutes": 6,
-  "sourceFingerprint": "098d3c9a9e6e988bded4ae831a7a72a317bbba949f9e092420e75f8aaa9936ea",
+  "sourceFingerprint": "dfa8b946f15373205baec77d511ef464fddba69f874a821262cec2788bd894f4",
   "schemaVersion": 1,
   "locale": "nl",
   "blocks": [
@@ -17,7 +17,7 @@
       "attributes": {
         "class": "text-text-muted"
       },
-      "html": "Vanaf 21 oktober 2026 vermeldt Rockstars uitgever Grand Theft Auto VI voor PlayStation 5 en Xbox Series X|S met een geplande releasedatum van 19 november 2026. Spelers kunnen hun eigen gamesessie pas na de release opnemen. Gebruik dit als een checklist voor de release en sla gelekte pre-releasebeelden over. Controleer de<!-- --> <a class=\"text-accent hover:underline\" href=\"https://ir.take2games.com/node/32311/pdf\" rel=\"noreferrer\" target=\"_blank\">huidige Take-Two-releaseaankondiging</a> <!-- -->voordat je op die datum vertrouwt."
+      "html": "Grand Theft Auto VI is nu beschikbaar voor PlayStation 5 en Xbox Series X|S. Om een GTA 6-clip op iPhone te maken, neem je je eigen gameplay op de console op of vraag je toestemming om de opname van een streamer te gebruiken. Zet het goedgekeurde bestand over naar je telefoon en bewerk het daarna in ReelClip. Rockstar kondigde de release van 19 november 2026 aan in zijn<!-- --> <a class=\"text-accent hover:underline\" href=\"https://www.rockstargames.com/newswire/article/39akk424a9oo53/grand-theft-auto-vi-now-available\" rel=\"noreferrer\" target=\"_blank\">lanceringupdate voor Grand Theft Auto VI</a>. Lees de informatie over gebruiksrechten hieronder voordat je de video plaatst of er geld mee verdient."
     },
     {
       "kind": "html",

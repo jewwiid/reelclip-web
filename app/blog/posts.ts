@@ -54,12 +54,12 @@ export const BLOG_POSTS: BlogPost[] = [
   },
   {
     slug: "gta6-clips-iphone",
-    title: "GTA 6 clips on iPhone: a rights-aware launch workflow",
-    description: "Plan a GTA VI clip workflow for Shorts, TikTok and Reels: capture your own gameplay or get streamer approval, transfer the file to iPhone, then edit it in ReelClip.",
-    updatedAt: "2026-10-21",
+    title: "How to make GTA 6 clips on iPhone: a rights-aware workflow",
+    description: "Capture your own GTA VI gameplay or get streamer approval, transfer the authorized clip to iPhone, and edit it in ReelClip. Check the rights before posting.",
+    updatedAt: "2026-11-27",
     publishedAt: "2026-10-21",
     category: "How-to",
-    primaryKeyword: "GTA 6 clips",
+    primaryKeyword: "how to make gta 6 clips",
     readMinutes: 6,
   },
   {
