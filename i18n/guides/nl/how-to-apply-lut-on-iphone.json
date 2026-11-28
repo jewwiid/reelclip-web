@@ -1,0 +1,118 @@
+{
+  "slug": "how-to-apply-lut-on-iphone",
+  "title": "Hoe je een .cube LUT toepast op iPhone",
+  "description": "Importeer een .cube LUT uit Files, pas de sterkte aan en vergelijk de voorvertoning in ReelClip. Inclusief een korte opname van de daadwerkelijke bedieningselementen.",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "Hoe het werkt",
+  "primaryKeyword": "hoe je een lut toepast op iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "8777186ad37135f37758c0e43ddabbc0b04ec0faa99bfcfcaab8b16119b8351a",
+  "schemaVersion": 1,
+  "locale": "nl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Als je al een .cube LUT hebt, kun je deze importeren uit Files en de sterkte aanpassen in ReelClip. Begin met een LUT die bedoeld is voor je beeldmateriaal en kleurinstelling; een creatieve look en een camera-conversie hebben verschillende doeleinden."
+    },
+    {
+      "kind": "tutorial",
+      "id": "apply-lut"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Kies de juiste invoer vóór een creatieve look"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Normaliseer Log- of HDR-beeldmateriaal voordat je een display-ready creatieve LUT toepast. ReelClips eigen geëxporteerde creatieve LUT's gebruiken gecodeerd sRGB; Rec.709 deelt de primaire kleuren maar heeft ander overdrachtsgedrag. Match de gedocumenteerde invoer van de LUT, en vermijd het twee keer toepassen van camera-normalisatie. Onze originele starter-collectie wordt momenteel getest. Zie de<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/best-free-luts-2026\">gratis LUT-resourcegids</a> <!-- -->voor de ontwikkelingsstatus en officiële camera-resources."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Breng het bestand in ReelClip"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importeer de video die je wilt bewerken.</li><li>Open Adjust & Style en kies LUTs.</li><li>Tik op Import LUT en kies het .cube-bestand uit Files.</li><li>Selecteer de geïmporteerde look in de LUT-bibliotheek.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "De demo gebruikt het tabblad Creative en een eerder opgeslagen ReelClip-look. Zodra de LUT in je bibliotheek verschijnt, selecteer je deze en controleer je het effect op je eigen beeldmateriaal."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer de sterkte tegen je beeldmateriaal"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Verplaats de sterkteschuifregelaar en vergelijk het resultaat met het origineel. Controleer huid, lichte gebieden en donkere details terwijl het beeldmateriaal afspeelt. Het voorbeeld bereikt 68%; die waarde hoort bij dit voorbeeld en is geen aanbevolen instelling voor elke clip."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor een cameraconversie volg je de instructies die bij de LUT zijn geleverd en stem je de bronopnameprofiel af. Ga er niet vanuit dat een LUT die is gemaakt voor het ene logprofiel geschikt is voor een ander. Het voorbeeld hier legt de import- en aanpassingsbesturingen vast, geen ondersteuning voor elke camera of LUT-bestand."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Controleer de voltooide video"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Rond de aanpassing af, open Review en controleer de gerenderde uitvoer. Het opslaan van de video op je iPhone vereist Creator-modus. Controleer het daadwerkelijk opgeslagen bestand voordat je het deelt, vooral als kleur- of HDR-instellingen zijn gewijzigd tijdens het bewerken."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Voor achtergrondinformatie over het bestand zelf, lees<!-- --> <a class=\"text-accent hover:underline\" href=\"/nl/blog/cube-lut-explained\">wat een .cube LUT bevat</a>."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

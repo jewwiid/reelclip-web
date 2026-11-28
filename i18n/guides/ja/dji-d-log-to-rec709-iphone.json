@@ -1,0 +1,122 @@
+{
+  "slug": "dji-d-log-to-rec709-iphone",
+  "title": "DJI D-LogをiPhoneでRec.709に変換：カメラと撮影プロファイルを一致させる",
+  "description": "機種別のDJI変換を選択し、二重適用を避け、フル録画を編集する前にiPhoneで結果をテストする。",
+  "publishedAt": "2026-08-25",
+  "updatedAt": "2026-10-21",
+  "category": "チュートリアル",
+  "primaryKeyword": "convert dji d-log to rec 709 on iphone",
+  "readMinutes": 4,
+  "sourceFingerprint": "da1e1679dc521243ebdcf21405237fdaa3cf9644c5bf2534737a584990453bcf",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "DJIの録画をRec.709に変換するには、使用したカメラと実際のモードを特定し、一致する変換を選択する。D-Log、D-Log M、D-Log 2、D-Cinelike、HLGは同じ映像の別名ではない。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "まずソースを特定する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カメラ設定、元ファイルのメタデータ、カメラのドキュメントを確認する。フッテージを転送する際は元ファイルを保持する。他のアプリからの処理済みコピーには、すでにルックや変換が適用されている可能性がある。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://repair.dji.com/help/content?customId=01700007105&amp;lang=en&amp;paperDocType=ARTICLE&amp;re=US&amp;spaceId=17\" rel=\"noreferrer\" target=\"_blank\">DJIの機種とLUT一覧表</a>に、撮影プロファイルと利用可能なリソースが記載されている。例えば、Pocket 3にはD-Log M変換があるが、初代Osmo PocketとPocket 2はD-Cinelikeとして記載されている。Pocketという単語だけからプロファイルを推測しないこと。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "一致する変換を選択する"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"https://www.dji.com/lut\" rel=\"noreferrer\" target=\"_blank\">DJIの公式ダウンロードディレクトリ</a>と、ご使用の機種の説明書を使用する。想定される入力と出力の両方を確認する。ファイル名にRec.709を含むLUTでも、録画したソースカーブとは異なる入力を想定している場合がある。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "使用しているエディタがすでにソース変換を管理しているかどうかを確認する。既存の変換の上に別のカメラ変換を適用すると、コントラストと色が不正確になる可能性がある。HLGやその他のHDRワークフローの場合、Log LUTがHDRトーンマッピングも行うと仮定するのではなく、そのソースを明示的にサポートするエディタと出力設定を使用すること。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ReelClipで短い区間をテストする"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>元の録画をインポートし、対応する.cubeファイルをFilesで利用可能にします。</li><li>Adjust & Style → LUTs → Import LUTを開き、ファイルを選択します。</li><li>プロバイダーの指示に従ってソースの解釈を行います。プレビューを未調整の画像と比較し、複数のフレームを確認します。</li><li>レンダリング結果をReviewし、短い保存サンプルを確認します。ビデオをiPhoneに保存するにはCreatorモードが必要です。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "記録された<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">ReelClip LUTデモ</a>では、クリエイティブなルックでのインポートと強度コントロールを紹介しています。これはキャリブレーション済みのDJI変換、すべての入力エンコーディング、またはすべてのLUTバリアントを検証するものではありません。技術ファイルが意図したとおりに動作しない場合は、編集を続ける前に、検証済みのカメラ固有のカラーワークフローを使用してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "カラーを確認してから続行"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "サンプルが意図した出力設定で正しく見えるようになったら、確認済みの同じ設定を必要なクリップに適用します。ショット間の露出とホワイトバランスの違いを考慮してください。LUTだけでは、異なる照明条件で撮影されたショットを一致させることはできません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cut</a>を計画的なバッチ処理に、<a class=\"text-accent hover:underline\" href=\"/ja/blog/extract-clip-from-podcast\">Transcriptで音声部分を選ぶガイド</a>を音声パッセージに使用してください。元の録画のコピーを保持し、後でカラーの選択を見直せるようにしてください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -30,7 +30,7 @@ export function OrganizationJsonLd() {
     "@context": "https://schema.org",
     "@type": "Organization",
     name: "ReelClip",
-    url: "https://reelclips.app",
+    url: "https://www.reelclips.app",
     logo: "https://www.reelclips.app/icon.png",
     description:
       "ReelClip is a strictly on-device iOS video clip preparation tool. Cut long recordings into share-ready clips for Reels, TikTok, Shorts, or any editor you already use.",
@@ -54,13 +54,12 @@ export function SoftwareApplicationJsonLd() {
     name: "ReelClip",
     applicationCategory: "MultimediaApplication",
     applicationSubCategory: "Video Editor",
-    operatingSystem: "iOS 26.0 or later",
+    operatingSystem: "iOS 17.0 or later",
     description:
-      "Cut long videos into share-ready clips on iPhone. Four cut modes (Cut, Transcript, Slice, AI with Apple Intelligence). On-device, no cloud upload. Translate captions and dub audio.",
-    url: "https://reelclips.app",
+      "Turn longer recordings into share-ready clips on iPhone. Four editing paths: Slice, Cut, Transcript, and AI (Apple Intelligence on supported devices). Video stays on device. Timed captions, caption translation and synthetic dubbing.",
+    url: "https://www.reelclips.app",
     downloadUrl:
       "https://apps.apple.com/app/reelclip/id6787742864",
-    softwareVersion: "1.3.1",
     fileSize: "varies by device",
     inLanguage: "en",
     offers: {
@@ -72,19 +71,19 @@ export function SoftwareApplicationJsonLd() {
     author: {
       "@type": "Organization",
       name: "ReelClip",
-      url: "https://reelclips.app",
+      url: "https://www.reelclips.app",
     },
     featureList: [
-      "On-device AI cut planning with Apple Intelligence",
-      "Four cut modes: Cut, Transcript, Slice, AI",
-      "On-device transcription (SFSpeechRecognizer + WhisperKit)",
+      "AI cut planning with Apple Intelligence on supported devices",
+      "Four editing paths: Slice, Cut, Transcript, AI",
+      "On-device transcription",
       "Translate captions into other languages",
       "Dub audio with synthesized translated speech",
       "Export SRT, VTT, and plain-text subtitles",
       "Burned-in caption styles (Pop, Karaoke, Clean, One word)",
-      "Silence and filler-word removal",
+      "Remove words, sentences and pauses by editing the transcript",
       "Saves clips directly to your Photos library",
-      "No cloud upload, no analytics, no tracking",
+      "Video is processed on device, never uploaded; no ad tracking",
     ],
     aggregateRating: undefined,
     screenshot: [
@@ -149,7 +148,7 @@ export function WebSiteJsonLd() {
     "@context": "https://schema.org",
     "@type": "WebSite",
     name: "ReelClip",
-    url: "https://reelclips.app",
+    url: "https://www.reelclips.app",
     publisher: {
       "@type": "Organization",
       name: "ReelClip",
@@ -173,6 +172,7 @@ export function BlogPostingJsonLd({
   datePublished,
   dateModified,
   imageUrl,
+  language = "en",
 }: {
   url: string;
   headline: string;
@@ -180,6 +180,7 @@ export function BlogPostingJsonLd({
   datePublished: string;
   dateModified?: string;
   imageUrl?: string;
+  language?: string;
 }) {
   const data: JsonLd = {
     "@context": "https://schema.org",
@@ -191,11 +192,11 @@ export function BlogPostingJsonLd({
     description,
     datePublished,
     dateModified: dateModified ?? datePublished,
-    inLanguage: "en",
+    inLanguage: language,
     author: {
       "@type": "Organization",
       name: "ReelClip",
-      url: "https://reelclips.app",
+      url: "https://www.reelclips.app",
     },
     publisher: {
       "@type": "Organization",

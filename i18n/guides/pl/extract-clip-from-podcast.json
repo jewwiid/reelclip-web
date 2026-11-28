@@ -1,0 +1,110 @@
+{
+  "slug": "extract-clip-from-podcast",
+  "title": "Jak wyciągać najlepsze fragmenty z podcastu na iPhonie",
+  "description": "Użyj transkrypcji, aby znaleźć i przejrzeć wypowiedziane momenty z wideo podcastu, sprawdź napisy i przygotuj klipy do eksportu na iPhonie.",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-21",
+  "category": "Zastosowanie",
+  "primaryKeyword": "jak wycinać najlepsze fragmenty podcastu",
+  "readMinutes": 4,
+  "sourceFingerprint": "bfe7f1db3519f7ae3be7843fde7ce32bb4ac13c1a07184dd56ce92d449db4925",
+  "schemaVersion": 1,
+  "locale": "pl",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Transkrypcja może pomóc znaleźć wypowiedziany moment bez wielokrotnego przewijania całego nagrania. Zacznij od wideo swojego podcastu lub wywiadu, następnie przeczytaj transkrypcję i odtwórz otaczający fragment przed wybraniem klipu."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Zachowaj wystarczająco dużo kontekstu dla kogoś, kto nie słyszał odcinka. Zdanie godne cytowania może nadal potrzebować pytania lub wyjaśnienia, które pojawiły się przed nim."
+    },
+    {
+      "kind": "tutorial",
+      "id": "edit-transcript"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Znajdź i zaznacz fragment"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>Importuj wideo z Zdjęć lub Files i wybierz Transcript.</li><li>Poczekaj na transkrypcję, a następnie sprawdź imiona i wszystkie słowa, które zostały błędnie rozpoznane.</li><li>Przejrzyj tekst i odtwórz kandydujący fragment w kontekście.</li><li>Użyj Add as clip dla fragmentu, który chcesz, lub użyj Slice, gdy już znasz jego zakres czasowy.</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Nagrany interfejs pokazuje Add as clip obok fragmentu transkrypcji. Demo pokazuje również słowo usunięte z edycji. Usunięcie słowa zmienia edycję wideo, więc posłuchaj w tym miejscu cięcia, zamiast traktować to jako prosta poprawka pisowni."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Przejrzyj napisy i dźwięk"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Podglądnij każdy kandydujący klip przed eksportem. Sprawdź jego początek, koniec i wszelkie usunięte wypowiedzi. Jeśli używasz napisów, przejrzyj słowa i ich umiejscowienie na obrazie. Sprawdź napisy w ostatecznym zapisanym pliku, a także w podglądzie edytora."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Możesz sprawdzić menu Eksport transkrypcji pod kątem opcji tekstu i napisów osobno od zapisywania wideo. W przypadku długich cichych przerw, zobacz<!-- --> <a class=\"text-accent hover:underline\" href=\"/pl/blog/remove-silence-from-video-free\">usuwanie pauz</a>."
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "Zapisz klip, który zamierzasz opublikować"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Wybierz Review i sprawdź przygotowane wyjście, a następnie zapisz w Photos. Zapisywanie w Photos lub eksportowanie gotowego wideo wymaga trybu Creator. Sprawdź zapisany plik i jego kadrowanie przed przesłaniem na wybraną platformę. Czas transkrypcji i renderowania zależy od nagrania i urządzenia; nie ma ustalonego czasu przetwarzania ani gwarantowanej liczby przydatnych fragmentów."
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Użyj <a class=\"text-accent hover:underline\" href=\"/pl/blog/how-to-cut-long-video-for-tiktok\">Cut</a> <!-- -->gdy regularnie rozmieszczone klipy lepiej pasują do nagrania niż wybór na podstawie transkrypcji."
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

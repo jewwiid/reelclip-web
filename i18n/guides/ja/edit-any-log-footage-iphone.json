@@ -1,0 +1,197 @@
+{
+  "slug": "edit-any-log-footage-iphone",
+  "title": "iPhoneでログ映像を編集する方法：カメラ変換とクリエイティブLUT",
+  "description": "正しいカメラプロファイルを選択し、対応する変換LUTを読み込み、ReelClipでクリエイティブルックを追加します。ログ映像を書き出す前に確認すべきことを学びます。",
+  "publishedAt": "2026-10-20",
+  "updatedAt": "2026-10-21",
+  "category": "ユースケース",
+  "primaryKeyword": "iphoneでログ映像を編集",
+  "readMinutes": 5,
+  "sourceFingerprint": "1640b83821683436e06817d7a4347457556a732e0f581c22af027ba289a6c990",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ログ映像はカラー変換前に褪せて見えることがあります。グレーディングするには、まずカメラの記録プロファイルを正しい技術的変換と一致させ、次にクリエイティブルックを選択します。ReelClipではこの2つのステップを分離しているため、カメラ変換を差し替えることなくスタイルを調整できます。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ログプロファイルを選択しても変換LUTはインストールされません。以下で説明するログワークフローには、互換性のある動画ファイルと対応するカメラ変換.cubeファイルが必要です。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "どのカメラプロファイルを選択できますか？"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>DJI：</strong>D-Log、D-Log M、D-Log 2</li><li><strong>Apple：</strong>Apple Log、Apple Log 2</li><li><strong>HDR：</strong>HLGおよびPQ。読み込んだログ変換LUTとは別に処理されます。</li><li><strong>Standard：</strong>すでに表示可能な状態の映像</li><li><strong>Other log：</strong>読み込んだカメラ変換と一致するその他のログソース</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "自動検出は、対応するメタデータとファイル名のヒントを使用できます。カメラ設定と照らして選択を確認してください。ファイル名はあくまで参考情報であり、転送や以前の編集によりアプリが利用できる情報が変わることがあります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "Sony、Canon、Panasonic、BlackmagicはReelClipの名前付きプロファイルプリセットではありません。これらのカメラの映像には、正しい変換LUTを使用してOther logを選択してください。ただし、iPhoneが動画ファイルをデコードできる必要があります。カメラブランドだけでは、すべてのコーデックやRAWフォーマットとの互換性が保証されるわけではありません。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "クリエイティブルックを追加する前にログ映像を変換"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>クリップを読み込む。</strong>可能な限りオリジナルの記録を使用し、記録プロファイルとガムットを確認します。</li><li><strong>ソースプロファイルを選択。</strong>カラーコントロールで、検出されたプロファイルを確認するか、対応するログオプションを選択します。</li><li><strong>カメラ変換を読み込む。</strong>カメラ、記録カーブ、ガムットに一致する.cube変換を選択します。期待される出力カラースペースについてはドキュメントを確認してください。「LUT needed」と表示されたログプロファイルには、このファイルがまだ必要です。</li><li><strong>Add a creative LUT。</strong>変換後の映像用に設計されたルックを選択します。ユニバーサルクリエイティブパックは、正規化されたsRGB/Rec.709入力を想定しています。強度コントロールでクリエイティブ効果を調整します。</li><li><strong>確認して書き出す。</strong>肌の色調、明るい空、シャドウのディテールを確認します。編集とプレビューは無料で利用可能です。完成した動画を保存するにはCreatorモードが必要です。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "技術的な変換は一度だけ適用してください。他の編集者が既にファイルを標準SDRに変換済みの場合は、元のログ変換を再度適用するのではなく「標準」を選択してください。二重変換により、コントラストが過剰になり、ディテールがクリップされる可能性があります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "クリエイティブLUTの選択とインポートについて詳しくは、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-apply-lut-on-iphone\">iPhoneでLUTを適用する方法</a>をご覧ください。また、<!-- --> <a class=\"text-accent hover:underline\" href=\"/ja/blog/best-free-luts-2026\">カメラ変換リソースとスタータールック</a>もご覧いただけます。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "実際の映像を前後で比較"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "スライダーをドラッグして、実際のストック映像のフレームとイラストレーティブなグレーディングを比較してください。無調整のフレームは左側にあり、「Flat source」（表示用の都市の例では「Original」）とラベル付けされています。グレーディング済みの結果は右側にあります。ストックアップロードはカメラの正確なログカーブを保証しないため、これらは変換リファレンスではなくクリエイティブな例として扱ってください。各シーンには映像ソースとライセンスリンクが含まれています。"
+    },
+    {
+      "kind": "comparison"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "これらの例は、無料LUTガイドと同じ実際の映像とスタータールックを使用しています。イラストレーティブなバランスは、キャリブレーション済みのメーカー変換ではありません。自分の映像でルックを評価してから、プロジェクトに適しているかどうかを判断してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "カメラ変換とクリエイティブLUTは異なる役割を果たす"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong>カメラ変換</strong>は、特定の記録エンコーディングを意図された作業用または表示用の色空間にマッピングします。ログカーブと色域の両方を一致させてください。「log」と記載された2つのファイルでも、異なる変換が必要な場合があります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "<strong>クリエイティブLUT</strong>は変換済みの映像にスタイルを与えます。ハイライトを暖かくしたり、シャドウを冷たくしたり、彩度を下げたりできます。しかし、誤ったソース変換を修正することはできず、LUT単独ではフィルムグレインやハレーションは追加されません。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClipは、提供されたカメラ変換をクリエイティブルックの前に適用します。技術的な変換はカメラ変換コントロールに、スタイルはクリエイティブルックコントロールに保持してください。すべての.cubeファイルが同じ目的を果たすと仮定するのではなく、各LUTの入力要件を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "結果がおかしく見える場合"
+    },
+    {
+      "kind": "html",
+      "tag": "ul",
+      "attributes": {
+        "class": "list-disc pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li><strong>まだフラットに見える？</strong> ログプロファイルが選択されただけでなく、カメラ変換が読み込まれていることを確認してください。</li><li><strong>コントラストが強すぎる？</strong> 変換が二重に適用されていないか確認し、クリエイティブLUTが変換後の色空間に対応していることを確認してください。</li><li><strong>不自然な色？</strong> ルックの強度を上げる前に、記録色域、ホワイトバランス、変換ファイルを再確認してください。</li><li><strong>ファイルがインポートできない？</strong> ビデオコンテナとコーデックを確認してください。「Other log」を選択しても、それ以外で非対応のビデオ形式が対応になるわけではありません。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "自分の映像でワークフローを試す"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "顔、無彩色の物体、明るいディテールが含まれる短いクリップから始めましょう。クリエイティブルックを無効にしてカメラコンバージョンを確認し、次に中程度の強度でルックを追加します。異なるカメラのクリップは、個別の露出とホワイトバランスの調整が必要な場合があります。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "カラープレビューとレンダリングはデバイス上で実行されます。Creatorモードのロック解除前に、インポート、編集、プレビューが可能です。完成した動画の保存または書き出しには、Creatorモードが必要です。ワンタイム購入または月額課金でご利用いただけます。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

@@ -1,0 +1,146 @@
+{
+  "slug": "capcut-alternative-no-watermark",
+  "title": "iPhone向けCapCut代替アプリ：編集内容に合わせて選ぶ",
+  "description": "iMovie、VN、InShot、ReelClipを用途別に比較し、CapCutでウォーターマークなしで書き出せる条件を紹介します。",
+  "publishedAt": "2026-08-24",
+  "updatedAt": "2026-10-30",
+  "category": "比較",
+  "primaryKeyword": "CapCutの代替アプリ",
+  "readMinutes": 5,
+  "sourceFingerprint": "db72bdf1be4c4ac025239ab4e70d80302645c77a2157c205652951f85e267b6b",
+  "schemaVersion": 1,
+  "locale": "ja",
+  "blocks": [
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "最適なCapCut代替アプリは、編集したい内容によって異なります。ウォーターマークなしでの書き出しだけが目的なら、CapCutによると通常の手動編集では可能ですが、テンプレートやプレミアム素材によって条件が変わります。ほかの用途なら、タイムラインで映画風に編集するiMovie、正確なトリミングや分割ができるVN、SNS向けツールを備えたInShot、長い録画から複数のクリップを作るReelClipを比較してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "切り替える前にCapCutの書き出しを確認"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "CapCutの<a class=\"text-accent hover:underline\" href=\"https://www.capcut.com/help/video-without-watermark\" rel=\"noreferrer\" target=\"_blank\">ウォーターマークに関するヘルプ</a>では、標準の編集画面で作成したプロジェクトはウォーターマークなしで書き出せると説明されています。一部のテンプレートにはCapCutロゴ入りの終了クリップが追加され、プレミアムテンプレートや素材では別の書き出し条件が適用されることがあります。アプリを変える前に終了クリップを削除し、書き出し時の表示を確認して、保存した動画を最後のフレームまで再生してください。CapCutの説明は、すべての書き出しにウォーターマークが付くという話とは異なります。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "用途別に見るiPhone向けCapCut代替アプリ"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "iMovie：タイムラインで映画を編集"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "複数の映像を1本にまとめ、タイトル、トランジション、音楽、エフェクトを加えるならiMovieを選びましょう。<a class=\"text-accent hover:underline\" href=\"https://support.apple.com/guide/imovie-iphone/welcome/ios\" rel=\"noreferrer\" target=\"_blank\">AppleのiPhone向けガイド</a>でタイムラインツールを確認できます。長い録画から多くの場面を切り出すより、通常の映画編集をしたい場合に向いています。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "VN：タイムラインで正確にトリミング・分割"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "VNの<a class=\"text-accent hover:underline\" href=\"https://www.vlognow.me/help/getting-started/editing-101/\" rel=\"noreferrer\" target=\"_blank\">公式編集ガイド</a>では、トリミング、正確な分割、アスペクト比の選択が説明されています。クリップの開始点、終了点、並び順を細かく調整したい場合に比較してください。エディタや書き出し条件は変わる可能性があるため、特定の設定に頼る前に最新のアプリとプランを確認しましょう。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "InShot：選んだ映像にSNS向けツールを追加"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "SNS向け動画エディタでAuto Captions、エフェクト、AI Cutなどを使いたい場合は、InShotも候補です。Appleの<a class=\"text-accent hover:underline\" href=\"https://apps.apple.com/us/app/inshot-video-editor/id997362197\" rel=\"noreferrer\" target=\"_blank\">米国App Store掲載情報</a>ではこれらの機能が紹介され、アプリはアプリ内課金のある無料ダウンロードとされています。利用できる機能や有料条件は地域で異なるため、お住まいの地域の掲載情報と書き出し画面を確認してください。"
+    },
+    {
+      "kind": "html",
+      "tag": "h3",
+      "attributes": {
+        "class": "text-xl font-bold tracking-tight mt-8 mb-3"
+      },
+      "html": "ReelClip：長い録画から複数のクリップを作成"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "ReelClipは長い録画からクリップを選び、作成することに特化しています。Sliceで場面を選び、Cutで本数や間隔を指定して分割し、Transcriptで話した部分を編集します。対応デバイスではAIでカットを計画できます。保存する前に候補を確認でき、処理はiPhone上で行われます。読み込みとプレビューは無料ですが、保存や書き出しには<a class=\"text-accent hover:underline\" href=\"/ja/pricing\">Creator modeを有効にする</a>必要があります。を有効にする必要があります。が必要です。ReelClipは録画から個別クリップを作る工程向けです。音楽、トランジション、オーバーレイを重ねた映像を作るならタイムラインエディタを使いましょう。"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "一括カットの例は<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-long-video-for-tiktok\">Cutの手順</a>をご覧ください。1本の動画をトリミングする場合は、<a class=\"text-accent hover:underline\" href=\"/ja/blog/how-to-cut-a-video-on-iphone\">iPhoneで動画をカットするガイド</a>でAppleの写真アプリとiMovieから説明します。"
+    },
+    {
+      "kind": "html",
+      "tag": "h2",
+      "attributes": {
+        "class": "text-2xl sm:text-3xl font-black tracking-tight mt-12 mb-4"
+      },
+      "html": "ダウンロードページではなく、保存した動画を比較"
+    },
+    {
+      "kind": "html",
+      "tag": "ol",
+      "attributes": {
+        "class": "list-decimal pl-6 space-y-2 text-text-muted"
+      },
+      "html": "<li>編集予定の動画に近い短い映像をコピーして使います。</li><li>テンプレート、字幕、音楽、エフェクトも含め、必要な編集を実際に行います。</li><li>書き出し画面でウォーターマーク、必要なプラン、解像度、長さの上限を確認します。</li><li>サンプルを書き出してエディタの外で再生します。冒頭と末尾、字幕、映像の端、音声を確認します。</li><li>元の録画を保管し、プロジェクト全体を移す前に完成ファイルを比べます。</li>"
+    },
+    {
+      "kind": "html",
+      "tag": "p",
+      "attributes": {
+        "class": "text-text-muted"
+      },
+      "html": "無料ダウンロードでも、すべてのエフェクトや書き出しが無料とは限りません。同様に、無料で読み込んだりプレビューしたりできても、動画を保存できるとは限りません。編集に時間をかける前に、地域ごとの最新条件を確認してください。"
+    },
+    {
+      "kind": "cta"
+    }
+  ]
+}

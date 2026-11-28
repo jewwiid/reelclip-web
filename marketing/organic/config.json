@@ -1,0 +1,26 @@
+{
+  "site_origin": "https://www.reelclips.app",
+  "search_console_property": "sc-domain:reelclips.app",
+  "gum_profile": "reelclip-organic",
+  "timezone": "Europe/Dublin",
+  "window_days": 28,
+  "data_lag_days": 3,
+  "max_content_changes_per_run": 1,
+  "app_store_analytics_enabled": true,
+  "keyword_planner_enabled": false,
+  "keyword_planner_note": "Search Console supplies observed demand. Keyword Planner requires a separately authorized Google Ads account and developer token.",
+  "vercel_project": "prj_S0OgtG4dkhgod6fVtkpaBFEKSw2Q",
+  "vercel_team": "team_XR6KHK9Fv8M8LXgCJv69hNl5",
+  "seed_topics": [
+    {"slug": "how-to-cut-long-video-for-tiktok", "terms": ["split video", "cut video", "long video", "tiktok", "video splitter", "Apple Intelligence video editing", "on-device AI video clips", "select video moments from frames"], "business_fit": 5},
+    {"slug": "how-to-cut-a-video-on-iphone", "terms": ["how to cut a video on iphone", "trim video iphone", "split video iphone"], "business_fit": 4},
+    {"slug": "extract-clip-from-podcast", "terms": ["podcast", "highlights", "clip podcast"], "business_fit": 5},
+    {"slug": "remove-silence-from-video-free", "terms": ["silence", "dead air", "pause"], "business_fit": 5},
+    {"slug": "edit-vertical-video-on-iphone", "terms": ["iphone", "vertical video", "reel schneiden", "reels schneiden"], "business_fit": 4},
+    {"slug": "capcut-alternative-no-watermark", "terms": ["capcut alternative", "capcut alternatives", "apps like capcut", "capcut alternative no watermark"], "business_fit": 4},
+    {"slug": "how-to-apply-lut-on-iphone", "terms": ["lut", "color grade", "colour grade", "blackmagic"], "business_fit": 3},
+    {"slug": "dji-osmo-pocket-3-luts", "terms": ["osmo", "pocket 3", "dji"], "business_fit": 3},
+    {"slug": "get-paid-to-clip-streamers", "terms": ["paid clipping", "clipping campaign", "get paid to clip streamers", "clip twitch streams", "clip kick streams"], "business_fit": 4},
+    {"slug": "gta6-clips-iphone", "terms": ["gta 6 clips", "gta vi clips", "gta 6 gameplay clips", "gta 6 streamer clips"], "business_fit": 3}
+  ]
+}

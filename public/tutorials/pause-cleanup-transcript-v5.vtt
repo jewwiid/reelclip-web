@@ -1,0 +1,13 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:02.600
+Turn on Remove pauses in Audio → Cleanup.
+
+00:00:02.600 --> 00:00:04.600
+Inspect the 0.35-second threshold. This native frame is paused for readability.
+
+00:00:04.600 --> 00:00:09.600
+Check the red Auto remove marker and 9 removing count in Transcript. This native frame is paused for readability.
+
+00:00:09.600 --> 00:00:18.600
+Play the actual 31.9-second edited result.

@@ -71,7 +71,7 @@ async function translate(values, language) {
     `Translate the following ReelClip marketing website strings from English to ${language}.`,
     "Return exactly one JSON array of strings in the original order. Return no markdown, explanation, or code fence.",
     "Keep the copy natural, concise, and suitable for a polished iPhone video-editing product.",
-    "Never translate product, platform, or trademark names: ReelClip, Apple Intelligence, iPhone, iOS, App Store, Photos, CapCut, IG Edits, Reels, TikTok, YouTube Shorts, or Settings.",
+    "Never translate product, platform, or trademark names: ReelClip, Creator, Creator mode, Apple Intelligence, iPhone, iOS, App Store, Photos, CapCut, IG Edits, Reels, TikTok, YouTube Shorts, or Settings.",
     "Use the standard local name for common video-editing terms such as clip, captions, transcript, export, and timeline.",
     `Input: ${JSON.stringify(values)}`
   ].join("\n");
